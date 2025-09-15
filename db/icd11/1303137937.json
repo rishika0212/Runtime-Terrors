@@ -1,0 +1,74 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1303137937",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/383381694"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1303137937",
+  "code": "GA40",
+  "source": "http://id.who.int/icd/entity/1303137937",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dermatitis or eczema of female genitalia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1884412538",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1884412538"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Lichen sclerosus of vulva"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1601273294",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1601273294"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Vulval psoriasis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1132496727",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/868777775"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1303137937/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1290701352"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Inflammatory dermatoses of the vulva"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Inflammatory dermatoses of the vulva"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Plasma cell vulvitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/128986796"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Zoon vulvitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/128986796"
+    }
+  ]
+}

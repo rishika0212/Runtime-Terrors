@@ -1,0 +1,75 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/290835130",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/11753425"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/537830030",
+    "http://id.who.int/icd/release/11/2024-01/mms/1162178332",
+    "http://id.who.int/icd/release/11/2024-01/mms/780739672",
+    "http://id.who.int/icd/release/11/2024-01/mms/1708025148",
+    "http://id.who.int/icd/release/11/2024-01/mms/290835130/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/290835130/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#290835130",
+  "code": "CA20.1",
+  "source": "http://id.who.int/icd/entity/290835130",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/290835130/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1290701352"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Chronic bronchitis"
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Chronic bronchitis is a chronic inflammation of the bronchi in the lungs. It is generally considered one of the two forms of chronic obstructive pulmonary disease (COPD). It is defined clinically as a persistent cough that produces sputum and mucus, for at least three months per year in two consecutive years. Unspecified chronic bronchitis is a chronic bronchitis not specified as simple or mucopurulent."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic asthmatic bronchitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/143605159",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/143605159"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic: bronchitis: with airways obstruction"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/133207228",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/133207228"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic: emphysematous bronchitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/143605159",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/143605159"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic: obstructive pulmonary disease NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/133207228",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/133207228"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/607453719"
+  ]
+}

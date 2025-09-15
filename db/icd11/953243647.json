@@ -1,0 +1,107 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/953243647",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/408017609"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#953243647",
+  "code": "FB42.2",
+  "source": "http://id.who.int/icd/entity/953243647",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/953243647/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/953243647/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1363003152",
+        "http://id.who.int/icd/release/11/2024-01/mms/1959335168",
+        "http://id.who.int/icd/release/11/2024-01/mms/192726145",
+        "http://id.who.int/icd/release/11/2024-01/mms/223741850",
+        "http://id.who.int/icd/release/11/2024-01/mms/319259361",
+        "http://id.who.int/icd/release/11/2024-01/mms/1617949731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Ganglion"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is a nodular tumour-like lesions or mucoid flesh, arising from tendon sheaths, ligaments, or joint capsule, especially of the hands, wrists, or feet. They are not true cysts as they lack epithelial wall. They are distinguished from synovial cysts by the lack of communication with a joint cavity or the synovial membrane."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "The cause of ganglion cysts is not known. One theory suggests that trauma causes the tissue of the joint to break down forming small cysts, which then join into a larger, more obvious mass. The most likely theory involves a flaw in the joint capsule or tendon covering (sheath) that allows the joint tissue to bulge out."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ganglion of tendon sheath"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ganglion in yaws"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/651830885",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/944473231"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ganglion"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ganglion cyst"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ganglionic cyst"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ganglionic"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ganglion of joint"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ganglion of tendon sheath"
+      }
+    }
+  ]
+}

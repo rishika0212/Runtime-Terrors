@@ -1,0 +1,53 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1600014919",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/487269828"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/217939807",
+    "http://id.who.int/icd/release/11/2024-01/mms/120524401",
+    "http://id.who.int/icd/release/11/2024-01/mms/1600014919/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1600014919/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1600014919",
+  "code": "1C1G",
+  "source": "http://id.who.int/icd/entity/1600014919",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1600014919/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1656157931",
+        "http://id.who.int/icd/release/11/2024-01/mms/684930313",
+        "http://id.who.int/icd/release/11/2024-01/mms/373833091",
+        "http://id.who.int/icd/release/11/2024-01/mms/2004402146",
+        "http://id.who.int/icd/release/11/2024-01/mms/1957823459",
+        "http://id.who.int/icd/release/11/2024-01/mms/830703931",
+        "http://id.who.int/icd/release/11/2024-01/mms/654702340"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Lyme borreliosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A tick-borne infection by the spirochaete Borrelia burgdorferi. Lyme borreliosis typically presents with a characteristic rash, erythema chronicum migrans, at an average of seven days after a bite from an infected tick. The rash may be accompanied by flu-like symptoms. Disseminated infection may cause meningitis, cranial neuropathies and carditis amongst other manifestations. Late disease, months to years after initial infection, may present with a pauciarticular arthritis or with encephalomyelitis."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "An infectious disease caused by a spirochete, Borrelia Burgdorferi, which is transmitted chiefly by Ixodes dammini and pacificus ticks in the United States and Ixodes ricinis in Europe. It is a disease with early and late cutaneous manifestations plus involvement of the nervous system, heart, eye, and joints in variable combinations. The disease was formerly known as Lyme arthritis and first discovered at Old Lyme, Connecticut."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1935107489"
+  ],
+  "codingNote": {
+    "@language": "en",
+    "@value": "Use additional code if desired, to identify any associated condition.\n\nUse additional code, if desired, to identify any sequelae. The extension code 'Cause of late effect' is used in addition to both codes to show the relationship between the causative condition and the resulting sequelae."
+  }
+}

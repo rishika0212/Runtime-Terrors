@@ -1,0 +1,61 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/274188374",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2025976730"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#274188374",
+  "code": "LB73.24",
+  "source": "http://id.who.int/icd/entity/274188374",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/274188374/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1302669122"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/274188374/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1170330671"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Segmentation anomalies of vertebrae"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Any condition caused by failure of the vertebrae to correctly develop during the antenatal period. These conditions are characterised by an abnormal number of fully developed vertebrae. Confirmation is through verification of absent or improperly formed vertebrae by imaging."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Segmentation anomalies of vertebrae"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Isolated hemivertebra"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1604346213"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Multiple segmentation anomalies of vertebrae"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1748189211"
+    }
+  ]
+}

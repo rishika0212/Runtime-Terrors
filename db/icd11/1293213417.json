@@ -1,0 +1,99 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1293213417",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/469219785"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/553875709",
+    "http://id.who.int/icd/release/11/2024-01/mms/17912993",
+    "http://id.who.int/icd/release/11/2024-01/mms/330423944",
+    "http://id.who.int/icd/release/11/2024-01/mms/245796173",
+    "http://id.who.int/icd/release/11/2024-01/mms/166022696"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1293213417",
+  "code": "MD81",
+  "source": "http://id.who.int/icd/entity/1293213417",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1293213417/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1293213417/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1983193090"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Abdominal or pelvic pain"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Pain, an unpleasant distress sensation occurring in varying degrees of severity, received by nerve ending in the abdominal and pelvic region."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spinal pain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2051065876",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2051065876"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Flatulence and related conditions"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1247223172",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1247223172"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "renal colic"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/821552851",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/821552851"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic primary visceral pain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/679352876",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/679352876"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic secondary visceral pain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/446969214",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/446969214"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Abdominal or pelvic pain"
+      }
+    }
+  ]
+}

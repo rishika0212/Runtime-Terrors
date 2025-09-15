@@ -1,0 +1,102 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1516176819",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1058351226"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1516176819",
+  "code": "9A78.3",
+  "source": "http://id.who.int/icd/entity/1516176819",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1516176819/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1516176819/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/985771522"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Changes in corneal membranes"
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fold in Descemet membrane"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1999294804"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Rupture in Descemet's membrane"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/308354242"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Changes in corneal membranes"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "keratocele"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "keratodermatocele"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fold in Descemet membrane"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1999294804"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Descemetocele"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1778042139"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Rupture in Descemet's membrane"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/308354242"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Folds or rupture in Bowman's membrane"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/59212203"
+    }
+  ]
+}

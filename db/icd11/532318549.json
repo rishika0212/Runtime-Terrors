@@ -1,0 +1,91 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/532318549",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1416283029"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/484990365",
+    "http://id.who.int/icd/release/11/2024-01/mms/2040762377",
+    "http://id.who.int/icd/release/11/2024-01/mms/219070712",
+    "http://id.who.int/icd/release/11/2024-01/mms/1749355874",
+    "http://id.who.int/icd/release/11/2024-01/mms/1862716937",
+    "http://id.who.int/icd/release/11/2024-01/mms/532318549/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/532318549/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#532318549",
+  "code": "NC15",
+  "source": "http://id.who.int/icd/entity/532318549",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/532318549/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/532318549/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/979253394",
+        "http://id.who.int/icd/release/11/2024-01/mms/1087371303",
+        "http://id.who.int/icd/release/11/2024-01/mms/336523538",
+        "http://id.who.int/icd/release/11/2024-01/mms/2095243630",
+        "http://id.who.int/icd/release/11/2024-01/mms/52860370",
+        "http://id.who.int/icd/release/11/2024-01/mms/1602684626",
+        "http://id.who.int/icd/release/11/2024-01/mms/1523757785",
+        "http://id.who.int/icd/release/11/2024-01/mms/762731602"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/532318549/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/980862652",
+        "http://id.who.int/icd/release/11/2024-01/mms/851395624",
+        "http://id.who.int/icd/release/11/2024-01/mms/73322695",
+        "http://id.who.int/icd/release/11/2024-01/mms/128104623",
+        "http://id.who.int/icd/release/11/2024-01/mms/1491356379",
+        "http://id.who.int/icd/release/11/2024-01/mms/491063206",
+        "http://id.who.int/icd/release/11/2024-01/mms/185842968",
+        "http://id.who.int/icd/release/11/2024-01/mms/2143219175",
+        "http://id.who.int/icd/release/11/2024-01/mms/558785723",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Injury of blood vessels at shoulder or upper arm level"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "injury of subclavian artery"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/436165295",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/436165295"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "injury of subclavian vein"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/135907268",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/135907268"
+    }
+  ]
+}

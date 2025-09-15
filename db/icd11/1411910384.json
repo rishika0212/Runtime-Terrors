@@ -1,0 +1,71 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1411910384",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/696932440"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/11754903",
+    "http://id.who.int/icd/release/11/2024-01/mms/210935787",
+    "http://id.who.int/icd/release/11/2024-01/mms/418437487",
+    "http://id.who.int/icd/release/11/2024-01/mms/349248275",
+    "http://id.who.int/icd/release/11/2024-01/mms/620581484",
+    "http://id.who.int/icd/release/11/2024-01/mms/945391425",
+    "http://id.who.int/icd/release/11/2024-01/mms/1626137795",
+    "http://id.who.int/icd/release/11/2024-01/mms/1825384127",
+    "http://id.who.int/icd/release/11/2024-01/mms/2452831",
+    "http://id.who.int/icd/release/11/2024-01/mms/300924888",
+    "http://id.who.int/icd/release/11/2024-01/mms/162282288",
+    "http://id.who.int/icd/release/11/2024-01/mms/568505454",
+    "http://id.who.int/icd/release/11/2024-01/mms/1411910384/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1411910384/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1411910384",
+  "code": "9C40",
+  "source": "http://id.who.int/icd/entity/1411910384",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital malformation of optic disc"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1980732874",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1980732874"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury of optic nerve, unilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/746726096",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/746726096"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant neoplasm of the optic nerve"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1830847427",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1830847427"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1411910384/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Disorder of the optic nerve"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1034960983",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1807441683"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1034960983",
+  "code": "9A11.2",
+  "source": "http://id.who.int/icd/entity/1034960983",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1034960983/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1034960983/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1034960983/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Dacryocystitis"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dacryocystitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nasolacrimal sac infection"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute dacryocystitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/743890238"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic dacryocystitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/617640909"
+    }
+  ]
+}

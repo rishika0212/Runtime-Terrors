@@ -1,0 +1,77 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/951218073",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/390439470"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#951218073",
+  "code": "CB26",
+  "source": "http://id.who.int/icd/entity/951218073",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/951218073/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Haemothorax"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Hemothorax is the presence of blood with or without air in the pleural space. The most common cause is chest trauma. Hemothorax should be considered to be present when the haematocrit of the pleural fluid is more than half that of the peripheral blood. A number of bleeding sites may be responsible for the hemothorax, including pulmonary laceration, intercostal vessel laceration, and rupture of pleural adhesions."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/923122941"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Haemothorax"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pleural haemorrhage"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bloody pleural effusion"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Haemopneumothorax"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1997980779"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pneumohaemothorax"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1997980779"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nontuberculous haemothorax"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1516690320"
+    }
+  ]
+}

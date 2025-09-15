@@ -1,0 +1,64 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/726212135",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2035326404"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#726212135",
+  "code": "AA00",
+  "source": "http://id.who.int/icd/entity/726212135",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/726212135/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/726212135/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/768242906"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Abscess of external ear"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A fluctuant collection of purulent exudate and necrotic tissue located in the external auditory canal or in the soft tissues of the pinna, most commonly due to Staphylococcus aureus."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Abscess of external ear"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Abscess of pinna"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/259296782"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Abscess of external auditory canal"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/63405569"
+    }
+  ]
+}

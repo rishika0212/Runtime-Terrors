@@ -1,0 +1,77 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1935107489",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/911707612"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/576751653",
+    "http://id.who.int/icd/release/11/2024-01/mms/864425294",
+    "http://id.who.int/icd/release/11/2024-01/mms/1935107489/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1935107489",
+  "code": "KA61",
+  "source": "http://id.who.int/icd/entity/1935107489",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Early congenital syphilis, latent"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1926763926",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1926763926"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Early congenital syphilis, symptomatic"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/395565060",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/395565060"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neonatal necrotising fasciitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1681155693",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1681155693"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tetanus neonatorum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2085616610",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2085616610"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1935107489/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/979278646",
+        "http://id.who.int/icd/release/11/2024-01/mms/1539889147",
+        "http://id.who.int/icd/release/11/2024-01/mms/1412960686",
+        "http://id.who.int/icd/release/11/2024-01/mms/487269828"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1935107489/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1600014919"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Other bacterial infections of the fetus or newborn"
+  }
+}

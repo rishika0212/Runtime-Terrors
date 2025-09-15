@@ -1,0 +1,51 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/892835794",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1171555810"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1282594859",
+    "http://id.who.int/icd/release/11/2024-01/mms/340823130",
+    "http://id.who.int/icd/release/11/2024-01/mms/892835794/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/892835794/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#892835794",
+  "code": "DA0C.3",
+  "source": "http://id.who.int/icd/entity/892835794",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Necrotising ulcerative gingivitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1320736556",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1320736556"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/892835794/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/236924369",
+        "http://id.who.int/icd/release/11/2024-01/mms/771273482",
+        "http://id.who.int/icd/release/11/2024-01/mms/1508081745"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Necrotising periodontal diseases"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "An infection characterised by necrosis of periodontal tissues"
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ]
+}

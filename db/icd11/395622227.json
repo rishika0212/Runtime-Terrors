@@ -1,0 +1,73 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/395622227",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/396939646"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1957497923",
+    "http://id.who.int/icd/release/11/2024-01/mms/680965837",
+    "http://id.who.int/icd/release/11/2024-01/mms/526468865"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#395622227",
+  "code": "FA25",
+  "source": "http://id.who.int/icd/entity/395622227",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/395622227/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2030796271",
+        "http://id.who.int/icd/release/11/2024-01/mms/1363003152",
+        "http://id.who.int/icd/release/11/2024-01/mms/1959335168",
+        "http://id.who.int/icd/release/11/2024-01/mms/192726145",
+        "http://id.who.int/icd/release/11/2024-01/mms/223741850",
+        "http://id.who.int/icd/release/11/2024-01/mms/319259361",
+        "http://id.who.int/icd/release/11/2024-01/mms/223046766"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/395622227/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/282225286/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/1968541653"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Gout"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Gout is an acute or chronic arthropathy resulting from deposition of monosodium urate monohydrate crystals in joint tissues. It is strongly associated with hyperuricaemia, which may be secondary to certain drugs, poisons or lymphoproliferative disorders. Gout is definitively diagnosed by demonstration of urate crystals in aspirated synovial fluid in the absence of an alternative aetiology for arthritis. It may be associated with focal urate deposition in skin and subcutaneous tissue (tophaceous gout) and with urate nephropathy"
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Gout is a term applied to a heterogeneous group of genetic and acquired diseases manifested by hyperuricemia and a characteristic acute inflammatory arthritis induced by crystals of monosodium urate monohydrate. Some patients develop aggregated deposits of these crystals (tophi) in and around the joints of the extremities that can lead to severe crippling. Many patients develop a chronic interstitial nephropathy. In addition, uric acid urolithiasis is common in gout. These manifestations of gout can occur in different combinations. However, essential hyperuricemia alone, even when complicated by uric acid lithiasis, should not be called gout; gout signifies inflammatory arthritis or tophaceous disease."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hyperuricaemia without signs of inflammatory arthritis or tophaceous disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/356149556",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/575400186"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gout"
+      }
+    }
+  ]
+}

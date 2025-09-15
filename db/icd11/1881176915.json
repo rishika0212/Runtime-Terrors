@@ -1,0 +1,75 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1881176915",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/392318289"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1881176915",
+  "code": "BD51.2",
+  "source": "http://id.who.int/icd/entity/1881176915",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1881176915/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/267990479"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Aneurysm or dissection of other precerebral arteries"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aneurysm or dissection of carotid artery"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1108751219",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1108751219"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aneurysm or dissection of vertebral artery"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1866555632",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1866555632"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1380872553"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aneurysm or dissection of other precerebral arteries"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aneurysm or dissection of other extracranial arteries"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aneurysm and dissection of basilar artery"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/410951332"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "aneurysm and dissection of basilar artery trunk"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/410951332"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1018829714",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2135151223"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/507103735",
+    "http://id.who.int/icd/release/11/2024-01/mms/654702340",
+    "http://id.who.int/icd/release/11/2024-01/mms/840238105",
+    "http://id.who.int/icd/release/11/2024-01/mms/1177212968",
+    "http://id.who.int/icd/release/11/2024-01/mms/1018829714/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1018829714/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1018829714",
+  "code": "BC42",
+  "source": "http://id.who.int/icd/entity/1018829714",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute rheumatic myocarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/573695921",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/573695921"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sarcoid myocarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1037124796",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/330792642/other"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Loeffler endocarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1223390562",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2097520643"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1018829714/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2136808878",
+        "http://id.who.int/icd/release/11/2024-01/mms/437702716",
+        "http://id.who.int/icd/release/11/2024-01/mms/1754821737",
+        "http://id.who.int/icd/release/11/2024-01/mms/1594578199",
+        "http://id.who.int/icd/release/11/2024-01/mms/1992125824",
+        "http://id.who.int/icd/release/11/2024-01/mms/1458683894/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/1458683894/unspecified"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1018829714/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1018829714/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1008515027",
+        "http://id.who.int/icd/release/11/2024-01/mms/1219932551"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Myocarditis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Myocarditis (inflammatory cardiomyopathy) is inflammation of the heart muscle generally in the presence of a dilated cardiomyopathy that results from exposure to either discrete infectious external antigens such as viruses, bacteria, fungal or parasites; non-infectious external antigens such as hypersensitivity to drugs; or internal non-infectious triggers such as autoimmune or hypersensitive activation against self-antigens."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "The classic Dallas criteria for the pathological diagnosis of myocarditis require the presence of inflammatory cells simultaneously with evidence of myocyte necrosis on the same microscopic section when examining a myocardial biopsy. Borderline myocarditis is characterised by inflammatory cell infiltrate without myocardial necrosis. A negative biopsy does not necessarily rule out myocarditis."
+  }
+}

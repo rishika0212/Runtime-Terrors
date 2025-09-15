@@ -1,0 +1,92 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/683932278",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1402706403"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#683932278",
+  "code": "AB31.0",
+  "source": "http://id.who.int/icd/entity/683932278",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/683932278/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Meniere disease"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Meniere Disease (MD) is a chronic progressive inner ear disease, with endolymphatic hydrops. It is characterised by recurrent attacks of debilitating spontaneous vertigo lasting from 20 minutes to up to 12 hours, accompanied by a sense of fullness and tinnitus in the affected ear, and ipsilateral fluctuating sensorineural hearing loss (SNHL) in the low or low and middle frequencies. There may be nystagmus during attacks and falls are frequent. When known, etiology should be added."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Labyrinthine hydrops"
+      }
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Meniere disease"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "labyrinth hydrops"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Labyrinthine hydrops"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "labyrinthine vertigo"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ménière syndrome"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ménière vertigo"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "idiopathic endolymphatic hydrops"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Familial Meniere disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/27529631"
+    }
+  ]
+}

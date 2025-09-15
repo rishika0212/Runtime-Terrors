@@ -1,0 +1,64 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/419706488",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/487269828"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1789950491",
+    "http://id.who.int/icd/release/11/2024-01/mms/268154767",
+    "http://id.who.int/icd/release/11/2024-01/mms/419706488/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/419706488/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#419706488",
+  "code": "1C1A",
+  "source": "http://id.who.int/icd/entity/419706488",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neonatal listeriosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/864425294",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/864425294"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/419706488/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/622600769",
+        "http://id.who.int/icd/release/11/2024-01/mms/1683090852",
+        "http://id.who.int/icd/release/11/2024-01/mms/132422185/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/162683166"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Listeriosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease caused by an infection with the gram-positive bacteria Listeria. This disease commonly presents with fever and muscle aches, followed by gastrointestinal symptoms."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Gram positive bacterial infection with the genus Listeria including Listeria meningitis which causes clinical manifestations including fever, altered mentation, headache, meningeal signs, focal neurologic signs, and seizures."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "listerial foodborne infection"
+      }
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/864425294"
+  ]
+}

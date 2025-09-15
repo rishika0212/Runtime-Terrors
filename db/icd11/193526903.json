@@ -1,0 +1,48 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/193526903",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1304552818"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1153329797",
+    "http://id.who.int/icd/release/11/2024-01/mms/1973651647",
+    "http://id.who.int/icd/release/11/2024-01/mms/193526903/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#193526903",
+  "code": "5A21",
+  "source": "http://id.who.int/icd/entity/193526903",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/193526903/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1158914813",
+        "http://id.who.int/icd/release/11/2024-01/mms/11598009"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/193526903/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1651053999",
+        "http://id.who.int/icd/release/11/2024-01/mms/119724091",
+        "http://id.who.int/icd/release/11/2024-01/mms/1150913605",
+        "http://id.who.int/icd/release/11/2024-01/mms/381961554",
+        "http://id.who.int/icd/release/11/2024-01/mms/1697306310"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Hypoglycaemia in the context of diabetes mellitus"
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1217915084"
+  ]
+}

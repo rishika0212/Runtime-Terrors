@@ -1,0 +1,62 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2084765009",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1836788232"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2084765009",
+  "code": "GB23.3",
+  "source": "http://id.who.int/icd/entity/2084765009",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2084765009/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Atrophy of breast"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition of the breast, caused by apoptosis of the cells commonly due to prolonged estrogen reduction, diminished cellular proliferation, decreased cellular volume, decreased function, ischaemia, malnutrition, disease, or mutation. This condition is characterised by a partial or complete decrease in size and function of the breast tissue."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Atrophy of breast"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hypoplasia of breast"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/962721559"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hypoplastic breast"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/962721559"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "mammary hypoplasia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/962721559"
+    }
+  ]
+}

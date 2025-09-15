@@ -1,0 +1,40 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1786562875",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1397288146"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1023597213",
+    "http://id.who.int/icd/release/11/2024-01/mms/651135242",
+    "http://id.who.int/icd/release/11/2024-01/mms/348544271",
+    "http://id.who.int/icd/release/11/2024-01/mms/1786562875/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1786562875/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1786562875",
+  "code": "8A62",
+  "source": "http://id.who.int/icd/entity/1786562875",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1786562875/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/539646260"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Epileptic encephalopathies"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Epilepsies for which no clear etiology can be detected or occurring at the presence of two or more static structural or metabolic conditions increasing the risk for epileptic seizures. The epileptic activity itself may contribute to severe cognitive and behavioural impairments above and beyond what might be expected from the underlying pathology alone."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/2083324835"
+  ]
+}

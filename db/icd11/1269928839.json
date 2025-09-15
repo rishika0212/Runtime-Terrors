@@ -1,0 +1,51 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1269928839",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/860785256"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1269928839",
+  "code": "DC50.12",
+  "source": "http://id.who.int/icd/entity/1269928839",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1269928839/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/293771399",
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Chronic proliferative peritonitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Extensive peritoneal fibrosis in response to asbestos, continuous ambulatory peritoneal dialysis. Clinical intestinal obstruction due to massive peritoneal adhesions."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1237785289"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic proliferative peritonitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "sclerosing encapsulating peritonitis"
+      }
+    }
+  ]
+}

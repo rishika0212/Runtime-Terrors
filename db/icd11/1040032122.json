@@ -1,0 +1,78 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1040032122",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1459455953"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1195414133",
+    "http://id.who.int/icd/release/11/2024-01/mms/571170785",
+    "http://id.who.int/icd/release/11/2024-01/mms/1040032122/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1040032122",
+  "code": "GA07",
+  "source": "http://id.who.int/icd/entity/1040032122",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculous oophoritis or salpingitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/418746015",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1196243886"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chlamydial salpingitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/681615037",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1431940183"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1040032122/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/61287910",
+        "http://id.who.int/icd/release/11/2024-01/mms/987725990"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Salpingitis and oophoritis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Inflammation of the fallopian tube, characterised by a typical inflammatory response (redness and oedema). It is usually manifested by lower abdominal pain and tenderness, fever, increased pulse rate, hypermenorrhoea and/or metrorrhagia. The disorder may resolve or result in fibrosis, hydrosalpinx, pyosalpinx, or cyst formation."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "salpingo-oophoritis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "tubo-ovarian inflammatory disease"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Salpingitis isthmica nodosa"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1586025352",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1586025352"
+    }
+  ]
+}

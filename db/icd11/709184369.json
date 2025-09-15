@@ -1,0 +1,124 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/709184369",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1975325075"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#709184369",
+  "code": "1F66.0",
+  "source": "http://id.who.int/icd/entity/709184369",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/709184369/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1644747126",
+        "http://id.who.int/icd/release/11/2024-01/mms/687250607",
+        "http://id.who.int/icd/release/11/2024-01/mms/1509166126"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/709184369/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1251112127"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Loiasis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease caused by an infection with the parasitic worm Loa loa. This disease is characterised by Calabar swellings found anywhere on the body (commonly found near joints). This disease may also present with generalised itching, muscle pain, joint pain, fatigue or may be asymptomatic. Transmission is through the bite of an infected fly (genus Chrysops). Confirmation is by identification of adult Loa loa in the skin or eye, Loa loa microfilariae in a blood sample obtained in the day (1000 - 1400), or detection of antibodies against Loa loa in a blood sample."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Loiasis is a filariasis caused by nematodes of the genus Loa loa occurring exclusively in the rainforests of Central Africa with a prevalence in hyperendemic regions of between 3 and 30% of the general population. It is transmitted via horseflies of the genus Chrysops. Symptoms may appear 1 to over 15 years after infection, and include localised transient swellings (Calabar swellings), and adult worm migration under the skin or conjunctiva of the eye. Severe complications have also been reported: endocarditis, glomerulonephritis, and encephalitis, although the latter is mainly linked to improper treatment. Diethylcarbamazine is the classical treatment, but ivermectine-based treatments have not yet been clearly assessed."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Eye worm disease of Africa"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Loa loa infestation"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Calabar swelling"
+      }
+    }
+  ],
+  "fullySpecifiedName": {
+    "@language": "en",
+    "@value": "Infections due to Loa Loa"
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1945127438"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Loiasis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Eye worm disease of Africa"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Loa loa infestation"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "African eyeworm disease"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Calabar swelling"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infections due to Loa Loa"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chylocele of tunica vaginalis in loiasis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1352356285"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Parasitic infestation of eyelid in loiasis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1740926441"
+    }
+  ]
+}

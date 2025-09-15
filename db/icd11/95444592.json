@@ -1,0 +1,53 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/95444592",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/259064684"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#95444592",
+  "code": "BB82.0",
+  "source": "http://id.who.int/icd/entity/95444592",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/95444592/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/562478860",
+        "http://id.who.int/icd/release/11/2024-01/mms/1663264387",
+        "http://id.who.int/icd/release/11/2024-01/mms/1201187093"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/95444592/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Rheumatic tricuspid valve stenosis with insufficiency"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Tricuspid valve insufficiency due to leaflet abnormalities may be secondary to rheumatic heart disease. When due to the latter, it generally occurs in combination with tricuspid stenosis"
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1380872553"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Rheumatic tricuspid valve stenosis with insufficiency"
+      }
+    }
+  ]
+}

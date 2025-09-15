@@ -1,0 +1,98 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/990494080",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1965082709"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#990494080",
+  "code": "2B5C",
+  "source": "http://id.who.int/icd/entity/990494080",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/990494080/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1145498957",
+        "http://id.who.int/icd/release/11/2024-01/mms/648738923",
+        "http://id.who.int/icd/release/11/2024-01/mms/61287910"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/990494080/postcoordinationScale/histopathology",
+      "axisName": "http://id.who.int/icd/schema/histopathology",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1811710693",
+        "http://id.who.int/icd/release/11/2024-01/mms/779742494",
+        "http://id.who.int/icd/release/11/2024-01/mms/1082152535"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/990494080/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/990494080/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1409966790",
+        "http://id.who.int/icd/release/11/2024-01/mms/896293199",
+        "http://id.who.int/icd/release/11/2024-01/mms/1094217460",
+        "http://id.who.int/icd/release/11/2024-01/mms/238069351"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/990494080/postcoordinationScale/hasAlternativeSeverity2",
+      "axisName": "http://id.who.int/icd/schema/hasAlternativeSeverity2",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1863636238",
+        "http://id.who.int/icd/release/11/2024-01/mms/885826145",
+        "http://id.who.int/icd/release/11/2024-01/mms/1746207012",
+        "http://id.who.int/icd/release/11/2024-01/mms/303697349"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Endometrial stromal sarcoma, primary site"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A malignant, infiltrating mesenchymal tumour arising from the uterine corpus, cervix, vagina, and the ovary. Based on its morphologic characteristics, it is classified as either a low grade or an undifferentiated (high grade) stromal sarcoma. The low grade endometrioid stromal sarcoma is characterised by the presence of oval to spindle-shape cells that resemble the cells of the endometrial stroma, without evidence of significant atypia and pleomorphism. Numerous small vessels are also present. The undifferentiated stromal sarcoma is characterised by an aggressive clinical course, the presence of significant cellular atypia, pleomorphism, and high mitotic activity."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Endometrial stromal sarcoma, primary site"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Endometrial stromal sarcoma of uterus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1283979838"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "endometrial stromal sarcoma isthmus uteri"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1283979838"
+    }
+  ]
+}

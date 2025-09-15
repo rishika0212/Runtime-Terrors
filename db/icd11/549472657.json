@@ -1,0 +1,79 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/549472657",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/481852400"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1992710077",
+    "http://id.who.int/icd/release/11/2024-01/mms/1692504835"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#549472657",
+  "code": "DB93.2",
+  "source": "http://id.who.int/icd/entity/549472657",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Joubert syndrome with hepatic defect"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/139444027",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1488858760/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/549472657/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/549472657/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Certain specified fibrosis or cirrhosis of liver"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is other formation of excess fibrous connective tissue in an organ or tissue in a reparative or reactive process and chronic liver disease characterised by replacement of liver tissue by fibrosis, scar tissue and regenerative nodules."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Biliary cirrhosis, unspecified"
+      }
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Certain specified fibrosis or cirrhosis of liver"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Biliary cirrhosis, unspecified"
+      }
+    }
+  ]
+}

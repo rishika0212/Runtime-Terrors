@@ -1,0 +1,64 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/543580710",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1363031430"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#543580710",
+  "code": "DA97.0",
+  "source": "http://id.who.int/icd/entity/543580710",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hereditary haemorrhagic telangiectasia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/714406192",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/714406192"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/543580710/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/18598211",
+        "http://id.who.int/icd/release/11/2024-01/mms/1708923236"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/543580710/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Angiodysplasia of small intestine"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Small dilated submucosal vessels of small intestinal mucosa with perforating vessels going through the muscularis mucosae."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Angiodysplasia of small intestine"
+      }
+    }
+  ]
+}

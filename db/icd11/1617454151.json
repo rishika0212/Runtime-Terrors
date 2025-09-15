@@ -1,0 +1,86 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1617454151",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2073711696"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1617454151",
+  "code": "8A60.A",
+  "source": "http://id.who.int/icd/entity/1617454151",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1617454151/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/539646260"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Epilepsy due to genetic syndromes with widespread or progressive effects"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Epilepsy due to genetically determined conditions in which, as we currently understand it, there is a separate disorder interposed between the genetic defect and the epilepsy, for example, as in tuberous sclerosis. Includes epilepsy due to documented autosomal, X-linked, mitochondrial or chromosomal abnormalities."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/564191997"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/2083324835"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Epilepsy due to genetic syndromes with widespread or progressive effects"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Epilepsy due to autosomal recessive genetic syndromes with widespread or progressive effects"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1122743842"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Epilepsy due to autosomal dominant genetic syndromes with widespread or progressive effects"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1970837340"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Epilepsy due to X-linked recessive progressive myoclonic epilepsy with ataxia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1252358703"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Epilepsy due to mitochondrial disorders"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1925770864"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mitochondrial encephalomyopathies"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1925770864"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Epilepsy due to chromosomal disorders"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1347107851"
+    }
+  ]
+}

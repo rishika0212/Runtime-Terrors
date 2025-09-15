@@ -1,0 +1,61 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/88577362",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/894625870"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#88577362",
+  "code": "LB95",
+  "source": "http://id.who.int/icd/entity/88577362",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/88577362/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Patella aplasia or hypoplasia"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Isolated patella aplasia-hypoplasia is an extremely rare genetic condition characterised by congenital absence or marked reduction of the patellar bone. This condition may present with discomfort or abnormal gait. Confirmation is through verification of the reduced or absent patella by imaging"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Patella aplasia or hypoplasia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Rudimentary patella"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Patella aplasia or hypoplasia, unilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/292262968"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Patella aplasia or hypoplasia, bilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/653833546"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/918250380",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/392318289"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#918250380",
+  "code": "BD51.5",
+  "source": "http://id.who.int/icd/entity/918250380",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/918250380/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/918250380/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/540176836"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Aneurysm or dissection of iliac artery"
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1380872553"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aneurysm or dissection of iliac artery"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "aneurysm of iliac artery"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "iliac aneurysm"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "iliac artery aneurysm"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aneurysm of common iliac artery"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/945951758"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "common iliac aneurysm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/945951758"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Common iliac artery aneurysm rupture"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1843484735"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ruptured aneurysm of common iliac artery"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1843484735"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ruptured common iliac aneurysm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1843484735"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ruptured iliac arterial aneurysm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/672087498"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "iliac aneurysm rupture"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/672087498"
+    }
+  ]
+}

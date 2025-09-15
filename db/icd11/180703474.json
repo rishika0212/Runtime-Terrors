@@ -1,0 +1,73 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/180703474",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1860070272"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#180703474",
+  "code": "4B23",
+  "source": "http://id.who.int/icd/entity/180703474",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/180703474/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1868408442",
+        "http://id.who.int/icd/release/11/2024-01/mms/1583926619",
+        "http://id.who.int/icd/release/11/2024-01/mms/1323892810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Immune reconstitution inflammatory syndrome"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is a condition seen in some cases of AIDS or immunosuppression, in which the immune system begins to recover, but then responds to a previously acquired opportunistic infection with an overwhelming inflammatory response that paradoxically makes the symptoms of infection worse."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Immune reconstitution inflammatory syndrome"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Immune reconstitution syndrome"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "IRIS - [immune reconstitution inflammatory syndrome]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "HIV-associated immune reconstitution inflammatory syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/647697202"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Immune reconstitution inflammatory syndrome [IRIS], HIV-associated"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/647697202"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "HIV - [human immunodeficiency virus] associated IRIS - [Immune reconstitution inflammatory syndrome]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/647697202"
+    }
+  ]
+}

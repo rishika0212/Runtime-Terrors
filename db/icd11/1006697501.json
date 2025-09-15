@@ -1,0 +1,69 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1006697501",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/409140736"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1006697501",
+  "code": "BB03.0",
+  "source": "http://id.who.int/icd/entity/1006697501",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1006697501/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1210083104"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acquired pulmonary venous obstruction"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A postnatal pathologic condition of one or more pulmonary vein(s) in which flow is impeded or blocked due to narrowing or atresia."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1380872553"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired pulmonary venous obstruction"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired pulmonary vein atresia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/364433627"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acquired pulmonary venous atresia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/364433627"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired pulmonary vein stenosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1859886444"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acquired pulmonary venous stenosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1859886444"
+    }
+  ]
+}

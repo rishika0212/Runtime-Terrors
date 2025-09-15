@@ -1,0 +1,72 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2083995737",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1119245712"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/932482258",
+    "http://id.who.int/icd/release/11/2024-01/mms/1954122838",
+    "http://id.who.int/icd/release/11/2024-01/mms/1851919630",
+    "http://id.who.int/icd/release/11/2024-01/mms/2140847857",
+    "http://id.who.int/icd/release/11/2024-01/mms/1462849226",
+    "http://id.who.int/icd/release/11/2024-01/mms/130311653",
+    "http://id.who.int/icd/release/11/2024-01/mms/2083995737/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/2083995737/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2083995737",
+  "code": "8D43",
+  "source": "http://id.who.int/icd/entity/2083995737",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neuromuscular junction disorders due to toxicity"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1890767769",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1119330136"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Intracranial hypertension associated with medication or toxin exposure"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/352068750",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/925785183/other"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myelopathy due to toxicity"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1742289417",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/740682437"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2083995737/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/980862652",
+        "http://id.who.int/icd/release/11/2024-01/mms/851395624",
+        "http://id.who.int/icd/release/11/2024-01/mms/73322695",
+        "http://id.who.int/icd/release/11/2024-01/mms/128104623",
+        "http://id.who.int/icd/release/11/2024-01/mms/1491356379",
+        "http://id.who.int/icd/release/11/2024-01/mms/491063206",
+        "http://id.who.int/icd/release/11/2024-01/mms/185842968",
+        "http://id.who.int/icd/release/11/2024-01/mms/2143219175",
+        "http://id.who.int/icd/release/11/2024-01/mms/558785723",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Neurological disorders due to toxicity"
+  }
+}

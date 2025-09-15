@@ -1,0 +1,51 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1470734867",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/623613402"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1470734867",
+  "code": "3A01.4",
+  "source": "http://id.who.int/icd/entity/1470734867",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1470734867/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2086488820",
+        "http://id.who.int/icd/release/11/2024-01/mms/1644587915"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Vitamin B12 deficiency anaemia due to intestinal disease"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A number of intestinal disorders can also cause vitamin B12 (cobalamin) deficiency. These include severe pancreatic diseases and small bowel diseases such as malabsorption, ileal disease (including tuberculous ileitis, lymphoma, amyloid, long-term survivors of pelvic irradiation), extensive small bowel resection or bypass, gastric surgery/reconstruction for obesity (bariatric surgery) and Crohn's disease. When jejunal blind loops are present, bacterial overgrowth within the loops competes for cobalamin, leading to cobalamin deficiency. Although not as common currently, infestation with the fish tapeworm, Diphyllobothrium latum, was once a classic cause of cobalamin deficiency."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1426960900"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1148519290"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Vitamin B12 deficiency anaemia due to intestinal disease"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired megaloblastic anaemia due to vitamin B12 deficiency secondary to intestinal disease"
+      }
+    }
+  ]
+}

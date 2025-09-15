@@ -1,0 +1,58 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1205678043",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/719281988"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1205678043",
+  "code": "FB54.1",
+  "source": "http://id.who.int/icd/entity/1205678043",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1205678043/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1569734721"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Iliotibial band syndrome"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is the most common running injury of the lateral side of the knee. It is a non-traumatic overuse injury caused by repeated flexion and extension of the knee that causes irritation in the structures around the knee causing knee pain."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Iliotibial band syndrome"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "iliotibial band friction syndrome"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Snapping hip involving iliotibial band"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1548025289"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Snapping knee involving iliotibial band"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/586573592"
+    }
+  ]
+}

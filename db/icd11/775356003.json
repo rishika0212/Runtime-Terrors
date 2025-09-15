@@ -1,0 +1,110 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/775356003",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/851941810"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1300748171",
+    "http://id.who.int/icd/release/11/2024-01/mms/860785256",
+    "http://id.who.int/icd/release/11/2024-01/mms/1159629836",
+    "http://id.who.int/icd/release/11/2024-01/mms/775356003/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#775356003",
+  "code": "DC50",
+  "source": "http://id.who.int/icd/entity/775356003",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neonatal peritonitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1237785289",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1237785289"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/775356003/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/293771399",
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/775356003/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Peritonitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Peritonitis is inflammation of the peritoneum, a condition marked by exudations in the peritoneum of serum, fibrin, cells, and pus."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Female pelvic peritonitis, unspecified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/617561270",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/617561270"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "peritonitis with or following: abortion or ectopic or molar pregnancy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/650231750",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/650231750"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "puerperal peritonitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/325070079",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/325070079"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "peritonitis with or following diverticular disease of small intestine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/125069185",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/125069185"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "peritonitis with or following diverticular disease of large intestine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1964968944",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1964968944"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "periodic familial peritonitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1431377239",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1431377239"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1237785289"
+  ]
+}

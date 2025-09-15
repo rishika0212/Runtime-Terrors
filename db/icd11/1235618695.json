@@ -1,0 +1,512 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1235618695",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/145723401"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1235618695",
+  "code": "1E32",
+  "source": "http://id.who.int/icd/entity/1235618695",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1235618695/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/956664712",
+        "http://id.who.int/icd/release/11/2024-01/mms/293771399",
+        "http://id.who.int/icd/release/11/2024-01/mms/1328350091",
+        "http://id.who.int/icd/release/11/2024-01/mms/1079654421",
+        "http://id.who.int/icd/release/11/2024-01/mms/654702340",
+        "http://id.who.int/icd/release/11/2024-01/mms/1971756453",
+        "http://id.who.int/icd/release/11/2024-01/mms/1889351414",
+        "http://id.who.int/icd/release/11/2024-01/mms/142052508",
+        "http://id.who.int/icd/release/11/2024-01/mms/727572936",
+        "http://id.who.int/icd/release/11/2024-01/mms/82568660"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Influenza, virus not identified"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Any disease of the respiratory system, caused by an unidentified strain of influenza virus. These diseases are characterised by fever, cough, headache, myalgia, arthralgia, or malaise. Transmission is by inhalation of infected respiratory secretions."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Influenza specific virus not stated to have been identified"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Viral influenza specific virus not stated to have been identified"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Haemophilus influenzae [H. influenzae] meningitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1005770900",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1005770900"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Haemophilus influenzae [H. influenzae] pneumonia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/732824952",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/732824952"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/911707612"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Influenza, virus not identified"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "flu"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Influenza NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Viral influenza specific virus not stated to have been identified"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Influenza specific virus not stated to have been identified"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Influenza with pneumonia, virus not identified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1887178107"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "influenza with pneumonia NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1887178107"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "influenza with pneumonia, any form"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1887178107"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Influenzal pneumonia, unspecified or specific virus not identified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1887178107"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "influenzal pneumonia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1887178107"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Influenzal bronchopneumonia, unspecified or specific virus not identified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1887178107"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "influenzal lobar pneumonia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1887178107"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Influenza with other respiratory manifestations, virus not identified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/355975407"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "epidemic influenza"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/355975407"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bronchial cough, with grippe or influenza"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/355975407"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "influenzal like disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/355975407"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "grippe"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/355975407"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "influenza like illness"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/355975407"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bronchial influenza"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/355975407"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bronchus influenza"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/355975407"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "respiratory influenza"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/355975407"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Influenzal laryngitis unspecified or specific virus not identified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1633189852"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "influenzal laryngitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1633189852"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "influenza with laryngitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1633189852"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "influenzal sore throat"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1633189852"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Influenzal pharyngitis unspecified or specific virus not identified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1058248511"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Influenza with pharyngitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1058248511"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "influenzal pharyngitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1058248511"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Influenzal acute upper respiratory infection unspecified or specific virus not identified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/32879991"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "upper respiratory influenza"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/32879991"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Influenzal bronchiolitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/566263093"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Influenzal pleural effusion unspecified or specific virus not identified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1250709922"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Influenzal sinusitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/286682671"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "viral sinusitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/286682671"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Influenzal ethmoiditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/942100778"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Influenzal bronchitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/501877994"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "grippal bronchitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/501877994"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Influenzal tracheobronchitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2101855811"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Coryza with grippe or influenza"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/770745740"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Influenzal pleurisy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1396850515"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Influenzal pleurisy with effusion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1839471899"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Influenzal laryngotracheitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1498523549"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Influenza with other manifestations, virus not identified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2130414509"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Encephalitis in influenza with other manifestations, virus not identified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/123772058"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Influenzal myocarditis, virus not identified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/52144746"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "influenzal myocarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/52144746"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "myocarditis due to influenza virus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/52144746"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Influenzal acute myocarditis unspecified or specific virus not identified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/520527615"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute influenzal myocarditis, virus not identified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/520527615"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Influenza with gastrointestinal tract involvement"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1234910763"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "influenza with digestive manifestations"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1234910763"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Influenzal gastroenteritis unspecified or specific virus not identified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1820270855"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "influenza gastroenteritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1820270855"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "influenzal gastroenteritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1820270855"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Influenzal enteritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1138369337"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Influenzal meningismus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/910550438"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Influenzal otitis media"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/123209630"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "otitis media in influenza"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/123209630"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Encephalitis due to Influenza virus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/256353705"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Encephalopathy due to influenza unspecified or specific virus not identified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/256353705"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "influenza with encephalopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/256353705"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "influenzal encephalopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/256353705"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "influenzal encephalitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/256353705"
+    }
+  ]
+}

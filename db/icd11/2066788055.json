@@ -1,0 +1,78 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2066788055",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1057832531"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2066788055",
+  "code": "LB11",
+  "source": "http://id.who.int/icd/entity/2066788055",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2066788055/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/899820155"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Congenital diverticulum of pharynx"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition caused by failure of the pharynx to correctly develop during the antenatal period. This condition may present with difficulty swallowing, or may be asymptomatic. Confirmation is through observation of a diverted pharynx by imaging."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pharyngeal pouch syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1868156761",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1868156761"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital diverticulum of pharynx"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pharyngeal pouch"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "congenital pharyngeal pouch"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pharyngeal diverticula"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pharyngeal diverticulitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pharyngeal diverticulum"
+      }
+    }
+  ]
+}

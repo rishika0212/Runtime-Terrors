@@ -1,0 +1,114 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1744602556",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1269792630"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1744602556",
+  "code": "2F36.4",
+  "source": "http://id.who.int/icd/entity/1744602556",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Epidermoid cyst"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1840564352",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1840564352"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1744602556/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1744602556/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1142633691"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1744602556/postcoordinationScale/histopathology",
+      "axisName": "http://id.who.int/icd/schema/histopathology",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1848062461",
+        "http://id.who.int/icd/release/11/2024-01/mms/1807003251",
+        "http://id.who.int/icd/release/11/2024-01/mms/886132512",
+        "http://id.who.int/icd/release/11/2024-01/mms/1863749510",
+        "http://id.who.int/icd/release/11/2024-01/mms/1622083352",
+        "http://id.who.int/icd/release/11/2024-01/mms/1437123426",
+        "http://id.who.int/icd/release/11/2024-01/mms/81962156",
+        "http://id.who.int/icd/release/11/2024-01/mms/24197924",
+        "http://id.who.int/icd/release/11/2024-01/mms/1035495682",
+        "http://id.who.int/icd/release/11/2024-01/mms/911839040",
+        "http://id.who.int/icd/release/11/2024-01/mms/659040916",
+        "http://id.who.int/icd/release/11/2024-01/mms/6317613",
+        "http://id.who.int/icd/release/11/2024-01/mms/347134421",
+        "http://id.who.int/icd/release/11/2024-01/mms/778411837",
+        "http://id.who.int/icd/release/11/2024-01/mms/1634555816",
+        "http://id.who.int/icd/release/11/2024-01/mms/1160360874",
+        "http://id.who.int/icd/release/11/2024-01/mms/443330953",
+        "http://id.who.int/icd/release/11/2024-01/mms/1850969146",
+        "http://id.who.int/icd/release/11/2024-01/mms/986638327",
+        "http://id.who.int/icd/release/11/2024-01/mms/1632764689",
+        "http://id.who.int/icd/release/11/2024-01/mms/1887236612",
+        "http://id.who.int/icd/release/11/2024-01/mms/651286241"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Cysts of eyelid"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cysts of eyelid"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Marginal cyst of eyelid"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/566782307"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Marginal cyst of gland of Moll"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/797177351"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Marginal cyst of gland of Zeis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/795217559"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dermoid cyst of eyelid"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/173974861"
+    }
+  ]
+}

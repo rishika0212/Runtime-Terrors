@@ -1,0 +1,89 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1511965341",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/253689716"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1511965341",
+  "code": "NB93.1",
+  "source": "http://id.who.int/icd/entity/1511965341",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1511965341/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1399556983",
+        "http://id.who.int/icd/release/11/2024-01/mms/1983193090",
+        "http://id.who.int/icd/release/11/2024-01/mms/1218764272",
+        "http://id.who.int/icd/release/11/2024-01/mms/1894266247"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1511965341/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482",
+        "http://id.who.int/icd/release/11/2024-01/mms/755612283"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Crushing injury of other or unspecified parts of abdomen, lower back or pelvis"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Crushing injury of other or unspecified parts of abdomen, lower back or pelvis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Crushing of abdomen"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/517621505"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "crushed abdomen"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/517621505"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Crushed pelvis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/821492991"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Crushed buttock"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/287410035"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Abdomen viscus crushing injury"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/393557226"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "intra-abdominal crushing injury"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/393557226"
+    }
+  ]
+}

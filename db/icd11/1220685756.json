@@ -1,0 +1,56 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1220685756",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1173205716"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1041490800",
+    "http://id.who.int/icd/release/11/2024-01/mms/1254011793",
+    "http://id.who.int/icd/release/11/2024-01/mms/1220685756/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1220685756/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1220685756",
+  "code": "8B26.5",
+  "source": "http://id.who.int/icd/entity/1220685756",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1220685756/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1048482858"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1220685756/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/562478860",
+        "http://id.who.int/icd/release/11/2024-01/mms/1663264387",
+        "http://id.who.int/icd/release/11/2024-01/mms/1201187093"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1220685756/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/873092535",
+        "http://id.who.int/icd/release/11/2024-01/mms/1363253283",
+        "http://id.who.int/icd/release/11/2024-01/mms/1595033000",
+        "http://id.who.int/icd/release/11/2024-01/mms/1442995018",
+        "http://id.who.int/icd/release/11/2024-01/mms/581897143"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Lacunar syndromes"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/137754914",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1971756453"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/679276084",
+    "http://id.who.int/icd/release/11/2024-01/mms/137754914/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/137754914/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#137754914",
+  "code": "CA0J",
+  "source": "http://id.who.int/icd/entity/137754914",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/137754914/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/208474189",
+        "http://id.who.int/icd/release/11/2024-01/mms/2037717603",
+        "http://id.who.int/icd/release/11/2024-01/mms/1761851771"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/137754914/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1836987572"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Nasal polyp"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Nasal polyp is an inflammatory and proliferating mass arising from the epithelial linings of nasal cavity and paranasal sinuses. In general, nasal polyp appears to be greyish white, smoothly surfaced, and glutinous and agar-like mass. The pathogenesis is thought to be multifactorial."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "adenomatous polyps"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1118273099",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2043813445"
+    }
+  ]
+}

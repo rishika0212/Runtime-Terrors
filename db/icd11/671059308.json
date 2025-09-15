@@ -1,0 +1,71 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/671059308",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/412389819"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#671059308",
+  "code": "GB61.3",
+  "source": "http://id.who.int/icd/entity/671059308",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/671059308/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/465177735",
+        "http://id.who.int/icd/release/11/2024-01/mms/924915526"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Chronic kidney disease, stage 3b"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "GFR 30-44 ml/min/1.73m²"
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic renal failure, stage 3b"
+      }
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/562199727"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1635967154"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic kidney disease, stage 3b"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic renal failure, stage 3b"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "CKD - [chronic kidney disease] stage 3b"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "eGFR - [estimated glomerular filtration rate] 30-44 ml/min/1.73m²"
+      }
+    }
+  ]
+}

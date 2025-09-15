@@ -1,0 +1,109 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1855353671",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1758820365"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1855353671",
+  "code": "2D02.2",
+  "source": "http://id.who.int/icd/entity/1855353671",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1855353671/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1855353671/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1900566978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1855353671/postcoordinationScale/histopathology",
+      "axisName": "http://id.who.int/icd/schema/histopathology",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/868462896",
+        "http://id.who.int/icd/release/11/2024-01/mms/2144136007",
+        "http://id.who.int/icd/release/11/2024-01/mms/931014416",
+        "http://id.who.int/icd/release/11/2024-01/mms/1493574777"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1855353671/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1855353671/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1409966790",
+        "http://id.who.int/icd/release/11/2024-01/mms/896293199",
+        "http://id.who.int/icd/release/11/2024-01/mms/1094217460",
+        "http://id.who.int/icd/release/11/2024-01/mms/238069351"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1855353671/postcoordinationScale/hasAlternativeSeverity2",
+      "axisName": "http://id.who.int/icd/schema/hasAlternativeSeverity2",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1863636238",
+        "http://id.who.int/icd/release/11/2024-01/mms/885826145",
+        "http://id.who.int/icd/release/11/2024-01/mms/1746207012",
+        "http://id.who.int/icd/release/11/2024-01/mms/303697349"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Retinoblastoma"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Retinoblastoma is the most common intraocular malignancy in children. It is a life threatening condition but is potentially curable. It can be hereditary or non-hereditary, unilateral or bilateral (unilateral retinoblastoma, bilateral retinoblastoma, see these terms)."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Retinoblastoma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Differentiated retinoblastoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2023406823"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Undifferentiated retinoblastoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/117845898"
+    }
+  ]
+}

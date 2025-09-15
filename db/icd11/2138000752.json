@@ -1,0 +1,150 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2138000752",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1457092071"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2138000752",
+  "code": "DA42.76",
+  "source": "http://id.who.int/icd/entity/2138000752",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2138000752/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731",
+        "http://id.who.int/icd/release/11/2024-01/mms/1290701352"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2138000752/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Hypertrophic gastritis of unknown aetiology"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Gastritis with rugal hypertrophy of greater curvature in corpus, in which hypertrophy of glands is observed."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Menetrier disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1343994188",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1343994188"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hypertrophic gastritis of unknown aetiology"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "gastric mucosal hypertrophy"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hypertrophic gastropathy"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hypertrophy of gastric mucosa"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "giant rugal gastritis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "adenopapillomatosis gastrica"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "giant rugal hypertrophy of stomach"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "giant rugal hypertrophy"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "gastritis hypertrophica gigantica"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "gastritis hypertrophic gigantica"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hypertrophic bulbous gastritis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hypertrophic proliferative gastritis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "massive hypertrophic gastritis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "proliferative chronic hypertrophic gastritis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic hypertrophic gastritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1997973614"
+    }
+  ]
+}

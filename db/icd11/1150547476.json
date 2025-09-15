@@ -1,0 +1,262 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1150547476",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1490912126"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1150547476",
+  "code": "GB90.2",
+  "source": "http://id.who.int/icd/entity/1150547476",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1150547476/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1150547476/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1507624466"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Ureteral kinking or deviation without obstruction"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition characterised by a sharp twist, curve, or other deviation in the length of the ureter, but without an obstructed flow of urine."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Kinking of the ureter without hydronephrosis"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "with infection"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/809412333",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/809412333"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "congenital ureteric stenosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1432720737",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1432720737"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ureteral kinking or deviation without obstruction"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "kinking and stricture of ureter without hydronephrosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Kinking of the ureter without hydronephrosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ureteral kink"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ureteral stenosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/260390560"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ureter block"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/260390560"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "constriction of ureter"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/260390560"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "stricture of ureter"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/260390560"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ureteral constriction"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/260390560"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ureteral narrowing"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/260390560"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ureteral stricture"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/260390560"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Angulation of ureter"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/691434783"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ureteral angulation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/691434783"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Contracture of ureterovesical orifice"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1125521626"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "stricture of ureterovesical orifice"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1125521626"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occlusion of ureteropelvic junction"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/393733927"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pelviureteral junction obstruction"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/393733927"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occlusion of ureterovesical orifice"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1214890310"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Perirenal fasciitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1741472634"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stricture of ureteropelvic junction"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/406542873"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "stricture of pelviureteric junction"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/406542873"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ureteropelvic junction stenosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/406542873"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ureteral intussusception"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/150061999"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ureteral spasm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1301370054"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Prolapse of ureter with obstruction"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2072542295"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sclerosing retroperitonitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1615264589"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ureteral obliteration"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1004324034"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ureteral occlusion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/236436170"
+    }
+  ]
+}

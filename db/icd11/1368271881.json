@@ -1,0 +1,65 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1368271881",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1568007102"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1368271881",
+  "code": "LA12.0",
+  "source": "http://id.who.int/icd/entity/1368271881",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1368271881/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Coloboma of lens"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Coloboma of lens"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Coloboma of lens, unilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/27320281"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Coloboma of lens, bilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/589499838"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Persistent tunica vasculosa lentis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2010183835"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "tunica vasculosa lentis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2010183835"
+    }
+  ]
+}

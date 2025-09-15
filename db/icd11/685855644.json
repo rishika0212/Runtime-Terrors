@@ -1,0 +1,43 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/685855644",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1609206873"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/424187633",
+    "http://id.who.int/icd/release/11/2024-01/mms/500271427",
+    "http://id.who.int/icd/release/11/2024-01/mms/685855644/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#685855644",
+  "code": "BB72",
+  "source": "http://id.who.int/icd/entity/685855644",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/685855644/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/562478860",
+        "http://id.who.int/icd/release/11/2024-01/mms/1663264387",
+        "http://id.who.int/icd/release/11/2024-01/mms/1201187093"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/685855644/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Aortic valve stenosis with insufficiency"
+  }
+}

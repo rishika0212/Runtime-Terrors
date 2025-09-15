@@ -1,0 +1,79 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/590519577",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1823388682"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#590519577",
+  "code": "NB90.01",
+  "source": "http://id.who.int/icd/entity/590519577",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/590519577/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1812561486"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/590519577/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/980862652",
+        "http://id.who.int/icd/release/11/2024-01/mms/851395624",
+        "http://id.who.int/icd/release/11/2024-01/mms/73322695",
+        "http://id.who.int/icd/release/11/2024-01/mms/128104623",
+        "http://id.who.int/icd/release/11/2024-01/mms/1491356379",
+        "http://id.who.int/icd/release/11/2024-01/mms/491063206",
+        "http://id.who.int/icd/release/11/2024-01/mms/185842968",
+        "http://id.who.int/icd/release/11/2024-01/mms/2143219175",
+        "http://id.who.int/icd/release/11/2024-01/mms/558785723",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Major laceration of abdominal aorta"
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "complete transection of abdominal aorta"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "traumatic rupture of abdominal aorta"
+      }
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Major laceration of abdominal aorta"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "complete transection of abdominal aorta"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "traumatic rupture of abdominal aorta"
+      }
+    }
+  ]
+}

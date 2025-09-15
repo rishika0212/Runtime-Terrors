@@ -1,0 +1,82 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/596443103",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1230041477"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#596443103",
+  "code": "GA05.1",
+  "source": "http://id.who.int/icd/entity/596443103",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chlamydial female pelvic inflammatory disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2063433826",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1431940183"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/596443103/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1290701352"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Chronic pelvic inflammatory disease"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic pelvic inflammatory disease"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic female pelvic inflammatory disease"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic inflammatory pelvic disease"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic PID - [pelvic inflammatory disease]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic pelvic inflammatory disease of the female pelvic organs or tissues"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Female syphilitic pelvic inflammatory disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1817763424"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic parametritis and pelvic cellulitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/33739979"
+    }
+  ]
+}

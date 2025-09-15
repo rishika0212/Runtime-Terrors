@@ -1,0 +1,50 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/361414326",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/611604654"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#361414326",
+  "code": "FB83.00",
+  "source": "http://id.who.int/icd/entity/361414326",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/361414326/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/361414326/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/183512318",
+        "http://id.who.int/icd/release/11/2024-01/mms/1415462031"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Premenopausal idiopathic osteopenia"
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/109776301"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Premenopausal idiopathic osteopenia"
+      }
+    }
+  ]
+}

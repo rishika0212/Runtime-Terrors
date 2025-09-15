@@ -1,0 +1,69 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1057142191",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1784240230"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1235727122",
+    "http://id.who.int/icd/release/11/2024-01/mms/649193479",
+    "http://id.who.int/icd/release/11/2024-01/mms/857962451",
+    "http://id.who.int/icd/release/11/2024-01/mms/1057142191/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1057142191/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1057142191",
+  "code": "DB96",
+  "source": "http://id.who.int/icd/entity/1057142191",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1057142191/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1057142191/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/587326822",
+        "http://id.who.int/icd/release/11/2024-01/mms/609223181",
+        "http://id.who.int/icd/release/11/2024-01/mms/1008515027",
+        "http://id.who.int/icd/release/11/2024-01/mms/2115467890",
+        "http://id.who.int/icd/release/11/2024-01/mms/642618805",
+        "http://id.who.int/icd/release/11/2024-01/mms/966435382",
+        "http://id.who.int/icd/release/11/2024-01/mms/1860070272",
+        "http://id.who.int/icd/release/11/2024-01/mms/603645706",
+        "http://id.who.int/icd/release/11/2024-01/mms/183978472",
+        "http://id.who.int/icd/release/11/2024-01/mms/1954798891/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/1954798891/unspecified"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1057142191/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Autoimmune liver disease"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Autoimmune liver diseases are generally forms of chronic liver disease in which the etiology is unclear but autoimmune mechanisms are evident or postulated for the development of the disease. The primary target organ is the liver and/or biliary system. It can progress to liver cirrhosis."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/553126222",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/436033391"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#553126222",
+  "code": "AA12",
+  "source": "http://id.who.int/icd/entity/553126222",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/553126222/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/553126222/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/768242906"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Chondrodermatitis nodularis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A common pressure-induced painful nodule or ulcer affecting the external ear. It results from ischaemia of skin and underlying cartilage from a focal point of high pressure from the weight of the recumbent head. The site of involvement is dependent on the shape of the pinna (most commonly the helix is involved but in some individuals it is the antihelix which is more prominent) and whether the sufferer is limited to sleeping on one side and is thus unable to spare the ear from constant pressure when lying in bed."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chondrodermatitis nodularis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chondrodermatitis nodularis helicis"
+      }
+    }
+  ]
+}

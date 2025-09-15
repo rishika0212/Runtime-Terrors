@@ -1,0 +1,83 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/412389819",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/761526554"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/933902267",
+    "http://id.who.int/icd/release/11/2024-01/mms/1124558660",
+    "http://id.who.int/icd/release/11/2024-01/mms/1416760208",
+    "http://id.who.int/icd/release/11/2024-01/mms/671059308",
+    "http://id.who.int/icd/release/11/2024-01/mms/1436694854",
+    "http://id.who.int/icd/release/11/2024-01/mms/820638928",
+    "http://id.who.int/icd/release/11/2024-01/mms/412389819/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#412389819",
+  "code": "GB61",
+  "source": "http://id.who.int/icd/entity/412389819",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/412389819/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2080031371",
+        "http://id.who.int/icd/release/11/2024-01/mms/393562786",
+        "http://id.who.int/icd/release/11/2024-01/mms/885246206",
+        "http://id.who.int/icd/release/11/2024-01/mms/108919913",
+        "http://id.who.int/icd/release/11/2024-01/mms/1523445293",
+        "http://id.who.int/icd/release/11/2024-01/mms/1140842756",
+        "http://id.who.int/icd/release/11/2024-01/mms/1932345217/unspecified",
+        "http://id.who.int/icd/release/11/2024-01/mms/1518538819"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/412389819/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/465177735",
+        "http://id.who.int/icd/release/11/2024-01/mms/924915526"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Chronic kidney disease"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "GFR <60 or presence of kidney damage that is present for more than 3 months. Evidence of kidney damage can include structural abnormalities (imaging or histology), albuminuria above normal limits, urinary sediment abnormalities or electrolyte disturbances due to tubular disorders."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic renal failure"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic renal insufficiency"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hypertensive renal disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1015872326",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1015872326"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1635967154"
+  ]
+}

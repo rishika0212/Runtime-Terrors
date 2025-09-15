@@ -1,0 +1,57 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/474902557",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1870104478"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#474902557",
+  "code": "CA23.00",
+  "source": "http://id.who.int/icd/entity/474902557",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/474902557/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/188156827",
+        "http://id.who.int/icd/release/11/2024-01/mms/1450176443",
+        "http://id.who.int/icd/release/11/2024-01/mms/678821627"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/474902557/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/562478860",
+        "http://id.who.int/icd/release/11/2024-01/mms/1663264387",
+        "http://id.who.int/icd/release/11/2024-01/mms/1201187093"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Allergic asthma with exacerbation"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This refers to acute or subacute episodes of progressively worsening shortness of breath, cough, wheezing, and chest tightness, or some combination of these symptoms in patients with proven allergic asthma. Allergic asthma can be exacerbated by allergens to which the individual is allergic, other exogenous factors such as respiratory infections, pollutants or climate change, or endogenous co-factors. Exacerbations are characterised by decreases in expiratory airflow that can be documented and quantified by simple measurement of lung function (spirometry or PEF), can vary widely among individuals and within individuals from rare to frequent. The severity of exacerbation of allergic asthma can vary from mild to very severe and life-threatening, but in general respond to standard treatments of bronchodilators (inhalers) and steroid"
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/923122941"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/607453719"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Allergic asthma with exacerbation"
+      }
+    }
+  ]
+}

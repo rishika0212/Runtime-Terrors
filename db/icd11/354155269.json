@@ -1,0 +1,63 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/354155269",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/566574133"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#354155269",
+  "code": "9D24",
+  "source": "http://id.who.int/icd/entity/354155269",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/354155269/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/354155269/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/460401849",
+        "http://id.who.int/icd/release/11/2024-01/mms/1642025150",
+        "http://id.who.int/icd/release/11/2024-01/mms/1162198017",
+        "http://id.who.int/icd/release/11/2024-01/mms/431804121"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Complications with glaucoma drainage devices"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Complications with glaucoma drainage devices"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dislodged plate or tube after glaucoma surgery"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/932718944"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ectopic plate or tubes after glaucoma surgery"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/932718944"
+    }
+  ]
+}

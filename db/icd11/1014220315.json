@@ -1,0 +1,53 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1014220315",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/96826111"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1014220315",
+  "code": "JB23.2",
+  "source": "http://id.who.int/icd/entity/1014220315",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1014220315/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2099609539",
+        "http://id.who.int/icd/release/11/2024-01/mms/409907799"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Other manipulation-assisted delivery"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition caused by the development of a fetus to the culmination of the pregnancy period. This condition is characterised by parturition of a neonate from the uterus using other manipulation-assisted interventions or techniques to assist the delivery."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Other manipulation-assisted delivery"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Version with extraction"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/786785022"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "extraction after version"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/786785022"
+    }
+  ]
+}

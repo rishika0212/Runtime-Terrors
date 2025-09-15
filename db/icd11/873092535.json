@@ -1,0 +1,136 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/873092535",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1990827977"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1401663614",
+    "http://id.who.int/icd/release/11/2024-01/mms/918584808",
+    "http://id.who.int/icd/release/11/2024-01/mms/656859267",
+    "http://id.who.int/icd/release/11/2024-01/mms/1422422807",
+    "http://id.who.int/icd/release/11/2024-01/mms/830717571",
+    "http://id.who.int/icd/release/11/2024-01/mms/1160703612",
+    "http://id.who.int/icd/release/11/2024-01/mms/873092535/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#873092535",
+  "code": "8B00",
+  "source": "http://id.who.int/icd/entity/873092535",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Intracerebral nontraumatic haemorrhage of fetus or newborn"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1668913175",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1668913175"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/873092535/postcoordinationScale/hasPupilReactionScore",
+      "axisName": "http://id.who.int/icd/schema/hasPupilReactionScore",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1276965062",
+        "http://id.who.int/icd/release/11/2024-01/mms/2031826100",
+        "http://id.who.int/icd/release/11/2024-01/mms/109553629",
+        "http://id.who.int/icd/release/11/2024-01/mms/864052137"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/873092535/postcoordinationScale/hasGCSEyeScore",
+      "axisName": "http://id.who.int/icd/schema/hasGCSEyeScore",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1720573192",
+        "http://id.who.int/icd/release/11/2024-01/mms/1401559410",
+        "http://id.who.int/icd/release/11/2024-01/mms/1488767299",
+        "http://id.who.int/icd/release/11/2024-01/mms/1840975159"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/873092535/postcoordinationScale/hasGCSMotorScore",
+      "axisName": "http://id.who.int/icd/schema/hasGCSMotorScore",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1448857116",
+        "http://id.who.int/icd/release/11/2024-01/mms/1666976362",
+        "http://id.who.int/icd/release/11/2024-01/mms/1939248096",
+        "http://id.who.int/icd/release/11/2024-01/mms/1183930282",
+        "http://id.who.int/icd/release/11/2024-01/mms/128560749",
+        "http://id.who.int/icd/release/11/2024-01/mms/2083461966"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/873092535/postcoordinationScale/hasGCSVerbalScore",
+      "axisName": "http://id.who.int/icd/schema/hasGCSVerbalScore",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/394710859",
+        "http://id.who.int/icd/release/11/2024-01/mms/1811970668",
+        "http://id.who.int/icd/release/11/2024-01/mms/1493679646",
+        "http://id.who.int/icd/release/11/2024-01/mms/1673130746",
+        "http://id.who.int/icd/release/11/2024-01/mms/1455306380"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/873092535/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/683064686",
+        "http://id.who.int/icd/release/11/2024-01/mms/1328725971"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/873092535/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/581897143",
+        "http://id.who.int/icd/release/11/2024-01/mms/1655658429",
+        "http://id.who.int/icd/release/11/2024-01/mms/1502610635",
+        "http://id.who.int/icd/release/11/2024-01/mms/153256729",
+        "http://id.who.int/icd/release/11/2024-01/mms/916773262",
+        "http://id.who.int/icd/release/11/2024-01/mms/924915526"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Intracerebral haemorrhage"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Acute neurological dysfunction caused by haemorrhage within the brain parenchyma or in the ventricular system."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "sequelae of intracerebral haemorrhage"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1128128276",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1128128276"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Traumatic intracerebral haemorrhage"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1400960945",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1400960945"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1668913175"
+  ]
+}

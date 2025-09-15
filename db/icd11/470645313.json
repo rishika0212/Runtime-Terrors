@@ -1,0 +1,64 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/470645313",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2116214427"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#470645313",
+  "code": "DB98.B",
+  "source": "http://id.who.int/icd/entity/470645313",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/470645313/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Ischaemia reperfusion injury of liver"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Liver injury caused by reperfusion of blood after non-lethal ischaemia of the liver."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ischaemic hepatitis"
+      }
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ischaemia reperfusion injury of liver"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute ischaemic hepatitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ischaemic hepatitis"
+      }
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/702525006",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1174774181"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/680227490",
+    "http://id.who.int/icd/release/11/2024-01/mms/705015637",
+    "http://id.who.int/icd/release/11/2024-01/mms/963887455",
+    "http://id.who.int/icd/release/11/2024-01/mms/702525006/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/702525006/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#702525006",
+  "code": "2A84",
+  "source": "http://id.who.int/icd/entity/702525006",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/702525006/postcoordinationScale/histopathology",
+      "axisName": "http://id.who.int/icd/schema/histopathology",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1747346853",
+        "http://id.who.int/icd/release/11/2024-01/mms/889177824",
+        "http://id.who.int/icd/release/11/2024-01/mms/1324403201",
+        "http://id.who.int/icd/release/11/2024-01/mms/1906266505",
+        "http://id.who.int/icd/release/11/2024-01/mms/2142200027",
+        "http://id.who.int/icd/release/11/2024-01/mms/611784632",
+        "http://id.who.int/icd/release/11/2024-01/mms/1370134987",
+        "http://id.who.int/icd/release/11/2024-01/mms/317403395"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/702525006/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/702525006/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1863636238",
+        "http://id.who.int/icd/release/11/2024-01/mms/885826145",
+        "http://id.who.int/icd/release/11/2024-01/mms/1746207012",
+        "http://id.who.int/icd/release/11/2024-01/mms/303697349"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Heavy chain diseases or malignant immunoproliferative diseases"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A group of rare disorders of immunoglobulin synthesis associated with B-cell proliferative disorders that produce monoclonal heavy chains and typically no light chains."
+  }
+}

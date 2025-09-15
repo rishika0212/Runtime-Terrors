@@ -1,0 +1,59 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/771273482",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1000704511"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1552401955",
+    "http://id.who.int/icd/release/11/2024-01/mms/1702650002",
+    "http://id.who.int/icd/release/11/2024-01/mms/993495155",
+    "http://id.who.int/icd/release/11/2024-01/mms/97626683",
+    "http://id.who.int/icd/release/11/2024-01/mms/771273482/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#771273482",
+  "code": "1C61",
+  "source": "http://id.who.int/icd/entity/771273482",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Human immunodeficiency disease complicating pregnancy, childbirth or the puerperium"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1113397856",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1113397856"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/771273482/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1581976053"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/771273482/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/579583286",
+        "http://id.who.int/icd/release/11/2024-01/mms/1203794080",
+        "http://id.who.int/icd/release/11/2024-01/mms/862789727",
+        "http://id.who.int/icd/release/11/2024-01/mms/1168452782",
+        "http://id.who.int/icd/release/11/2024-01/mms/1260563068"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Human immunodeficiency virus disease associated with malaria"
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/453730080"
+  ]
+}

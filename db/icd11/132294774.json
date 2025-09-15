@@ -1,0 +1,47 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/132294774",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/629126866"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#132294774",
+  "code": "1D04.10",
+  "source": "http://id.who.int/icd/entity/132294774",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/132294774/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1048482858",
+        "http://id.who.int/icd/release/11/2024-01/mms/1074640675"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/132294774/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Fungal intracranial granuloma"
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/911707612"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fungal intracranial granuloma"
+      }
+    }
+  ]
+}

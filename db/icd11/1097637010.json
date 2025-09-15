@@ -1,0 +1,101 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1097637010",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1605020868"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1097637010",
+  "code": "2C12.00",
+  "source": "http://id.who.int/icd/entity/1097637010",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1097637010/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/328366540"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1097637010/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1097637010/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1409966790",
+        "http://id.who.int/icd/release/11/2024-01/mms/896293199",
+        "http://id.who.int/icd/release/11/2024-01/mms/1094217460",
+        "http://id.who.int/icd/release/11/2024-01/mms/238069351"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1097637010/postcoordinationScale/hasAlternativeSeverity2",
+      "axisName": "http://id.who.int/icd/schema/hasAlternativeSeverity2",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/146631584",
+        "http://id.who.int/icd/release/11/2024-01/mms/36752588"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Combined hepatocellular-cholangiocarcinoma"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Combined hepatocellular-cholangiocarcinoma is a tumour containing unequivocal, intimately mixed elements of both hepatocellular carcinoma and cholangiocarcinoma."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hepatocholangiocarcinoma"
+      }
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Combined hepatocellular-cholangiocarcinoma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "combined hepatocellular carcinoma and cholangiocarcinoma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hepatocellular carcinoma with cholangiocarcinoma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hepatocholangiocarcinoma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "mixed hepatocellular and bile duct carcinoma"
+      }
+    }
+  ]
+}

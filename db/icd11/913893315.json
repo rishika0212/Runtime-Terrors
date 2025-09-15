@@ -1,0 +1,63 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/913893315",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/262268689"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#913893315",
+  "code": "EB90.0",
+  "source": "http://id.who.int/icd/entity/913893315",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/913893315/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1651053999",
+        "http://id.who.int/icd/release/11/2024-01/mms/119724091",
+        "http://id.who.int/icd/release/11/2024-01/mms/1150913605",
+        "http://id.who.int/icd/release/11/2024-01/mms/381961554",
+        "http://id.who.int/icd/release/11/2024-01/mms/1697306310"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Diabetic skin lesions"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Unspecified skin changes attributable to diabetes."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/710405171"
+  ],
+  "codingNote": {
+    "@language": "en",
+    "@value": "Always assign an additional code for diabetes mellitus."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Diabetic skin lesions"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Diabetic dermopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/62999288"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Diabetic bullae"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/877816714"
+    }
+  ]
+}

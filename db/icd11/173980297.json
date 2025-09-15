@@ -1,0 +1,82 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/173980297",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1326708572"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#173980297",
+  "code": "8E61.1",
+  "source": "http://id.who.int/icd/entity/173980297",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/173980297/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1150229943"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/173980297/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1640181609"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/173980297/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/136660883",
+        "http://id.who.int/icd/release/11/2024-01/mms/2036682392",
+        "http://id.who.int/icd/release/11/2024-01/mms/372796891",
+        "http://id.who.int/icd/release/11/2024-01/mms/1302132158",
+        "http://id.who.int/icd/release/11/2024-01/mms/1348791597/unspecified",
+        "http://id.who.int/icd/release/11/2024-01/mms/620459604",
+        "http://id.who.int/icd/release/11/2024-01/mms/1162198017"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Spinal cord irradiation"
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/564191997"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spinal cord irradiation"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myelopathy due to spinal cord irradiation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/734759397"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Brachial plexopathy due to spinal cord irradiation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1242451122"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Lumbosacral plexopathy due to spinal cord irradiation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1874504050"
+    }
+  ]
+}

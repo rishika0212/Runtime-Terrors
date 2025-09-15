@@ -1,0 +1,77 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1085399840",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1583355636"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1085399840",
+  "code": "5A40.1",
+  "source": "http://id.who.int/icd/entity/1085399840",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1085399840/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2000854880",
+        "http://id.who.int/icd/release/11/2024-01/mms/426429380",
+        "http://id.who.int/icd/release/11/2024-01/mms/459275392"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Impaired glucose tolerance"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Impaired glucose tolerance (IGT) is a metabolic disorder, which is characterised by 2-h postload glucose 140–199 mg/dl (7.8–11.1 mmol/l)."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1156263785"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/28520480"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Impaired glucose tolerance"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "IGT - [impaired glucose tolerance]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Impaired glucose tolerance with unspecified complication"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Impaired glucose tolerance without complication"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "abnormal glucose tolerance"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Impaired carbohydrate tolerance"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1001802843"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2100138081",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/418815799"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2100138081",
+  "code": "2A85.6",
+  "source": "http://id.who.int/icd/entity/2100138081",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "HIV - [human immunodeficiency virus] disease associated with Burkitt lymphoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1305960464",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1858812010/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2100138081/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1644747126",
+        "http://id.who.int/icd/release/11/2024-01/mms/687250607",
+        "http://id.who.int/icd/release/11/2024-01/mms/1509166126"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2100138081/postcoordinationScale/histopathology",
+      "axisName": "http://id.who.int/icd/schema/histopathology",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1040637003",
+        "http://id.who.int/icd/release/11/2024-01/mms/935277112"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2100138081/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Burkitt lymphoma including Burkitt leukaemia"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A highly aggressive lymphoma composed of monomorphic medium-sized B-cells with basophilic cytoplasm and numerous mitotic figures. It is often associated with the presence of Epstein-Barr virus (EBV) and is commonly seen in AIDS patients. Three morphologic variants are recognised: classical Burkitt lymphoma, Burkitt lymphoma with plasmacytoid differentiation, and atypical Burkitt/Burkitt-like lymphoma. All cases express the MYC translocation [t(8;14)]."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "“Burkitt-like” lymphoma"
+      }
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Burkitt lymphoma including Burkitt leukaemia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Burkitt tumour"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "diffuse small noncleaved malignant Burkitt lymphoma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "malignant Burkitt lymphoma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "“Burkitt-like” lymphoma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "undifferentiated Burkitt lymphoma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "small noncleaved cell Burkitt lymphoma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mature B-cell leukaemia Burkitt-type"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/220319405"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Burkitt cell leukaemia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/220319405"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Burkitt type acute lymphoblastic leukaemia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/220319405"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "mature B-cell leukaemia Burkitt-type without mention of remission"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/220319405"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mature B-cell leukaemia Burkitt-type in complete remission"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/565510829"
+    }
+  ]
+}

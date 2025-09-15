@@ -1,0 +1,88 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/706082231",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/716284939"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#706082231",
+  "code": "DA92.0",
+  "source": "http://id.who.int/icd/entity/706082231",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fistula of small intestine to vagina"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1152477250",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1152477250"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/706082231/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/18598211",
+        "http://id.who.int/icd/release/11/2024-01/mms/1708923236"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/706082231/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Fistula of small intestine"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A small intestinal fistula is defined as an abnormal communication between the small intestine and another epithelialized surface such as the skin or an adjacent loop of bowel."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fistula of intestine, site unspecified"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fistula of duodenum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2074261372",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2074261372"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fistula of small intestine"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fistula of intestine, site unspecified"
+      }
+    }
+  ]
+}

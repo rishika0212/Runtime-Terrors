@@ -1,0 +1,84 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1958429829",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1277122723"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1958429829",
+  "code": "2E61.0",
+  "source": "http://id.who.int/icd/entity/1958429829",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1958429829/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/578694909"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1958429829/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Carcinoma in situ of colon"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Stage 0 includes: Tis, N0, M0. Tis: Carcinoma in situ: intraepithelial or invasion of lamina propria. N0: No regional lymph node metastasis. M0: No distant metastasis."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Carcinoma in situ of colon"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Intraepithelial neoplasia (dysplasia) of colon, high grade"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "carcinoma in situ of cecum"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "carcinoma in situ of hepatic flexure"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "carcinoma in situ of ileocecal valve"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "carcinoma in situ of hepatic flexure of colon"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Carcinoma in situ of rectosigmoid junction"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/300976401"
+    }
+  ]
+}

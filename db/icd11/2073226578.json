@@ -1,0 +1,160 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2073226578",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/110923694"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2073226578",
+  "code": "2A40",
+  "source": "http://id.who.int/icd/entity/2073226578",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2073226578/postcoordinationScale/histopathology",
+      "axisName": "http://id.who.int/icd/schema/histopathology",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2136151544",
+        "http://id.who.int/icd/release/11/2024-01/mms/1358305224",
+        "http://id.who.int/icd/release/11/2024-01/mms/720968487"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2073226578/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2073226578/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1863636238",
+        "http://id.who.int/icd/release/11/2024-01/mms/885826145",
+        "http://id.who.int/icd/release/11/2024-01/mms/1746207012",
+        "http://id.who.int/icd/release/11/2024-01/mms/303697349"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Chronic myelomonocytic leukaemia"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A myelodysplastic/myeloproliferative neoplasm which is characterised by persistent monocytosis, absence of a Philadelphia chromosome and BCR/ABL1 fusion gene, fewer than 20 percent blasts in the bone marrow and blood, often myelodysplasia, and absence of PDGFRA or PDGFRB rearrangement."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic monocytic leukaemia"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myeloid/lymphoid neoplasm associated with PDGFRA rearrangement"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/833355630",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/833355630"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myeloid neoplasm associated with PDGFRB rearrangement"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/625932159",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/625932159"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic myelomonocytic leukaemia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "CMML - [chronic myelomonocytic leukaemia]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic myelomonocytic leukaemia without mention of remission"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic monocytic leukaemia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic monocytoid leukaemia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic myelomonocytic leukaemia in complete remission"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1182698447"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic myelomonocytic leukaemia with eosinophilia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1821609913"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "CMML - [chronic myelomonocytic leukaemia] with eosinophilia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1821609913"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic myelomonocytic leukaemia Type 1"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1404984529"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "CMML-1 - [chronic myelomonocytic leukaemia Type 1]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1404984529"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic myelomonocytic leukaemia Type 2"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/917064474"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "CMML-2 - [chronic myelomonocytic leukaemia Type 2]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/917064474"
+    }
+  ]
+}

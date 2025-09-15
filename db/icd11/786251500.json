@@ -1,0 +1,59 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/786251500",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/587365414"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2071113448",
+    "http://id.who.int/icd/release/11/2024-01/mms/507077490",
+    "http://id.who.int/icd/release/11/2024-01/mms/786251500/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/786251500/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#786251500",
+  "code": "DC12",
+  "source": "http://id.who.int/icd/entity/786251500",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/786251500/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/786251500/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Cholecystitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Inflammation of gallbladder wall by infection of various organism and/or unspecified disorders."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cholelithiasis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1268183934",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1268183934"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ]
+}

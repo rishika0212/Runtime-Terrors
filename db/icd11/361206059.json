@@ -1,0 +1,121 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/361206059",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/392841027"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#361206059",
+  "code": "9A60.02",
+  "source": "http://id.who.int/icd/entity/361206059",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/361206059/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/361206059/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/470130163"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/361206059/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1583926619",
+        "http://id.who.int/icd/release/11/2024-01/mms/1323892810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Allergic conjunctivitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Allergic conjunctivitis is an IgE-mediated response due to the exposure of seasonal or perennial allergens in sensitized patients. The allergen-induced inflammatory response of the conjunctiva results in the release of histamine and other mediators. Symptoms consist of redness (mainly due to vasodilation of the peripheral small blood vessels), oedema (swelling) of the conjunctiva, itching, and increased lacrimation (production of tears)."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/358047372"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Allergic conjunctivitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Allergen-induced conjunctivitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Seasonal allergic conjunctivitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Perennial allergic conjunctivitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "spring conjunctivitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute allergic conjunctivitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Allergic conjunctivitis due to drugs or medicaments"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1881044096"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced conjunctivitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1881044096"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "conjunctivitis medicamentosa"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1881044096"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "medicament-induced conjunctivitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1881044096"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2134365487",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/902999289"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2134365487",
+  "code": "AB12",
+  "source": "http://id.who.int/icd/entity/2134365487",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2134365487/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2134365487/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/347265434",
+        "http://id.who.int/icd/release/11/2024-01/mms/1951862703"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Cholesteatoma of middle ear"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Recurrent cholesteatoma of postmastoidectomy cavity"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/36112441",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/36112441"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cholesteatoma of external auditory canal"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/738909516",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/738909516"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cholesteatoma of middle ear"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cholesterolosis of middle ear"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cholesterosis of ear"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cholesterosis of middle ear"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "epidermosis of ear"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "epidermosis of middle ear"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cholesteatoma NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "epidermoid cholesteatoma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "middle ear granuloma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital cholesteatoma of middle ear"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1419592677"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired cholesteatoma of middle ear"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/200843960"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cholesteatoma of mastoid"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/203313984"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cholesteatoma tympani"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1009629364"
+    }
+  ]
+}

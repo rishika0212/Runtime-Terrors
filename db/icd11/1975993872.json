@@ -1,0 +1,195 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1975993872",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/990540639"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1975993872",
+  "code": "CA71.0",
+  "source": "http://id.who.int/icd/entity/1975993872",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1975993872/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1975993872/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/622600769",
+        "http://id.who.int/icd/release/11/2024-01/mms/1683090852"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Pneumonitis due to inhalation of food or vomit"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Acute inflammation of the lung parenchyma due to inadvertent passage of ingested solids or liquids into the airway from swallowing dysfunction or after an acute vomiting or gastroesophageal reflux episode."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mendelson syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/854587674",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/854587674"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/428090833"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pneumonitis due to inhalation of food or vomit"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "aspiration pneumonia NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "aspiration pneumonitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "aspiration pneumonitis NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "deglutition pneumonia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "deglutition pneumonitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "aspiration PN - [pneumonia]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "inhalation pneumonia (pneumonitis)"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pneumonic aspiration"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "recurrent aspiration pneumonia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aspiration pneumonia due to food"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1665330555"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "aspiration pneumonitis due to food"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1665330555"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aspiration pneumonia due to gastric secretions"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1671894507"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "aspiration pneumonitis due to gastric secretions"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1671894507"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aspiration pneumonia due to regurgitated food"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1668001685"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "aspiration pneumonitis due to regurgitated food"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1668001685"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aspiration pneumonia due to vomit"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/908351964"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aspiration pneumonia due to milk"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/310723914"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "aspiration pneumonitis due to milk"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/310723914"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Double aspiration pneumonia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/14191067"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "double aspiration pneumonitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/14191067"
+    }
+  ]
+}

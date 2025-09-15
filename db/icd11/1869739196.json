@@ -1,0 +1,79 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1869739196",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1086222649"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1869739196",
+  "code": "CB04.31",
+  "source": "http://id.who.int/icd/entity/1869739196",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1869739196/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Pulmonary alveolar proteinosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is a rare lung disease in which abnormal accumulation of surfactant occurs within the alveoli, interfering with gas exchange. PAP can occur in a primary form or secondarily in the settings of malignancy (especially in myeloid leukemia), pulmonary infection, or environmental exposure to dusts or chemicals."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/923122941"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pulmonary alveolar proteinosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Autoimmune pulmonary alveolar proteinosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/676409940"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Idiopathic pulmonary alveolar proteinosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/676409940"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Idiopathic alveolar lipoproteinosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/676409940"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital pulmonary alveolar proteinosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1603032478"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Secondary pulmonary alveolar proteinosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1480338606"
+    }
+  ]
+}

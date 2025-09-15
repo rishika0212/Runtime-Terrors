@@ -1,0 +1,135 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/218751696",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/988314795"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#218751696",
+  "code": "FB86.10",
+  "source": "http://id.who.int/icd/entity/218751696",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/218751696/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/218751696/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/183512318",
+        "http://id.who.int/icd/release/11/2024-01/mms/1415462031"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Hypertrophic osteoarthropathy"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Hypertrophic osteoarthropathy (HOA) is a syndrome of clubbing of the digits, subperiosteal new bone formation (periostitis) affecting the long bones, and arthritis. The primary hereditary form is associated with mutations in the HPGD gene. The secondary form may be secondary to a number of systemic disorders, most commonly as a paraneoplastic phenomenon related to bronchial carcinoma."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Isolated congenital club finger"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1864632138",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/130631845"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hypertrophic osteoarthropathy"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bamberger-Marie syndrome"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Marie-Bamberger disease"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pierre-Marie-Bamberger"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary hypertrophic osteoarthropathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/792225761"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cranio-osteoarthropathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/225223076"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pachydermoperiostosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2108615601"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Touraine-Solente-Gole syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2108615601"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Clubbed nail pachydermoperiostosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/391283399"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Secondary hypertrophic osteoarthropathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1325516156"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paraneoplastic hypertrophic osteoarthropathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/368556967"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hypertrophic pulmonary osteoarthropathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1779492685"
+    }
+  ]
+}

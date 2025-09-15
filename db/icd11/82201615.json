@@ -1,0 +1,99 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/82201615",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2080431678"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#82201615",
+  "code": "1E76",
+  "source": "http://id.who.int/icd/entity/82201615",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/82201615/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/223243926",
+        "http://id.who.int/icd/release/11/2024-01/mms/947150833",
+        "http://id.who.int/icd/release/11/2024-01/mms/1810600222"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/82201615/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1475156994"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Molluscum contagiosum"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease of the skin and mucous membranes, caused by an infection with molluscum contagiosum virus. This disease is characterised by papular skin eruptions, commonly 2-3 millimetres in diameter. Transmission is by direct contact."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "A common, benign infection of the skin by an orthopoxvirus (molluscipoxvirus) which is readily transmitted to non-immune contacts. It presents as groups of small dome-shaped umbilicated flesh-coloured papules which may become markedly inflamed once the host develops an immune response to the infection . It is seen most commonly in children. It is probable that many adults acquire immunity during childhood without overt disease. Molluscum contagiosum can, however, be transmitted by sexual contact and it may become very widespread in immunodeficient states such as HIV infection."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Viral warts"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1074706780",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1074706780"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/911707612"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Molluscum contagiosum"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Water warts"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Molluscum verrucosum"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Molluscum contagiosum of eyelid"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1527981498"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Anogenital molluscum contagiosum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1665769364"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Molluscum contagiosum of the napkin area"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1103777271"
+    }
+  ]
+}

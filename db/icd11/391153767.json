@@ -1,0 +1,71 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/391153767",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/587365414"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2062880472",
+    "http://id.who.int/icd/release/11/2024-01/mms/532595534",
+    "http://id.who.int/icd/release/11/2024-01/mms/240672295",
+    "http://id.who.int/icd/release/11/2024-01/mms/839854600",
+    "http://id.who.int/icd/release/11/2024-01/mms/2109132211",
+    "http://id.who.int/icd/release/11/2024-01/mms/391153767/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/391153767/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#391153767",
+  "code": "DC10",
+  "source": "http://id.who.int/icd/entity/391153767",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Perforation of gallbladder or bile ducts"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1796445107",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1796445107"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/391153767/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1202131133"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/391153767/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acquired anatomical alterations of gallbladder or bile ducts"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This considers the structure in the alterations of the gall bladder and the long tube-like structures that carry bile."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital anomalies of gall bladder and bile ducts"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/497370415",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1737370752"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ]
+}

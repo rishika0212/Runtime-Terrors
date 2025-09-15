@@ -1,0 +1,82 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/500439897",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/601591344"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/606147016",
+    "http://id.who.int/icd/release/11/2024-01/mms/1351369017",
+    "http://id.who.int/icd/release/11/2024-01/mms/847531974",
+    "http://id.who.int/icd/release/11/2024-01/mms/500439897/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/500439897/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#500439897",
+  "code": "AB51",
+  "source": "http://id.who.int/icd/entity/500439897",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/500439897/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acquired hearing impairment"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Loss of hearing that occurs sometime the course of life and is not present at birth. The hearing impairment is sustained after the acquisition of language, which can occur due to disease, trauma, or as a side-effect of a medicine. Conductive hearing loss may occur as a result of a problem in the outer or middle ear such as an obstruction (cerumen, foreign body), damage to the ossicles, middle ear infections, and/or perforation of the tympanic membrane. Sensorineural hearing loss is a type of hearing loss in which the root cause lies in the vestibulocochlear nerve (Cranial nerve VIII), the inner ear, or central processing centres of the brain. Mixed conductive and sensorineural hearing loss refers to a mix of both conductive and sensorineural hearing loss."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "noise-induced hearing loss"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1091682870",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1091682870"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ototoxic hearing loss"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/953801031",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/953801031"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sudden idiopathic hearing loss"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/692012078",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/692012078"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "deafness NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/947280473",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/947280473"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Deaf mutism, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1282705848",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/601591344"
+    }
+  ]
+}

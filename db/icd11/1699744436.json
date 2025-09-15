@@ -1,0 +1,90 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1699744436",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/609351978"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/965393145",
+    "http://id.who.int/icd/release/11/2024-01/mms/1556182893",
+    "http://id.who.int/icd/release/11/2024-01/mms/1294461448",
+    "http://id.who.int/icd/release/11/2024-01/mms/791667961",
+    "http://id.who.int/icd/release/11/2024-01/mms/1699744436/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1699744436/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1699744436",
+  "code": "NF01",
+  "source": "http://id.who.int/icd/entity/1699744436",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1699744436/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/980862652",
+        "http://id.who.int/icd/release/11/2024-01/mms/851395624",
+        "http://id.who.int/icd/release/11/2024-01/mms/73322695",
+        "http://id.who.int/icd/release/11/2024-01/mms/128104623",
+        "http://id.who.int/icd/release/11/2024-01/mms/1491356379",
+        "http://id.who.int/icd/release/11/2024-01/mms/491063206",
+        "http://id.who.int/icd/release/11/2024-01/mms/185842968",
+        "http://id.who.int/icd/release/11/2024-01/mms/2143219175",
+        "http://id.who.int/icd/release/11/2024-01/mms/558785723",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Effects of heat"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Adverse effects resulting from a failure to maintain normal body core temperature on exposure to excessive heat. Vigorous exercise, insulation by clothing (e.g. protective clothing) or an inability to sweat normally (e.g. genetic hypohidrosis or autonomic neuropathy) may be contributory factors."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "heat prostration NOS"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sunburn"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/318744822",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/318744822"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Burns"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/163532889",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/163532889"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant hyperthermia due to anaesthesia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/483464556",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/483464556"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dermatoses provoked by heat or electricity"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/484607000",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/484607000"
+    }
+  ]
+}

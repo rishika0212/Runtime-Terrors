@@ -1,0 +1,364 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/639949585",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/236930114"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#639949585",
+  "code": "FB80.B",
+  "source": "http://id.who.int/icd/entity/639949585",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/639949585/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/639949585/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/183512318",
+        "http://id.who.int/icd/release/11/2024-01/mms/1415462031"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/639949585/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1630407678",
+        "http://id.who.int/icd/release/11/2024-01/mms/1008515027",
+        "http://id.who.int/icd/release/11/2024-01/mms/1576710885",
+        "http://id.who.int/icd/release/11/2024-01/mms/252326937",
+        "http://id.who.int/icd/release/11/2024-01/mms/1525792972",
+        "http://id.who.int/icd/release/11/2024-01/mms/1989556002",
+        "http://id.who.int/icd/release/11/2024-01/mms/789630210",
+        "http://id.who.int/icd/release/11/2024-01/mms/1523445293/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/418128833",
+        "http://id.who.int/icd/release/11/2024-01/mms/230405508",
+        "http://id.who.int/icd/release/11/2024-01/mms/197679619",
+        "http://id.who.int/icd/release/11/2024-01/mms/1704766818",
+        "http://id.who.int/icd/release/11/2024-01/mms/1219932551",
+        "http://id.who.int/icd/release/11/2024-01/mms/1269698463",
+        "http://id.who.int/icd/release/11/2024-01/mms/1228046340",
+        "http://id.who.int/icd/release/11/2024-01/mms/746147218",
+        "http://id.who.int/icd/release/11/2024-01/mms/2061303143",
+        "http://id.who.int/icd/release/11/2024-01/mms/987501456",
+        "http://id.who.int/icd/release/11/2024-01/mms/1603788294",
+        "http://id.who.int/icd/release/11/2024-01/mms/236930114/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/536467755",
+        "http://id.who.int/icd/release/11/2024-01/mms/825559961",
+        "http://id.who.int/icd/release/11/2024-01/mms/570881596",
+        "http://id.who.int/icd/release/11/2024-01/mms/2058491071",
+        "http://id.who.int/icd/release/11/2024-01/mms/570881596",
+        "http://id.who.int/icd/release/11/2024-01/mms/984580942",
+        "http://id.who.int/icd/release/11/2024-01/mms/1653656681",
+        "http://id.who.int/icd/release/11/2024-01/mms/131793405",
+        "http://id.who.int/icd/release/11/2024-01/mms/504298187",
+        "http://id.who.int/icd/release/11/2024-01/mms/1507462233",
+        "http://id.who.int/icd/release/11/2024-01/mms/762797224",
+        "http://id.who.int/icd/release/11/2024-01/mms/894625870",
+        "http://id.who.int/icd/release/11/2024-01/mms/1496140949",
+        "http://id.who.int/icd/release/11/2024-01/mms/1178222588",
+        "http://id.who.int/icd/release/11/2024-01/mms/1810466448",
+        "http://id.who.int/icd/release/11/2024-01/mms/435227771",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Pathological fracture"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Collapsed vertebra, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/858394549",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/858394549"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pathological fracture"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pathological bone fracture"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pathological fracture NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "spontaneous fracture"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "spontaneous fracture with dislocation"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pathological fracture, multiple sites"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1017892285"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pathological fracture, shoulder region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1507852329"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pathological fracture, clavicle"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/273383496"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pathological fracture, scapula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/902075754"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pathological fracture, acromioclavicular joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/721924700"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pathological fracture, glenohumeral joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/469296042"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pathological fracture, sternoclavicular joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1314057591"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pathological fracture, upper arm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/760041686"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pathological fracture, humerus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/33065745"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pathological fracture, elbow joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/793382733"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pathological fracture, forearm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1208393028"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pathological fracture, radius"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/722624995"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pathological fracture, ulna"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/180689519"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pathological fracture, wrist joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1876037030"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pathological fracture, hand"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1005063896"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pathological fracture, carpus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/621482591"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pathological fracture, fingers"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/12996509"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pathological fracture, metacarpus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1119575055"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pathological fracture, pelvic region or thigh"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1587790658"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pathological fracture, femur"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1768911473"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pathological fracture, pelvis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/419061664"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pathological fracture, lower leg"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/705598397"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pathological fracture, fibula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/73078817"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pathological fracture, tibia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1153637066"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pathological fracture, ankle or foot"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1329946153"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pathological fracture, metatarsus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1149325864"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pathological fracture, tarsus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1985303482"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pathological fracture, toes"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/848642047"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pathological fracture, head"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/958815263"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pathological fracture, ribs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1617965063"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pathological fracture, skull"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/715730942"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pathological fracture, vertebral column"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1349163363"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pathological fracture in neoplastic disease of uncertain behaviour"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1667643104"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pathological fracture in neoplastic disease of unknown behaviour"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2023999991"
+    }
+  ]
+}

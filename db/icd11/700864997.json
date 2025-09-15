@@ -1,0 +1,91 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/700864997",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/250196878"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#700864997",
+  "code": "9C61.32",
+  "source": "http://id.who.int/icd/entity/700864997",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/700864997/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/700864997/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1651053999",
+        "http://id.who.int/icd/release/11/2024-01/mms/119724091",
+        "http://id.who.int/icd/release/11/2024-01/mms/1150913605",
+        "http://id.who.int/icd/release/11/2024-01/mms/381961554",
+        "http://id.who.int/icd/release/11/2024-01/mms/1006882070",
+        "http://id.who.int/icd/release/11/2024-01/mms/947283385",
+        "http://id.who.int/icd/release/11/2024-01/mms/514587306"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Neovascular secondary angle closure glaucoma"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Neovascular secondary angle-closure glaucoma is a frequent condition where neovascular membranes occlude and close the chamber angle by fibrovascular contraction leading to intraocular pressure elevation and subsequent optic nerve damage. Neovascularization can be due to retinal venous occlusion, diabetic retinopathy, ocular ischemia, long-standing retinal detachment and other ischemic conditions of the eye."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neovascular secondary angle closure glaucoma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Secondary angle closure glaucoma by neovascular membrane due to diabetic retinopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/943647258"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Secondary angle closure glaucoma by neovascular membrane, without pupillary block, due to diabetic retinopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/943647258"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Glaucoma due to retinopathy of prematurity"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/545091298"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Diabetic glaucoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/604005609"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Diabetes mellitus with glaucoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/604005609"
+    }
+  ]
+}

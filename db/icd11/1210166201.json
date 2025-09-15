@@ -1,0 +1,330 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1210166201",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/924915526"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1210166201",
+  "code": "BA01",
+  "source": "http://id.who.int/icd/entity/1210166201",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pre-existing hypertensive heart disease complicating pregnancy, childbirth or the puerperium"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/644739997",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/644739997"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pre-existing hypertensive heart and renal disease complicating pregnancy, childbirth or the puerperium"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/931884792",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/931884792"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1210166201/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1002963291",
+        "http://id.who.int/icd/release/11/2024-01/mms/1458683894"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Hypertensive heart disease"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Uncontrolled and prolonged hypertension can lead to a variety of changes in the myocardial structure, coronary vasculature, and conduction system of the heart. Hypertensive heart disease is a term applied generally to heart diseases, such as left ventricular hypertrophy, coronary artery disease, cardiac arrhythmias, and congestive heart failure, that are caused by direct or indirect effects hypertension."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/644739997",
+    "http://id.who.int/icd/entity/931884792"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1910517058"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hypertensive heart disease"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hypertensive heart disease with heart failure"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/600660459"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hypertensive cardiorespiratory failure"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/600660459"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "benign hypertensive heart disease with heart failure"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/600660459"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hypertensive heart failure"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/600660459"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "malignant hypertensive heart disease with heart failure"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/600660459"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "benign hypertensive heart disease with congestive cardiac failure"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/600660459"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "benign hypertensive heart disease with congestive heart failure"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/600660459"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congestive heart failure due to hypertension"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/600660459"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hypertensive CCF - [congestive cardiac failure]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/600660459"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hypertensive congestive heart failure"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/600660459"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hypertensive heart disease with congestive heart failure"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/600660459"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hypertensive left ventricular failure"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/600660459"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Left ventricular failure due to hypertension"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/600660459"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "malignant hypertensive heart disease with congestive cardiac failure"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/600660459"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "malignant hypertensive heart disease with congestive heart failure"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/600660459"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hypertensive heart disease without heart failure"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1208029865"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hypertensive heart disease without congestive heart failure"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1208029865"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "benign hypertensive cardiovascular disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1208029865"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "benign hypertensive heart disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1208029865"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cardiovascular hypertension disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1208029865"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "essential hypertensive cardiovascular disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1208029865"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hypertensive cardiac hypertrophy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1208029865"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hypertensive cardiomyopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1208029865"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hypertensive cardiopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1208029865"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hypertensive cardiovascular disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1208029865"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hypertensive heart"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1208029865"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hypertensive heart disease, not otherwise specified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1208029865"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "malignant hypertensive heart disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1208029865"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "HCVD - [hypertensive cardiovascular disease]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1208029865"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hypertensive cardiovascular collapse"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1208029865"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "HHD - [hypertensive heart disease]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1208029865"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hypertensive arteriosclerotic cardiovascular disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1208029865"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hypertensive cardiac disease NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1208029865"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hypertensive myocardial degeneration"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1208029865"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hypertensive myocardial insufficiency"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1208029865"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hypertensive myocarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1208029865"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hypertensive myocardium insufficiency"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1208029865"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hypertensive myocardium degeneration"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1208029865"
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/975345242",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/109367356"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#975345242",
+  "code": "BD40.2",
+  "source": "http://id.who.int/icd/entity/975345242",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/975345242/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/975345242/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1774319231",
+        "http://id.who.int/icd/release/11/2024-01/mms/456174847",
+        "http://id.who.int/icd/release/11/2024-01/mms/2129236671",
+        "http://id.who.int/icd/release/11/2024-01/mms/202950719"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Atherosclerosis of renal artery"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "atherosclerosis of renal arterioles"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1015872326",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1015872326"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1380872553"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Atherosclerosis of renal artery"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "atherosclerotic renal disease"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "RAS - [renal artery stenosis]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "renal arterial arteriosclerosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "renal arterial arteriosclerotic disease"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "renal arterial stricture"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "renal artery stricture"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "renal artery stenosis of unknown cause"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "renal artery stenosis due to atherosclerosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "renal artery stenosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "renal artery arteriosclerotic disease"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "renal artery arteriosclerosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Arteriosclerotic renovascular disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1508196135"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Goldblatt kidney"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1075197494"
+    }
+  ]
+}

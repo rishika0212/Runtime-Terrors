@@ -1,0 +1,303 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2066255370",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1971756453"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2066255370",
+  "code": "CA00",
+  "source": "http://id.who.int/icd/entity/2066255370",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2066255370/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acute nasopharyngitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease of the upper respiratory tract, caused by an infection with rhinovirus. This disease is characterised by pharyngitis, runny nose, stuffy nose, or cough. Transmission is by inhalation of infected respiratory secretions, or direct contact."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "The common cold (also known as nasopharyngitis, rhinopharyngitis, acute coryza, or a cold) is a viral infectious disease of the upper respiratory system which affects primarily the nose. The meaning of nasopharynx is the same as epipharynx however the term nasopharyngitis is generally used when epipharyngitis extends to the nose, pharynx and larynx. Often called \"a cold\" indicates a \"common cold infection\". The cause of nasopharyngitis is 90% by a viral infection, other causes include bacterial or mycoplasma infections. Patients with nasopharyngitis present with a cough, pharyngeal pain, running nose, stuffy nose as local symptoms, and increasing fever, general fatigue and headache as general symptoms. These symptoms usually resolve in seven to ten days, with some symptoms lasting up to three weeks."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic nasopharyngitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/889423501",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/889423501"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pharyngitis NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1791890273",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1791890273"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute pharyngitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1791890273",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1791890273"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic pharyngitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1101977204",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1101977204"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "rhinitis NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1346915097",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1346915097"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "sore throat NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/877884560",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1971756453"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Vasomotor rhinitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1286636442",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1286636442"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic rhinitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1346915097",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1346915097"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Allergic rhinitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1711769234",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1711769234"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute sore throat"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1791890273",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1791890273"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic sore throat"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1101977204",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1101977204"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/923122941"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute nasopharyngitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute infective rhinitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cold"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "common cold"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "coryza"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "head cold"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "infective nasopharyngitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Rhinopharyngitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute coryza"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute nasal catarrh"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute rhinitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "infective rhinitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute nasopharyngeal catarrh"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "infective nasopharyngitis NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nasopharyngitis NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "epipharyngitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "mucositis NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "inflammatory disease of mucous membrane"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "mucosal inflammation"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Streptococcal nasopharyngitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1578120180"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute catarrhal inflammation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1626739132"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute catarrh"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1626739132"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "catarrh"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1626739132"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "febrile catarrh"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1626739132"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "infectious catarrh"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1626739132"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pneumococcal rhinitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1066660073"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Septic nasopharyngitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/192317267"
+    }
+  ]
+}

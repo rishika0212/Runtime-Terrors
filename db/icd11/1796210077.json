@@ -1,0 +1,92 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1796210077",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/252518591"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/842249248",
+    "http://id.who.int/icd/release/11/2024-01/mms/1467513270",
+    "http://id.who.int/icd/release/11/2024-01/mms/601172299",
+    "http://id.who.int/icd/release/11/2024-01/mms/1105012660",
+    "http://id.who.int/icd/release/11/2024-01/mms/1796210077/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1796210077/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1796210077",
+  "code": "ND17",
+  "source": "http://id.who.int/icd/entity/1796210077",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1796210077/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1796210077/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/489354376",
+        "http://id.who.int/icd/release/11/2024-01/mms/429248176",
+        "http://id.who.int/icd/release/11/2024-01/mms/247310960",
+        "http://id.who.int/icd/release/11/2024-01/mms/935659312",
+        "http://id.who.int/icd/release/11/2024-01/mms/1226808823",
+        "http://id.who.int/icd/release/11/2024-01/mms/2102533769",
+        "http://id.who.int/icd/release/11/2024-01/mms/1786411593",
+        "http://id.who.int/icd/release/11/2024-01/mms/1382178530",
+        "http://id.who.int/icd/release/11/2024-01/mms/1118005900",
+        "http://id.who.int/icd/release/11/2024-01/mms/2078001100",
+        "http://id.who.int/icd/release/11/2024-01/mms/1827906316",
+        "http://id.who.int/icd/release/11/2024-01/mms/2012219285",
+        "http://id.who.int/icd/release/11/2024-01/mms/1503710741",
+        "http://id.who.int/icd/release/11/2024-01/mms/1317579477"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1796210077/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/980862652",
+        "http://id.who.int/icd/release/11/2024-01/mms/851395624",
+        "http://id.who.int/icd/release/11/2024-01/mms/73322695",
+        "http://id.who.int/icd/release/11/2024-01/mms/128104623",
+        "http://id.who.int/icd/release/11/2024-01/mms/1491356379",
+        "http://id.who.int/icd/release/11/2024-01/mms/491063206",
+        "http://id.who.int/icd/release/11/2024-01/mms/185842968",
+        "http://id.who.int/icd/release/11/2024-01/mms/2143219175",
+        "http://id.who.int/icd/release/11/2024-01/mms/558785723",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Injury of muscle, fascia or tendon at ankle or foot level"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Damage inflicted on the muscular or tendinous tissues of the ankle or foot as the direct or indirect result of an external force, with or without disruption of structural continuity."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury of Achilles tendon"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/573150993",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/573150993"
+    }
+  ]
+}

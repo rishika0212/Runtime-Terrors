@@ -1,0 +1,44 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/197440403",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1685029318"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#197440403",
+  "code": "3B81.9",
+  "source": "http://id.who.int/icd/entity/197440403",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/197440403/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1194562592"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Fibrosis of spleen"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease caused by determinants arising after birth, during the antenatal period or by genetically inherited factors. This disease is characterised by formation of excess fibrous connective tissue leading to partial or complete degradation of the spleen. This disease may present with increased susceptibility to infection. Confirmation is through medical imaging."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fibrosis of spleen"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "fibrotic spleen"
+      }
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/159081656",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/435227771"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1028665137",
+    "http://id.who.int/icd/release/11/2024-01/mms/1478222501",
+    "http://id.who.int/icd/release/11/2024-01/mms/750170714",
+    "http://id.who.int/icd/release/11/2024-01/mms/1241350096",
+    "http://id.who.int/icd/release/11/2024-01/mms/974384220",
+    "http://id.who.int/icd/release/11/2024-01/mms/1599611342",
+    "http://id.who.int/icd/release/11/2024-01/mms/737505585",
+    "http://id.who.int/icd/release/11/2024-01/mms/1321122981"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#159081656",
+  "code": "",
+  "source": "http://id.who.int/icd/entity/159081656",
+  "classKind": "block",
+  "blockId": "BlockL1-ND3",
+  "codeRange": "ND30-ND37",
+  "title": {
+    "@language": "en",
+    "@value": "Injuries involving multiple body regions"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Frostbite"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/152692065",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/152692065"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sunburn"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/318744822",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/318744822"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Burns"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/163532889",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/163532889"
+    }
+  ],
+  "codingNote": {
+    "@language": "en",
+    "@value": "Each injury should be coded separately. This code should be used only when the detail of the specific injuries is unknown, or it is not possible to code each injury."
+  }
+}

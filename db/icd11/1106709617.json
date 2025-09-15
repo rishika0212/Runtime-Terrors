@@ -1,0 +1,77 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1106709617",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1057832531"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1898672766",
+    "http://id.who.int/icd/release/11/2024-01/mms/1772690306",
+    "http://id.who.int/icd/release/11/2024-01/mms/6841239",
+    "http://id.who.int/icd/release/11/2024-01/mms/172127371",
+    "http://id.who.int/icd/release/11/2024-01/mms/1106709617/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1106709617/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1106709617",
+  "code": "LB16",
+  "source": "http://id.who.int/icd/entity/1106709617",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Meconium ileus without perforation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1191558345",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1191558345"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1106709617/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1741413713"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Structural developmental anomalies of large intestine"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Any congenital defect of large intestine that results from interference with the normal growth and differentiation of the fetus. Such defects can arise at any stage of embryonic development, vary greatly in type and severity, and are caused by a wide variety of determining factors, including genetic mutations, chromosomal aberrations, teratogenic agents, and environmental factors. Most developmental defects are apparent at birth, especially any structural malformation, but some become evident later."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital atresia of rectum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1067067131",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1587585031"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Persistent cloaca"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2131510660",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2131510660"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital atresia of anus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/290678165",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1587585031"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1191558345"
+  ]
+}

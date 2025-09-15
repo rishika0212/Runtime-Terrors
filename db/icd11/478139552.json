@@ -1,0 +1,73 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/478139552",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/282225286"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#478139552",
+  "code": "BC43.5",
+  "source": "http://id.who.int/icd/entity/478139552",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/478139552/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1119203708"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Stress-induced cardiomyopathy"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Stress-induced or Takotsubo cardiomyopathy is a disease of the myocardium characterised by episodes of acute onset, reversible left ventricular apical wall motion abnormalities mimicking acute myocardial infarction, but with non-specific electrocardiographic ST elevation and T wave changes, and minimal myocardial enzymatic release, in the absence of coronary stenosis."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Takotsubo cardiomyopathy"
+      }
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1218807936"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stress-induced cardiomyopathy"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Takotsubo cardiomyopathy"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "stress cardiomyopathy"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "broken heart syndrome"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "apical ballooning syndrome"
+      }
+    }
+  ]
+}

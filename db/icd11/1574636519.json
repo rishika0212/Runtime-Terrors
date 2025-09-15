@@ -1,0 +1,175 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1574636519",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/933570887"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1574636519",
+  "code": "DA26.01",
+  "source": "http://id.who.int/icd/entity/1574636519",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1574636519/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/72252748"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1574636519/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1574636519/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1574636519/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/985510409",
+        "http://id.who.int/icd/release/11/2024-01/mms/1194562592",
+        "http://id.who.int/icd/release/11/2024-01/mms/481852400",
+        "http://id.who.int/icd/release/11/2024-01/mms/469481605",
+        "http://id.who.int/icd/release/11/2024-01/mms/2125493521",
+        "http://id.who.int/icd/release/11/2024-01/mms/1235727122",
+        "http://id.who.int/icd/release/11/2024-01/mms/649193479",
+        "http://id.who.int/icd/release/11/2024-01/mms/1506184775"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Oesophageal varices without bleeding"
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Oesophageal varices without bleeding"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Oesophageal varices NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ulcerated oesophageal varicose vein"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ulcerated oesophageal varicose venous"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ulcerated oesophageal varix"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "varicose oesophageal ulcer"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Secondary oesophageal varices without bleeding"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/775264371"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Oesophageal varices without bleeding in diseases classified elsewhere"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/775264371"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Oesophageal varices without bleeding in viral hepatic diseases"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/203054554"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Oesophageal varices without bleeding in alcoholic liver disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/991305365"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Oesophageal varices without bleeding in schistosomiasis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1465079346"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Oesophageal varices without bleeding in hepatic fibrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1906812546"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Oesophageal varices without bleeding in primary biliary cholangiopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1350323507"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Oesophageal varices without bleeding in primary biliary cirrhosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1350323507"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Oesophageal varices without bleeding in autoimmune hepatitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1232490459"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Oesophageal varices without bleeding in toxic liver disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1121765148"
+    }
+  ]
+}

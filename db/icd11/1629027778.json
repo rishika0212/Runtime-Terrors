@@ -1,0 +1,96 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1629027778",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2038606821"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1629027778",
+  "code": "BD42.1",
+  "source": "http://id.who.int/icd/entity/1629027778",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1629027778/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/630328761",
+        "http://id.who.int/icd/release/11/2024-01/mms/1707521326",
+        "http://id.who.int/icd/release/11/2024-01/mms/2137289572"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1629027778/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1443317238",
+        "http://id.who.int/icd/release/11/2024-01/mms/464294586",
+        "http://id.who.int/icd/release/11/2024-01/mms/1084365812",
+        "http://id.who.int/icd/release/11/2024-01/mms/636081762",
+        "http://id.who.int/icd/release/11/2024-01/mms/572581721",
+        "http://id.who.int/icd/release/11/2024-01/mms/1173370808",
+        "http://id.who.int/icd/release/11/2024-01/mms/1008515027/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/1008515027/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Secondary Raynaud phenomenon"
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1380872553"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Secondary Raynaud phenomenon"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Raynaud syndrome"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Raynaud phenomenon due to nonorgan specific systemic autoimmune disorder"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2060824151"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Raynaud phenomenon secondary to non organ specific systemic autoimmune disorder"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2060824151"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Raynaud phenomenon due to other specified disorder"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1296469801"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Raynaud phenomenon secondary to other specified disorder"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1296469801"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Raynaud phenomenon caused or exacerbated by occupation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1320584204"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1552317548",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/503601360"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2114301455",
+    "http://id.who.int/icd/release/11/2024-01/mms/1364346142",
+    "http://id.who.int/icd/release/11/2024-01/mms/1552317548/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1552317548/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1552317548",
+  "code": "9C22",
+  "source": "http://id.who.int/icd/entity/1552317548",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Microphthalmos"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1342802999",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1342802999"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Clinical anophthalmos"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/614784200",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/614784200"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Microphthalmos associated with syndromes"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1589363085",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/609020523"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1552317548/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Eyeball deformity"
+  }
+}

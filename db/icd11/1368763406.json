@@ -1,0 +1,78 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1368763406",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1457092071"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1368763406",
+  "code": "DA42.72",
+  "source": "http://id.who.int/icd/entity/1368763406",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1368763406/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acute haemorrhagic gastritis of unknown aetiology"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Rapid onset inflammation of the mucosal lining of the stomach with associated bleeding or abnormal blood flow."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gastric erosion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1634855479",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1634855479"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute haemorrhagic gastritis of unknown aetiology"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute gastritis with haemorrhage"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "haemorrhagic gastritis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute erosive gastritis with haemorrhage"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "AGML - [acute gastric mucosal lesion]"
+      }
+    }
+  ]
+}

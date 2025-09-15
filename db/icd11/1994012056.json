@@ -1,0 +1,72 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1994012056",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/352087872"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1994012056",
+  "code": "1E51.00",
+  "source": "http://id.who.int/icd/entity/1994012056",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1994012056/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1781315693"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Chronic hepatitis B with human immunodeficiency virus co-infection"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A liver disease characterised by liver inflammation and fibrosis caused by more than 6 months of infection with the hepatitis B virus and with the human immunodeficiency virus (HIV). Clinical features include fatigue, hard liver edge and complications of cirrhosis (muscle wasting, ascites, splenomegaly/portal hypertension), and outcomes, including hepatocellular carcinoma are worse than for hepatitis B without HIV infection."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1320597992"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1270001765"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic hepatitis B with human immunodeficiency virus co-infection"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic hepatitis B, co-infected with human immunodeficiency virus, with cirrhosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/503043843"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic hepatitis B, co-infected with human immunodeficiency virus, with cirrhosis, with cirrhosis-related complications"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/541262036"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic hepatitis B, co-infected with human immunodeficiency virus, with cirrhosis, without cirrhosis-related complications"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/46191281"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic hepatitis B, co-infected with human immunodeficiency virus, without cirrhosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1680936588"
+    }
+  ]
+}

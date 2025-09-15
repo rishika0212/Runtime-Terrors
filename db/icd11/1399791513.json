@@ -1,0 +1,77 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1399791513",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1280712786"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/929085937",
+    "http://id.who.int/icd/release/11/2024-01/mms/1749487682",
+    "http://id.who.int/icd/release/11/2024-01/mms/1399791513/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1399791513",
+  "code": "BA52.1",
+  "source": "http://id.who.int/icd/entity/1399791513",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1399791513/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1612889623"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1399791513/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1458683894",
+        "http://id.who.int/icd/release/11/2024-01/mms/1507624466",
+        "http://id.who.int/icd/release/11/2024-01/mms/1119203708"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1399791513/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/718946808",
+        "http://id.who.int/icd/release/11/2024-01/mms/1334938734",
+        "http://id.who.int/icd/release/11/2024-01/mms/993844371",
+        "http://id.who.int/icd/release/11/2024-01/mms/904209735",
+        "http://id.who.int/icd/release/11/2024-01/mms/1829545371/unspecified"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1399791513/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1998406536",
+        "http://id.who.int/icd/release/11/2024-01/mms/2106647780"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Coronary atherosclerosis of autologous bypass graft"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Atherosclerotic lesions, or atherosclerotic plaques of autologous bypass graft."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Coronary atherosclerosis of autologous bypass graft without significant ischaemia"
+      }
+    }
+  ]
+}

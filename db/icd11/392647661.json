@@ -1,0 +1,108 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/392647661",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1066261769"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2122168430",
+    "http://id.who.int/icd/release/11/2024-01/mms/1872438533",
+    "http://id.who.int/icd/release/11/2024-01/mms/2034137861",
+    "http://id.who.int/icd/release/11/2024-01/mms/477476497",
+    "http://id.who.int/icd/release/11/2024-01/mms/1759045232",
+    "http://id.who.int/icd/release/11/2024-01/mms/866993266",
+    "http://id.who.int/icd/release/11/2024-01/mms/392647661/other"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#392647661",
+  "code": "FA34",
+  "source": "http://id.who.int/icd/entity/392647661",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/392647661/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/392647661/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/864772028",
+        "http://id.who.int/icd/release/11/2024-01/mms/625587547",
+        "http://id.who.int/icd/release/11/2024-01/mms/1753246500",
+        "http://id.who.int/icd/release/11/2024-01/mms/8274514",
+        "http://id.who.int/icd/release/11/2024-01/mms/1188078244",
+        "http://id.who.int/icd/release/11/2024-01/mms/2000483733",
+        "http://id.who.int/icd/release/11/2024-01/mms/355147270",
+        "http://id.who.int/icd/release/11/2024-01/mms/1921980626",
+        "http://id.who.int/icd/release/11/2024-01/mms/1705475090"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/392647661/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1569734721"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Certain specified joint derangements"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Temporomandibular joint disorders"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/897101649",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/897101649"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "current injury - see injury of joint by body region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/435227771",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/435227771"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Certain specified joint derangements"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Joint derangement"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unspecified derangement of joint"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unspecified joint derangement, site unspecified"
+      }
+    }
+  ]
+}

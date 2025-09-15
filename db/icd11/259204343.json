@@ -1,0 +1,84 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/259204343",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1433201931"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1033306788",
+    "http://id.who.int/icd/release/11/2024-01/mms/259204343/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/259204343/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#259204343",
+  "code": "GB21",
+  "source": "http://id.who.int/icd/entity/259204343",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nonpurulent mastitis associated with childbirth"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/823561621",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/823561621"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neonatal infectious mastitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1880920858",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1880920858"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/259204343/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/259204343/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/831985561"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/259204343/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Inflammatory disorders of breast"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Any disorder of the breast or breast tissue, characterised by inflammatory effects, pain, heat, redness, swelling, and loss of function."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/823561621"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1880920858"
+  ]
+}

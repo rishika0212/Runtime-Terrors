@@ -1,0 +1,52 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/857829804",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1305335252"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1758603433",
+    "http://id.who.int/icd/release/11/2024-01/mms/478115926",
+    "http://id.who.int/icd/release/11/2024-01/mms/2033497540",
+    "http://id.who.int/icd/release/11/2024-01/mms/182068824",
+    "http://id.who.int/icd/release/11/2024-01/mms/949937547",
+    "http://id.who.int/icd/release/11/2024-01/mms/857829804/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/857829804/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#857829804",
+  "code": "9A03.2",
+  "source": "http://id.who.int/icd/entity/857829804",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/857829804/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/857829804/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/844452979",
+        "http://id.who.int/icd/release/11/2024-01/mms/1468820019"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Ectropion of eyelid"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "The turning outward (eversion) of the edge of the eyelid, resulting in the exposure of the palpebral conjunctiva."
+  }
+}

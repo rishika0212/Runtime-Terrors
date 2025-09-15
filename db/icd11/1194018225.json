@@ -1,0 +1,72 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1194018225",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1945127438"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1194018225",
+  "code": "KA64.0",
+  "source": "http://id.who.int/icd/entity/1194018225",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1194018225/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1269730048",
+        "http://id.who.int/icd/release/11/2024-01/mms/574533444",
+        "http://id.who.int/icd/release/11/2024-01/mms/907740529"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Congenital toxoplasmosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease caused by an infection with the protozoan parasite Toxoplasma gondii in utero. This disease is characterised by chorioretinitis, hydrocephalus, intracranial calcifications, anaemia, or neurological deficits that develop after birth. This disease may present at birth with jaundice, premature birth, hepatosplenomegaly, myocarditis, pneumonitis, or rash. Transmission is by vertical transmission. In the fetus, confirmation is by identification of Toxoplasma gondii in amniotic fluid; in the neonate, confirmation is by identification of Toxoplasma gondii in body fluids or tissues, or detection of antibodies against Toxoplasma gondii."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Congenital toxoplasmosis is caused by the transmission of the parasite Toxoplasma gondii from an infected mother to her fetus during pregnancy. Domestic cats are a common source of the organism. This Infection can occur during the duration of the pregnancy, or during labor or delivery. Many early infected fetuses are born prematurely and show evidence of damage to the eyes, skin, nervous system, and ears."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital toxoplasmosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital toxoplasma encephalitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/499656812"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "congenital encephalitis due to Toxoplasma gondii"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/499656812"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "congenital encephalitis in toxoplasmosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/499656812"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hydrocephalus due to congenital toxoplasmosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1214391989"
+    }
+  ]
+}

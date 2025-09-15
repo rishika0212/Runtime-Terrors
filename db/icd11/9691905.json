@@ -1,0 +1,62 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/9691905",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2057222152"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2127568723",
+    "http://id.who.int/icd/release/11/2024-01/mms/1289341782",
+    "http://id.who.int/icd/release/11/2024-01/mms/1726515219",
+    "http://id.who.int/icd/release/11/2024-01/mms/9691905/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#9691905",
+  "code": "BD74.3",
+  "source": "http://id.who.int/icd/entity/9691905",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/9691905/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/9691905/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1381503063"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Venous leg ulcer"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Venous leg ulcers are chronic skin ulcers of the gaiter area (ankle and lower leg) due to chronic peripheral venous hypertension. They are often associated with other manifestations of chronic peripheral venous insufficiency of the lower extremities including lower limb varicose veins and lipodermatosclerosis."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gravitational ulcer"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Varicose ulcer"
+      }
+    }
+  ]
+}

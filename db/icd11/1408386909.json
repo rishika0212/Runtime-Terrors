@@ -1,0 +1,63 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1408386909",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1467154806"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1408386909",
+  "code": "GB42.0",
+  "source": "http://id.who.int/icd/entity/1408386909",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1408386909/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/465177735",
+        "http://id.who.int/icd/release/11/2024-01/mms/412389819"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Albuminuria, Grade A2"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Presence of excessive albumin in the urine, indicating abnormal permeability glomerular filtration. Can be quantitated by either timed collections or spot urine samples with the concentration adjusted to the urine creatinine concentration to correct for variations in overall urine concentration. When persistent and of moderate or greater severity usually indicates overt glomerular disease such as caused by diabetic glomerulosclerosis, glomerulonephritis or amyloid."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Albuminuria, Grade A2"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "microalbuminuria"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "incipient nephropathy"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "mild to moderate albuminuria"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "albuminuria 3-30 mg/mmol creatinine"
+      }
+    }
+  ]
+}

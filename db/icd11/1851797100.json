@@ -1,0 +1,74 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1851797100",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1084515160"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/920753877",
+    "http://id.who.int/icd/release/11/2024-01/mms/147423406",
+    "http://id.who.int/icd/release/11/2024-01/mms/94041933",
+    "http://id.who.int/icd/release/11/2024-01/mms/1001578808",
+    "http://id.who.int/icd/release/11/2024-01/mms/1851797100/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1851797100/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1851797100",
+  "code": "DA25.1",
+  "source": "http://id.who.int/icd/entity/1851797100",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1851797100/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/72252748"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1851797100/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1851797100/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731",
+        "http://id.who.int/icd/release/11/2024-01/mms/1290701352"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1851797100/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Infectious oesophageal ulcer"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Infectious oesophageal ulcer is ulceration or erosion in the mucosa of oesophagus due to the infectious agent, such as bacteria, viruses, fungi and parasites."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ]
+}

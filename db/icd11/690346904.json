@@ -1,0 +1,97 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/690346904",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2057222152"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#690346904",
+  "code": "BD74.0",
+  "source": "http://id.who.int/icd/entity/690346904",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Lower limb venous telangiectases"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1010116749",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1010116749"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/690346904/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Uncomplicated lower limb venous hypertension"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "The presence of lower limb venous incompetence or hypertension as may be manifest by the presence of haemosiderin pigmentation of the skin, telangiectasia or finely dilated superficial veins."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1429154898",
+    "http://id.who.int/icd/entity/482174292"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Uncomplicated lower limb venous hypertension"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Lower limb haemosiderosis due to venous insufficiency"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/325239708"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Lower limb haemosiderosis secondary to venous insufficiency"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/325239708"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Lower limb superficial venous ectasia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/572033792"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Venous flare"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/572033792"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "superficial venous varicosities"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/572033792"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Corona phlebectatica paraplantaris"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/572033792"
+    }
+  ]
+}

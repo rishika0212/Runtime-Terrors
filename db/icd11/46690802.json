@@ -1,0 +1,68 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/46690802",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/499924848"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1391393460",
+    "http://id.who.int/icd/release/11/2024-01/mms/1540522790",
+    "http://id.who.int/icd/release/11/2024-01/mms/1475559770",
+    "http://id.who.int/icd/release/11/2024-01/mms/1778655330",
+    "http://id.who.int/icd/release/11/2024-01/mms/205429550",
+    "http://id.who.int/icd/release/11/2024-01/mms/867127638",
+    "http://id.who.int/icd/release/11/2024-01/mms/887583241",
+    "http://id.who.int/icd/release/11/2024-01/mms/900033390",
+    "http://id.who.int/icd/release/11/2024-01/mms/964995346",
+    "http://id.who.int/icd/release/11/2024-01/mms/2144340154",
+    "http://id.who.int/icd/release/11/2024-01/mms/500696645",
+    "http://id.who.int/icd/release/11/2024-01/mms/1389225375",
+    "http://id.who.int/icd/release/11/2024-01/mms/91676746",
+    "http://id.who.int/icd/release/11/2024-01/mms/46690802/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/46690802/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#46690802",
+  "code": "9C61.2",
+  "source": "http://id.who.int/icd/entity/46690802",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Glaucoma due to ocular surgery or laser"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1127568996",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1127568996"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/46690802/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/46690802/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1376721186",
+        "http://id.who.int/icd/release/11/2024-01/mms/357208479",
+        "http://id.who.int/icd/release/11/2024-01/mms/1868408442",
+        "http://id.who.int/icd/release/11/2024-01/mms/1868408442"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Secondary open-angle glaucoma"
+  }
+}

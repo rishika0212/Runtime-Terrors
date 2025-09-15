@@ -1,0 +1,39 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2118246468",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/854229089"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/453651926",
+    "http://id.who.int/icd/release/11/2024-01/mms/1873247529",
+    "http://id.who.int/icd/release/11/2024-01/mms/2118246468/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2118246468",
+  "code": "1A62.0",
+  "source": "http://id.who.int/icd/entity/2118246468",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2118246468/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1468768235/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/1297540670"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Neurosyphilis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease of the brain or spinal cord caused by an infection with the gram-negative bacteria Treponema pallidum pallidum. This disease is characterised by four different forms: meningovascular, tabes dorsalis, general paresis, or may be asymptomatic. Clinical signs normally manifest approximately 4-25 years after initial infection. Transmission is commonly by sexual contact."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/911707612"
+  ]
+}

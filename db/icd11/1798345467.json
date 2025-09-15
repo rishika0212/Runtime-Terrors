@@ -1,0 +1,94 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1798345467",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1294458332"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1798345467",
+  "code": "DD54",
+  "source": "http://id.who.int/icd/entity/1798345467",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1798345467/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1798345467/postcoordinationScale/temporalPatternAndOnset",
+      "axisName": "http://id.who.int/icd/schema/temporalPatternAndOnset",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1721353160"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Paraumbilical hernia"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Paraumbilical or periumbilical hernias occur next to and supra-umbilical occur just above the navel. Paraumbilical hernias are large abdominal defects through the linea alba in the region of the umbilicus and are usually related to diastasis of the rectus abdominis muscles."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Supraumbilical hernia"
+      }
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paraumbilical hernia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Periumbilical hernia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Supraumbilical hernia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paraumbilical hernia with obstruction, without gangrene"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1717822746"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paraumbilical hernia with gangrene"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/692627574"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paraumbilical hernia without obstruction or gangrene"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1538759435"
+    }
+  ]
+}

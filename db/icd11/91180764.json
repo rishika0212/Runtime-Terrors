@@ -1,0 +1,39 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/91180764",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/517052870"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/276807111",
+    "http://id.who.int/icd/release/11/2024-01/mms/173613583",
+    "http://id.who.int/icd/release/11/2024-01/mms/91180764/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/91180764/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#91180764",
+  "code": "8A61.4",
+  "source": "http://id.who.int/icd/entity/91180764",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/91180764/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/539646260"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Genetic epileptic syndromes with variable age of onset"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Epilepsies occurring in an otherwise normal child or adult. Seizures may occur spontaneously or may be provoked by external stimuli. Family history of seizures is not uncommon and is frequently reported in selected epilepsy syndromes.\nGenetic aspects may follow differing features ranging from complex hereditary patterns to classic Mendelian features or to focused defects."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/2083324835"
+  ]
+}

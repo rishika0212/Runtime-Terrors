@@ -1,0 +1,55 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1846467039",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/639491801"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1846467039",
+  "code": "LB98.5",
+  "source": "http://id.who.int/icd/entity/1846467039",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1846467039/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Congenital hammer toe"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition characterised by angling downwards of the toe."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital hammer toe"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital hammer toe, unilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/822212418"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital hammer toe, bilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1544757721"
+    }
+  ]
+}

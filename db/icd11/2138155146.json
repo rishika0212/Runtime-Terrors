@@ -1,0 +1,56 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2138155146",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/135357495"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2138155146",
+  "code": "NE82.01",
+  "source": "http://id.who.int/icd/entity/2138155146",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2138155146/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/741790660",
+        "http://id.who.int/icd/release/11/2024-01/mms/431804121"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Pacemaker or implantable cardioverter defibrillator pocket muscle stimulation"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Inappropriate muscular stimulation in or near a pacemaker or implantable cardioverter defibrillator (ICD) generator pocket that cannot be managed with device reprograming and results in patient discomfort or need for reoperation."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/59436623"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pacemaker or implantable cardioverter defibrillator pocket muscle stimulation"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Implantable cardioverter defibrillator pocket muscle stimulation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/554169836"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pacemaker pocket muscle stimulation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1626584661"
+    }
+  ]
+}

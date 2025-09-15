@@ -1,0 +1,74 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/994179294",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/132592466"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1710486451",
+    "http://id.who.int/icd/release/11/2024-01/mms/122891331",
+    "http://id.who.int/icd/release/11/2024-01/mms/614615993",
+    "http://id.who.int/icd/release/11/2024-01/mms/994179294/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/994179294/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#994179294",
+  "code": "DD93",
+  "source": "http://id.who.int/icd/entity/994179294",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/994179294/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Functional digestive disorders of infants, toddlers or children"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This group incorporates functional gastrointestinal disorders in infants and toddlers and disorders diagnosed more often in school-aged children and adolescents. These disorders include a variable combination of often age-dependent, chronic or recurrent symptoms not explained by structural or biochemical abnormalities."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bodily distress disorder"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/767044268",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/767044268"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hypochondriasis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/675329566",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/675329566"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Rumination-regurgitation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/292610046",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/292610046"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Rumination-regurgitation disorder"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1205760590",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1205760590"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/44544109",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/228855241"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#44544109",
+  "code": "2E81.01",
+  "source": "http://id.who.int/icd/entity/44544109",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/44544109/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/470130163"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/44544109/postcoordinationScale/histopathology",
+      "axisName": "http://id.who.int/icd/schema/histopathology",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/595063081",
+        "http://id.who.int/icd/release/11/2024-01/mms/1015681683"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Conjunctival haemangioma or haemolymphangioma"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Conjunctival haemangioma or haemolymphangioma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Haemangioma of conjunctiva"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1961438271"
+    }
+  ]
+}

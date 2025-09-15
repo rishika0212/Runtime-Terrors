@@ -1,0 +1,160 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/100663921",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/824827875"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#100663921",
+  "code": "GA31.01",
+  "source": "http://id.who.int/icd/entity/100663921",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/100663921/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/100663921/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1968623900",
+        "http://id.who.int/icd/release/11/2024-01/mms/1230041477",
+        "http://id.who.int/icd/release/11/2024-01/mms/815125871",
+        "http://id.who.int/icd/release/11/2024-01/mms/1040032122",
+        "http://id.who.int/icd/release/11/2024-01/mms/1337115928",
+        "http://id.who.int/icd/release/11/2024-01/mms/1539689118",
+        "http://id.who.int/icd/release/11/2024-01/mms/923313934"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Primary female infertility of tubal origin"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Female infertility caused by dysfunction of one or both fallopian tubes, usually related to pelvic adhesions or occurring after pelvic surgery, with or without hydrosalpinx"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary female infertility of tubal origin"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "infertility of tubal origin NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fallopian tube occlusion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1922880877"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "blocked fallopian tube"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1922880877"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "fallopian tube obstruction"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1922880877"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "noninsufflation of fallopian tube"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1922880877"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nonpatent fallopian tube"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1922880877"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "obliteration of fallopian tube"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1922880877"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "occlusion of oviduct"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1922880877"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "stricture of fallopian tube"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1922880877"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired atresia of fallopian tube"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2001535491"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acquired atresia of oviduct"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2001535491"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Female infertility due to congenital anomaly of fallopian tube"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1729748371"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "female infertility associated with anomaly of fallopian tube"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1729748371"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "infertility associated with congenital anomaly of tube"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1729748371"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "primary female infertility associated with congenital anomaly of tube"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1729748371"
+    }
+  ]
+}

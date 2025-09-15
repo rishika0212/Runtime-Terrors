@@ -1,0 +1,58 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/418437487",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1411910384"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#418437487",
+  "code": "9C40.2",
+  "source": "http://id.who.int/icd/entity/418437487",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/418437487/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Neuroretinitis"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neuroretinitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Leber's idiopathic stellate neuroretinitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/633520884"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infectious neuro-retinitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1041207655"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Parainfectious neuroretinitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/201737568"
+    }
+  ]
+}

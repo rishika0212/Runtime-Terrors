@@ -1,0 +1,217 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/820638928",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/412389819"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#820638928",
+  "code": "GB61.5",
+  "source": "http://id.who.int/icd/entity/820638928",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Albuminurica retinitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2097971745",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1884626736/unspecified"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/820638928/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1002499710"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/820638928/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1884626736/unspecified",
+        "http://id.who.int/icd/release/11/2024-01/mms/1932345217/unspecified"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/820638928/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/465177735",
+        "http://id.who.int/icd/release/11/2024-01/mms/924915526",
+        "http://id.who.int/icd/release/11/2024-01/mms/1783829886",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184209951",
+        "http://id.who.int/icd/release/11/2024-01/mms/1467154806",
+        "http://id.who.int/icd/release/11/2024-01/mms/1210263011",
+        "http://id.who.int/icd/release/11/2024-01/mms/1746821938",
+        "http://id.who.int/icd/release/11/2024-01/mms/854539401",
+        "http://id.who.int/icd/release/11/2024-01/mms/1490912126",
+        "http://id.who.int/icd/release/11/2024-01/mms/4407978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Chronic kidney disease, stage 5"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Kidney failure, GFR < 15 ml/min/1.73m²"
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "A disease of the kidney, caused by exposure to another disease, condition, or disorder, commonly diabetes mellitus, hypertension, or glomerulonephritis. This disease is characterized by a gradual rise in serum creatinine, severely reduced renal function, and end stage kidney damage with a glomerular filtration rate of less than 15 millilitres per minute per 1.73 square metre for over 3 months. Confirmation is by estimated glomerular filtration rate, blood testing for creatinine, urinalysis, and abdominal ultrasound to differentiate chronic kidney disease from acute renal failure."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic renal failure, stage 5"
+      }
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/562199727"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1635967154"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic kidney disease, stage 5"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic renal failure, stage 5"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "CKD - [chronic kidney disease] stage 5"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "end stage kidney failure"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "end stage renal failure"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "end stage kidney disease"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "end stage renal disease"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "end stage chronic renal failure"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ESRF - [end stage renal failure]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ESRD - [end stage renal diseases]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "eGFR - [estimated glomerular filtration rate] < 15 ml/min/1.73m²"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic kidney disease, stage 5, not on dialysis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/522394067"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic renal failure, stage 5 not on dialysis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/522394067"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "CKD- [chronic kidney disease] stage 5 not on dialysis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/522394067"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic kidney disease, stage 5, on dialysis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1726595166"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic renal failure, stage 5 on dialysis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1726595166"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "CKD - [chronic kidney disease] stage 5 on dialysis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1726595166"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "end stage renal failure of dialysis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1726595166"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "end stage renal failure on haemodialysis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1726595166"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Renal retinitis in chronic kidney disease, stage 5"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/284627949"
+    }
+  ]
+}

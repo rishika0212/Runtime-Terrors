@@ -1,0 +1,42 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1506184775",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2116214427"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/157703821",
+    "http://id.who.int/icd/release/11/2024-01/mms/362761090",
+    "http://id.who.int/icd/release/11/2024-01/mms/664182661",
+    "http://id.who.int/icd/release/11/2024-01/mms/237020948",
+    "http://id.who.int/icd/release/11/2024-01/mms/1822573082",
+    "http://id.who.int/icd/release/11/2024-01/mms/1506184775/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1506184775/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1506184775",
+  "code": "DB98.7",
+  "source": "http://id.who.int/icd/entity/1506184775",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1506184775/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Portal hypertension"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Portal hypertension is abnormal increase of portal vein pressure, which induces development of collateral vessels of portal vein including oesophageal and cardiac varices. It also contributes to development of ascites."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ]
+}

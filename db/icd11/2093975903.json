@@ -1,0 +1,44 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2093975903",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/389818276"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/80144916",
+    "http://id.who.int/icd/release/11/2024-01/mms/861260654",
+    "http://id.who.int/icd/release/11/2024-01/mms/299243785",
+    "http://id.who.int/icd/release/11/2024-01/mms/686434300",
+    "http://id.who.int/icd/release/11/2024-01/mms/2093975903/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/2093975903/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2093975903",
+  "code": "NB91.4",
+  "source": "http://id.who.int/icd/entity/2093975903",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2093975903/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/532265365"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2093975903/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482",
+        "http://id.who.int/icd/release/11/2024-01/mms/755612283"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Injury of pancreas"
+  }
+}

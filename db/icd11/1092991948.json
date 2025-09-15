@@ -1,0 +1,94 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1092991948",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/4407978"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1037488079",
+    "http://id.who.int/icd/release/11/2024-01/mms/1486684763",
+    "http://id.who.int/icd/release/11/2024-01/mms/1092991948/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1092991948/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1092991948",
+  "code": "GC02",
+  "source": "http://id.who.int/icd/entity/1092991948",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infections of urethra in pregnancy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1667851791",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1667851791"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1092991948/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/921977085"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1092991948/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1092991948/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1290701352"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Urethritis and urethral syndrome"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition of the urethra, caused by non-infectious factors such as trauma, allergies, anatomical malformations, or scarring and adhesions following a medical intervention. This condition is characterised by inflammation of the urethra, chronic recurrent urinary tract infections without bacterial growth, and pyuria."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "urethrotrigonitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1938116176",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1938116176"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "urethritis in diseases with a predominantly sexual mode of transmission"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1904876434",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1904876434"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Reiter disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/594689864",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/594689864"
+    }
+  ]
+}

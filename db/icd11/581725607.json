@@ -1,0 +1,60 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/581725607",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1594312948"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/636464846",
+    "http://id.who.int/icd/release/11/2024-01/mms/374867766",
+    "http://id.who.int/icd/release/11/2024-01/mms/1007835083",
+    "http://id.who.int/icd/release/11/2024-01/mms/506390162",
+    "http://id.who.int/icd/release/11/2024-01/mms/581725607/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/581725607/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#581725607",
+  "code": "DA21",
+  "source": "http://id.who.int/icd/entity/581725607",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/581725607/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/72252748"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/581725607/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/581725607/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1008515027",
+        "http://id.who.int/icd/release/11/2024-01/mms/461716838"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Motility disorders of oesophagus"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This group incorporates oesophageal disorders due to disturbances of oesophageal motor function."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ]
+}

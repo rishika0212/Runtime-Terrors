@@ -1,0 +1,75 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/831518052",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1614179699"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#831518052",
+  "code": "5C90.0",
+  "source": "http://id.who.int/icd/entity/831518052",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Argininosuccinic aciduria"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/439383288",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/439383288"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Carbamoylphosphate synthetase deficiency"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/327894003",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/327894003"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Argininaemia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1619102598",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1619102598"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ornithine carbamoyltransferase deficiency"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1822444026",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1889990301/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/831518052/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Liver diseases due to urea cycle defects"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is a group of liver diseases due to defects in the urea cycle, which is a metabolic cycle of nitrogen-containing compounds that produces the waste product urea."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1154068795"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Liver diseases due to urea cycle defects"
+      }
+    }
+  ]
+}

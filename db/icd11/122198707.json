@@ -1,0 +1,48 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/122198707",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/763951483"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/446081198",
+    "http://id.who.int/icd/release/11/2024-01/mms/122198707/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/122198707/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#122198707",
+  "code": "DD00.0",
+  "source": "http://id.who.int/icd/entity/122198707",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/122198707/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/293771399",
+        "http://id.who.int/icd/release/11/2024-01/mms/1035286886",
+        "http://id.who.int/icd/release/11/2024-01/mms/2044414353",
+        "http://id.who.int/icd/release/11/2024-01/mms/1112214727",
+        "http://id.who.int/icd/release/11/2024-01/mms/1810113484"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/122198707/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Diverticulitis of unspecified part of intestine with complication"
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ]
+}

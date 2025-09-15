@@ -1,0 +1,355 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/844980278",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2113001430"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#844980278",
+  "code": "FB83.14",
+  "source": "http://id.who.int/icd/entity/844980278",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis in atypical cystic fibrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/123048247",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/955958081"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis in classical cystic fibrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/620058339",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/290257878"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis in unspecified cystic fibrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2092583895",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/514403112/unspecified"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/844980278/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/844980278/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/183512318",
+        "http://id.who.int/icd/release/11/2024-01/mms/1415462031"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/844980278/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/639949585"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Osteoporosis due to malabsorption"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis due to malabsorption"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis due to malabsorption, multiple sites"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/284335176"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis due to malabsorption, shoulder region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1975079378"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis due to malabsorption, clavicle"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/504000078"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis due to malabsorption, scapula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/807851440"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis due to malabsorption, acromioclavicular joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/301051454"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis due to malabsorption, glenohumeral joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1564490300"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis due to malabsorption, sternoclavicular joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1039003799"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis due to malabsorption, upper arm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/18088237"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis due to malabsorption, humerus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1560441566"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis due to malabsorption, elbow joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1133760568"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis due to malabsorption, forearm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1683999929"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis due to malabsorption, radius"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2104881792"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis due to malabsorption, ulna"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/496660533"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis due to malabsorption, wrist joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/511803987"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis due to malabsorption, hand"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/397500205"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis due to malabsorption, carpus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/70486309"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis due to malabsorption, fingers"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/174633593"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis due to malabsorption, metacarpus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1606597800"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis due to malabsorption, pelvic region or thigh"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1929024185"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis due to malabsorption, buttock"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1995670435"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis due to malabsorption, femur"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1923869965"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis due to malabsorption, pelvis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1400673921"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis due to malabsorption, hip joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/913015114"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis due to malabsorption, lower leg"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/106414662"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis due to malabsorption, fibula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1501545331"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis due to malabsorption, knee joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/369937622"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis due to malabsorption, tibia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/686485150"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis due to malabsorption, ankle or foot"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1662783444"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis due to malabsorption, metatarsus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/220705630"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis due to malabsorption, tarsus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/404078440"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis due to malabsorption, toes"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1037623980"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis due to malabsorption, ankle joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/964725764"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis due to malabsorption, other joints in foot"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1533012762"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis due to malabsorption, head"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/510990994"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis due to malabsorption, neck"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2123544282"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis due to malabsorption, ribs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/877373731"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis due to malabsorption, skull"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2127625784"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis due to malabsorption, trunk"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1245022596"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis due to malabsorption, vertebral column"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1960029132"
+    }
+  ]
+}

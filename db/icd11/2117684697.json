@@ -1,0 +1,43 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2117684697",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1144140024"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1641920322",
+    "http://id.who.int/icd/release/11/2024-01/mms/76970712",
+    "http://id.who.int/icd/release/11/2024-01/mms/2117684697/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/2117684697/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2117684697",
+  "code": "QA45",
+  "source": "http://id.who.int/icd/entity/2117684697",
+  "classKind": "category",
+  "title": {
+    "@language": "en",
+    "@value": "Antenatal screening"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Antenatal screening is a way of assessing whether the unborn baby could develop or has developed an abnormality or other condition during pregnancy."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "routine prenatal care"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1876938930",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1876938930"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Clinical findings on antenatal screening of mother"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/64782063",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/64782063"
+    }
+  ]
+}

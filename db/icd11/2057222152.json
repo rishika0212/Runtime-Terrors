@@ -1,0 +1,59 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2057222152",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/723430526"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/690346904",
+    "http://id.who.int/icd/release/11/2024-01/mms/574933822",
+    "http://id.who.int/icd/release/11/2024-01/mms/473315619",
+    "http://id.who.int/icd/release/11/2024-01/mms/9691905",
+    "http://id.who.int/icd/release/11/2024-01/mms/2057222152/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2057222152",
+  "code": "BD74",
+  "source": "http://id.who.int/icd/entity/2057222152",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Lymphoedema due to venous insufficiency"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1041958231",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1041958231"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2057222152/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2057222152/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1381503063"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Chronic peripheral venous insufficiency of lower extremities"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "The presence of increased pressure in the peripheral venous system, particularly of the lower extremities. Peripheral venous hypertension may be due to incompetence of venous valves following deep vein thrombosis but other factors including obesity may also impair venous return. The consequences of chronic peripheral venous insufficiency include varicose veins, venous ulceration and lymphoedema."
+  }
+}

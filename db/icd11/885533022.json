@@ -1,0 +1,115 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/885533022",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1080392099"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#885533022",
+  "code": "1F25.01",
+  "source": "http://id.who.int/icd/entity/885533022",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/885533022/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1338477196",
+        "http://id.who.int/icd/release/11/2024-01/mms/1492119116",
+        "http://id.who.int/icd/release/11/2024-01/mms/1322869997",
+        "http://id.who.int/icd/release/11/2024-01/mms/1637303052"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/885533022/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/299901355"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Chronic pulmonary coccidioidomycosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A chronic form of pulmonary coccidioidomycosis. Pulmonary sequelae occur in approximately 5% of all cases of acute pulmonary coccidioidomycosis."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/528118622"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic pulmonary coccidioidomycosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "coccidioidal lung granuloma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Coccidioidal nodules"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/705703284"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Coccidioidal cavities"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1046946558"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Coccidioidal pyopneumothorax"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1904874233"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hydropneumothorax due to coccidioidomycosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1904874233"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pyopneumothorax due to coccidioidomycosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1904874233"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Coccidioidal pneumonia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/511420496"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic coccidioidal pneumonia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/511420496"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pneumonia with coccidioidomycosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/511420496"
+    }
+  ]
+}

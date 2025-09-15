@@ -1,0 +1,123 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1495825970",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/958574481"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1495825970",
+  "code": "DA62.3",
+  "source": "http://id.who.int/icd/entity/1495825970",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1495825970/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1493524587",
+        "http://id.who.int/icd/release/11/2024-01/mms/1928625572"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1495825970/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/294460566",
+        "http://id.who.int/icd/release/11/2024-01/mms/985094335",
+        "http://id.who.int/icd/release/11/2024-01/mms/1794059753",
+        "http://id.who.int/icd/release/11/2024-01/mms/1472717853"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1495825970/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Peptic anastomotic ulcer"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Anastomotic ulcer, peptic is an ulcer resulting from the effects of gastric acid on the susceptible intestinal mucosa."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Peptic anastomotic ulcer"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gastrojejunal peptic ulcer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1120356480"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute gastrojejunal ulcer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/56725221"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute peptic gastrojejunal ulcer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/56725221"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gastrocolic peptic ulcer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1557666038"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "gastrocolic ulcer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1557666038"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute gastrocolic ulcer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/394103651"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute gastrojejunocolic ulcer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2013446998"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stomal peptic ulcer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/661070343"
+    }
+  ]
+}

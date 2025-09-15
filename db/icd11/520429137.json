@@ -1,0 +1,612 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/520429137",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/487269828"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#520429137",
+  "code": "1C41",
+  "source": "http://id.who.int/icd/entity/520429137",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute meningococcaemia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/254600628",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/254600628"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Disseminated gonococcal infection"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2046292009",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2046292009"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/520429137/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/520429137/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/622600769",
+        "http://id.who.int/icd/release/11/2024-01/mms/1683090852"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/520429137/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1215034670",
+        "http://id.who.int/icd/release/11/2024-01/mms/1839638766",
+        "http://id.who.int/icd/release/11/2024-01/mms/501791005"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Bacterial infection of unspecified site"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "meningococcal infection NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1664016479",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1664016479"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chlamydial infection NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1127435854",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1127435854"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "rickettsial infection NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1981846",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1981846"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "spirochaetal infection NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1998718899",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/487269828"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infection arising from device, implant or graft, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1612485599",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1612485599"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1935107489"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bacterial infection of unspecified site"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bacterial infection NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "disease caused by bacteria"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bacterial disease or disorder"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Staphylococcal infection of unspecified site"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1854705998"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Streptococcal infection of unspecified site"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/197614812"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Haemophilus influenzae infection of unspecified site"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2137656357"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mycoplasma infection of unspecified site"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/438419889"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "mycoplasma infection NEC"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/438419889"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "mycoplasmosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/438419889"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Systemic bacterial infection affecting skin"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/786506553"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Skin ulceration or abscess due to systemic bacterial infection"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/76410216"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Skin ulceration or abscess secondary to systemic bacterial infection"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/76410216"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Skin rash due to distant or systemic bacterial infection, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/481244592"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Skin rash secondary to distant or systemic bacterial infection not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/481244592"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Streptococcus group D as the cause of diseases classified to other chapters"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/180903517"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Enterococcus as the cause of diseases classified to other chapters"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1808101338"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Streptococcus Group G, as the cause of diseases classified to other chapters"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/337359959"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sepsis due to Streptococcus pneumoniae without mention of septic shock"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1931783118"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pneumococcal sepsis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1931783118"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pneumococcal pyemic embolism"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1931783118"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "sepsis due to Streptococcus pneumoniae NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1931783118"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sepsis due to Staphylococcus aureus without mention of septic shock"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/460403634"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "sepsis due to Staphylococcus aureus NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/460403634"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sepsis due to other specified Staphylococcus without mention of septic shock"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2117795368"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sepsis due to coagulase-negative staphylococcus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2117795368"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sepsis due to unspecified staphylococcus without mention of septic shock"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/177712857"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "sepsis due to staphylococcus NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/177712857"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "staphylococcal pyemic embolism"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/177712857"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "staphylococcal multiple pyemic embolism"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/177712857"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sepsis due to Salmonella without mention of septic shock"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1070977756"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Salmonella sepsis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1070977756"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "salmonella infection with sepsis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1070977756"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "sepsis due to Salmonella NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1070977756"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sepsis due to anaerobes without mention of septic shock"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/473100505"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "sepsis due to anaerobes NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/473100505"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sepsis due to Haemophilus influenzae without mention of septic shock"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1876714317"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "sepsis due to hemophilus influenzae"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1876714317"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "sepsis due to Haemophilus influenzae NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1876714317"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sepsis due to other Gram-negative organisms without mention of septic shock"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2037988685"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "gram-negative sepsis NEC"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2037988685"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "sepsis due to other gram-negative organisms NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2037988685"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "other gram-negative sepsis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2037988685"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sepsis due to Escherichia coli without mention of septic shock"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/736553724"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "E coli sepsis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/736553724"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "E coli septicaemia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/736553724"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "sepsis due to Escherichia coli NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/736553724"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sepsis due to Pseudomonas aeruginosa without mention of septic shock"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1983664632"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pseudomonas aeruginosa septicaemia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1983664632"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "sepsis due to Pseudomonas aeruginosa NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1983664632"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sepsis due to Streptococcus, group A without mention of septic shock"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/126483251"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "sepsis due to Streptococcus, group A NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/126483251"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sepsis due to Streptococcus, group B without mention of septic shock"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1656895143"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "sepsis due to Streptococcus, group B NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1656895143"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Brucella sepsis without mention of septic shock"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/460427059"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Brucella sepsis NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/460427059"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sepsis due to other and unspecified streptococcus without mention of septic shock"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/32268481"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sepsis due to other and unspecified streptococcus NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/32268481"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sepsis due to Streptococcus pneumoniae with mention of septic shock"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/538073507"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sepsis due to Staphylococcus aureus with mention of septic shock"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1248885894"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sepsis due to other specified Staphylococcus with mention of septic shock"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1676080113"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sepsis due to unspecified staphylococcus with septic shock"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1019304516"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sepsis due to Salmonella with septic shock"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/114861782"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sepsis due to anaerobes with septic shock"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/314876756"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sepsis due to Haemophilus influenzae with septic shock"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1772613347"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sepsis due to other Gram-negative organisms with septic shock"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/918687664"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sepsis due to Escherichia coli with septic shock"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1398957367"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sepsis due to Pseudomonas aeruginosa with septic shock"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1300051267"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sepsis due to Streptococcus, group A with septic shock"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/419330420"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sepsis due to Streptococcus, group B with septic shock"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/404455908"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sepsis due to other and unspecified streptococcus with septic shock"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1845816764"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sepsis due to shigella with septic shock"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/458723679"
+    }
+  ]
+}

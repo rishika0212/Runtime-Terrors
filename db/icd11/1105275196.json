@@ -1,0 +1,101 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1105275196",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1367149207"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1105275196",
+  "code": "1G01.0",
+  "source": "http://id.who.int/icd/entity/1105275196",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1105275196/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/287258758"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Ocular myiasis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease of the eye, caused by an infection with fly larvae from the order Diptera. This disease is characterised by a lump developing in the tissue. Transmission is by ingestion of contaminated larvae, direct contact with an infected mosquito, tick, fly, or indirect contact with infected fly eggs. Confirmation is by identification of Diptera."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1945127438"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ocular myiasis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ophthalmomyiasis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ophthalmic myiasis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "myiasis oestruosa"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myiasis of orbit"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1368824321"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "External ocular myiasis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/948827009"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ophthalmomyiasis externa"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/948827009"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Internal ocular myiasis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/195969671"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ophthalmomyiasis interna anterior"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1986410443"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ophthalmomyiasis interna posterior"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1216353667"
+    }
+  ]
+}

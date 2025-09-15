@@ -1,0 +1,70 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1348470541",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1965082709"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/361875781",
+    "http://id.who.int/icd/release/11/2024-01/mms/986063444",
+    "http://id.who.int/icd/release/11/2024-01/mms/1348470541/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1348470541/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1348470541",
+  "code": "2B54",
+  "source": "http://id.who.int/icd/entity/1348470541",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1348470541/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/183512318",
+        "http://id.who.int/icd/release/11/2024-01/mms/1415462031"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1348470541/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1348470541/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1409966790",
+        "http://id.who.int/icd/release/11/2024-01/mms/896293199",
+        "http://id.who.int/icd/release/11/2024-01/mms/1094217460",
+        "http://id.who.int/icd/release/11/2024-01/mms/238069351"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1348470541/postcoordinationScale/hasAlternativeSeverity2",
+      "axisName": "http://id.who.int/icd/schema/hasAlternativeSeverity2",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1863636238",
+        "http://id.who.int/icd/release/11/2024-01/mms/885826145",
+        "http://id.who.int/icd/release/11/2024-01/mms/1746207012",
+        "http://id.who.int/icd/release/11/2024-01/mms/303697349"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Unclassified pleomorphic sarcoma, primary site"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A pleomorphic sarcoma characterised by the presence of fibrohistiocytic cells and spindle cells arranged in a storiform pattern."
+  }
+}

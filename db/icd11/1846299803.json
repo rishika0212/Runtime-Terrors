@@ -1,0 +1,58 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1846299803",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/246411392"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/244533057",
+    "http://id.who.int/icd/release/11/2024-01/mms/739284262",
+    "http://id.who.int/icd/release/11/2024-01/mms/1846299803/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1846299803/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1846299803",
+  "code": "NC73.1",
+  "source": "http://id.who.int/icd/entity/1846299803",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1846299803/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1846299803/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1921980626"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1846299803/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482",
+        "http://id.who.int/icd/release/11/2024-01/mms/755612283"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Strain or sprain of hip"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A collective term for muscle and ligament injuries of the tissues associated with the hip without dislocation or fracture; a joint injury in which some of the fibers of a supporting ligament are ruptured but the continuity of the ligament remains intact. A strain is an overstretching or overexertion of some part of the musculature."
+  }
+}

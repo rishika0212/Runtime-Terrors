@@ -1,0 +1,53 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2043496606",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1913468488"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/942630604",
+    "http://id.who.int/icd/release/11/2024-01/mms/1355660816",
+    "http://id.who.int/icd/release/11/2024-01/mms/86747759",
+    "http://id.who.int/icd/release/11/2024-01/mms/2132861880",
+    "http://id.who.int/icd/release/11/2024-01/mms/107634429",
+    "http://id.who.int/icd/release/11/2024-01/mms/1478604320",
+    "http://id.who.int/icd/release/11/2024-01/mms/2043496606/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/2043496606/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2043496606",
+  "code": "1F20.1",
+  "source": "http://id.who.int/icd/entity/2043496606",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2043496606/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2043496606/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1644747126",
+        "http://id.who.int/icd/release/11/2024-01/mms/687250607",
+        "http://id.who.int/icd/release/11/2024-01/mms/1509166126"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Non-invasive aspergillosis"
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1791817517"
+  ]
+}

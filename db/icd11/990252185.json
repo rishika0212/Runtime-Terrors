@@ -1,0 +1,68 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/990252185",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/892860325"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#990252185",
+  "code": "9B66.1",
+  "source": "http://id.who.int/icd/entity/990252185",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/990252185/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Infectious intermediate choroiditis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is a infectious form of uveitis localised to the vitreous and peripheral retina. Primary sites of inflammation include the vitreous of which other such entities as pars planitis, posterior cyclitis, and hyalitis are encompassed. Intermediate uveitis may either be an isolated eye disease or associated with the development of a systemic disease such as multiple sclerosis or sarcoidosis."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infectious intermediate choroiditis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "infectious intermediate uveitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Syphilitic infectious intermediate uveitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/152033440"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculosis intermediate uveitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/919746029"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infectious intermediate uveitis in Lyme disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/21042323"
+    }
+  ]
+}

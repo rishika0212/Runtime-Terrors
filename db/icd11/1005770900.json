@@ -1,0 +1,89 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1005770900",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/684930313"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1005770900",
+  "code": "1D01.00",
+  "source": "http://id.who.int/icd/entity/1005770900",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1005770900/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1979147242",
+        "http://id.who.int/icd/release/11/2024-01/mms/1284492970"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1005770900/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/622600769",
+        "http://id.who.int/icd/release/11/2024-01/mms/1683090852"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1005770900/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/375810888"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Meningitis due to Haemophilus influenzae"
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1366690608"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Meningitis due to Haemophilus influenzae"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "influenza meningitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "influenzal meningitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "meningitis due to h. influenzae"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Haemophilus influenzae spinal meningitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/173741521"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "influenzal spinal meningitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/173741521"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1496140949",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/770439884"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1660235889",
+    "http://id.who.int/icd/release/11/2024-01/mms/230405508",
+    "http://id.who.int/icd/release/11/2024-01/mms/197679619",
+    "http://id.who.int/icd/release/11/2024-01/mms/1977414063",
+    "http://id.who.int/icd/release/11/2024-01/mms/181781948",
+    "http://id.who.int/icd/release/11/2024-01/mms/329165933",
+    "http://id.who.int/icd/release/11/2024-01/mms/2078345611",
+    "http://id.who.int/icd/release/11/2024-01/mms/717143930",
+    "http://id.who.int/icd/release/11/2024-01/mms/177141175",
+    "http://id.who.int/icd/release/11/2024-01/mms/2002361676",
+    "http://id.who.int/icd/release/11/2024-01/mms/533702276",
+    "http://id.who.int/icd/release/11/2024-01/mms/399834960",
+    "http://id.who.int/icd/release/11/2024-01/mms/87260959",
+    "http://id.who.int/icd/release/11/2024-01/mms/691657602",
+    "http://id.who.int/icd/release/11/2024-01/mms/689620137",
+    "http://id.who.int/icd/release/11/2024-01/mms/297017382",
+    "http://id.who.int/icd/release/11/2024-01/mms/1908604930",
+    "http://id.who.int/icd/release/11/2024-01/mms/395969787",
+    "http://id.who.int/icd/release/11/2024-01/mms/1325372654",
+    "http://id.who.int/icd/release/11/2024-01/mms/1325365261",
+    "http://id.who.int/icd/release/11/2024-01/mms/1496140949/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1496140949/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1496140949",
+  "code": "LD24",
+  "source": "http://id.who.int/icd/entity/1496140949",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Progressive osseous heteroplasia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1107209347",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1107209347"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fibrodysplasia ossificans progressiva"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2102976705",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2102976705"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteolysis syndromes"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/680009427",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/278179208"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Calcification or ossification of muscles of genetic origin"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/658569460",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/250905801/unspecified"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1496140949/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1496140949/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/183512318",
+        "http://id.who.int/icd/release/11/2024-01/mms/1415462031"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Syndromes with skeletal anomalies as a major feature"
+  }
+}

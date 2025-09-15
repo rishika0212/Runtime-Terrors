@@ -1,0 +1,60 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/608288840",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1047110381"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#608288840",
+  "code": "KA40.3",
+  "source": "http://id.who.int/icd/entity/608288840",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/608288840/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/128908879",
+        "http://id.who.int/icd/release/11/2024-01/mms/1659188187",
+        "http://id.who.int/icd/release/11/2024-01/mms/373842724",
+        "http://id.who.int/icd/release/11/2024-01/mms/541657990",
+        "http://id.who.int/icd/release/11/2024-01/mms/986673759",
+        "http://id.who.int/icd/release/11/2024-01/mms/1929621170",
+        "http://id.who.int/icd/release/11/2024-01/mms/15547686",
+        "http://id.who.int/icd/release/11/2024-01/mms/437941753",
+        "http://id.who.int/icd/release/11/2024-01/mms/927970860/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Birth injury to brainstem"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Injury to the brain stem occurring during delivery due to excessive longitudinal traction especially when this traction is combined with flexion and torsion of the spine during delivery."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "This injury is usually associated with difficult breech deliveries and usually involves injury to the cranial nerves and deeper structures of the brain. When there is brain stem involvement secondary to a birth injury clinical symptoms may include abnormalities in respiration, heart rate, swallowing and level of alertness. The extent of the brain stem injury depends on the severity of the insult and the associated neurological components."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fracture, dislocation or subluxation of spine due to birth injury"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/689092517",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/689092517"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Birth injury to brainstem"
+      }
+    }
+  ]
+}

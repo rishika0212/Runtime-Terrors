@@ -1,0 +1,244 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2089700977",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/980864631"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2089700977",
+  "code": "9A76",
+  "source": "http://id.who.int/icd/entity/2089700977",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2089700977/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2089700977/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/985771522"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2089700977/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/1191270655",
+        "http://id.who.int/icd/release/11/2024-01/mms/1639872620"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Corneal ulcer"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Loss of epithelial tissue from the surface of the cornea due to progressive erosion and necrosis of the tissue. It is often caused by bacterial, fungal, or viral infection."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Central corneal ulcer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/457542318"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ring corneal ulcer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1877531217"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Corneal ulcer with hypopyon"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/178460613"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Marginal corneal ulcer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2035123281"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mooren's corneal ulcer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/470174149"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Perforated corneal ulcer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/232838320"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Corneal ulcer"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cornea ulcer"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ulcerative keratitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "corneal ulcer NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Central corneal ulcer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/457542318"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ring corneal ulcer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1877531217"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Corneal ulcer with hypopyon"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/178460613"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hypopyon ulcer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/178460613"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Marginal corneal ulcer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2035123281"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mooren's corneal ulcer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/470174149"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mooren ulcer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/470174149"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mycotic corneal ulcer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1756043578"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "fungal ulcer of cornea"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1756043578"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Perforated corneal ulcer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/232838320"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "corneal perforation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/232838320"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "perforation of cornea"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/232838320"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acanthamoeba ulcer of cornea"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1087506623"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bacterial ulcer of cornea"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/633675638"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Herpetic ulcer of cornea"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/4852312"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Superficial ulcer of cornea"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1906143065"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Xerosis of cornea with ulceration"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/994341026"
+    }
+  ]
+}

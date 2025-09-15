@@ -1,0 +1,77 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1329332775",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/592902578"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/567298520",
+    "http://id.who.int/icd/release/11/2024-01/mms/504210603",
+    "http://id.who.int/icd/release/11/2024-01/mms/643838188",
+    "http://id.who.int/icd/release/11/2024-01/mms/82043535",
+    "http://id.who.int/icd/release/11/2024-01/mms/863028209",
+    "http://id.who.int/icd/release/11/2024-01/mms/1172454470",
+    "http://id.who.int/icd/release/11/2024-01/mms/1329332775/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1329332775/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1329332775",
+  "code": "NC31",
+  "source": "http://id.who.int/icd/entity/1329332775",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1329332775/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1329332775/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/667468098",
+        "http://id.who.int/icd/release/11/2024-01/mms/1477228030"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1329332775/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482",
+        "http://id.who.int/icd/release/11/2024-01/mms/755612283"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Open wound of forearm"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Open wound of wrist or hand"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1217144308",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1217144308"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Traumatic amputation of forearm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/619727205",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/619727205"
+    }
+  ]
+}

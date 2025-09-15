@@ -1,0 +1,75 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1342264365",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/708418764"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1342264365",
+  "code": "BD70.0",
+  "source": "http://id.who.int/icd/entity/1342264365",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1342264365/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1342264365/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/951259663",
+        "http://id.who.int/icd/release/11/2024-01/mms/110459031",
+        "http://id.who.int/icd/release/11/2024-01/mms/1394852793",
+        "http://id.who.int/icd/release/11/2024-01/mms/2033733719"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Superficial thrombophlebitis of lower limbs"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Inflammation and thrombosis of the superficial veins of the lower limbs affecting particularly varicose superficial leg veins."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/2140253838",
+    "http://id.who.int/icd/entity/392923664"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Superficial thrombophlebitis of lower limbs"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Thrombophlebitis of superficial veins of lower extremity"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Phlebitis of superficial veins of lower extremity"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Superficial macrothrombusi's of lower extremity"
+      }
+    }
+  ]
+}

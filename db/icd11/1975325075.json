@@ -1,0 +1,77 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1975325075",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/574051646"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/709184369",
+    "http://id.who.int/icd/release/11/2024-01/mms/1504434405",
+    "http://id.who.int/icd/release/11/2024-01/mms/1373005257",
+    "http://id.who.int/icd/release/11/2024-01/mms/247221550",
+    "http://id.who.int/icd/release/11/2024-01/mms/813571137",
+    "http://id.who.int/icd/release/11/2024-01/mms/1975325075/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1975325075/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1975325075",
+  "code": "1F66",
+  "source": "http://id.who.int/icd/entity/1975325075",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1975325075/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1644747126",
+        "http://id.who.int/icd/release/11/2024-01/mms/687250607",
+        "http://id.who.int/icd/release/11/2024-01/mms/1509166126"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1975325075/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/831696556/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/1698128682",
+        "http://id.who.int/icd/release/11/2024-01/mms/138951634",
+        "http://id.who.int/icd/release/11/2024-01/mms/1323357778",
+        "http://id.who.int/icd/release/11/2024-01/mms/1024345542",
+        "http://id.who.int/icd/release/11/2024-01/mms/1480951888",
+        "http://id.who.int/icd/release/11/2024-01/mms/1735709719",
+        "http://id.who.int/icd/release/11/2024-01/mms/753457327",
+        "http://id.who.int/icd/release/11/2024-01/mms/1235424571",
+        "http://id.who.int/icd/release/11/2024-01/mms/885653625",
+        "http://id.who.int/icd/release/11/2024-01/mms/1367461357",
+        "http://id.who.int/icd/release/11/2024-01/mms/37689731",
+        "http://id.who.int/icd/release/11/2024-01/mms/1931935981",
+        "http://id.who.int/icd/release/11/2024-01/mms/146998050",
+        "http://id.who.int/icd/release/11/2024-01/mms/297640720"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Filariasis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "infections with nematodes of the superfamily Filarioidea; presence of living worms in the body is mainly asymptomatic but the death of adult worms leads to granulomatous inflammation and permanent fibrosis; organisms of the genus Elaeophora infect wild elk and domestic sheep causing ischaemic necrosis of the brain, blindness, and dermatosis of the face."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Onchocerciasis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/106136071",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/106136071"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1945127438"
+  ]
+}

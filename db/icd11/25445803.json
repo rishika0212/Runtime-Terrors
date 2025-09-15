@@ -1,0 +1,81 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/25445803",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/496229924"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#25445803",
+  "code": "2E64.01",
+  "source": "http://id.who.int/icd/entity/25445803",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/25445803/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/25445803/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/223243926",
+        "http://id.who.int/icd/release/11/2024-01/mms/17625777",
+        "http://id.who.int/icd/release/11/2024-01/mms/371496561",
+        "http://id.who.int/icd/release/11/2024-01/mms/1187030",
+        "http://id.who.int/icd/release/11/2024-01/mms/294531567",
+        "http://id.who.int/icd/release/11/2024-01/mms/1810600222"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/25445803/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/25445803/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/630328761",
+        "http://id.who.int/icd/release/11/2024-01/mms/1707521326",
+        "http://id.who.int/icd/release/11/2024-01/mms/2137289572"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Actinic intraepidermal squamous cell carcinoma"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Intraepidermal squamous cell carcinoma attributable to chronic exposure to ultraviolet radiation and typically developing from a pre-existing actinic keratosis"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Actinic intraepidermal squamous cell carcinoma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Intraepidermal squamous cell carcinoma arising from actinic keratosis"
+      }
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1033306788",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/259204343"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1033306788",
+  "code": "GB21.0",
+  "source": "http://id.who.int/icd/entity/1033306788",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Abscess of breast associated with childbirth"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1169939818",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1169939818"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1033306788/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1033306788/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/831985561"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1033306788/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1033306788/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Breast abscess"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition of the breast, caused by inflammation due to infection with a bacterial or parasitic host, or contact with other foreign materials. This condition is characterised by a focal accumulation of purulent material within or on the breast tissue."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1169939818"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1880920858"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Breast abscess"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nonlactational abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/371763541"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "nonpuerperal abscess of breast"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/371763541"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nonpuerperal abscess of areola"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1945656173"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute abscess of breast"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1203854229"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic abscess of breast"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/769734226"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nipple abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1501150097"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Abscess of areola"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1662746677"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "abscess of subareolar"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1662746677"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute abscess of areola"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1816653879"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic abscess of areola"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/103142674"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1395747124",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1815482567"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1395747124",
+  "code": "GB90.46",
+  "source": "http://id.who.int/icd/entity/1395747124",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1395747124/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Tubular disorders of sodium or potassium transport"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Abnormalities of the renal tubules resorptive or secretory functions, inherited or acquired."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fanconi syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/788002727",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/788002727"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tubular disorders of sodium or potassium transport"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Inherited tubular disorders of potassium or sodium transport"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/730400038"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired tubular disorders of potassium or sodium transport associated with causes classified elsewhere"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1605696246"
+    }
+  ]
+}

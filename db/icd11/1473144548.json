@@ -1,0 +1,75 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1473144548",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1747531460"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1473144548",
+  "code": "1G07.0",
+  "source": "http://id.who.int/icd/entity/1473144548",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1473144548/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1251112127",
+        "http://id.who.int/icd/release/11/2024-01/mms/1180512715"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Infestation by Demodex"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Infestation with Demodex mites. Demodex folliculorum is a saprophytic mite of the human pilosebaceous unit with a predilection for facial skin and eyelashes. Demodex brevis is found in the sebaceous glands of the eyelash follicle and in the lobules of eyelid meibomian glands. Although infestation is very common and normally symptomless, the mites have been linked to papulopustular rosacea and chronic blepharitis."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1945127438"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infestation by Demodex"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Demodicosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "infestation by demodex folliculorum"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Demodex folliculitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1602267881"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Demodex infestation of eyelid"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1917906111"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dermatitis of eyelid due to Demodex species"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1917906111"
+    }
+  ]
+}

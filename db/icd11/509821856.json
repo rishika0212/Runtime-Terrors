@@ -1,0 +1,261 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/509821856",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1971756453"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#509821856",
+  "code": "CA01",
+  "source": "http://id.who.int/icd/entity/509821856",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/509821856/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/509821856/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2037717603"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/509821856/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acute sinusitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Recent onset and/or short duration inflammation of the mucosa in one or more of the paranasal sinuses (maxillary, ethmoid, frontal and sphenoid) arising from infection or other causes such as caries or injury to the teeth. Purulent discharge can be seen at the middle meatus and olfactory cleavage and patients complain of dysosmia, stuffy nose, fever, or localised tenderness or pain. Allergic rhinitis, nasal septum deformity or hypertrophic rhinitis are underlying diseases that may induce acute sinusitis."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "sinusitis, chronic or NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1836987572",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1836987572"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/923122941"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute sinusitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute infection of sinus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute inflammation of sinus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute sinusitis NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute rhinosinusitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute maxillary sinusitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1617309258"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute antritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1617309258"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute maxilla sinusitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1617309258"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute frontal sinusitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/86893536"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute ethmoidal sinusitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1904259873"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute ethmoiditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1904259873"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute ethmoid sinusitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1904259873"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute sphenoidal sinusitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/348880565"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute pansinusitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1730538785"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute sinusitis involving all sinuses"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1730538785"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sinusitis due to Streptococcus pneumoniae"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1368453220"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute infection of accessory sinus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/898671899"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute inflammation of accessory sinus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/898671899"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute abscess of accessory sinus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/480352798"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute accessory sinus abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/480352798"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute empyema of accessory sinus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/866330704"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute suppuration of accessory sinus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/866330704"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute infection of nasal sinus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2131489280"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute inflammation of nasal sinus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2131489280"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute abscess of nasal sinus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1225495745"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute empyema of nasal sinus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1237790399"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute suppuration of nasal sinus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1237790399"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute sinusitis involving more than one sinus but not pansinusitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1159500625"
+    }
+  ]
+}

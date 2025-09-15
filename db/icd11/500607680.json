@@ -1,0 +1,71 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/500607680",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1925186604"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#500607680",
+  "code": "8D66.2",
+  "source": "http://id.who.int/icd/entity/500607680",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/500607680/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1150229943"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/500607680/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1297540670"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Syringobulbia"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Chronic progressive degenerative disorder of the CNS characterized by the formation of a fluid filled cavity known as a syrinx in the spinal cord that extends upwards to involve the medulla and pons. May occur in isolation or may also occur secondary to neoplasms, traumas, deformities of the craniocervical junction or meningitis."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/564191997"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Syringobulbia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Syringobulbia associated with syringomyelia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1925376249"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Syringobulbia not associated with syringomyelia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/872026430"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Syringobulbia due to certain specified causes"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/304966324"
+    }
+  ]
+}

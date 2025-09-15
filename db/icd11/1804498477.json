@@ -1,0 +1,106 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1804498477",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1259721857"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1804498477",
+  "code": "9A01.21",
+  "source": "http://id.who.int/icd/entity/1804498477",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1804498477/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1804498477/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/844452979",
+        "http://id.who.int/icd/release/11/2024-01/mms/1468820019"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1804498477/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Hordeolum internum"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A focal acute pyogenic infection, usually by Staphylococcus aureus, of a meibomian gland, the normal secretion from which into the eyelash follicle is blocked. It presents as an acute inflammatory swelling which may discharge onto the conjunctival surface of the eyelid, or rarely anteriorly through the eyelid skin. It may predispose to formation of a chalazion."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chalazion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/777918741",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/777918741"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hordeolum internum"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute meibomitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Internal hordeolum"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Meibomian gland abscess"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hordeolum internum upper eyelid"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/625555304"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hordeolum internum lower eyelid"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1373923223"
+    }
+  ]
+}

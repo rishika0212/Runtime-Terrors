@@ -1,0 +1,55 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1796432433",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/477484939"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1796432433",
+  "code": "LB98.20",
+  "source": "http://id.who.int/icd/entity/1796432433",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1796432433/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Congenital hallux valgus"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition caused by failure of the hallux to correctly develop during the antenatal period. This condition is characterised by angling of the hallux medial to the metatarsophalangeal joint."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital hallux valgus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital hallux valgus, unilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/810573302"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital hallux valgus, bilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/520599271"
+    }
+  ]
+}

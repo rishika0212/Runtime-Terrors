@@ -1,0 +1,50 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/32535219",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1807730236"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#32535219",
+  "code": "ED63.1",
+  "source": "http://id.who.int/icd/entity/32535219",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupational leukoderma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/872905594",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1223380074/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/32535219/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/678821627",
+        "http://id.who.int/icd/release/11/2024-01/mms/131278066",
+        "http://id.who.int/icd/release/11/2024-01/mms/1583926619"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Hypomelanosis due to exposure to chemicals"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Loss of skin pigment due to exposure to depigmenting agents such as hydroquinone, which is frequently employed as a cosmetic skin lightener, and industrial chemicals such as 4-tert-butylcatechol (PTBC) and para-substituted phenols (PSP)."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hypomelanosis due to exposure to chemicals"
+      }
+    }
+  ]
+}

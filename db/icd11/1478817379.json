@@ -1,0 +1,86 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1478817379",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1641958762"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1478817379",
+  "code": "MB53.1",
+  "source": "http://id.who.int/icd/entity/1478817379",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1478817379/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1478817379/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1435254666",
+        "http://id.who.int/icd/release/11/2024-01/mms/1630407678",
+        "http://id.who.int/icd/release/11/2024-01/mms/1766440644",
+        "http://id.who.int/icd/release/11/2024-01/mms/1954798891",
+        "http://id.who.int/icd/release/11/2024-01/mms/21500692",
+        "http://id.who.int/icd/release/11/2024-01/mms/1296093776",
+        "http://id.who.int/icd/release/11/2024-01/mms/426429380",
+        "http://id.who.int/icd/release/11/2024-01/mms/1473673350",
+        "http://id.who.int/icd/release/11/2024-01/mms/223744320",
+        "http://id.who.int/icd/release/11/2024-01/mms/435227771"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Flaccid hemiplegia"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is a severe or complete loss of motor function on one side of the body with limp and relaxed muscles."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Flaccid hemiplegia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "flaccid hemiplegia affecting unspecified side"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Flaccid hemiplegia of dominant side"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1019205379"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Flaccid hemiplegia of non-dominant side"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1509169815"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Flaccid hemiplegia of unspecified side"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1467194433"
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1912868366",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/895465736"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1912868366",
+  "code": "5B11",
+  "source": "http://id.who.int/icd/entity/1912868366",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Short stature due to growth hormone resistance"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/176353068",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/768216194"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1912868366/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1786398813"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Short stature, not elsewhere classified"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Progeria"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/926151882",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1520135105"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Silver-Russell syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/735297495",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1106405864"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "short-limbed stature with immunodeficiency"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/963193284",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/963193284"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "short stature hypochondroplastic"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1930265486",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1930265486"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "short stature achondroplastic"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/24224082",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/24224082"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "renal short stature"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1017718945",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/412389819"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pituitary related short stature"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/768216194",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/768216194"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1156263785"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Short stature, not elsewhere classified"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "short stature NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dwarfism"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "dwarf"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "nanism"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "nanosomia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "infantile dwarfism"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dwarfism, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1651046196"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Psychosocial short stature"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2088216390"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "psychosocial dwarfism"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2088216390"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital dwarfism, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/479733005"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "congenital dwarf"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/479733005"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Constitutional short stature"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1284044468"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "constitutional dwarfism"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1284044468"
+    }
+  ]
+}

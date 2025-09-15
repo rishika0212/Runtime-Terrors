@@ -1,0 +1,66 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/27916616",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1472181647"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#27916616",
+  "code": "NE82.22",
+  "source": "http://id.who.int/icd/entity/27916616",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/27916616/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/741790660",
+        "http://id.who.int/icd/release/11/2024-01/mms/431804121"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Pacemaker or implantable cardioverter defibrillator lead insulation break"
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/59436623"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pacemaker or implantable cardioverter defibrillator lead insulation break"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pacemaker or implantable cardioverter defibrillator atrial insulation break"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/780481310"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pacemaker ventricular lead insulation break"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2070770979"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Implantable cardioverter defibrillator ventricular lead insulation break"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2010341126"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pacemaker or implantable cardioverter defibrillator coronary sinus lead insulation break"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1443112072"
+    }
+  ]
+}

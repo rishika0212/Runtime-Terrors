@@ -1,0 +1,58 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2099186145",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1296696944"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2051676830",
+    "http://id.who.int/icd/release/11/2024-01/mms/38062438",
+    "http://id.who.int/icd/release/11/2024-01/mms/435889652",
+    "http://id.who.int/icd/release/11/2024-01/mms/2099186145/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/2099186145/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2099186145",
+  "code": "BB20",
+  "source": "http://id.who.int/icd/entity/2099186145",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2099186145/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/749596428",
+        "http://id.who.int/icd/release/11/2024-01/mms/572581721",
+        "http://id.who.int/icd/release/11/2024-01/mms/155258022",
+        "http://id.who.int/icd/release/11/2024-01/mms/576319925"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acute pericarditis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Acute pericarditis is defined as pericardial inflammation of no more than 1 to 2 weeks duration."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute pericardial effusion"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute rheumatic pericarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/869759708",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/869759708"
+    }
+  ]
+}

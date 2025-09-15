@@ -1,0 +1,87 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1838213761",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/585064432"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1275309968",
+    "http://id.who.int/icd/release/11/2024-01/mms/850474319",
+    "http://id.who.int/icd/release/11/2024-01/mms/372861747",
+    "http://id.who.int/icd/release/11/2024-01/mms/2082014966",
+    "http://id.who.int/icd/release/11/2024-01/mms/1742176750",
+    "http://id.who.int/icd/release/11/2024-01/mms/1700220656",
+    "http://id.who.int/icd/release/11/2024-01/mms/1586348950",
+    "http://id.who.int/icd/release/11/2024-01/mms/938154534",
+    "http://id.who.int/icd/release/11/2024-01/mms/1838213761/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1838213761/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1838213761",
+  "code": "GA10",
+  "source": "http://id.who.int/icd/entity/1838213761",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Salpingitis isthmica nodosa"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1586025352",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1586025352"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1838213761/postcoordinationScale/relational",
+      "axisName": "http://id.who.int/icd/schema/relational",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1013312453",
+        "http://id.who.int/icd/release/11/2024-01/mms/423444880"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1838213761/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/143777109",
+        "http://id.who.int/icd/release/11/2024-01/mms/2055915829",
+        "http://id.who.int/icd/release/11/2024-01/mms/1924631190",
+        "http://id.who.int/icd/release/11/2024-01/mms/687250607",
+        "http://id.who.int/icd/release/11/2024-01/mms/831985561",
+        "http://id.who.int/icd/release/11/2024-01/mms/1330482498"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1838213761/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1507624466",
+        "http://id.who.int/icd/release/11/2024-01/mms/1290701352"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1838213761/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1408531118",
+        "http://id.who.int/icd/release/11/2024-01/mms/279160930"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Endometriosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition of the uterus that is frequently idiopathic. This condition is characterised by ectopic growth and function of endometrial tissue outside the uterine cavity. This condition may be associated with remaining vestigial tissue from the wolffian or mullerian duct, or fragments endometrium refluxed backward into the peritoneal cavity during menstruation. This condition may also present with dysmenorrhoea, dyspareunia, nonmenstrual pelvic pain, infertility, alteration of menses, or may be asymptomatic. Confirmation is by laparoscopy and histological identification of ectopic fragments."
+  }
+}

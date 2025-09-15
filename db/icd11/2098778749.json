@@ -1,0 +1,81 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2098778749",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/446305135"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2098778749",
+  "code": "DB32.0",
+  "source": "http://id.who.int/icd/entity/2098778749",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2098778749/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2098778749/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Pseudo-obstruction of colon"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Colonic pseudo-obstruction is a rare condition with symptoms of decreased ability of the colon to push fluid, food and air through like those caused by a colonic obstruction, or blockage. The clinical and radiological findings are often similar to true obstruction, but no true mechanical blockage is found. The symptoms generally includes dyspepsia, chronic constipation and, in the moments where appear abdominal colic. Ogilvie syndrome: acute pseudoobstruction of the colon in severely ill debilitated patients is included here as acute form."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pseudo-obstruction of colon"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bowel pseudo-obstruction"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute pseudo-obstruction of colon"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/468327011"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ogilvie syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/468327011"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic pseudo-obstruction of colon"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1250685699"
+    }
+  ]
+}

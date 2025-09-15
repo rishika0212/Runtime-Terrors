@@ -1,0 +1,44 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2145753518",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/384289569"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/557338504",
+    "http://id.who.int/icd/release/11/2024-01/mms/209464984",
+    "http://id.who.int/icd/release/11/2024-01/mms/2047715743",
+    "http://id.who.int/icd/release/11/2024-01/mms/629477838",
+    "http://id.who.int/icd/release/11/2024-01/mms/2145753518/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/2145753518/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2145753518",
+  "code": "8A02",
+  "source": "http://id.who.int/icd/entity/2145753518",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2145753518/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2019368323"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Dystonic disorders"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "athetoid cerebral palsy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/812740125",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/812740125"
+    }
+  ]
+}

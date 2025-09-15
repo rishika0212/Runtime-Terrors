@@ -1,0 +1,59 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1942770042",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/762797224"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1942770042",
+  "code": "FC01.A",
+  "source": "http://id.who.int/icd/entity/1942770042",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1942770042/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/183512318",
+        "http://id.who.int/icd/release/11/2024-01/mms/1415462031"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1942770042/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/460401849",
+        "http://id.who.int/icd/release/11/2024-01/mms/1642025150",
+        "http://id.who.int/icd/release/11/2024-01/mms/1162198017",
+        "http://id.who.int/icd/release/11/2024-01/mms/431804121"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Postsurgical malabsorption osteoporosis"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postsurgical malabsorption osteoporosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "post-surgical malabsorption osteoporosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "postprocedural malabsorption osteoporosis"
+      }
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1669303982",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/558785723"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/734504411",
+    "http://id.who.int/icd/release/11/2024-01/mms/1798390433",
+    "http://id.who.int/icd/release/11/2024-01/mms/884151944",
+    "http://id.who.int/icd/release/11/2024-01/mms/1910441093",
+    "http://id.who.int/icd/release/11/2024-01/mms/789379606",
+    "http://id.who.int/icd/release/11/2024-01/mms/1486758389",
+    "http://id.who.int/icd/release/11/2024-01/mms/225981844",
+    "http://id.who.int/icd/release/11/2024-01/mms/1301205742",
+    "http://id.who.int/icd/release/11/2024-01/mms/1260776611",
+    "http://id.who.int/icd/release/11/2024-01/mms/728620698",
+    "http://id.who.int/icd/release/11/2024-01/mms/174474279",
+    "http://id.who.int/icd/release/11/2024-01/mms/2024424767",
+    "http://id.who.int/icd/release/11/2024-01/mms/1756963641",
+    "http://id.who.int/icd/release/11/2024-01/mms/417494788",
+    "http://id.who.int/icd/release/11/2024-01/mms/1363622909",
+    "http://id.who.int/icd/release/11/2024-01/mms/1669303982/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1669303982/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1669303982",
+  "code": "PL14",
+  "source": "http://id.who.int/icd/entity/1669303982",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1669303982/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1435254666",
+        "http://id.who.int/icd/release/11/2024-01/mms/1766440644",
+        "http://id.who.int/icd/release/11/2024-01/mms/1954798891",
+        "http://id.who.int/icd/release/11/2024-01/mms/21500692",
+        "http://id.who.int/icd/release/11/2024-01/mms/334423054",
+        "http://id.who.int/icd/release/11/2024-01/mms/274880002",
+        "http://id.who.int/icd/release/11/2024-01/mms/1296093776",
+        "http://id.who.int/icd/release/11/2024-01/mms/868865918",
+        "http://id.who.int/icd/release/11/2024-01/mms/1218729044",
+        "http://id.who.int/icd/release/11/2024-01/mms/426429380",
+        "http://id.who.int/icd/release/11/2024-01/mms/197934298",
+        "http://id.who.int/icd/release/11/2024-01/mms/1256772020",
+        "http://id.who.int/icd/release/11/2024-01/mms/1639304259",
+        "http://id.who.int/icd/release/11/2024-01/mms/1473673350",
+        "http://id.who.int/icd/release/11/2024-01/mms/30659757",
+        "http://id.who.int/icd/release/11/2024-01/mms/714000734",
+        "http://id.who.int/icd/release/11/2024-01/mms/1306203631",
+        "http://id.who.int/icd/release/11/2024-01/mms/1843895818",
+        "http://id.who.int/icd/release/11/2024-01/mms/435227771",
+        "http://id.who.int/icd/release/11/2024-01/mms/2024436666"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Mode of injury or harm associated with other health care related causes"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mode of injury or harm associated with a surgical or other medical device, implant or graft"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/431804121",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/431804121"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mode of injury or harm associated with a surgical or other medical procedure"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1162198017",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1162198017"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mode of injury or harm associated with exposure to a drug, medicament or biological substance"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1323892810",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1323892810"
+    }
+  ],
+  "codingNote": {
+    "@language": "en",
+    "@value": "Code first the injury or harm associated with other health care interventions. Code also the cause of harm (i.e. PL10 Other health care related causes of injury or harm)"
+  }
+}

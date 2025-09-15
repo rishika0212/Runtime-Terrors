@@ -1,0 +1,45 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/697911710",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1946973604"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#697911710",
+  "code": "2A81.9",
+  "source": "http://id.who.int/icd/entity/697911710",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/697911710/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Primary effusion lymphoma"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "An aggressive non-Hodgkin B-cell lymphoma composed of large cells, presenting as a serous effusion without detectable tumour masses. It is universally associated with human herpes virus 8 (HHV-8)/Kaposi sarcoma herpes virus (KSHV) [HHV-8/KSHV]. It mostly occurs in the setting of immunodeficiency; most cases have been reported in HIV positive patients. The most common sites of involvement are the pleural, pericardial, and peritoneal cavities. The prognosis is extremely unfavorable."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary effusion lymphoma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary effusion lymphoma associated with the human immune deficiency virus infection"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/945945187"
+    }
+  ]
+}

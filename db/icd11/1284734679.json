@@ -1,0 +1,62 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1284734679",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/750435296"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/541009954",
+    "http://id.who.int/icd/release/11/2024-01/mms/1007532677",
+    "http://id.who.int/icd/release/11/2024-01/mms/788089417",
+    "http://id.who.int/icd/release/11/2024-01/mms/1284734679/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1284734679/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1284734679",
+  "code": "LA14",
+  "source": "http://id.who.int/icd/entity/1284734679",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1284734679/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1284734679/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1142633691",
+        "http://id.who.int/icd/release/11/2024-01/mms/28784496",
+        "http://id.who.int/icd/release/11/2024-01/mms/629756149",
+        "http://id.who.int/icd/release/11/2024-01/mms/822296309"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Structural developmental anomalies of eyelid, lacrimal apparatus or orbit"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Any condition caused by failure of the eyelid lacrimal apparatus and orbit to correctly develop during the antenatal period."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cryptophthalmos NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1342802999",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1342802999"
+    }
+  ]
+}

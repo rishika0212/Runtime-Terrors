@@ -1,0 +1,61 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/162723448",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/344162786"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#162723448",
+  "code": "1A03.3",
+  "source": "http://id.who.int/icd/entity/162723448",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/162723448/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/916407020"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Enterohaemorrhagic Escherichia coli infection"
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Escherichia coli infection caused by Enterohaemorrhagic E coli (EHEC) strains which produces toxins, known as verotoxins or Shiga-like toxins because of their similarity to the toxins produced by Shigella dysenteriae. Symptoms of the diseases caused by EHEC include abdominal cramps and diarrhoea that may in some cases progress to bloody diarrhoea (haemorrhagic colitis). Fever and vomiting may also occur."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/911707612"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Enterohaemorrhagic Escherichia coli infection"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "EHEC - [Enterohaemorrhagic Escherichia coli] infection"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Enteritis in enterohaemorrhagic Escherichia coli infection"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/931582784"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Colitis in enterohaemorrhagic Escherichia coli infection"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/525060016"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2110009016",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1766185236"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2110009016",
+  "code": "2D11.1",
+  "source": "http://id.who.int/icd/entity/2110009016",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2110009016/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2110009016/postcoordinationScale/histopathology",
+      "axisName": "http://id.who.int/icd/schema/histopathology",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/303101971",
+        "http://id.who.int/icd/release/11/2024-01/mms/1305029706",
+        "http://id.who.int/icd/release/11/2024-01/mms/863745687",
+        "http://id.who.int/icd/release/11/2024-01/mms/1019362821",
+        "http://id.who.int/icd/release/11/2024-01/mms/1195674406",
+        "http://id.who.int/icd/release/11/2024-01/mms/1147792036",
+        "http://id.who.int/icd/release/11/2024-01/mms/190915121",
+        "http://id.who.int/icd/release/11/2024-01/mms/351783813",
+        "http://id.who.int/icd/release/11/2024-01/mms/511339753",
+        "http://id.who.int/icd/release/11/2024-01/mms/1042591397",
+        "http://id.who.int/icd/release/11/2024-01/mms/2030981466",
+        "http://id.who.int/icd/release/11/2024-01/mms/1009239701",
+        "http://id.who.int/icd/release/11/2024-01/mms/925095993",
+        "http://id.who.int/icd/release/11/2024-01/mms/2087943684",
+        "http://id.who.int/icd/release/11/2024-01/mms/655145247",
+        "http://id.who.int/icd/release/11/2024-01/mms/1942681234",
+        "http://id.who.int/icd/release/11/2024-01/mms/1111647054"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2110009016/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Malignant phaeochromocytoma of adrenal gland"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant phaeochromocytoma of adrenal gland"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant pheochromocytoma of unspecified site"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/13623914"
+    }
+  ]
+}

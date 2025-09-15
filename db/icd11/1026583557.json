@@ -1,0 +1,333 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1026583557",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1970232596"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1026583557",
+  "code": "FA31.1",
+  "source": "http://id.who.int/icd/entity/1026583557",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1026583557/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1026583557/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/672187873",
+        "http://id.who.int/icd/release/11/2024-01/mms/805764304",
+        "http://id.who.int/icd/release/11/2024-01/mms/223741850",
+        "http://id.who.int/icd/release/11/2024-01/mms/319259361"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Varus deformity, not elsewhere classified"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Metatarsus varus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/456529122",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/456529122"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "tibia vara"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1962183797",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1446309782"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Varus deformity, not elsewhere classified"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Varus deformity, not elsewhere classified, multiple sites"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/532808812"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Varus deformity, not elsewhere classified, shoulder region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2055850490"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Varus deformity, not elsewhere classified, acromioclavicular joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/634435510"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Varus deformity, not elsewhere classified, glenohumeral joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1625578650"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Varus deformity, not elsewhere classified, sternoclavicular joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1512256170"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Varus deformity, not elsewhere classified, upper arm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/237279495"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Varus deformity, not elsewhere classified, elbow joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2133983026"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acquired varus deformity of the elbow"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2133983026"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Varus deformity, not elsewhere classified, forearm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1802458259"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acquired cubitus varus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1802458259"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "gunstock deformity"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1802458259"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Varus deformity, not elsewhere classified, wrist joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/280985683"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Varus deformity, not elsewhere classified, hand"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/411158279"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Varus deformity, not elsewhere classified, carpus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1977061172"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Varus deformity, not elsewhere classified, fingers"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/545096171"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Varus deformity, not elsewhere classified, metacarpus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/991213185"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Varus deformity, not elsewhere classified, pelvic region or thigh"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2110392979"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Varus deformity, not elsewhere classified, hip joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1443872917"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acquired coxa vara"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1443872917"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acquired varus deformity of hip joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1443872917"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "coxa vara"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1443872917"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Varus deformity, not elsewhere classified, lower leg"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/157768302"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acquired genu varum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/157768302"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acquired bow leg"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/157768302"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acquired bowleg"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/157768302"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bowleg"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/157768302"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bowlegged"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/157768302"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "genu varum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/157768302"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "genu varus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/157768302"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Varus deformity, not elsewhere classified, knee joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1754890372"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acquired varus deformity of knee"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1754890372"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "genu extrorsum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1754890372"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Varus deformity, not elsewhere classified, ankle or foot"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1814861816"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Varus deformity, not elsewhere classified, metatarsus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/671163743"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Varus deformity, not elsewhere classified, tarsus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1474297554"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Varus deformity, not elsewhere classified, toes"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/160699955"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Varus deformity, not elsewhere classified, ankle joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1214272908"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Varus deformity, not elsewhere classified, other joints in foot"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/935235077"
+    }
+  ]
+}

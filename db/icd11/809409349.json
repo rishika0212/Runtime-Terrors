@@ -1,0 +1,58 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/809409349",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/306138025"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1664143745",
+    "http://id.who.int/icd/release/11/2024-01/mms/1388536957",
+    "http://id.who.int/icd/release/11/2024-01/mms/1830035363",
+    "http://id.who.int/icd/release/11/2024-01/mms/609865692",
+    "http://id.who.int/icd/release/11/2024-01/mms/644756612",
+    "http://id.who.int/icd/release/11/2024-01/mms/969362921",
+    "http://id.who.int/icd/release/11/2024-01/mms/809409349/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/809409349/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#809409349",
+  "code": "GA14",
+  "source": "http://id.who.int/icd/entity/809409349",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postoperative adhesions of vagina"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/550586803",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/550586803"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Prolapse of vaginal vault after hysterectomy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1167754279",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1167754279"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/809409349/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1145498957"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acquired abnormalities of vagina"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Any condition of the vagina, caused by determinants arising after birth. These conditions are characterised by pathological changes to the vagina."
+  }
+}

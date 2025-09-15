@@ -1,0 +1,146 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/807058764",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/746680558"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#807058764",
+  "code": "1B12.3",
+  "source": "http://id.who.int/icd/entity/807058764",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculous Addison disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/53170779",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/807058764"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/807058764/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/294069435",
+        "http://id.who.int/icd/release/11/2024-01/mms/485621173",
+        "http://id.who.int/icd/release/11/2024-01/mms/72373228"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/807058764/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1920929898"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/807058764/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/672063490"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Tuberculosis of endocrine glands"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Infection of endocrine glands by Mycobacterium tuberculosis with resultant endocrine disturbances including adrenal or pituitary failure."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculosis of adrenal glands"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1374184880"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculosis of thyroid gland"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/735238230"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculosis of pituitary gland"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/620884884"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1240824451"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/576751653"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculosis of endocrine glands"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculosis of adrenal glands"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1374184880"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "adrenal gland tuberculosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1374184880"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "tuberculosis of adrenal glands, unspecified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1374184880"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculous Addison disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/53170779"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Addison disease due to tuberculosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/53170779"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculosis of thyroid gland"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/735238230"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculosis of pituitary gland"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/620884884"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/236011795",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/357208479"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#236011795",
+  "code": "9B73.4",
+  "source": "http://id.who.int/icd/entity/236011795",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/236011795/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Retinal breaks without detachment"
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Horseshoe tear of retina without detachment"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2064396484"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Round hole of retina without detachment"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/262234171"
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chorioretinal scars after surgery for detachment"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1945349523",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1945349523"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "peripheral retinal degeneration without break"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1518234440",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1518234440"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Retinal breaks without detachment"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Retinal break NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ruptured retina"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Horseshoe tear of retina without detachment"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2064396484"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Round hole of retina without detachment"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/262234171"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "retinal hole"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/262234171"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hole in retina"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/262234171"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "retinal round hole"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/262234171"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Multiple defects of retina without detachment"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1793764783"
+    }
+  ]
+}

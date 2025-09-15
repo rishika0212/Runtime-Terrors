@@ -1,0 +1,45 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/932942062",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1800910986"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#932942062",
+  "code": "KA8D",
+  "source": "http://id.who.int/icd/entity/932942062",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/932942062/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/381388700"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Transient neonatal neutropaenia"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Neonatal neutropaenia can be due to underproduction of the marrow (e.g. hypoxemia due to placental insufficiency, congenital viral disease) or excessive utilization of white blood cells (bacterial sepsis) or due to maternal transfer of antibodies to the fetus"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Transient neonatal neutropaenia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Transient neonatal neutropaenia due to neonatal bacterial sepsis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/723023126"
+    }
+  ]
+}

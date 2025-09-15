@@ -1,0 +1,64 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1012134223",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2020673786"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1012134223",
+  "code": "EK00.5",
+  "source": "http://id.who.int/icd/entity/1012134223",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1012134223/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/223243926",
+        "http://id.who.int/icd/release/11/2024-01/mms/947150833",
+        "http://id.who.int/icd/release/11/2024-01/mms/1810600222"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1012134223/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/56475710",
+        "http://id.who.int/icd/release/11/2024-01/mms/1991139272"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Allergic contact dermatitis due to industrial biocides, cutting oils or disinfectants"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Allergic contact dermatitis due to any of a large number of potential allergens used to prevent microbial contamination in industrial processes or in commercial, health care and other public environments. These allergens are of predominantly occupational relevance."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Allergic contact dermatitis due to industrial biocides, cutting oils or disinfectants"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupational allergic contact dermatitis due to industrial biocides, cutting oils or disinfectants"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2068599778"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nonoccupational allergic contact dermatitis due to industrial biocides, cutting oils or disinfectants"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2133701278"
+    }
+  ]
+}

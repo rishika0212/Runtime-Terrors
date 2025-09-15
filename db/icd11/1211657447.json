@@ -1,0 +1,97 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1211657447",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/415035569"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1211657447",
+  "code": "LD26.0",
+  "source": "http://id.who.int/icd/entity/1211657447",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1211657447/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1211657447/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/672187873",
+        "http://id.who.int/icd/release/11/2024-01/mms/805764304",
+        "http://id.who.int/icd/release/11/2024-01/mms/1810600222"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Combined reduction defects of upper and lower limbs"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Combined reduction defects of upper and lower limbs"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Femur-fibula-ulna complex"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/353892894"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bifid femur - monodactylous ectrodactyly"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/32698895"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gollop-Wolfgang complex"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/32698895"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fibular aplasia - ectrodactyly"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1707230506"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fibular aplasia - complex brachydactyly"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1776518998"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Du Pan syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1776518998"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tibial aplasia - ectrodactyly"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2105655762"
+    }
+  ]
+}

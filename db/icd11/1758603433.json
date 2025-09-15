@@ -1,0 +1,61 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1758603433",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/857829804"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1758603433",
+  "code": "9A03.20",
+  "source": "http://id.who.int/icd/entity/1758603433",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1758603433/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1758603433/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/844452979",
+        "http://id.who.int/icd/release/11/2024-01/mms/1468820019"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Cicatricial ectropion of eyelid"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cicatricial ectropion of eyelid"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cicatricial ectropion of upper eyelid"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/160098936"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cicatricial ectropion of lower eyelid"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2099755657"
+    }
+  ]
+}

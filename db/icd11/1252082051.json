@@ -1,0 +1,55 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1252082051",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/723430526"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2079767528",
+    "http://id.who.int/icd/release/11/2024-01/mms/1281727130",
+    "http://id.who.int/icd/release/11/2024-01/mms/1860585725",
+    "http://id.who.int/icd/release/11/2024-01/mms/1058599062",
+    "http://id.who.int/icd/release/11/2024-01/mms/1252082051/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1252082051/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1252082051",
+  "code": "BD73",
+  "source": "http://id.who.int/icd/entity/1252082051",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1252082051/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1252082051/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/821283472",
+        "http://id.who.int/icd/release/11/2024-01/mms/1832356831",
+        "http://id.who.int/icd/release/11/2024-01/mms/389580608",
+        "http://id.who.int/icd/release/11/2024-01/mms/929449332",
+        "http://id.who.int/icd/release/11/2024-01/mms/1725328867",
+        "http://id.who.int/icd/release/11/2024-01/mms/1381503063"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acquired systemic vein abnormality"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A postnatal pathological change in form or function of a systemic vein."
+  }
+}

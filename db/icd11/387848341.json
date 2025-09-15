@@ -1,0 +1,130 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/387848341",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1437411258"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#387848341",
+  "code": "DA60.3",
+  "source": "http://id.who.int/icd/entity/387848341",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/387848341/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1443934016",
+        "http://id.who.int/icd/release/11/2024-01/mms/1493524587"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/387848341/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/294460566",
+        "http://id.who.int/icd/release/11/2024-01/mms/985094335",
+        "http://id.who.int/icd/release/11/2024-01/mms/1794059753",
+        "http://id.who.int/icd/release/11/2024-01/mms/1472717853"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/387848341/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Stress ulcer of stomach"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Stress ulcers of stomach are acute mucosal lesions occurring in critically ill patients that may result in acute upper gastrointestinal bleeding. They are usually superficial erosions but can develop into ulcers. Stress ulcers of stomach may develop anywhere within the stomach but are more likely to occur in fundic mucosa, which lines the body and fundus of the stomach."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stress ulcer of stomach"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute curlings ulcer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1052344780"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute eroded curlings ulcer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1052344780"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute perforated curlings ulcer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1362361425"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute gastric stress ulcer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2048059267"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute perforated stress ulcer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1001660902"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute perforated stress gastric ulcer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1001660902"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Intensive care related gastric ulcer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1608922515"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute haemorrhagic stress ulcer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1630098741"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute perforated stress gastrooesophageal ulcer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/176193844"
+    }
+  ]
+}

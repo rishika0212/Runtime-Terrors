@@ -1,0 +1,105 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1153296343",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1517885800"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1153296343",
+  "code": "5B54",
+  "source": "http://id.who.int/icd/entity/1153296343",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1153296343/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/824927288",
+        "http://id.who.int/icd/release/11/2024-01/mms/76222516",
+        "http://id.who.int/icd/release/11/2024-01/mms/266601618",
+        "http://id.who.int/icd/release/11/2024-01/mms/1440218064",
+        "http://id.who.int/icd/release/11/2024-01/mms/561687345",
+        "http://id.who.int/icd/release/11/2024-01/mms/462621464",
+        "http://id.who.int/icd/release/11/2024-01/mms/48322409",
+        "http://id.who.int/icd/release/11/2024-01/mms/566804336",
+        "http://id.who.int/icd/release/11/2024-01/mms/560926494",
+        "http://id.who.int/icd/release/11/2024-01/mms/1509667156",
+        "http://id.who.int/icd/release/11/2024-01/mms/1399046120",
+        "http://id.who.int/icd/release/11/2024-01/mms/812634854",
+        "http://id.who.int/icd/release/11/2024-01/mms/675461815",
+        "http://id.who.int/icd/release/11/2024-01/mms/1428430704",
+        "http://id.who.int/icd/release/11/2024-01/mms/954411279",
+        "http://id.who.int/icd/release/11/2024-01/mms/286686329",
+        "http://id.who.int/icd/release/11/2024-01/mms/340003177"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1153296343/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/562478860",
+        "http://id.who.int/icd/release/11/2024-01/mms/1663264387",
+        "http://id.who.int/icd/release/11/2024-01/mms/1201187093"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Underweight in adults"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Body mass index (BMI) <18.5 kg/m²"
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1867773640"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/517413026"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Underweight in adults"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Thinness in adults"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mild thinness in adults"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1026716561"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Moderate thinness in adults"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/122696113"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Severe thinness in adults"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1755417368"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "marasmus in adults"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1755417368"
+    }
+  ]
+}

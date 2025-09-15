@@ -1,0 +1,84 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2053072995",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/96676503"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2053072995",
+  "code": "8D40.1",
+  "source": "http://id.who.int/icd/entity/2053072995",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2053072995/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/425464783"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2053072995/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1517885800",
+        "http://id.who.int/icd/release/11/2024-01/mms/1492142148",
+        "http://id.who.int/icd/release/11/2024-01/mms/1671987290/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/1671987290/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Neuropathy due to nutritional deficiency"
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/564191997"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neuropathy due to nutritional deficiency"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sensory polyneuropathy due to vitamin E deficiency"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1642989368"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cranial neuropathy due to micronutrient deficiency"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1597006455"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Optic neuropathy due to other specified micronutrient deficiencies"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1680265417"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Other cranial neuropathy due to specified micronutrient deficiency"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1269061577"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Peripheral neuropathy due to multiple micronutrient deficiencies"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1365839560"
+    }
+  ]
+}

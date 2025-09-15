@@ -1,0 +1,79 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/504149995",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1323892810"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#504149995",
+  "code": "PL13.7",
+  "source": "http://id.who.int/icd/entity/504149995",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/504149995/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1435254666",
+        "http://id.who.int/icd/release/11/2024-01/mms/1766440644",
+        "http://id.who.int/icd/release/11/2024-01/mms/1954798891",
+        "http://id.who.int/icd/release/11/2024-01/mms/21500692",
+        "http://id.who.int/icd/release/11/2024-01/mms/334423054",
+        "http://id.who.int/icd/release/11/2024-01/mms/274880002",
+        "http://id.who.int/icd/release/11/2024-01/mms/1296093776",
+        "http://id.who.int/icd/release/11/2024-01/mms/868865918",
+        "http://id.who.int/icd/release/11/2024-01/mms/1218729044",
+        "http://id.who.int/icd/release/11/2024-01/mms/426429380",
+        "http://id.who.int/icd/release/11/2024-01/mms/197934298",
+        "http://id.who.int/icd/release/11/2024-01/mms/1256772020",
+        "http://id.who.int/icd/release/11/2024-01/mms/1639304259",
+        "http://id.who.int/icd/release/11/2024-01/mms/1473673350",
+        "http://id.who.int/icd/release/11/2024-01/mms/30659757",
+        "http://id.who.int/icd/release/11/2024-01/mms/714000734",
+        "http://id.who.int/icd/release/11/2024-01/mms/1306203631",
+        "http://id.who.int/icd/release/11/2024-01/mms/1843895818",
+        "http://id.who.int/icd/release/11/2024-01/mms/435227771",
+        "http://id.who.int/icd/release/11/2024-01/mms/1583926619"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Medication or substance that is known to be contraindicated for the patient, as mode of injury or harm"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Medication or substance that is known to be an allergen, as mode of injury or harm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/351379734",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/351379734"
+    }
+  ],
+  "codingNote": {
+    "@language": "en",
+    "@value": "Code first the injury or harm associated with the drug, medicament or substance. Code also the cause of harm which identifies the substance."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Medication or substance that is known to be contraindicated for the patient, as mode of injury or harm"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "medication error relating to known contraindication of a drug for the patient"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "adverse drug event relating to known contraindication of a drug for the patient"
+      }
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/17912993",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1293213417"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1810710745",
+    "http://id.who.int/icd/release/11/2024-01/mms/524292134",
+    "http://id.who.int/icd/release/11/2024-01/mms/2047598004",
+    "http://id.who.int/icd/release/11/2024-01/mms/17912993/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#17912993",
+  "code": "MD81.1",
+  "source": "http://id.who.int/icd/entity/17912993",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/17912993/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1983193090"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Localised abdominal pain"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic primary visceral pain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/679352876",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/679352876"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic secondary visceral pain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/446969214",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/446969214"
+    }
+  ]
+}

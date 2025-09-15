@@ -1,0 +1,74 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1277122723",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/531713107"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1958429829",
+    "http://id.who.int/icd/release/11/2024-01/mms/1700649456",
+    "http://id.who.int/icd/release/11/2024-01/mms/1447034",
+    "http://id.who.int/icd/release/11/2024-01/mms/2079528867",
+    "http://id.who.int/icd/release/11/2024-01/mms/1277122723/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1277122723/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1277122723",
+  "code": "2E61",
+  "source": "http://id.who.int/icd/entity/1277122723",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1277122723/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1928625572",
+        "http://id.who.int/icd/release/11/2024-01/mms/1741413713",
+        "http://id.who.int/icd/release/11/2024-01/mms/704682604",
+        "http://id.who.int/icd/release/11/2024-01/mms/616736219",
+        "http://id.who.int/icd/release/11/2024-01/mms/532265365"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1277122723/postcoordinationScale/histopathology",
+      "axisName": "http://id.who.int/icd/schema/histopathology",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1395468571",
+        "http://id.who.int/icd/release/11/2024-01/mms/522986416",
+        "http://id.who.int/icd/release/11/2024-01/mms/1324810543",
+        "http://id.who.int/icd/release/11/2024-01/mms/1370766919",
+        "http://id.who.int/icd/release/11/2024-01/mms/710558848",
+        "http://id.who.int/icd/release/11/2024-01/mms/1494848434",
+        "http://id.who.int/icd/release/11/2024-01/mms/682879579",
+        "http://id.who.int/icd/release/11/2024-01/mms/602786424",
+        "http://id.who.int/icd/release/11/2024-01/mms/136153868"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1277122723/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Carcinoma in situ of other or unspecified digestive organs"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Melanoma in situ neoplasms"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1576650184",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1576650184"
+    }
+  ]
+}

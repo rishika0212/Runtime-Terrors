@@ -1,0 +1,65 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/554838792",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1693512470"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#554838792",
+  "code": "9B78.0",
+  "source": "http://id.who.int/icd/entity/554838792",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "HERNS syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1626733763",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1106405864/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/554838792/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Retinal vasculopathy and cerebral leukodystrophy"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Retinal vasculopathy and cerebral leukodystrophy is an inherited group of small vessel diseases comprised of cerebroretinal vasculopathy, hereditary vascular retinopathy and hereditary endotheliopathy with retinopathy, nephropathy and stroke (HERNS); all exhibiting progressive visual impairment as well as variable cerebral dysfunction."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Retinal vasculopathy and cerebral leukodystrophy"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cerebroretinal vasculopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/59898211"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hereditary vascular retinopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/872601629"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1978381958",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/531713107"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1978381958",
+  "code": "2E6B",
+  "source": "http://id.who.int/icd/entity/1978381958",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1978381958/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/294069435",
+        "http://id.who.int/icd/release/11/2024-01/mms/485621173",
+        "http://id.who.int/icd/release/11/2024-01/mms/1963131822",
+        "http://id.who.int/icd/release/11/2024-01/mms/72373228"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1978381958/postcoordinationScale/histopathology",
+      "axisName": "http://id.who.int/icd/schema/histopathology",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1395468571",
+        "http://id.who.int/icd/release/11/2024-01/mms/522986416",
+        "http://id.who.int/icd/release/11/2024-01/mms/1324810543",
+        "http://id.who.int/icd/release/11/2024-01/mms/1370766919",
+        "http://id.who.int/icd/release/11/2024-01/mms/710558848",
+        "http://id.who.int/icd/release/11/2024-01/mms/1494848434",
+        "http://id.who.int/icd/release/11/2024-01/mms/682879579",
+        "http://id.who.int/icd/release/11/2024-01/mms/602786424",
+        "http://id.who.int/icd/release/11/2024-01/mms/136153868"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1978381958/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Carcinoma in situ of thyroid and other endocrine glands"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Carcinoma in situ of ovary"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/664251835",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/664251835"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Carcinoma in situ of testis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1168089926",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1168089926"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Carcinoma in situ of thyroid and other endocrine glands"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "carcinoma in situ of thyroid gland"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Carcinoma in situ of pituitary gland"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1076031454"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Carcinoma in situ of adrenal gland"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1148879218"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "carcinoma in situ of adrenal medulla"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1148879218"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "carcinoma in situ of adrenal cortex"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1148879218"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Carcinoma in situ of craniopharyngeal duct"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1705900796"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Carcinoma in situ of parathyroid gland"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/12250423"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Carcinoma in situ of thyroglossal duct"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1248064204"
+    }
+  ]
+}

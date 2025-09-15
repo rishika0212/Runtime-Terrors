@@ -1,0 +1,82 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/741790660",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2009835434"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/36974655",
+    "http://id.who.int/icd/release/11/2024-01/mms/2027865166",
+    "http://id.who.int/icd/release/11/2024-01/mms/388988647",
+    "http://id.who.int/icd/release/11/2024-01/mms/1928647508",
+    "http://id.who.int/icd/release/11/2024-01/mms/484956725",
+    "http://id.who.int/icd/release/11/2024-01/mms/190565750",
+    "http://id.who.int/icd/release/11/2024-01/mms/297022236",
+    "http://id.who.int/icd/release/11/2024-01/mms/741790660/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/741790660/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#741790660",
+  "code": "PK91.1",
+  "source": "http://id.who.int/icd/entity/741790660",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Extracorporeal life support procedure associated with injury or harm in therapeutic use"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1537795472",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1537795472"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/741790660/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1435254666",
+        "http://id.who.int/icd/release/11/2024-01/mms/1766440644",
+        "http://id.who.int/icd/release/11/2024-01/mms/1954798891",
+        "http://id.who.int/icd/release/11/2024-01/mms/21500692",
+        "http://id.who.int/icd/release/11/2024-01/mms/334423054",
+        "http://id.who.int/icd/release/11/2024-01/mms/274880002",
+        "http://id.who.int/icd/release/11/2024-01/mms/1296093776",
+        "http://id.who.int/icd/release/11/2024-01/mms/868865918",
+        "http://id.who.int/icd/release/11/2024-01/mms/1218729044",
+        "http://id.who.int/icd/release/11/2024-01/mms/426429380",
+        "http://id.who.int/icd/release/11/2024-01/mms/197934298",
+        "http://id.who.int/icd/release/11/2024-01/mms/1256772020",
+        "http://id.who.int/icd/release/11/2024-01/mms/1639304259",
+        "http://id.who.int/icd/release/11/2024-01/mms/1473673350",
+        "http://id.who.int/icd/release/11/2024-01/mms/30659757",
+        "http://id.who.int/icd/release/11/2024-01/mms/714000734",
+        "http://id.who.int/icd/release/11/2024-01/mms/1306203631",
+        "http://id.who.int/icd/release/11/2024-01/mms/1843895818",
+        "http://id.who.int/icd/release/11/2024-01/mms/435227771",
+        "http://id.who.int/icd/release/11/2024-01/mms/1281022650",
+        "http://id.who.int/icd/release/11/2024-01/mms/40498080",
+        "http://id.who.int/icd/release/11/2024-01/mms/431804121"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Cardiovascular devices associated with injury or harm, therapeutic, nonsurgical or rehabilitative devices"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Circumstances associated with a surgical or other medical device influencing the episode of care without injury or harm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1628956058",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1628956058"
+    }
+  ],
+  "codingNote": {
+    "@language": "en",
+    "@value": "Code first injury or harm associated with the device. Code also the mode or mechanism that explains the main way the cause leads to injury or harm."
+  }
+}

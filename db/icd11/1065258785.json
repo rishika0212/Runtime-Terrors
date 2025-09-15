@@ -1,0 +1,56 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1065258785",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1582541971"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1065258785",
+  "code": "2B6B.21",
+  "source": "http://id.who.int/icd/entity/1065258785",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1065258785/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1065258785/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1409966790",
+        "http://id.who.int/icd/release/11/2024-01/mms/896293199",
+        "http://id.who.int/icd/release/11/2024-01/mms/1094217460",
+        "http://id.who.int/icd/release/11/2024-01/mms/238069351"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1065258785/postcoordinationScale/hasAlternativeSeverity2",
+      "axisName": "http://id.who.int/icd/schema/hasAlternativeSeverity2",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/146631584",
+        "http://id.who.int/icd/release/11/2024-01/mms/36752588"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Other or unspecified malignant epithelial neoplasm of pharyngeal tonsil"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Other or unspecified malignant epithelial neoplasm of pharyngeal tonsil"
+      }
+    }
+  ]
+}

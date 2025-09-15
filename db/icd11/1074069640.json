@@ -1,0 +1,95 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1074069640",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1297512293"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1074069640",
+  "code": "CB03.4",
+  "source": "http://id.who.int/icd/entity/1074069640",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1074069640/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1074069640/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/459275392"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Idiopathic pulmonary fibrosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Idiopathic pulmonary fibrosis (IPF) is defined as a specific form of chronic, progressive fibrosing interstitial pneumonia (pneumonitis) of unknown cause, occurring primarily in older adults, limited to the lungs, and associated with the histopathologic and/or radiologic pattern of UIP. The definition of IPF requires the exclusion of other forms of interstitial pneumonia (pneumonitis) including other idiopathic interstitial pneumonias (pneumonitis) and Interstitial Lung Disease (ILD) associated with environmental exposure, medication, or systemic disease."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/923122941"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Idiopathic pulmonary fibrosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "interstitial pulmonary fibrosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "IPF - [Idiopathic pulmonary fibrosis]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "idiopathic lung fibrosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "fibrosing lung disease"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pulmonary fibrosis NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "fibrosing pneumonitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "fibrosing alveolitis"
+      }
+    }
+  ]
+}

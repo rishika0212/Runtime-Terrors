@@ -1,0 +1,470 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1061366491",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2078467774"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1061366491",
+  "code": "5D00.0",
+  "source": "http://id.who.int/icd/entity/1061366491",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Isolated cerebral amyloid angiopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1502610635",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1502610635"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1061366491/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/143777109",
+        "http://id.who.int/icd/release/11/2024-01/mms/1196650747",
+        "http://id.who.int/icd/release/11/2024-01/mms/1338477196",
+        "http://id.who.int/icd/release/11/2024-01/mms/1651798887",
+        "http://id.who.int/icd/release/11/2024-01/mms/328366540",
+        "http://id.who.int/icd/release/11/2024-01/mms/223741850",
+        "http://id.who.int/icd/release/11/2024-01/mms/319259361",
+        "http://id.who.int/icd/release/11/2024-01/mms/687250607"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1061366491/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/499924848",
+        "http://id.who.int/icd/release/11/2024-01/mms/1766776408",
+        "http://id.who.int/icd/release/11/2024-01/mms/2092047168",
+        "http://id.who.int/icd/release/11/2024-01/mms/282555450",
+        "http://id.who.int/icd/release/11/2024-01/mms/647013871",
+        "http://id.who.int/icd/release/11/2024-01/mms/658360080",
+        "http://id.who.int/icd/release/11/2024-01/mms/425464783"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1061366491/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/45411563",
+        "http://id.who.int/icd/release/11/2024-01/mms/526287100",
+        "http://id.who.int/icd/release/11/2024-01/mms/1811140613",
+        "http://id.who.int/icd/release/11/2024-01/mms/1742380769",
+        "http://id.who.int/icd/release/11/2024-01/mms/2048216430",
+        "http://id.who.int/icd/release/11/2024-01/mms/1953986082",
+        "http://id.who.int/icd/release/11/2024-01/mms/2058944823"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "AL amyloidosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "AL amyloid is due to the deposition of immunoglobulin light chains in glomeruli where they are seen as Congo red binding fibrils and immuno-stain specifically for kappa or lambda light chains. By light microscopy there is amorphous hyaline material in the mesangium and capillary walls. A light chain producing plasma cell or B-cell dysplasia is responsible. Other organs are also involved in this systemic disease."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1154068795"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "AL amyloidosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary amyloidosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Immunoglobulinic amyloidosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Amyloid AL"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Organ-limited amyloidosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1376966206"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "AD type amyloidosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1376966206"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "localised amyloid deposit"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1376966206"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "localised amyloidosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1376966206"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "localised amyloid infiltration"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1376966206"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "localised primary amyloidosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1376966206"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "localised generalised amyloid infiltration"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1376966206"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "localised generalised amyloidosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1376966206"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cardiac organ-limited amyloidosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/300580975"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "familial amyloid cardiomyopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/300580975"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "amyloid cardiomyopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/300580975"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "amyloid heart"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/300580975"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "amyloid heart degeneration"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/300580975"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "amyloid heart disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/300580975"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "amyloid heart muscle disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/300580975"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cardiac amyloidosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/300580975"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "senile cardiac amyloidosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/300580975"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "heart amyloidosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/300580975"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "familial amyloid heart disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/300580975"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Danish type familial amyloid cardiomyopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1934985050"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Glomerular disorders in organ-limited amyloidosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1536765035"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "amyloid nephritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1536765035"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "nephrotic syndrome in amyloidosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1536765035"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Amyloidosis of liver"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/918492282"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hepatic amyloidosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/918492282"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Amyloidosis of small intestine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/742891610"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Amyloid gastrointestinal disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1827286020"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "amyloid intestinal degeneration"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1827286020"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary localised cutaneous amyloidosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/113043090"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Macular amyloidosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1192013809"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Papular amyloidosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1889504911"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Lichen amyloidosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1889504911"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nodular amyloidosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1377590506"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Amyloidosis cutis nodularis atrophicans"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1377590506"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tumefactive amyloidosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1377590506"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Interstitial lung diseases associated with amyloidosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2059402955"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pulmonary amyloidosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2059402955"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hepatic amyloidosis with intrahepatic cholestasis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/97296328"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cholestatic hepatic amyloidosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/97296328"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Arthropathy in amyloidosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1225793110"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "amyloid arthropathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1225793110"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "amyloid arthritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1225793110"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "articular amyloid"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1225793110"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "arthritis secondary to amyloidosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1225793110"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Glaucoma in amyloidosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1743782659"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Amyloid spinal degeneration"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/869107121"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Amyloid splenic degeneration"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/164919591"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "amyloid splenic disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/164919591"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "AS transthyretin amyloidosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1559266662"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Danish type amyloidosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1559266662"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Denmark type amyloidosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1559266662"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ALECT2 amyloidosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1363099940"
+    }
+  ]
+}

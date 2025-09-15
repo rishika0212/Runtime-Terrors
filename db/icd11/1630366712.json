@@ -1,0 +1,63 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1630366712",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/842877470"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1630366712",
+  "code": "LA21.2",
+  "source": "http://id.who.int/icd/entity/1630366712",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1630366712/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Low-set ear"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "The upper third of the pinna is not above a plane defined by the lateral canthi and the maximum convexity of the occiput."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cervical auricle"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1403653959",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1403653959"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Low-set ear"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "congenital malposition of external ear"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "melotia"
+      }
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1182282997",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/943599144"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1182282997",
+  "code": "LA11.2",
+  "source": "http://id.who.int/icd/entity/1182282997",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1182282997/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Anterior segment dysgenesis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition caused by failure of the anterior structures of the eye to correctly develop during the antenatal period. This condition may present with iris hypoplasia, irregular and misplaced pupils, hazy corneas, or attachments of the iris to the cornea."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Anterior segment dysgenesis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Axenfeld anomaly"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1703498511"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Axenfeld syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1703498511"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Rieger-Axenfeld anomaly"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1338180594"
+    }
+  ]
+}

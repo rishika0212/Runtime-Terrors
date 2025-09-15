@@ -1,0 +1,74 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1692338248",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/597627283"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1692338248",
+  "code": "DB51",
+  "source": "http://id.who.int/icd/entity/1692338248",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1692338248/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1692338248/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Stenosis of anal canal"
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stenosis of anal canal"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "stricture of anal sphincter"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "anal stricture"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "anus occlusion"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pectenosis"
+      }
+    }
+  ]
+}

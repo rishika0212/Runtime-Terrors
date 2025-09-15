@@ -1,0 +1,71 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1524004873",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/980864631"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1524004873",
+  "code": "9A74",
+  "source": "http://id.who.int/icd/entity/1524004873",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1524004873/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1524004873/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1651053999",
+        "http://id.who.int/icd/release/11/2024-01/mms/119724091",
+        "http://id.who.int/icd/release/11/2024-01/mms/1150913605",
+        "http://id.who.int/icd/release/11/2024-01/mms/381961554",
+        "http://id.who.int/icd/release/11/2024-01/mms/1697306310"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Neurotrophic keratitis"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neurotrophic keratitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neurotrophic keratitis, metaherpetic ulcer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2076732808"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neurotrophic keratitis, post surgical"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1498136557"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Diabetic neurotrophic keratitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1859690131"
+    }
+  ]
+}

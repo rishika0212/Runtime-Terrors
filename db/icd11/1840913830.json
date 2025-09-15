@@ -1,0 +1,54 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1840913830",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1487397165"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1840913830",
+  "code": "DA98.2",
+  "source": "http://id.who.int/icd/entity/1840913830",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1840913830/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/18598211",
+        "http://id.who.int/icd/release/11/2024-01/mms/1708923236"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1840913830/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Inflammatory fibroid polyp of small intestine"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Inflammatory fibroid polyp (IFP) is a rare tumour and it presents either as a solitary large or sessile lesion that arises in the submucosa. It is characterised by spindle and stellate cells set in an inflammatory, myxoid stroma."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Inflammatory fibroid polyp of small intestine"
+      }
+    }
+  ]
+}

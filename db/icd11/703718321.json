@@ -1,0 +1,67 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/703718321",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/601591344"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#703718321",
+  "code": "AB56",
+  "source": "http://id.who.int/icd/entity/703718321",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/703718321/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Hereditary hearing loss"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital hearing impairment"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1154032108",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1154032108"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired hearing impairment"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/500439897",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/500439897"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hereditary hearing loss"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "genetic hearing loss"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hereditary deafness"
+      }
+    }
+  ]
+}

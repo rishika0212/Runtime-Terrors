@@ -1,0 +1,69 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1095261642",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1868068711"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1095261642",
+  "code": "4A84.2",
+  "source": "http://id.who.int/icd/entity/1095261642",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1095261642/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1472928386",
+        "http://id.who.int/icd/release/11/2024-01/mms/2125838599",
+        "http://id.who.int/icd/release/11/2024-01/mms/1183783866",
+        "http://id.who.int/icd/release/11/2024-01/mms/52737868"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1095261642/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/502820569",
+        "http://id.who.int/icd/release/11/2024-01/mms/1206642838",
+        "http://id.who.int/icd/release/11/2024-01/mms/1839152580",
+        "http://id.who.int/icd/release/11/2024-01/mms/683532877"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Anaphylaxis due to insect venom"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Anaphylaxis due to insect venom is a severe systemic hypersensitivity reaction with rapid onset of cutaneous, vascular or respiratory symptoms and signs, either singly or in any combination after exposure (mainly by sting) to an insect venom in a sensitized patient."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Harmful effects of or exposure to noxious substances, Substances chiefly nonmedicinal as to source, Venoms or toxins"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1645464025",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1119330136"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Anaphylaxis due to insect venom"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Insect venom allergen-induced anaphylaxis"
+      }
+    }
+  ]
+}

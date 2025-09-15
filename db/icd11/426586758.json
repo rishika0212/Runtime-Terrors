@@ -1,0 +1,99 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/426586758",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/202249350"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#426586758",
+  "code": "2D12.0",
+  "source": "http://id.who.int/icd/entity/426586758",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/426586758/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/112148603",
+        "http://id.who.int/icd/release/11/2024-01/mms/294069435",
+        "http://id.who.int/icd/release/11/2024-01/mms/1963131822",
+        "http://id.who.int/icd/release/11/2024-01/mms/816377166",
+        "http://id.who.int/icd/release/11/2024-01/mms/356168761"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/426586758/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/426586758/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1409966790",
+        "http://id.who.int/icd/release/11/2024-01/mms/896293199",
+        "http://id.who.int/icd/release/11/2024-01/mms/1094217460",
+        "http://id.who.int/icd/release/11/2024-01/mms/238069351"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/426586758/postcoordinationScale/hasAlternativeSeverity2",
+      "axisName": "http://id.who.int/icd/schema/hasAlternativeSeverity2",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1863636238",
+        "http://id.who.int/icd/release/11/2024-01/mms/885826145",
+        "http://id.who.int/icd/release/11/2024-01/mms/1746207012",
+        "http://id.who.int/icd/release/11/2024-01/mms/303697349"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Malignant epithelial neoplasms of other endocrine glands or related structures, unspecified type"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant epithelial neoplasms of other endocrine glands or related structures, unspecified type"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant epithelial neoplasms of parathyroid gland, unspecified type"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/460283265"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant epithelial neoplasms of pituitary gland, unspecified type"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/971804646"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant epithelial neoplasms of carotid body, unspecified type"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/364921354"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant epithelial neoplasms of aortic body or other paraganglia, unspecified type"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/706588537"
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/231914102",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/512109781"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#231914102",
+  "code": "DB31.2",
+  "source": "http://id.who.int/icd/entity/231914102",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/231914102/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/231914102/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Rectal prolapse"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Rectal mucosal prolapse refers to abdominal descent of the rectal mucosa. The best recognised site of the mucosal prolapse is the anterior wall of the rectum."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Prolapse of rectal mucosa"
+      }
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Rectal prolapse"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Prolapse of rectal mucosa"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "procidentia of rectum"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "rectal mucosa prolapse"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "rectum prolapse"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "procidentia rectum"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "RP - [rectal prolapse]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "male proctocele"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "male rectocele"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "proctoptosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mucosal prolapse syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2105576861"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "MOS - [mucosal prolapse syndrome]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2105576861"
+    }
+  ]
+}

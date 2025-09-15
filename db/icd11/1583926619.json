@@ -1,0 +1,40 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1583926619",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/558785723"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1158914813",
+    "http://id.who.int/icd/release/11/2024-01/mms/1612209162",
+    "http://id.who.int/icd/release/11/2024-01/mms/1583926619/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1583926619",
+  "code": "",
+  "source": "http://id.who.int/icd/entity/1583926619",
+  "classKind": "block",
+  "blockId": "BlockL2-PL0",
+  "codeRange": "PL00-PL0Z",
+  "title": {
+    "@language": "en",
+    "@value": "Substances associated with injury or harm in therapeutic use"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Situations where a substance (drug or medicament) causes harm, in the context of intentional use for therapeutic purposes"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "accidents in the technique of administration of drugs, medicaments and biological substances in medical and surgical procedures"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1323892810",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1323892810"
+    }
+  ],
+  "codingNote": {
+    "@language": "en",
+    "@value": "Code first the injury or harm associated with the substance. Code also the mode or mechanism that explains the main way the cause leads to injury or harm."
+  }
+}

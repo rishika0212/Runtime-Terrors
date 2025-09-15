@@ -1,0 +1,78 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1081291109",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1426457254"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1081291109",
+  "code": "DA42.80",
+  "source": "http://id.who.int/icd/entity/1081291109",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1081291109/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1290701352"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1081291109/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731",
+        "http://id.who.int/icd/release/11/2024-01/mms/678821627",
+        "http://id.who.int/icd/release/11/2024-01/mms/1281102481",
+        "http://id.who.int/icd/release/11/2024-01/mms/131278066"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1081291109/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Alcoholic gastritis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Inflammation of the gastric mucosa due to excessive alcohol use."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Alcoholic gastritis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "alcohol gastritis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ETOH gastritis"
+      }
+    }
+  ]
+}

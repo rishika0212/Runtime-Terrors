@@ -1,0 +1,97 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/776465804",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/17827485"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#776465804",
+  "code": "LC52",
+  "source": "http://id.who.int/icd/entity/776465804",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Angio-osteohypertrophic syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1561120378",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1561120378"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cobb syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1451924695",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/585997617/other"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Maffucci syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/548780091",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1106405864/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/776465804/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/223243926",
+        "http://id.who.int/icd/release/11/2024-01/mms/947150833",
+        "http://id.who.int/icd/release/11/2024-01/mms/1810600222"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Complex or combined developmental vascular malformations involving the skin"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Complex or combined developmental vascular malformations involving the skin"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cutis marmorata telangiectatica congenita"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1359154853"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital phlebectasia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1359154853"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Reticulate vascular naevus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1359154853"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "CMTC - [Cutis marmorata telangiectatica congenita]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1359154853"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Verrucous haemangioma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1679975821"
+    }
+  ]
+}

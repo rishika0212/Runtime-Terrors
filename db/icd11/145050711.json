@@ -1,0 +1,48 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/145050711",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1217144308"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1764558960",
+    "http://id.who.int/icd/release/11/2024-01/mms/1589520654",
+    "http://id.who.int/icd/release/11/2024-01/mms/1146122028",
+    "http://id.who.int/icd/release/11/2024-01/mms/1985592109",
+    "http://id.who.int/icd/release/11/2024-01/mms/1843812285",
+    "http://id.who.int/icd/release/11/2024-01/mms/145050711/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/145050711/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#145050711",
+  "code": "NC52.1",
+  "source": "http://id.who.int/icd/entity/145050711",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/145050711/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1679928503",
+        "http://id.who.int/icd/release/11/2024-01/mms/2088002216",
+        "http://id.who.int/icd/release/11/2024-01/mms/2008478303",
+        "http://id.who.int/icd/release/11/2024-01/mms/1065556593",
+        "http://id.who.int/icd/release/11/2024-01/mms/243611688"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/145050711/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/755612283"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Open wound of other parts of wrist or hand"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1678636940",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/944754984"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/713946165",
+    "http://id.who.int/icd/release/11/2024-01/mms/316694644",
+    "http://id.who.int/icd/release/11/2024-01/mms/811840017",
+    "http://id.who.int/icd/release/11/2024-01/mms/133206895",
+    "http://id.who.int/icd/release/11/2024-01/mms/1678636940/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1678636940/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1678636940",
+  "code": "2B32",
+  "source": "http://id.who.int/icd/entity/1678636940",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1678636940/postcoordinationScale/histopathology",
+      "axisName": "http://id.who.int/icd/schema/histopathology",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1408349555",
+        "http://id.who.int/icd/release/11/2024-01/mms/908728518"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1678636940/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Immunodeficiency-associated lymphoproliferative disorders"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Post-transplant lymphoproliferative disorder (PTLD) is a polyclonal (benign) or clonal (malignant) proliferation of lymphoid cells that develops as a consequence of immunosuppression in a recipient of a solid organ or bone marrow allograft. PTLDs comprise a spectrum ranging from early, Epstein-Barr virus (EBV)-driven polyclonal lymphoid proliferations to EBV-positive or EBV-negative lymphomas of predominantly B-cell or less often T-cell type. In other immunodeficiency-associated lymphoproliferative disorders, association with EBV is less pronounced."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "PTLD - [Post transplant lymphoproliferative disorder]"
+      }
+    }
+  ]
+}

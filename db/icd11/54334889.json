@@ -1,0 +1,52 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/54334889",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2048054197"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#54334889",
+  "code": "DC35.2",
+  "source": "http://id.who.int/icd/entity/54334889",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/54334889/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Pancreatic steatorrhoea"
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pancreatic steatorrhoea"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "decreased tolerance of pancreas"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pancreatic disturbance of fat absorption"
+      }
+    }
+  ]
+}

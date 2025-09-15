@@ -1,0 +1,93 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/103940897",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/396939646"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#103940897",
+  "code": "FA22",
+  "source": "http://id.who.int/icd/entity/103940897",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/103940897/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1968541653"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/103940897/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1929970386"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Polymyalgia rheumatica"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Polymyalgia rheumatica (PMR) is a syndrome characterised by aching of the proximal portions of the extremities and torso. Provisional classification criteria for PMR by the European League Against Rheumatism/American College of Rheumatology Collaborative Initiative should be applied to patients aged 50 years or older with bilateral shoulder aching, and abnormal CRP and/or ESR. The scoring algorithm is based on morning stiffness >45 minutes (2 points), hip pain/limited range of motion (1 point), absence of rheumatoid factor and/or anti-citrullinated protein antibody (1 point), with optional ultrasound criteria. Most commonly, PMR occurs in isolation, but may be seen in 40-50% of patients with giant cell arteritis."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Giant cell arteritis with polymyalgia rheumatica"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/711560287",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1929970386"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Polymyalgia rheumatica"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "senile arthritis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "polymyalgia arteritica"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "PMR - [polymyalgia rheumatica]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Forestier-Certonciny syndrome"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "rheumatic polymyalgia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "polymyalgia"
+      }
+    }
+  ]
+}

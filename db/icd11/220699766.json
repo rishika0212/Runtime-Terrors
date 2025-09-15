@@ -1,0 +1,54 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/220699766",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/553678663"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1571720446",
+    "http://id.who.int/icd/release/11/2024-01/mms/1705801060",
+    "http://id.who.int/icd/release/11/2024-01/mms/168655119",
+    "http://id.who.int/icd/release/11/2024-01/mms/220699766/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/220699766/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#220699766",
+  "code": "DA63.5",
+  "source": "http://id.who.int/icd/entity/220699766",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/220699766/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/294460566",
+        "http://id.who.int/icd/release/11/2024-01/mms/985094335",
+        "http://id.who.int/icd/release/11/2024-01/mms/1794059753",
+        "http://id.who.int/icd/release/11/2024-01/mms/1472717853",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/220699766/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Duodenal ulcer due to external causes"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Duodenal ulcer caused by external substances, such as alcohol, radiation, chemical agent and by other external causes."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1623827724",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1268183934"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1623827724",
+  "code": "DC11.5",
+  "source": "http://id.who.int/icd/entity/1623827724",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1623827724/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/126976415",
+        "http://id.who.int/icd/release/11/2024-01/mms/964528740"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1623827724/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1623827724/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Calculus of bile duct with cholecystitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Stones in bile duct present with inflammation of gallbladder wall."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Calculus of bile duct with cholecystitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Calculus of bile duct with cholecystitis or cholangitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/196368998"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Calculus of bile duct with cholecystitis, without cholangitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1499822498"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Choledocholithiasis with cholecystitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1499822498"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gallstone of bile duct NOS with cholecystitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1499822498"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "calculus of any bile duct with cholecystitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1499822498"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "biliary calculus with cholecystitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1499822498"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bile duct calculus with cholecystitis NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1499822498"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Choledocholithiasis with acute cholecystitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2039435681"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gallstone of common duct with cholecystitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/387099224"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Calculus of common bile duct with acute cholecystitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1531466989"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gallstone of hepatic duct with cholecystitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/147196686"
+    }
+  ]
+}

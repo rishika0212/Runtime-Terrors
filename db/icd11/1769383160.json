@@ -1,0 +1,222 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1769383160",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/224323205"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1769383160",
+  "code": "DB99.5",
+  "source": "http://id.who.int/icd/entity/1769383160",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1769383160/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/146631584",
+        "http://id.who.int/icd/release/11/2024-01/mms/36752588"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1769383160/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1769383160/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Hepatic encephalopathy"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Hepatic encephalopathy is a complication of liver cirrhosis and a hallmark of acute liver failure, and is also observed in patients with portosystemic shunts without cirrhosis. Hepatic encephalopathy is characterised by personality changes, intellectual impairment, flapping tremor and a decreased consciousness level. In the advanced stages it is called hepatic coma, which may lead to death. The diagnosis of hepatic encephalopathy is made primarily by recognition of neuropsychiatric changes occurring in a patient with liver disease, after exclusion of brain diseases."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic liver disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/738694757",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/738694757"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1110228123"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hepatic encephalopathy"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "HE - [hepatic encephalopathy]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hepatic encephalopathy NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hepatic encephalopathy, stage unspecified"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hepatic coma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hepatocerebral encephalopathy"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hepatocerebral intoxication"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hepatic encephalopathy, stage 1"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1334167493"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hepatic encephalopathy, stage 2"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/439339290"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hepatic encephalopathy, stage 3"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1338478373"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hepatic encephalopathy, stage 4"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1041295914"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute hepatic encephalopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/210843292"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute hepatoencephalopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/210843292"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute hepatorenal encephalopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/914934286"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute hepatorenal coma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/914934286"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute portosystemic encephalopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1494383275"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gaustad's syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1509392955"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Portal-systemic encephalopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1676574381"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "portosystemic encephalopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1676574381"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Transient hepatargy syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/649553430"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hepatic encephalopathy, minimal"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1324559196"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "MHE - [Minimal hepatic encephalopathy]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1324559196"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Covert hepatic encephalopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1324559196"
+    }
+  ]
+}

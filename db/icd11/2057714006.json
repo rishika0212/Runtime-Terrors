@@ -1,0 +1,47 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2057714006",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1933657198"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1465651353",
+    "http://id.who.int/icd/release/11/2024-01/mms/2057714006/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/2057714006/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2057714006",
+  "code": "EE60.0",
+  "source": "http://id.who.int/icd/entity/2057714006",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Keloidal surgical scar"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1736958896",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1736958896"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2057714006/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/223243926",
+        "http://id.who.int/icd/release/11/2024-01/mms/947150833",
+        "http://id.who.int/icd/release/11/2024-01/mms/1810600222"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Keloid"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A keloid is a progressively enlarging scar resulting from formation of excessive amounts of collagen in the dermis during connective tissue repair following inflammation, injury or surgery. It differs from a hypertrophic scar in that a keloid expands beyond the boundaries of the initial wound or site of inflammation."
+  }
+}

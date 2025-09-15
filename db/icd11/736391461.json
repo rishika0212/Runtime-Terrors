@@ -1,0 +1,37 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/736391461",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/940719765"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#736391461",
+  "code": "XE6UD",
+  "source": "http://id.who.int/icd/entity/736391461",
+  "classKind": "category",
+  "title": {
+    "@language": "en",
+    "@value": "Unexpected or unintended radiation output"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Device-emitted radiation when it was not supposed to. This applies to devices which are intended to emit radiation, and the radiation being emitted from the correct part of the device, but at an incorrect time.\nUse \"radiation leak\" if the device emits radiation which should never have been emitted, or from a location from which it should never be emitted."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Radiation leak"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/598819935",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/598819935"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unexpected or unintended radiation output"
+      }
+    }
+  ]
+}

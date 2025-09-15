@@ -1,0 +1,56 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/576290514",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/923546127"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1491701156",
+    "http://id.who.int/icd/release/11/2024-01/mms/1604996815"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#576290514",
+  "code": "EH61",
+  "source": "http://id.who.int/icd/entity/576290514",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced anaphylaxis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1200133657",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1200133657"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/576290514/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1450176443",
+        "http://id.who.int/icd/release/11/2024-01/mms/1098540500",
+        "http://id.who.int/icd/release/11/2024-01/mms/1676151582",
+        "http://id.who.int/icd/release/11/2024-01/mms/1583926619",
+        "http://id.who.int/icd/release/11/2024-01/mms/1323892810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Drug-induced urticaria, angioedema and anaphylaxis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Adverse reaction to drugs due to release of histamine or vasoactive kinins."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced urticaria, angioedema and anaphylaxis"
+      }
+    }
+  ]
+}

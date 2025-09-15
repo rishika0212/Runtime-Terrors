@@ -1,0 +1,52 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/629126866",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2108355318"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/132294774",
+    "http://id.who.int/icd/release/11/2024-01/mms/629126866/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/629126866/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#629126866",
+  "code": "1D04.1",
+  "source": "http://id.who.int/icd/entity/629126866",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/629126866/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1048482858",
+        "http://id.who.int/icd/release/11/2024-01/mms/1074640675"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/629126866/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Intracranial granuloma"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition of the cranial cavity, caused by an infection with a bacterial, viral, fungal, or parasitic source. This condition is characterised by an organised collection of macrophages within the cranial cavity. This condition may present with neurological deficits."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/911707612"
+  ]
+}

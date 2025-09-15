@@ -1,0 +1,108 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/347103441",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1024154490"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#347103441",
+  "code": "CA40.11",
+  "source": "http://id.who.int/icd/entity/347103441",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/347103441/postcoordinationScale/causality",
+      "axisName": "http://id.who.int/icd/schema/causality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/894194405",
+        "http://id.who.int/icd/release/11/2024-01/mms/1674014893",
+        "http://id.who.int/icd/release/11/2024-01/mms/655959100",
+        "http://id.who.int/icd/release/11/2024-01/mms/56475710",
+        "http://id.who.int/icd/release/11/2024-01/mms/339929010"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/347103441/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/347103441/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1983574845",
+        "http://id.who.int/icd/release/11/2024-01/mms/922044675",
+        "http://id.who.int/icd/release/11/2024-01/mms/1013784154"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/347103441/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2024199586",
+        "http://id.who.int/icd/release/11/2024-01/mms/1765820617",
+        "http://id.who.int/icd/release/11/2024-01/mms/189285942",
+        "http://id.who.int/icd/release/11/2024-01/mms/795057595",
+        "http://id.who.int/icd/release/11/2024-01/mms/1298895686",
+        "http://id.who.int/icd/release/11/2024-01/mms/1552748079"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Pneumonia due to Respiratory syncytial virus"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease caused by an infection with respiratory syncytial virus. This disease is characterised by an inflammatory condition of the lung commonly affecting the alveoli (pneumonia), leading to coughing, sneezing, fever, or wheezing. This disease may be severe in premature babies and those with concurrent disease or immunosuppression. Transmission is by direct contact, droplet transmission, or indirect contact with infected respiratory secretions. Confirmation is by identification of respiratory syncytial virus, commonly through antigen detection or cell culture."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Respiratory syncytial virus is the major cause of lower respiratory tract illness in infants and young children, and accounts for up to 40% of pneumonia. Most severe infections occur in infants less than 6 months of age, and almost all primary infections are symptomatic, with 40% or more associated with bronchiolitis or pneumonia. Respiratory syncytial virus, often nosocomially acquired, causes severe lower respiratory tract disease in immunosuppressed children and adults. Upper respi¬ratory tract illness usually precedes the development of pneumonia, and complicating sinusitis and otitis media are common. Two thirds or more of the bone marrow transplant recipients who develop RSV pneumonia succumb without treatment.[1]"
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/923122941"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/594985340"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pneumonia due to Respiratory syncytial virus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pneumonia respiratory syncytial viral"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "RSV pneumonia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Late-onset pneumonia due to Respiratory syncytial Virus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1373169110"
+    }
+  ]
+}

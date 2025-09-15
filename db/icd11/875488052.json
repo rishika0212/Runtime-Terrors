@@ -1,0 +1,44 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/875488052",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/817691561"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1671640403",
+    "http://id.who.int/icd/release/11/2024-01/mms/115931335",
+    "http://id.who.int/icd/release/11/2024-01/mms/875488052/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/875488052/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#875488052",
+  "code": "1F51",
+  "source": "http://id.who.int/icd/entity/875488052",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/875488052/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1269730048",
+        "http://id.who.int/icd/release/11/2024-01/mms/181304776"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "African trypanosomiasis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease caused by an infection with the protozoan parasite Trypanosoma brucei. This disease presents with symptoms depending on the form of the protozoan parasite (Trypanosoma brucei rhodesiense or Trypanosoma brucei gambiense). Transmission is through the bite of an infected tsetse fly. Confirmation is by identification of Trypanosoma brucei in a blood or tissue sample."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Human African trypanosomiasis (HAT), also called sleeping sickness, is an illness endemic to sub-Saharan Africa. It is caused by the flagellate protozoan Trypanosoma brucei, which exists in 2 morphologically identical subspecies: Trypanosoma brucei rhodesiense (East African or Rhodesian African trypanosomiasis) and Trypanosoma brucei gambiense (West African or Gambian African trypanosomiasis). The protozoal is transmitted to human hosts by bites of infected tsetse flies. African trypanosomiasis is distinct from American trypanosomiasis, which is caused by Trypanosoma cruzi and has different vectors, clinical manifestations, and therapies."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1945127438"
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1051205634",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1437411258"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1051205634",
+  "code": "DA60.7",
+  "source": "http://id.who.int/icd/entity/1051205634",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1051205634/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1493524587"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1051205634/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1051205634/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/294460566",
+        "http://id.who.int/icd/release/11/2024-01/mms/985094335",
+        "http://id.who.int/icd/release/11/2024-01/mms/1794059753",
+        "http://id.who.int/icd/release/11/2024-01/mms/1472717853"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1051205634/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1051205634/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/588616678",
+        "http://id.who.int/icd/release/11/2024-01/mms/1904876434",
+        "http://id.who.int/icd/release/11/2024-01/mms/979278646",
+        "http://id.who.int/icd/release/11/2024-01/mms/1539889147",
+        "http://id.who.int/icd/release/11/2024-01/mms/1412960686",
+        "http://id.who.int/icd/release/11/2024-01/mms/1935092859",
+        "http://id.who.int/icd/release/11/2024-01/mms/487269828",
+        "http://id.who.int/icd/release/11/2024-01/mms/1000704511",
+        "http://id.who.int/icd/release/11/2024-01/mms/1104303944",
+        "http://id.who.int/icd/release/11/2024-01/mms/1585949804",
+        "http://id.who.int/icd/release/11/2024-01/mms/1959883044",
+        "http://id.who.int/icd/release/11/2024-01/mms/921595235",
+        "http://id.who.int/icd/release/11/2024-01/mms/1251496839",
+        "http://id.who.int/icd/release/11/2024-01/mms/1136802325",
+        "http://id.who.int/icd/release/11/2024-01/mms/145723401",
+        "http://id.who.int/icd/release/11/2024-01/mms/985510409",
+        "http://id.who.int/icd/release/11/2024-01/mms/1646490591",
+        "http://id.who.int/icd/release/11/2024-01/mms/1939815950",
+        "http://id.who.int/icd/release/11/2024-01/mms/255141529",
+        "http://id.who.int/icd/release/11/2024-01/mms/293771399",
+        "http://id.who.int/icd/release/11/2024-01/mms/1760597414",
+        "http://id.who.int/icd/release/11/2024-01/mms/458687859",
+        "http://id.who.int/icd/release/11/2024-01/mms/1435254666/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Infectious secondary gastric ulcer"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Gastric ulcer due to infectious diseases other than Helicobacter pylori, such as bacteria such as mycobacterium, virus, fungus and parasites."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infectious secondary gastric ulcer"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gastric ulcer due to infectious diseases classified elsewhere"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bacterial gastric ulcer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/386065975"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gastric ulcer due to bacterial infections"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/386065975"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Viral gastric ulcer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1312980669"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gastric ulcer due to viral infections"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1312980669"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fungal gastric ulcer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/99863600"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gastric ulcer due to fungal infections"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/99863600"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Parasitic gastric ulcer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/144751571"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gastric ulcer due to parasitic infections"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/144751571"
+    }
+  ]
+}

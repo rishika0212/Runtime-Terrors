@@ -1,0 +1,120 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1393205731",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2086488820"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/587895568",
+    "http://id.who.int/icd/release/11/2024-01/mms/155239409",
+    "http://id.who.int/icd/release/11/2024-01/mms/1048032051",
+    "http://id.who.int/icd/release/11/2024-01/mms/198057480",
+    "http://id.who.int/icd/release/11/2024-01/mms/1393205731/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1393205731/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1393205731",
+  "code": "DA91",
+  "source": "http://id.who.int/icd/entity/1393205731",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1393205731/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/18598211",
+        "http://id.who.int/icd/release/11/2024-01/mms/1708923236"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1393205731/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731",
+        "http://id.who.int/icd/release/11/2024-01/mms/1507624466"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1393205731/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Obstruction of small intestine"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Hindrance of the passage of luminal contents in the small intestine. Obstruction of the small intestine can be partial or complete, and caused by intrinsic or extrinsic factors. Simple obstruction is associated with diminished or stopped flow of luminal contents. Strangulating obstruction is associated with impaired blood flow to the small intestine in addition to obstructed flow of luminal contents."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occlusion of small intestine"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Diverticular disease of small intestine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/125069185",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/125069185"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Crohn disease of small intestine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1221996518",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1221996518"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hernia involving small intestine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1762507906",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1762507906"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ischaemic stricture of small intestine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/194771855",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/194771855"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paralytic ileus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1868011045",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1868011045"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Intestinal obstruction of newborn"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1830837825",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1830837825"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ]
+}

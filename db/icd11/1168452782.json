@@ -1,0 +1,110 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1168452782",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1439886552"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1168452782",
+  "code": "1F43",
+  "source": "http://id.who.int/icd/entity/1168452782",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1168452782/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/174465822"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Malaria due to Plasmodium ovale"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease caused by an infection with the protozoan parasite Plasmodium ovale. This disease is characterised by fever, chills, headache, nausea and vomiting, body aches, or general malaise. Transmission is through the bite of an infected mosquito. Confirmation is by identification of Plasmodium ovale in a blood sample."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "A relatively mild form of malaria caused by Plasmodium ovale. The clinical manifestations (commonly appearing 12-18 days after inoculation) are similar to those of vivax malaria but the paroxysms of fever and chills are less severe. After the initial stage, paroxysms tend to occur every other day. Recovery is often spontaneous. Relapses are not unusual."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "when mixed with Plasmodium malariae"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/862789727",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/862789727"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "when mixed with Plasmodium falciparum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/579583286",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/579583286"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "when mixed with Plasmodium vivax"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1203794080",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1203794080"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/684978486"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1945127438"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malaria due to Plasmodium ovale"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ovale tertian malaria"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "plasmodium ovale fever"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "malaria fever by plasmodium ovale"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ovale malaria"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "malaria by plasmodium ovale"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "malarial ovale"
+      }
+    }
+  ]
+}

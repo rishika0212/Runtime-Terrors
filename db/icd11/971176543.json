@@ -1,0 +1,81 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/971176543",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1412960686"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1398484288",
+    "http://id.who.int/icd/release/11/2024-01/mms/25824900",
+    "http://id.who.int/icd/release/11/2024-01/mms/2034126013",
+    "http://id.who.int/icd/release/11/2024-01/mms/971176543/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/971176543/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#971176543",
+  "code": "1B72",
+  "source": "http://id.who.int/icd/entity/971176543",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Otitis externa in impetigo"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/188082376",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1303990434/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/971176543/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1337584902",
+        "http://id.who.int/icd/release/11/2024-01/mms/968129184",
+        "http://id.who.int/icd/release/11/2024-01/mms/430791912",
+        "http://id.who.int/icd/release/11/2024-01/mms/1896004518"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/971176543/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/428956900",
+        "http://id.who.int/icd/release/11/2024-01/mms/1997317917"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Impetigo"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition of the skin, commonly caused by a secondary infection with the gram-positive bacteria Staphylococcus aureus or group A beta haemolytic streptococci. This condition is characterised by bullous or non-bullous symptoms. Transmission is by direct contact with an infected individual. Confirmation is by identification of the infectious agent in a skin sample."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "impetigo herpetiformis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1405116325",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/632162554"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Staphylococcal scalded skin syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1554593739",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1554593739"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/911707612"
+  ]
+}

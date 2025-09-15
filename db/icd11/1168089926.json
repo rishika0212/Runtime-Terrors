@@ -1,0 +1,61 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1168089926",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1522140835"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1168089926",
+  "code": "2E67.6",
+  "source": "http://id.who.int/icd/entity/1168089926",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1168089926/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1002532547",
+        "http://id.who.int/icd/release/11/2024-01/mms/921977085"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1168089926/postcoordinationScale/histopathology",
+      "axisName": "http://id.who.int/icd/schema/histopathology",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1395468571",
+        "http://id.who.int/icd/release/11/2024-01/mms/522986416",
+        "http://id.who.int/icd/release/11/2024-01/mms/1324810543",
+        "http://id.who.int/icd/release/11/2024-01/mms/1370766919",
+        "http://id.who.int/icd/release/11/2024-01/mms/710558848",
+        "http://id.who.int/icd/release/11/2024-01/mms/1494848434",
+        "http://id.who.int/icd/release/11/2024-01/mms/682879579",
+        "http://id.who.int/icd/release/11/2024-01/mms/602786424",
+        "http://id.who.int/icd/release/11/2024-01/mms/136153868"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1168089926/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Carcinoma in situ of other or unspecified male genital organs"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Carcinoma in situ of other or unspecified male genital organs"
+      }
+    }
+  ]
+}

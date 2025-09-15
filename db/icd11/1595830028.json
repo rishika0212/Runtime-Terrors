@@ -1,0 +1,49 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1595830028",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/213603738"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1154119206",
+    "http://id.who.int/icd/release/11/2024-01/mms/562150320",
+    "http://id.who.int/icd/release/11/2024-01/mms/1388917064",
+    "http://id.who.int/icd/release/11/2024-01/mms/1595830028/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1595830028/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1595830028",
+  "code": "GA20.0",
+  "source": "http://id.who.int/icd/entity/1595830028",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Amenorrhoea related to obstetric fistula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/579792719",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2088138730/other"
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Amenorrhoea"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition of the genital system, caused by hormonal or endocrine disturbances, absence of the uterus, pregnancy, lactation, abnormalities of the genital outflow tract, or failure of the ovaries to retain egg cells during the antenatal period. This condition is characterised by the absence of menstruation by age 16, or the termination of an established menstruation cycle for more than 3-9 months."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ovarian dysfunction"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1801368748",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1801368748"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1428077757"
+  ]
+}

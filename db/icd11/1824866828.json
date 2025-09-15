@@ -1,0 +1,69 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1824866828",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/67586876"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1824866828",
+  "code": "9A05.0",
+  "source": "http://id.who.int/icd/entity/1824866828",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1824866828/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1824866828/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/844452979",
+        "http://id.who.int/icd/release/11/2024-01/mms/1468820019"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Myokymia of eyelid"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Myokymia is used to describe an involuntary eyelid muscle contraction, typically involving the lower eyelid or less often the upper eyelid. It occurs in normal individuals and typically starts and disappears spontaneously. However, it can sometimes last up to three weeks. Since the condition typically resolves itself, medical professionals do not consider it to be serious or a cause for concern."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Facial myokymia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1882946699",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1882946699"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myokymia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/667204040",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1814274334"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myokymia of eyelid"
+      }
+    }
+  ]
+}

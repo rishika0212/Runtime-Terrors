@@ -1,0 +1,54 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1412073350",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/109841337"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/987757045",
+    "http://id.who.int/icd/release/11/2024-01/mms/223139979",
+    "http://id.who.int/icd/release/11/2024-01/mms/1251151994",
+    "http://id.who.int/icd/release/11/2024-01/mms/1412073350/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1412073350/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1412073350",
+  "code": "9B10.0",
+  "source": "http://id.who.int/icd/entity/1412073350",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1412073350/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Age-related cataract"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A senile cataract is a clouding of the lens of the eye, which impedes the passage of light, related to ageing, and that occurs usually starting from the age of 40."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Senile cataract is the most common type of cataract. Cataract is a disease with any opacity in the lens and causing reduced visual acuity, light scatter, sensitivity to glare, altered color perception, image distortion and ultimately, curable blindness. Senile cataract is caused by the normal condensation process in the lens, resulting in nuclear sclerosis after middle age. Symptoms may be improved near vision without glasses in early stage, and poor hue discrimination or monocular diplopia can occur. The disease is mostly bilateral, but may be asymmetric."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "capsular glaucoma with pseudoexfoliation of lens"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1849071057",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1849071057"
+    }
+  ]
+}

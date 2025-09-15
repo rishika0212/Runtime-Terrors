@@ -1,0 +1,104 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/924234306",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/749972710"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#924234306",
+  "code": "KA83.1",
+  "source": "http://id.who.int/icd/entity/924234306",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/924234306/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1651798887",
+        "http://id.who.int/icd/release/11/2024-01/mms/72252748"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Neonatal bleeding originating in the oesophagus, stomach, small or large intestine"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Bleeding in the neonate that originates from the digestive system. Most common causes include enteritis, gastritis, milk protein allergies, intussusception, and/or erosions of mucosa."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neonatal volvulus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/827754835",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2018477801"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Meckel diverticulum with complication"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1471559167",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/216192536"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neonatal haematemesis or melaena due to swallowed maternal blood"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1030375992",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1030375992"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neonatal bleeding originating in the oesophagus, stomach, small or large intestine"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "newborn gastroenteric haemorrhage"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "newborn gastrointestinal haemorrhage"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "newborn gastrointestinal tract haemorrhage"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Newborn intestinal haemorrhage"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1040551097"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "newborn bowel haemorrhage"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1040551097"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Newborn stomach haemorrhage"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/455944683"
+    }
+  ]
+}

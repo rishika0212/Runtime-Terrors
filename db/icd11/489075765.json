@@ -1,0 +1,480 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/489075765",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1653656681"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#489075765",
+  "code": "FB85.1",
+  "source": "http://id.who.int/icd/entity/489075765",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/489075765/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/489075765/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/183512318",
+        "http://id.who.int/icd/release/11/2024-01/mms/1415462031"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/489075765/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/879154182",
+        "http://id.who.int/icd/release/11/2024-01/mms/944754984",
+        "http://id.who.int/icd/release/11/2024-01/mms/2009008947",
+        "http://id.who.int/icd/release/11/2024-01/mms/531713107",
+        "http://id.who.int/icd/release/11/2024-01/mms/1167133946",
+        "http://id.who.int/icd/release/11/2024-01/mms/1158485193",
+        "http://id.who.int/icd/release/11/2024-01/mms/1844086508",
+        "http://id.who.int/icd/release/11/2024-01/mms/264268169"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Paget disease of bone in neoplastic disease"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paget disease of bone in neoplastic disease"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteitis deformans in neoplastic disease"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteitis deformans in malignant neoplasm of bone"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteitis deformans in malignant neoplasm of bone or articular cartilage"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paget disease of bone in neoplastic disease, multiple sites"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1217153135"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteitis deformans in neoplastic disease, multiple sites"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1217153135"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paget disease of bone in neoplastic disease, shoulder region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/768050683"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteitis deformans in neoplastic disease, shoulder region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/768050683"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paget disease of bone in neoplastic disease, clavicle"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/599945531"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteitis deformans in neoplastic disease of the clavicle"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/599945531"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paget disease of bone in neoplastic disease, scapula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/930727117"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteitis deformans in neoplastic disease of the scapula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/930727117"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paget disease of bone in neoplastic disease, forearm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1008801936"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteitis deformans in neoplastic disease, forearm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1008801936"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paget disease of bone in neoplastic disease, radius"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1116538974"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteitis deformans in neoplastic disease of the radius"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1116538974"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paget disease of bone in neoplastic disease, ulna"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1045721444"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteitis deformans in neoplastic disease of the ulna"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1045721444"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paget disease of bone in neoplastic disease, upper arm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1500173574"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteitis deformans in neoplastic disease, upper arm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1500173574"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paget disease of bone in neoplastic disease, humerus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1271642105"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteitis deformans in neoplastic disease of the humerus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1271642105"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paget disease of bone in neoplastic disease, hand"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1339001604"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteitis deformans in neoplastic disease, hand"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1339001604"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paget disease of bone in neoplastic disease, carpus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/246096018"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteitis deformans in neoplastic disease of the carpus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/246096018"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paget disease of bone in neoplastic disease, fingers"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1531143855"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteitis deformans in neoplastic disease of the fingers"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1531143855"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paget disease of bone in neoplastic disease, metacarpus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/785149198"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteitis deformans in neoplastic disease of the metacarpus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/785149198"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paget disease of bone in neoplastic disease, pelvic region or thigh"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/713311890"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteitis deformans in neoplastic disease, pelvic region or thigh"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/713311890"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paget disease of bone in neoplastic disease, femur"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1633883627"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteitis deformans in neoplastic disease of the femur"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1633883627"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paget disease of bone in neoplastic disease, pelvis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/982655082"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteitis deformans in neoplastic disease of the pelvis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/982655082"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paget disease of bone in neoplastic disease, lower leg"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1579751023"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteitis deformans in neoplastic disease, lower leg"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1579751023"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paget disease of bone in neoplastic disease, fibula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/427146929"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteitis deformans in neoplastic disease of the fibula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/427146929"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paget disease of bone in neoplastic disease, tibia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1289728110"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteitis deformans in neoplastic disease of the tibia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1289728110"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paget disease of bone in neoplastic disease, ankle or foot"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/996334587"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteitis deformans in neoplastic disease, ankle or foot"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/996334587"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paget disease of bone in neoplastic disease, metatarsus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2093291788"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteitis deformans in neoplastic disease of the metatarsus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2093291788"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paget disease of bone in neoplastic disease, tarsus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/523331879"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteitis deformans in neoplastic disease of the tarsus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/523331879"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paget disease of bone in neoplastic disease, toes"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1626321578"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteitis deformans in neoplastic disease of the toes"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1626321578"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paget disease of bone in neoplastic disease, head"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1175178937"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteitis deformans in neoplastic disease of the head"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1175178937"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paget disease of bone in neoplastic disease, neck"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1791337908"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteitis deformans in neoplastic disease of the neck"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1791337908"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paget disease of bone in neoplastic disease, ribs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/265466495"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paget disease of bone in neoplastic disease, skull"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/193649873"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteitis deformans in neoplastic disease of the skull"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/193649873"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paget disease of bone in neoplastic disease, trunk"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/710780765"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteitis deformans in neoplastic disease of the trunk"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/710780765"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paget disease of bone in neoplastic disease, vertebral column"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/721971679"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteitis deformans in neoplastic disease of the vertebral column"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/721971679"
+    }
+  ]
+}

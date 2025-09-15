@@ -1,0 +1,95 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/53001072",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/283208662"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#53001072",
+  "code": "DD31.00",
+  "source": "http://id.who.int/icd/entity/53001072",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute ischaemic colitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1763449867",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1859139099/unspecified"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fulminant ischaemic colitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/227704636",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1859139099/unspecified"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/53001072/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/578694909"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/53001072/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731",
+        "http://id.who.int/icd/release/11/2024-01/mms/1119203708"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/53001072/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Ischaemic colitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Ischemic colitis is the most common form of ischemic injury to the gut and occurs more frequently in elderly people. The disease can result from either occlusive or nonocclusive events, mainly in the territory of the inferior mesenteric artery, in colonic branches of the superior mesenteric artery, and in the superior and inferior mesenteric veins. The splenic flexure and rectosigmoid junction, where low perfusion exists, are commonly affected."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ischaemic colitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "irreversible ischaemic colitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic ischaemic colitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1992867167"
+    }
+  ]
+}

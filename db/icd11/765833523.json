@@ -1,0 +1,41 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/765833523",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/694661420"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/253645047",
+    "http://id.who.int/icd/release/11/2024-01/mms/948793737",
+    "http://id.who.int/icd/release/11/2024-01/mms/765833523/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#765833523",
+  "code": "NB63",
+  "source": "http://id.who.int/icd/entity/765833523",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/765833523/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1495611560"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/765833523/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482",
+        "http://id.who.int/icd/release/11/2024-01/mms/755612283"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Certain specified injuries of sacral spinal cord"
+  }
+}

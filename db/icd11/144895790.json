@@ -1,0 +1,71 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/144895790",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1363031430"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#144895790",
+  "code": "DA97.3",
+  "source": "http://id.who.int/icd/entity/144895790",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/144895790/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/18598211",
+        "http://id.who.int/icd/release/11/2024-01/mms/1708923236"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/144895790/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Varices of small intestine"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "The dilation of venous plexus in the small intestine."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Duodenal varices"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/621016812",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/621016812"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Varices of small intestine"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Portal hypertensive enteropathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/683334256"
+    }
+  ]
+}

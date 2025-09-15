@@ -1,0 +1,121 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/319870485",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/819644414"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#319870485",
+  "code": "2B5B.1",
+  "source": "http://id.who.int/icd/entity/319870485",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/319870485/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/337700",
+        "http://id.who.int/icd/release/11/2024-01/mms/18598211",
+        "http://id.who.int/icd/release/11/2024-01/mms/1708923236"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/319870485/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/319870485/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1409966790",
+        "http://id.who.int/icd/release/11/2024-01/mms/896293199",
+        "http://id.who.int/icd/release/11/2024-01/mms/1094217460",
+        "http://id.who.int/icd/release/11/2024-01/mms/238069351"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/319870485/postcoordinationScale/hasAlternativeSeverity2",
+      "axisName": "http://id.who.int/icd/schema/hasAlternativeSeverity2",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1863636238",
+        "http://id.who.int/icd/release/11/2024-01/mms/885826145",
+        "http://id.who.int/icd/release/11/2024-01/mms/1746207012",
+        "http://id.who.int/icd/release/11/2024-01/mms/303697349"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Gastrointestinal stromal tumour of small intestine"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A gastrointestinal stromal tumour that arises from the small intestine. It usually affects adults over fifty years of age. The majority of cases have spindle cell morphology. The prognosis depends on the tumour size and the mitotic activity."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gastrointestinal stromal tumour of small intestine"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant GIST - [gastrointestinal stromal tumour] of small intestine"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gastrointestinal stromal tumour of jejunum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1098511788"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gastrointestinal stromal tumour of ileum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1995101398"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gastrointestinal stromal tumour of Meckel diverticulum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1599925315"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gastrointestinal stromal tumour involving overlapping sites of small intestine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1834301508"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gastrointestinal stromal tumour of duodenum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1601135210"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant GIST - [gastrointestinal stromal tumour] of the duodenum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1601135210"
+    }
+  ]
+}

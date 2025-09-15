@@ -1,0 +1,57 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2018903019",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1868068711"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2018903019",
+  "code": "4A84.4",
+  "source": "http://id.who.int/icd/entity/2018903019",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2018903019/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/502820569",
+        "http://id.who.int/icd/release/11/2024-01/mms/1206642838",
+        "http://id.who.int/icd/release/11/2024-01/mms/1839152580",
+        "http://id.who.int/icd/release/11/2024-01/mms/683532877"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Anaphylaxis due to inhaled allergens"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Rapid progressive, multisystem life-threatening reaction due to the exposure to a sensitized inhaled allergen, such as particles from rubber gloves or latex products, animal dander and dust mite.\n\n\nUse additional external cause code, if desired, to identify agent."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Allergic asthma with exacerbation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/474902557",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/474902557"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Anaphylaxis due to inhaled allergens"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Inhaled allergen-induced anaphylaxis"
+      }
+    }
+  ]
+}

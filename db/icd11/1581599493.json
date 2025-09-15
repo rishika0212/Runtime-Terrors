@@ -1,0 +1,58 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1581599493",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1738843761"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1581599493",
+  "code": "2A60.20",
+  "source": "http://id.who.int/icd/entity/1581599493",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1581599493/postcoordinationScale/histopathology",
+      "axisName": "http://id.who.int/icd/schema/histopathology",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1073612076",
+        "http://id.who.int/icd/release/11/2024-01/mms/1535830689"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1581599493/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Therapy related acute myeloid leukaemia or myelodysplastic syndrome"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Therapy related acute myeloid leukaemia or myelodysplastic syndrome"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute myeloid leukemia and myelodysplastic syndromes related to alkylating agent"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1401970160"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute myeloid leukemia and myelodysplastic syndromes related to topoisomerase type 2 inhibitor"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/88207494"
+    }
+  ]
+}

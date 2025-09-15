@@ -1,0 +1,53 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1660235889",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1496140949"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/24224082",
+    "http://id.who.int/icd/release/11/2024-01/mms/1930265486",
+    "http://id.who.int/icd/release/11/2024-01/mms/1668919215",
+    "http://id.who.int/icd/release/11/2024-01/mms/1681550532",
+    "http://id.who.int/icd/release/11/2024-01/mms/1923035846",
+    "http://id.who.int/icd/release/11/2024-01/mms/1660235889/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1660235889/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1660235889",
+  "code": "LD24.0",
+  "source": "http://id.who.int/icd/entity/1660235889",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1660235889/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1660235889/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/672187873",
+        "http://id.who.int/icd/release/11/2024-01/mms/805764304",
+        "http://id.who.int/icd/release/11/2024-01/mms/711315902"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Syndromes with micromelia"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Syndromes in which abnormally short limbs are a major feature"
+  }
+}

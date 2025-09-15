@@ -1,0 +1,80 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1147534692",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/183230446"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1147534692",
+  "code": "JA20.4",
+  "source": "http://id.who.int/icd/entity/1147534692",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1147534692/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1331849426"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Pre-existing secondary hypertension complicating pregnancy, childbirth or the puerperium"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition affecting pregnant females, caused by renal disease, endocrine disorders, or tumours. This condition is characterised by blood pressure greater than 140/90 mmHg prior to the 20th week of pregnancy, or persisting longer than 12 weeks postpartum, leading to a complication during pregnancy, childbirth, and the puerperium. Confirmation is by sphygmomanometer."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Secondary hypertension specified as a reason for obstetric care during pregnancy, childbirth or the puerperium"
+      }
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pre-existing secondary hypertension complicating pregnancy, childbirth or the puerperium"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Secondary hypertension specified as a reason for obstetric care during pregnancy, childbirth or the puerperium"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pre-existing nephritis with secondary hypertension complicating pregnancy, childbirth or puerperium"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/881834515"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pre-existing secondary hypertension complicating pregnancy, childbirth or the puerperium due to renal disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1872459522"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pre-existing secondary hypertension complicating pregnancy, childbirth or the puerperium due to tumours"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1904486260"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pre-existing secondary hypertension complicating pregnancy, childbirth or the puerperium due to endocrine disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1642663604"
+    }
+  ]
+}

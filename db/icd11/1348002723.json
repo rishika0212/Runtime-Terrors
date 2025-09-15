@@ -1,0 +1,79 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1348002723",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1171004141"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1348002723",
+  "code": "9B11.0",
+  "source": "http://id.who.int/icd/entity/1348002723",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1348002723/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Aphakia"
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired aphakia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/289240505"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aphakia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "absence of lens"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "absent lens"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired absence of lens"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/648959175"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired aphakia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/289240505"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aphakia due to trauma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/868132830"
+    }
+  ]
+}

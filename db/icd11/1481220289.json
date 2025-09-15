@@ -1,0 +1,124 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1481220289",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1261139312"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1481220289",
+  "code": "GA18.6",
+  "source": "http://id.who.int/icd/entity/1481220289",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1481220289/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Other or unspecified ovarian cysts"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Any collection of fluid, surrounded by a very thin wall, within an ovary, which is not classified elsewhere. This includes any ovarian follicle that is larger than about two centimetres in diameter."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Polycystic ovary syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1213633323",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1213633323"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ovarian cyst: developmental"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2016712845",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2016712845"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ovarian cyst: neoplastic"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/685124533",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/685124533"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Other or unspecified ovarian cysts"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cystic degeneration of ovary"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cystic ovarian disease"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cystic ovary"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cystic ovary disease"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "microcystic degeneration of ovary"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cyst of ovary NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Corpus albicans cyst of ovary"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1101816916"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Retention cyst of ovary"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/734937461"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Simple cyst of ovary"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/338634851"
+    }
+  ]
+}

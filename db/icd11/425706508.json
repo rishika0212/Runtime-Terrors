@@ -1,0 +1,67 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/425706508",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/466688507"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#425706508",
+  "code": "2F23.0",
+  "source": "http://id.who.int/icd/entity/425706508",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/425706508/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/223243926",
+        "http://id.who.int/icd/release/11/2024-01/mms/947150833",
+        "http://id.who.int/icd/release/11/2024-01/mms/1810600222"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Dermatofibroma"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A common benign skin tumour which presents as a firm dermal papule or nodule, most commonly on the lower limbs. Histologically it is characterised by coarse, haphazardly arranged collagen bundles and a variable cellular infiltrate including fibrocytes."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dermatofibroma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fibrous histiocytoma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Histiocytoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1211753554"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sclerosing haemangioma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/576438647"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Subepidermal nodular fibrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/139932687"
+    }
+  ]
+}

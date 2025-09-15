@@ -1,0 +1,203 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/625292625",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/746680558"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#625292625",
+  "code": "1B12.8",
+  "source": "http://id.who.int/icd/entity/625292625",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute miliary cutaneous tuberculosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2106294878",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1056849595"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/625292625/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/672063490"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Cutaneous tuberculosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Tuberculosis involving the skin and mucous membranes including lupus vulgaris, scrofuloderma and periorificial tuberculosis."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculids"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1768852047",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/435641775"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Skin complications of BCG immunisation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1401435771",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1401435771"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1240824451"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/576751653"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cutaneous tuberculosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculosis of skin"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculosis cutis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculous chancre"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1431244630"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary inoculation tuberculosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1431244630"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Warty tuberculosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1559509073"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculosis verrucosa cutis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1559509073"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Verrucous tuberculosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1559509073"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Lupus vulgaris"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1292667822"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "lupus vulgaris of nose"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1292667822"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Scrofuloderma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1333941851"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculosis cutis colliquativa"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1333941851"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Periorificial tuberculosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1707607718"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute tuberculous ulcer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1707607718"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculosis cutis orificialis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1707607718"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Orificial tuberculosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1707607718"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculosis of male urethra or penis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1327388107"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Penile tuberculosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1327388107"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Metastatic tuberculous abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1819488673"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculous gumma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1819488673"
+    }
+  ]
+}

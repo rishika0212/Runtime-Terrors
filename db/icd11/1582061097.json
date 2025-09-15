@@ -1,0 +1,45 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1582061097",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1999264345"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1394325720",
+    "http://id.who.int/icd/release/11/2024-01/mms/1582061097/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1582061097/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1582061097",
+  "code": "LB12.1",
+  "source": "http://id.who.int/icd/entity/1582061097",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Laryngotracheooesophageal cleft"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/271795917",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/271795917"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1582061097/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/72252748"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Atresia of oesophagus"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Oesophageal atresia encompasses a group of congenital anomalies with an interruption in the continuity of the oesophagus, with or without persistent communication with the trachea. In 86% of cases there is a distal tracheoesophageal fistula, in 7% of cases there is no fistulous connection, while in 4% of cases there is a tracheoesophageal fistula without atresia. The remaining cases are made up of patients with OA with proximal, or both proximal and distal, tracheoesophageal fistula."
+  }
+}

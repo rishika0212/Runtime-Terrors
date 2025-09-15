@@ -1,0 +1,103 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1540965840",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1594312948"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1917562684",
+    "http://id.who.int/icd/release/11/2024-01/mms/21063503",
+    "http://id.who.int/icd/release/11/2024-01/mms/524771725",
+    "http://id.who.int/icd/release/11/2024-01/mms/1540965840/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1540965840/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1540965840",
+  "code": "DA24",
+  "source": "http://id.who.int/icd/entity/1540965840",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Oesophagitis in newborn"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2140459587",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2140459587"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1540965840/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/72252748"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1540965840/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1540965840/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Oesophagitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Oesophagitis is inflammation of the oesophagus. Oesophagitis can cause painful, difficult swallowing and chest pain. Oesophagitis has several causes; some common causes include stomach reflux, infection, oral medicines and allergies. Treatment for esophagitis depends on the underlying cause and how badly the tissue lining the esophagus is damaged. If left untreated, this condition can cause ulcers or scarring of the oesophagus causing narrowing of the oesophagus, unintended weight loss and dehydration."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "reflux oesophagitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/417695496",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/417695496"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Oesophageal erosion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2140708241",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2140708241"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gastro-oesophageal reflux disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1391387859",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1391387859"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Crohn disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1267652425",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1267652425"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/2140459587"
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/437591130",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/672974943"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#437591130",
+  "code": "8E01.0",
+  "source": "http://id.who.int/icd/entity/437591130",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/437591130/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1206955889"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Iatrogenically acquired Creutzfeldt-Jakob Disease"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Iatrogenically acquired Creutzfeld-Jakob Disease (iCJD) is CJD acquired by medical procedures, medicines, medicinal materials, or devices."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/564191997"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Iatrogenically acquired Creutzfeldt-Jakob Disease"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "iCJD - [Iatrogenically acquired Creutzfeld-Jakob Disease]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Human-growth hormone injection-related Creutzfeldt-Jakob Disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/866329807"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dural graft-associated Creutzfeldt-Jakob Disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/70256049"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "dCJD - [Dural graft-associated Creutzfeldt-Jakob Disease]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/70256049"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Other iatrogenic-acquired Creutzfeldt-Jakob Disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/649320406"
+    }
+  ]
+}

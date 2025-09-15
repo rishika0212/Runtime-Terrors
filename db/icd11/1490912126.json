@@ -1,0 +1,136 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1490912126",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1932345217"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1536632152",
+    "http://id.who.int/icd/release/11/2024-01/mms/567819142",
+    "http://id.who.int/icd/release/11/2024-01/mms/1150547476",
+    "http://id.who.int/icd/release/11/2024-01/mms/1657773950",
+    "http://id.who.int/icd/release/11/2024-01/mms/1815482567",
+    "http://id.who.int/icd/release/11/2024-01/mms/1490912126/other"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1490912126",
+  "code": "GB90",
+  "source": "http://id.who.int/icd/entity/1490912126",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Macroscopic changes of size of the kidney"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1958761246",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1958761246"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ureteral fistula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1675210300",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1675210300"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postinterventional ischemia or infarction of kidney"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/487964804",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/487964804"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neonatal haemorrhage originating in kidney or bladder"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/330257271",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/330257271"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Diabetic nephropathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1905915973",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/412389819/unspecified"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Renal late syphilis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2117556221",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1883423833/other"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Disorders of kidney or ureter in tuberculosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1202598073",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2072728114/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1490912126/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1490912126/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/720032908",
+        "http://id.who.int/icd/release/11/2024-01/mms/1267519716"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1490912126/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1194562592"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Certain specified disorders of kidney or ureter"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Any disorder characterised by pathological changes to the kidney or ureter."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Urolithiasis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1746821938",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1746821938"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Certain specified disorders of kidney or ureter"
+      }
+    }
+  ]
+}

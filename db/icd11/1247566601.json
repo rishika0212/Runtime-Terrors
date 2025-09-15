@@ -1,0 +1,56 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1247566601",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/799568625"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1247566601",
+  "code": "GA34.00",
+  "source": "http://id.who.int/icd/entity/1247566601",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1247566601/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/475546725"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Vulval pain"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A symptom of vulval pain affecting females, caused by trauma, infection, injury, inflammation, or hypersensitivity of the nerve fibres. This symptom is characterised by any type of pain in the vulva, during sexual intercourse, physical activity, or rest."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic primary visceral pain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/679352876",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/679352876"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic secondary visceral pain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/446969214",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/446969214"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Vulval pain"
+      }
+    }
+  ]
+}

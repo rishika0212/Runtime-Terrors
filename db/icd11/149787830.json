@@ -1,0 +1,76 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/149787830",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1989891499"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#149787830",
+  "code": "LB9A.5",
+  "source": "http://id.who.int/icd/entity/149787830",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/149787830/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/149787830/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1735902769"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Adactyly of feet"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition caused by failure of the digits on the foot to correctly develop during the antenatal period. This condition is characterised by absence of digits on the foot."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Adactyly of feet"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital absence of toe"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Agenesis of toe"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Adactyly of feet, unilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/979619264"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Adactyly of feet, bilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1412905693"
+    }
+  ]
+}

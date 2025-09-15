@@ -1,0 +1,59 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2096491408",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2055968951"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2098149771",
+    "http://id.who.int/icd/release/11/2024-01/mms/2051865312",
+    "http://id.who.int/icd/release/11/2024-01/mms/2096491408/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/2096491408/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2096491408",
+  "code": "1F23.3",
+  "source": "http://id.who.int/icd/entity/2096491408",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Invasive neonatal candidosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1116154797",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1080592090"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Candidaemia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/523617007",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/910665623"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2096491408/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/622600769",
+        "http://id.who.int/icd/release/11/2024-01/mms/1683090852",
+        "http://id.who.int/icd/release/11/2024-01/mms/512128824"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Systemic or invasive candidosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Invasion of internal organs by Candida yeasts. Risk factors include acute leukemia, haematopoietic stem cell or solid organ transplantation, and acute critical illness. Candida species other than Candida albicans are commonly implicated."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1080592090"
+  ]
+}

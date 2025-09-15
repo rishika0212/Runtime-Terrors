@@ -1,0 +1,149 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/942670067",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1984620329"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#942670067",
+  "code": "FB50.0",
+  "source": "http://id.who.int/icd/entity/942670067",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/942670067/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/942670067/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1810600222"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/942670067/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/942670067/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/390684604",
+        "http://id.who.int/icd/release/11/2024-01/mms/1569734721"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/942670067/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Infectious bursitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is a disorder of inflammation of one or more bursae (small sacs) of synovial fluid in the body which usually results in pain and is caused by an infectious agent."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculous bursitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1459473353",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1459473353"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infectious bursitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bacterial infection of bursa"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2144521991"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fungal infection of bursa"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1921104102"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mycobacterial infection of bursa"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1497240339"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Parasitic infection of bursa"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1416455410"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Viral infection of bursa"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/916397944"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Abscess of bursa"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/134811238"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bursa abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/134811238"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bursal abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/134811238"
+    }
+  ]
+}

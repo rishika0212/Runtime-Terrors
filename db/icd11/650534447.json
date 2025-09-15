@@ -1,0 +1,161 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/650534447",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/422307135"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#650534447",
+  "code": "2A00.00",
+  "source": "http://id.who.int/icd/entity/650534447",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/650534447/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/650534447/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1048482858"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/650534447/postcoordinationScale/histopathology",
+      "axisName": "http://id.who.int/icd/schema/histopathology",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1198831571",
+        "http://id.who.int/icd/release/11/2024-01/mms/1739022363"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/650534447/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1468768235",
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Glioblastoma of brain"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Glioblastomas are malignant astrocytic tumours (grade IV according to the WHO classification). They represent the most frequent brain tumours in adults. They may occur at any age, but 70% of cases are seen in patients between 45 and 70 years of age. The tumours are usually located in the brain hemispheres, but can be found anywhere in the central nervous system."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "glioblastoma NOS"
+      }
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Glioblastoma of brain"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "glioblastoma NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Giant cell glioblastoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/565094124"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "giant cell glioblastoma of unspecified site"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/565094124"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Monstrocellular sarcoma of unspecified site"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1371813087"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gliosarcoma of brain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/358853104"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "glioblastoma with sarcomatous component of unspecified site"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/358853104"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Glioblastoma multiforme of brain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/365571899"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spongioblastoma of unspecified site"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/175709754"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primitive polar spongioblastoma of unspecified site"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/437532670"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "polar spongioblastoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/437532670"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "spongioblastoma polare of unspecified site"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/437532670"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spongioblastoma multiforme of unspecified site"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1489933340"
+    }
+  ]
+}

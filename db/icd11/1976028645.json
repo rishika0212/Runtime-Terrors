@@ -1,0 +1,50 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1976028645",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/452386362"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/881448479",
+    "http://id.who.int/icd/release/11/2024-01/mms/1107278310",
+    "http://id.who.int/icd/release/11/2024-01/mms/615806068",
+    "http://id.who.int/icd/release/11/2024-01/mms/739049000",
+    "http://id.who.int/icd/release/11/2024-01/mms/1976028645/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1976028645/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1976028645",
+  "code": "NA08",
+  "source": "http://id.who.int/icd/entity/1976028645",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1976028645/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1048482858",
+        "http://id.who.int/icd/release/11/2024-01/mms/2037389465",
+        "http://id.who.int/icd/release/11/2024-01/mms/1357976561"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1976028645/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482",
+        "http://id.who.int/icd/release/11/2024-01/mms/755612283"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Crushing injury of head"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Damage inflicted on the tissues of the head as the direct or indirect result of a crushing external force."
+  }
+}

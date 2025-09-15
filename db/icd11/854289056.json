@@ -1,0 +1,73 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/854289056",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1185572073"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1996502540",
+    "http://id.who.int/icd/release/11/2024-01/mms/742097637",
+    "http://id.who.int/icd/release/11/2024-01/mms/2065822840",
+    "http://id.who.int/icd/release/11/2024-01/mms/854289056/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/854289056/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#854289056",
+  "code": "8C72.0",
+  "source": "http://id.who.int/icd/entity/854289056",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/854289056/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/215057274",
+        "http://id.who.int/icd/release/11/2024-01/mms/750435296",
+        "http://id.who.int/icd/release/11/2024-01/mms/108076065",
+        "http://id.who.int/icd/release/11/2024-01/mms/1874269997",
+        "http://id.who.int/icd/release/11/2024-01/mms/1250212986",
+        "http://id.who.int/icd/release/11/2024-01/mms/1122022750",
+        "http://id.who.int/icd/release/11/2024-01/mms/1833285474",
+        "http://id.who.int/icd/release/11/2024-01/mms/1193804992",
+        "http://id.who.int/icd/release/11/2024-01/mms/1057832531",
+        "http://id.who.int/icd/release/11/2024-01/mms/399094619",
+        "http://id.who.int/icd/release/11/2024-01/mms/260716451",
+        "http://id.who.int/icd/release/11/2024-01/mms/2013857037",
+        "http://id.who.int/icd/release/11/2024-01/mms/1907503626",
+        "http://id.who.int/icd/release/11/2024-01/mms/1136513990",
+        "http://id.who.int/icd/release/11/2024-01/mms/894625870",
+        "http://id.who.int/icd/release/11/2024-01/mms/653663824",
+        "http://id.who.int/icd/release/11/2024-01/mms/1047378803",
+        "http://id.who.int/icd/release/11/2024-01/mms/258484393/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/258484393/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Congenital myopathy with structural abnormalities"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Distinct group of inherited disorders of skeletal muscles which have characteristic structural abnormalities on muscle immuno-histochemistry."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Secondary myopathies"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1159616108",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1159616108"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myasthenia gravis or certain specified neuromuscular junction disorders"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1425591047",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1425591047"
+    }
+  ]
+}

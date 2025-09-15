@@ -1,0 +1,71 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1837670870",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1584778394"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1837670870",
+  "code": "8C03.0",
+  "source": "http://id.who.int/icd/entity/1837670870",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Diabetic foot ulcer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/74527684",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/74527684"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1837670870/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2019368323",
+        "http://id.who.int/icd/release/11/2024-01/mms/425464783"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1837670870/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1651053999",
+        "http://id.who.int/icd/release/11/2024-01/mms/119724091",
+        "http://id.who.int/icd/release/11/2024-01/mms/1150913605",
+        "http://id.who.int/icd/release/11/2024-01/mms/381961554",
+        "http://id.who.int/icd/release/11/2024-01/mms/1697306310"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Diabetic polyneuropathy"
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/564191997"
+  ],
+  "codingNote": {
+    "@language": "en",
+    "@value": "Always assign an additional code for diabetes mellitus."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Diabetic polyneuropathy"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "diabetic neuropathy NOS"
+      }
+    }
+  ]
+}

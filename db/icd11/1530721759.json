@@ -1,0 +1,35 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1530721759",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/73322695"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1008592825",
+    "http://id.who.int/icd/release/11/2024-01/mms/1559145231"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1530721759",
+  "code": "",
+  "source": "http://id.who.int/icd/entity/1530721759",
+  "classKind": "block",
+  "blockId": "BlockL2-PE8",
+  "codeRange": "PE80-PE95",
+  "title": {
+    "@language": "en",
+    "@value": "Assault by exposure to or harmful effects of substances"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Assault by harmful effects of and exposure to noxious substances that occur outside of a therapeutic use context. \n\nUse additional extension code, if desired, to identify substance."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Substances associated with injury or harm in therapeutic use"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1583926619",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1583926619"
+    }
+  ]
+}

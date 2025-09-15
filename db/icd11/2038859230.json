@@ -1,0 +1,74 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2038859230",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1294458332"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2038859230",
+  "code": "DD55",
+  "source": "http://id.who.int/icd/entity/2038859230",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2038859230/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2038859230/postcoordinationScale/temporalPatternAndOnset",
+      "axisName": "http://id.who.int/icd/schema/temporalPatternAndOnset",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1721353160"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Epigastric hernia"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A hernia occurs through the weak area of the upper abdomen between the umbilicus and the xiphoid on the linea alba. Although congenital epigastric hernias have been described in infants, they are usually considered an acquired condition."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Epigastric hernia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Epigastric hernia with obstruction, without gangrene"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/818632099"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Epigastric hernia with gangrene"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1960178239"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Epigastric hernia without obstruction or gangrene"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1224838190"
+    }
+  ]
+}

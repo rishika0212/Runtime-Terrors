@@ -1,0 +1,86 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/596808334",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1510618119"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#596808334",
+  "code": "2B33.2",
+  "source": "http://id.who.int/icd/entity/596808334",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/596808334/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/596808334/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1863636238",
+        "http://id.who.int/icd/release/11/2024-01/mms/885826145",
+        "http://id.who.int/icd/release/11/2024-01/mms/1746207012",
+        "http://id.who.int/icd/release/11/2024-01/mms/303697349"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Chronic myeloid leukaemia, not elsewhere classified"
+  },
+  "codingNote": {
+    "@language": "en",
+    "@value": "Only to be designated in cases. with incomplete diagnostics"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic myeloid leukaemia, not elsewhere classified"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic myeloid leukaemia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "CML- [chronic myeloid leukaemia]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "CGL - [chronic granulocytic leukaemia]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic granulocytic leukaemia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic myelocytic leukaemia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic myelogenous leukaemia"
+      }
+    }
+  ]
+}

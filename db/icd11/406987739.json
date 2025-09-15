@@ -1,0 +1,99 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/406987739",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1402642515"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#406987739",
+  "code": "9B50",
+  "source": "http://id.who.int/icd/entity/406987739",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculous episcleritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/706418049",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1074723013"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Late syphilitic episcleritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/894220791",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/551528014"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/406987739/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/406987739/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Episcleritis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Episcleritis is a benign, self-limiting inflammatory disease affecting part of the eye called the episclera. The episclera is a thin layer of tissue that lies between the conjunctiva and the connective tissue layer that forms the white of the eye (sclera). Episcleritis is a common condition, and is characterised by the abrupt onset of mild eye pain and redness."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Episcleritis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "episcleritis NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nodular episcleritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/134477595"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Episcleritis periodica fugax"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2091821028"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Suppurative episcleritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1832982093"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/483548056",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1007835083"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#483548056",
+  "code": "DA21.22",
+  "source": "http://id.who.int/icd/entity/483548056",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/483548056/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/483548056/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Spastic peristalsis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is a motility disorder of oesophagus characterised by hypercontractile spastic peristalsis, known as \"jackhammer oesophagus\" in the presence of normal lower oesophageal sphincter (LES) relaxation. This category also includes diffuse oesophageal spasm (DES) with uncoordinated contraction characterised by reduced distal latency on oesophageal manometry."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Diffuse oesophageal spasm"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spasm of oesophagus"
+      }
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spastic peristalsis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Diffuse oesophageal spasm"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hypercontractile oesophagus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spasm of oesophagus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Jackhammer oesophagus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Oesophageal spasm"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Oesophagospasm"
+      }
+    }
+  ]
+}

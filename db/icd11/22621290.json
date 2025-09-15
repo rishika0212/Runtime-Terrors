@@ -1,0 +1,69 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/22621290",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1237810616"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/464537683",
+    "http://id.who.int/icd/release/11/2024-01/mms/2130412999",
+    "http://id.who.int/icd/release/11/2024-01/mms/173462840",
+    "http://id.who.int/icd/release/11/2024-01/mms/1864177838",
+    "http://id.who.int/icd/release/11/2024-01/mms/22621290/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/22621290/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#22621290",
+  "code": "ND74",
+  "source": "http://id.who.int/icd/entity/22621290",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/22621290/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1803734370",
+        "http://id.who.int/icd/release/11/2024-01/mms/720032908",
+        "http://id.who.int/icd/release/11/2024-01/mms/1267519716",
+        "http://id.who.int/icd/release/11/2024-01/mms/466270993",
+        "http://id.who.int/icd/release/11/2024-01/mms/435785772",
+        "http://id.who.int/icd/release/11/2024-01/mms/344632447",
+        "http://id.who.int/icd/release/11/2024-01/mms/987725990"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/22621290/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/980862652",
+        "http://id.who.int/icd/release/11/2024-01/mms/851395624",
+        "http://id.who.int/icd/release/11/2024-01/mms/73322695",
+        "http://id.who.int/icd/release/11/2024-01/mms/128104623",
+        "http://id.who.int/icd/release/11/2024-01/mms/1491356379",
+        "http://id.who.int/icd/release/11/2024-01/mms/491063206",
+        "http://id.who.int/icd/release/11/2024-01/mms/185842968",
+        "http://id.who.int/icd/release/11/2024-01/mms/2143219175",
+        "http://id.who.int/icd/release/11/2024-01/mms/558785723",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Foreign body in genitourinary tract"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Presence of contraceptive device"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1077399850",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1077399850"
+    }
+  ]
+}

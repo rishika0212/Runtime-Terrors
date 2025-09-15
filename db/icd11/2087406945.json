@@ -1,0 +1,65 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2087406945",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1971756453"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1180710837",
+    "http://id.who.int/icd/release/11/2024-01/mms/590084641",
+    "http://id.who.int/icd/release/11/2024-01/mms/1468443358"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2087406945",
+  "code": "CA05",
+  "source": "http://id.who.int/icd/entity/2087406945",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2087406945/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acute laryngitis or tracheitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Acute laryngitis and tracheitis are defined respectively as acute inflammation of larynx and trachea, with local findings of erythema, and oedema of laryngeal and tracheal mucosa. Acute laryngitis and tracheitis are induced by upper respiratory tract viral infections or voice abuse."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Laryngismus (stridulus)"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1531260827",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1531260827"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute obstructive laryngitis or epiglottitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/421560565",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/421560565"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute laryngitis or tracheitis"
+      }
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/231099644",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1789410563"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#231099644",
+  "code": "QF01.11",
+  "source": "http://id.who.int/icd/entity/231099644",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Traumatic amputation of entire penis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1201717801",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1201717801"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Traumatic amputation of part of penis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1696796748",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1696796748"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Traumatic amputation of entire testes or scrotum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1249180509",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1249180509"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Traumatic amputation of part of testes or scrotum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1371121866",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1371121866"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/231099644/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1678247922"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acquired absence of male genital organs"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired absence of male genital organs"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired absence of prostate"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1063668344"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired absence of testicle"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1076185409"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired absence of epididymis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/184309436"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired absence of vas deferens"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/791743352"
+    }
+  ]
+}

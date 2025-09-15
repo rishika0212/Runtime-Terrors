@@ -1,0 +1,91 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1331849426",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/924915526"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2056837116",
+    "http://id.who.int/icd/release/11/2024-01/mms/1975822334",
+    "http://id.who.int/icd/release/11/2024-01/mms/1894811648",
+    "http://id.who.int/icd/release/11/2024-01/mms/1331849426/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1331849426/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1331849426",
+  "code": "BA04",
+  "source": "http://id.who.int/icd/entity/1331849426",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pre-existing secondary hypertension complicating pregnancy, childbirth or the puerperium"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1147534692",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1147534692"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1331849426/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1002963291"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1331849426/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2110009016",
+        "http://id.who.int/icd/release/11/2024-01/mms/572581721",
+        "http://id.who.int/icd/release/11/2024-01/mms/1470387017",
+        "http://id.who.int/icd/release/11/2024-01/mms/1654321425",
+        "http://id.who.int/icd/release/11/2024-01/mms/172733763",
+        "http://id.who.int/icd/release/11/2024-01/mms/1937534076",
+        "http://id.who.int/icd/release/11/2024-01/mms/280853107",
+        "http://id.who.int/icd/release/11/2024-01/mms/658360080",
+        "http://id.who.int/icd/release/11/2024-01/mms/1210263011",
+        "http://id.who.int/icd/release/11/2024-01/mms/2004408087",
+        "http://id.who.int/icd/release/11/2024-01/mms/856359002",
+        "http://id.who.int/icd/release/11/2024-01/mms/1868408442",
+        "http://id.who.int/icd/release/11/2024-01/mms/1583926619",
+        "http://id.who.int/icd/release/11/2024-01/mms/1323892810",
+        "http://id.who.int/icd/release/11/2024-01/mms/1111647054"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Secondary hypertension"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Defined through the measurement of the blood pressure using cuff method with a sitting systolic blood pressure above 140 mmHg or a sitting diastolic blood pressure above 90 mmHg in three consequent measurements with an identifiable cause."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "involving vessels of brain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/843843448",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/843843448"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "involving vessels of eye"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1564321837",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1564321837"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1910517058"
+  ]
+}

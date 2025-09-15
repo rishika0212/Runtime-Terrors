@@ -1,0 +1,73 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1822573082",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1506184775"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1822573082",
+  "code": "DB98.74",
+  "source": "http://id.who.int/icd/entity/1822573082",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Portal hypertension in schistosomiasis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/967450968",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1194562592/unspecified"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1822573082/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1194562592",
+        "http://id.who.int/icd/release/11/2024-01/mms/1781315693"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Secondary portal hypertension"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is secondary hypertension (high blood pressure) in the portal vein system, which is composed by the portal vein, and its branches and tributaries."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Partial nodular transformation of liver"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/664182661",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/664182661"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Splanchnic arteriovenous fistula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/237020948",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/237020948"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Secondary portal hypertension"
+      }
+    }
+  ]
+}

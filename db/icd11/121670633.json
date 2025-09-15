@@ -1,0 +1,86 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/121670633",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1585949804"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/684930313",
+    "http://id.who.int/icd/release/11/2024-01/mms/1137081791",
+    "http://id.who.int/icd/release/11/2024-01/mms/181304776",
+    "http://id.who.int/icd/release/11/2024-01/mms/731112897",
+    "http://id.who.int/icd/release/11/2024-01/mms/121670633/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/121670633/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#121670633",
+  "code": "1D01",
+  "source": "http://id.who.int/icd/entity/121670633",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/121670633/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1979147242",
+        "http://id.who.int/icd/release/11/2024-01/mms/1284492970"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/121670633/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/236924369",
+        "http://id.who.int/icd/release/11/2024-01/mms/771273482",
+        "http://id.who.int/icd/release/11/2024-01/mms/1508081745"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/121670633/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/588616678",
+        "http://id.who.int/icd/release/11/2024-01/mms/1904876434",
+        "http://id.who.int/icd/release/11/2024-01/mms/979278646",
+        "http://id.who.int/icd/release/11/2024-01/mms/1539889147",
+        "http://id.who.int/icd/release/11/2024-01/mms/1412960686",
+        "http://id.who.int/icd/release/11/2024-01/mms/1935092859",
+        "http://id.who.int/icd/release/11/2024-01/mms/487269828",
+        "http://id.who.int/icd/release/11/2024-01/mms/1000704511",
+        "http://id.who.int/icd/release/11/2024-01/mms/1104303944",
+        "http://id.who.int/icd/release/11/2024-01/mms/1959883044",
+        "http://id.who.int/icd/release/11/2024-01/mms/921595235",
+        "http://id.who.int/icd/release/11/2024-01/mms/1251496839",
+        "http://id.who.int/icd/release/11/2024-01/mms/1136802325",
+        "http://id.who.int/icd/release/11/2024-01/mms/145723401",
+        "http://id.who.int/icd/release/11/2024-01/mms/985510409",
+        "http://id.who.int/icd/release/11/2024-01/mms/1646490591",
+        "http://id.who.int/icd/release/11/2024-01/mms/1939815950",
+        "http://id.who.int/icd/release/11/2024-01/mms/255141529",
+        "http://id.who.int/icd/release/11/2024-01/mms/293771399",
+        "http://id.who.int/icd/release/11/2024-01/mms/1435254666/unspecified",
+        "http://id.who.int/icd/release/11/2024-01/mms/1760597414",
+        "http://id.who.int/icd/release/11/2024-01/mms/458687859",
+        "http://id.who.int/icd/release/11/2024-01/mms/1965146397",
+        "http://id.who.int/icd/release/11/2024-01/mms/142052508",
+        "http://id.who.int/icd/release/11/2024-01/mms/911707612"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Infectious meningitis, not elsewhere classified"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease of the meninges, caused by an infection."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1366690608"
+  ]
+}

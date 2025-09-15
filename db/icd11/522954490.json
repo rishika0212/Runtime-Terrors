@@ -1,0 +1,69 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/522954490",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1182876694"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#522954490",
+  "code": "KA46.0",
+  "source": "http://id.who.int/icd/entity/522954490",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/522954490/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/328366540"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/522954490/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/128908879",
+        "http://id.who.int/icd/release/11/2024-01/mms/1659188187",
+        "http://id.who.int/icd/release/11/2024-01/mms/373842724",
+        "http://id.who.int/icd/release/11/2024-01/mms/541657990",
+        "http://id.who.int/icd/release/11/2024-01/mms/986673759",
+        "http://id.who.int/icd/release/11/2024-01/mms/1929621170",
+        "http://id.who.int/icd/release/11/2024-01/mms/15547686",
+        "http://id.who.int/icd/release/11/2024-01/mms/437941753",
+        "http://id.who.int/icd/release/11/2024-01/mms/927970860/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Birth injury to liver"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Rupture or subcapsular haemorrhage into the liver parenchyma as a result of birth trauma usually seen in large for gestational age infants, those with hepatomegaly, those born by breech delivery; may present as haemoperitoneum"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Birth injury to liver"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Haematoma of liver due to birth injury"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1845858876"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Rupture of liver due to birth injury"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1250806856"
+    }
+  ]
+}

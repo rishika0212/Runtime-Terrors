@@ -1,0 +1,45 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/667435406",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1531458929"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#667435406",
+  "code": "4A80.0",
+  "source": "http://id.who.int/icd/entity/667435406",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/667435406/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1583926619",
+        "http://id.who.int/icd/release/11/2024-01/mms/1323892810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Drug-induced bronchospasm"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Drug-induced bronchospasm is a common clinical manifestation triggered by various drugs. It ranges in severity from mild to severe, and even fatal from post-anoxic brain damage. It can be manifested as an isolated event or in combination with other symptoms as representation of drug-induced anaphylaxis."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced bronchospasm"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "medicament-induced bronchospasm"
+      }
+    }
+  ]
+}

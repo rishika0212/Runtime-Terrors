@@ -1,0 +1,77 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1472717853",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/250657475",
+    "http://id.who.int/icd/release/11/2024-01/mms/291026076",
+    "http://id.who.int/icd/release/11/2024-01/mms/1796445107",
+    "http://id.who.int/icd/release/11/2024-01/mms/1472717853/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1472717853/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1472717853",
+  "code": "ME24.3",
+  "source": "http://id.who.int/icd/entity/1472717853",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Prenatal gastric perforation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1152641625",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1152641625"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postnatal gastric perforation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1074060570",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1074060570"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postnatal intestinal perforation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/747427677",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/747427677"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Prenatal intrauterine intestinal perforation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1865761275",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1865761275"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1472717853/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/135352227",
+        "http://id.who.int/icd/release/11/2024-01/mms/1630407678",
+        "http://id.who.int/icd/release/11/2024-01/mms/1256772020"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Digestive system perforation"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is a clinical form of sign indicating perforation of digestive tract. This category will be used for postcoordination codes as complications of underlying illness."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1865761275",
+    "http://id.who.int/icd/entity/747427677"
+  ]
+}

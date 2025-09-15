@@ -1,0 +1,49 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/868468606",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/747924236"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/271753352",
+    "http://id.who.int/icd/release/11/2024-01/mms/420403478",
+    "http://id.who.int/icd/release/11/2024-01/mms/868468606/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/868468606/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#868468606",
+  "code": "FA90",
+  "source": "http://id.who.int/icd/entity/868468606",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/868468606/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1302669122"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/868468606/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Infection of vertebra"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition of the vertebrae, caused by an infection with a bacterial, viral, fungal, or parasitic source. This condition commonly presents with fever, chills, headache, weight loss, or may be asymptomatic. Confirmation is by identification of the infectious agent in a blood sample, or radiographic tests."
+  }
+}

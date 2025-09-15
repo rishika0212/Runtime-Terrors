@@ -1,0 +1,68 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/204637746",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1769556904"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1544926445",
+    "http://id.who.int/icd/release/11/2024-01/mms/683205650",
+    "http://id.who.int/icd/release/11/2024-01/mms/962492793"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#204637746",
+  "code": "AB70",
+  "source": "http://id.who.int/icd/entity/204637746",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/204637746/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Otalgia or effusion of ear"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Otitis media"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1079654421",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1079654421"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic primary orofacial pain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1545281608",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2104869000"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic secondary headache or orofacial pain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2116703819",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2116703819"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Otalgia or effusion of ear"
+      }
+    }
+  ]
+}

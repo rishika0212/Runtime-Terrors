@@ -1,0 +1,263 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/283428170",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/145723401"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#283428170",
+  "code": "1E31",
+  "source": "http://id.who.int/icd/entity/283428170",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/283428170/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1418788600"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/283428170/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/956664712",
+        "http://id.who.int/icd/release/11/2024-01/mms/1054675109",
+        "http://id.who.int/icd/release/11/2024-01/mms/1054675109",
+        "http://id.who.int/icd/release/11/2024-01/mms/293771399",
+        "http://id.who.int/icd/release/11/2024-01/mms/1328350091",
+        "http://id.who.int/icd/release/11/2024-01/mms/1079654421",
+        "http://id.who.int/icd/release/11/2024-01/mms/1079654421/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/654702340",
+        "http://id.who.int/icd/release/11/2024-01/mms/1971756453",
+        "http://id.who.int/icd/release/11/2024-01/mms/1889351414",
+        "http://id.who.int/icd/release/11/2024-01/mms/142052508",
+        "http://id.who.int/icd/release/11/2024-01/mms/727572936",
+        "http://id.who.int/icd/release/11/2024-01/mms/82568660"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Influenza due to identified zoonotic or pandemic influenza virus"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Influenza, caused by influenza virus strains of special epidemiological importance with an animal-human or inter-human transmission. \nFor use of this category, reference must be made to the guidelines of the Global Influenza Programme (GIP, www.who.int/influenza/) of WHO."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Influenza due to infection with influenza virus strains of special epidemiological importance with an animal-human or inter-human transmission. \nThese diseases are characterized by fever, cough, headache, myalgia, arthralgia, or malaise. Transmission is by inhalation of infected respiratory secretions. Confirmation is by identification of the specified influenza virus in a nasopharyngeal, nose, or throat swab."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Haemophilus influenzae [H. influenzae] meningitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1005770900",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1005770900"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Haemophilus influenzae [H. influenzae] pneumonia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/732824952",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/732824952"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/911707612"
+  ],
+  "codingNote": {
+    "@language": "en",
+    "@value": "Influenza caused by influenza virus strains of special epidemiological importance with an animal-human or inter-human transmission limited to the inclusions"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Influenza due to identified zoonotic or pandemic influenza virus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Influenza with pneumonia, zoonotic or pandemic influenza virus identified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/362515638"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Influenza with respiratory manifestations, zoonotic or pandemic influenza virus identified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1892696356"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute upper respiratory infection zoonotic or pandemic influenza virus identified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/439529729"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Influenzal laryngitis zoonotic or pandemic influenza virus identified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1357623034"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Influenzal pharyngitis zoonotic or pandemic influenza virus identified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/443611617"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Influenzal pleural effusion zoonotic or pandemic influenza virus identified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/781553243"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Influenza with certain manifestations, zoonotic or pandemic influenza virus identified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/454822496"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Influenzal myocarditis, avian influenza virus identified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1053807739"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Influenzal acute myocarditis zoonotic or pandemic influenza virus identified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1525218058"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Influenzal acute myocarditis, avian influenza virus identified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1525218058"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Encephalopathy due to influenza zoonotic or pandemic influenza virus identified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/276016147"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Encephalitis in influenza due to certain identified influenza virus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/337048212"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Influenzal gastroenteritis zoonotic or pandemic influenza virus identified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/385597947"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myelitis due to Influenza A virus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1360534354"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Influenza due to infection with Influenza A/H7N9 virus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1117777912"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Influenza due to infection with Influenza A/H1N1 virus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1955263959"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Swine Flu"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1955263959"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Influenza A/H1N1 pandemic 2009"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1955263959"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Influenza A/H1N1 pandemic 2009 swine flu"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1955263959"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Influenza due to infection with Influenza A/H5N1 virus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1188232632"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Avian influenza"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1188232632"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Influenza A/ H5N1 epidemic"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1188232632"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Influenza A/ H5N1 epidemic avian influenza"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1188232632"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "influenza due to identified avian influenza virus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1188232632"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Otitis media in influenza with zoonotic or pandemic influenza virus identified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/171563033"
+    }
+  ]
+}

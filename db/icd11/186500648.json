@@ -1,0 +1,60 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/186500648",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1390117811"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#186500648",
+  "code": "MG28",
+  "source": "http://id.who.int/icd/entity/186500648",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hypothermia of newborn"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/736644026",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/736644026"
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Hypothermia, not associated with low environmental temperature"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hypothermia NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/406396914",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/406396914"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hypothermia low environmental temperature"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/406396914",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/406396914"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/736644026"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hypothermia, not associated with low environmental temperature"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hypopyrexia"
+      }
+    }
+  ]
+}

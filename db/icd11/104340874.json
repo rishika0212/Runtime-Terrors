@@ -1,0 +1,68 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/104340874",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/229221394"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#104340874",
+  "code": "DB94.10",
+  "source": "http://id.who.int/icd/entity/104340874",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/104340874/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/104340874/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Alcoholic hepatitis with cirrhosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is an inflammation of the liver due to excessive intake of alcohol, consequence of liver disease characterised by replacement of liver tissue by fibrosis, scar tissue and regenerative nodules."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Alcoholic hepatitis with cirrhosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Alcoholic hepatitis with cirrhosis, with complications of cirrhosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/229477999"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Alcoholic hepatitis with cirrhosis, without complications of cirrhosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/977186577"
+    }
+  ]
+}

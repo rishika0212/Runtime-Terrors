@@ -1,0 +1,44 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1910441093",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1669303982"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1910441093",
+  "code": "PL14.3",
+  "source": "http://id.who.int/icd/entity/1910441093",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1910441093/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1764538264",
+        "http://id.who.int/icd/release/11/2024-01/mms/448930820",
+        "http://id.who.int/icd/release/11/2024-01/mms/2024436666"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Mismatched blood used in transfusion"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Mismatched blood was used in transfusion and led to injury."
+  },
+  "codingNote": {
+    "@language": "en",
+    "@value": "Code first the injury or harm associated with other health care interventions. Code also the cause of harm (i.e. PL10 Other health care related causes of injury or harm)"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mismatched blood used in transfusion"
+      }
+    }
+  ]
+}

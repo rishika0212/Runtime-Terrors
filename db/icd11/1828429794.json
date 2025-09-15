@@ -1,0 +1,84 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1828429794",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/925320484"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1828429794",
+  "code": "BD71.0",
+  "source": "http://id.who.int/icd/entity/1828429794",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1828429794/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1828429794/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1050306512",
+        "http://id.who.int/icd/release/11/2024-01/mms/1695313768",
+        "http://id.who.int/icd/release/11/2024-01/mms/1309217505",
+        "http://id.who.int/icd/release/11/2024-01/mms/1718660768",
+        "http://id.who.int/icd/release/11/2024-01/mms/532087953"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Upper limb deep vein thrombosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Venous thrombosis within the deep veins of the upper limb."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/450519836",
+    "http://id.who.int/icd/entity/1914718106"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Upper limb deep vein thrombosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "UEDVT - [upper extremity deep vein thrombosis]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "arm deep vein thrombosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Axillary vein thrombosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1439146261"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Subclavian deep vein thrombosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1452248295"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2098861917",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/842838910"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/594172949",
+    "http://id.who.int/icd/release/11/2024-01/mms/1176605057",
+    "http://id.who.int/icd/release/11/2024-01/mms/1096962796",
+    "http://id.who.int/icd/release/11/2024-01/mms/2098861917/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/2098861917/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2098861917",
+  "code": "FB41",
+  "source": "http://id.who.int/icd/entity/2098861917",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2098861917/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2098861917/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1617949731",
+        "http://id.who.int/icd/release/11/2024-01/mms/1059756073"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Spontaneous rupture of synovium or tendon"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is a spontaneous rupture to a fluid-filled sac containing viscous fluid which normally acts to decrease friction and also provides a cushion between bones and tendons and/or muscles around a joint."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "rupture where an abnormal force is applied to normal tissue - see injury of tendon by body region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/435227771",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/435227771"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "rotator cuff syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1471943310",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1471943310"
+    }
+  ],
+  "codingNote": {
+    "@language": "en",
+    "@value": "Includes rupture that occurs when a normal force is applied to tissues that are inferred to have less than normal strength."
+  }
+}

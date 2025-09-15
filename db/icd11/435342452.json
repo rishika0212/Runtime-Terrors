@@ -1,0 +1,66 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/435342452",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1517885800"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1040403412",
+    "http://id.who.int/icd/release/11/2024-01/mms/1544242475",
+    "http://id.who.int/icd/release/11/2024-01/mms/960530623",
+    "http://id.who.int/icd/release/11/2024-01/mms/1307433024",
+    "http://id.who.int/icd/release/11/2024-01/mms/681973206",
+    "http://id.who.int/icd/release/11/2024-01/mms/1252924203",
+    "http://id.who.int/icd/release/11/2024-01/mms/435342452/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/435342452/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#435342452",
+  "code": "5B55",
+  "source": "http://id.who.int/icd/entity/435342452",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired vitamin A deficiency anaemia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1836080246",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1836080246"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/435342452/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1791550158/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/755558110"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Vitamin A deficiency"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Vitamin A deficiency (VAD) is defined as a state in which tissue concentrations of vitamin A are low enough to have adverse health consequences even if there is no evidence of clinical xerophthalmia. The term xerophthalmia encompasses the clinical spectrum of ocular manifestations of vitamin A deficiency, from milder stages of night blindness and Bitot’s spots, to potentially blinding stages of corneal xerosis, ulceration and necrosis (keratomalacia). In addition to the specific signs and symptoms of xerophthalmia and the risk of irreversible blindness, nonspecific symptoms include increased morbidity and mortality, poor reproductive health, increased risk of anaemia, and contributions to slowed growth and development."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Vitamin A deficiency (VAD) is a major public health problem affecting an estimated 190 million preschool-age children and 19 million pregnant women, principally in Africa and South-East Asia. This corresponds to 33.3% of the preschool-age population and 15.3% of pregnant women in populations at risk. \n\nVitamin A deficiency is one of the most important causes of preventable childhood blindness; however, the prevalence of ocular manifestations is now recognized to far underestimate the magnitude of the problem of functionally significant deficiency. Many more preschool-age children, and perhaps older children and women who are pregnant or lactating, have their health compromised when they are sub-clinically deficient. In young children, subclinical deficiency, like clinical deficiency, increases the severity of some infections, particularly diarrhoea and measles, and increases the risk of death. \n\nThe primary cause of vitamin A deficiency is lack of an adequate intake of vitamin A, and may be exacerbated by high rates of infection, especially diarrhoea and measles. A diet that is chronically insufficient in vitamin A can lead to lower body stores and fail to meet physiologic needs (e.g. support tissue growth, normal metabolism, resistance to infection), especially during stages of life of high nutritional demand (e.g. early childhood, pregnancy and lactation). Deficiency of sufficient duration or severity can lead to disorders that are common in vitamin A deficient populations such as xerophthalmia, the leading cause of preventable childhood blindness, anaemia, and weakened host resistance to infection, which can increase the severity of infectious diseases and risk of death."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hypovitaminosis A"
+      }
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/517413026"
+  ]
+}

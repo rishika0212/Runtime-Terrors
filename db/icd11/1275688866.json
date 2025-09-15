@@ -1,0 +1,44 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1275688866",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1592172566"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1275688866",
+  "code": "2A86.0",
+  "source": "http://id.who.int/icd/entity/1275688866",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1275688866/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Malignant lymphoma of B cell type, not elsewhere classified"
+  },
+  "codingNote": {
+    "@language": "en",
+    "@value": "If B-cell lineage or involvement is mentioned in conjunction with a specific lymphoma, code to the more specific description."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant lymphoma of B cell type, not elsewhere classified"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "B-cell lymphoma NOS"
+      }
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2008095771",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/850824593"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2008095771",
+  "code": "CB40.3",
+  "source": "http://id.who.int/icd/entity/2008095771",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pneumomediastinum originating in the perinatal period"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1055088320",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1055088320"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Interstitial emphysema originating in the perinatal period"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/788906923",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/788906923"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2008095771/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Interstitial emphysema"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is a collection of air outside of the normal air passages in the body and instead is found inside the connective tissue of the peribronchovascular sheaths, interlobular septa, and visceral pleura. This collection develops as a result of alveolar and terminal bronchiolar rupture."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "emphysema: NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1948124976",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1948124976"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "emphysema: surgical (subcutaneous)"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1952274258",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1952274258"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Traumatic subcutaneous emphysema, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/134353249",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/134353249"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/923122941"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/788906923"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Interstitial emphysema"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "interstitial pulmonary emphysema"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "interstitial emphysema of lung"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic interstitial emphysema"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "interstitial pulmonary emphysema syndrome"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mediastinal emphysema"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/121109203"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pneumomediastinum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/121109203"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "anterior mediastinal air"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/121109203"
+    }
+  ]
+}

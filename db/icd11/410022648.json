@@ -1,0 +1,67 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/410022648",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1646490591"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/869374630",
+    "http://id.who.int/icd/release/11/2024-01/mms/2131502234",
+    "http://id.who.int/icd/release/11/2024-01/mms/1478349286",
+    "http://id.who.int/icd/release/11/2024-01/mms/410022648/other"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#410022648",
+  "code": "1F02",
+  "source": "http://id.who.int/icd/entity/410022648",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital rubella syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1059053724",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1059053724"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/410022648/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1024154490"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Rubella"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease caused by an infection with the rubella virus. This disease commonly presents with lymphadenopathy, or an exanthem that starts on the face and spreads to the limbs and trunk. Transmission is commonly by inhalation of infected respiratory secretions, or direct contact."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Rubella, commonly known as German measles, is a disease caused by the rubella virus. This disease is often mild and attacks often pass unnoticed. The disease can last one to three days. It's a common childhood infection usually with minimal systemic upset although transient arthropathy may occur in adults. Serious complications are very rare. Apart from the effects of transplacental infection on the developing fetus, rubella is relatively trivial infection"
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1059053724"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Rubella"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "German measles"
+      }
+    }
+  ]
+}

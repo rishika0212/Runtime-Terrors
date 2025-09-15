@@ -1,0 +1,111 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/133207228",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1582386590"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1665365733",
+    "http://id.who.int/icd/release/11/2024-01/mms/143605159",
+    "http://id.who.int/icd/release/11/2024-01/mms/133207228/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#133207228",
+  "code": "CA22",
+  "source": "http://id.who.int/icd/entity/133207228",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/133207228/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1349205270",
+        "http://id.who.int/icd/release/11/2024-01/mms/178078665",
+        "http://id.who.int/icd/release/11/2024-01/mms/1866919550",
+        "http://id.who.int/icd/release/11/2024-01/mms/1080893150"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Chronic obstructive pulmonary disease"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Chronic Obstructive Pulmonary disease (COPD), a common preventable and treatable disease, is characterised by persistent airflow limitation that is usually progressive and associated with an enhanced chronic inflammatory response in the airways and the lung to noxious particles or gases. Exacerbations and comorbidities contribute to the overall severity in individual patients."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Classification of severity of airflow limitation in COPD (based on post-bronchodilator FEV1 (Forced Expiratory Volume in 1 second))\nGOLD 1: Mild FEV1 greater than or equal to 80% predicted\nGOLD 2: Moderate 50% equal to or less than FEV1 greater than 80% predicted\nGOLD 3: Severe 30% equal to or less than FEV1 greater than 50% predicted\nGOLD 4: Very Severe FEV1 less than 30% predicted"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Emphysema"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1948124976",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1948124976"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic tracheobronchitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/290835130",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/290835130"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic tracheitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/290835130",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/290835130"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Simple or mucopurulent chronic bronchitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1710791237",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/290835130"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "asthmatic bronchitis NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2138913203",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2138913203"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bronchiectasis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1935524933",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1935524933"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Asthma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1656445230",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1656445230"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic bronchitis NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/290835130",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/290835130"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/607453719"
+  ]
+}

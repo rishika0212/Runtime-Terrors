@@ -1,0 +1,365 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/492677713",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/414849600"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#492677713",
+  "code": "FB83.20",
+  "source": "http://id.who.int/icd/entity/492677713",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/492677713/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/492677713/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/183512318",
+        "http://id.who.int/icd/release/11/2024-01/mms/1415462031"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/492677713/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/658360080",
+        "http://id.who.int/icd/release/11/2024-01/mms/1210263011",
+        "http://id.who.int/icd/release/11/2024-01/mms/761526554",
+        "http://id.who.int/icd/release/11/2024-01/mms/1746821938",
+        "http://id.who.int/icd/release/11/2024-01/mms/854539401",
+        "http://id.who.int/icd/release/11/2024-01/mms/1490912126",
+        "http://id.who.int/icd/release/11/2024-01/mms/4407978",
+        "http://id.who.int/icd/release/11/2024-01/mms/420699896",
+        "http://id.who.int/icd/release/11/2024-01/mms/1932345217/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Aluminium bone disease"
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/438200634"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aluminium bone disease"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "aluminium bone disease, site unspecified"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "aluminium-related osteopathy"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "aluminium bone disorder"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aluminium bone disease, multiple sites"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1290609708"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aluminium bone disease, shoulder region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/698804670"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aluminium bone disease, clavicle"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/951166119"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aluminium bone disease, scapula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/649000147"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aluminium bone disease, acromioclavicular joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1178695320"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aluminium bone disease, glenohumeral joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/43112419"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aluminium bone disease, sternoclavicular joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2102332526"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aluminium bone disease, upper arm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1561049409"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aluminium bone disease, humerus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/587523215"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aluminium bone disease, elbow joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1107940618"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aluminium bone disease, forearm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/943748309"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aluminium bone disease, radius"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1037504133"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aluminium bone disease, ulna"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/756913971"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aluminium bone disease, wrist joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/251267562"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aluminium bone disease, hand"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1269753665"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aluminium bone disease, carpus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1353834761"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aluminium bone disease, fingers"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1851245377"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aluminium bone disease, metacarpus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1315048195"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aluminium bone disease, pelvic region or thigh"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/786770645"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aluminium bone disease, femur"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/275491584"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aluminium bone disease, pelvis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1295757701"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aluminium bone disease, hip joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/853895692"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aluminium bone disease, lower leg"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1283371579"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aluminium bone disease, fibula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/473752664"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aluminium bone disease, knee joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/373273004"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aluminium bone disease, tibia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1057918639"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aluminium bone disease, ankle or foot"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1057208256"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aluminium bone disease, metatarsus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2140572742"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aluminium bone disease, tarsus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2144650408"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aluminium bone disease, toes"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/173788935"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aluminium bone disease, ankle joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/730641547"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aluminium bone disease, other joints in foot"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/71482555"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aluminium bone disease, head"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1114284798"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aluminium bone disease, neck"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1191766217"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aluminium bone disease, ribs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2012723517"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aluminium bone disease, skull"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1449298513"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aluminium bone disease, trunk"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1094295267"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aluminium bone disease, vertebral column"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1098634755"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aluminium-related osteomalacia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/297472634"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "osteomalacia secondary to aluminium toxicity"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/297472634"
+    }
+  ]
+}

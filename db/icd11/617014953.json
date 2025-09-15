@@ -1,0 +1,52 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/617014953",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/624443803"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/950673209",
+    "http://id.who.int/icd/release/11/2024-01/mms/944657894",
+    "http://id.who.int/icd/release/11/2024-01/mms/716774677",
+    "http://id.who.int/icd/release/11/2024-01/mms/1142758480",
+    "http://id.who.int/icd/release/11/2024-01/mms/689092517",
+    "http://id.who.int/icd/release/11/2024-01/mms/1072290900",
+    "http://id.who.int/icd/release/11/2024-01/mms/1162389436",
+    "http://id.who.int/icd/release/11/2024-01/mms/617014953/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/617014953/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#617014953",
+  "code": "KA45",
+  "source": "http://id.who.int/icd/entity/617014953",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/617014953/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/183512318",
+        "http://id.who.int/icd/release/11/2024-01/mms/1415462031"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Birth injury to skeleton"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition characterised by the presence of damage to the skeleton due to physical pressure or injury during delivery."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Birth injury to spine or spinal cord"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1205696889",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1205696889"
+    }
+  ]
+}

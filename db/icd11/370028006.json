@@ -1,0 +1,94 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/370028006",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/197934298"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/875272781",
+    "http://id.who.int/icd/release/11/2024-01/mms/1365268441",
+    "http://id.who.int/icd/release/11/2024-01/mms/1609027855"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#370028006",
+  "code": "CB41",
+  "source": "http://id.who.int/icd/entity/370028006",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/370028006/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1435254666",
+        "http://id.who.int/icd/release/11/2024-01/mms/1630407678",
+        "http://id.who.int/icd/release/11/2024-01/mms/1766440644",
+        "http://id.who.int/icd/release/11/2024-01/mms/1954798891",
+        "http://id.who.int/icd/release/11/2024-01/mms/21500692",
+        "http://id.who.int/icd/release/11/2024-01/mms/1296093776",
+        "http://id.who.int/icd/release/11/2024-01/mms/426429380",
+        "http://id.who.int/icd/release/11/2024-01/mms/197934298",
+        "http://id.who.int/icd/release/11/2024-01/mms/1256772020",
+        "http://id.who.int/icd/release/11/2024-01/mms/1473673350",
+        "http://id.who.int/icd/release/11/2024-01/mms/30659757",
+        "http://id.who.int/icd/release/11/2024-01/mms/1306203631",
+        "http://id.who.int/icd/release/11/2024-01/mms/1843895818",
+        "http://id.who.int/icd/release/11/2024-01/mms/435227771"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Respiratory failure"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Respiratory failure is a life-threatening impairment of oxygenation or carbon dioxide (CO2) elimination. Respiratory failure may occur because of impaired gas exchange, decreased ventilation, or both. The level of oxygen in the blood becomes dangerously low or the level of carbon dioxide becomes dangerously high."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute respiratory distress syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1189702844",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1189702844"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Respiratory arrest"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1717524844",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1717524844"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Respiratory distress of newborn"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1178406122",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1178406122"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Respiratory failure"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "lung failure NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pulmonary failure"
+      }
+    }
+  ]
+}

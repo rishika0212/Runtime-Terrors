@@ -1,0 +1,45 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1144812971",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/691643472"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1359806843",
+    "http://id.who.int/icd/release/11/2024-01/mms/1144812971/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1144812971/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1144812971",
+  "code": "2A21.0",
+  "source": "http://id.who.int/icd/entity/1144812971",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1144812971/postcoordinationScale/histopathology",
+      "axisName": "http://id.who.int/icd/schema/histopathology",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1251027837",
+        "http://id.who.int/icd/release/11/2024-01/mms/1770652518"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1144812971/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Systemic mastocytosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Systemic mastocytosis (SM) comprises a heterogeneous group of rare acquired and chronic haematological malignancies that are related to an abnormal proliferation of mast cells in tissue, including bone marrow, with or without skin involvement. SM can be divided into indolent SM (ISM) and aggressive SM (ASM)."
+  }
+}

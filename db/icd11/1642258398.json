@@ -1,0 +1,54 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1642258398",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1313926062"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1454811046",
+    "http://id.who.int/icd/release/11/2024-01/mms/872245808",
+    "http://id.who.int/icd/release/11/2024-01/mms/1642258398/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1642258398/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1642258398",
+  "code": "ED70.5",
+  "source": "http://id.who.int/icd/entity/1642258398",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1642258398/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/620459604"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Scarring alopecia"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Hair loss in which there is irreversible damage to the hair follicle from inflammation, infection, malignant infiltration or trauma, resulting in destruction of the follicle and repair by fibrosis. Regeneration does not occur once the follicle has been destroyed."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cicatricial alopecia"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Lichen planopilaris"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/572258139",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1963050127"
+    }
+  ]
+}

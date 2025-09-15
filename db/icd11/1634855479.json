@@ -1,0 +1,106 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1634855479",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1437411258"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1634855479",
+  "code": "DA60.0",
+  "source": "http://id.who.int/icd/entity/1634855479",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1634855479/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1493524587"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1634855479/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/294460566",
+        "http://id.who.int/icd/release/11/2024-01/mms/985094335",
+        "http://id.who.int/icd/release/11/2024-01/mms/1794059753"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1634855479/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Gastric erosion"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Gastric erosion represents a mucosal breach extending up to, but not through, the muscularis mucosa. Gastric erosion may constitute a phase of ulcer development or accompany some forms of gastric ulcer."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gastric erosion"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "erosion of stomach"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute erosion of stomach"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1895058145"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute pyloric erosion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/815854198"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute pylorus erosion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/815854198"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute pyloric ulcer erosion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1320540377"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute pylorus ulcer erosion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1320540377"
+    }
+  ]
+}

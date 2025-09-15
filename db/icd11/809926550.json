@@ -1,0 +1,61 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/809926550",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1298211163"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#809926550",
+  "code": "JB64.1",
+  "source": "http://id.who.int/icd/entity/809926550",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/809926550/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1766440644",
+        "http://id.who.int/icd/release/11/2024-01/mms/1954798891"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Other diseases of the blood or blood-forming organs or certain disorders involving the immune mechanism complicating pregnancy, childbirth or the puerperium"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Any disease affecting pregnant females, characterised by pathological changes to the blood and blood-forming organs and pathological changes involving the immune mechanism that complicate pregnancy, childbirth, or the puerperium not classified elsewhere."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Antepartum haemorrhage with coagulation defect"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/886384701",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/886384701"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Intrapartum haemorrhage with coagulation defect"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/135898846",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/135898846"
+    }
+  ],
+  "codingNote": {
+    "@language": "en",
+    "@value": "This category includes conditions which complicate the pregnant state, are aggravated by the pregnancy or are a main reason for obstetric care but no specific category exists in this chapter."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Other diseases of the blood or blood-forming organs or certain disorders involving the immune mechanism complicating pregnancy, childbirth or the puerperium"
+      }
+    }
+  ]
+}

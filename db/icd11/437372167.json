@@ -1,0 +1,46 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/437372167",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1860070272"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/83784921",
+    "http://id.who.int/icd/release/11/2024-01/mms/621183043",
+    "http://id.who.int/icd/release/11/2024-01/mms/437372167/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/437372167/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#437372167",
+  "code": "4B24",
+  "source": "http://id.who.int/icd/entity/437372167",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/437372167/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/334236299"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/437372167/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/146631584",
+        "http://id.who.int/icd/release/11/2024-01/mms/36752588"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Graft-versus-host disease"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Graft-versus-host disease (GVHD) occurs when lymphoid cells from an immunocompetent donor are introduced into a histo-incompatible recipient incapable of rejecting them. This usually occurs as a result of haematopoietic stem cell transplantation. The main targets attacked by the donor lymphocytes are the recipient’s skin, gastrointestinal tract and liver. Acute GVHD, normally occurring within the first 100 days following transplantation, has a high mortality. The acute phase may be followed by chronic GVHD, which can also arise de novo. This usually presents as a lichenoid rash but can develop into a severe fibrosing disease affecting skin, lungs and liver."
+  }
+}

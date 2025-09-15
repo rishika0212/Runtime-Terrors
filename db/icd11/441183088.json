@@ -1,0 +1,112 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/441183088",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1210263011"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#441183088",
+  "code": "GB51",
+  "source": "http://id.who.int/icd/entity/441183088",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/441183088/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/441183088/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/441183088/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/622600769",
+        "http://id.who.int/icd/release/11/2024-01/mms/1683090852"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/441183088/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/916407020",
+        "http://id.who.int/icd/release/11/2024-01/mms/1758767625",
+        "http://id.who.int/icd/release/11/2024-01/mms/1724766645",
+        "http://id.who.int/icd/release/11/2024-01/mms/1980186627"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acute pyelonephritis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Acute inflammation of the renal pelvis and parenchyma due to bacterial infection. One of the commonest bacterial infections of adult women. Symptoms include fever, loin (kidney) pain, nausea and vomiting. Co-incident symptoms of acute cystitis with dysuria, frequency and haematuria may occur. Renal failure is not a feature unless there is septicaemia, hypotension or hypovolemia."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute bacterial pyelonephritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/403411521"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute pyelonephritis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "APN - [acute pyelonephritis]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute bacterial pyelonephritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/403411521"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute congenital pyelitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1797013204"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute uraemic pyelitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1892858320"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/326528694",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/151516004"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2081715299",
+    "http://id.who.int/icd/release/11/2024-01/mms/1586996742",
+    "http://id.who.int/icd/release/11/2024-01/mms/1761904504",
+    "http://id.who.int/icd/release/11/2024-01/mms/1457089035",
+    "http://id.who.int/icd/release/11/2024-01/mms/326528694/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#326528694",
+  "code": "ND14.7",
+  "source": "http://id.who.int/icd/entity/326528694",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/326528694/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/326528694/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1705475090"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/326528694/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/980862652",
+        "http://id.who.int/icd/release/11/2024-01/mms/851395624",
+        "http://id.who.int/icd/release/11/2024-01/mms/73322695",
+        "http://id.who.int/icd/release/11/2024-01/mms/128104623",
+        "http://id.who.int/icd/release/11/2024-01/mms/1491356379",
+        "http://id.who.int/icd/release/11/2024-01/mms/491063206",
+        "http://id.who.int/icd/release/11/2024-01/mms/185842968",
+        "http://id.who.int/icd/release/11/2024-01/mms/2143219175",
+        "http://id.who.int/icd/release/11/2024-01/mms/558785723",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Strain or sprain of ankle"
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Sprain is an injury to a ligament, and strain is an injury to muscle. Sprain and strain of ankle is ligament, muscle injury of ankle. They can cause ankle pain with swelling and bruising in the ankle. The disorders are some of the most common orthopedic injuries."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury of Achilles tendon"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/573150993",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/573150993"
+    }
+  ]
+}

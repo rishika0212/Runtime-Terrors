@@ -1,0 +1,97 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/995429783",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1398301359"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#995429783",
+  "code": "DA94.1",
+  "source": "http://id.who.int/icd/entity/995429783",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/995429783/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/18598211",
+        "http://id.who.int/icd/release/11/2024-01/mms/1708923236"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/995429783/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731",
+        "http://id.who.int/icd/release/11/2024-01/mms/746448055",
+        "http://id.who.int/icd/release/11/2024-01/mms/248569732",
+        "http://id.who.int/icd/release/11/2024-01/mms/1530721759",
+        "http://id.who.int/icd/release/11/2024-01/mms/817370856",
+        "http://id.who.int/icd/release/11/2024-01/mms/1583926619"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/995429783/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Drug-induced or toxic enteritis of small intestine"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Enteritis or ulcer of small intestine due to medication including mucosal damaged agents such as NSAIDs, aspirin and antibiotics, due to chemotherapy and due to chemical toxic substances."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced or toxic enteritis of small intestine"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Toxic ileitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2001586765"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "toxic ileal inflammation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2001586765"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "toxic necrotic ileitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2001586765"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Toxic jejunitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/676588590"
+    }
+  ]
+}

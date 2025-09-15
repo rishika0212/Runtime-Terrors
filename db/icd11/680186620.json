@@ -1,0 +1,140 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/680186620",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1323682030"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#680186620",
+  "code": "CA40.01",
+  "source": "http://id.who.int/icd/entity/680186620",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital pneumonia due to Escherichia coli"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/264747265",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/594985340"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/680186620/postcoordinationScale/causality",
+      "axisName": "http://id.who.int/icd/schema/causality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/894194405",
+        "http://id.who.int/icd/release/11/2024-01/mms/1674014893",
+        "http://id.who.int/icd/release/11/2024-01/mms/655959100",
+        "http://id.who.int/icd/release/11/2024-01/mms/56475710",
+        "http://id.who.int/icd/release/11/2024-01/mms/339929010"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/680186620/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/680186620/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1338477196",
+        "http://id.who.int/icd/release/11/2024-01/mms/1492119116",
+        "http://id.who.int/icd/release/11/2024-01/mms/1322869997",
+        "http://id.who.int/icd/release/11/2024-01/mms/1637303052"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/680186620/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1292092042"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/680186620/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/622600769",
+        "http://id.who.int/icd/release/11/2024-01/mms/1683090852"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/680186620/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/916407020"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Pneumonia due to Escherichia coli"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease of the pulmonary system, caused by an infection with the gram-negative bacteria Escherichia coli. This disease is characterised by fever, cough, and dyspnoea. Transmission is commonly by inhalation of infected respiratory secretions. Confirmation is by identification of Escherichia coli in blood, sputum, or pleural fluid samples."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "This is an inflammatory condition of the lung—affecting primarily the microscopic air sacs known as alveoli, due to a Gram-negative, rod-shaped bacterium that is commonly found in the lower intestine of warm-blooded organisms (endotherms)."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/923122941"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/594985340"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pneumonia due to Escherichia coli"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pneumonia due to E. coli"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Escherichia coli lobar pneumonia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Early-onset pneumonia due to Escherichia coli"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1217905496"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Late-onset pneumonia due to Escherichia coli"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1884466761"
+    }
+  ]
+}

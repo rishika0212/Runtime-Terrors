@@ -1,0 +1,301 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1244444785",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/793617888"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1244444785",
+  "code": "FA70.0",
+  "source": "http://id.who.int/icd/entity/1244444785",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1244444785/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/405704375"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1244444785/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1569734721"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Kyphosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is a curving of the spine that causes a bowing or rounding of the back, which leads to a hunchback or slouching posture."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Post radiation kyphosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1038405279",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1038405279"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Kyphosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "postural kyphosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Kyphosis with no determinant"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1414148112"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "primary kyphosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1414148112"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "idiopathic kyphosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1414148112"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Kyphosis with determinant"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1383021705"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "secondary kyphosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1383021705"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neurogenic kyphosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/494972664"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Epiphysiopathy kyphosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/751786759"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Muscular kyphosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/552507771"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Degenerative kyphosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/881647615"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Kyphosis as a part of syndromes"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/950869379"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporotic kyphosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/474501879"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Post infectious kyphosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/275353739"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Post traumatic kyphosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/67884559"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Post surgical kyphosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/492236382"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Flatback syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1349710665"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "back; flat"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1349710665"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Flatback syndrome, multiple sites in spine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/599713778"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Flatback syndrome, occipito-atlanto-axial region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1190472296"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Flatback syndrome, cervical region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/844659353"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Flatback syndrome, cervicothoracic region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1460909837"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Flatback syndrome, thoracic region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/620569753"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Flatback syndrome, thoracolumbar region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1102506253"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Flatback syndrome, lumbar region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/891009524"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Flatback syndrome, lumbosacral region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1347449958"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Flatback syndrome, sacral or sacrococcygeal region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/758735140"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postural kyphosis, multiple sites in spine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/604946471"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postural kyphosis, occipito-atlanto-axial region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1095044531"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postural kyphosis, cervical region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/904420684"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postural kyphosis, cervicothoracic region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1352896730"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postural kyphosis, thoracic region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/592249678"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postural kyphosis, thoracolumbar region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1174851288"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postural kyphosis, lumbar region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/850107943"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postural kyphosis, lumbosacral region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1474319283"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postural kyphosis, sacral or sacrococcygeal region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/713639665"
+    }
+  ]
+}

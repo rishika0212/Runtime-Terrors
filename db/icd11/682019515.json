@@ -1,0 +1,475 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/682019515",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/954411279"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#682019515",
+  "code": "QF00",
+  "source": "http://id.who.int/icd/entity/682019515",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/682019515/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/682019515/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1810600222"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acquired absence of limb"
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "postoperative loss of limb"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "post traumatic loss of limb"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Other acquired deformities of limbs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1970232596",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1970232596"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital absence of thigh or lower leg with foot present"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1165997650",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1165997650"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital absence of both lower leg and foot"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/835905199",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/835905199"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital absence of upper arm or forearm with hand present"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1157109358",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1157109358"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired absence of limb"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "post traumatic loss of limb"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "postoperative loss of limb"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bilateral amputee"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "amputee"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired absence of finger, including thumb, unilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1616504795"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acquired absence of thumb, unilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1616504795"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "absence of finger, unilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1616504795"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "absence of thumb, unilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1616504795"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired absence of hand or wrist"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/85076559"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acquired absence of hand"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/85076559"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acquired absence of wrist"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/85076559"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "absence of hand"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/85076559"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "absence of wrist"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/85076559"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired absence of arm above wrist"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1908374194"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acquired absence of upper limb above wrist"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1908374194"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acquired absence of forearm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1908374194"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acquired absence of upper extremity"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1908374194"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "absence of forearm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1908374194"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "absence of arm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1908374194"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired absence of both arms, any level"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/351581988"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acquired absence of both upper limbs at any level"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/351581988"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acquired absence hand and wrist, bilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/351581988"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acquired absence of arm, bilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/351581988"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acquired absence of upper extremity, bilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/351581988"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired absence thumb, bilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/825806395"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired absence of finger, bilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/284145079"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired absence of foot or ankle"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1729766576"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acquired absence of toe"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1729766576"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acquired absence of foot"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1729766576"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acquired absence of ankle"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1729766576"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "absence of toe"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1729766576"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "absence of foot"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1729766576"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "absence of ankle"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1729766576"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired absence of leg at or below knee"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/38922534"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "absence of leg below knee"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/38922534"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "absence of lower extremity below knee"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/38922534"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acquired absence of leg below knee"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/38922534"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired absence of leg above knee"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1996274139"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "absence of leg NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1996274139"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "lower extremity absence"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1996274139"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired absence of both legs, any level, except toes alone"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/330789967"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acquired absence of both lower limbs at any level, except toes alone"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/330789967"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "absence of foot and ankle, bilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/330789967"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "absence of leg, bilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/330789967"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "absence of lower extremity, bilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/330789967"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired absence of arms or legs, any level"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1860067597"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acquired absence of upper and lower limbs at any level"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1860067597"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "absence of arm with leg"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1860067597"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "absence of bilateral hand and wrist with lower limb"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1860067597"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "absence of bilateral leg with arm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1860067597"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "absence of bilateral lower extremity with upper extremity"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1860067597"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "absence of bilateral foot and ankle with upper limb"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1860067597"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "absence of foot and ankle with upper limb"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1860067597"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "absence of hand and wrist with lower limb"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1860067597"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "absence of lower extremity with upper extremity"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1860067597"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/489568909",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/996997454"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#489568909",
+  "code": "AA91.1",
+  "source": "http://id.who.int/icd/entity/489568909",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/489568909/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/489568909/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/194676178"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Chronic atticoantral suppurative otitis media"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Chronic suppurative otitis media has traditionally been classified into safe and unsafe type. Chronic atticoantral suppurative otitis media which is unsafe type is typified by a marginal perforation of the posterosuperior pars tensa or pars flaccida."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic atticoantral disease"
+      }
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic atticoantral suppurative otitis media"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic atticoantral disease"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "persistent mucosal disease"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic atticoantral disorder"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic atticoantral disease with posterior or superior marginal perforation of ear drum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1186269339"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Persistent mucosal disease with posterior or superior marginal perforation of ear drum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1179709451"
+    }
+  ]
+}

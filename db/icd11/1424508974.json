@@ -1,0 +1,56 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1424508974",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/530888618"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1424508974",
+  "code": "DD91.4",
+  "source": "http://id.who.int/icd/entity/1424508974",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1424508974/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Functional abdominal pain syndrome"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Functional abdominal pain syndrome represents a pain syndrome attributed to the abdomen that is poorly related to gut function, is associated with some loss of daily activities, and has been present at least 6 months. The pain is constant, nearly constant, or at least frequently recurring. Also there is the lack of symptom relationship to food intake or defecation."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Functional abdominal pain syndrome"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "CAPS - [Centrally mediated abdominal pain syndrome]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Centrally mediated abdominal pain syndrome"
+      }
+    }
+  ]
+}

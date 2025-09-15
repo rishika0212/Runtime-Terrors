@@ -1,0 +1,75 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/464644598",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1267652425"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#464644598",
+  "code": "DD70.4",
+  "source": "http://id.who.int/icd/entity/464644598",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/464644598/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1211030054",
+        "http://id.who.int/icd/release/11/2024-01/mms/1594277606",
+        "http://id.who.int/icd/release/11/2024-01/mms/1212282357"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/464644598/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731",
+        "http://id.who.int/icd/release/11/2024-01/mms/1507624466",
+        "http://id.who.int/icd/release/11/2024-01/mms/1290701352"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Crohn disease of anal region"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Crohn disease commonly involves the anus and perianal area and may precede any other gut involvement by years. The constellation of symptoms and signs which may occur include pruritus ani, maceration, skin tags, fissures, fistulae, erosions and secondary infection with abscesses."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Crohn disease of anal region"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Anal Crohn disease"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Perianal Crohn disease"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Crohn disease of anal canal"
+      }
+    }
+  ]
+}

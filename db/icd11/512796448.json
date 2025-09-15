@@ -1,0 +1,49 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/512796448",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1971756453"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/268261363",
+    "http://id.who.int/icd/release/11/2024-01/mms/2068842254",
+    "http://id.who.int/icd/release/11/2024-01/mms/505137816",
+    "http://id.who.int/icd/release/11/2024-01/mms/512796448/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/512796448/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#512796448",
+  "code": "CA0F",
+  "source": "http://id.who.int/icd/entity/512796448",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/512796448/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1690782134",
+        "http://id.who.int/icd/release/11/2024-01/mms/320372230",
+        "http://id.who.int/icd/release/11/2024-01/mms/457837468"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Chronic diseases of tonsils or adenoids"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Any persistent or recurrent disease affecting the round-to-oval mass of lymphoid tissue embedded in the lateral wall of the pharynx (tonsils) or the collection of lymphoid nodules on the posterior wall and roof of the nasopharynx (adenoids)"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Recurrent acute tonsillitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/611884487",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/260431605"
+    }
+  ]
+}

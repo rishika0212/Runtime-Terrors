@@ -1,0 +1,92 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1857904825",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1365585570"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1857904825",
+  "code": "1F53.2",
+  "source": "http://id.who.int/icd/entity/1857904825",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1857904825/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/654702340"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Chronic Chagas disease with heart involvement"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease caused by a chronic infection with the protozoan parasite Trypanosoma cruzi. This disease commonly presents with severe malaise or cardiac involvement (such as cardiomyopathy, cardiac failure, thromboembolism, bradyarrhythmias, tachyarrhythmias, apical aneurysms, or cardiac arrest). Transmission is by direct contact with faeces from an infected triatomine bug, vertical transmission, iatrogenic transmission, or ingestion of contaminated food or water. Confirmation is by identification of Trypanosoma cruzi in a blood sample."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chagas' disease with myocarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/689394562"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1599087747"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1945127438"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic Chagas disease with heart involvement"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "American trypanosomiasis with heart involvement"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic Chagas disease NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chagas-Mazza disease"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chagas' disease with myocarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/689394562"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "inflammatory cardiomyopathy due to Chaga disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/689394562"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic Chagas disease with cardiovascular involvement, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1230823993"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1848472780",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/4407978"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/905570639",
+    "http://id.who.int/icd/release/11/2024-01/mms/109033803",
+    "http://id.who.int/icd/release/11/2024-01/mms/303545563",
+    "http://id.who.int/icd/release/11/2024-01/mms/1848472780/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1848472780/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1848472780",
+  "code": "GC08",
+  "source": "http://id.who.int/icd/entity/1848472780",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Urinary tract infection following delivery"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/443932646",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/443932646"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neonatal urinary tract infection"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/78758887",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/78758887"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pyuria associated with urinary tract infection"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/295847851",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2000630356"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1848472780/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1848472780/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/622600769",
+        "http://id.who.int/icd/release/11/2024-01/mms/1683090852"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Urinary tract infection, site not specified"
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/78758887"
+  ]
+}

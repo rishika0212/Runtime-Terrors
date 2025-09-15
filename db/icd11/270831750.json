@@ -1,0 +1,104 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/270831750",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1066261769"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/566797446",
+    "http://id.who.int/icd/release/11/2024-01/mms/1432745083",
+    "http://id.who.int/icd/release/11/2024-01/mms/1136700027",
+    "http://id.who.int/icd/release/11/2024-01/mms/270831750/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/270831750/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#270831750",
+  "code": "FA30",
+  "source": "http://id.who.int/icd/entity/270831750",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/270831750/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/270831750/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/822750113",
+        "http://id.who.int/icd/release/11/2024-01/mms/1735902769"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acquired deformities of fingers or toes"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "congenital deformities and malformations of fingers and toes"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1494626723",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1494626723"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital absence of finger"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/80500426",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/80500426"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital absence of toe"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/149787830",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/149787830"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired absence of toe"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1729766576",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/682019515"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired absence of finger, including thumb, unilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1616504795",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/682019515"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "amputation of finger"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1616504795",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/682019515"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "amputation of toe"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1729766576",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/682019515"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/11820475",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/643334575"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#11820475",
+  "code": "BD93.12",
+  "source": "http://id.who.int/icd/entity/11820475",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/11820475/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1031510592",
+        "http://id.who.int/icd/release/11/2024-01/mms/465545679",
+        "http://id.who.int/icd/release/11/2024-01/mms/2122474603",
+        "http://id.who.int/icd/release/11/2024-01/mms/970208182",
+        "http://id.who.int/icd/release/11/2024-01/mms/481430149",
+        "http://id.who.int/icd/release/11/2024-01/mms/276642106",
+        "http://id.who.int/icd/release/11/2024-01/mms/1525493612"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/11820475/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2085283166",
+        "http://id.who.int/icd/release/11/2024-01/mms/149403041"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Lymphoedema due to obesity"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Lymphoedema resulting from morbid obesity. Lymphoedema of the lower limbs and lymphoedema of the abdominal apron fold are common sequelae of chronic morbid obesity."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1380872553"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Lymphoedema due to obesity"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Lymphoedema secondary to obesity"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Lymphoedema of lower limbs secondary to obesity"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1103703159"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Truncal lymphoedema secondary to obesity"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1345174641"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1914047363",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1352501137"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1914047363",
+  "code": "DB60.2",
+  "source": "http://id.who.int/icd/entity/1914047363",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1914047363/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Third degree haemorrhoids"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "(grade III): Third-degree haemorrhoids remain prolapsed unless pushed gently back into the anal canal, and they can be reduced manually."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Haemorrhoids (bleeding) that prolapse with straining, and require manual reduction back inside the anal canal"
+      }
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1765077136",
+    "http://id.who.int/icd/entity/109909861"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Third degree haemorrhoids"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "stage III haemorrhoids"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "grade III haemorrhoids"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Haemorrhoids (bleeding) that prolapse with straining, and require manual reduction back inside the anal canal"
+      }
+    }
+  ]
+}

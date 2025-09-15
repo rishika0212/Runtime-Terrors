@@ -1,0 +1,154 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1377614074",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/481852400"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1377614074",
+  "code": "DB93.0",
+  "source": "http://id.who.int/icd/entity/1377614074",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hepatic fibrosis due to Schistosomiasis without portal hypertension"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/35192945",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1194562592/unspecified"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1377614074/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/933570887",
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1377614074/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Hepatic fibrosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Hepatic Fibrosis is defined as an excess deposition of the components of extracellular matrix (i.e. collagens, glycoproteins, proteoglycans) within the liver. This response to liver injury potentially is reversible. In contrast, in most patients, cirrhosis is not a reversible process."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hepatic sclerosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hepatic fibrosis with hepatic sclerosis"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Alcoholic liver fibrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2030367981",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2030367981"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital hepatic fibrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/206878481",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/557775192"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced or toxic liver disease with fibrosis or cirrhosis of liver"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/133444243",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/133444243"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hepatic fibrosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hepatic sclerosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hepatic fibrosis with hepatic sclerosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "fibrosis of liver"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "liver fibrosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "fibrotic liver"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hepatic fibrosis NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "liver fibrosis NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Oesophageal varices with bleeding in hepatic fibrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/686243338"
+    }
+  ]
+}

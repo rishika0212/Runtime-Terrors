@@ -1,0 +1,42 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1789950491",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/419706488"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1789950491",
+  "code": "1C1A.0",
+  "source": "http://id.who.int/icd/entity/1789950491",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1789950491/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/622600769",
+        "http://id.who.int/icd/release/11/2024-01/mms/1683090852"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Cutaneous listeriosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is a bacterial infection caused by a Gram-positive, motile bacterium, Listeria monocytogenes. Listeriosis occurs primarily in newborn infants, elderly patients, and patients who are immunocompromised."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/864425294"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cutaneous listeriosis"
+      }
+    }
+  ]
+}

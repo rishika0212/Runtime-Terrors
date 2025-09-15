@@ -1,0 +1,65 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1026250133",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2073711696"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/179860715",
+    "http://id.who.int/icd/release/11/2024-01/mms/480321034",
+    "http://id.who.int/icd/release/11/2024-01/mms/1026250133/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1026250133/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1026250133",
+  "code": "8A60.0",
+  "source": "http://id.who.int/icd/entity/1026250133",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1026250133/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/539646260"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1026250133/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/381388700",
+        "http://id.who.int/icd/release/11/2024-01/mms/1935107489",
+        "http://id.who.int/icd/release/11/2024-01/mms/1645664101",
+        "http://id.who.int/icd/release/11/2024-01/mms/528118622",
+        "http://id.who.int/icd/release/11/2024-01/mms/1945127438",
+        "http://id.who.int/icd/release/11/2024-01/mms/188684108",
+        "http://id.who.int/icd/release/11/2024-01/mms/911707612/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/911707612/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Epilepsy due to prenatal or perinatal brain insults"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Epilepsy occurring in relation to a distinct structural or metabolic condition or disease that has been demonstrated to be associated with a substantially increased risk of developing epilepsy, with the insult occurring before birth [prenatal] or between 22 weeks of gestation and 7 days after birth. Onset of epilepsy may be in infancy, childhood, or adulthood."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neonatal seizures"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2083324835",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2083324835"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/2083324835"
+  ]
+}

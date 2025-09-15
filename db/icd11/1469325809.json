@@ -1,0 +1,143 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1469325809",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1975721108"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1469325809",
+  "code": "2B80.21",
+  "source": "http://id.who.int/icd/entity/1469325809",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1469325809/postcoordinationScale/histopathology",
+      "axisName": "http://id.who.int/icd/schema/histopathology",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/477527598",
+        "http://id.who.int/icd/release/11/2024-01/mms/1509102037",
+        "http://id.who.int/icd/release/11/2024-01/mms/1609609938",
+        "http://id.who.int/icd/release/11/2024-01/mms/311089140",
+        "http://id.who.int/icd/release/11/2024-01/mms/1275963293",
+        "http://id.who.int/icd/release/11/2024-01/mms/522339131",
+        "http://id.who.int/icd/release/11/2024-01/mms/1432496894",
+        "http://id.who.int/icd/release/11/2024-01/mms/1704819468",
+        "http://id.who.int/icd/release/11/2024-01/mms/1278312485",
+        "http://id.who.int/icd/release/11/2024-01/mms/1294602000"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1469325809/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1469325809/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1409966790",
+        "http://id.who.int/icd/release/11/2024-01/mms/896293199",
+        "http://id.who.int/icd/release/11/2024-01/mms/1094217460",
+        "http://id.who.int/icd/release/11/2024-01/mms/238069351"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1469325809/postcoordinationScale/hasAlternativeSeverity2",
+      "axisName": "http://id.who.int/icd/schema/hasAlternativeSeverity2",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1863636238",
+        "http://id.who.int/icd/release/11/2024-01/mms/885826145",
+        "http://id.who.int/icd/release/11/2024-01/mms/1746207012",
+        "http://id.who.int/icd/release/11/2024-01/mms/303697349"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Neuroendocrine neoplasms of small intestine, site unspecified"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Neoplasms that arise from the cells of neuroendocrine system lining the small intestine."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neuroendocrine neoplasms of small intestine, site unspecified"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neuroendocrine tumour of small intestine, site unspecified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/899566155"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "NET - [neuroendocrine tumour] of small intestine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/899566155"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "small intestinal neuroendocrine tumour"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/899566155"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neuroendocrine tumour of small intestine, G1"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1608280596"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neuroendocrine tumour of small intestine, G2"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/12159809"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neuroendocrine carcinoma of small intestine, site unspecified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/387815472"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "NEC - [neuroendocrine carcinoma] of small intestine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/387815472"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Large cell neuroendocrine carcinoma of small intestine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1696195014"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Small cell neuroendocrine carcinoma of small intestine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2064036276"
+    }
+  ]
+}

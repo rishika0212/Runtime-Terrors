@@ -1,0 +1,113 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1677859026",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1676151582"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1677859026",
+  "code": "PH40",
+  "source": "http://id.who.int/icd/entity/1677859026",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1677859026/postcoordinationScale/medication",
+      "axisName": "http://id.who.int/icd/schema/medication",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2143992001"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1677859026/postcoordinationScale/activityWhenInjured",
+      "axisName": "http://id.who.int/icd/schema/activityWhenInjured",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2071638841",
+        "http://id.who.int/icd/release/11/2024-01/mms/1107435129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1428847289",
+        "http://id.who.int/icd/release/11/2024-01/mms/821249273",
+        "http://id.who.int/icd/release/11/2024-01/mms/160164281"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1677859026/postcoordinationScale/placeOfOccurrence",
+      "axisName": "http://id.who.int/icd/schema/placeOfOccurrence",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowedExceptFromSameBlock",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1081404635",
+        "http://id.who.int/icd/release/11/2024-01/mms/1786773723"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Exposure to or harmful effects of undetermined intent of opioids or related analgesics"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Exposure to or harmful effects of undetermined intent of opioids or related analgesics"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Harmful effects of or exposure to opium, undetermined intent"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2016135243"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Harmful effects of or exposure to morphine, undetermined intent"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1117095085"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Harmful effects of or exposure to oxycodone, undetermined intent"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1575392649"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Harmful effects of or exposure to codeine, undetermined intent"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1187899907"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Harmful effects of or exposure to heroin, undetermined intent"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/390040178"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Harmful effects of or exposure to methadone, undetermined intent"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1729794447"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Harmful effects of or exposure to pethidine, undetermined intent"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1571085673"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fentanyl overdose undetermined intent"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/312986466"
+    }
+  ]
+}

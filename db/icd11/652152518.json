@@ -1,0 +1,67 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/652152518",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1442921818"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#652152518",
+  "code": "DA23.1",
+  "source": "http://id.who.int/icd/entity/652152518",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/652152518/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/72252748"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/652152518/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Dysplasia of Barrett epithelium"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Dysplasia of Barrett epithelium is defined as neoplastic epithelium that remains confined within the basement membrane of Barrett oesophagus. Dysplasia of Barrett epithelium is considered as a precursor of adenocarcinoma arising in Barrett Oesophagus."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dysplasia of Barrett epithelium"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "High grade dysplasia of Barrett epithelium"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/707356537"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Low grade dysplasia of Barrett epithelium"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1967949354"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1987349422",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/215057274"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1987349422",
+  "code": "LA03",
+  "source": "http://id.who.int/icd/entity/1987349422",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1987349422/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1644720463",
+        "http://id.who.int/icd/release/11/2024-01/mms/1297540670"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Arnold-Chiari malformation type II"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition caused by failure of the brain and spinal cord to correctly develop during the antenatal period. This condition is characterised by extension of both cerebellar and brain stem tissue into the foramen magnum. This condition may present with partial or complete absence of the cerebellar vermis, myelomeningocele, neck pain, balance problems, muscle weakness, limb numbness, dizziness, vision problems, difficulty swallowing, ringing in the ears, hearing loss, vomiting, insomnia, depression, or impairment of motor skills."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Arnold-Chiari malformation type I"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1383121646",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1383121646"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Arnold-Chiari malformation type II"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Arnold-Chiari obstruction type II"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chiari malformation type II"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Arnold-Chiari malformation NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Arnold-Chiari syndrome NOS"
+      }
+    }
+  ]
+}

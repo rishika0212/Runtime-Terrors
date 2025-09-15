@@ -1,0 +1,208 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1385577280",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1450176443"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1385577280",
+  "code": "PB22",
+  "source": "http://id.who.int/icd/entity/1385577280",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1385577280/postcoordinationScale/medication",
+      "axisName": "http://id.who.int/icd/schema/medication",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/290579631",
+        "http://id.who.int/icd/release/11/2024-01/mms/981846737",
+        "http://id.who.int/icd/release/11/2024-01/mms/824599565",
+        "http://id.who.int/icd/release/11/2024-01/mms/173375068",
+        "http://id.who.int/icd/release/11/2024-01/mms/1960919828"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1385577280/postcoordinationScale/activityWhenInjured",
+      "axisName": "http://id.who.int/icd/schema/activityWhenInjured",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2071638841",
+        "http://id.who.int/icd/release/11/2024-01/mms/1107435129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1428847289",
+        "http://id.who.int/icd/release/11/2024-01/mms/821249273",
+        "http://id.who.int/icd/release/11/2024-01/mms/160164281"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1385577280/postcoordinationScale/placeOfOccurrence",
+      "axisName": "http://id.who.int/icd/schema/placeOfOccurrence",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowedExceptFromSameBlock",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1670965842",
+        "http://id.who.int/icd/release/11/2024-01/mms/1524647698",
+        "http://id.who.int/icd/release/11/2024-01/mms/1304962002",
+        "http://id.who.int/icd/release/11/2024-01/mms/672210322",
+        "http://id.who.int/icd/release/11/2024-01/mms/1060731218",
+        "http://id.who.int/icd/release/11/2024-01/mms/713258542",
+        "http://id.who.int/icd/release/11/2024-01/mms/292139218",
+        "http://id.who.int/icd/release/11/2024-01/mms/839669614",
+        "http://id.who.int/icd/release/11/2024-01/mms/623129518",
+        "http://id.who.int/icd/release/11/2024-01/mms/278563516",
+        "http://id.who.int/icd/release/11/2024-01/mms/1231726668",
+        "http://id.who.int/icd/release/11/2024-01/mms/1581436044",
+        "http://id.who.int/icd/release/11/2024-01/mms/1731879372",
+        "http://id.who.int/icd/release/11/2024-01/mms/391771100",
+        "http://id.who.int/icd/release/11/2024-01/mms/53410898"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Unintentional exposure to or harmful effects of psychostimulants"
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "accidental overdose of psychostimulants"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Substances associated with injury or harm in therapeutic use"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1583926619",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1583926619"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unintentional exposure to or harmful effects of psychostimulants"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "accidental overdose of psychostimulants"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "accidental poisoning by psychostimulants"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "psychostimulants taken in error"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unintentional exposure to or harmful effects of central nervous system stimulants, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/494603077"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unintentional exposure to or harmful effects of analeptics"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1648371804"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unintentional exposure to or harmful effects of opioid receptor antagonists"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1573538626"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unintentional exposure to or harmful effects of caffeine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1741928404"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unintentional exposure to or harmful effects of amphetamine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1267253020"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unintentional exposure to or harmful effects of methylamphetamine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/884186115"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unintentional exposure to or harmful effects of methylenedioxy methamphetamine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/188350235"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "harmful effect of ecstasy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/188350235"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "harmful effect of MDMA"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/188350235"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unintentional exposure to or harmful effects of other specified amphetamines"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/772889161"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unintentional exposure to or harmful effects of cocaine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/295385425"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unintentional exposure to or harmful effects of methylphenidate"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1855986256"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unintentional exposure to or harmful effects of cathinone"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1048343439"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unintentional exposure to or harmful effects of cathinone derivatives"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/736743369"
+    }
+  ]
+}

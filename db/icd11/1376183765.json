@@ -1,0 +1,66 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1376183765",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/405257730"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1376183765",
+  "code": "4A85.03",
+  "source": "http://id.who.int/icd/entity/1376183765",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1376183765/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1583926619",
+        "http://id.who.int/icd/release/11/2024-01/mms/1323892810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Drug-induced vasculitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Drug-induced vasculitis is an inflammatory vasculopathy associated with drugs of almost every class and accounting for approximately 3% of the vasculitides. Although small vessel disease limited to the skin is the most common form, involvement of blood vessels in virtually every organ system may occur. It can present multiorgan involvement and the mortality is described in up to 10% of cases."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced vasculitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "medicament-induced vasculitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-associated immune complex vasculitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/395268449"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced leucocytoclastic vasculitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/395268449"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced serum sickness-like reaction"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1685139990"
+    }
+  ]
+}

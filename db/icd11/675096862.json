@@ -1,0 +1,108 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/675096862",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/943599144"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#675096862",
+  "code": "LA11.5",
+  "source": "http://id.who.int/icd/entity/675096862",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Peters anomaly"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1902926622",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/535678210"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital hereditary endothelial dystrophy type 2"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1515754027",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/677984188"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/675096862/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Congenital corneal opacity"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition caused by failure of the cornea to correctly develop during the antenatal period. This condition is characterised by opacity of the cornea."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital corneal opacity"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital corneal opacity, unilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/544318539"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital corneal opacity, bilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/164076766"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Posterior polymorphous corneal dystrophy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/935421185"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "PPCD - [Posterior polymorphous corneal dystrophy] C1 or C2"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/935421185"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital hereditary endothelial dystrophy type 1"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1580987262"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "CHED - [Congenital hereditary endothelial dystrophy] C1"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1580987262"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital leucoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1741158442"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/962492793",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/204637746"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#962492793",
+  "code": "AB70.2",
+  "source": "http://id.who.int/icd/entity/962492793",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/962492793/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Otalgia"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Pain in one or both ears."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic primary orofacial pain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1545281608",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2104869000"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic secondary headache or orofacial pain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2116703819",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2116703819"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Otalgia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ear ache"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "earache symptom"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pain in ear"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ear neuralgia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mastoid pain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/34052926"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "mastoidalgia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/34052926"
+    }
+  ]
+}

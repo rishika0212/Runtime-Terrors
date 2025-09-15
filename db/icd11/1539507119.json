@@ -1,0 +1,117 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1539507119",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/799568625"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1539507119",
+  "code": "GA34.02",
+  "source": "http://id.who.int/icd/entity/1539507119",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1539507119/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/475546725"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1539507119/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1007332872",
+        "http://id.who.int/icd/release/11/2024-01/mms/597444540"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1539507119/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/501504598",
+        "http://id.who.int/icd/release/11/2024-01/mms/932220680",
+        "http://id.who.int/icd/release/11/2024-01/mms/671508148",
+        "http://id.who.int/icd/release/11/2024-01/mms/579584480"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1539507119/postcoordinationScale/hasAlternativeSeverity1",
+      "axisName": "http://id.who.int/icd/schema/hasAlternativeSeverity1",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/137604848",
+        "http://id.who.int/icd/release/11/2024-01/mms/1926847105",
+        "http://id.who.int/icd/release/11/2024-01/mms/489218088",
+        "http://id.who.int/icd/release/11/2024-01/mms/2029211037"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1539507119/postcoordinationScale/hasAlternativeSeverity2",
+      "axisName": "http://id.who.int/icd/schema/hasAlternativeSeverity2",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/145592658",
+        "http://id.who.int/icd/release/11/2024-01/mms/1824378311",
+        "http://id.who.int/icd/release/11/2024-01/mms/1714449067",
+        "http://id.who.int/icd/release/11/2024-01/mms/1721227995"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Vulvodynia"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Vulvodynia describes a chronic sensation of pain, burning or rawness of vulval skin which cannot be ascribed to any specific cause and persists for at least three months. Symptoms may be diffuse and unprovoked (dysaesthetic vulvodynia) or localised, usually to the vulval vestibule, and provoked by touch (vestibulodynia). Dysaesthetic vulvodynia characteristically occurs in postmenopausal women who are often not sexually active: pain is spontaneous and often occurs independently of touch. Vestibulodynia occurs typically in younger women and is characterised by vestibular tenderness to touch, erythema of the vestibular epithelium and secondary dyspareunia."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Vulvodynia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Vulval pain syndrome"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Burning sensation of vulva"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Vulval dysaesthesia syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1070591773"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dysaesthetic vulvodynia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1070591773"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Vestibulodynia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1070591773"
+    }
+  ]
+}

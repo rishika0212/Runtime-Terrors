@@ -1,0 +1,74 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2009144700",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1589820283"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2009144700",
+  "code": "NC93.8",
+  "source": "http://id.who.int/icd/entity/2009144700",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2009144700/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2009144700/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/980862652",
+        "http://id.who.int/icd/release/11/2024-01/mms/851395624",
+        "http://id.who.int/icd/release/11/2024-01/mms/73322695",
+        "http://id.who.int/icd/release/11/2024-01/mms/128104623",
+        "http://id.who.int/icd/release/11/2024-01/mms/1491356379",
+        "http://id.who.int/icd/release/11/2024-01/mms/491063206",
+        "http://id.who.int/icd/release/11/2024-01/mms/185842968",
+        "http://id.who.int/icd/release/11/2024-01/mms/2143219175",
+        "http://id.who.int/icd/release/11/2024-01/mms/558785723",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Injury to multiple structures of knee"
+  },
+  "codingNote": {
+    "@language": "en",
+    "@value": "Each injury should be coded separately. This code should be used alone only when the detail of the specific injuries is unknown, or it is not possible to code each injury. This code may also be used in postcoordination to identify cases of complex trauma."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury to multiple structures of knee"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury of meniscus of knee with ligament"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/204388264"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury to lateral and medial meniscus in combination with collateral and cruciate ligaments"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1941054665"
+    }
+  ]
+}

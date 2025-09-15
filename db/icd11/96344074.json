@@ -1,0 +1,74 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/96344074",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1719389232"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#96344074",
+  "code": "2A00.4",
+  "source": "http://id.who.int/icd/entity/96344074",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/96344074/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/96344074/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/258384733",
+        "http://id.who.int/icd/release/11/2024-01/mms/976604742",
+        "http://id.who.int/icd/release/11/2024-01/mms/407816093",
+        "http://id.who.int/icd/release/11/2024-01/mms/1651949308",
+        "http://id.who.int/icd/release/11/2024-01/mms/282738158",
+        "http://id.who.int/icd/release/11/2024-01/mms/305649277"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/96344074/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Astroblastoma of the brain"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A rare glial neoplasm more commonly found in young adults. It is characterised by tumour cells with characteristics suggestive of an astrocytic origin (positive for GFAP), arranged perivascularly. The cells have broad, non-tapering processes radiating towards a central blood vessel. The biologic behaviour of astroblastomas is variable, so no WHO grade has been established, yet."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Astroblastoma is a very rare glial neoplasm of the central nervous system, most often with an intra-axial peripheral supratentorial location in one hemisphere of the frontal or parietal lobes and usually presenting in infants and young adults with symptoms of vomiting, loss of consciousness, epileptic seizures and headaches."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Astroblastoma of the brain"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "astroblastoma of unspecified site"
+      }
+    }
+  ]
+}

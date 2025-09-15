@@ -1,0 +1,44 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1065786072",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/224323205"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1065786072",
+  "code": "DB99.3",
+  "source": "http://id.who.int/icd/entity/1065786072",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1065786072/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Portopulmonary hypertension"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is the coexistence of portal and pulmonary hypertension, and is a serious complication of liver disease, present in 0.25 to 4% of all patients suffering from cirrhosis."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1110228123"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Portopulmonary hypertension"
+      }
+    }
+  ]
+}

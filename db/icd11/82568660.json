@@ -1,0 +1,192 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/82568660",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1739890344"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#82568660",
+  "code": "FB30",
+  "source": "http://id.who.int/icd/entity/82568660",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/82568660/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/82568660/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1922573088",
+        "http://id.who.int/icd/release/11/2024-01/mms/1359586520",
+        "http://id.who.int/icd/release/11/2024-01/mms/955996865",
+        "http://id.who.int/icd/release/11/2024-01/mms/507472176",
+        "http://id.who.int/icd/release/11/2024-01/mms/107652911",
+        "http://id.who.int/icd/release/11/2024-01/mms/720361080",
+        "http://id.who.int/icd/release/11/2024-01/mms/864968000"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/82568660/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/82568660/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/236924369",
+        "http://id.who.int/icd/release/11/2024-01/mms/771273482",
+        "http://id.who.int/icd/release/11/2024-01/mms/1508081745"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Infectious myositis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Infective myositis is an acute, subacute, or chronic infection of skeletal muscle and may be caused by a wide range of infecting organisms. Immunosuppression, particularly as the result of HIV infection, is an important predisposing factor."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infectious myositis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bacterial myositis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1277815767"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bacterial pyomyositis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2042409526"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tropical muscle abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1110243170"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tropical pyomyositis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/169932128"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fungal myositis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1054267564"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Viral myositis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/864399177"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mycobacterial myositis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/197862435"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infection of muscle due to mycobacteria"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/197862435"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Iliopsoas abscess due to non-tuberculous mycobacteria"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1249136073"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculous iliopsoas abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/345511260"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculous psoas abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/976903226"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Parasitic myositis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/110646208"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Muscle abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1502182006"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Purulent myositis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/752486039"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pyomyositis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/856598467"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Suppurative myositis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1553209190"
+    }
+  ]
+}

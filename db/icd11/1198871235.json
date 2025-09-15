@@ -1,0 +1,42 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1198871235",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/714258004"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1198871235",
+  "code": "NE82.12",
+  "source": "http://id.who.int/icd/entity/1198871235",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1198871235/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/741790660",
+        "http://id.who.int/icd/release/11/2024-01/mms/431804121"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Pacemaker generator dysfunction"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Pacemaker pulse generator malfunction for any reason except routine battery exhaustion."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/59436623"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pacemaker generator dysfunction"
+      }
+    }
+  ]
+}

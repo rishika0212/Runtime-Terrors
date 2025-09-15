@@ -1,0 +1,66 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/188546673",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/482174292"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#188546673",
+  "code": "JA61.1",
+  "source": "http://id.who.int/icd/entity/188546673",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/188546673/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/475546725",
+        "http://id.who.int/icd/release/11/2024-01/mms/1145498957",
+        "http://id.who.int/icd/release/11/2024-01/mms/402925049"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/188546673/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/53329171"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Genital varices in pregnancy"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Genital varices in pregnancy"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Perineal varices in pregnancy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1696206143"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Vaginal varices in pregnancy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1102778797"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Vulval varices in pregnancy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1726028108"
+    }
+  ]
+}

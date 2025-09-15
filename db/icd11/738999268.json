@@ -1,0 +1,72 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/738999268",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/817691561"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1419043836",
+    "http://id.who.int/icd/release/11/2024-01/mms/540652293",
+    "http://id.who.int/icd/release/11/2024-01/mms/1165131409",
+    "http://id.who.int/icd/release/11/2024-01/mms/836709998",
+    "http://id.who.int/icd/release/11/2024-01/mms/738999268/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/738999268/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#738999268",
+  "code": "1F57",
+  "source": "http://id.who.int/icd/entity/738999268",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital toxoplasmosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1194018225",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1194018225"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/738999268/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/342012360",
+        "http://id.who.int/icd/release/11/2024-01/mms/1328350091",
+        "http://id.who.int/icd/release/11/2024-01/mms/1722408748",
+        "http://id.who.int/icd/release/11/2024-01/mms/654702340",
+        "http://id.who.int/icd/release/11/2024-01/mms/82568660",
+        "http://id.who.int/icd/release/11/2024-01/mms/1210263011",
+        "http://id.who.int/icd/release/11/2024-01/mms/907740529"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/738999268/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/236924369",
+        "http://id.who.int/icd/release/11/2024-01/mms/771273482",
+        "http://id.who.int/icd/release/11/2024-01/mms/1508081745"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Toxoplasmosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease caused by an infection with the protozoan parasite Toxoplasma gondii. This disease is characterised by fever, lymphadenitis, sore throat, or rash. Transmission is by direct ingestion of contaminated food, indirectly by food or water contaminated with infected cat faeces, or vertical transmission. Confirmation is by detection of antibodies against Toxoplasma gondii, or identification of Toxoplasma gondii in tissue, cerebrospinal fluid, blood, or other body fluids."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Toxoplasmosis is caused by infection with Toxoplasma gondii, an obligate intracellular parasite. The infection produces a wide range of clinical syndromes in humans, land and sea mammals, and various bird species. T gondii infects a large proportion of the world's population but uncommonly causes clinically significant disease. However, certain individuals are at high risk for severe or life-threatening toxoplasmosis. Individuals at risk for toxoplasmosis include fetuses, newborns, and immunologically impaired patients."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1194018225"
+  ]
+}

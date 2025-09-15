@@ -1,0 +1,48 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/156218529",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2057381685"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/836204111",
+    "http://id.who.int/icd/release/11/2024-01/mms/171766827",
+    "http://id.who.int/icd/release/11/2024-01/mms/156218529/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/156218529/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#156218529",
+  "code": "3B21",
+  "source": "http://id.who.int/icd/entity/156218529",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/156218529/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1158914813",
+        "http://id.who.int/icd/release/11/2024-01/mms/1612209162",
+        "http://id.who.int/icd/release/11/2024-01/mms/1583926619/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Haemorrhagic disorder due to circulating anticoagulants and coagulation factors"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease caused by anticoagulants present in the body that prevent the blood from clotting normally. This disease is characterised by abnormalities in blood clotting. This disease may present with prolonged bleeding, easy bruising or bleeding gums. Confirmation is by identification of anticoagulants present in a blood sample."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "long-term use of anticoagulants without haemorrhage"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1634864060",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1634864060"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/952576129",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1517885800"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#952576129",
+  "code": "5B5D",
+  "source": "http://id.who.int/icd/entity/952576129",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired pyridoxine deficiency anaemia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1119769670",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1119769670"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pyridoxine dependent epilepsy with antiquitin mutations"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1952154349",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1136270486/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/952576129/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1567256935"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Vitamin B6 deficiency"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A deficiency of vitamin B6 alone is uncommon because it usually occurs in association with a deficit in other B-complex vitamins. Hypovitaminosis B6 may often occur with riboflavin (vitamin B2) deficiency. The classical clinical symptoms of vitamin B6 deficiency are a seborrheic dermatitis, microcytic anaemia, epileptiform convulsions, and depression and confusion. Infants are especially susceptible to insufficient intakes, which can lead to epileptiform convulsions. Moreover, there is usually a decrease in circulating lymphocytes and sometimes a normocytic, microcytic, or sideroblastic anaemia as well. As is the case with other micronutrient deficiencies, vitamin B6 deficiency results in an impairment of the immune system. Several medical conditions can also affect vitamin B6 metabolism and thus lead to deficiency symptoms."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pyridoxine-responsive sideroblastic anaemia, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/438340906",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/967695084"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1867773640"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/517413026"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Vitamin B6 deficiency"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pyridoxal deficiency"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pyridoxamine deficiency"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pyridoxine deficiency"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "vitamin B6 deficiency syndrome"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Peripheral neuropathy due to vitamin B6 deficiency"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2140748889"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Peripheral neuropathy due to vitamin pyridoxine deficiency"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2140748889"
+    }
+  ]
+}

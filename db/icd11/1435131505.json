@@ -1,0 +1,78 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1435131505",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1914297331"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1435131505",
+  "code": "GB80.0",
+  "source": "http://id.who.int/icd/entity/1435131505",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1435131505/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1435131505/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/720032908"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Simple renal cyst"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease of the kidney, caused by obstruction of tubules, anaemia, or detachment of diverticula. This disease is characterised by the formation of thin-walled abnormal sacs filled with hypo-echogenic radiolucent fluid in the kidney. Confirmation is by imaging."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bosniak 1 cyst"
+      }
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Simple renal cyst"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bosniak 1 cyst"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Solitary simple renal cyst"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2028260622"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Multiple simple renal cysts"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1032380173"
+    }
+  ]
+}

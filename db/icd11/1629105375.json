@@ -1,0 +1,137 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1629105375",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/548938147"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1629105375",
+  "code": "4A44.92",
+  "source": "http://id.who.int/icd/entity/1629105375",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Respiratory disorders in IgA vasculitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1762703228",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1687873314/other"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Noninfectious enteritis or ulcer due to IgA vasculitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2038491190",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1398301359/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1629105375/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/527743894",
+        "http://id.who.int/icd/release/11/2024-01/mms/1687873314",
+        "http://id.who.int/icd/release/11/2024-01/mms/1871672644",
+        "http://id.who.int/icd/release/11/2024-01/mms/1595026136",
+        "http://id.who.int/icd/release/11/2024-01/mms/1437411258",
+        "http://id.who.int/icd/release/11/2024-01/mms/553678663",
+        "http://id.who.int/icd/release/11/2024-01/mms/1398301359",
+        "http://id.who.int/icd/release/11/2024-01/mms/706550431",
+        "http://id.who.int/icd/release/11/2024-01/mms/658360080"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "IgA vasculitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Vasculitis, with IgA1-dominant immune deposits, affecting small vessels (predominantly capillaries, venules, or arterioles). Often involves skin and gut, and frequently causes arthritis. Glomerulonephritis indistinguishable from IgA nephropathy may occur."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Henoch-Schönlein purpura"
+      }
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "IgA vasculitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Allergic purpura"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Henoch-Schönlein purpura"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Anaphylactoid purpura"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "HSP - (Henoch-Schönlein purpura)"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Schönlein–Henoch purpura"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gastric ulcer due to IgA vasculitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2027910050"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Noninfectious colitis due to IgA vasculitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/952830082"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chorea due to IgA vasculitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/417450555"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chorea due to anaphylactoid purpura"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/417450555"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chorea due to Henoch-Schönlein purpura"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/417450555"
+    }
+  ]
+}

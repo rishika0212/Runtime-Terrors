@@ -1,0 +1,47 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/15445528",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2022303330"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#15445528",
+  "code": "2B31.5",
+  "source": "http://id.who.int/icd/entity/15445528",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/15445528/postcoordinationScale/histopathology",
+      "axisName": "http://id.who.int/icd/schema/histopathology",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/149373156"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/15445528/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Follicular dendritic cell sarcoma"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A neoplasm composed of spindle to ovoid cells which have morphologic and immunophenotypic characteristics of follicular dendritic cells. It affects lymph nodes and other sites including the tonsils, gastrointestinal tract, spleen, liver, soft tissues, skin, and oral cavity. It usually behaves as a low grade sarcoma. Recurrences have been reported in up to half of the cases."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Follicular dendritic cell sarcoma"
+      }
+    }
+  ]
+}

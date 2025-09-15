@@ -1,0 +1,69 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1843729715",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/452386362"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1448521985",
+    "http://id.who.int/icd/release/11/2024-01/mms/1992847183",
+    "http://id.who.int/icd/release/11/2024-01/mms/40189874",
+    "http://id.who.int/icd/release/11/2024-01/mms/1617768783",
+    "http://id.who.int/icd/release/11/2024-01/mms/1843729715/other"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1843729715",
+  "code": "NA0A",
+  "source": "http://id.who.int/icd/entity/1843729715",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cephalohaematoma due to birth injury"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/609408952",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/609408952"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Decapitation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/170769591",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1600884926"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1843729715/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1357976561"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1843729715/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482",
+        "http://id.who.int/icd/release/11/2024-01/mms/856028269"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Certain specified injuries of head"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Certain specified injuries of head"
+      }
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1375895174",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/988657115"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1375895174",
+  "code": "8E47",
+  "source": "http://id.who.int/icd/entity/1375895174",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neonatal encephalopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1453118191",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1453118191"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1375895174/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/145723401",
+        "http://id.who.int/icd/release/11/2024-01/mms/749596428",
+        "http://id.who.int/icd/release/11/2024-01/mms/61773927",
+        "http://id.who.int/icd/release/11/2024-01/mms/282654317",
+        "http://id.who.int/icd/release/11/2024-01/mms/67872354",
+        "http://id.who.int/icd/release/11/2024-01/mms/761526554"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Encephalopathy, not elsewhere classified"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Global brain dysfunction"
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/564191997"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1453118191"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Encephalopathy, not elsewhere classified"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "encephalopathy NEC"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "encephalopathy NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "encephalopathy disease"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "encephalopathy syndrome"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Metabolic encephalopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1927024232"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "toxic metabolic encephalopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1927024232"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Metabolic hepatic encephalopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/451256639"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cystic encephalopathy, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/828714596"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cystic cerebral encephalopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/828714596"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Vascular encephalopathy, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/171561290"
+    }
+  ]
+}

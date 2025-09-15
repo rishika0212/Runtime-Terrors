@@ -1,0 +1,96 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1915526777",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1066261769"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/292283259",
+    "http://id.who.int/icd/release/11/2024-01/mms/1915526777/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1915526777/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1915526777",
+  "code": "FA37",
+  "source": "http://id.who.int/icd/entity/1915526777",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pain in joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/9272848",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/9272848"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stiffness of joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1948266223",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1948266223"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1915526777/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1363003152",
+        "http://id.who.int/icd/release/11/2024-01/mms/1959335168",
+        "http://id.who.int/icd/release/11/2024-01/mms/223741850",
+        "http://id.who.int/icd/release/11/2024-01/mms/1188078244",
+        "http://id.who.int/icd/release/11/2024-01/mms/2000483733",
+        "http://id.who.int/icd/release/11/2024-01/mms/355147270"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Certain joint disorders, not elsewhere classified"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "calcification of: tendon"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/856383808",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/856383808"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "difficulty in walking"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/149933236",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/149933236"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "abnormality of gait and mobility"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1543612222",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1543612222"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired deformities of fingers or toes"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/270831750",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/270831750"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Other acquired deformities of limbs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1970232596",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1970232596"
+    }
+  ]
+}

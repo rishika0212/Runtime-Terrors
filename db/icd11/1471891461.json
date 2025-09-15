@@ -1,0 +1,45 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1471891461",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/933431200"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1471891461",
+  "code": "QA77",
+  "source": "http://id.who.int/icd/entity/1471891461",
+  "classKind": "category",
+  "title": {
+    "@language": "en",
+    "@value": "Medication or substance that is known to be contraindicated for the patient without injury or harm"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Prescription or non-prescription drug or other substance that has a medical reason for why it should not be used that is administered and does not result in injury or harm."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Medication or substance that is known to be an allergen without injury or harm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/950995516",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/950995516"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Medication or substance that is known to be contraindicated for the patient, as mode of injury or harm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/504149995",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/504149995"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Medication or substance that is known to be contraindicated for the patient without injury or harm"
+      }
+    }
+  ]
+}

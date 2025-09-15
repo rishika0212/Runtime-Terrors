@@ -1,0 +1,76 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/121422033",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1059873720"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#121422033",
+  "code": "BA84",
+  "source": "http://id.who.int/icd/entity/121422033",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/121422033/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1612889623"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/121422033/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1280712786"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Chronic total occlusion of coronary artery"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A chronic total occlusion of coronary artery is defined as the complete obstruction of a coronary artery or coronary arteries, exhibiting a TIMI flow score of zero or one, with an occlusion duration of greater than 3 months."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "CTOs are very common – found in approximately 20-30% of patients undergoing angiography and accounts for approximately 3-4% of all Percutaneous Coronary Interventions. These cases use up a great deal more resources compared to non-CTO PCI cases both in terms of consumables as well as time. \nThe evidence supporting the benefit of treating CTO by dedicated PCI techniques is expanding and recognition of the benefits of PCI for CTO has been incorporated into mainstream guidelines - 2014 ESC/EACTS Guidelines on myocardial revascularization: The Task Force on Myocardial Revascularization of the European Society of Cardiology (ESC) and the European Association for Cardio-Thoracic Surgery (EACTS)"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute myocardial infarction"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1334938734",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1334938734"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1380872553"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic total occlusion of coronary artery"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "complete occlusion of coronary artery"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "total occlusion of coronary artery"
+      }
+    }
+  ]
+}

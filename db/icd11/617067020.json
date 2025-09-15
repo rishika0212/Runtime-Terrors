@@ -1,0 +1,96 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/617067020",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/698285441"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#617067020",
+  "code": "DC31.2",
+  "source": "http://id.who.int/icd/entity/617067020",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/617067020/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/617067020/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/562478860",
+        "http://id.who.int/icd/release/11/2024-01/mms/1663264387",
+        "http://id.who.int/icd/release/11/2024-01/mms/1201187093"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acute biliary pancreatitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Acute pancreatitis associated with gallstone. Although gallstone is a major etiology, the diagnosis should be made after exclusion of other etiologies. Bile reflux into pancreatic duct caused by an impacted stone at the duodenal papilla is assumed to be a cause."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gallstone pancreatitis"
+      }
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute biliary pancreatitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gallstone pancreatitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "gallstone acute pancreatitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute biliary pancreatitis, with local complication"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/517964137"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute biliary pancreatitis, with systemic complication"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1727151191"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute biliary pancreatitis, with local and systemic complication"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2083814865"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1137718649",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1656637330"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1137718649",
+  "code": "GB56.1",
+  "source": "http://id.who.int/icd/entity/1137718649",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1137718649/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1137718649/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1507624466"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Hydronephrosis with ureteral obstruction"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Intrinsic stenosis or stricture or extrinsic obstruction of the ureter, except at the ureteropelvic junction or at the ureteral orifice, causing distension of the pelvis and calices of the kidney with urine."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital hydronephrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/808343797",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/808343797"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hydronephrosis with ureteral obstruction"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hydronephrosis with ureteral stricture, not elsewhere classified"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hydronephrosis with ureteral obstruction, acquired"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/732296267"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hydronephrosis with ureteral obstruction (except the uretero-pelvic junction and the ureteral orifice), acquired"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/732296267"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hydronephrosis with ureteral obstruction, acquired, due to cause classified elsewhere"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/31504220"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hydronephrosis with ureteral obstruction, congenital"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2142832842"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hydronephrosis with ureteral obstruction except the ureteropelvic junction and the ureteral orifice"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1571901205"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Kink in ureter with hydronephrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1837278367"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stricture of ureter with hydronephrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1735705793"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ureteral stricture hydronephrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1735705793"
+    }
+  ]
+}

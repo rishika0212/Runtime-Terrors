@@ -1,0 +1,188 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1236923870",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1326332835"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1236923870",
+  "code": "MG30.02",
+  "source": "http://id.who.int/icd/entity/1236923870",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1236923870/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1007332872",
+        "http://id.who.int/icd/release/11/2024-01/mms/597444540"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1236923870/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/501504598",
+        "http://id.who.int/icd/release/11/2024-01/mms/932220680",
+        "http://id.who.int/icd/release/11/2024-01/mms/671508148",
+        "http://id.who.int/icd/release/11/2024-01/mms/579584480"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1236923870/postcoordinationScale/hasAlternativeSeverity1",
+      "axisName": "http://id.who.int/icd/schema/hasAlternativeSeverity1",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/137604848",
+        "http://id.who.int/icd/release/11/2024-01/mms/1926847105",
+        "http://id.who.int/icd/release/11/2024-01/mms/489218088",
+        "http://id.who.int/icd/release/11/2024-01/mms/2029211037"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1236923870/postcoordinationScale/hasAlternativeSeverity2",
+      "axisName": "http://id.who.int/icd/schema/hasAlternativeSeverity2",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/145592658",
+        "http://id.who.int/icd/release/11/2024-01/mms/1824378311",
+        "http://id.who.int/icd/release/11/2024-01/mms/1714449067",
+        "http://id.who.int/icd/release/11/2024-01/mms/1721227995"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1236923870/postcoordinationScale/temporalPatternAndOnset",
+      "axisName": "http://id.who.int/icd/schema/temporalPatternAndOnset",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1281193286",
+        "http://id.who.int/icd/release/11/2024-01/mms/1313511357",
+        "http://id.who.int/icd/release/11/2024-01/mms/47514516"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Chronic primary musculoskeletal pain"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Chronic primary musculoskeletal pain is chronic pain in the muscles, bones, joints or tendons that is characterised by significant emotional distress (anxiety, anger/frustration or depressed mood) or functional disability (interference in daily life activities and reduced participation in social roles). Chronic primary musculoskeletal pain is multifactorial: biological, psychological and social factors contribute to the pain syndrome. The diagnosis is appropriate independently of identified biological or psychological contributors unless another diagnosis would better account for the presenting symptoms. Other chronic musculoskeletal pain diagnoses to be considered are those listed under chronic secondary musculoskeletal pain."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Chronic primary musculoskeletal pain is chronic pain in the muscles, bones, joints or tendons that is characterized by significant emotional distress (anxiety, anger/frustration or depressed mood) or functional disability (interference in daily life activities and reduced participation in social roles). Chronic primary musculoskeletal pain is multifactorial: biological, psychological and social factors contribute to the pain syndrome. The diagnosis is appropriate independently of identified biological or psychological contributors unless another diagnosis would better account for the presenting symptoms. Other chronic musculoskeletal pain diagnoses to be considered are those listed under chronic secondary musculoskeletal.\n\nDiagnostic Criteria:\n\nConditions A to C are fulfilled:\n\nA. Chronic pain (persistent or recurrent for longer than 3 months) in the muscles, bones, joints or tendons is present.\n\nB. The pain is associated with at least one of the following:\n\nB.1 Emotional distress due to pain is present.\n\nB.2 The pain interferes with daily life activities and social participation.\n\nC. The pain is not better accounted for by another diagnosis of chronic secondary musculoskeletal pain."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic primary low back pain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1291385632"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic primary cervical pain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2014134682"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic primary thoracic pain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/642165115"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic primary limb pain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/413174579"
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute pain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1404135736",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1404135736"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic primary musculoskeletal pain"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic primary low back pain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1291385632"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "non-specific chronic low back pain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1291385632"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic LBP - [low back pain]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1291385632"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic non-specific LBP - [low back pain] (deprecated)"
+      },
+      "deprecated": true,
+      "foundationReference": "http://id.who.int/icd/entity/1291385632"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic primary cervical pain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2014134682"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic nonspecific neck pain (deprecated)"
+      },
+      "deprecated": true,
+      "foundationReference": "http://id.who.int/icd/entity/2014134682"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic primary thoracic pain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/642165115"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic primary limb pain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/413174579"
+    }
+  ]
+}

@@ -1,0 +1,410 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/551598148",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/536467755"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#551598148",
+  "code": "FB81.0",
+  "source": "http://id.who.int/icd/entity/551598148",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/551598148/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/551598148/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/183512318",
+        "http://id.who.int/icd/release/11/2024-01/mms/1415462031"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/551598148/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1435254666",
+        "http://id.who.int/icd/release/11/2024-01/mms/1630407678",
+        "http://id.who.int/icd/release/11/2024-01/mms/1766440644",
+        "http://id.who.int/icd/release/11/2024-01/mms/1954798891",
+        "http://id.who.int/icd/release/11/2024-01/mms/21500692",
+        "http://id.who.int/icd/release/11/2024-01/mms/1296093776",
+        "http://id.who.int/icd/release/11/2024-01/mms/868865918",
+        "http://id.who.int/icd/release/11/2024-01/mms/1218729044",
+        "http://id.who.int/icd/release/11/2024-01/mms/426429380",
+        "http://id.who.int/icd/release/11/2024-01/mms/197934298",
+        "http://id.who.int/icd/release/11/2024-01/mms/1256772020",
+        "http://id.who.int/icd/release/11/2024-01/mms/1639304259",
+        "http://id.who.int/icd/release/11/2024-01/mms/1473673350",
+        "http://id.who.int/icd/release/11/2024-01/mms/30659757",
+        "http://id.who.int/icd/release/11/2024-01/mms/1843895818"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Idiopathic aseptic osteonecrosis"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Idiopathic aseptic osteonecrosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "idiopathic aseptic necrosis of bone, site unspecified"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "idiopathic aseptic necrosis of bone"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "idiopathic avascular necrosis of bone"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Idiopathic aseptic osteochondritis dissecans"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/304801301"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Idiopathic aseptic osteonecrosis, multiple sites"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1998483765"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Idiopathic aseptic necrosis of bone, multiple sites"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1998483765"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Idiopathic aseptic osteonecrosis, shoulder region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/307608737"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Idiopathic aseptic necrosis of bone, shoulder region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/307608737"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Idiopathic aseptic osteonecrosis, clavicle"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1964454070"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Idiopathic aseptic osteonecrosis, scapula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1968535636"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Idiopathic aseptic osteonecrosis, upper arm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1727589472"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Idiopathic aseptic necrosis of bone, upper arm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1727589472"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Idiopathic aseptic osteonecrosis, humerus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/554502265"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Idiopathic aseptic osteonecrosis, forearm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/62071242"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Idiopathic aseptic necrosis of bone, forearm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/62071242"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Idiopathic aseptic osteonecrosis, ulna"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1852754658"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Idiopathic aseptic osteonecrosis, radius"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/247660617"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Idiopathic aseptic osteonecrosis of carpal lunate"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1867483039"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Kienböck disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1867483039"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "lunate malacia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1867483039"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "adult os lunatum osteochondrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1867483039"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Kienböck disease of adults"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1867483039"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "osteochondrosis of carpal lunate"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1867483039"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Kienböck osteochondrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1867483039"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Idiopathic aseptic osteonecrosis, hand"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1885188702"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Idiopathic aseptic necrosis of bone, hand"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1885188702"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Idiopathic aseptic osteonecrosis, carpus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1203375479"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Idiopathic aseptic osteonecrosis, fingers"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/303039402"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Idiopathic aseptic osteonecrosis, metacarpus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1963123467"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Idiopathic aseptic osteonecrosis, pelvic region or thigh"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/353796044"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Idiopathic aseptic necrosis of bone, pelvic region or thigh"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/353796044"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Idiopathic aseptic osteonecrosis, femur"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/649542900"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Idiopathic aseptic osteonecrosis, pelvis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1991713393"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Idiopathic aseptic osteonecrosis, lower leg"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1639657269"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Idiopathic aseptic necrosis of bone, lower leg"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1639657269"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Idiopathic aseptic osteonecrosis, fibula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/430137416"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Idiopathic aseptic osteonecrosis, tibia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1108352299"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Idiopathic aseptic osteonecrosis, ankle or foot"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/82895521"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Idiopathic aseptic necrosis of bone, ankle or foot"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/82895521"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Idiopathic aseptic osteonecrosis, tarsus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1779852752"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Idiopathic aseptic osteonecrosis, toes"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1850608480"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Idiopathic aseptic osteonecrosis, metatarsus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/586109532"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Idiopathic aseptic osteonecrosis, head"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2040133603"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Idiopathic aseptic necrosis of bone, head"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2040133603"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Idiopathic aseptic osteonecrosis, neck"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/800737497"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Idiopathic aseptic osteonecrosis, ribs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/175576347"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Idiopathic aseptic osteonecrosis, skull"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1085147872"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Idiopathic aseptic osteonecrosis, trunk"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/171269627"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Idiopathic aseptic osteonecrosis, vertebral column"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1843071896"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/347603209",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1192407880"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#347603209",
+  "code": "ED02",
+  "source": "http://id.who.int/icd/entity/347603209",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/347603209/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1007332872",
+        "http://id.who.int/icd/release/11/2024-01/mms/597444540"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/347603209/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/501504598",
+        "http://id.who.int/icd/release/11/2024-01/mms/932220680",
+        "http://id.who.int/icd/release/11/2024-01/mms/671508148",
+        "http://id.who.int/icd/release/11/2024-01/mms/579584480"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/347603209/postcoordinationScale/hasAlternativeSeverity1",
+      "axisName": "http://id.who.int/icd/schema/hasAlternativeSeverity1",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/137604848",
+        "http://id.who.int/icd/release/11/2024-01/mms/1926847105",
+        "http://id.who.int/icd/release/11/2024-01/mms/489218088",
+        "http://id.who.int/icd/release/11/2024-01/mms/2029211037"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/347603209/postcoordinationScale/hasAlternativeSeverity2",
+      "axisName": "http://id.who.int/icd/schema/hasAlternativeSeverity2",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/145592658",
+        "http://id.who.int/icd/release/11/2024-01/mms/1824378311",
+        "http://id.who.int/icd/release/11/2024-01/mms/1714449067",
+        "http://id.who.int/icd/release/11/2024-01/mms/1721227995"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Painful bruising syndrome"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Painful bruising syndrome (Gardner-Diamond syndrome, autoerythrocyte sensitization, psychogenic purpura) is a rare and poorly understood clinical presentation of unexplained painful ecchymoses, mostly on the extremities and/or the face. It has been associated with emotional stress or one or more concomitant mental illnesses."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Painful bruising syndrome"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gardner-Diamond syndrome"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Psychogenic purpura"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Factitious purpura"
+      }
+    }
+  ]
+}

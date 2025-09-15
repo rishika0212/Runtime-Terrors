@@ -1,0 +1,51 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/469481605",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1784240230"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1759668616",
+    "http://id.who.int/icd/release/11/2024-01/mms/229221394",
+    "http://id.who.int/icd/release/11/2024-01/mms/2030367981",
+    "http://id.who.int/icd/release/11/2024-01/mms/474954105",
+    "http://id.who.int/icd/release/11/2024-01/mms/469481605/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/469481605/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#469481605",
+  "code": "DB94",
+  "source": "http://id.who.int/icd/entity/469481605",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/469481605/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/469481605/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Alcoholic liver disease"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Alcoholic liver disease is damage to the liver and its function due to excessive intake of alcohol over a prolonged period of time. The diagnosis is made by a history of excessive intake of alcohol and exclusion of other causes of liver disease. However, it is important to note that excessive alcohol intake interacts with other causes of chronic liver disease to worsen the pathological severity and clinical outcome; important (relatively common) examples are with chronic hepatitis C, obesity and diabetes-related fatty liver, and haemochromatosis."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ]
+}

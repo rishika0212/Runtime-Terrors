@@ -1,0 +1,52 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1479285656",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/330792642"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1479285656",
+  "code": "4B20.3",
+  "source": "http://id.who.int/icd/entity/1479285656",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1479285656/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1170330671"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Neurosarcoidosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This refers to sarcoidosis, a condition of unknown cause featuring granulomas in various tissues, involving the central nervous system (brain and spinal cord). It can have many manifestations, but abnormalities of the cranial nerves (a group of twelve nerves supplying the head and neck area) are the most common."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neurosarcoidosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Multiple cranial nerve palsies in sarcoidosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2078362164"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Polyneuropathy in sarcoidosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1320392906"
+    }
+  ]
+}

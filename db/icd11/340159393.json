@@ -1,0 +1,78 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/340159393",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1432273670"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#340159393",
+  "code": "DA04.0",
+  "source": "http://id.who.int/icd/entity/340159393",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/340159393/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1515005003"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Atrophy of salivary gland"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Salivary gland atrophy is a wasting or decrease in size of salivary gland, which is not sufficient to cause necrosis. It may occur in response to poor nutrition, lack of use (disuse or immobilization), reduction in blood supply, loss of nerve supply, chronic cell injury, or ageing etc. It is including Sjögren's syndrome, irradiation therapy and obstructive sialadenitis."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Atrophy of salivary gland"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "salivary gland atrophy"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Atrophy of parotid gland"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/349613140"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "parotid gland atrophy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/349613140"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Atrophy of sublingual gland"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1874190819"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Atrophy of submandibular gland"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1602620009"
+    }
+  ]
+}

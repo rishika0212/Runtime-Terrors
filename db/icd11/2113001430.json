@@ -1,0 +1,84 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2113001430",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/418128833"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1921460797",
+    "http://id.who.int/icd/release/11/2024-01/mms/123797893",
+    "http://id.who.int/icd/release/11/2024-01/mms/117071728",
+    "http://id.who.int/icd/release/11/2024-01/mms/691296096",
+    "http://id.who.int/icd/release/11/2024-01/mms/844980278",
+    "http://id.who.int/icd/release/11/2024-01/mms/2113001430/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/2113001430/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2113001430",
+  "code": "FB83.1",
+  "source": "http://id.who.int/icd/entity/2113001430",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postoophorectomy osteoporosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1646971921",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1646971921"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis in multiple myelomatosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/115777979",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/526287100"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2113001430/postcoordinationScale/distribution",
+      "axisName": "http://id.who.int/icd/schema/distribution",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1957947885",
+        "http://id.who.int/icd/release/11/2024-01/mms/1373176927",
+        "http://id.who.int/icd/release/11/2024-01/mms/1265853763",
+        "http://id.who.int/icd/release/11/2024-01/mms/1486017780",
+        "http://id.who.int/icd/release/11/2024-01/mms/639340529",
+        "http://id.who.int/icd/release/11/2024-01/mms/1479602347",
+        "http://id.who.int/icd/release/11/2024-01/mms/167867186",
+        "http://id.who.int/icd/release/11/2024-01/mms/1637247929",
+        "http://id.who.int/icd/release/11/2024-01/mms/1867832345",
+        "http://id.who.int/icd/release/11/2024-01/mms/108658876",
+        "http://id.who.int/icd/release/11/2024-01/mms/704366208",
+        "http://id.who.int/icd/release/11/2024-01/mms/266097191"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2113001430/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/183512318",
+        "http://id.who.int/icd/release/11/2024-01/mms/1415462031"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2113001430/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/639949585",
+        "http://id.who.int/icd/release/11/2024-01/mms/459275392"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Osteoporosis"
+  }
+}

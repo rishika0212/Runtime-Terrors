@@ -1,0 +1,98 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/449489594",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1910019778"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#449489594",
+  "code": "LB73.0",
+  "source": "http://id.who.int/icd/entity/449489594",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/449489594/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/405704375"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Occult spinal dysraphism"
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spina bifida occulta"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cryptomerorachischisis"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "meningocele (spinal)"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2036217905",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2036217905"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spina bifida aperta"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/187581000",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/187581000"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spina bifida cystica"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/979482551",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/979482551"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occult spinal dysraphism"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spina bifida occulta"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cryptomerorachischisis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spina bifida occulta with tethered spinal cord"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "SBO - [spina bifida occulta]"
+      }
+    }
+  ]
+}

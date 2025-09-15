@@ -1,0 +1,68 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1860691848",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1980672892"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1304795660",
+    "http://id.who.int/icd/release/11/2024-01/mms/1568098240",
+    "http://id.who.int/icd/release/11/2024-01/mms/943491626",
+    "http://id.who.int/icd/release/11/2024-01/mms/1284627157",
+    "http://id.who.int/icd/release/11/2024-01/mms/702158657",
+    "http://id.who.int/icd/release/11/2024-01/mms/383145707",
+    "http://id.who.int/icd/release/11/2024-01/mms/159513245"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1860691848",
+  "code": "DB11",
+  "source": "http://id.who.int/icd/entity/1860691848",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1860691848/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Certain specified diseases of appendix"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Diseases of appendix other than appendicitis or neoplasm. This includes intussusception, mucocele, hyperplasia, appendicular concretions, diverticulum, fistula and other specified diseases of appendix."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Appendicitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1881255733",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1881255733"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neoplasms of the appendix"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/666504153",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/666504153"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Certain specified diseases of appendix"
+      }
+    }
+  ]
+}

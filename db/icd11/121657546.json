@@ -1,0 +1,271 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/121657546",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/455330172"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#121657546",
+  "code": "EH90.2",
+  "source": "http://id.who.int/icd/entity/121657546",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/121657546/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/121657546/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1357976561",
+        "http://id.who.int/icd/release/11/2024-01/mms/730488167",
+        "http://id.who.int/icd/release/11/2024-01/mms/1218764272",
+        "http://id.who.int/icd/release/11/2024-01/mms/986233688",
+        "http://id.who.int/icd/release/11/2024-01/mms/2093217246"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/121657546/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/121657546/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/460401849",
+        "http://id.who.int/icd/release/11/2024-01/mms/1642025150",
+        "http://id.who.int/icd/release/11/2024-01/mms/2024436666",
+        "http://id.who.int/icd/release/11/2024-01/mms/972666616"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Pressure ulceration grade 3"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Pressure ulcer with full thickness skin loss. Subcutaneous fat may be visible but bone, tendon or muscle are not exposed. Slough may be present but does not obscure the depth of tissue loss. There may be undermining and tunnelling into adjacent structures. The depth varies by anatomical location: grade 3 pressure ulcers can be shallow in areas with little or no subcutaneous fat (e.g. bridge of the nose, ear, occiput and malleolus). In contrast, grade 3 pressure ulcers can be extremely deep in areas of significant adiposity."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pressure injury stage 3 with full thickness skin loss"
+      }
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pressure ulceration grade 3"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bedsore stage III"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pressure injury stage 3"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pressure injury stage 3 with full thickness skin loss"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pressure ulcer category 3"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pressure ulcer with full thickness skin loss"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "stage III pressure injury"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "stage 3 decubitus ulcer"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "stage 3 pressure ulcer"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pressure ulceration grade 3 of head"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1114324451"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "stage 3 decubitus ulcer of head"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1114324451"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pressure ulceration grade 3 of upper limb"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/296335559"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "stage 3 decubitus ulcer of upper limb"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/296335559"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pressure ulceration grade 3 of spinous processes"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1853317960"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "stage 3 decubitus ulcer of spinous processes"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1853317960"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pressure ulceration grade 3 of iliac crest"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/809274283"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "stage 3 decubitus ulcer of iliac crest"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/809274283"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pressure ulceration grade 3 of sacrum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1362213424"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "stage 3 decubitus ulcer of sacrum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1362213424"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pressure ulceration grade 3 of ischium"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/787440033"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "stage 3 decubitus ulcer of ischium"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/787440033"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pressure ulceration grade 3 of trochanter"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1042675735"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "stage 3 decubitus ulcer of trochanter"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1042675735"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pressure ulceration grade 3 of other sites of lower limb"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/71574697"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "stage 3 decubitus ulcer of other sites of lower limb"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/71574697"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pressure ulceration grade 3 of upper back"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1393869347"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pressure ulceration grade 3 of lower back"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/751442348"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pressure ulceration grade 3 of heel"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1921118543"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pressure ulceration grade 3 of toe"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1647357899"
+    }
+  ]
+}

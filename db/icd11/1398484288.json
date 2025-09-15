@@ -1,0 +1,66 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1398484288",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/971176543"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1398484288",
+  "code": "1B72.0",
+  "source": "http://id.who.int/icd/entity/1398484288",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neonatal bullous impetigo"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/92952472",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/756297560"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1398484288/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/947150833",
+        "http://id.who.int/icd/release/11/2024-01/mms/1810600222"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Bullous impetigo"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Bullous impetigo is a contagious superficial infection of the skin caused by certain strains of Staphylococcus aureus which release toxins into the local environment which are capable of cleaving desmoglein I, a protein involved in intercellular adhesion of epidermal keratinocytes. In contrast to the very superficial, rapidly shed and rarely observed blisters of non-bullous impetigo, the bullae of bullous impetigo are tense and well demarcated, sometimes reaching several centimetres in diameter before rupture."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/911707612"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bullous impetigo"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bullous impetigo of the napkin area"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1736622175"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Blistering distal dactylitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1585764147"
+    }
+  ]
+}

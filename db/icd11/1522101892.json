@@ -1,0 +1,85 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1522101892",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1327469665"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1363344947",
+    "http://id.who.int/icd/release/11/2024-01/mms/1522101892/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1522101892/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1522101892",
+  "code": "DA20.3",
+  "source": "http://id.who.int/icd/entity/1522101892",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Oesophagitis due to external causes"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/524771725",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/524771725"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Foreign body in oesophagus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1644383560",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1644383560"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1522101892/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/72252748"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1522101892/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1522101892/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Perforation of oesophagus"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Perforation of oesophagus is a penetration or hole of the wall of the oesophagus, resulting in luminal contents in oesophagus flowing into the mediastinum and/or thoracic cavity."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Oesophageal ulcer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1084515160",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1084515160"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ]
+}

@@ -1,0 +1,425 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/324760454",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1710329660"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#324760454",
+  "code": "PA03",
+  "source": "http://id.who.int/icd/entity/324760454",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/324760454/postcoordinationScale/activityWhenInjured",
+      "axisName": "http://id.who.int/icd/schema/activityWhenInjured",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2071638841",
+        "http://id.who.int/icd/release/11/2024-01/mms/1107435129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1428847289",
+        "http://id.who.int/icd/release/11/2024-01/mms/821249273",
+        "http://id.who.int/icd/release/11/2024-01/mms/160164281"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/324760454/postcoordinationScale/placeOfOccurrence",
+      "axisName": "http://id.who.int/icd/schema/placeOfOccurrence",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowedExceptFromSameBlock",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/713258542"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/324760454/postcoordinationScale/transportEventDescriptor",
+      "axisName": "http://id.who.int/icd/schema/transportEventDescriptor",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowedExceptFromSameBlock",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/542554339",
+        "http://id.who.int/icd/release/11/2024-01/mms/1075090949",
+        "http://id.who.int/icd/release/11/2024-01/mms/1463612101"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/324760454/postcoordinationScale/alcoholUseInInjury",
+      "axisName": "http://id.who.int/icd/schema/alcoholUseInInjury",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowedExceptFromSameBlock",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1993515327",
+        "http://id.who.int/icd/release/11/2024-01/mms/1336544383",
+        "http://id.who.int/icd/release/11/2024-01/mms/1484941503",
+        "http://id.who.int/icd/release/11/2024-01/mms/1029396223",
+        "http://id.who.int/icd/release/11/2024-01/mms/712192575"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/324760454/postcoordinationScale/psychoactiveDrugUseInInjury",
+      "axisName": "http://id.who.int/icd/schema/psychoactiveDrugUseInInjury",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowedExceptFromSameBlock",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1848703062",
+        "http://id.who.int/icd/release/11/2024-01/mms/1464358166",
+        "http://id.who.int/icd/release/11/2024-01/mms/1080046038",
+        "http://id.who.int/icd/release/11/2024-01/mms/632885142",
+        "http://id.who.int/icd/release/11/2024-01/mms/848390998"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Unintentional land transport traffic event injuring a motor cyclist"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unintentional land transport traffic event injuring an occupant of a low powered passenger vehicle"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1684490659",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1684490659"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unintentional land transport traffic event injuring a motor cyclist"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "motorcycle rider injured in transport accident"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "unintentional land transport accident motorbike"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "motorbike accident"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "motorbike traffic accident"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Motorcycle accident NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Motorcycle rider injured in collision with pedestrian or animal"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1884956738"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Motorcycle rider injured in collision with pedestrian or animal, person injured while boarding or alighting"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/29173194"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Motorcycle rider injured in collision with pedestrian or animal, driver injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1918088798"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Motorcycle rider injured in collision with pedestrian or animal, passenger injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/387480520"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Motorcycle rider injured in collision with pedestrian or animal, unspecified motorcycle rider injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/517750389"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Motorcycle rider injured in collision with pedal cycle"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/353494488"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Motorcycle rider injured in collision with pedal cycle : person injured while boarding or alighting"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/491121993"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Motorcycle rider injured in collision with pedal cycle : driver injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1856732893"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Motorcycle rider injured in collision with pedal cycle : passenger injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/199275337"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Motorcycle rider injured in collision with pedal cycle : unspecified motorcycle rider injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/35976950"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Motorcycle rider injured in collision with two- or three-wheeled motor vehicle"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1639757097"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Motorcycle rider injured in collision with two- or three-wheeled motor vehicle : person injured while boarding or alighting"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/482495863"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Motorcycle rider injured in collision with two- or three-wheeled motor vehicle : driver injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1865211619"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Motorcycle rider injured in collision with two- or three-wheeled motor vehicle : passenger injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/174527351"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Motorcycle rider injured in collision with two- or three-wheeled motor vehicle : unspecified motorcycle rider injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/61036234"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Motorcycle rider injured in collision with car, pick-up truck or van"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/83327165"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Motorcycle rider injured in collision with car, pick-up truck or van : person injured while boarding or alighting"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/3835382"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Motorcycle rider injured in collision with car, pick-up truck or van : driver injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1943279202"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "operator of motorcycle injured in collision with car, pick-up truck or van: driver injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1943279202"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Motorcycle rider injured in collision with car, pick-up truck or van : passenger injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/379575288"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Motorcycle rider injured in collision with car, pick-up truck or van : unspecified motorcycle rider injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/526097995"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Motorcycle rider injured in collision with heavy transport vehicle or bus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1998187305"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Motorcycle rider injured in collision with heavy transport vehicle or bus : person injured while boarding or alighting"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/994309304"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Motorcycle rider injured in collision with heavy transport vehicle or bus : driver injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1219323684"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Motorcycle rider injured in collision with heavy transport vehicle or bus : passenger injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/770091702"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Motorcycle rider injured in collision with heavy transport vehicle or bus : unspecified motorcycle rider injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/606269195"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Motorcycle rider injured in collision with other nonmotor vehicle"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1728017988"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Motorcycle rider injured in collision with other nonmotor vehicle : person injured while boarding or alighting"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/641506313"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Motorcycle rider injured in collision with other nonmotor vehicle : driver injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1439829917"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Motorcycle rider injured in collision with other nonmotor vehicle : passenger injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/815383049"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Motorcycle rider injured in collision with other nonmotor vehicle : unspecified motorcycle rider injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/962430900"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Motorcycle rider injured in collision with fixed or stationary object"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/62176214"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Motorcycle rider injured in collision with fixed or stationary object : person injured while boarding or alighting"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/985945224"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Motorcycle rider injured in collision with fixed or stationary object : driver injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1227540252"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Motorcycle rider injured in collision with fixed or stationary object : passenger injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/744557194"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Motorcycle rider injured in collision with fixed or stationary object : unspecified motorcycle rider injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/631590709"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Motorcycle rider injured in noncollision transport accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2128457364"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Motorcycle rider injured in noncollision transport accident : person injured while boarding or alighting"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1950385974"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Motorcycle rider injured in noncollision transport accident : driver injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/128849058"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Motorcycle rider injured in noncollision transport accident : passenger injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1659230516"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Motorcycle rider injured in noncollision transport accident : unspecified motorcycle rider injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1797364873"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Motorcycle rider injured in other and unspecified transport accidents"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/462840578"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Motorcycle rider injured by being trapped by part of motorcycle"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/551166421"
+    }
+  ]
+}

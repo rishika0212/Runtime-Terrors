@@ -1,0 +1,64 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/402558626",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1845275831"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#402558626",
+  "code": "9D00.2",
+  "source": "http://id.who.int/icd/entity/402558626",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/402558626/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/402558626/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1027961521"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Astigmatism"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Unequal curvature of the refractive surfaces of the eye. Thus a point source of light cannot be brought to a point focus on the retina but is spread over a more or less diffuse area. This results from the radius of curvature in one plane being longer or shorter than the radius at right angles to it."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Astigmatism"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Irregular astigmatism"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1086387343"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Regular astigmatism"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/879600754"
+    }
+  ]
+}

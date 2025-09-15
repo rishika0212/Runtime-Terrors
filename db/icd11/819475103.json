@@ -1,0 +1,82 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/819475103",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2020673786"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#819475103",
+  "code": "EK00.1",
+  "source": "http://id.who.int/icd/entity/819475103",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/819475103/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/223243926",
+        "http://id.who.int/icd/release/11/2024-01/mms/947150833",
+        "http://id.who.int/icd/release/11/2024-01/mms/1810600222"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/819475103/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/56475710",
+        "http://id.who.int/icd/release/11/2024-01/mms/1991139272"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Allergic contact dermatitis due to cosmetics or fragrances"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Allergic contact dermatitis due to sensitisation to any of a large number of allergens which may be found in cosmetics and other products to which fragrances are added. Common allergens include colophony, fragrances such as hydroxycitronellal, emollients such as lanolin (wool wax alcohols), surfactants such as cocamidopropyl betaine, or preservatives such as isothiazolinones, parabens or formaldehyde-releasing agents. Fragrances are found in many household products as well as in cosmetics."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Allergic contact dermatitis due to cosmetics or fragrances"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Perfume allergic contact dermatitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "allergic contact dermatitis due to cosmetics"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Allergic contact eczema due to cosmetics or fragrances"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupational allergic contact dermatitis due to cosmetics or fragrances"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/167222868"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nonoccupational allergic contact dermatitis due to cosmetics or fragrances"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/742048664"
+    }
+  ]
+}

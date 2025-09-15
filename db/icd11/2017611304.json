@@ -1,0 +1,48 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2017611304",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1324863907"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2017611304",
+  "code": "1F70.1",
+  "source": "http://id.who.int/icd/entity/2017611304",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2017611304/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1211141166"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Cysticercosis of eye"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease of the eye, caused by an infection of tissue with larval cysts from the parasitic worm Taenia solium. This disease is characterised by cysts floating in the vitreous humour of the eye leading to impaired vision. Transmission is by haematogenous spread of larvae to the eye after ingestion of Taenia solium eggs in contaminated food or water. Confirmation is commonly by history of travel in parasite endemic regions and advanced imaging of the eye."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1945127438"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cysticercosis of eye"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Endophthalmitis in cysticercosis of eye"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1986142737"
+    }
+  ]
+}

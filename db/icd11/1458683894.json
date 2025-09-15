@@ -1,0 +1,65 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1458683894",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/426429380"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2136808878",
+    "http://id.who.int/icd/release/11/2024-01/mms/437702716",
+    "http://id.who.int/icd/release/11/2024-01/mms/1754821737",
+    "http://id.who.int/icd/release/11/2024-01/mms/1594578199",
+    "http://id.who.int/icd/release/11/2024-01/mms/1992125824",
+    "http://id.who.int/icd/release/11/2024-01/mms/1458683894/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1458683894/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1458683894",
+  "code": "",
+  "source": "http://id.who.int/icd/entity/1458683894",
+  "classKind": "block",
+  "blockId": "BlockL1-BD1",
+  "codeRange": "BD10-BD1Z",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neonatal cardiac failure"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1611051049",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1611051049"
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Heart failure"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Heart failure following cardiac surgery or due to presence of cardiac prosthesis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/506055626",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/506055626"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "complicating abortion or ectopic or molar pregnancy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1403588899",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1403588899"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "complicating obstetric surgery and procedures"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/37695035",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/37695035"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1611051049"
+  ]
+}

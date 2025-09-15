@@ -1,0 +1,67 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1821383469",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/29198741"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1821383469",
+  "code": "DA96.1",
+  "source": "http://id.who.int/icd/entity/1821383469",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Intestinal lymphangiectasia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1255239964",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1255239964"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1821383469/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Protein-losing enteropathy"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Protein-losing enteropathy is a syndrome characterised by the severe loss of serum proteins into the intestine. It is not a single disease, but an atypical manifestation of other diseases, which involves intestinal mucosa as well as intestinal blood or lymphatic vessels."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Protein-losing enteropathy"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "PLE - [protein-losing enteropathy]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cardiac postprocedural protein losing enteropathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/92709889"
+    }
+  ]
+}

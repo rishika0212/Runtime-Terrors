@@ -1,0 +1,54 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1172376859",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/197587246"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1172376859",
+  "code": "DD90.2",
+  "source": "http://id.who.int/icd/entity/1172376859",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1172376859/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Functional heartburn"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Functional heartburn is a disorder having no structural abnormalities and absence of gastroesophageal reflux for heartburn, characterised by burning retrosternal discomfort or pain."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "heartburn NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1559380866",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1559380866"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Functional heartburn"
+      }
+    }
+  ]
+}

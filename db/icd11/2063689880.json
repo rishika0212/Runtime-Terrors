@@ -1,0 +1,130 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2063689880",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1921257102"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2063689880",
+  "code": "NA03.0",
+  "source": "http://id.who.int/icd/entity/2063689880",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2063689880/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1916173590"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2063689880/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/980862652",
+        "http://id.who.int/icd/release/11/2024-01/mms/851395624",
+        "http://id.who.int/icd/release/11/2024-01/mms/73322695",
+        "http://id.who.int/icd/release/11/2024-01/mms/128104623",
+        "http://id.who.int/icd/release/11/2024-01/mms/1491356379",
+        "http://id.who.int/icd/release/11/2024-01/mms/491063206",
+        "http://id.who.int/icd/release/11/2024-01/mms/185842968",
+        "http://id.who.int/icd/release/11/2024-01/mms/2143219175",
+        "http://id.who.int/icd/release/11/2024-01/mms/558785723",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Dislocation of jaw"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Displacement of the mandible, the largest and strongest bone of the face constituting the lower jaw. Dislocation of the temporomandibular joint is a painful condition that occurs when the mandibular condyle becomes fixed in the anterosuperior aspect of the articular eminence.\n\nTMJ dislocation is due to either trauma or, more commonly, excessive opening of the mandible. Spasm of the masseter, temporalis, and internal pterygoid muscles results in trismus, preventing return of the condyle to the temporal fossa."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "disc displacement (internal derangement of the TMJ)"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/897101649",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/897101649"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dislocation of jaw"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "dislocation of inferior maxilla"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "dislocation of mandible"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "dislocation of temporomandibular joint"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "traumatic dislocation of temporomandibular joint"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "temporomandibular dislocation"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "dislocation of TMJ - [temporomandibular joint]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pseudo-dislocation of the TMJ (trauma)"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Recurrent dislocation of the jaw"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/832683366"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "habitual dislocation of jaw"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/832683366"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sequelae of dislocation of jaw"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2062798672"
+    }
+  ]
+}

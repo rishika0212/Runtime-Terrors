@@ -1,0 +1,82 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/351042657",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1171555810"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#351042657",
+  "code": "DA0C.1",
+  "source": "http://id.who.int/icd/entity/351042657",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/351042657/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/411578227"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Aggressive periodontitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A type of periodontal disease and includes localised aggressive periodontitis (LAP), and Generalised aggressive periodontitis (GAP)."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "A specific type of periodontitis with clearly identifiable clinical and laboratory findings, that make it sufficiently different from chronic periodontitis, to warrant a separate classification. Juvenile (aggressive) periodontitis occurs in a patient who otherwise is clinical healthy (except for periodontal disease). Common features include rapid attachment loss and bone destruction, and familial aggregation. In addition, patients with juvenile (aggressive) periodontitis generally, but not universally, exhibit amounts of microbial deposits inconsistent with the severity of periodontal tissue destruction, phagocyte abnormalities, and elevated proportions of A. actinomycetemcomitans and, in some populations, P. gingivalis."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Juvenile periodontitis"
+      }
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aggressive periodontitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Juvenile periodontitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "prepubertal periodontitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Generalised aggressive periodontitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2094780251"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Localised aggresssive periodontitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/703594024"
+    }
+  ]
+}

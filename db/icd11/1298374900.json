@@ -1,0 +1,90 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1298374900",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/790009325"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1298374900",
+  "code": "FA81.1",
+  "source": "http://id.who.int/icd/entity/1298374900",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1298374900/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1302669122"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1298374900/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1569734721",
+        "http://id.who.int/icd/release/11/2024-01/mms/1170330671"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Spondylolysis without slippage"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is a condition characterised by degeneration of a portion of the vertebra, usually in the pars interarticularis (the bone bridge between the superior and inferior facet joints of the lumbar vertebra) without slippage of the vertebrae."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spondylolysis without slippage"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spondylolysis without slippage with no determinant"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1560834324"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spondylolysis without slippage with determinant"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1123916654"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Traumatic spondylolysis without slippage"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1392846995"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Iatrogenic spondylolysis without slippage"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1522409366"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spondylolysis without slippage with determinant, otherwise specified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/126978413"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spondyloptosis without slippage"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/85939354"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/323246172",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1271971260"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#323246172",
+  "code": "LA13.6",
+  "source": "http://id.who.int/icd/entity/323246172",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/323246172/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Congenital malformations of choroid"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "These are single or multiple defects of the morphogenesis of the choroid, the vascular layer of the eye, identifiable at birth or during the intrauterine life."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital malformations of choroid"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "congenital anomaly of choroid"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "choroid anomaly"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "choroid deformity"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital crescent or conus choroid"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1534164020"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital pigmentation disorder of choroid"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1596527260"
+    }
+  ]
+}

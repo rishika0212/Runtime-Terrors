@@ -1,0 +1,48 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/254445041",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2064760868"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#254445041",
+  "code": "9C61.41",
+  "source": "http://id.who.int/icd/entity/254445041",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/254445041/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Primary infantile glaucoma"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Primary infantile glaucoma is a condition after 2 years of age where malformation of the trabecular meshwork causes elevated intraocular pressure without enlargement of the eyeball but damage to the optic nerve similar to congenital glaucoma."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary infantile glaucoma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary juvenile glaucoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/230993897"
+    }
+  ]
+}

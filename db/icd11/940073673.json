@@ -1,0 +1,52 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/940073673",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1478037730"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/727435208",
+    "http://id.who.int/icd/release/11/2024-01/mms/820259670",
+    "http://id.who.int/icd/release/11/2024-01/mms/261833655",
+    "http://id.who.int/icd/release/11/2024-01/mms/940073673/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/940073673/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#940073673",
+  "code": "ME86.2",
+  "source": "http://id.who.int/icd/entity/940073673",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/940073673/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Symptom or complaint of the back"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic primary musculoskeletal pain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1236923870",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1236923870"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic secondary musculoskeletal pain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1968541653",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1968541653"
+    }
+  ]
+}

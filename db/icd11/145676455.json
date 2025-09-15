@@ -1,0 +1,54 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/145676455",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/452386362"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/259746396",
+    "http://id.who.int/icd/release/11/2024-01/mms/1781573582",
+    "http://id.who.int/icd/release/11/2024-01/mms/1558430215",
+    "http://id.who.int/icd/release/11/2024-01/mms/504723173",
+    "http://id.who.int/icd/release/11/2024-01/mms/145676455/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/145676455/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#145676455",
+  "code": "NA09",
+  "source": "http://id.who.int/icd/entity/145676455",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/145676455/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1357976561"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/145676455/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482",
+        "http://id.who.int/icd/release/11/2024-01/mms/755612283"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Traumatic amputation of part of head"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Decapitation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/170769591",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1600884926"
+    }
+  ]
+}

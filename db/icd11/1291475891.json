@@ -1,0 +1,85 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1291475891",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/980864631"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/677984188",
+    "http://id.who.int/icd/release/11/2024-01/mms/1291475891/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1291475891/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1291475891",
+  "code": "9A70",
+  "source": "http://id.who.int/icd/entity/1291475891",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "X-linked ichthyosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1466487054",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1466487054"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cornea plana"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/262157734",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/110906424"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Megalocornea"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/58849242",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/110906424"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Microcornea"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/930836448",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/110906424"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1291475891/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1291475891/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/985771522"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Hereditary corneal dystrophies"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "The term corneal dystrophy embraces a heterogeneous group of bilateral genetically determined non-inflammatory corneal diseases that are usually restricted to the cornea. The designation is imprecise but remains in vogue because of its clinical value."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Hereditary corneal dystrophy (Hereditary keratitis) is characterised by opacification and vascularisation of the cornea, often associated with macula hypoplasia. The prevalence is unknown. The syndrome is transmitted in an autosomal dominant manner and is associated with mutations in the PAX6 gene. The presence of macular hypoplasia and iris anomalies in some familial cases suggest that in these cases the disease may be a form of aniridia."
+  }
+}

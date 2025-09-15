@@ -1,0 +1,314 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/319162980",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/887807212"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#319162980",
+  "code": "8C70.41",
+  "source": "http://id.who.int/icd/entity/319162980",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/319162980/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/319162980/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1922573088",
+        "http://id.who.int/icd/release/11/2024-01/mms/1359586520",
+        "http://id.who.int/icd/release/11/2024-01/mms/955996865",
+        "http://id.who.int/icd/release/11/2024-01/mms/507472176",
+        "http://id.who.int/icd/release/11/2024-01/mms/107652911",
+        "http://id.who.int/icd/release/11/2024-01/mms/720361080",
+        "http://id.who.int/icd/release/11/2024-01/mms/864968000"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Recessive limb-girdle muscular dystrophy"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Autosomal recessive limb girdle muscular dystrophies (LGMD2) are a group of genetically heterogeneous diseases that are typically characterised by progressive weakness and wasting of the shoulder and pelvic girdle muscles. Many of the more than 20 different conditions show overlapping clinical features with other forms of muscular dystrophy, congenital, myofibrillar or even distal myopathies and also with acquired muscle diseases. Although individually extremely rare, all types of LGMD2 together form an important differential diagnostic group among neuromuscular diseases."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myasthenia gravis or certain specified neuromuscular junction disorders"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1425591047",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1425591047"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Secondary myopathies"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1159616108",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1159616108"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/564191997"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Recessive limb-girdle muscular dystrophy"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "LGMD2 - [Limb-girdle muscular dystrophy] 2"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Limb-girdle muscular dystrophy 2A, calpain-3 deficiency"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/522700832"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Limb-girdle muscular dystrophy 2B, dysferlin deficiency"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/370913678"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Limb-girdle muscular dystrophy 2C, gamma-sarcoglycan deficiency"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/440038386"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Limb-girdle muscular dystrophy 2D, alpha-sarcoglycan deficiency"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1066309170"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Limb-girdle muscular dystrophy 2E, beta-sarcoglycan deficiency"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/867128398"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Limb-girdle muscular dystrophy 2F, delta-sarcoglycan deficiency"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/667751114"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Limb-girdle muscular dystrophy 2G, telethonin gene mutation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/736940214"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Limb-girdle muscular dystrophy 2H, TRIM32 gene mutation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2020366790"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "LGMD 2H - [Limb-girdle muscular dystrophy 2H, TRIM32 gene mutation]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2020366790"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Limb-girdle muscular dystrophy 2I, fukutin related protein gene mutation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1951243194"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "FKRP - [fukutin related protein gene mutation]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1951243194"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "LGMD 2I - [Limb-girdle muscular dystrophy 2I]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1951243194"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Limb-girdle muscular dystrophy 2J, Titin gene mutation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/437873883"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "LGMD 2J - [Limb-girdle muscular dystrophy 2J, Titin gene mutation]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/437873883"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Limb-girdle muscular dystrophy 2K, protein-O-mannosyltransferase 1 transferase"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/251421896"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "POMT1 - [protein-O-mannosyltransferase 1 transferase]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/251421896"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "LGMD 2K - [Limb-girdle muscular dystrophy 2K]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/251421896"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Limb-girdle muscular dystrophy 2L, AN05 gene mutation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2062556044"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "LGMD 2L - [Limb-girdle muscular dystrophy 2L]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2062556044"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Limb-girdle muscular dystrophy 2M, POMGnT1 gene mutation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1187309098"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "LGMD2M - [limb-girdle muscular dystrophy 2M]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1187309098"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Limb-girdle muscular dystrophy 2N, POMT2 gene mutation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1682388047"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Limb-girdle muscular dystrophy-dystroglycanopathy (type C2)"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1682388047"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "MDDGC2"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1682388047"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "LGMD2N - limb-girdle muscular dystrophy 2N]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1682388047"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Limb-girdle muscular dystrophy 2O, POMGNT1 gene mutation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1006273551"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "LGMD2O - [limb-girdle muscular dystrophy 2O]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1006273551"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Limb-girdle muscular dystrophy-dystroglycanopathy (type C3)"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1006273551"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "MDDGC3"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1006273551"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Limb-girdle muscular dystrophy 2Q, plectin deficiency"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/208250225"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "LGMD2Q - [limb-girdle muscular dystrophy 2Q]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/208250225"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Limb-girdle muscular dystrophy-dystroglycanopathy C7"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/787117844"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "MDDGC7"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/787117844"
+    }
+  ]
+}

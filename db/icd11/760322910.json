@@ -1,0 +1,109 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/760322910",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1784240230"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1323593849",
+    "http://id.who.int/icd/release/11/2024-01/mms/760322910/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/760322910/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#760322910",
+  "code": "DB90",
+  "source": "http://id.who.int/icd/entity/760322910",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dengue"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1959883044",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1959883044"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Yellow fever"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/383352795",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/383352795"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cytomegaloviral hepatitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1999221102",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1999221102"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hepatitis due to Toxoplasma gondii"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1419043836",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1419043836"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Herpes simplex hepatitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/770963397",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/248851702/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/760322910/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/760322910/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/760322910/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Infectious liver disease"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Viral hepatitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/985510409",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/985510409"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ]
+}

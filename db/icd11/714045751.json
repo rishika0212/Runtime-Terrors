@@ -1,0 +1,76 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/714045751",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/153081685"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#714045751",
+  "code": "NC13.2",
+  "source": "http://id.who.int/icd/entity/714045751",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/714045751/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/714045751/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/980862652",
+        "http://id.who.int/icd/release/11/2024-01/mms/851395624",
+        "http://id.who.int/icd/release/11/2024-01/mms/73322695",
+        "http://id.who.int/icd/release/11/2024-01/mms/128104623",
+        "http://id.who.int/icd/release/11/2024-01/mms/1491356379",
+        "http://id.who.int/icd/release/11/2024-01/mms/491063206",
+        "http://id.who.int/icd/release/11/2024-01/mms/185842968",
+        "http://id.who.int/icd/release/11/2024-01/mms/2143219175",
+        "http://id.who.int/icd/release/11/2024-01/mms/558785723",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Dislocation of sternoclavicular joint"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dislocation of sternoclavicular joint"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "sternoclavicular dislocation"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Anterior dislocation of sternoclavicular joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1524068919"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Posterior dislocation of sternoclavicular joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1833194313"
+    }
+  ]
+}

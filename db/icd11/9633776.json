@@ -1,0 +1,44 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/9633776",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/962023213"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/817194045",
+    "http://id.who.int/icd/release/11/2024-01/mms/1442752937",
+    "http://id.who.int/icd/release/11/2024-01/mms/81374726",
+    "http://id.who.int/icd/release/11/2024-01/mms/9633776/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/9633776/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#9633776",
+  "code": "5A51",
+  "source": "http://id.who.int/icd/entity/9633776",
+  "classKind": "category",
+  "title": {
+    "@language": "en",
+    "@value": "Hyperparathyroidism"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Hyperparathyroidism refers to overproduction of parathormone and is most frequently due to a tumour in one of the parathyroid glands. It may also occur in response to low calcium levels, as encountered in various situations such as vitamin D deficiency or chronic kidney disease.\nHyperparathyroidism results in weakening of the bones through loss of calcium."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Adult osteomalacia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/414849600",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/414849600"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "infantile and juvenile osteomalacia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2047696084",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2047696084"
+    }
+  ]
+}

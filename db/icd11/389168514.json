@@ -1,0 +1,74 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/389168514",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/295907514"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/48643408",
+    "http://id.who.int/icd/release/11/2024-01/mms/389168514/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/389168514/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#389168514",
+  "code": "GB70.0",
+  "source": "http://id.who.int/icd/entity/389168514",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/389168514/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/389168514/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/720032908"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/389168514/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1507624466"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Calculus of kidney"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition of the kidney, caused by dehydration, decreased urine volume or fluid flow rates, or increased excretion of minerals such as calcium, oxalate, magnesium, cystine, and phosphate. This condition is characterised by the urinary calculi located in the kidney, in renal calyces, or in the renal pelvis. This condition may present with haematuria, dysuria, or pain in the flank, lower abdomen, or groin. Confirmation is by abdominal radiography to determine the presence and location of calculi."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Calculus of kidney is a crystalline mass formed in the kidney with radiologically detectable size, or clinical symptoms. The composition of the calculus is variable by its process of formation, and it determines the clinical evaluation, treatment, and prognosis. The causes of formation of calculus include many other underlying systemic diseases. The patient with calculus of kidney may not have any symptoms but haematuria; acute renal colic can arise suddenly by the growth of the calculus."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Renal calculus or stone"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stone in kidney"
+      }
+    }
+  ]
+}

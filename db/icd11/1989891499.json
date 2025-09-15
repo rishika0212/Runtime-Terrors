@@ -1,0 +1,55 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1989891499",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/894625870"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/540310468",
+    "http://id.who.int/icd/release/11/2024-01/mms/1111258427",
+    "http://id.who.int/icd/release/11/2024-01/mms/915482054",
+    "http://id.who.int/icd/release/11/2024-01/mms/1165997650",
+    "http://id.who.int/icd/release/11/2024-01/mms/1419324219",
+    "http://id.who.int/icd/release/11/2024-01/mms/149787830",
+    "http://id.who.int/icd/release/11/2024-01/mms/1406855248",
+    "http://id.who.int/icd/release/11/2024-01/mms/835905199",
+    "http://id.who.int/icd/release/11/2024-01/mms/662157487",
+    "http://id.who.int/icd/release/11/2024-01/mms/1989891499/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1989891499/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1989891499",
+  "code": "LB9A",
+  "source": "http://id.who.int/icd/entity/1989891499",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1989891499/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1989891499/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2093217246"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Reduction defects of lower limb"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Any condition caused by the failure of a lower limb to correctly develop during the antenatal period. These conditions are characterised by reduction in size or absence of the limb."
+  }
+}

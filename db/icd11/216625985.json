@@ -1,0 +1,68 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/216625985",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2022303330"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2119495866",
+    "http://id.who.int/icd/release/11/2024-01/mms/216625985/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/216625985/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#216625985",
+  "code": "2B31.2",
+  "source": "http://id.who.int/icd/entity/216625985",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/216625985/postcoordinationScale/histopathology",
+      "axisName": "http://id.who.int/icd/schema/histopathology",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1247023727",
+        "http://id.who.int/icd/release/11/2024-01/mms/879262254",
+        "http://id.who.int/icd/release/11/2024-01/mms/1426997669",
+        "http://id.who.int/icd/release/11/2024-01/mms/1388720498",
+        "http://id.who.int/icd/release/11/2024-01/mms/1388720498",
+        "http://id.who.int/icd/release/11/2024-01/mms/879262254",
+        "http://id.who.int/icd/release/11/2024-01/mms/1426997669",
+        "http://id.who.int/icd/release/11/2024-01/mms/1388720498",
+        "http://id.who.int/icd/release/11/2024-01/mms/1247023727",
+        "http://id.who.int/icd/release/11/2024-01/mms/1922626366",
+        "http://id.who.int/icd/release/11/2024-01/mms/1067507454",
+        "http://id.who.int/icd/release/11/2024-01/mms/187605834",
+        "http://id.who.int/icd/release/11/2024-01/mms/876689600",
+        "http://id.who.int/icd/release/11/2024-01/mms/1846605421",
+        "http://id.who.int/icd/release/11/2024-01/mms/1313748001",
+        "http://id.who.int/icd/release/11/2024-01/mms/879262254",
+        "http://id.who.int/icd/release/11/2024-01/mms/1426997669"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/216625985/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Langerhans cell histiocytosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A neoplastic proliferation of Langerhans cells which contain Birbeck granules by ultrastructural examination. Three major overlapping syndromes are recognised: eosinophilic granuloma, Letterer-Siwe disease, and Hand-Schuller-Christian disease. The clinical course is generally related to the number of organs affected at presentation."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Histiocytosis X"
+      }
+    }
+  ]
+}

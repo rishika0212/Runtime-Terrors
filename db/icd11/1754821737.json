@@ -1,0 +1,55 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1754821737",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1458683894"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1754821737",
+  "code": "BD12",
+  "source": "http://id.who.int/icd/entity/1754821737",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1754821737/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/224336967",
+        "http://id.who.int/icd/release/11/2024-01/mms/1470387017"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1754821737/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "High output syndromes"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Increased cardiac output above normal associated with anaemia, arteriovenous fistulas, thyrotoxicosis and other syndromes. May result in heart failure."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1380872553"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1611051049"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "High output syndromes"
+      }
+    }
+  ]
+}

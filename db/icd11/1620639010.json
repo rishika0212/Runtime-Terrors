@@ -1,0 +1,95 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1620639010",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/151516004"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1620639010",
+  "code": "ND14.6",
+  "source": "http://id.who.int/icd/entity/1620639010",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1620639010/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1620639010/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1333886786",
+        "http://id.who.int/icd/release/11/2024-01/mms/325262192",
+        "http://id.who.int/icd/release/11/2024-01/mms/317049813",
+        "http://id.who.int/icd/release/11/2024-01/mms/129818515"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1620639010/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/980862652",
+        "http://id.who.int/icd/release/11/2024-01/mms/851395624",
+        "http://id.who.int/icd/release/11/2024-01/mms/73322695",
+        "http://id.who.int/icd/release/11/2024-01/mms/128104623",
+        "http://id.who.int/icd/release/11/2024-01/mms/1491356379",
+        "http://id.who.int/icd/release/11/2024-01/mms/491063206",
+        "http://id.who.int/icd/release/11/2024-01/mms/185842968",
+        "http://id.who.int/icd/release/11/2024-01/mms/2143219175",
+        "http://id.who.int/icd/release/11/2024-01/mms/558785723",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Dislocation of other or unspecified parts of foot"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dislocation of other or unspecified parts of foot"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "dislocation of foot"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dislocation of midtarsal joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1606134237"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dislocation of navicular bone of foot"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/662238889"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Metatarsal dislocation of foot"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1487285542"
+    }
+  ]
+}

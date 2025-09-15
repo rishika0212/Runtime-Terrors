@@ -1,0 +1,86 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1796624917",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/773281372"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1796624917",
+  "code": "2E64.1",
+  "source": "http://id.who.int/icd/entity/1796624917",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Vulvar Paget disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1913185137",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1913185137"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1796624917/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/223243926",
+        "http://id.who.int/icd/release/11/2024-01/mms/947150833",
+        "http://id.who.int/icd/release/11/2024-01/mms/1810600222"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1796624917/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Extramammary Paget disease of skin"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "An intraepithelial adenocarcinoma of apocrine gland-bearing skin and mucous membrane. Clinically it presents as sharply demarcated erythematous plaques most commonly affecting the vulva in women and perianal skin in men."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Extramammary Paget disease of skin"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "EMPD - [extramammary Paget disease]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Extramammary Paget disease of penis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/919038581"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Extramammary Paget disease of anus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1589600380"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Extramammary Paget disease of anogenital skin"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/136398909"
+    }
+  ]
+}

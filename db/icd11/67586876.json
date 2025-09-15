@@ -1,0 +1,80 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/67586876",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/73229602"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1824866828",
+    "http://id.who.int/icd/release/11/2024-01/mms/175877584",
+    "http://id.who.int/icd/release/11/2024-01/mms/67586876/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/67586876/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#67586876",
+  "code": "9A05",
+  "source": "http://id.who.int/icd/entity/67586876",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Benign essential blepharospasm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1127235959",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1127235959"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hemifacial spasm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/353312397",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/353312397"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Facial tic"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/580665331",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1087192220"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/67586876/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/67586876/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1142633691"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Movement disorders of eyelid"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tic disorders"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1894671574",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1894671574"
+    }
+  ]
+}

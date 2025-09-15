@@ -1,0 +1,84 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1129607960",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1058231555"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1129607960",
+  "code": "8E4A.3",
+  "source": "http://id.who.int/icd/entity/1129607960",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1129607960/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1630407678",
+        "http://id.who.int/icd/release/11/2024-01/mms/1954798891"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Paraneoplastic or autoimmune disorders of the muscle"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Paraneoplastic and autoimmune diseases of muscle present with weakness and can be caused by a variety of causes, either by undefined remote effects or autoimmune effects in cancer, or autoimmune mechanisms in non cancer related conditions. The presentation is variable, usually presenting with a proximal myopathic pattern."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/564191997"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paraneoplastic or autoimmune disorders of the muscle"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paraneoplastic necrotising myopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1308322963"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Autoimmune necrotising myopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1655474050"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paraneoplastic hyperexcitability syndrome with continuous muscle fibre activity"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1599858362"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Morvan syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1599858362"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Autoimmune hyperexcitability syndrome with continuous muscle fibre activity or Morvan syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1155795500"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cancer sarcopenia or muscle wasting"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1937189718"
+    }
+  ]
+}

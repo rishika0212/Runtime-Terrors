@@ -1,0 +1,49 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1845275831",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1266833063"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1666440799",
+    "http://id.who.int/icd/release/11/2024-01/mms/102241227",
+    "http://id.who.int/icd/release/11/2024-01/mms/402558626",
+    "http://id.who.int/icd/release/11/2024-01/mms/22794400",
+    "http://id.who.int/icd/release/11/2024-01/mms/386251928",
+    "http://id.who.int/icd/release/11/2024-01/mms/1672014953",
+    "http://id.who.int/icd/release/11/2024-01/mms/416871389",
+    "http://id.who.int/icd/release/11/2024-01/mms/1845275831/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1845275831/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1845275831",
+  "code": "9D00",
+  "source": "http://id.who.int/icd/entity/1845275831",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1845275831/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1845275831/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1027961521"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Disorders of refraction"
+  }
+}

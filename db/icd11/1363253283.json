@@ -1,0 +1,132 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1363253283",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1990827977"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/958976948",
+    "http://id.who.int/icd/release/11/2024-01/mms/247198410",
+    "http://id.who.int/icd/release/11/2024-01/mms/133091217"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1363253283",
+  "code": "8B01",
+  "source": "http://id.who.int/icd/entity/1363253283",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Subarachnoid nontraumatic haemorrhage of fetus or newborn"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/103961987",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/103961987"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1363253283/postcoordinationScale/hasPupilReactionScore",
+      "axisName": "http://id.who.int/icd/schema/hasPupilReactionScore",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1276965062",
+        "http://id.who.int/icd/release/11/2024-01/mms/2031826100",
+        "http://id.who.int/icd/release/11/2024-01/mms/109553629",
+        "http://id.who.int/icd/release/11/2024-01/mms/864052137"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1363253283/postcoordinationScale/hasGCSEyeScore",
+      "axisName": "http://id.who.int/icd/schema/hasGCSEyeScore",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1720573192",
+        "http://id.who.int/icd/release/11/2024-01/mms/1401559410",
+        "http://id.who.int/icd/release/11/2024-01/mms/1488767299",
+        "http://id.who.int/icd/release/11/2024-01/mms/1840975159"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1363253283/postcoordinationScale/hasGCSMotorScore",
+      "axisName": "http://id.who.int/icd/schema/hasGCSMotorScore",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1448857116",
+        "http://id.who.int/icd/release/11/2024-01/mms/1666976362",
+        "http://id.who.int/icd/release/11/2024-01/mms/1939248096",
+        "http://id.who.int/icd/release/11/2024-01/mms/1183930282",
+        "http://id.who.int/icd/release/11/2024-01/mms/128560749",
+        "http://id.who.int/icd/release/11/2024-01/mms/2083461966"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1363253283/postcoordinationScale/hasGCSVerbalScore",
+      "axisName": "http://id.who.int/icd/schema/hasGCSVerbalScore",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/394710859",
+        "http://id.who.int/icd/release/11/2024-01/mms/1811970668",
+        "http://id.who.int/icd/release/11/2024-01/mms/1493679646",
+        "http://id.who.int/icd/release/11/2024-01/mms/1673130746",
+        "http://id.who.int/icd/release/11/2024-01/mms/1455306380"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1363253283/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1173205716",
+        "http://id.who.int/icd/release/11/2024-01/mms/1328725971"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Subarachnoid haemorrhage"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Acute neurological dysfunction caused by subarachnoid haemorrhage."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "sequelae of subarachnoid haemorrhage"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/645272194",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/645272194"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Traumatic subarachnoid haemorrhage"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/787079923",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/787079923"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/103961987"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Subarachnoid haemorrhage"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute subarachnoid haemorrhage NOS"
+      }
+    }
+  ]
+}

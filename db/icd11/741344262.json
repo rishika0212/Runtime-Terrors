@@ -1,0 +1,140 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/741344262",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1591385934"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#741344262",
+  "code": "NC33.4",
+  "source": "http://id.who.int/icd/entity/741344262",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/741344262/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/741344262/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1364152594",
+        "http://id.who.int/icd/release/11/2024-01/mms/443625892"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/741344262/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/980862652",
+        "http://id.who.int/icd/release/11/2024-01/mms/851395624",
+        "http://id.who.int/icd/release/11/2024-01/mms/73322695",
+        "http://id.who.int/icd/release/11/2024-01/mms/128104623",
+        "http://id.who.int/icd/release/11/2024-01/mms/1491356379",
+        "http://id.who.int/icd/release/11/2024-01/mms/491063206",
+        "http://id.who.int/icd/release/11/2024-01/mms/185842968",
+        "http://id.who.int/icd/release/11/2024-01/mms/2143219175",
+        "http://id.who.int/icd/release/11/2024-01/mms/558785723",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Strain or sprain of elbow"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A collective term for muscle and ligament injuries of the tissues associated with the elbow without dislocation or fracture; a joint injury in which some of the fibers of a supporting ligament are ruptured but the continuity of the ligament remains intact. A strain is an overstretching or overexertion of some part of the musculature."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Strain or sprain of elbow"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sprain or strain of elbow, radial collateral ligament"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2049637768"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sprain or strain of elbow, ulnar collateral ligament"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/801291193"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sprain or strain radiohumeral joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/801813553"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sprain or strain ulnohumeral joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1343516606"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Elbow sprain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2018024718"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "radiohumeral sprain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2018024718"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ulnohumeral sprain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2018024718"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Elbow strain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1185857350"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "radiohumeral strain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1185857350"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ulnohumeral strain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1185857350"
+    }
+  ]
+}

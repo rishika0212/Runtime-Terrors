@@ -1,0 +1,76 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/479438201",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1884626736"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#479438201",
+  "code": "9B65.2",
+  "source": "http://id.who.int/icd/entity/479438201",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Toxoplasma chorioretinitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1924036099",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/836709998"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculous chorioretinitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1195154042",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1074723013"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Late congenital syphilitic chorioretinitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/260060998",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1665042685"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/479438201/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Chorioretinal inflammation"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chorioretinal inflammation"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chorioretinitis NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chorioretinal inflammation in infectious and parasitic diseases classified elsewhere"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1715788141"
+    }
+  ]
+}

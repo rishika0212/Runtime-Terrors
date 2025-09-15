@@ -1,0 +1,145 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/855105308",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1584533435"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#855105308",
+  "code": "FB53.0",
+  "source": "http://id.who.int/icd/entity/855105308",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/855105308/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/855105308/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/719727487",
+        "http://id.who.int/icd/release/11/2024-01/mms/1020159779"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/855105308/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1569734721"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Adhesive capsulitis of shoulder"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is a condition characterised by spontaneous onset of shoulder pain accompanied by progressive loss of active and passive ranges of motion."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "This is a disorder in which the shoulder capsule, the connective tissue surrounding the glenohumeral joint of the shoulder, becomes inflamed and stiff, greatly restricting motion and causing chronic pain. It is usually self-limiting but often has a prolonged course over two to three years."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Frozen shoulder"
+      }
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Adhesive capsulitis of shoulder"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Frozen shoulder"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pericapsulitis of shoulder"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "duplay bursitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "adhesive shoulder peritendinitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "subscapular adhesion"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "shoulder adhesion"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "adhesive enthesopathy of shoulder region"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "adhesive peritendinitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "adhesive shoulder tenosynovitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Duplay periarthritis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "adhesive shoulder tendinitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Periarthritis of shoulder"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/521054651"
+    }
+  ]
+}

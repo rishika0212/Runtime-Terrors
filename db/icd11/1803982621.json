@@ -1,0 +1,105 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1803982621",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1574420820"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1803982621",
+  "code": "EK90.0",
+  "source": "http://id.who.int/icd/entity/1803982621",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1803982621/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/223243926",
+        "http://id.who.int/icd/release/11/2024-01/mms/947150833",
+        "http://id.who.int/icd/release/11/2024-01/mms/1810600222"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1803982621/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/630328761",
+        "http://id.who.int/icd/release/11/2024-01/mms/1707521326",
+        "http://id.who.int/icd/release/11/2024-01/mms/2137289572"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Actinic keratosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Actinic keratoses (AKs) are focal areas of abnormal keratinocyte proliferation and differentiation induced by chronic exposure to ultraviolet radiation. They are very common on sun-exposed skin of fair-skinned individuals who have had excessive exposure to sunlight. Initially flat scaly papules, they may become significantly elevated from the skin surface by producing dense adherent keratin or as a result of unregulated cellular proliferation which may progress to frank carcinoma in situ or invasive squamous cell carcinoma."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Solar keratosis"
+      }
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Actinic keratosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Solar keratosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "AK - [actinic keratosis]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "SK - [solar keratosis]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hypertrophic actinic keratosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1728103643"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hypertrophic solar keratosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1728103643"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hyperkeratotic actinic keratosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1837982647"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hyperkeratotic solar keratosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1837982647"
+    }
+  ]
+}

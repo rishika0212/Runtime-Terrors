@@ -1,0 +1,52 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1851979900",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2004408087"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1988278118",
+    "http://id.who.int/icd/release/11/2024-01/mms/953235173",
+    "http://id.who.int/icd/release/11/2024-01/mms/1509021958",
+    "http://id.who.int/icd/release/11/2024-01/mms/108967698",
+    "http://id.who.int/icd/release/11/2024-01/mms/1262462321",
+    "http://id.who.int/icd/release/11/2024-01/mms/1851979900/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1851979900/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1851979900",
+  "code": "LA8B",
+  "source": "http://id.who.int/icd/entity/1851979900",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1851979900/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Congenital anomaly of great arteries including arterial duct"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A congenital cardiovascular malformation of the great arteries (aorta, pulmonary trunk [main pulmonary artery], branch pulmonary arteries) or the arterial duct (ductus arteriosus)."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Common arterial trunk"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1832500366",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1832500366"
+    }
+  ]
+}

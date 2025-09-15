@@ -1,0 +1,47 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/72474955",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1762461746"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1410128892",
+    "http://id.who.int/icd/release/11/2024-01/mms/1676860885",
+    "http://id.who.int/icd/release/11/2024-01/mms/1191315143",
+    "http://id.who.int/icd/release/11/2024-01/mms/1930060978",
+    "http://id.who.int/icd/release/11/2024-01/mms/1557840180",
+    "http://id.who.int/icd/release/11/2024-01/mms/778191161",
+    "http://id.who.int/icd/release/11/2024-01/mms/72474955/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/72474955/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#72474955",
+  "code": "3B62",
+  "source": "http://id.who.int/icd/entity/72474955",
+  "classKind": "category",
+  "title": {
+    "@language": "en",
+    "@value": "Qualitative platelet defects"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease caused by determinants arising after birth, during the antenatal period or genetically inherited factors. This disease is characterised by abnormalities in coagulation of the blood due to defective platelets. This condition may present with easy bruising, prolonged bleeding or bleeding gums. Confirmation is by identification of decreased platelets in a blood sample."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Thrombocytopathy"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Von Willebrand disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2112021600",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2112021600"
+    }
+  ]
+}

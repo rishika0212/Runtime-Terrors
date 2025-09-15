@@ -1,0 +1,76 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/145623962",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/956813047"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#145623962",
+  "code": "BB70.0",
+  "source": "http://id.who.int/icd/entity/145623962",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/145623962/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2136808878",
+        "http://id.who.int/icd/release/11/2024-01/mms/437702716",
+        "http://id.who.int/icd/release/11/2024-01/mms/1754821737",
+        "http://id.who.int/icd/release/11/2024-01/mms/1594578199",
+        "http://id.who.int/icd/release/11/2024-01/mms/1992125824",
+        "http://id.who.int/icd/release/11/2024-01/mms/1458683894/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/1458683894/unspecified"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/145623962/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/562478860",
+        "http://id.who.int/icd/release/11/2024-01/mms/1663264387",
+        "http://id.who.int/icd/release/11/2024-01/mms/1201187093"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Rheumatic aortic valve stenosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Aortic stenosis caused by scarring of the aortic valve due to rheumatic fever as a child or young adult. In aortic stenosis, the aortic valve does not open fully. This decreases blood flow from the heart."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1380872553"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Rheumatic aortic valve stenosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "rheumatic aortic obstruction"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Rheumatic aortic valve obstruction"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "rheumatic aortic stricture"
+      }
+    }
+  ]
+}

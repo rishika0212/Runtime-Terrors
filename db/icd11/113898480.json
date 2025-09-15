@@ -1,0 +1,54 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/113898480",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1157134196"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#113898480",
+  "code": "4A41.11",
+  "source": "http://id.who.int/icd/entity/113898480",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/113898480/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/390684604"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/113898480/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/879154182",
+        "http://id.who.int/icd/release/11/2024-01/mms/944754984",
+        "http://id.who.int/icd/release/11/2024-01/mms/2009008947",
+        "http://id.who.int/icd/release/11/2024-01/mms/531713107",
+        "http://id.who.int/icd/release/11/2024-01/mms/1167133946",
+        "http://id.who.int/icd/release/11/2024-01/mms/1158485193",
+        "http://id.who.int/icd/release/11/2024-01/mms/1844086508",
+        "http://id.who.int/icd/release/11/2024-01/mms/264268169"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Paraneoplastic polymyositis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Paraneoplastic is a rare cancer associated entity. It presents sub-, or acutely with proximal weakness, often including the neck flexors, dysphagia, rarely the respiratory muscles and the heart are involved. Sometimes muscle pain or myalgia occur. Myopathology shows a targeted, cell-mediated lymphocyte toxicity against muscle fibres in focal areas of inflammation within perimysial connective tissue and surrounding blood vessels. Muscle fibres may be destroyed by cytotoxic T cells.\nNon-Hodgkin’s lymphoma, lung, and bladder carcinoma are the most frequently observed associated cancer types."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paraneoplastic polymyositis"
+      }
+    }
+  ]
+}

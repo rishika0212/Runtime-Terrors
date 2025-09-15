@@ -1,0 +1,45 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1902649856",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/973282267"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/739441486",
+    "http://id.who.int/icd/release/11/2024-01/mms/1230583516",
+    "http://id.who.int/icd/release/11/2024-01/mms/1902649856/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1902649856/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1902649856",
+  "code": "JB20",
+  "source": "http://id.who.int/icd/entity/1902649856",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1902649856/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2099609539",
+        "http://id.who.int/icd/release/11/2024-01/mms/409907799"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Single spontaneous delivery"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition caused by the development of a fetus to the culmination of the pregnancy period. This condition is characterised by spontaneous parturition of a neonate from the uterus."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "delivery in a completely normal case"
+      }
+    }
+  ]
+}

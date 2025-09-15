@@ -1,0 +1,41 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1981248479",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/224336967"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/161015452",
+    "http://id.who.int/icd/release/11/2024-01/mms/836005435",
+    "http://id.who.int/icd/release/11/2024-01/mms/874359291",
+    "http://id.who.int/icd/release/11/2024-01/mms/1981248479/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1981248479/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1981248479",
+  "code": "3A71",
+  "source": "http://id.who.int/icd/entity/1981248479",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1981248479/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1443317238",
+        "http://id.who.int/icd/release/11/2024-01/mms/576319925"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Anaemia due to chronic disease"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease caused by chronic diseases such as chronic infection. This disease is characterised by inflammatory responses targeted at red blood cells leading to low levels of red blood cells in the body. This disease may present with pallor, fatigue, or shortness of breath. Confirmation is by identification of low levels of red blood cells in a blood sample."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1148519290"
+  ]
+}

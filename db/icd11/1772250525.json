@@ -1,0 +1,56 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1772250525",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1453089907"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1772250525",
+  "code": "ND51.3",
+  "source": "http://id.who.int/icd/entity/1772250525",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1772250525/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482",
+        "http://id.who.int/icd/release/11/2024-01/mms/755612283"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Injury of unspecified muscle, fascia or tendon of trunk"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury of unspecified muscle, fascia or tendon of trunk"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury of muscle of trunk"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2100282900"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sequelae of muscle injury of trunk"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1138262864"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "late effect of muscle injury of trunk"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1138262864"
+    }
+  ]
+}

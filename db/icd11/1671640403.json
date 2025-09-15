@@ -1,0 +1,57 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1671640403",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/875488052"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1842725899",
+    "http://id.who.int/icd/release/11/2024-01/mms/1671640403/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1671640403/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1671640403",
+  "code": "1F51.0",
+  "source": "http://id.who.int/icd/entity/1671640403",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1671640403/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1269730048",
+        "http://id.who.int/icd/release/11/2024-01/mms/181304776"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Gambiense trypanosomiasis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease caused by an infection with the protozoan parasite Trypanosoma brucei gambiense. This disease is characterised by fever, headache, muscle and joint aches, or malaise. This disease may also present with lymphadenopathy, weight loss, or neurological deficits. Transmission is through the bite of an infected tsetse fly. Confirmation is by identification of Trypanosoma brucei gambiense in a biopsy of the lymph node."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "West African or Gambian African trypanosomiasis, is a disease caused by the flagellate protozoan Trypanosoma brucei gambiense, which is transmitted to human hosts by bites of infected tsetse flies Glossina palpalis. The reservoirs of infection for these vectors are exclusively human in West African trypanosomiasis."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "West African sleeping sickness"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infection due to Trypanosoma brucei gambiense"
+      }
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1945127438"
+  ]
+}

@@ -1,0 +1,301 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1212937040",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1842783299"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1212937040",
+  "code": "ND56.0",
+  "source": "http://id.who.int/icd/entity/1212937040",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Haematoma of surgical wound of skin"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1953940269",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1953940269"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Superficial incisional site infection"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/75951638",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/75951638"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1212937040/postcoordinationScale/typeOfInjury",
+      "axisName": "http://id.who.int/icd/schema/typeOfInjury",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/377475788",
+        "http://id.who.int/icd/release/11/2024-01/mms/1306914119",
+        "http://id.who.int/icd/release/11/2024-01/mms/2040998541",
+        "http://id.who.int/icd/release/11/2024-01/mms/1442982067",
+        "http://id.who.int/icd/release/11/2024-01/mms/1704055292",
+        "http://id.who.int/icd/release/11/2024-01/mms/2010469183",
+        "http://id.who.int/icd/release/11/2024-01/mms/1124176890"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1212937040/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/980862652",
+        "http://id.who.int/icd/release/11/2024-01/mms/851395624",
+        "http://id.who.int/icd/release/11/2024-01/mms/73322695",
+        "http://id.who.int/icd/release/11/2024-01/mms/128104623",
+        "http://id.who.int/icd/release/11/2024-01/mms/1491356379",
+        "http://id.who.int/icd/release/11/2024-01/mms/491063206",
+        "http://id.who.int/icd/release/11/2024-01/mms/185842968",
+        "http://id.who.int/icd/release/11/2024-01/mms/2143219175",
+        "http://id.who.int/icd/release/11/2024-01/mms/558785723",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Superficial injury of unspecified body region"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "multiple superficial injuries NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1028665137",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1028665137"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Superficial injury of unspecified body region"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "superficial injury of limb NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Superficial injury NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "scratch NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cutaneous wounds, injuries or scars"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1271663754"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bruise or contusion of skin"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1707892594"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ecchymosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1707892594"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Contusion of skin or soft tissue"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1707892594"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bruise of skin or soft tissue"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1707892594"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Contusion of unspecified body region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1707892594"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Traumatic ulceration of skin"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1089239977"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Intradermal haematoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1532204857"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Subcutaneous haematoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1767523134"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Crush injury of skin"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1941177628"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bite injury of skin"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2004835031"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Skin injury due to bite by mammal"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2070111524"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nonvenomous insect bite of unspecified body region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/393761205"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Overgranulating wound of skin"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/783152715"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hypergranulating wound of skin"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/783152715"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Abrasion of unspecified body region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1284072502"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cutaneous abrasion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1284072502"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nonthermal blister of unspecified body region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1121083242"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Superficial foreign body in unspecified body region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/378154823"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "injury from superficial foreign body without major open wound NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/378154823"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Splinter in unspecified body region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1126179226"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "injury from splinter without major open wound NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1126179226"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Contusion of extremities NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1944165699"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Haematoma of unspecified body region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/825966241"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "skin haematoma NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/825966241"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bone haematoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/506020307"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Contusion of unspecified site"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1218582081"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "contusion NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1218582081"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/208945925",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1581366987"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#208945925",
+  "code": "CA81.1",
+  "source": "http://id.who.int/icd/entity/208945925",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/208945925/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/208945925/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/678821627",
+        "http://id.who.int/icd/release/11/2024-01/mms/131278066",
+        "http://id.who.int/icd/release/11/2024-01/mms/1583926619"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Pulmonary oedema due to chemicals, gases, fumes or vapours"
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/923122941"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pulmonary oedema due to chemicals, gases, fumes or vapours"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chemical lung oedema"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chemical pulmonary oedema"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chemical-induced pulmonary oedema"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute chemical pulmonary oedema"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1609304654"
+    }
+  ]
+}

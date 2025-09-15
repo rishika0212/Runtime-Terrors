@@ -1,0 +1,149 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1221996518",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1267652425"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1221996518",
+  "code": "DD70.1",
+  "source": "http://id.who.int/icd/entity/1221996518",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1221996518/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/18598211",
+        "http://id.who.int/icd/release/11/2024-01/mms/1708923236"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1221996518/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731",
+        "http://id.who.int/icd/release/11/2024-01/mms/1507624466",
+        "http://id.who.int/icd/release/11/2024-01/mms/1290701352"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Crohn disease of small intestine"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Crohn disease, which is characterised by chronic and relapsing transmural inflammation, may affect any part of the digestive tract. This refers to Crohn disease involving the small intestine."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Crohn disease of both small and large intestine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/395324298",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/395324298"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Crohn disease of small intestine"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "regional enteritis of small intestine"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Crohn disease of ileum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1699481566"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "regional enteritis of ileum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1699481566"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Crohn's ileitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1699481566"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "regional ileitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1699481566"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Terminal ileitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1699481566"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "regional ileitis of small intestine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1699481566"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "segmental ileitis of small intestine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1699481566"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Crohn disease of jejunum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/946049319"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "regional enteritis of jejunum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/946049319"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Crohn disease of both jejunum and ileum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1720938655"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Crohn disease of small intestine with abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2140439167"
+    }
+  ]
+}

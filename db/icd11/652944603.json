@@ -1,0 +1,54 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/652944603",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1251496839"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#652944603",
+  "code": "1D65",
+  "source": "http://id.who.int/icd/entity/652944603",
+  "classKind": "category",
+  "title": {
+    "@language": "en",
+    "@value": "Severe acute respiratory syndrome"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease of the respiratory system, caused by an infection with coronavirus. This disease is characterised by fever, headache, cough, myalgia, tachycardia, or diarrhoea. This disease may also lead to pneumonia. Transmission is by direct contact, inhalation of infected respiratory secretions, or airborne transmission. Confirmation is by identification of coronavirus in a blood, stool, respiratory secretions, or body tissue sample."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "COVID-19, virus identified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1790791774",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1790791774"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "COVID-19, virus not identified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/563410356",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/563410356"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/911707612"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Severe acute respiratory syndrome"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "SARS - [severe acute respiratory syndrome]"
+      }
+    }
+  ]
+}

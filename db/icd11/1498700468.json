@@ -1,0 +1,78 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1498700468",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2073711696"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1498700468",
+  "code": "8A60.9",
+  "source": "http://id.who.int/icd/entity/1498700468",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1498700468/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/539646260"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1498700468/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/458634958",
+        "http://id.who.int/icd/release/11/2024-01/mms/1520916568",
+        "http://id.who.int/icd/release/11/2024-01/mms/2036217905",
+        "http://id.who.int/icd/release/11/2024-01/mms/1987349422",
+        "http://id.who.int/icd/release/11/2024-01/mms/1878746673",
+        "http://id.who.int/icd/release/11/2024-01/mms/327560976",
+        "http://id.who.int/icd/release/11/2024-01/mms/1642909021",
+        "http://id.who.int/icd/release/11/2024-01/mms/725439990",
+        "http://id.who.int/icd/release/11/2024-01/mms/215057274/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/215057274/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Epilepsy due to abnormalities of brain development"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Epilepsy due to disorders of cortical development encompassing a wide range of etiologies, with effects that depend on the stage of brain development. Seizure types usually reflect the topology of the malformation."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Clinical presentations are heterogeneous and can manifest at almost any age. The severity of seizures is highly variable and there are no specific features associated, although developmental delay, focal neurological deficits, family history of developmental delay or epilepsy may be reported. Included are malformations due to abnormal neuronal and glial proliferation or apoptosis, malformations due to abnormal neuronal migration, malformations due to abnormal cortical organization, and malformations of cortical development not otherwise classified."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/564191997"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/2083324835"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Epilepsy due to abnormalities of brain development"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Epilepsy due to cortical dysplasia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "epilepsy due to neuronal migration disorders"
+      }
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/461464819",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1319316338"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2012597232",
+    "http://id.who.int/icd/release/11/2024-01/mms/453579098",
+    "http://id.who.int/icd/release/11/2024-01/mms/314443386",
+    "http://id.who.int/icd/release/11/2024-01/mms/1712543365",
+    "http://id.who.int/icd/release/11/2024-01/mms/56138513",
+    "http://id.who.int/icd/release/11/2024-01/mms/1632671214",
+    "http://id.who.int/icd/release/11/2024-01/mms/1739855514",
+    "http://id.who.int/icd/release/11/2024-01/mms/1100496282",
+    "http://id.who.int/icd/release/11/2024-01/mms/659559143",
+    "http://id.who.int/icd/release/11/2024-01/mms/461464819/other"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#461464819",
+  "code": "QA02",
+  "source": "http://id.who.int/icd/entity/461464819",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/461464819/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/243015485"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/461464819/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/425996485",
+        "http://id.who.int/icd/release/11/2024-01/mms/1061373903"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Medical observation or evaluation for suspected diseases or conditions, ruled out"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Persons without signs or symptoms or a diagnosis when suspected of having an abnormal condition which requires study, but who, after examination and observation, show no need for further treatment or medical care because suspected condition has been ruled out."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Person with feared complaint in whom no diagnosis is made"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2139588434",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2139588434"
+    }
+  ],
+  "codingNote": {
+    "@language": "en",
+    "@value": "Includes persons who present some symptoms or evidence of an abnormal condition which requires study, but who, after examination and observation, show no need for further treatment or medical care"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Medical observation or evaluation for suspected diseases or conditions, ruled out"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "under observation"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ruled out condition"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "observation for disease"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "evaluation for suspected condition"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "no disease found"
+      }
+    }
+  ]
+}

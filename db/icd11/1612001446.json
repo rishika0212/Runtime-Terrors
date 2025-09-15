@@ -1,0 +1,54 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1612001446",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1953986082"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1612001446",
+  "code": "2A83.52",
+  "source": "http://id.who.int/icd/entity/1612001446",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1612001446/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Light chain deposition disease"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease of the kidney, caused by the deposition of pieces of truncated or abnormal light chain segments of white blood cells. This disease is characterised by fibrillar or granular tissue deposits and renal dysfunction, which may lead to organ failure. Confirmation is by identification of light chain deposition tissue biopsy under an electron microscope."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Immunodeficiencies with isotype or light chain deficiencies with normal number of B cells"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/14210665",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/14210665"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Light chain deposition disease"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "systemic light chain disease"
+      }
+    }
+  ]
+}

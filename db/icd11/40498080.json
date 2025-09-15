@@ -1,0 +1,76 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/40498080",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1162198017"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#40498080",
+  "code": "PL11.5",
+  "source": "http://id.who.int/icd/entity/40498080",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/40498080/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1318533336",
+        "http://id.who.int/icd/release/11/2024-01/mms/13549609",
+        "http://id.who.int/icd/release/11/2024-01/mms/460401849/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/460401849/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Procedure undertaken at wrong site or wrong side, as mode of injury or harm"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Patient received diagnostic test or treatment intended for another patient"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1756963641",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1756963641"
+    }
+  ],
+  "codingNote": {
+    "@language": "en",
+    "@value": "Code first the injury or harm associated with the procedure or intervention. Code also the cause of harm which identifies the procedure or intervention."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Procedure undertaken at wrong site or wrong side, as mode of injury or harm"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "operation performed on incorrect site"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "surgery undergone on incorrect body part"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "wrong surgery"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Performance of inappropriate operation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/26338024"
+    }
+  ]
+}

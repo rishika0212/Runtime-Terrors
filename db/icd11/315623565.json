@@ -1,0 +1,71 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/315623565",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1999801446"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#315623565",
+  "code": "DB34.1",
+  "source": "http://id.who.int/icd/entity/315623565",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/315623565/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/326645548",
+        "http://id.who.int/icd/release/11/2024-01/mms/1777850685",
+        "http://id.who.int/icd/release/11/2024-01/mms/328294343",
+        "http://id.who.int/icd/release/11/2024-01/mms/2128592381",
+        "http://id.who.int/icd/release/11/2024-01/mms/204400509",
+        "http://id.who.int/icd/release/11/2024-01/mms/453411773",
+        "http://id.who.int/icd/release/11/2024-01/mms/894847549",
+        "http://id.who.int/icd/release/11/2024-01/mms/720455085",
+        "http://id.who.int/icd/release/11/2024-01/mms/771220582",
+        "http://id.who.int/icd/release/11/2024-01/mms/1211030054",
+        "http://id.who.int/icd/release/11/2024-01/mms/1594277606",
+        "http://id.who.int/icd/release/11/2024-01/mms/1212282357"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/315623565/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Arteriovenous malformation of large intestine"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Vascular malformations of large intestine that result from a localised maldevelopment of part of the primitive vascular plexus and consist of abnormal arteriovenous communications without intervening capillaries. They vary in size, ranging from massive lesions that are fed by multiple vessels to lesions so small that they are hard to identify at arteriography, surgery, or autopsy, but relatively larger than angiodysplasia."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Arteriovenous malformation of large intestine"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dieulafoy vascular malformation of large intestine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/837086643"
+    }
+  ]
+}

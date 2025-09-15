@@ -1,0 +1,63 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/609223181",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1954798891"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1843843106",
+    "http://id.who.int/icd/release/11/2024-01/mms/1709907983",
+    "http://id.who.int/icd/release/11/2024-01/mms/609223181/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/609223181/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#609223181",
+  "code": "4A20",
+  "source": "http://id.who.int/icd/entity/609223181",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Human immunodeficiency virus disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1000704511",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1000704511"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired neutropaenia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/348671706",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/348671706"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/609223181/postcoordinationScale/timeInLife",
+      "axisName": "http://id.who.int/icd/schema/timeInLife",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/714822826",
+        "http://id.who.int/icd/release/11/2024-01/mms/230631349",
+        "http://id.who.int/icd/release/11/2024-01/mms/955790",
+        "http://id.who.int/icd/release/11/2024-01/mms/890125345",
+        "http://id.who.int/icd/release/11/2024-01/mms/1352518340",
+        "http://id.who.int/icd/release/11/2024-01/mms/914150644",
+        "http://id.who.int/icd/release/11/2024-01/mms/1588782340",
+        "http://id.who.int/icd/release/11/2024-01/mms/1043777387",
+        "http://id.who.int/icd/release/11/2024-01/mms/1088785230",
+        "http://id.who.int/icd/release/11/2024-01/mms/275453639",
+        "http://id.who.int/icd/release/11/2024-01/mms/184470439",
+        "http://id.who.int/icd/release/11/2024-01/mms/963352150",
+        "http://id.who.int/icd/release/11/2024-01/mms/1733780743",
+        "http://id.who.int/icd/release/11/2024-01/mms/1276541597"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acquired immunodeficiencies"
+  }
+}

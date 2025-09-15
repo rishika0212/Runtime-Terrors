@@ -1,0 +1,65 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/322893724",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/427802439"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#322893724",
+  "code": "9A24.0",
+  "source": "http://id.who.int/icd/entity/322893724",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/322893724/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Contraction of orbit"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Contraction of orbit"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital contraction"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/557261723"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Post trauma contraction"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/142678798"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Post radiation contraction"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1058159220"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Post surgery contraction"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/496101399"
+    }
+  ]
+}

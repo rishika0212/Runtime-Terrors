@@ -1,0 +1,97 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1351671383",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1718833206"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1351671383",
+  "code": "2C27.0",
+  "source": "http://id.who.int/icd/entity/1351671383",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1351671383/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1351671383/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1409966790",
+        "http://id.who.int/icd/release/11/2024-01/mms/896293199",
+        "http://id.who.int/icd/release/11/2024-01/mms/1094217460",
+        "http://id.who.int/icd/release/11/2024-01/mms/238069351"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1351671383/postcoordinationScale/hasAlternativeSeverity2",
+      "axisName": "http://id.who.int/icd/schema/hasAlternativeSeverity2",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1863636238",
+        "http://id.who.int/icd/release/11/2024-01/mms/885826145",
+        "http://id.who.int/icd/release/11/2024-01/mms/1746207012",
+        "http://id.who.int/icd/release/11/2024-01/mms/303697349"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Carcinoma of thymus"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A diverse group of carcinomas of the thymus gland, previously known as thymoma type C. It includes morphologic variants derived from purely epithelial cells, as well as from cells with neuroendocrine differentiation."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Carcinoma of thymus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Adenocarcinoma of thymus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1583991874"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Adenosquamous carcinoma of thymus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1063583175"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant Type C Thymoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/447324165"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mucoepidermoid carcinoma of thymus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1349566464"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Squamous cell carcinoma of thymus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/451668197"
+    }
+  ]
+}

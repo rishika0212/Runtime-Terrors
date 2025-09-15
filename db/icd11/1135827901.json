@@ -1,0 +1,61 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1135827901",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1660422480"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1135827901",
+  "code": "NE85.1",
+  "source": "http://id.who.int/icd/entity/1135827901",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1135827901/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1135827901/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1318533336"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Complications of reattached lower extremity"
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/59436623"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Complications of reattached lower extremity"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "complications of lower limb reimplant"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "complication of reattached part of lower extremity"
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1595026136",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1195691020"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/200296155",
+    "http://id.who.int/icd/release/11/2024-01/mms/1434125131",
+    "http://id.who.int/icd/release/11/2024-01/mms/291874007",
+    "http://id.who.int/icd/release/11/2024-01/mms/1479046314",
+    "http://id.who.int/icd/release/11/2024-01/mms/2126817470",
+    "http://id.who.int/icd/release/11/2024-01/mms/997674795",
+    "http://id.who.int/icd/release/11/2024-01/mms/590662611",
+    "http://id.who.int/icd/release/11/2024-01/mms/1595026136/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1595026136/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1595026136",
+  "code": "DA51",
+  "source": "http://id.who.int/icd/entity/1595026136",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1595026136/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731",
+        "http://id.who.int/icd/release/11/2024-01/mms/1290701352"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1595026136/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Duodenitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Duodenitis is an injury of duodenal mucosa that involves epithelial damage and mucosal inflammation except for any epithelial defect. Duodenitis is caused by various factors such as high acid secretion, infectious agents, drugs, chemical agents and others. Gastric metaplasia (GM) is considered adaptive responses to hyperacidity. Helicobacter pylori can be colonized on GM epithelium, and induce duodenitis. Duodenitis is diagnosed histopathologically and/or endoscopically. Duodenitis is classified as acute and chronic phase by clinical course."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Inflammation of duodenum"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Crohn disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1267652425",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1267652425"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ]
+}

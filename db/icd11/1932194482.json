@@ -1,0 +1,55 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1932194482",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/73410310"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1018961839",
+    "http://id.who.int/icd/release/11/2024-01/mms/1571892778",
+    "http://id.who.int/icd/release/11/2024-01/mms/577762725",
+    "http://id.who.int/icd/release/11/2024-01/mms/849701907",
+    "http://id.who.int/icd/release/11/2024-01/mms/1932194482/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1932194482",
+  "code": "HA20",
+  "source": "http://id.who.int/icd/entity/1932194482",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1932194482/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1099536224"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Sexual pain-penetration disorder"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Sexual pain-penetration disorder is characterised by at least one of the following: 1) marked and persistent or recurrent difficulties with penetration, including due to involuntary tightening or tautness of the pelvic floor muscles during attempted penetration; 2) marked and persistent or recurrent vulvovaginal or pelvic pain during penetration; 3) marked and persistent or recurrent fear or anxiety about vulvovaginal or pelvic pain in anticipation of, during, or as a result of penetration. The symptoms are recurrent during sexual interactions involving or potentially involving penetration, despite adequate sexual desire and stimulation, are not entirely attributable to a medical condition that adversely affects the pelvic area and results in genital and/or penetrative pain or to a mental disorder, are not entirely attributable to insufficient vaginal lubrication or post-menopausal/age-related changes, and are associated with clinically significant distress."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dyspareunia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/126329423",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/126329423"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pain related to vulva, vagina or pelvic floor"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/799568625",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/799568625"
+    }
+  ]
+}

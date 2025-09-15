@@ -1,0 +1,92 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/947415655",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2142880493"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#947415655",
+  "code": "QC47",
+  "source": "http://id.who.int/icd/entity/947415655",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/947415655/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1296093776",
+        "http://id.who.int/icd/release/11/2024-01/mms/868865918",
+        "http://id.who.int/icd/release/11/2024-01/mms/1218729044"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Personal history of diseases of the nervous system or sense organs"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Personal history of allergy or hypersensitivity involving the eye and adnexa"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1568245528",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/666593019"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Personal history of diseases of the nervous system or sense organs"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "history of disease or disorder of nervous system"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "history of disease or disorder of sense organs"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "personal history of diseases of the nervous system"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Personal history of diseases of the ear"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/335636298"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "history of disease or disorder of ear"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/335636298"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Personal history of diseases of the mastoid process"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1445425770"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Personal history of disease or disorder of eye"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1944727466"
+    }
+  ]
+}

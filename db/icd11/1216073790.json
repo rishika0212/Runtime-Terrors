@@ -1,0 +1,54 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1216073790",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2000854880"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2011212045",
+    "http://id.who.int/icd/release/11/2024-01/mms/1216073790/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1216073790/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1216073790",
+  "code": "9B71.4",
+  "source": "http://id.who.int/icd/entity/1216073790",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1216073790/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1216073790/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/879154182",
+        "http://id.who.int/icd/release/11/2024-01/mms/944754984",
+        "http://id.who.int/icd/release/11/2024-01/mms/2009008947",
+        "http://id.who.int/icd/release/11/2024-01/mms/531713107",
+        "http://id.who.int/icd/release/11/2024-01/mms/1167133946",
+        "http://id.who.int/icd/release/11/2024-01/mms/1158485193",
+        "http://id.who.int/icd/release/11/2024-01/mms/1844086508",
+        "http://id.who.int/icd/release/11/2024-01/mms/264268169"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Paraneoplastic retinopathy"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Paraneoplastic retinopathies result from a targeted attack on the retina due to a tumour immune response initiated by onco-neural antigens derived from systemic cancer. Patients usually present after cancer diagnosis with progressive visual dimming and photopsias but dysfunction of rods (impaired dark adaption and peripheral vision loss) and cones (decreased visual acuity, colour dysfunction, photosensitivity and glare) may also occur. Symptoms are often worse than clinical signs. Other causes of retinopathy should be excluded. Multiple anti-retinal autoantibodies (e.g. anti-recoverin antibodies) are described although their significance is uncertain. Two major subsets are recognised: cancer-associated retinopathy (most commonly small-cell lung cancer) and melanoma-associated retinopathy.\n\nAssociated neural autoantibodies include:\n\nCRMP5 (anti-CV2) (collapsin response mediator protein 5 - anti CV2); anti-recoverin autoantibodies; and alpha-enolase autoantibodies."
+  }
+}

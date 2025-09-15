@@ -1,0 +1,65 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/482362019",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/427802439"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#482362019",
+  "code": "9A24.2",
+  "source": "http://id.who.int/icd/entity/482362019",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/482362019/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Distortion of orbit"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Distortion of orbit"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital distortion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/394729300"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Post trauma distortion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/889505073"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Post radiation distortion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/43508815"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Post surgery distortion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/723639512"
+    }
+  ]
+}

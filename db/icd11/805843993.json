@@ -1,0 +1,46 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/805843993",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1781019902"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/461988286",
+    "http://id.who.int/icd/release/11/2024-01/mms/2126687276",
+    "http://id.who.int/icd/release/11/2024-01/mms/805843993/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#805843993",
+  "code": "JB61",
+  "source": "http://id.who.int/icd/entity/805843993",
+  "classKind": "category",
+  "title": {
+    "@language": "en",
+    "@value": "Death from any obstetric cause occurring more than 42 days but less than one year after delivery"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition characterised by maternal death between 43 days and one year following delivery. This death is caused by any physiological, obstetrical, or other changes or is provoked by interventions used during pregnancy, childbirth, or puerperium."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sequelae of complication of pregnancy, childbirth or the puerperium"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/569289074",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/569289074"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Death from sequelae of obstetric causes"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1430518157",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1430518157"
+    }
+  ],
+  "codingNote": {
+    "@language": "en",
+    "@value": "This category is to be used to indicate death from any obstetric cause (conditions in categories JA00-JB0Z; JB40-JB4Z and JB63-JB6Z), and occurring more than 42 days but less than one year after delivery."
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/683064686",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1173205716"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#683064686",
+  "code": "8B26.0",
+  "source": "http://id.who.int/icd/entity/683064686",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/683064686/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/282738158"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/683064686/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1297540670"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/683064686/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/873092535",
+        "http://id.who.int/icd/release/11/2024-01/mms/1363253283",
+        "http://id.who.int/icd/release/11/2024-01/mms/636274910",
+        "http://id.who.int/icd/release/11/2024-01/mms/1442995018",
+        "http://id.who.int/icd/release/11/2024-01/mms/581897143"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Brainstem stroke syndrome"
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/564191997"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Brainstem stroke syndrome"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Millard-Gubler syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2043714062"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Weber Gubler syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2043714062"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Weber Leyden syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2043714062"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pons stroke"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/844461054"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pontine stroke"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/844461054"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Lateral medullary syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1606151456"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Wallenberg syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1606151456"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "medullary stroke"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1606151456"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mesencephalon stroke"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/196572008"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Medulla oblongata stroke"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1892957913"
+    }
+  ]
+}

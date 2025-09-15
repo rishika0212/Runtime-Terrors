@@ -1,0 +1,79 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1984620329",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/266977088"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/942670067",
+    "http://id.who.int/icd/release/11/2024-01/mms/443957299",
+    "http://id.who.int/icd/release/11/2024-01/mms/435131151",
+    "http://id.who.int/icd/release/11/2024-01/mms/256560399",
+    "http://id.who.int/icd/release/11/2024-01/mms/1984620329/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1984620329/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1984620329",
+  "code": "FB50",
+  "source": "http://id.who.int/icd/entity/1984620329",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1984620329/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1984620329/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1810600222"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1984620329/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/390684604",
+        "http://id.who.int/icd/release/11/2024-01/mms/1569734721"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1984620329/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/576319925"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Bursitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is a disorder of inflammation of one or more bursae (small sacs) of synovial fluid in the body which usually results in pain."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tibial collateral bursitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/875805775",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/875805775"
+    }
+  ]
+}

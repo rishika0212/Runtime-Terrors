@@ -1,0 +1,82 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1691530288",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1489212950"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1878077456",
+    "http://id.who.int/icd/release/11/2024-01/mms/1469883473",
+    "http://id.who.int/icd/release/11/2024-01/mms/1964996150",
+    "http://id.who.int/icd/release/11/2024-01/mms/1116493644",
+    "http://id.who.int/icd/release/11/2024-01/mms/1798991837",
+    "http://id.who.int/icd/release/11/2024-01/mms/633272032",
+    "http://id.who.int/icd/release/11/2024-01/mms/1691530288/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1691530288/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1691530288",
+  "code": "NB51",
+  "source": "http://id.who.int/icd/entity/1691530288",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1691530288/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1691530288/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1399556983",
+        "http://id.who.int/icd/release/11/2024-01/mms/1678247922",
+        "http://id.who.int/icd/release/11/2024-01/mms/344632447",
+        "http://id.who.int/icd/release/11/2024-01/mms/1983193090",
+        "http://id.who.int/icd/release/11/2024-01/mms/1218764272",
+        "http://id.who.int/icd/release/11/2024-01/mms/294531567",
+        "http://id.who.int/icd/release/11/2024-01/mms/1894266247"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1691530288/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482",
+        "http://id.who.int/icd/release/11/2024-01/mms/755612283"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Open wound of abdomen, lower back or pelvis"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "open wound of hip"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/524905963",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/524905963"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "traumatic amputation of part of abdomen, lower back and pelvis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/253689716",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/253689716"
+    }
+  ]
+}

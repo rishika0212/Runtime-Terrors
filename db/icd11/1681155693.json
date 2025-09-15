@@ -1,0 +1,68 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1681155693",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/522973276"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1681155693",
+  "code": "1B71.2",
+  "source": "http://id.who.int/icd/entity/1681155693",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1681155693/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1681155693/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1839638766"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Neonatal necrotising fasciitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Neonatal necrotising fasciitis is a life-threatening acute necrotising infection of fascia, subcutaneous tissues, and overlying skin similar to the condition seen in adults. It is rare in neonates but, in contrast to the adult form, tends to affect otherwise healthy babies. It has followed omphalitis, mastitis and postoperative wound infection, though preceding sites of infection are not always found. It has more commonly been associated with Staphylococcus aureus than with streptococcal infection. Gram-negative organisms have also been implicated. It may cause extensive tissue destruction and mortality is high."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/911707612"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neonatal necrotising fasciitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neonatal staphylococcal necrotising fasciitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1403471635"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neonatal streptococcal necrotising fasciitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/773251916"
+    }
+  ]
+}

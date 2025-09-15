@@ -1,0 +1,59 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1337969629",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/453853831"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1337969629",
+  "code": "JA22.2",
+  "source": "http://id.who.int/icd/entity/1337969629",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1337969629/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2113829751",
+        "http://id.who.int/icd/release/11/2024-01/mms/930895737",
+        "http://id.who.int/icd/release/11/2024-01/mms/826220775"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Gestational oedema with proteinuria without hypertension"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "The accumulation of fluid and proteinuria due to the physiological alterations of pregnancy in the absence of hypertension"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gestational oedema with proteinuria without hypertension"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "gestational oedema with proteinuria"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pregnancy proteinuria with oedema"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Puerperal albuminuria with oedema"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1584446807"
+    }
+  ]
+}

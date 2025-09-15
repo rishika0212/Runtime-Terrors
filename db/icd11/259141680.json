@@ -1,0 +1,56 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/259141680",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1044091662"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#259141680",
+  "code": "EH76.1",
+  "source": "http://id.who.int/icd/entity/259141680",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/259141680/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1583926619",
+        "http://id.who.int/icd/release/11/2024-01/mms/1323892810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Dermatoses resulting from immunosuppressive therapy"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dermatoses resulting from immunosuppressive therapy"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Immunosuppressive therapy as contributor to skin infection classified elsewhere"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/44435802"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Immunosuppressive therapy as contributor to malignant skin neoplasm classified elsewhere"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/892676132"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Immunosuppressive therapy as contributor to dermatosis classified elsewhere"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1031529513"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1868957860",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1791890273"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1868957860",
+  "code": "CA02.0",
+  "source": "http://id.who.int/icd/entity/1868957860",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gonococcal pharyngitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1332021123",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1332021123"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1868957860/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acute pharyngitis due to other bacteria"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Rapid onset inflammation of the pharynx, (back of the throat, between the tonsils and the voicebox (larynx)) due to a specifically identified organism not classified elsewhere."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Viral infections characterised by skin or mucous membrane lesions"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1646490591",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1646490591"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/923122941"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute pharyngitis due to other bacteria"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute pneumococcal pharyngitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1474425113"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pneumococcal pharyngitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1474425113"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute staphylococcal pharyngitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/411186052"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "staphylococcal pharyngitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/411186052"
+    }
+  ]
+}

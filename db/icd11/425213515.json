@@ -1,0 +1,346 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/425213515",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/806686356"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#425213515",
+  "code": "DA06.0",
+  "source": "http://id.who.int/icd/entity/425213515",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/425213515/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/375873857",
+        "http://id.who.int/icd/release/11/2024-01/mms/573235775"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/425213515/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Inflammatory conditions of jaws"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cervicofacial actinomycosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/185601767",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/185601767"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Inflammatory conditions of jaws"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "jaw inflammation"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "osteitis of jaw"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute osteitis of jaw"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2051993115"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic osteitis of jaw"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/706508102"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Inflammation of upper jaw"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1996667600"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Suppurative osteitis of jaw"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1495761502"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pyogenic infection of jaw bone"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1001021600"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pyogenic infection of maxilla"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/913837033"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pyogenic infection of mandible"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1372079545"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoradionecrosis of jaw"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/144565066"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoradionecrosis of the mandible"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/677862301"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Abscess of hard palate"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1935891380"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hard palate abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1935891380"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Abscess of jaw"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/742715905"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "jaw abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/742715905"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "jaw bone abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/742715905"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Abscess of upper jaw"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1139264884"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute abscess of jaw"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1576574210"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Abscess of mandible"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/375197335"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Abscess of maxilla"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/37817105"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "maxillary abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/37817105"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Abscess of maxilla with mention of retromaxillary extension or extention into fossa canina"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2032289442"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Abscess of maxilla without mention of retromaxillary extension or extention into fossa canina"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/642230259"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Suppurative abscess of jaw"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/831568576"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sequestrum of jaw bone"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1192760234"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "dental sequestrum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1192760234"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Necrosis of jaw"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1641213149"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bone necrosis of jaw"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1641213149"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Septic necrosis of jaw bone"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1586771387"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteomyelitis of jaw"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/791173820"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute osteomyelitis of jaw"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1441524773"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic osteomyelitis of jaw"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/201555485"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neonatal osteomyelitis of jaw"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/860202875"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Suppurative osteomyelitis of jaw"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1699998644"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Periostitis of jaw"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/544484026"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "suppurative periostitis of jaw"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/544484026"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute periostitis of jaw"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1141865507"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic periostitis of jaw"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1713574876"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Jaw infection"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/980697601"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infection of upper jaw"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1008326521"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infection of maxilla"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/314285593"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2058944823",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/418815799"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2058944823",
+  "code": "2A85.4",
+  "source": "http://id.who.int/icd/entity/2058944823",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2058944823/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2058944823/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1863636238",
+        "http://id.who.int/icd/release/11/2024-01/mms/885826145",
+        "http://id.who.int/icd/release/11/2024-01/mms/1746207012",
+        "http://id.who.int/icd/release/11/2024-01/mms/303697349"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Lymphoplasmacytic lymphoma"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Neoplasm of small B lymphocytes and plasma cells, mostly residing in the bone marrow. Frequently associated with the production of an IgM serum monoclonal protein, then called Waldenström macroglobulinemia (WM)."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "primary macroglobulinaemia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Waldenström macroglobulinaemia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Waldenström macroglobulinaemia without mention of remission"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "small cell B-cell lymphoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1239211846",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1239211846"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic lymphocytic leukaemia or small lymphocytic lymphoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1239211846",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1239211846"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Lymphoplasmacytic lymphoma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Waldenström macroglobulinaemia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Waldenström macroglobulinaemia without mention of remission"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "idiopathic macroglobulinaemia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "primary macroglobulinaemia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Lymphoplasmacytic lymphoma in complete remission"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1986910275"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Waldenström macroglobulinaemia in complete remission"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1986910275"
+    }
+  ]
+}

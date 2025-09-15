@@ -1,0 +1,47 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1831408694",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/389818276"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1873184650",
+    "http://id.who.int/icd/release/11/2024-01/mms/1350265595",
+    "http://id.who.int/icd/release/11/2024-01/mms/1743276933",
+    "http://id.who.int/icd/release/11/2024-01/mms/1326438824",
+    "http://id.who.int/icd/release/11/2024-01/mms/2097548705",
+    "http://id.who.int/icd/release/11/2024-01/mms/1242554101",
+    "http://id.who.int/icd/release/11/2024-01/mms/1831408694/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1831408694/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1831408694",
+  "code": "NB91.0",
+  "source": "http://id.who.int/icd/entity/1831408694",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Birth injury to spleen"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2053139308",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2053139308"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1831408694/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482",
+        "http://id.who.int/icd/release/11/2024-01/mms/755612283"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Injury of spleen"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/469864646",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1267652425"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#469864646",
+  "code": "DD70.0",
+  "source": "http://id.who.int/icd/entity/469864646",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/469864646/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1337584902",
+        "http://id.who.int/icd/release/11/2024-01/mms/1515005003",
+        "http://id.who.int/icd/release/11/2024-01/mms/899820155",
+        "http://id.who.int/icd/release/11/2024-01/mms/72252748",
+        "http://id.who.int/icd/release/11/2024-01/mms/1443934016",
+        "http://id.who.int/icd/release/11/2024-01/mms/1493524587",
+        "http://id.who.int/icd/release/11/2024-01/mms/337700"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/469864646/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731",
+        "http://id.who.int/icd/release/11/2024-01/mms/1507624466",
+        "http://id.who.int/icd/release/11/2024-01/mms/1290701352"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Crohn disease of upper gastrointestinal tract"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Crohn disease involved in upper gastrointestinal tract, such as oral cavity, oesophagus, stomach and duodenum."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Crohn disease of upper gastrointestinal tract"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Crohn disease of lips or oral mucosa"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/512707891"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Crohn disease of oesophagus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/885333454"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Crohn disease of stomach"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1031678665"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Crohn disease of duodenum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/747018550"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "regional enteritis of duodenum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/747018550"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Crohn disease of oesophagus and stomach, involving overlapping sites"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/236645942"
+    }
+  ]
+}

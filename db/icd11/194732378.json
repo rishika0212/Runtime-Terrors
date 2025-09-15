@@ -1,0 +1,62 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/194732378",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2073711696"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#194732378",
+  "code": "8A60.1",
+  "source": "http://id.who.int/icd/entity/194732378",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/194732378/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/539646260"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/194732378/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1990827977",
+        "http://id.who.int/icd/release/11/2024-01/mms/1427441570",
+        "http://id.who.int/icd/release/11/2024-01/mms/1442995018"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Epilepsy due to cerebrovascular disorders"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Epilepsy occurring in relation to a stroke, with onset at least one week following an ischemic or haemorrhagic stroke."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/564191997"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/2083324835"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Epilepsy due to cerebrovascular disorders"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stroke associated epilepsy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/145521273"
+    }
+  ]
+}

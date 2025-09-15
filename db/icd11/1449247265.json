@@ -1,0 +1,63 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1449247265",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/894279751"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1449247265",
+  "code": "FA72.3",
+  "source": "http://id.who.int/icd/entity/1449247265",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1449247265/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1302669122"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1449247265/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2113001430"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Fatigue fracture of vertebra"
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stress fracture of vertebra"
+      }
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fatigue fracture of vertebra"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stress fracture of vertebra"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "fatigue fracture of vertebra, site unspecified"
+      }
+    }
+  ]
+}

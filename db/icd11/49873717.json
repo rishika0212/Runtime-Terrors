@@ -1,0 +1,220 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/49873717",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1103667651"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#49873717",
+  "code": "9D90.6",
+  "source": "http://id.who.int/icd/entity/49873717",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/49873717/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/49873717/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2110791639",
+        "http://id.who.int/icd/release/11/2024-01/mms/112415334",
+        "http://id.who.int/icd/release/11/2024-01/mms/914405870"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Blindness"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "The numerical definition used for WHO statistics refers to profound, near-total or total loss. The functional definition refers to individuals who have little or no residual vision and who have to rely predominantly on vision substitution skills, i.e. on using senses other than vision (Braille or talking books for reading, a long cane or guide dog for mobility, or touch for manipulation)."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "visual impairment category 5"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "visual impairment categories 4, 5, 6 in both eyes"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "visual impairment categories 4, 5, 6 in one eye and categories 1, 2, 3 or 9 in the other eye"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "visual impairment categories 4, 5, 6 in one eye [normal vision in other eye]"
+      }
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Blindness"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acquired amaurosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acquired blindness"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "amaurosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "blindness, both eyes"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "congenital blindness"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "congenital amaurosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "visual impairment category 5"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "visual impairment categories 4, 5, 6 in both eyes"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "blind eye"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "blindness of one eye"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acquired blindness, one eye"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "blindness left eye"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "blindness right eye"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "no vision right eye"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "no vision left eye"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "one eye blind"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "unilateral blindness"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "visual impairment categories 4, 5, 6 in one eye and categories 1, 2, 3 or 9 in the other eye"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "visual impairment categories 4, 5, 6 in one eye [normal vision in other eye]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Profound vision disability"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/555463385"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "“blindness” – WHO"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/555463385"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Total vision impairment"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1245484098"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "NLP - [no light perception]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1245484098"
+    }
+  ]
+}

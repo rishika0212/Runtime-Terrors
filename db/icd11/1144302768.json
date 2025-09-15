@@ -1,0 +1,104 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1144302768",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1271971260"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1144302768",
+  "code": "LA13.0",
+  "source": "http://id.who.int/icd/entity/1144302768",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital vitreoretinal dysplasia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/44221751",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/44221751"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Persistent hyperplastic primary vitreous"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1011137326",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1271971260/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1144302768/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Congenital anomalies of the vitreous"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital anomalies of the vitreous"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital vitreous cysts"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1802556349"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital malformation of vitreous humour, not otherwise specified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1743325347"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "congenital malformation of vitreous humour"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1743325347"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital vitreous opacity"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1287320214"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Persistent canal of Cloquet"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1139180184"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "remains of canal of Cloquet"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1139180184"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "persistent hyaloid artery"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1139180184"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/149925294",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1836788232"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#149925294",
+  "code": "GB23.2",
+  "source": "http://id.who.int/icd/entity/149925294",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/149925294/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/149925294/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/831985561"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Fat necrosis of breast"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition of the breast, caused by saponification of fat tissue, commonly subsequent to trauma or radiation therapy. This condition is characterised by damage, death, or inflammation of the fat tissue by blood and tissue digestive enzymes, and the development of scar tissue and lesions. Confirmation is by imaging of the breast and needle aspiration."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fat necrosis of breast"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "aseptic fat necrosis of breast"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "breast necrosis NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Segmental fat necrosis of breast"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/427654587"
+    }
+  ]
+}

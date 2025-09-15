@@ -1,0 +1,93 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/773281372",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/531713107"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/496229924",
+    "http://id.who.int/icd/release/11/2024-01/mms/1796624917",
+    "http://id.who.int/icd/release/11/2024-01/mms/1015982132",
+    "http://id.who.int/icd/release/11/2024-01/mms/773281372/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/773281372/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#773281372",
+  "code": "2E64",
+  "source": "http://id.who.int/icd/entity/773281372",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Carcinoma in situ of vulva"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/913387730",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/913387730"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Carcinoma in situ of penis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1417231919",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1417231919"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/773281372/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/223243926",
+        "http://id.who.int/icd/release/11/2024-01/mms/947150833",
+        "http://id.who.int/icd/release/11/2024-01/mms/1810600222"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/773281372/postcoordinationScale/histopathology",
+      "axisName": "http://id.who.int/icd/schema/histopathology",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1395468571",
+        "http://id.who.int/icd/release/11/2024-01/mms/522986416",
+        "http://id.who.int/icd/release/11/2024-01/mms/1324810543",
+        "http://id.who.int/icd/release/11/2024-01/mms/1370766919",
+        "http://id.who.int/icd/release/11/2024-01/mms/710558848",
+        "http://id.who.int/icd/release/11/2024-01/mms/1494848434",
+        "http://id.who.int/icd/release/11/2024-01/mms/682879579",
+        "http://id.who.int/icd/release/11/2024-01/mms/602786424",
+        "http://id.who.int/icd/release/11/2024-01/mms/136153868"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/773281372/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Carcinoma in situ of skin"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Stage 0 includes: Tis, N0, M0. Tis: Carcinoma in situ. N0: No regional lymph node metastasis. M0: No clinical or radiographic evidence of distant metastasis."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Melanoma in situ neoplasms"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1576650184",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1576650184"
+    }
+  ]
+}

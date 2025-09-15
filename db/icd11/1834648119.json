@@ -1,0 +1,66 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1834648119",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/588616678"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1642556936",
+    "http://id.who.int/icd/release/11/2024-01/mms/78422942",
+    "http://id.who.int/icd/release/11/2024-01/mms/1879176035",
+    "http://id.who.int/icd/release/11/2024-01/mms/1722068323",
+    "http://id.who.int/icd/release/11/2024-01/mms/1834648119/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1834648119/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1834648119",
+  "code": "",
+  "source": "http://id.who.int/icd/entity/1834648119",
+  "classKind": "block",
+  "blockId": "BlockL2-1A1",
+  "codeRange": "1A10-1A1Z",
+  "title": {
+    "@language": "en",
+    "@value": "Bacterial foodborne intoxications"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Any condition caused by an infection with a bacterial source. Transmission is by ingestion of contaminated food."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "salmonella foodborne intoxication and infection"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/515117475",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/515117475"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Listeriosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/419706488",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/419706488"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Harmful effects of or exposure to noxious substances, Substances chiefly nonmedicinal as to source, Other noxious substances eaten as food"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/123208781",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1119330136"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ichthyotoxism not specified as bacterial"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/267230803",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1119330136"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/911707612"
+  ]
+}

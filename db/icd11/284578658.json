@@ -1,0 +1,186 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/284578658",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2144774073"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#284578658",
+  "code": "1B70.1",
+  "source": "http://id.who.int/icd/entity/284578658",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/284578658/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/223243926",
+        "http://id.who.int/icd/release/11/2024-01/mms/947150833",
+        "http://id.who.int/icd/release/11/2024-01/mms/1810600222"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/284578658/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1997317917"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/284578658/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1839638766"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Streptococcal cellulitis of skin"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Orbital cellulitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1330743591",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1330743591"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cellulitis of external ear"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1308808115",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1308808115"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "anal cellulitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1677754934",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1677754934"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "vulvar cellulitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1898428127",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1898428127"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cellulitis of penis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1844907311",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/885653625"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Inflammatory disorders of scrotum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/260898866",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/260898866"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "perirectal cellulitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/536359334",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/536359334"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Superficial incisional site infection"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/75951638",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/75951638"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/911707612"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Streptococcal cellulitis of skin"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Anogenital streptococcal cellulitis of infancy or childhood"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/394105231"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Perineal streptococcal dermatitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/394105231"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Anogenital streptococcal dermatitis of infancy and childhood"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/394105231"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infantile perianal streptococcal cellulitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2104264315"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infantile perianal streptococcal dermatitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2104264315"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Perianal streptococcal cellulitis of childhood"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/473613432"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Perianal streptococcal dermatitis of childhood"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/473613432"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Streptococcal vulvovaginitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1998302640"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Streptococcal cellulitis of the vulva and vagina"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1998302640"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1352501137",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1574465015"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1004311915",
+    "http://id.who.int/icd/release/11/2024-01/mms/939349783",
+    "http://id.who.int/icd/release/11/2024-01/mms/1914047363",
+    "http://id.who.int/icd/release/11/2024-01/mms/2117585407",
+    "http://id.who.int/icd/release/11/2024-01/mms/1352501137/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1352501137",
+  "code": "DB60",
+  "source": "http://id.who.int/icd/entity/1352501137",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Haemorrhoids in pregnancy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1765077136",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1765077136"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Haemorrhoids in the puerperium"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/109909861",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/109909861"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1352501137/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Haemorrhoids"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A prolapse of vascular cushions resulting in bleeding and painful swelling in the anal canal. Internal haemorrhoids are swollen veins inside the anal canal and one in a vein of the superior rectal plexus, originating above the pectinate line and covered by mucous membrane. \nInternal haemorrhoids are classified according to the degree of prolapse, although this may not always reflect the severity of symptoms."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "piles"
+      }
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ]
+}

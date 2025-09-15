@@ -1,0 +1,122 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/836027753",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/610125614"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#836027753",
+  "code": "BB02.3",
+  "source": "http://id.who.int/icd/entity/836027753",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postprocedural pulmonary trunk stenosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1617715179",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1617715179"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postprocedural right pulmonary artery stenosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1122995598",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1122995598"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postprocedural pulmonary arterial tree disorder"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1279300101",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1279300101"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/836027753/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/836027753/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2034447649",
+        "http://id.who.int/icd/release/11/2024-01/mms/2036696624"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acquired pulmonary arterial tree abnormality"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A postnatal pathological change in form or function of the pulmonary arterial tree."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1380872553"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired pulmonary arterial tree abnormality"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired discontinuity of pulmonary arteries"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1688666152"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired left pulmonary artery stenosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1274080055"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postprocedural left pulmonary artery stenosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1971105008"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired pulmonary arterial dissection"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1498439968"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired pulmonary trunk stenosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1591744556"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired right pulmonary artery stenosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1769158994"
+    }
+  ]
+}

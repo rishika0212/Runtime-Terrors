@@ -1,0 +1,47 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1020720762",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1298865187"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1020720762",
+  "code": "8A40.1",
+  "source": "http://id.who.int/icd/entity/1020720762",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1020720762/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/388810416",
+        "http://id.who.int/icd/release/11/2024-01/mms/2019368323",
+        "http://id.who.int/icd/release/11/2024-01/mms/1297540670"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Primary progressive multiple sclerosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Disease progression from onset, with occasional plateaus and temporary minor improvements allowed."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/564191997"
+  ],
+  "codingNote": {
+    "@language": "en",
+    "@value": "This category is to be used to indicate Primary progressive multiple sclerosis which is progressive from onset but includes progressive - relapsing, or is progressive from onset with a single relapse"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary progressive multiple sclerosis"
+      }
+    }
+  ]
+}

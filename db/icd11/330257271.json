@@ -1,0 +1,47 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/330257271",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/749972710"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#330257271",
+  "code": "KA83.6",
+  "source": "http://id.who.int/icd/entity/330257271",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/330257271/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/330257271/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/720032908",
+        "http://id.who.int/icd/release/11/2024-01/mms/157646292"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Neonatal haemorrhage originating in kidney or bladder"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neonatal haemorrhage originating in kidney or bladder"
+      }
+    }
+  ]
+}

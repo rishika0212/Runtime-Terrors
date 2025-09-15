@@ -1,0 +1,105 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1432691847",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/920186263"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1432691847",
+  "code": "BD30.01",
+  "source": "http://id.who.int/icd/entity/1432691847",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1432691847/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1432691847/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1316314647"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acute thrombotic upper limb arterial occlusion"
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1380872553"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute thrombotic upper limb arterial occlusion"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute thrombotic subclavian artery occlusion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/931743523"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Subclavian artery thrombosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/931743523"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute thrombotic axillary artery occlusion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/742659254"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute thrombotic brachial artery occlusion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/467088840"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Brachial artery thrombosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/467088840"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute thrombotic radial or ulnar artery occlusion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/961865645"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Radial artery thrombosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1254814622"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ulnar artery thrombosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/359694999"
+    }
+  ]
+}

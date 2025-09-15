@@ -1,0 +1,49 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/456774323",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/458687859"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#456774323",
+  "code": "1G85",
+  "source": "http://id.who.int/icd/entity/456774323",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/456774323/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1296093776",
+        "http://id.who.int/icd/release/11/2024-01/mms/426429380",
+        "http://id.who.int/icd/release/11/2024-01/mms/197934298"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Sequelae of diphtheria"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This refers to conditions that develop as a consequence of a bacterial infection of the respiratory tract with Corynebacterium diphtheriae."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/911707612"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sequelae of diphtheria"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "late effect of diphtheria"
+      }
+    }
+  ]
+}

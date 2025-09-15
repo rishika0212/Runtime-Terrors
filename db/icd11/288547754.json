@@ -1,0 +1,47 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/288547754",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/645263329"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#288547754",
+  "code": "8A04.4",
+  "source": "http://id.who.int/icd/entity/288547754",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/288547754/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1569734721"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Functional tremor"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Functional movement disorder presenting predominantly with tremor. The tremor might be variable in frequency and distractible on testing, either entraining or ceasing in response to contralateral externally cued rhythmical movements provided by the examiner.\n\nFunctional tremor is that in which no cause has been identified after investigation."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/564191997"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Functional tremor"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Psychogenic tremor"
+      }
+    }
+  ]
+}

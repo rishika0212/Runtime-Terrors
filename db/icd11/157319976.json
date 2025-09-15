@@ -1,0 +1,62 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/157319976",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1060873089"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#157319976",
+  "code": "DC14.1",
+  "source": "http://id.who.int/icd/entity/157319976",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/157319976/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/157319976/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/460401849",
+        "http://id.who.int/icd/release/11/2024-01/mms/1642025150",
+        "http://id.who.int/icd/release/11/2024-01/mms/1162198017",
+        "http://id.who.int/icd/release/11/2024-01/mms/431804121"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Postcholecystectomy syndrome"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This describes the presence of abdominal symptoms after surgical removal of the gallbladder. Symptoms may include nausea and vomiting, bloating and diarrhoea, and pain in the upper right abdomen. The pain is often ascribed to discoordination of biliary sphincter of Oddi."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postcholecystectomy syndrome"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "post cholecystectomy syndrome"
+      }
+    }
+  ]
+}

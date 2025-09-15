@@ -1,0 +1,54 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/760139952",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1136802325"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/109125699",
+    "http://id.who.int/icd/release/11/2024-01/mms/1784076753",
+    "http://id.who.int/icd/release/11/2024-01/mms/760139952/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/760139952/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#760139952",
+  "code": "1D81",
+  "source": "http://id.who.int/icd/entity/760139952",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/760139952/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1786174656",
+        "http://id.who.int/icd/release/11/2024-01/mms/1627093972"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Infectious mononucleosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease typically caused by an infection with Epstein-Barr virus or cytomegalovirus. This disease commonly presents with extreme fatigue, fever, acute pharyngitis, body aches, or lymphadenopathy. Transmission is by direct contact with infected body fluids, commonly through saliva."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Glandular fever"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gammaherpesviral mononucleosis"
+      }
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/2071159826"
+  ]
+}

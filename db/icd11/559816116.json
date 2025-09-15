@@ -1,0 +1,69 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/559816116",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/260716451"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/808343797",
+    "http://id.who.int/icd/release/11/2024-01/mms/566805920",
+    "http://id.who.int/icd/release/11/2024-01/mms/1661120971",
+    "http://id.who.int/icd/release/11/2024-01/mms/1927556258",
+    "http://id.who.int/icd/release/11/2024-01/mms/17481526",
+    "http://id.who.int/icd/release/11/2024-01/mms/2069509755",
+    "http://id.who.int/icd/release/11/2024-01/mms/1253018132",
+    "http://id.who.int/icd/release/11/2024-01/mms/1872503107",
+    "http://id.who.int/icd/release/11/2024-01/mms/1432720737",
+    "http://id.who.int/icd/release/11/2024-01/mms/929930142",
+    "http://id.who.int/icd/release/11/2024-01/mms/1378244108",
+    "http://id.who.int/icd/release/11/2024-01/mms/646645493",
+    "http://id.who.int/icd/release/11/2024-01/mms/1973940171",
+    "http://id.who.int/icd/release/11/2024-01/mms/1136708449",
+    "http://id.who.int/icd/release/11/2024-01/mms/559816116/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/559816116/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#559816116",
+  "code": "LB31",
+  "source": "http://id.who.int/icd/entity/559816116",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Allantoic duct remnants or cysts"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/283910751",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/283910751"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Persistent urogenital sinus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1944331687",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1337539416/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/559816116/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1267519716",
+        "http://id.who.int/icd/release/11/2024-01/mms/157646292",
+        "http://id.who.int/icd/release/11/2024-01/mms/921977085",
+        "http://id.who.int/icd/release/11/2024-01/mms/466270993"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Structural developmental anomalies of urinary tract"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Any condition caused by failure of the urinary tract to correctly develop during the antenatal period."
+  }
+}

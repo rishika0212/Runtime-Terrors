@@ -1,0 +1,106 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/449241496",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1526938195"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#449241496",
+  "code": "DA96.00",
+  "source": "http://id.who.int/icd/entity/449241496",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bowel-associated dermatosis-arthritis syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1005634086",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/440403304/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/449241496/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1435254666",
+        "http://id.who.int/icd/release/11/2024-01/mms/1630407678",
+        "http://id.who.int/icd/release/11/2024-01/mms/1766440644",
+        "http://id.who.int/icd/release/11/2024-01/mms/1954798891",
+        "http://id.who.int/icd/release/11/2024-01/mms/21500692",
+        "http://id.who.int/icd/release/11/2024-01/mms/334423054",
+        "http://id.who.int/icd/release/11/2024-01/mms/274880002",
+        "http://id.who.int/icd/release/11/2024-01/mms/1296093776",
+        "http://id.who.int/icd/release/11/2024-01/mms/868865918",
+        "http://id.who.int/icd/release/11/2024-01/mms/1218729044",
+        "http://id.who.int/icd/release/11/2024-01/mms/426429380",
+        "http://id.who.int/icd/release/11/2024-01/mms/197934298",
+        "http://id.who.int/icd/release/11/2024-01/mms/1256772020",
+        "http://id.who.int/icd/release/11/2024-01/mms/1639304259",
+        "http://id.who.int/icd/release/11/2024-01/mms/1473673350",
+        "http://id.who.int/icd/release/11/2024-01/mms/30659757",
+        "http://id.who.int/icd/release/11/2024-01/mms/577470983",
+        "http://id.who.int/icd/release/11/2024-01/mms/714000734",
+        "http://id.who.int/icd/release/11/2024-01/mms/1306203631",
+        "http://id.who.int/icd/release/11/2024-01/mms/223744320",
+        "http://id.who.int/icd/release/11/2024-01/mms/1843895818",
+        "http://id.who.int/icd/release/11/2024-01/mms/435227771",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482",
+        "http://id.who.int/icd/release/11/2024-01/mms/1249056269",
+        "http://id.who.int/icd/release/11/2024-01/mms/1596590595"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Bacterial overgrowth syndrome"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Bacterial overgrowth syndrome is a term that describes clinical manifestations that occur when poor movement of intestinal contents allows certain normal intestinal bacteria to grow excessively, causing diarrhoea and poor absorption of nutrients (malabsorption). Various etiological processes can disrupt mechanisms that keep the number of these bacteria low. These include structural abnormalities (congenital or surgical) and disorders that cause decreased gastric acidity, reduced peristaltic activity, and mucosal damage or atrophy."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1702124777"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bacterial overgrowth syndrome"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Blind loop syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1719064637"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Contaminated small bowel syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/859173518"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Lane syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1813142333"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stagnant loop syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1942420073"
+    }
+  ]
+}

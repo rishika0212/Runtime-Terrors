@@ -1,0 +1,99 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1056849595",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/861638547"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1056849595",
+  "code": "1B13.0",
+  "source": "http://id.who.int/icd/entity/1056849595",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1056849595/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1086407971",
+        "http://id.who.int/icd/release/11/2024-01/mms/1537714794",
+        "http://id.who.int/icd/release/11/2024-01/mms/1266200740",
+        "http://id.who.int/icd/release/11/2024-01/mms/1338477196",
+        "http://id.who.int/icd/release/11/2024-01/mms/328366540",
+        "http://id.who.int/icd/release/11/2024-01/mms/687250607"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1056849595/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/672063490"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acute miliary tuberculosis of a single specified site"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease caused by an infection with the bacteria Mycobacterium tuberculosis that is disseminated through the body, and affecting a specific body site. This disease is characterised by numerous small lesions of 1-5 millimetre(s) in any organ, and fever. Transmission is commonly by inhalation of infected respiratory secretions. Confirmation is by radiography, CT, ultrasonography, and identification of Mycobacterium tuberculosis, depending on the site affected."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1240824451"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/576751653"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute miliary tuberculosis of a single specified site"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute miliary tuberculosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute miliary cutaneous tuberculosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2106294878"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculosis cutis miliaris disseminata"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2106294878"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute miliary lung tuberculosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/335027754"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute miliary lung TB - [tuberculosis]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/335027754"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute miliary lung TBC - [tuberculosis]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/335027754"
+    }
+  ]
+}

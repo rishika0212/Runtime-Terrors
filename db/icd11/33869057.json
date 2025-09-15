@@ -1,0 +1,138 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/33869057",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1718833206"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#33869057",
+  "code": "2C27.2",
+  "source": "http://id.who.int/icd/entity/33869057",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/33869057/postcoordinationScale/histopathology",
+      "axisName": "http://id.who.int/icd/schema/histopathology",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1258154589",
+        "http://id.who.int/icd/release/11/2024-01/mms/531766290",
+        "http://id.who.int/icd/release/11/2024-01/mms/716560488",
+        "http://id.who.int/icd/release/11/2024-01/mms/1435433849",
+        "http://id.who.int/icd/release/11/2024-01/mms/1619607309",
+        "http://id.who.int/icd/release/11/2024-01/mms/732131894",
+        "http://id.who.int/icd/release/11/2024-01/mms/1056601104",
+        "http://id.who.int/icd/release/11/2024-01/mms/824768146",
+        "http://id.who.int/icd/release/11/2024-01/mms/1058588610",
+        "http://id.who.int/icd/release/11/2024-01/mms/263525352",
+        "http://id.who.int/icd/release/11/2024-01/mms/810899148",
+        "http://id.who.int/icd/release/11/2024-01/mms/632021124"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/33869057/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/33869057/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1409966790",
+        "http://id.who.int/icd/release/11/2024-01/mms/896293199",
+        "http://id.who.int/icd/release/11/2024-01/mms/1094217460",
+        "http://id.who.int/icd/release/11/2024-01/mms/238069351"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/33869057/postcoordinationScale/hasAlternativeSeverity2",
+      "axisName": "http://id.who.int/icd/schema/hasAlternativeSeverity2",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1863636238",
+        "http://id.who.int/icd/release/11/2024-01/mms/885826145",
+        "http://id.who.int/icd/release/11/2024-01/mms/1746207012",
+        "http://id.who.int/icd/release/11/2024-01/mms/303697349"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Malignant thymoma"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A thymoma that has an aggressive clinical course (capsular invasion, infiltration of the surrounding tissues) and can metastasize. Although any morphologic subtype of thymoma may eventually have a malignant clinical course, this term is most often associated with thymoma types B3 and C."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant thymoma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Thymoma type A of thymus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1120130061"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "malignant type A thymoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1120130061"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Thymoma type AB of thymus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1501313181"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "malignant type AB thymoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1501313181"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Thymoma type B of thymus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1614808680"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "malignant type B1 thymoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1614808680"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "malignant type B2 thymoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1614808680"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "malignant B3 thymoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1614808680"
+    }
+  ]
+}

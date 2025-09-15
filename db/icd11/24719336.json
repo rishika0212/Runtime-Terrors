@@ -1,0 +1,58 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/24719336",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1952274258"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1953940269",
+    "http://id.who.int/icd/release/11/2024-01/mms/388619421",
+    "http://id.who.int/icd/release/11/2024-01/mms/24719336/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#24719336",
+  "code": "NE81.0",
+  "source": "http://id.who.int/icd/entity/24719336",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Haematoma of obstetric wound"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/770589974",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/770589974"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/24719336/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/460401849",
+        "http://id.who.int/icd/release/11/2024-01/mms/1642025150",
+        "http://id.who.int/icd/release/11/2024-01/mms/1162198017",
+        "http://id.who.int/icd/release/11/2024-01/mms/431804121"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Haemorrhage or haematoma complicating a procedure, not elsewhere classified"
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Haemorrhage at any site resulting from a procedure"
+      }
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/770589974"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/59436623"
+  ]
+}

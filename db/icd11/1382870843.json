@@ -1,0 +1,79 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1382870843",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1403588899"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1382870843",
+  "code": "JA05.3",
+  "source": "http://id.who.int/icd/entity/1382870843",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1382870843/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1164022950"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Shock following abortion, ectopic or molar pregnancy"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "septic shock"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/650231750",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/650231750"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Shock following abortion, ectopic or molar pregnancy"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Circulatory collapse following molar or ectopic pregnancy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/6110424"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Circulatory collapse following pregnancy with abortive outcome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/271586576"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Shock following molar or ectopic pregnancy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/375226472"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Shock following pregnancy with abortive outcome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1447784479"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postoperative shock following pregnancy with abortive outcome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/381188344"
+    }
+  ]
+}

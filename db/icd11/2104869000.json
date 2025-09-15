@@ -1,0 +1,186 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2104869000",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1326332835"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2104869000",
+  "code": "MG30.03",
+  "source": "http://id.who.int/icd/entity/2104869000",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic migraine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1336990680",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1336990680"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Burning mouth syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/618998878",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/618998878"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic tension-type headache"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/107534985",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/107534985"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic cluster headache"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/890612903",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/607078588"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hemicrania continua"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1093161847",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/607078588"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2104869000/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1007332872",
+        "http://id.who.int/icd/release/11/2024-01/mms/597444540"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2104869000/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/501504598",
+        "http://id.who.int/icd/release/11/2024-01/mms/932220680",
+        "http://id.who.int/icd/release/11/2024-01/mms/671508148",
+        "http://id.who.int/icd/release/11/2024-01/mms/579584480"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2104869000/postcoordinationScale/hasAlternativeSeverity1",
+      "axisName": "http://id.who.int/icd/schema/hasAlternativeSeverity1",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/137604848",
+        "http://id.who.int/icd/release/11/2024-01/mms/1926847105",
+        "http://id.who.int/icd/release/11/2024-01/mms/489218088",
+        "http://id.who.int/icd/release/11/2024-01/mms/2029211037"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2104869000/postcoordinationScale/hasAlternativeSeverity2",
+      "axisName": "http://id.who.int/icd/schema/hasAlternativeSeverity2",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/145592658",
+        "http://id.who.int/icd/release/11/2024-01/mms/1824378311",
+        "http://id.who.int/icd/release/11/2024-01/mms/1714449067",
+        "http://id.who.int/icd/release/11/2024-01/mms/1721227995"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2104869000/postcoordinationScale/temporalPatternAndOnset",
+      "axisName": "http://id.who.int/icd/schema/temporalPatternAndOnset",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1281193286",
+        "http://id.who.int/icd/release/11/2024-01/mms/1313511357",
+        "http://id.who.int/icd/release/11/2024-01/mms/47514516"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Chronic primary headache or orofacial pain"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Chronic primary headache or orofacial pain is defined as headache or orofacial pain that occurs on at least 50% of the days during at least 3 months. It is characterised by significant emotional distress (anxiety, anger/frustration or depressed mood) or functional disability (interference in daily life activities, reduced participation in social roles). Chronic primary headache or orofacial pain is multifactorial: biological, psychological and social factors contribute to the pain syndrome. The diagnosis is appropriate independently of identified biological or psychological contributors unless another diagnosis would better account for the presenting symptoms. The duration of pain per day is at least 2 hours."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Chronic primary headache or orofacial pain is defined as headache or orofacial pain that occurs on at least 50% of the days during at least three months. It is characterized by significant emotional distress (anxiety, anger/frustration or depressed mood) or functional disability (interference in daily life activities and reduced participation in social roles). Chronic primary headache or orofacial pain is multifactorial: biological, psychological and social factors contribute to the pain syndrome. The diagnosis is appropriate independently of identified biological or psychological contributors unless another diagnosis would better account for the presenting symptoms. Other chronic headache or orofacial pain diagnoses to be considered are listed under chronic secondary headache and orofacial pain. The duration of pain per day is at least 2 hours per day.\n\nFor most purposes, patients receive a diagnosis according to the phenotypes of headache or orofacial pain that they currently present or that they have presented within the last year. It can be difficult to separate between primary and secondary headache or orofacial pain in some cases (e.g., chronic migraine with medication overuse). Each distinct type, subtype or subform of headache or orofacial pain within one patient must be separately diagnosed and coded. When a patient receives more than one diagnosis, these should be listed in the order of importance to the patient.\n\nTo receive a particular chronic primary headache or orofacial pain diagnosis, the patient must, in many cases, experience a minimum number of attacks of (or days with) that headache or orofacial pain. This number is specified in the explicit diagnostic criteria for each headache or orofacial pain type. Further, the headache or orofacial pain must fulfill a number of further requirements for each specific subtype.\n\nDiagnostic Criteria:\n\nConditions A to C are fulfilled:\n\nA. Headache or orofacial pain is present for >2 hours on ≥ 15 days per month for longer than 3 months.\n\nB. The pain is associated with at least one of the following:\n\nB.1 Emotional distress due to pain is present.\n\nB.2 The pain interferes with daily life activities and social participation.\n\nC. The pain is not better accounted for by a secondary headache or orofacial pain condition."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic primary orofacial pain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1545281608"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic primary temporomandibular disorder pains"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/975254799"
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Headache disorders"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/28995849",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/28995849"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic primary headache or orofacial pain"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic primary orofacial pain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1545281608"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic primary temporomandibular disorder pains"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/975254799"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic primary temporomandibular joint pain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1045382549"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic primary temporomandibular myofascial pain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1416570962"
+    }
+  ]
+}

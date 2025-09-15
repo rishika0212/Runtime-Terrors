@@ -1,0 +1,88 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1069179856",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2025061243"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1069179856",
+  "code": "4A84.30",
+  "source": "http://id.who.int/icd/entity/1069179856",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1069179856/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/980862652",
+        "http://id.who.int/icd/release/11/2024-01/mms/851395624",
+        "http://id.who.int/icd/release/11/2024-01/mms/73322695",
+        "http://id.who.int/icd/release/11/2024-01/mms/128104623",
+        "http://id.who.int/icd/release/11/2024-01/mms/1491356379",
+        "http://id.who.int/icd/release/11/2024-01/mms/491063206",
+        "http://id.who.int/icd/release/11/2024-01/mms/185842968",
+        "http://id.who.int/icd/release/11/2024-01/mms/2143219175",
+        "http://id.who.int/icd/release/11/2024-01/mms/558785723",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/unspecified"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1069179856/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/502820569",
+        "http://id.who.int/icd/release/11/2024-01/mms/1206642838",
+        "http://id.who.int/icd/release/11/2024-01/mms/1839152580",
+        "http://id.who.int/icd/release/11/2024-01/mms/683532877"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Exercise-induced anaphylaxis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Exercise-induced anaphylaxis is disorder in which anaphylaxis occurs after physical activity. The clinical features may include pruritus, urticarial weals, flushing, wheezing, and gastrointestinal disturbance including nausea, abdominal cramping, and diarrhoea. If physical activity continues, angioedema, laryngeal oedema, hypotension, and, ultimately, cardiovascular collapse may occur. Exercise-induced anaphylaxis is most commonly associated with IgE-mediated allergy to food whereby anaphylaxis occurs only if ingestion is followed temporally by exercise. Cessation of physical activity usually results in immediate improvement of symptoms."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Exercise-induced anaphylaxis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Food-dependent exercise-induced anaphylaxis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/854135859"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Exercise-induced anaphylaxis dependent on food"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/854135859"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Food-derived exercise-induced anaphylaxis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/854135859"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Food-independent exercise-induced anaphylaxis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1985320989"
+    }
+  ]
+}

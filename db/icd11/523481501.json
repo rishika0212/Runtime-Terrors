@@ -1,0 +1,59 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/523481501",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/80976093"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1659043996",
+    "http://id.who.int/icd/release/11/2024-01/mms/2105678631",
+    "http://id.who.int/icd/release/11/2024-01/mms/2059524172",
+    "http://id.who.int/icd/release/11/2024-01/mms/415880883",
+    "http://id.who.int/icd/release/11/2024-01/mms/1778898783",
+    "http://id.who.int/icd/release/11/2024-01/mms/321057933",
+    "http://id.who.int/icd/release/11/2024-01/mms/523481501/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/523481501/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#523481501",
+  "code": "1E91",
+  "source": "http://id.who.int/icd/entity/523481501",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/523481501/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1957823459",
+        "http://id.who.int/icd/release/11/2024-01/mms/1303990434/other"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/523481501/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/236924369",
+        "http://id.who.int/icd/release/11/2024-01/mms/771273482",
+        "http://id.who.int/icd/release/11/2024-01/mms/1508081745"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Zoster"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease caused by the reactivation of a latent infection with varicella zoster virus. This disease commonly presents with a rash (typically within one or two adjacent dermatomes), cutaneous hyperaesthesia, or fever."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Herpes zoster results from reactivation of latent varicella zoster virus in individuals who have had chickenpox in the past. It is normally confined to a single dermatome and is transmitted from dorsal root ganglia, in which the virus can remain dormant for many years before becoming active. The virus migrates to the skin or mucous membranes via the sensory nerves which supply that dermatome, causing a painful vesicular eruption confined to the affected dermatome(s). Its precise clinical presentation depends upon which dermatome is affected and whether or not it causes significant damage to the eye or nervous system."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/911707612"
+  ]
+}

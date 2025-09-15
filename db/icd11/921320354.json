@@ -1,0 +1,125 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/921320354",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1012897702"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#921320354",
+  "code": "LB30.1",
+  "source": "http://id.who.int/icd/entity/921320354",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/921320354/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Renal dysplasia"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition characterised by abnormal development of one or both kidneys."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Autosomal dominant polycystic kidney disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/91220434",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/91220434"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Renal dysplasia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "congenital renal dysplasia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "dysplasia of kidney"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "dysplastic kidney"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary renal dysplasia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/725561098"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary renal dysplasia, unilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1984593423"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "unilateral renal dysplasia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1984593423"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary renal dysplasia, bilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/404654444"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bilateral renal dysplasia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/404654444"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Secondary renal dysplasia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/64535851"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Secondary renal dysplasia, unilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/835807532"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Secondary renal dysplasia, bilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/409424315"
+    }
+  ]
+}

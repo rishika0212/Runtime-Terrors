@@ -1,0 +1,82 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/75951638",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1634086968"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#75951638",
+  "code": "NE81.20",
+  "source": "http://id.who.int/icd/entity/75951638",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/75951638/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/223243926",
+        "http://id.who.int/icd/release/11/2024-01/mms/947150833",
+        "http://id.who.int/icd/release/11/2024-01/mms/1810600222"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/75951638/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/460401849",
+        "http://id.who.int/icd/release/11/2024-01/mms/1642025150",
+        "http://id.who.int/icd/release/11/2024-01/mms/1162198017",
+        "http://id.who.int/icd/release/11/2024-01/mms/431804121"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Superficial incisional site infection"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A surgical site infection involving only skin and subcutaneous tissue of the incision."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Streptococcal cellulitis of skin"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/284578658",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/284578658"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Staphylococcal cellulitis of skin"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2033345174",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2033345174"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/194200207"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/59436623"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Superficial incisional site infection"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "drainage site cellulitis"
+      }
+    }
+  ]
+}

@@ -1,0 +1,494 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/535963141",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1710329660"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#535963141",
+  "code": "PA06",
+  "source": "http://id.who.int/icd/entity/535963141",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/535963141/postcoordinationScale/activityWhenInjured",
+      "axisName": "http://id.who.int/icd/schema/activityWhenInjured",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2071638841",
+        "http://id.who.int/icd/release/11/2024-01/mms/1107435129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1428847289",
+        "http://id.who.int/icd/release/11/2024-01/mms/821249273",
+        "http://id.who.int/icd/release/11/2024-01/mms/160164281"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/535963141/postcoordinationScale/placeOfOccurrence",
+      "axisName": "http://id.who.int/icd/schema/placeOfOccurrence",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowedExceptFromSameBlock",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/713258542"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/535963141/postcoordinationScale/transportEventDescriptor",
+      "axisName": "http://id.who.int/icd/schema/transportEventDescriptor",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowedExceptFromSameBlock",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/235303267",
+        "http://id.who.int/icd/release/11/2024-01/mms/1075090949",
+        "http://id.who.int/icd/release/11/2024-01/mms/1463612101"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/535963141/postcoordinationScale/alcoholUseInInjury",
+      "axisName": "http://id.who.int/icd/schema/alcoholUseInInjury",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowedExceptFromSameBlock",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1993515327",
+        "http://id.who.int/icd/release/11/2024-01/mms/1336544383",
+        "http://id.who.int/icd/release/11/2024-01/mms/1484941503",
+        "http://id.who.int/icd/release/11/2024-01/mms/1029396223",
+        "http://id.who.int/icd/release/11/2024-01/mms/712192575"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/535963141/postcoordinationScale/psychoactiveDrugUseInInjury",
+      "axisName": "http://id.who.int/icd/schema/psychoactiveDrugUseInInjury",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowedExceptFromSameBlock",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1848703062",
+        "http://id.who.int/icd/release/11/2024-01/mms/1464358166",
+        "http://id.who.int/icd/release/11/2024-01/mms/1080046038",
+        "http://id.who.int/icd/release/11/2024-01/mms/632885142",
+        "http://id.who.int/icd/release/11/2024-01/mms/848390998"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Unintentional land transport traffic event injuring an occupant of a light goods vehicle"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unintentional land transport traffic event injuring an occupant of a light goods vehicle"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unintentional land transport traffic event injuring an occupant of a pick-up truck or van"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Collision NOS involving pick-up truck or van, traffic"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Accident NOS involving pick-up truck or van"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of pick-up truck or van injured in collision with pedestrian or animal"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/208787020"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of pick-up truck or van injured in collision with pedestrian or animal : person injured while boarding or alighting"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/34955211"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of pick-up truck or van injured in collision with pedestrian or animal : driver injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1734251103"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of pick-up truck or van injured in collision with pedestrian or animal : passenger injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/334742176"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of pick-up truck or van injured in collision with pedestrian or animal : person on outside of vehicle injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1991774006"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of pick-up truck or van injured in collision with pedestrian or animal : unspecified occupant of pick-up truck or van injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1855641570"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of pick-up truck or van injured in collision with pedal cycle"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1765415898"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of pick-up truck or van injured in collision with pedal cycle : person injured while boarding or alighting"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/518887242"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of pick-up truck or van injured in collision with pedal cycle : driver injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2074499808"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of pick-up truck or van injured in collision with pedal cycle : passenger injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/252381729"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of pick-up truck or van injured in collision with pedal cycle : person on outside of vehicle injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1782630325"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of pick-up truck or van injured in collision with pedal cycle : unspecified occupant of pick-up truck or van injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1919033187"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of pick-up truck or van injured in collision with two- or three-wheeled motor vehicle"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/496454439"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of pick-up truck or van injured in collision with two- or three-wheeled motor vehicle : person injured while boarding or alighting"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/527054710"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of pick-up truck or van injured in collision with two- or three-wheeled motor vehicle : driver injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2049047264"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of pick-up truck or van injured in collision with two- or three-wheeled motor vehicle : passenger injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/244099615"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of pick-up truck or van injured in collision with two- or three-wheeled motor vehicle : person on outside of vehicle injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1808230283"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of pick-up truck or van injured in collision with two- or three-wheeled motor vehicle : unspecified occupant of pick-up truck or van injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1944436573"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of pick-up truck or van injured in collision with car, pick-up truck or van"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2027718323"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of pick-up truck or van injured in collision with car, pick-up truck or van : person injured while boarding or alighting"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/59965429"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of pick-up truck or van injured in collision with car, pick-up truck or van : driver injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1725510241"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of pick-up truck or van injured in collision with car, pick-up truck or van : passenger injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/309617312"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of pick-up truck or van injured in collision with car, pick-up truck or van : person on outside of vehicle injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2000662282"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of pick-up truck or van injured in collision with car, pick-up truck or van : unspecified occupant of pick-up truck or van injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1864202206"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of pick-up truck or van injured in collision with heavy transport vehicle or bus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/187831591"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of pick-up truck or van injured in collision with heavy transport vehicle or bus : person injured while boarding or alighting"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/954961589"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of pick-up truck or van injured in collision with heavy transport vehicle or bus : driver injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1570784033"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of pick-up truck or van injured in collision with heavy transport vehicle or bus : passenger injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/688722910"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of pick-up truck or van injured in collision with heavy transport vehicle or bus : person on outside of vehicle injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1279712844"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of pick-up truck or van injured in collision with heavy transport vehicle or bus : unspecified occupant of pick-up truck or van injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1415841436"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of pick-up truck or van injured in collision with railway train or railway vehicle"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1853479091"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of pick-up truck or van injured in collision with railway train or railway vehicle : person injured while boarding or alighting"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/605242932"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of pick-up truck or van injured in collision with railway train or railway vehicle : driver injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1096321954"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of pick-up truck or van injured in collision with railway train or railway vehicle : passenger injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/905304927"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of pick-up truck or van injured in collision with railway train or railway vehicle : person on outside of vehicle injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1354634955"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of pick-up truck or van injured in collision with railway train or railway vehicle : unspecified occupant of pick-up truck or van injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1218235933"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of pick-up truck or van injured in collision with other nonmotor vehicle"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/450136142"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of pick-up truck or van injured in collision with other nonmotor vehicle : person injured while boarding or alighting"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/630515212"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of pick-up truck or van injured in collision with other nonmotor vehicle : driver injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1088367518"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of pick-up truck or van injured in collision with other nonmotor vehicle : passenger injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/879917921"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of pick-up truck or van injured in collision with other nonmotor vehicle : person on outside of vehicle injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1362736885"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of pick-up truck or van injured in collision with other nonmotor vehicle : unspecified occupant of pick-up truck or van injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1226534435"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of pick-up truck or van injured in collision with fixed or stationary object"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2141144536"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of pick-up truck or van injured in collision with fixed or stationary object : person injured while boarding or alighting"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/963391115"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of pick-up truck or van injured in collision with fixed or stationary object : driver injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1546117919"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of pick-up truck or van injured in collision with fixed or stationary object : passenger injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/680178658"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of pick-up truck or van injured in collision with fixed or stationary object : person on outside of vehicle injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1304526452"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of pick-up truck or van injured in collision with fixed or stationary object : unspecified occupant of pick-up truck or van injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1440982692"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of pick-up truck or van injured in noncollision transport accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/49696922"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of pick-up truck or van injured in noncollision transport accident : person injured while boarding or alighting"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2011757879"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of pick-up truck or van injured in noncollision transport accident : driver injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/312684707"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of pick-up truck or van injured in noncollision transport accident : passenger injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1712218204"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of pick-up truck or van injured in noncollision transport accident : person on outside of vehicle injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/54898122"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of pick-up truck or van injured in noncollision transport accident : unspecified occupant of pick-up truck or van injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/459765022"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of pick-up truck or van injured in other and unspecified transport accidents"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1740479760"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of pick-up truck or van trapped by door or other part of pick-up truck or van"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1832384571"
+    }
+  ]
+}

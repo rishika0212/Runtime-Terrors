@@ -1,0 +1,282 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/254923627",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2052707382"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#254923627",
+  "code": "FB32.5",
+  "source": "http://id.who.int/icd/entity/254923627",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/254923627/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/254923627/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1922573088",
+        "http://id.who.int/icd/release/11/2024-01/mms/1359586520",
+        "http://id.who.int/icd/release/11/2024-01/mms/955996865",
+        "http://id.who.int/icd/release/11/2024-01/mms/507472176",
+        "http://id.who.int/icd/release/11/2024-01/mms/107652911",
+        "http://id.who.int/icd/release/11/2024-01/mms/720361080",
+        "http://id.who.int/icd/release/11/2024-01/mms/864968000"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Muscle strain or sprain"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "current injury - see injury of muscle by body region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/435227771",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/435227771"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Muscle strain or sprain"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pulled muscle"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "nontraumatic muscle strain"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "muscular fatigue"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "muscle fatigue"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Muscle strain or sprain, multiple sites"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1696106238"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Muscle strain or sprain, shoulder region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/449207665"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Muscle strain or sprain, acromioclavicular joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1229704263"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Muscle strain or sprain, glenohumeral joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1501648369"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Muscle strain or sprain, sternoclavicular joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2041879987"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Muscle strain or sprain, upper arm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1700449824"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Muscle strain or sprain, humerus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/671053136"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Muscle strain or sprain, elbow joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/421091096"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Muscle strain or sprain, forearm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1056538177"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Muscle strain or sprain, wrist joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1123594151"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Muscle strain or sprain, hand"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/282445247"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Muscle strain or sprain, carpus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1999884717"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Muscle strain or sprain, fingers"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/672430110"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Muscle strain or sprain, metacarpus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/954130856"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Muscle strain or sprain, pelvic region or thigh"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/822263347"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Muscle strain or sprain, buttock"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/29409163"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Muscle strain or sprain, hip joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/351450045"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Muscle strain or sprain, lower leg"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2120318122"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Muscle strain or sprain, knee joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1088981874"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Muscle strain or sprain, ankle or foot"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/516732419"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Muscle strain or sprain, metatarsus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1256971906"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Muscle strain or sprain, tarsus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/7375257"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Muscle strain or sprain, toes"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2043075053"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Muscle strain or sprain, ankle joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/745330484"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Muscle strain or sprain, other joints in foot"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/923131994"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Muscle strain or sprain, head"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2116236360"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Muscle strain or sprain, neck"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1667285049"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Muscle strain or sprain, vertebral column"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/312961034"
+    }
+  ]
+}

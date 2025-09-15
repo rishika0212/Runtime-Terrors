@@ -1,0 +1,72 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1842783299",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1121827324"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1212937040",
+    "http://id.who.int/icd/release/11/2024-01/mms/754990790",
+    "http://id.who.int/icd/release/11/2024-01/mms/1504538171",
+    "http://id.who.int/icd/release/11/2024-01/mms/1021748143",
+    "http://id.who.int/icd/release/11/2024-01/mms/1325936699",
+    "http://id.who.int/icd/release/11/2024-01/mms/709098927",
+    "http://id.who.int/icd/release/11/2024-01/mms/1592700242",
+    "http://id.who.int/icd/release/11/2024-01/mms/706301844",
+    "http://id.who.int/icd/release/11/2024-01/mms/1000693956",
+    "http://id.who.int/icd/release/11/2024-01/mms/2013366661",
+    "http://id.who.int/icd/release/11/2024-01/mms/1842783299/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1842783299/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1842783299",
+  "code": "ND56",
+  "source": "http://id.who.int/icd/entity/1842783299",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1842783299/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/980862652",
+        "http://id.who.int/icd/release/11/2024-01/mms/851395624",
+        "http://id.who.int/icd/release/11/2024-01/mms/73322695",
+        "http://id.who.int/icd/release/11/2024-01/mms/128104623",
+        "http://id.who.int/icd/release/11/2024-01/mms/1491356379",
+        "http://id.who.int/icd/release/11/2024-01/mms/491063206",
+        "http://id.who.int/icd/release/11/2024-01/mms/185842968",
+        "http://id.who.int/icd/release/11/2024-01/mms/2143219175",
+        "http://id.who.int/icd/release/11/2024-01/mms/558785723",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Injury of unspecified body region"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Damage inflicted on the body in an unspecified area as the direct or indirect result of an external force, with or without disruption of structural continuity."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injuries involving multiple body regions"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/159081656",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/159081656"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "multiple injuries NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1321122981",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1321122981"
+    }
+  ]
+}

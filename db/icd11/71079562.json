@@ -1,0 +1,64 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/71079562",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/132287989"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/577599324",
+    "http://id.who.int/icd/release/11/2024-01/mms/623817783",
+    "http://id.who.int/icd/release/11/2024-01/mms/1455433635",
+    "http://id.who.int/icd/release/11/2024-01/mms/71079562/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/71079562/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#71079562",
+  "code": "1F25.1",
+  "source": "http://id.who.int/icd/entity/71079562",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/71079562/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1525493612",
+        "http://id.who.int/icd/release/11/2024-01/mms/974549086",
+        "http://id.who.int/icd/release/11/2024-01/mms/657365008",
+        "http://id.who.int/icd/release/11/2024-01/mms/1363003152",
+        "http://id.who.int/icd/release/11/2024-01/mms/1959335168",
+        "http://id.who.int/icd/release/11/2024-01/mms/192726145",
+        "http://id.who.int/icd/release/11/2024-01/mms/223741850",
+        "http://id.who.int/icd/release/11/2024-01/mms/319259361",
+        "http://id.who.int/icd/release/11/2024-01/mms/1784009725",
+        "http://id.who.int/icd/release/11/2024-01/mms/61287910",
+        "http://id.who.int/icd/release/11/2024-01/mms/344934694"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/71079562/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/431392958",
+        "http://id.who.int/icd/release/11/2024-01/mms/1328350091"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Extrathoracic coccidioidomycosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Coccidioidomycosis involving sites other than the lungs and thoracic cavity. Recognised sites include lymph nodes, bones, joints, central nervous system and skin. Transmission is through haematogenous spread to other body sites after inhalation of fungal spores or by direct inoculation."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Extrapulmonary infection is clinically detected outside the thoracic cavity in fewer than 1% of all cases. This is associated with a poorer outcome and usually requires prolonged treatment with antifungal agents."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/528118622"
+  ]
+}

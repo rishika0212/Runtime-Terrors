@@ -1,0 +1,69 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/374867766",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/581725607"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#374867766",
+  "code": "DA21.1",
+  "source": "http://id.who.int/icd/entity/374867766",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/374867766/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/374867766/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1008515027",
+        "http://id.who.int/icd/release/11/2024-01/mms/461716838"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Motility disorder of cervical or upper oesophagus"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Motility disorder of cervical and upper oesophagus is a condition characterised by choke, swallow air, regurgitate fluid into the nose, or experience discomfort in swallowing food due to incompetence of upper oesophageal sphincter."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dyskinesia of cervical and upper oesophagus"
+      }
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Motility disorder of cervical or upper oesophagus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dyskinesia of cervical and upper oesophagus"
+      }
+    }
+  ]
+}

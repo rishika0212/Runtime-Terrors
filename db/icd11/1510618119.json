@@ -1,0 +1,72 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1510618119",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/944754984"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/962107653",
+    "http://id.who.int/icd/release/11/2024-01/mms/2018018546",
+    "http://id.who.int/icd/release/11/2024-01/mms/596808334",
+    "http://id.who.int/icd/release/11/2024-01/mms/216388623",
+    "http://id.who.int/icd/release/11/2024-01/mms/1385484871",
+    "http://id.who.int/icd/release/11/2024-01/mms/474972159",
+    "http://id.who.int/icd/release/11/2024-01/mms/1510618119/other"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1510618119",
+  "code": "2B33",
+  "source": "http://id.who.int/icd/entity/1510618119",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1510618119/postcoordinationScale/histopathology",
+      "axisName": "http://id.who.int/icd/schema/histopathology",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1557412545",
+        "http://id.who.int/icd/release/11/2024-01/mms/1029961628",
+        "http://id.who.int/icd/release/11/2024-01/mms/1535830689",
+        "http://id.who.int/icd/release/11/2024-01/mms/1314390148",
+        "http://id.who.int/icd/release/11/2024-01/mms/1682040224"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1510618119/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1510618119/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1863636238",
+        "http://id.who.int/icd/release/11/2024-01/mms/885826145",
+        "http://id.who.int/icd/release/11/2024-01/mms/1746207012",
+        "http://id.who.int/icd/release/11/2024-01/mms/303697349"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Malignant haematopoietic neoplasms without further specification"
+  },
+  "codingNote": {
+    "@language": "en",
+    "@value": "Only to be designated in cases with incomplete diagnostics."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant haematopoietic neoplasms without further specification"
+      }
+    }
+  ]
+}

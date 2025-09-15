@@ -1,0 +1,97 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2054302058",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1742412137"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2054302058",
+  "code": "DA25.30",
+  "source": "http://id.who.int/icd/entity/2054302058",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2054302058/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/72252748"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2054302058/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1290701352"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2054302058/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731",
+        "http://id.who.int/icd/release/11/2024-01/mms/678821627",
+        "http://id.who.int/icd/release/11/2024-01/mms/1281102481",
+        "http://id.who.int/icd/release/11/2024-01/mms/1559145231",
+        "http://id.who.int/icd/release/11/2024-01/mms/131278066"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2054302058/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Chemical oesophageal ulcer"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is oesophageal ulcer caused by chemical injury including alkaline or acid solutions."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ulcer of oesophagus due to ingestion of chemicals"
+      }
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chemical oesophageal ulcer"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ulcer of oesophagus due to ingestion of chemicals"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ulcer due to ingestion and impaction of button battery cell"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/562533719"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1664016479",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/487269828"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/516585689",
+    "http://id.who.int/icd/release/11/2024-01/mms/2072098125",
+    "http://id.who.int/icd/release/11/2024-01/mms/832233624",
+    "http://id.who.int/icd/release/11/2024-01/mms/1664016479/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1664016479/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1664016479",
+  "code": "1C1C",
+  "source": "http://id.who.int/icd/entity/1664016479",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1664016479/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1656157931",
+        "http://id.who.int/icd/release/11/2024-01/mms/373833091",
+        "http://id.who.int/icd/release/11/2024-01/mms/831696556",
+        "http://id.who.int/icd/release/11/2024-01/mms/63567539",
+        "http://id.who.int/icd/release/11/2024-01/mms/2051676830",
+        "http://id.who.int/icd/release/11/2024-01/mms/162683166",
+        "http://id.who.int/icd/release/11/2024-01/mms/654702340",
+        "http://id.who.int/icd/release/11/2024-01/mms/554373034"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1664016479/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1215034670",
+        "http://id.who.int/icd/release/11/2024-01/mms/1839638766",
+        "http://id.who.int/icd/release/11/2024-01/mms/501791005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1975056531",
+        "http://id.who.int/icd/release/11/2024-01/mms/828922344",
+        "http://id.who.int/icd/release/11/2024-01/mms/174465822",
+        "http://id.who.int/icd/release/11/2024-01/mms/612672352",
+        "http://id.who.int/icd/release/11/2024-01/mms/1882742628/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/1882742628/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Meningococcal disease"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This illness is severe and includes infections of the lining of the brain and spinal cord (meningitis) and generalised bloodstream infections (bacteraemia or septicaemia).\n\nMeningococcus bacteria are spread through the exchange of respiratory and throat secretions like spit (e.g., by living in close quarters, kissing). Meningococcal disease can be treated with antibiotics, but quick medical attention is extremely important. Keeping up to date with recommended vaccines is the best defence against meningococcal disease."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Meningococcal infection"
+      }
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1935107489"
+  ]
+}

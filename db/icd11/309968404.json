@@ -1,0 +1,114 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/309968404",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1008592825"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#309968404",
+  "code": "PE85",
+  "source": "http://id.who.int/icd/entity/309968404",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/309968404/postcoordinationScale/medication",
+      "axisName": "http://id.who.int/icd/schema/medication",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/677082440",
+        "http://id.who.int/icd/release/11/2024-01/mms/923858885",
+        "http://id.who.int/icd/release/11/2024-01/mms/1825079466",
+        "http://id.who.int/icd/release/11/2024-01/mms/1378788066",
+        "http://id.who.int/icd/release/11/2024-01/mms/278359861",
+        "http://id.who.int/icd/release/11/2024-01/mms/973488885"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/309968404/postcoordinationScale/activityWhenInjured",
+      "axisName": "http://id.who.int/icd/schema/activityWhenInjured",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2071638841",
+        "http://id.who.int/icd/release/11/2024-01/mms/1107435129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1428847289",
+        "http://id.who.int/icd/release/11/2024-01/mms/821249273",
+        "http://id.who.int/icd/release/11/2024-01/mms/160164281"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/309968404/postcoordinationScale/placeOfOccurrence",
+      "axisName": "http://id.who.int/icd/schema/placeOfOccurrence",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowedExceptFromSameBlock",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1081404635",
+        "http://id.who.int/icd/release/11/2024-01/mms/1786773723"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/309968404/postcoordinationScale/aspectsOfAssaultAndMaltreatment",
+      "axisName": "http://id.who.int/icd/schema/aspectsOfAssaultAndMaltreatment",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowedExceptFromSameBlock",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1115077034",
+        "http://id.who.int/icd/release/11/2024-01/mms/665815018",
+        "http://id.who.int/icd/release/11/2024-01/mms/814211882"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Assault by exposure to or harmful effects of antidepressants"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of antidepressants"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "homicidal poisoning by exposure to or harmful effects of antidepressants"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of tricyclic antidepressants"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1114572823"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of tetracyclic antidepressants"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2026980593"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of monoamine-oxidase-inhibitor antidepressants"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1738692053"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of selective serotonin or norepinephrine reuptake inhibitors"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1673032603"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of selective serotonin reuptake inhibitors"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1922062819"
+    }
+  ]
+}

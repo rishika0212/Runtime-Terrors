@@ -1,0 +1,102 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1686749305",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1066261769"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1157941552",
+    "http://id.who.int/icd/release/11/2024-01/mms/542049466",
+    "http://id.who.int/icd/release/11/2024-01/mms/1424118853",
+    "http://id.who.int/icd/release/11/2024-01/mms/1111951941",
+    "http://id.who.int/icd/release/11/2024-01/mms/655149009",
+    "http://id.who.int/icd/release/11/2024-01/mms/1686749305/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1686749305/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1686749305",
+  "code": "FA33",
+  "source": "http://id.who.int/icd/entity/1686749305",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1686749305/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1686749305/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/391521938"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1686749305/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1569734721"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Internal derangement of knee"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Internal derangement of the knee (IDK) is a chronic disorder of the knee due to a torn, ruptured or deranged meniscus of the knee, or a partial or complete cruciate rupture, with or without injury to the capsular ligament, resulting in ongoing or intermittent signs and symptoms such as pain, instability, or abnormal mobility of that knee.\n\nIf indicated that derangement is due to trauma, code to Injury, poisoning and certain other consequences of external causes, regardless of time past since injury."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "recurrent dislocation or subluxation patella"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1509687727",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1509687727"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ankylosis of joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1759045232",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1759045232"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "deformity of knee"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1970232596",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1970232596"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injuries to the knee or lower leg"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2016483996",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2016483996"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Disorders of patella"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/29494765",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/29494765"
+    }
+  ]
+}

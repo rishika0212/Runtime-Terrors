@@ -1,0 +1,112 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1759664954",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1871672644"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1759664954",
+  "code": "DA42.9",
+  "source": "http://id.who.int/icd/entity/1759664954",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1759664954/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1493524587"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1759664954/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1759664954/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731",
+        "http://id.who.int/icd/release/11/2024-01/mms/1290701352"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1759664954/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Gastric phlegmon"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A spreading diffuse inflammatory process with formation of suppurative/purulent exudate or pus in the gastric wall. It often develops to a defined pocket of pus, gastric abscess. This is mainly due to the result of acute inflammation by bacterial infection."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gastric abscess"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Phlegmonous gastritis"
+      }
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gastric phlegmon"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gastric abscess"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Phlegmonous gastritis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "retrogastric abscess"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pyloric valve abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1179061851"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1614179699",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/155258022"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/831518052",
+    "http://id.who.int/icd/release/11/2024-01/mms/574814968",
+    "http://id.who.int/icd/release/11/2024-01/mms/1276513691",
+    "http://id.who.int/icd/release/11/2024-01/mms/1600152465",
+    "http://id.who.int/icd/release/11/2024-01/mms/1396810221",
+    "http://id.who.int/icd/release/11/2024-01/mms/2089878635",
+    "http://id.who.int/icd/release/11/2024-01/mms/1614179699/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1614179699/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1614179699",
+  "code": "5C90",
+  "source": "http://id.who.int/icd/entity/1614179699",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bile acid synthesis defect with cholestasis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1295299670",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1295299670"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Progressive familial intrahepatic cholestasis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1457142642",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1457142642"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Benign recurrent intrahepatic cholestasis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/288945286",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/288945286"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Glycogen storage disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1187107383",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1187107383"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Disorders of galactose metabolism"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1462194012",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1462194012"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Disorders of fructose metabolism"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/596254627",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/596254627"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Alpha-1-antitrypsin deficiency"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/824872160",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/824872160"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Reye syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/649014905",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/649014905"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1614179699/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Metabolic or transporter liver disease"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Alcoholic liver disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/469481605",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/469481605"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Non-alcoholic fatty liver disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1912806631",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1912806631"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced or toxic liver disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2125493521",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2125493521"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute fatty liver of pregnancy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1226221530",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1110228123"
+    }
+  ]
+}

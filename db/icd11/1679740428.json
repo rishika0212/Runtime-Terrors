@@ -1,0 +1,41 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1679740428",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1195691020"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/621016812",
+    "http://id.who.int/icd/release/11/2024-01/mms/663563035",
+    "http://id.who.int/icd/release/11/2024-01/mms/913676518",
+    "http://id.who.int/icd/release/11/2024-01/mms/1679740428/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1679740428/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1679740428",
+  "code": "DA52",
+  "source": "http://id.who.int/icd/entity/1679740428",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1679740428/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731",
+        "http://id.who.int/icd/release/11/2024-01/mms/1119203708"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Vascular disorders of the duodenum"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This group incorporates vascular disorders principally affecting the blood vessels of the duodenum. They include vascular disorders of arteries, veins and capillaries that carry blood to and from the stomach."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ]
+}

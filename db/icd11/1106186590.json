@@ -1,0 +1,81 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1106186590",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/702067523"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1106186590",
+  "code": "LA10.2",
+  "source": "http://id.who.int/icd/entity/1106186590",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1106186590/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Buphthalmos"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition characterised by enlargement of the globe of the eye."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Buphthalmos"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cystic eyeball"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "buphthalmia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Buphthalmos, unilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1881306098"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cystic eyeball, unilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1881306098"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Buphthalmos, bilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1386324375"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cystic eyeball, bilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1386324375"
+    }
+  ]
+}

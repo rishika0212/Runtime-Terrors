@@ -1,0 +1,91 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/786137763",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1679904912"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#786137763",
+  "code": "NA06.5",
+  "source": "http://id.who.int/icd/entity/786137763",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/786137763/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/786137763/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/980862652",
+        "http://id.who.int/icd/release/11/2024-01/mms/851395624",
+        "http://id.who.int/icd/release/11/2024-01/mms/73322695",
+        "http://id.who.int/icd/release/11/2024-01/mms/128104623",
+        "http://id.who.int/icd/release/11/2024-01/mms/1491356379",
+        "http://id.who.int/icd/release/11/2024-01/mms/491063206",
+        "http://id.who.int/icd/release/11/2024-01/mms/185842968",
+        "http://id.who.int/icd/release/11/2024-01/mms/2143219175",
+        "http://id.who.int/icd/release/11/2024-01/mms/558785723",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Trauma to the iris sphincter"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This refers to trauma to the muscle in the part of the eye called the iris. It encircles the pupil of the iris, appropriate to its function as a constrictor of the pupil."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1804006919"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Trauma to the iris sphincter"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Trauma to the iris sphincter, post surgery"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1806361530"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Trauma to the iris sphincter due to acute angle closure glaucoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1109187373"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Trauma to the iris sphincter due to pigmentary dispersion syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1972370003"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Trauma to the iris sphincter due to herpes zoster or herpes simplex infection"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1460414518"
+    }
+  ]
+}

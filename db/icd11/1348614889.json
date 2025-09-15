@@ -1,0 +1,72 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1348614889",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1637035570"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1348614889",
+  "code": "NA30",
+  "source": "http://id.who.int/icd/entity/1348614889",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1348614889/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1170330671"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1348614889/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482",
+        "http://id.who.int/icd/release/11/2024-01/mms/755612283"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Concussion or oedema of cervical spinal cord"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Concussion or oedema of cervical spinal cord"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cervical spine cord concussion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/179066098"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cervix spine cord concussion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/179066098"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sequelae of concussion and oedema of cervical spinal cord"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/946685130"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "late effect of concussion and oedema of cervical spinal cord"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/946685130"
+    }
+  ]
+}

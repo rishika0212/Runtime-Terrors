@@ -1,0 +1,410 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/143605159",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/133207228"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#143605159",
+  "code": "CA22.1",
+  "source": "http://id.who.int/icd/entity/143605159",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/143605159/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/145723401",
+        "http://id.who.int/icd/release/11/2024-01/mms/145723401",
+        "http://id.who.int/icd/release/11/2024-01/mms/11753425",
+        "http://id.who.int/icd/release/11/2024-01/mms/1948124976",
+        "http://id.who.int/icd/release/11/2024-01/mms/1656445230",
+        "http://id.who.int/icd/release/11/2024-01/mms/142052508",
+        "http://id.who.int/icd/release/11/2024-01/mms/142052508",
+        "http://id.who.int/icd/release/11/2024-01/mms/727572936",
+        "http://id.who.int/icd/release/11/2024-01/mms/727572936"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/143605159/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1349205270",
+        "http://id.who.int/icd/release/11/2024-01/mms/178078665",
+        "http://id.who.int/icd/release/11/2024-01/mms/1866919550",
+        "http://id.who.int/icd/release/11/2024-01/mms/1080893150"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Certain specified chronic obstructive pulmonary disease"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic obstructive pulmonary disease with acute exacerbation, unspecified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1665365733",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1665365733"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/923122941"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/607453719"
+  ],
+  "codingNote": {
+    "@language": "en",
+    "@value": "Use additional code to identify any associated respiratory tract infection."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Certain specified chronic obstructive pulmonary disease"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Other specified chronic obstructive pulmonary disease, very severe airflow limitation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/950162075"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Other specified chronic obstructive pulmonary disease, FEV1 less than 30% predicted"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/950162075"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Other specified chronic obstructive pulmonary disease, Gold 4"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/950162075"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Other specified chronic obstructive pulmonary disease, severe airflow limitation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1575591695"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Other specified chronic obstructive pulmonary disease, 30% equal to or less than FEV1 less than 50% predicted"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1575591695"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Other specified chronic obstructive pulmonary disease, Gold 3"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1575591695"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Other specified chronic obstructive pulmonary disease, moderate airflow limitation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/692375538"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Other specified chronic obstructive pulmonary disease, 50% equal to or less than FEV1 less than 80% predicted"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/692375538"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Other specified chronic obstructive pulmonary disease, Gold 2"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/692375538"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Other specified chronic obstructive pulmonary disease, mild airflow limitation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1276052068"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Other specified chronic obstructive pulmonary disease, FEV1 greater than or equal to 80% predicted"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1276052068"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Other specified chronic obstructive pulmonary disease, Gold 1"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1276052068"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic obstructive pulmonary disease with acute lower respiratory infection"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/101235569"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute infective exacerbation of chronic obstructive pulmonary disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/101235569"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "infective exacerbation of chronic obstructive airways disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/101235569"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "infective exacerbation of chronic obstructive pulmonary disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/101235569"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "COPD - [chronic obstructive pulmonary disease] with respiratory infection"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/101235569"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic obstructive pulmonary disease with acute lower respiratory infection, very severe airflow limitation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/350545776"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic obstructive pulmonary disease with acute lower respiratory infection, FEV1 less than 30% predicted"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/350545776"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic obstructive pulmonary disease with acute lower respiratory infection, Gold 4"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/350545776"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic obstructive pulmonary disease with acute lower respiratory infection, severe airflow limitation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1907305210"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic obstructive pulmonary disease with acute lower respiratory infection, 30% equal to or less than FEV1 less than 50% predicted"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1907305210"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic obstructive pulmonary disease with acute lower respiratory infection, Gold 3"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1907305210"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic obstructive pulmonary disease with acute lower respiratory infection, moderate airflow limitation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/84048389"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic obstructive pulmonary disease with acute lower respiratory infection, 50% equal to or less than FEV1 less than 80% predicted"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/84048389"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic obstructive pulmonary disease with acute lower respiratory infection, Gold 2"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/84048389"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic obstructive pulmonary disease with acute lower respiratory infection, mild airflow limitation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1615443857"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic obstructive pulmonary disease with acute lower respiratory infection, FEV1 greater than or equal to 80% predicted"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1615443857"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic obstructive pulmonary disease with acute lower respiratory infection, Gold 1"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1615443857"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Obstructive infective bronchitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/194863896"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic obstructive pulmonary disease with pneumonia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1969979337"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic obstructive tracheobronchitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/78579607"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Asthma with chronic obstructive pulmonary disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/16214329"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic obstructive asthma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1206211557"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Asthmatic dyspnoea with chronic bronchitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/222055454"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bronchitis with chronic obstructive pulmonary disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/686887390"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bronchitis with chronic airway obstruction"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/686887390"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bronchitis with airway obstruction"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/686887390"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic obstructive bronchitis, NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/686887390"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bronchitis obstruction"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/686887390"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic bronchitis obliterans"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/686887390"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "diffuse obstructive bronchitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/686887390"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "obstructive bronchitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/686887390"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic asthmatic and obstructive bronchitis, not otherwise specified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1751716661"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic asthmatic bronchitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1751716661"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Lung disease with obstructive bronchitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/777010908"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Subacute obliterative bronchiolitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2132091879"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Obstructive laryngobronchitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/709285496"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1710486451",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/994179294"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1710486451",
+  "code": "DD93.0",
+  "source": "http://id.who.int/icd/entity/1710486451",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1710486451/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Infant regurgitation"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is a functional regurgitation that presents frequently (greater than or equal to 2 times/day for greater than equal to 3 weeks) in infants during the first year of life, without retching, haematemesis, aspiration, apnoea, or feeding or swallowing difficulties, or abnormal posturing."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infant regurgitation"
+      }
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/250688797",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/135352227"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#250688797",
+  "code": "1A04",
+  "source": "http://id.who.int/icd/entity/250688797",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/250688797/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1742998538/unspecified"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/250688797/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1158914813",
+        "http://id.who.int/icd/release/11/2024-01/mms/1323892810"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/250688797/postcoordinationScale/temporalPatternAndOnset",
+      "axisName": "http://id.who.int/icd/schema/temporalPatternAndOnset",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1122666181",
+        "http://id.who.int/icd/release/11/2024-01/mms/1721353160"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Intestinal infections due to Clostridioides difficile"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease of the colon, caused by an infection with the gram-positive bacteria Clostridioides difficile (formerly known as Clostridium difficile). This disease is characterised by colitis, diarrhoea, abdominal pain, and fever. Transmission is commonly by direct or indirect contact, or from a disturbance of the normal bacterial flora of the colon. Confirmation is by identification of Clostridioides difficile in a faecal sample."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Clostridioides difficile is a gram-positive, anaerobic, spore-forming bacillus that is responsible for the development of antibiotic-associated diarrhoea and colitis. C difficile colitis results from a disturbance of the normal bacterial flora of the colon, colonization with C difficile, and release of toxins that cause mucosal inflammation and damage."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pseudomembranous colitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2114593305"
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Necrotising enterocolitis of newborn"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/141267925",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/141267925"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/911707612"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Intestinal infections due to Clostridioides difficile"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Clostridium difficile diarrhoea"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "colitis due to Clostridium difficile"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Clostridium difficile gastroenteritis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "C diff colitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "necrotizing enterocolitis due to clostridium difficile infection"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "foodborne clostridium difficile infection"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "enterocolitis due to Clostridium difficile"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Clostridium difficile colitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "CDAD – [clostridium difficile associated diarrhoea]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "C. difficile colitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pseudomembranous colitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2114593305"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "PMC - [pseudomembranous colitis]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2114593305"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Megacolon due to Clostridioides difficile"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1047622632"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "megacolon due to Clostridium difficile"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1047622632"
+    }
+  ]
+}

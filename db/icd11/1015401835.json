@@ -1,0 +1,66 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1015401835",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/850474319"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1015401835",
+  "code": "GA10.C2",
+  "source": "http://id.who.int/icd/entity/1015401835",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1015401835/postcoordinationScale/relational",
+      "axisName": "http://id.who.int/icd/schema/relational",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1013312453",
+        "http://id.who.int/icd/release/11/2024-01/mms/423444880"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1015401835/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1507624466",
+        "http://id.who.int/icd/release/11/2024-01/mms/1290701352"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1015401835/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/469219785",
+        "http://id.who.int/icd/release/11/2024-01/mms/782258967",
+        "http://id.who.int/icd/release/11/2024-01/mms/14576949/other"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Endometriosis of pelvic peritoneum"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition that is frequently idiopathic. This condition is characterised by ectopic growth and function of endometrial tissue extending 5 millimetres or less under the visceral or parietal pelvic peritoneal surface and appearing as black-brown or light red-orange lesions. This condition may be associated with remaining vestigial tissue from the wolffian or mullerian duct, or fragments endometrium refluxed backward into the peritoneal cavity during menstruation. This condition may also present with dysmenorrhoea, dyspareunia, nonmenstrual pelvic pain, infertility, alteration of menses, or may be asymptomatic. Confirmation is by laparoscopy and histological identification of ectopic fragments."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Endometriosis of pelvic peritoneum"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "endometriosis of pelvic peritoneum"
+      }
+    }
+  ]
+}

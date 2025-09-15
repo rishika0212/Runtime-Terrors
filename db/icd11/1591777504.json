@@ -1,0 +1,101 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1591777504",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1614632087"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1591777504",
+  "code": "PL13.50",
+  "source": "http://id.who.int/icd/entity/1591777504",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1591777504/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1435254666",
+        "http://id.who.int/icd/release/11/2024-01/mms/1766440644",
+        "http://id.who.int/icd/release/11/2024-01/mms/1954798891",
+        "http://id.who.int/icd/release/11/2024-01/mms/21500692",
+        "http://id.who.int/icd/release/11/2024-01/mms/334423054",
+        "http://id.who.int/icd/release/11/2024-01/mms/274880002",
+        "http://id.who.int/icd/release/11/2024-01/mms/1296093776",
+        "http://id.who.int/icd/release/11/2024-01/mms/868865918",
+        "http://id.who.int/icd/release/11/2024-01/mms/1218729044",
+        "http://id.who.int/icd/release/11/2024-01/mms/426429380",
+        "http://id.who.int/icd/release/11/2024-01/mms/197934298",
+        "http://id.who.int/icd/release/11/2024-01/mms/1256772020",
+        "http://id.who.int/icd/release/11/2024-01/mms/1639304259",
+        "http://id.who.int/icd/release/11/2024-01/mms/1473673350",
+        "http://id.who.int/icd/release/11/2024-01/mms/30659757",
+        "http://id.who.int/icd/release/11/2024-01/mms/577470983",
+        "http://id.who.int/icd/release/11/2024-01/mms/714000734",
+        "http://id.who.int/icd/release/11/2024-01/mms/1306203631",
+        "http://id.who.int/icd/release/11/2024-01/mms/1843895818",
+        "http://id.who.int/icd/release/11/2024-01/mms/435227771",
+        "http://id.who.int/icd/release/11/2024-01/mms/1583926619"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Incorrect route of drug or medicament, as mode of injury"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Overdose of substance, as mode of injury or harm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/11598009",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/11598009"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Incorrect route of drug or medicament, as mode of injury"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "wrong route of administration of drug"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "route error"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "administration error involving route of drug"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "medication error involving route of drug"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "adverse drug event involving route of drug administration"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Intravenous drug allowed to infuse via gravity instead of via intravenous pump"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1570986153"
+    }
+  ]
+}

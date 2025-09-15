@@ -1,0 +1,70 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/715458759",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1180919325"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#715458759",
+  "code": "CA80.2",
+  "source": "http://id.who.int/icd/entity/715458759",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/715458759/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Byssinosis due to exposure to cannabis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Lung disease caused by exposure to dusts from the processing cannabis."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/923122941"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Byssinosis due to exposure to cannabis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cannabosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cannabinosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Byssinosis due to exposure to hemp"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1472089266"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hemp-workers' disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1472089266"
+    }
+  ]
+}

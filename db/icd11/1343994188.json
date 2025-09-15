@@ -1,0 +1,67 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1343994188",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1871672644"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1343994188",
+  "code": "DA42.6",
+  "source": "http://id.who.int/icd/entity/1343994188",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1343994188/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731",
+        "http://id.who.int/icd/release/11/2024-01/mms/1290701352"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1343994188/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Menetrier disease"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Gastritis characterised by gastric mucosal hypertrophy, which may cause the giant rugal folds. The thickening of the rugae is predominantly caused by the expansion of the epithelial cell compartment of the gastric mucosa. Patients with Ménétrier disease most often present with hypoalbuminemia secondary to a loss of albumin into the gastric lumen."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Menetrier disease"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Giant hypertrophic gastritis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Giant hypertrophic hypersecretory gastritis"
+      }
+    }
+  ]
+}

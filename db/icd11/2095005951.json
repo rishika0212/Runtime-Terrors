@@ -1,0 +1,476 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2095005951",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2052707382"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2095005951",
+  "code": "FB32.1",
+  "source": "http://id.who.int/icd/entity/2095005951",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2095005951/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2095005951/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1922573088",
+        "http://id.who.int/icd/release/11/2024-01/mms/1359586520",
+        "http://id.who.int/icd/release/11/2024-01/mms/955996865",
+        "http://id.who.int/icd/release/11/2024-01/mms/507472176",
+        "http://id.who.int/icd/release/11/2024-01/mms/107652911",
+        "http://id.who.int/icd/release/11/2024-01/mms/720361080",
+        "http://id.who.int/icd/release/11/2024-01/mms/864968000"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Spontaneous rupture of muscle"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is a spontaneous tearing or separation of muscle fibres from other muscle fibres and/or tendons in the absence of trauma."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "The spontaneous tearing or separation of muscle fibers from other muscle fibers and/or tendons due to degenerative weakness in the absence of trauma."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "rupture of tendon"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/435227771",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/435227771"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "traumatic rupture of muscle - see injury of muscle by body region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/435227771",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/435227771"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spontaneous rupture of muscle"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "nontraumatic rupture of muscle"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spontaneous rupture of muscle, multiple sites"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/836422537"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "nontraumatic rupture of muscle, multiple sites"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/836422537"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spontaneous rupture of muscle, shoulder region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2126055700"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "nontraumatic rupture of muscle, shoulder region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2126055700"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spontaneous rupture of muscle, acromioclavicular joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2117264655"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nontraumatic rupture of muscle, acromioclavicular joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2117264655"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spontaneous rupture of muscle, glenohumeral joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/32259712"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nontraumatic rupture of muscle, glenohumeral joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/32259712"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spontaneous rupture of muscle, sternoclavicular joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1420019919"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nontraumatic rupture of muscle, sternoclavicula joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1420019919"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spontaneous rupture of muscle, upper arm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/504677305"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "nontraumatic rupture of muscle, upper arm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/504677305"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spontaneous rupture of muscle, humerus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1051387880"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nontraumatic rupture of muscle, humerus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1051387880"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spontaneous rupture of muscle, elbow joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1098136681"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nontraumatic rupture of muscle, elbow joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1098136681"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spontaneous rupture of muscle, forearm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2130395634"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "nontraumatic rupture of muscle, forearm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2130395634"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spontaneous rupture of muscle, wrist joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/355224646"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nontraumatic rupture of muscle, wrist joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/355224646"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spontaneous rupture of muscle, hand"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1673049475"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "nontraumatic rupture of muscle, hand"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1673049475"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spontaneous rupture of muscle, carpus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/99014132"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nontraumatic rupture of muscle, carpus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/99014132"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spontaneous rupture of muscle, fingers"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/739987593"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nontraumatic rupture of muscle, fingers"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/739987593"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spontaneous rupture of muscle, metacarpus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1020381503"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nontraumatic rupture of muscle, metacarpus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1020381503"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spontaneous rupture of muscle, pelvic region or thigh"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1566480331"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "nontraumatic rupture of muscle, pelvic region or thigh"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1566480331"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spontaneous rupture of muscle, buttock"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1118824862"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nontraumatic rupture of muscle, buttock"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1118824862"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spontaneous rupture of muscle, hip joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1484187878"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nontraumatic rupture of muscle, hip joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1484187878"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spontaneous rupture of muscle, lower leg"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1035015552"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "nontraumatic rupture of muscle, lower leg"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1035015552"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spontaneous rupture of muscle, knee joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/418310671"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nontraumatic rupture of muscle, knee joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/418310671"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spontaneous rupture of muscle, ankle or foot"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1839318591"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "nontraumatic rupture of muscle, ankle or foot"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1839318591"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spontaneous rupture of muscle, metatarsus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/413967087"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nontraumatic rupture of muscle, metatarsus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/413967087"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spontaneous rupture of muscle, tarsus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1411200751"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nontraumatic rupture of muscle, tarsus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1411200751"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spontaneous rupture of muscle, toes"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2050067729"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nontraumatic rupture of muscle, toes"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2050067729"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spontaneous rupture of muscle, ankle joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1541863069"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nontraumatic rupture of muscle, ankle joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1541863069"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spontaneous rupture of muscle, other joints in foot"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/344273926"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nontraumatic rupture of muscle, other joints in foot"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/344273926"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spontaneous rupture of muscle, head"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1506649849"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "nontraumatic rupture of muscle, head"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1506649849"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spontaneous rupture of muscle, neck"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/130287356"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "nontraumatic rupture of muscle, neck"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/130287356"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spontaneous rupture of muscle, vertebral column"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1286418195"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "nontraumatic rupture of muscle, vertebral column"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1286418195"
+    }
+  ]
+}

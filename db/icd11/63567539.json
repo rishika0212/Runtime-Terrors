@@ -1,0 +1,57 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/63567539",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/210935787"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#63567539",
+  "code": "9C40.10",
+  "source": "http://id.who.int/icd/entity/63567539",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/63567539/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Retrobulbar neuritis"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Retrobulbar neuritis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "retrobulbar optic neuritis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Secondary retrobulbar neuritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/466302765"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Retrobulbar neuritis in meningococcal infection"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1796937281"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1300710062",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/691643472"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/245322245",
+    "http://id.who.int/icd/release/11/2024-01/mms/1300710062/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1300710062/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1300710062",
+  "code": "2A21.1",
+  "source": "http://id.who.int/icd/entity/1300710062",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1300710062/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/223243926",
+        "http://id.who.int/icd/release/11/2024-01/mms/947150833",
+        "http://id.who.int/icd/release/11/2024-01/mms/1810600222"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1300710062/postcoordinationScale/histopathology",
+      "axisName": "http://id.who.int/icd/schema/histopathology",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1251027837",
+        "http://id.who.int/icd/release/11/2024-01/mms/1770652518"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1300710062/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Cutaneous mastocytosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Cutaneous mastocytosis is characterised by abnormal accumulation and proliferation of cutaneous mast cells. Most types are isolated but cutaneous mastocytosis can occur in association with systemic disease. Clinical forms include cutaneous mastocytoma, urticaria pigmentosa (the most frequent form), pseudoxanthomatous nodular cutaneous mastocytosis, telangiectasia macularis eruptiva perstans and diffuse cutaneous mastocytosis."
+  }
+}

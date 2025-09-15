@@ -1,0 +1,52 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/524661617",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1444354573"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#524661617",
+  "code": "LB15.3",
+  "source": "http://id.who.int/icd/entity/524661617",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/524661617/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1928625572"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Congenital diverticulitis of small intestine"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This refers to a clinical entity characterised by the presence of sac-like congenital herniations in the wall of the small intestine, in which the pouches of small intestine (diverticula) become infected or inflamed."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital diverticulitis of small intestine"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital diverticulitis of small intestine, with complication"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/828435967"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital diverticulitis of small intestine, without complication"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1459453329"
+    }
+  ]
+}

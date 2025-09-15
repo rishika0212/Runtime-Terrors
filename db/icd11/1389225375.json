@@ -1,0 +1,54 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1389225375",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/46690802"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1389225375",
+  "code": "9C61.2B",
+  "source": "http://id.who.int/icd/entity/1389225375",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1389225375/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1389225375/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/713028385",
+        "http://id.who.int/icd/release/11/2024-01/mms/581897143",
+        "http://id.who.int/icd/release/11/2024-01/mms/133207228"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Glaucoma caused by increased episcleral venous pressure"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Glaucoma caused by increased episcleral venous pressure"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "EVP - [episcleral venous pressure]"
+      }
+    }
+  ]
+}

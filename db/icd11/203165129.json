@@ -1,0 +1,66 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/203165129",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1167594753"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1906436716",
+    "http://id.who.int/icd/release/11/2024-01/mms/350889978",
+    "http://id.who.int/icd/release/11/2024-01/mms/203165129/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/203165129/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#203165129",
+  "code": "DA05",
+  "source": "http://id.who.int/icd/entity/203165129",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Epstein pearl"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1637787995",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1475546212"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/203165129/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1337584902",
+        "http://id.who.int/icd/release/11/2024-01/mms/809989035",
+        "http://id.who.int/icd/release/11/2024-01/mms/1693317813",
+        "http://id.who.int/icd/release/11/2024-01/mms/1802031003"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Cysts of oral or facial-neck region"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Cysts of oral or facial-neck region, having a distinct epithelial lining and division compared to the nearby tissue, which may contain air, fluids, or semi-solid material."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Most cystic lesions of the head and neck region are of embryonic origin. They are usually easily diagnosed and rarely need an additional workup. Some of these lesions may not be symptomatic until adulthood or may not be easily recognized. Knowledge of the embryonic origin is essential to successful treatment. Thyroglossal duct cysts (TDCs) comprise about 70% of congenital neck masses. Lymphangiomas can arise anywhere in the body, but their preferred site is the head and neck region (50%). They present at birth or in early childhood; 90% are diagnosed before the age of 2 years. Lymphangiomas are classified as macrocystic or microcystic. The macrocystic type consists of cysts bigger than 1cm and contains less than 5 cysts; in the microcystic type there are more than 5 cysts and/or they are smaller than 1 cm. Dermoid and epidermoid cysts result from entrapment of epithelial elements along embryonic lines of fusion and contain endodermal and ectodermal elements. Dermoids are differentiated from epidermoids histologically by the accessory glandular structures found in dermoids. Dermoids contain sebaceous glands, hair follicles and connective tissues. Both contain sebaceous material within the cyst cavity which accumulates with time and causes the cyst to increase in size."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Radicular cyst"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/752736185",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/752736185"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/214991332",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1741519874"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#214991332",
+  "code": "JB40.4",
+  "source": "http://id.who.int/icd/entity/214991332",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/214991332/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/915343154"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Pyrexia of unknown origin following delivery"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "puerperal fever"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/325070079",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/325070079"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pyrexia during labour, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/345665595",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/345665595"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pyrexia of unknown origin following delivery"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "fever following delivery"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "puerperal pyrexia NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Minor puerperal infection"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/878951082"
+    }
+  ]
+}

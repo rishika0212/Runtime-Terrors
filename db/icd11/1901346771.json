@@ -1,0 +1,67 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1901346771",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1645784155"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1901346771",
+  "code": "EE00.00",
+  "source": "http://id.who.int/icd/entity/1901346771",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1901346771/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/243611688",
+        "http://id.who.int/icd/release/11/2024-01/mms/1797255514"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Palmoplantar hyperhidrosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Excessive sweating of palms and soles. This is usually bilateral. Palmar hyperhidrosis may be triggered by emotional stress but, in severe cases, can be continuous and cause major disability by inhibiting normal social interaction and interfering with everyday tasks such as writing, preparing food or handling papers. Plantar hyperhidrosis may accompany palmar hyperhidrosis but may occur independently."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Palmoplantar hyperhidrosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Palmar hyperhidrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1127732084"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "sweaty palms"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1127732084"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Plantar hyperhidrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1282122610"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "sweaty feet"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1282122610"
+    }
+  ]
+}

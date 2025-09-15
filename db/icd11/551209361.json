@@ -1,0 +1,110 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/551209361",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/685124533"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#551209361",
+  "code": "2C73.3",
+  "source": "http://id.who.int/icd/entity/551209361",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Struma ovarii"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/185581438",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1470387017/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/551209361/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/551209361/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/551209361/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1409966790",
+        "http://id.who.int/icd/release/11/2024-01/mms/896293199",
+        "http://id.who.int/icd/release/11/2024-01/mms/1094217460",
+        "http://id.who.int/icd/release/11/2024-01/mms/238069351"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/551209361/postcoordinationScale/hasAlternativeSeverity1",
+      "axisName": "http://id.who.int/icd/schema/hasAlternativeSeverity1",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2023608436",
+        "http://id.who.int/icd/release/11/2024-01/mms/2001687278",
+        "http://id.who.int/icd/release/11/2024-01/mms/222322191",
+        "http://id.who.int/icd/release/11/2024-01/mms/841991559",
+        "http://id.who.int/icd/release/11/2024-01/mms/697502435"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/551209361/postcoordinationScale/hasAlternativeSeverity2",
+      "axisName": "http://id.who.int/icd/schema/hasAlternativeSeverity2",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1863636238",
+        "http://id.who.int/icd/release/11/2024-01/mms/885826145",
+        "http://id.who.int/icd/release/11/2024-01/mms/1746207012",
+        "http://id.who.int/icd/release/11/2024-01/mms/303697349"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Malignant teratoma of ovary"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A malignant germ cell tumour arising from the ovary. It usually affects females in their first two decades of life. It contains variable amounts of immature embryonal tissues. Based on the amount of immature neuroepithelial component, immature teratomas are graded from 1 to 3. The stage and grade of the tumour and the grade of the metastatic tumour are the important factors that predict prognosis. The use of cisplatin-based combination chemotherapy has significantly improved the survival rates of the patients."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant teratoma of ovary"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "teratoma with malignant transformation of ovary"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Immature or malignant embryonal teratoma of ovary"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2129632979"
+    }
+  ]
+}

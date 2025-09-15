@@ -1,0 +1,51 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/634116368",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1585949804"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/35402215",
+    "http://id.who.int/icd/release/11/2024-01/mms/1388337190",
+    "http://id.who.int/icd/release/11/2024-01/mms/634116368/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/634116368/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#634116368",
+  "code": "1D05",
+  "source": "http://id.who.int/icd/entity/634116368",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/634116368/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/974549086",
+        "http://id.who.int/icd/release/11/2024-01/mms/589510570",
+        "http://id.who.int/icd/release/11/2024-01/mms/1074640675",
+        "http://id.who.int/icd/release/11/2024-01/mms/1462096867"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/634116368/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Infectious cysts of the central nervous system"
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/911707612"
+  ]
+}

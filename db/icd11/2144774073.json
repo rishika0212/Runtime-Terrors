@@ -1,0 +1,91 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2144774073",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1412960686"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1651247891",
+    "http://id.who.int/icd/release/11/2024-01/mms/284578658",
+    "http://id.who.int/icd/release/11/2024-01/mms/2033345174",
+    "http://id.who.int/icd/release/11/2024-01/mms/845065622",
+    "http://id.who.int/icd/release/11/2024-01/mms/2144774073/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/2144774073/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2144774073",
+  "code": "1B70",
+  "source": "http://id.who.int/icd/entity/2144774073",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2144774073/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2144774073/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/223243926",
+        "http://id.who.int/icd/release/11/2024-01/mms/947150833",
+        "http://id.who.int/icd/release/11/2024-01/mms/1810600222"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2144774073/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2144774073/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1215034670",
+        "http://id.who.int/icd/release/11/2024-01/mms/1839638766",
+        "http://id.who.int/icd/release/11/2024-01/mms/501791005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1975056531",
+        "http://id.who.int/icd/release/11/2024-01/mms/828922344",
+        "http://id.who.int/icd/release/11/2024-01/mms/174465822",
+        "http://id.who.int/icd/release/11/2024-01/mms/612672352",
+        "http://id.who.int/icd/release/11/2024-01/mms/1882742628/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/1882742628/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Bacterial cellulitis, erysipelas or lymphangitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Diffuse, spreading infections of skin and soft tissues by a range of bacterial organisms, most commonly beta-haemolytic streptococci and Staphylococcus aureus. The clinical presentation is dependent not only on the organism but also on the manner in which it invades the tissues."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Eosinophilic cellulitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1860796142",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1860796142"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/911707612"
+  ]
+}

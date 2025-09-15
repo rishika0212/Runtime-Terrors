@@ -1,0 +1,66 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1443317238",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1008515027"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/749596428",
+    "http://id.who.int/icd/release/11/2024-01/mms/1239818910",
+    "http://id.who.int/icd/release/11/2024-01/mms/1443317238/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1443317238/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1443317238",
+  "code": "4A40",
+  "source": "http://id.who.int/icd/entity/1443317238",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Subacute cutaneous lupus erythematosus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/192274757",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/192274757"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic cutaneous lupus erythematosus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1849568465",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1849568465"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neonatal lupus erythematosus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/213855225",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/213855225"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1443317238/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/572581721",
+        "http://id.who.int/icd/release/11/2024-01/mms/390684604"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Lupus erythematosus"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "An autoimmune non-organ specific inflammatory disease characterised by the presence of antibodies to DNA, RNA and other components of the nucleus. It has a very variable clinical presentation and course ranging from an acute fulminant life-threatening disorder with involvement of heart, central nervous system and kidneys to an indolent chronic scarring skin disorder."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/213855225"
+  ]
+}

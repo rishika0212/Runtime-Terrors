@@ -1,0 +1,278 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1644926300",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/455330172"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1644926300",
+  "code": "EH90.3",
+  "source": "http://id.who.int/icd/entity/1644926300",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1644926300/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1644926300/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1357976561",
+        "http://id.who.int/icd/release/11/2024-01/mms/730488167",
+        "http://id.who.int/icd/release/11/2024-01/mms/1218764272",
+        "http://id.who.int/icd/release/11/2024-01/mms/986233688",
+        "http://id.who.int/icd/release/11/2024-01/mms/2093217246"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1644926300/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1644926300/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/460401849",
+        "http://id.who.int/icd/release/11/2024-01/mms/1642025150",
+        "http://id.who.int/icd/release/11/2024-01/mms/2024436666",
+        "http://id.who.int/icd/release/11/2024-01/mms/972666616"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Pressure ulceration grade 4"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Pressure ulcer with visible or directly palpable muscle, tendon or bone as a result of full thickness loss of skin and subcutaneous tissue. Slough or eschar may be present. The depth varies by anatomical location: grade IV pressure ulcers can be shallow in areas with little or no subcutaneous fat (e.g. bridge of the nose, ear, occiput and malleolus) but are typically deep and often undermine or tunnel into adjacent structures."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pressure injury stage 4 with full thickness tissue loss"
+      }
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pressure ulceration grade 4"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bedsore stage IV"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pressure injury stage 4 with full thickness tissue loss"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pressure ulcer category 4"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "stage IV pressure injury"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pressure injury stage 4"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "stage 4 decubitus ulcer"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pressure ulcer with full thickness skin and subcutaneous tissue loss with exposure of deep tissues"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "stage 4 pressure ulcer"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pressure ulceration grade 4 of head"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/785713513"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "stage 4 decubitus ulcer of head"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/785713513"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pressure ulceration grade 4 of upper limb"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1682857588"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "stage 4 decubitus ulcer of upper limb"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1682857588"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pressure ulceration grade 4 of spinous processes"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/506091677"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "stage 4 decubitus ulcer of spinous processes"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/506091677"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pressure ulceration grade 4 of iliac crest"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1266701892"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "stage 4 decubitus ulcer of iliac crest"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1266701892"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pressure ulceration grade 4 of sacrum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1357472042"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "stage 4 decubitus ulcer of sacrum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1357472042"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pressure ulceration grade 4 of ischium"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1248995504"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "stage 4 decubitus ulcer of ischium"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1248995504"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pressure ulceration grade 4 of trochanter"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1244684370"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "stage 4 decubitus ulcer of trochanter"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1244684370"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pressure ulceration grade 4 of heel"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/791115675"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "stage 4 decubitus ulcer of heel"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/791115675"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pressure ulceration grade 4 of other sites of lower limb"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/729749813"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "stage 4 decubitus ulcer of other sites of lower limb"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/729749813"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pressure ulceration grade 4 of upper back"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/135315980"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pressure ulceration grade 4 of lower back"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/769499088"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pressure ulceration grade 4 of toe"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1986978477"
+    }
+  ]
+}

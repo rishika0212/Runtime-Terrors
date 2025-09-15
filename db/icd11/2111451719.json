@@ -1,0 +1,123 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2111451719",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/423002561"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2111451719",
+  "code": "2B56.1",
+  "source": "http://id.who.int/icd/entity/2111451719",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2111451719/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2111451719/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/223243926",
+        "http://id.who.int/icd/release/11/2024-01/mms/947150833",
+        "http://id.who.int/icd/release/11/2024-01/mms/1810600222"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2111451719/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2111451719/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1409966790",
+        "http://id.who.int/icd/release/11/2024-01/mms/896293199",
+        "http://id.who.int/icd/release/11/2024-01/mms/1094217460",
+        "http://id.who.int/icd/release/11/2024-01/mms/238069351"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2111451719/postcoordinationScale/hasAlternativeSeverity2",
+      "axisName": "http://id.who.int/icd/schema/hasAlternativeSeverity2",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1863636238",
+        "http://id.who.int/icd/release/11/2024-01/mms/885826145",
+        "http://id.who.int/icd/release/11/2024-01/mms/1746207012",
+        "http://id.who.int/icd/release/11/2024-01/mms/303697349"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Angiosarcoma of skin"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A malignant tumour arising from the endothelial cells of the blood vessels. Microscopically, it is characterised by frequently open vascular anastomosing and branching channels. The malignant cells that line the vascular channels are spindle or epithelioid and often display hyperchromatic nuclei. Angiosarcomas most frequently occur in the skin and breast. Patients with long-standing lymphoedema are at increased risk of developing angiosarcoma."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Angiosarcoma of skin"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Haemangiosarcoma of skin"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Lymphangiosarcoma of skin"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cutaneous angiosarcoma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant haemangioendothelioma of skin"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Epithelioid haemangioendothelioma of skin"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1982931541"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Retiform haemangioendothelioma of skin"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/690947124"
+    }
+  ]
+}

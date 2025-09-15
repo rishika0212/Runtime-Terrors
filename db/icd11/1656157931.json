@@ -1,0 +1,120 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1656157931",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/62637936"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1656157931",
+  "code": "1D00.0",
+  "source": "http://id.who.int/icd/entity/1656157931",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculous meningoencephalitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/539334538",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/539334538"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Meningococcal encephalitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/374802025",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1664016479/other"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Encephalitis due to Listeria monocytogenes"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1226870901",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/268154767"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Encephalitis due to Leptospira species"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/815852228",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/751399056"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Encephalitis due to Nocardia species"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/755458125",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/6555116/other"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Encephalitis due to Borrelia species"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/521057354",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1614775629"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Burkholderia encephalomyelitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/991824556",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1563156715"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculous encephalitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/893477918",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/729372485/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1656157931/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Bacterial encephalitis"
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "An inflammatory process of the brain, frequently with evidence of meningeal involvement, due to infection by a bacterial agent. The clinical manifestations are usually acute, but may be subacute, with fever and variable combinations of convulsions, impaired mental state, and focal deficits. The spinal fluid may show a cellular reaction and elevated protein. Diagnosis is by neuroimaging, spinal fluid analysis and culture, PCR, and serologic tests."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/911707612"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bacterial encephalitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bacterial encephalomyelitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Encephalitis due to Treponema pallidum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/860133018"
+    }
+  ]
+}

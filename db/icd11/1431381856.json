@@ -1,0 +1,60 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1431381856",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/37094742"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1431381856",
+  "code": "LB99.1",
+  "source": "http://id.who.int/icd/entity/1431381856",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1431381856/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1431381856/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/759525864"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Humeral agenesis or hypoplasia"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Humeral agenesis or hypoplasia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Humeral agenesis or hypoplasia, unilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1787611693"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Humeral agenesis or hypoplasia, bilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1562372947"
+    }
+  ]
+}

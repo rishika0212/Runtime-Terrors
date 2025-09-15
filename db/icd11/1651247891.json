@@ -1,0 +1,68 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1651247891",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2144774073"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/896866865",
+    "http://id.who.int/icd/release/11/2024-01/mms/348525836",
+    "http://id.who.int/icd/release/11/2024-01/mms/1200236878",
+    "http://id.who.int/icd/release/11/2024-01/mms/1651247891/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1651247891/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1651247891",
+  "code": "1B70.0",
+  "source": "http://id.who.int/icd/entity/1651247891",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1651247891/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/223243926",
+        "http://id.who.int/icd/release/11/2024-01/mms/947150833",
+        "http://id.who.int/icd/release/11/2024-01/mms/1810600222"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1651247891/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1651247891/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1215034670",
+        "http://id.who.int/icd/release/11/2024-01/mms/1839638766",
+        "http://id.who.int/icd/release/11/2024-01/mms/501791005"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Erysipelas"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "postpartum or puerperal erysipelas"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1741519874",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1741519874"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/911707612"
+  ]
+}

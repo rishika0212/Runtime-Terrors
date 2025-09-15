@@ -1,0 +1,90 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1752952621",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1679904912"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1752952621",
+  "code": "NA06.A",
+  "source": "http://id.who.int/icd/entity/1752952621",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Contusion of lens"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/517232117",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/969612493"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Retained magnetic foreign body in lens, unilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/786111555",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/656856891"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Retained nonmagnetic foreign body in lens, unilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2032030812",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1114446511"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ocular laceration or rupture with hernia of lens, unilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1122023125",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1298549812"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Penetrating injury of lens without foreign body, unilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1416558837",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1243975513"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Penetrating wound of lens with foreign body, unilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/854192453",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1743180897/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1752952621/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Injury of lens"
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1804006919"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury of lens"
+      }
+    }
+  ]
+}

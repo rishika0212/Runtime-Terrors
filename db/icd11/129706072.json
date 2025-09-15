@@ -1,0 +1,80 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/129706072",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/473284654"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#129706072",
+  "code": "5A50.02",
+  "source": "http://id.who.int/icd/entity/129706072",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/129706072/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/468161208",
+        "http://id.who.int/icd/release/11/2024-01/mms/396058882/other"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Hypoparathyroidism due to destruction of the parathyroid glands"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Dysfunction of parathyroid glands can be caused by several etiologies such as radiation, destruction of parathyroid glands by granulomatous disease or cancer infiltration, and deposition of iron or copper."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1156263785"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1120566859"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hypoparathyroidism due to destruction of the parathyroid glands"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hypoparathyroidism after iodine thyroid ablation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/194701868"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hypoparathyroidism due to external radiation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2022711903"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hypoparathyroidism due to surgical removal of parathyroid gland"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1360469538"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hypoparathyroidism associated with haemochromatosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1542064349"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hypoparathyroidism associated with Wilson's disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/454881191"
+    }
+  ]
+}

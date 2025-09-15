@@ -1,0 +1,58 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1773110354",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2031277350"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1305314739",
+    "http://id.who.int/icd/release/11/2024-01/mms/1125942873",
+    "http://id.who.int/icd/release/11/2024-01/mms/738909516",
+    "http://id.who.int/icd/release/11/2024-01/mms/1773110354/other"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1773110354",
+  "code": "AA40",
+  "source": "http://id.who.int/icd/entity/1773110354",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1773110354/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1773110354/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1296498321"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acquired deformity of external auditory canal"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired deformity of external auditory canal"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acquired deformity of auditory canal NOS"
+      }
+    }
+  ]
+}

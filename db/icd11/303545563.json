@@ -1,0 +1,63 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/303545563",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1848472780"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#303545563",
+  "code": "GC08.2",
+  "source": "http://id.who.int/icd/entity/303545563",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/303545563/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1537645708"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/303545563/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/622600769",
+        "http://id.who.int/icd/release/11/2024-01/mms/1683090852"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/303545563/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1839638766"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Urinary tract infection, site not specified, due to Proteus"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease of the urinary tract, caused by an infection with the gram-negative bacteria Proteus. In females, this disease is characterised by dysuria, pyuria, or pollakiuria; in males, this disease may present with urethral discharge. Transmission is unknown. Confirmation is by identification of Proteus in a urinary sample."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/443932646"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/78758887"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Urinary tract infection, site not specified, due to Proteus"
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/570590716",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1842013215"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1374001879",
+    "http://id.who.int/icd/release/11/2024-01/mms/570590716/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/570590716/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#570590716",
+  "code": "NA62",
+  "source": "http://id.who.int/icd/entity/570590716",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/570590716/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/468902907",
+        "http://id.who.int/icd/release/11/2024-01/mms/53291568",
+        "http://id.who.int/icd/release/11/2024-01/mms/956558826"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/570590716/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482",
+        "http://id.who.int/icd/release/11/2024-01/mms/755612283"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Crushing injury of neck"
+  }
+}

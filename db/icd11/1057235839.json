@@ -1,0 +1,93 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1057235839",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1973223737"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1057235839",
+  "code": "DB91.0",
+  "source": "http://id.who.int/icd/entity/1057235839",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1057235839/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1209596839"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1057235839/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acute or subacute hepatic failure due to hepatitis virus"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Acute infection of hepatitis A, B, C, D and E viruses can cause acute and subacute hepatic failure. The prognosis varies depending on the virus."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute or subacute hepatic failure due to hepatitis virus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute hepatitis with hepatic failure"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute and subacute fulminant hepatitis due to other hepatitis virus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute or subacute fulminant hepatitis due to hepatitis A virus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1851910899"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute or subacute fulminant hepatitis due to hepatitis B virus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/992877758"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute or subacute fulminant hepatitis due to Hepatitis B virus with delta agent"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/529465392"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute or subacute fulminant hepatitis due to hepatitis E virus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/990338644"
+    }
+  ]
+}

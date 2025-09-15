@@ -1,0 +1,45 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1515439945",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1611980611"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1515439945",
+  "code": "2A60.32",
+  "source": "http://id.who.int/icd/entity/1515439945",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1515439945/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acute myeloid leukaemia with maturation"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "An acute myeloid leukaemia (AML) characterised by blasts with evidence of maturation to more mature neutrophils."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute myeloid leukaemia with maturation"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute myeloblastic leukaemia with maturation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1158632967"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/438407461",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/427802439"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#438407461",
+  "code": "9A24.1",
+  "source": "http://id.who.int/icd/entity/438407461",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/438407461/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Expansion of orbit"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Expansion of orbit"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital expansion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/766685275"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Post trauma expansion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/254894654"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Post radiation expansion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/906845387"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Post surgery expansion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/344886960"
+    }
+  ]
+}

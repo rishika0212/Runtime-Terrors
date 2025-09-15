@@ -1,0 +1,89 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2098149771",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2096491408"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2098149771",
+  "code": "1F23.30",
+  "source": "http://id.who.int/icd/entity/2098149771",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2098149771/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/422672176"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2098149771/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/622600769",
+        "http://id.who.int/icd/release/11/2024-01/mms/1683090852"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Candida meningitis"
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1080592090"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Candida meningitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "candidiasis meningitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Candidal meningitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "candida cerebral meningitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "candida spinal meningitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Candidal spinal meningitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "monilial meningitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "monilial spinal meningitis"
+      }
+    }
+  ]
+}

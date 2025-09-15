@@ -1,0 +1,81 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/956813047",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1609206873"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/145623962",
+    "http://id.who.int/icd/release/11/2024-01/mms/1780588137",
+    "http://id.who.int/icd/release/11/2024-01/mms/956813047/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/956813047/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#956813047",
+  "code": "BB70",
+  "source": "http://id.who.int/icd/entity/956813047",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postprocedural aortic valve stenosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1571995415",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1571995415"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/956813047/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2136808878",
+        "http://id.who.int/icd/release/11/2024-01/mms/437702716",
+        "http://id.who.int/icd/release/11/2024-01/mms/1754821737",
+        "http://id.who.int/icd/release/11/2024-01/mms/1594578199",
+        "http://id.who.int/icd/release/11/2024-01/mms/1992125824",
+        "http://id.who.int/icd/release/11/2024-01/mms/1458683894/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/1458683894/unspecified"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/956813047/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/562478860",
+        "http://id.who.int/icd/release/11/2024-01/mms/1663264387",
+        "http://id.who.int/icd/release/11/2024-01/mms/1201187093"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Aortic valve stenosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Aortic valve stenosis is abnormal narrowing of the aortic valve. This decreases the blood flow from heart to organs."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital supravalvar aortic stenosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1066595728",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1066595728"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital subaortic stenosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1350872731",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1350872731"
+    }
+  ]
+}

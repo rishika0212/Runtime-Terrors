@@ -1,0 +1,79 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/706550431",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1644587915"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/171433417",
+    "http://id.who.int/icd/release/11/2024-01/mms/1122828822",
+    "http://id.who.int/icd/release/11/2024-01/mms/752550365",
+    "http://id.who.int/icd/release/11/2024-01/mms/553304993",
+    "http://id.who.int/icd/release/11/2024-01/mms/2139722381",
+    "http://id.who.int/icd/release/11/2024-01/mms/706550431/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/706550431/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#706550431",
+  "code": "DB33",
+  "source": "http://id.who.int/icd/entity/706550431",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/706550431/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1777850685",
+        "http://id.who.int/icd/release/11/2024-01/mms/328294343",
+        "http://id.who.int/icd/release/11/2024-01/mms/2128592381",
+        "http://id.who.int/icd/release/11/2024-01/mms/204400509",
+        "http://id.who.int/icd/release/11/2024-01/mms/453411773",
+        "http://id.who.int/icd/release/11/2024-01/mms/894847549",
+        "http://id.who.int/icd/release/11/2024-01/mms/720455085",
+        "http://id.who.int/icd/release/11/2024-01/mms/720455085",
+        "http://id.who.int/icd/release/11/2024-01/mms/1614204137",
+        "http://id.who.int/icd/release/11/2024-01/mms/1431962259",
+        "http://id.who.int/icd/release/11/2024-01/mms/771220582"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/706550431/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Certain noninfectious colitis or proctitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Noninfectious colitis and proctitis is inflammation or tissue defect in the large intestine of non-infectious origin, but not included in inflammatory bowel diseases, including specific type of colitis, colitis due to medication including chemotherapy or radiation therapy side effects; or allergic or systemic disorders."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Inflammatory bowel diseases"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/598093212",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/598093212"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gastroenteritis or colitis of infectious origin"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/588616678",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/588616678"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ]
+}

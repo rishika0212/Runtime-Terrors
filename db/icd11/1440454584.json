@@ -1,0 +1,55 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1440454584",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/596278969"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1440454584",
+  "code": "PJ81",
+  "source": "http://id.who.int/icd/entity/1440454584",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1440454584/postcoordinationScale/aspectsOfArmedConflict",
+      "axisName": "http://id.who.int/icd/schema/aspectsOfArmedConflict",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowedExceptFromSameBlock",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/517417642",
+        "http://id.who.int/icd/release/11/2024-01/mms/699071140"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Explosion of aerial bomb during armed conflict"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Explosion of aerial bomb during armed conflict"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "struck by fragments or blast from explosion of aerial bomb during armed conflict"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Struck by fragments or blast from explosion of aerial bomb during armed conflict, military personnel"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1045154925"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Struck by fragments or blast from explosion of aerial bomb during armed conflict, civilian"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1795439140"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/765321840",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1267652425"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#765321840",
+  "code": "DD70.3",
+  "source": "http://id.who.int/icd/entity/765321840",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/765321840/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/326645548",
+        "http://id.who.int/icd/release/11/2024-01/mms/578694909"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/765321840/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731",
+        "http://id.who.int/icd/release/11/2024-01/mms/1507624466",
+        "http://id.who.int/icd/release/11/2024-01/mms/1290701352"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Crohn disease of large intestine"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Crohn’s disease, which is characterised by chronic and relapsing transmural inflammation, may affect any part of the digestive tract. This refers to Crohn disease involved in the large intestine."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Crohn disease of both small and large intestine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/395324298",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/395324298"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Crohn disease of large intestine"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "crohn disease of colon"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "crohn disease of large bowel"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "regional enteritis of large intestine"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "regional enteritis of the large bowel"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "regional colitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "CC - [Crohn colitis]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "GC - [granulomatous colitis]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "granulomatous colitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "regional enteritis of colon"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "regional enteritis of large bowel"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Crohn disease of large intestine with abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/599034233"
+    }
+  ]
+}

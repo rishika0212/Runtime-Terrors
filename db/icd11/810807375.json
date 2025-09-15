@@ -1,0 +1,47 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/810807375",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/344973791"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1547801209",
+    "http://id.who.int/icd/release/11/2024-01/mms/1789135912",
+    "http://id.who.int/icd/release/11/2024-01/mms/1613343556",
+    "http://id.who.int/icd/release/11/2024-01/mms/810807375/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/810807375/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#810807375",
+  "code": "8B44.0",
+  "source": "http://id.who.int/icd/entity/810807375",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spastic paraplegia - nephritis - deafness"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1364971507",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/186534168/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/810807375/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1297540670"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Hereditary spastic paraplegia"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Hereditary spastic paraplegias (HSP) comprise a genetically and clinically heterogeneous group of neurodegenerative disorders characterised by varying degrees of lower limb spasticity, pyramidal weakness, hyperreflexia and hypertonic bladder involvement. Clinically, HSPs can be divided into two main groups: uncomplicated (pure) and complicated (complex) forms depending on the presence of other neurological features including ataxia, peripheral neuropathy, cognitive impairment, epilepsy, amyotrophy, retinopathy, deafness, ichthyosis and extrapyramidal involvement, in addition to spastic paraparesis. Pure HSPs are characterised by slowly progressive lower extremity spasticity and weakness, often associated with hypertonic urinary disturbances, mild reduction of lower extremity vibration sense and, occasionally, of joint position sensation. Complex HSP forms are characterised by the presence of additional neurological or non-neurological features. A positive family history particularly in autosomal dominant cases is often but not always present. The diagnosis may be aided by neuroimaging and genetic testing."
+  }
+}

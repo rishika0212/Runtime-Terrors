@@ -1,0 +1,325 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1783829886",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/658360080"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1783829886",
+  "code": "GB40",
+  "source": "http://id.who.int/icd/entity/1783829886",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1783829886/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1783829886/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/476391827",
+        "http://id.who.int/icd/release/11/2024-01/mms/412389819",
+        "http://id.who.int/icd/release/11/2024-01/mms/761526554/unspecified"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1783829886/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/84161233",
+        "http://id.who.int/icd/release/11/2024-01/mms/1877494378",
+        "http://id.who.int/icd/release/11/2024-01/mms/69778702",
+        "http://id.who.int/icd/release/11/2024-01/mms/923657942",
+        "http://id.who.int/icd/release/11/2024-01/mms/1359757645",
+        "http://id.who.int/icd/release/11/2024-01/mms/591736785",
+        "http://id.who.int/icd/release/11/2024-01/mms/1039550850/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/1039550850/unspecified"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1783829886/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Nephritic syndrome"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Sudden onset of glomerular disease usually with severe (macroscopic/visible) haematuria accompanied by oliguria, elevated blood pressure, mild oedema and albuminuria or proteinuria usually of sub-nephrotic range. May be a cause of acute renal failure in which case the syndrome is termed rapidly progressive nephritis. Nephritic syndrome has many possible causes and is associated with renal light microscopic changes such hypercellularity, necrosis or thrombosis."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute nephritis"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tubulo-interstitial nephritis, not specified as acute or chronic"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/133532168",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/133532168"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nephritic syndrome"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute nephritis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "nephritis NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute nephritic syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1932151457"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute glomerular disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1932151457"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute glomerulonephritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1932151457"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Rapidly progressive nephritic syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1084292542"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "rapidly progressive glomerulonephritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1084292542"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "rapidly progressive nephritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1084292542"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic nephritic syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/897257355"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic glomerular disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/897257355"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic glomerulonephritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/897257355"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic nephritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/897257355"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "CGN - [chronic glomerulonephritis]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/897257355"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "glomerulonephritis nos specified as chronic"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/897257355"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "nephritis specified as chronic"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/897257355"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic nephritic syndrome : minor glomerular abnormality"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/914480092"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Minimal change lesion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/914480092"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic nephritic syndrome : focal and segmental glomerular lesions"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1405752906"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Focal and segmental: hyalinosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1405752906"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Focal and segmental: sclerosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1405752906"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Focal glomerulonephritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1405752906"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic nephritic syndrome : diffuse membranous glomerulonephritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/661079735"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic nephritic syndrome : diffuse mesangial proliferative glomerulonephritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1110215459"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic nephritic syndrome : diffuse endocapillary proliferative glomerulonephritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/834803895"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic nephritic syndrome : diffuse mesangiocapillary glomerulonephritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1418319139"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Membranoproliferative glomerulonephritis, types 1 and 3, or NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1418319139"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic nephritic syndrome : dense deposit disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/539264478"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Membranoproliferative glomerulonephritis, type 2"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/539264478"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic nephritic syndrome : diffuse crescentic glomerulonephritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1164920904"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Extracapillary glomerulonephritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1164920904"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic nephritic syndrome : other"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/939941130"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Proliferative glomerulonephritis NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/939941130"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic nephritic syndrome : unspecified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1565364384"
+    }
+  ]
+}

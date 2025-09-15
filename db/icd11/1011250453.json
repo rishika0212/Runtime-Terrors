@@ -1,0 +1,142 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1011250453",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1469571641"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1011250453",
+  "code": "1E51.2",
+  "source": "http://id.who.int/icd/entity/1011250453",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic hepatitis B, co-infected with hepatitis C virus and hepatitis D virus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1730315877",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/352087872/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1011250453/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1781315693"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1011250453/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/352087872"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Chronic hepatitis D"
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1320597992"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1270001765"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic hepatitis D"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hepatitis D NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic hepatitis B, co-infected with hepatitis D virus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1907860138"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic delta hepatitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1907860138"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic viral hepatitis B with delta-agent"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1907860138"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic viral hepatitis B with hepatitis D"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1907860138"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic HDV - [hepatitis D virus] infection"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1907860138"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hepatitis D-related cirrhosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1907860138"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic hepatitis B, co-infected with hepatitis D virus, with cirrhosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/629328717"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic hepatitis B, co-infected with hepatitis D virus, with cirrhosis, with cirrhosis-related complications"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/693921389"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic hepatitis B, co-infected with hepatitis D virus, with cirrhosis, without cirrhosis-related complications"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/199209992"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic hepatitis B, co-infected with hepatitis D virus, without cirrhosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/684833968"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic hepatitis B, co-infected with hepatitis D virus, without mention of cirrhosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1825512242"
+    }
+  ]
+}

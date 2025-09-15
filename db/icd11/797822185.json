@@ -1,0 +1,59 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/797822185",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1174774181"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/305908598",
+    "http://id.who.int/icd/release/11/2024-01/mms/2003830496",
+    "http://id.who.int/icd/release/11/2024-01/mms/64837151",
+    "http://id.who.int/icd/release/11/2024-01/mms/77501812",
+    "http://id.who.int/icd/release/11/2024-01/mms/293282687",
+    "http://id.who.int/icd/release/11/2024-01/mms/871952666",
+    "http://id.who.int/icd/release/11/2024-01/mms/1792850491",
+    "http://id.who.int/icd/release/11/2024-01/mms/797822185/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/797822185/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#797822185",
+  "code": "2A80",
+  "source": "http://id.who.int/icd/entity/797822185",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/797822185/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Follicular lymphoma"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Follicular lymphoma (FL) is a neoplasm composed of follicle centre (germinal centre) B-cells (typically both centrocytes and centroblasts/large transformed cells), which usually has at least a partially follicular pattern. t(14;18) with BCL2 rearrangement is frequently observed. If diffuse areas of any size comprised predominantly or entirely of blastic cells are present in any case of follicular lymphoma, a diagnosis of diffuse large B-cell lymphoma is also made. Lymphomas composed of centro cytes and centroblasts with an entirely diffuse pattern in the sampled tissue may be included in this category."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "follicular lymphoma with or without diffuse areas"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mature T-cell or NK-cell neoplasms"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/450630526",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/450630526"
+    }
+  ]
+}

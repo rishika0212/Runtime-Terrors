@@ -1,0 +1,66 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1932853630",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1416283029"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1326704288",
+    "http://id.who.int/icd/release/11/2024-01/mms/995644785",
+    "http://id.who.int/icd/release/11/2024-01/mms/1032036897",
+    "http://id.who.int/icd/release/11/2024-01/mms/710421258",
+    "http://id.who.int/icd/release/11/2024-01/mms/1972665520",
+    "http://id.who.int/icd/release/11/2024-01/mms/759774103",
+    "http://id.who.int/icd/release/11/2024-01/mms/1932853630/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1932853630",
+  "code": "NC18",
+  "source": "http://id.who.int/icd/entity/1932853630",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1932853630/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1932853630/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482",
+        "http://id.who.int/icd/release/11/2024-01/mms/755612283"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Traumatic amputation of shoulder or upper arm"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "traumatic amputation of arm, level unspecified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/266250940",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/266250940"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "traumatic amputation at elbow level"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/619727205",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/619727205"
+    }
+  ]
+}

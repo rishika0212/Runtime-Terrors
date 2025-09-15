@@ -1,0 +1,46 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/790009325",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/647013871"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1094869648",
+    "http://id.who.int/icd/release/11/2024-01/mms/1298374900",
+    "http://id.who.int/icd/release/11/2024-01/mms/790009325/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#790009325",
+  "code": "FA81",
+  "source": "http://id.who.int/icd/entity/790009325",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/790009325/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1302669122"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/790009325/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1296093776",
+        "http://id.who.int/icd/release/11/2024-01/mms/1569734721",
+        "http://id.who.int/icd/release/11/2024-01/mms/1170330671"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Spondylolysis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is a condition characterised by degeneration of a portion of the vertebra, usually in the pars interarticularis (the bone bridge between the superior and inferior facet joints of the lumbar vertebra)."
+  }
+}

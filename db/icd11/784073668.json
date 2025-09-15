@@ -1,0 +1,61 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/784073668",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/153712793"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#784073668",
+  "code": "KA22.1",
+  "source": "http://id.who.int/icd/entity/784073668",
+  "classKind": "category",
+  "title": {
+    "@language": "en",
+    "@value": "Large newborn for gestational age"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A birth weight greater than the 90th percentile for gestational age or birth weight 4000-4499 g at term regardless of period of gestation."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Syndrome of infant of mother with gestational diabetes"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1500607905",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1500607905"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Syndrome of infant of a diabetic mother, type 1 or 2, nongestational, insulin dependent"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1010481205",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1010481205"
+    }
+  ],
+  "codingNote": {
+    "@language": "en",
+    "@value": "When both birth weight and gestational age are available, priority of assignment should be given to birth weight."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Large newborn for gestational age"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Birth weight 4000g to 4499g"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Other fetus or infant heavy- or large-for-dates regardless of period of gestation"
+      }
+    }
+  ]
+}

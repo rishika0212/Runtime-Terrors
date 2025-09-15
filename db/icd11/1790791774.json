@@ -1,0 +1,165 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1790791774",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1730556128"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1790791774",
+  "code": "RA01.0",
+  "source": "http://id.who.int/icd/entity/1790791774",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1790791774/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/243015485"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1790791774/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1024154490"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1790791774/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/425996485",
+        "http://id.who.int/icd/release/11/2024-01/mms/1061373903",
+        "http://id.who.int/icd/release/11/2024-01/mms/1062820800"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "COVID-19, virus identified"
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Coronavirus disease 2019"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "COVID-19 NOS"
+      }
+    }
+  ],
+  "fullySpecifiedName": {
+    "@language": "en",
+    "@value": "Coronavirus disease 2019"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Coronavirus infection, unspecified site"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/258345505",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/258345505"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Middle East respiratory syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1840423014",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1840423014"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Severe acute respiratory syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/652944603",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/652944603"
+    }
+  ],
+  "codingNote": {
+    "@language": "en",
+    "@value": "Use this code when infection with the COVID-19 virus (SARS-CoV-2) has been confirmed by laboratory testing irrespective of severity of clinical signs or symptoms."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "COVID-19, virus identified"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "2019-new Coronavirus acute respiratory disease (deprecated)"
+      },
+      "deprecated": true
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "2019-nCoV acute respiratory disease [temporary name] (deprecated)"
+      },
+      "deprecated": true
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Coronavirus disease 2019"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "SARS-CoV-2 disease"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "confirmed COVID-19"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "confirmed COVID-19 with symptoms"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "COVID-19 confirmed with laboratory testing with symptoms"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "COVID-19 NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Coronavirus disease 2019"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "COVID-19 with pneumonia, SARS-CoV-2 identified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/201495528"
+    }
+  ]
+}

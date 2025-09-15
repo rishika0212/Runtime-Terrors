@@ -1,0 +1,70 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1952274258",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/383104340"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/24719336",
+    "http://id.who.int/icd/release/11/2024-01/mms/1976860439",
+    "http://id.who.int/icd/release/11/2024-01/mms/1634086968",
+    "http://id.who.int/icd/release/11/2024-01/mms/1302613751",
+    "http://id.who.int/icd/release/11/2024-01/mms/1952274258/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1952274258/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1952274258",
+  "code": "NE81",
+  "source": "http://id.who.int/icd/entity/1952274258",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1952274258/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/460401849",
+        "http://id.who.int/icd/release/11/2024-01/mms/1642025150",
+        "http://id.who.int/icd/release/11/2024-01/mms/1162198017",
+        "http://id.who.int/icd/release/11/2024-01/mms/431804121"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Injury or harm arising from a procedure, not elsewhere classified"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Any complication attributable to a medical, surgical or other clinical procedure which cannot be more precisely coded elsewhere in the classification."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Harmful effects of drugs, medicaments or biological substances, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1868408442",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1868408442"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Failure or rejection of transplanted organs or tissues"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/129221830",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/129221830"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury or harm arising following infusion, transfusion or therapeutic injection, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/286694084",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/286694084"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/59436623"
+  ]
+}

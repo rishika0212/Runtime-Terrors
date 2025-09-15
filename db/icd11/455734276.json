@@ -1,0 +1,385 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/455734276",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/236519650"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#455734276",
+  "code": "2E86.0",
+  "source": "http://id.who.int/icd/entity/455734276",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/455734276/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/648738923"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/455734276/postcoordinationScale/histopathology",
+      "axisName": "http://id.who.int/icd/schema/histopathology",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/256601600",
+        "http://id.who.int/icd/release/11/2024-01/mms/615907984",
+        "http://id.who.int/icd/release/11/2024-01/mms/898433742",
+        "http://id.who.int/icd/release/11/2024-01/mms/1542783399",
+        "http://id.who.int/icd/release/11/2024-01/mms/1641453049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1414302005",
+        "http://id.who.int/icd/release/11/2024-01/mms/2071221171",
+        "http://id.who.int/icd/release/11/2024-01/mms/1890573639",
+        "http://id.who.int/icd/release/11/2024-01/mms/766478646",
+        "http://id.who.int/icd/release/11/2024-01/mms/1642090647",
+        "http://id.who.int/icd/release/11/2024-01/mms/1602781249",
+        "http://id.who.int/icd/release/11/2024-01/mms/1607814945",
+        "http://id.who.int/icd/release/11/2024-01/mms/185794736",
+        "http://id.who.int/icd/release/11/2024-01/mms/890296952",
+        "http://id.who.int/icd/release/11/2024-01/mms/754848708",
+        "http://id.who.int/icd/release/11/2024-01/mms/645117096",
+        "http://id.who.int/icd/release/11/2024-01/mms/332644524",
+        "http://id.who.int/icd/release/11/2024-01/mms/1501834697"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Leiomyoma of uterus"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A well-circumscribed benign smooth muscle neoplasm characterised by the presence of spindle cells with cigar-shaped nuclei, interlacing fascicles, and a whorled pattern."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Leiomyoma of uterus is benign smooth muscle neoplasm of uterus, that typically originate from the myometrium. The disease is usually clinically not significant, but may present symptoms including bleeding, pain, pressure sensation, or infertility by the location, number, size of the mass."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fibromyoma of uterus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/885495429"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Leiomyoma of cervix uteri"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/278118331"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Parasitic leiomyoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1158738826"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pedunculated leiomyoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1173687066"
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Leiomyoma of ovary"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2131890863",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2131890863"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Leiomyoma of fallopian tube"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2131890863",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2131890863"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Leiomyoma of broad ligament"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2131890863",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2131890863"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Leiomyoma of vagina"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2131890863",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2131890863"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Leiomyoma of vulva"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2131890863",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2131890863"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Benign non-mesenchymal neoplasms of uterus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1870963963",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1870963963"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Leiomyoma of uterus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Uterine myoma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "leiomyomata of uterus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "uterine fibroid"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "fibroid of corpus uteri"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "leiomyoma of corpus uteri"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "leiomyoma of body of uterus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "uterine fibroid tumour"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "uterine leiomyoma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Submucous leiomyoma of uterus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1852953497"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "submucous uterine fibroid"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1852953497"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "submucous uterine leiomyoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1852953497"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Submucous leiomyomata of uterus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1852953497"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Intramural leiomyoma of uterus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/188358157"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "interstitial leiomyoma of uterus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/188358157"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "interstitial uterine fibroid"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/188358157"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "intramural uterine fibroid"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/188358157"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "intramural uterine leiomyoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/188358157"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Intramural leiomyomata of uterus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/188358157"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Subserosal leiomyoma of uterus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2140622580"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "subserous leiomyoma of uterus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2140622580"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "subserous uterine fibroid"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2140622580"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "subserous uterine leiomyoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2140622580"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Subserosal leiomyomata of uterus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2140622580"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fibroleiomyoma of uterus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/72600959"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "leiomyofibroma NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/72600959"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "leiomyofibroma of uterus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/72600959"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fibromyoma of uterus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/885495429"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "fibromyoma of corpus uteri"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/885495429"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "uterine fibromyoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/885495429"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bizarre leiomyoma of unspecified site"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/877224987"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cellular leiomyoma of unspecified site"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1096306712"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Epithelioid leiomyoma of unspecified site"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/244117455"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Leiomyoma of cervix uteri"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/278118331"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Parasitic leiomyoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1158738826"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pedunculated leiomyoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1173687066"
+    }
+  ]
+}

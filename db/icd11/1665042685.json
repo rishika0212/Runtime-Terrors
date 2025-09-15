@@ -1,0 +1,74 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1665042685",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/587996426"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1665042685",
+  "code": "1A60.2",
+  "source": "http://id.who.int/icd/entity/1665042685",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1665042685/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/657977518",
+        "http://id.who.int/icd/release/11/2024-01/mms/1722408748",
+        "http://id.who.int/icd/release/11/2024-01/mms/311270680"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Late congenital syphilitic oculopathy"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is a late congenital, sexually transmitted infection caused by the spirochete bacterium Treponema pallidum subspecies pallidum. This diagnosis is with oculopathy."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/750696215"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/911707612"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Late congenital syphilitic oculopathy"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Late congenital syphilitic interstitial keratitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/858676642"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "congenital syphilitic interstitial keratitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/858676642"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Late congenital syphilitic optic atrophy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/595492502"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Late congenital syphilitic chorioretinitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/260060998"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/929788705",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/447433352"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#929788705",
+  "code": "2D10.1",
+  "source": "http://id.who.int/icd/entity/929788705",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/929788705/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/929788705/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/485621173"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/929788705/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/929788705/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1409966790",
+        "http://id.who.int/icd/release/11/2024-01/mms/896293199",
+        "http://id.who.int/icd/release/11/2024-01/mms/1094217460",
+        "http://id.who.int/icd/release/11/2024-01/mms/238069351"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/929788705/postcoordinationScale/hasAlternativeSeverity2",
+      "axisName": "http://id.who.int/icd/schema/hasAlternativeSeverity2",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1863636238",
+        "http://id.who.int/icd/release/11/2024-01/mms/885826145",
+        "http://id.who.int/icd/release/11/2024-01/mms/1746207012",
+        "http://id.who.int/icd/release/11/2024-01/mms/303697349"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Papillary carcinoma of thyroid gland"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A differentiated adenocarcinoma arising from the follicular cells of the thyroid gland. Radiation exposure is a risk factor and it is the most common malignant thyroid lesion, comprising 75% to 80% of all thyroid cancers in iodine sufficient countries. Diagnostic procedures include: thyroid ultrasound, and fine needle biopsy. Microscopically, the diagnosis is based on the distinct characteristics of the malignant cells, which include enlargement, oval shape, elongation, and overlapping of the nuclei. The nuclei also display clearing or have a ground glass appearance."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Papillary carcinoma of thyroid gland"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "papillary thyroid cancer"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "papillary carcinoma, diffuse sclerosing, thyroid gland"
+      }
+    }
+  ]
+}

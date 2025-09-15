@@ -1,0 +1,89 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/527065560",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/40398753"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#527065560",
+  "code": "DB10.00",
+  "source": "http://id.who.int/icd/entity/527065560",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/527065560/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/293771399",
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acute appendicitis with generalised peritonitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is a condition characterised by acute inflammation of the vermiform appendix that is extending into the free, not contained, inflammation of the peritoneum. There is usually a free perforation and surgical treatment is recommended."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute appendicitis with free perforation to the abdominal cavity"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute appendicitis with diffuse peritonitis following rupture or perforation"
+      }
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute appendicitis with generalised peritonitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute appendicitis with diffuse peritonitis following rupture or perforation"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute appendicitis with free peritonitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute appendicitis with free perforation to the abdominal cavity"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "perforated appendix with generalised peritonitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "appendicitis with perforation and free pus in the peritoneal cavity"
+      }
+    }
+  ]
+}

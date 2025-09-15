@@ -1,0 +1,54 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1437236609",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/192916160"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1437236609",
+  "code": "2E88",
+  "source": "http://id.who.int/icd/entity/1437236609",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1437236609/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/648738923"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Benign endometrial stromal nodule"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Benign endometrial stromal nodule"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "benign endometrial stromal tumour"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Endometrial node"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1781300782"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stromal nodule"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/712558265"
+    }
+  ]
+}

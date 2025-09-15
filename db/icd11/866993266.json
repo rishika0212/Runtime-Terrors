@@ -1,0 +1,72 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/866993266",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/392647661"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#866993266",
+  "code": "FA34.5",
+  "source": "http://id.who.int/icd/entity/866993266",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/866993266/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1188078244",
+        "http://id.who.int/icd/release/11/2024-01/mms/1921980626"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/866993266/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1569734721"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Impingement syndrome of hip"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Impingement syndrome of hip"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Femoroacetabular impingement due to femoral neck pathology"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/672311520"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Femoroacetabular impingement due to labral pathology"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/177306245"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Femoroacetabular impingement due to acetabular bone pathology"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1023564795"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Femoroacetabular impingement due to chondropathology"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/48215688"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1469571641",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/985510409"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/352087872",
+    "http://id.who.int/icd/release/11/2024-01/mms/1615937473",
+    "http://id.who.int/icd/release/11/2024-01/mms/1011250453",
+    "http://id.who.int/icd/release/11/2024-01/mms/1465996172",
+    "http://id.who.int/icd/release/11/2024-01/mms/1469571641/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1469571641/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1469571641",
+  "code": "1E51",
+  "source": "http://id.who.int/icd/entity/1469571641",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1469571641/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1294035808",
+        "http://id.who.int/icd/release/11/2024-01/mms/1781315693"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Chronic viral hepatitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease of the liver, caused by a chronic infection with a hepatotropic virus such as hepatitis B, C, D virus, with or without HIV (for six months or longer). This disease is characterised by fatigue, joint and muscle pain, jaundice, or urine of dark yellow colour. Transmission is by sexual contact, or direct contact with contaminated blood or body fluids. Confirmation is by detection of anti-hepatitis antibodies in the individual’s serum."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Alcoholic liver disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/469481605",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/469481605"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Autoimmune hepatitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1235727122",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1235727122"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Non-alcoholic fatty liver disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1912806631",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1912806631"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1270001765"
+  ]
+}

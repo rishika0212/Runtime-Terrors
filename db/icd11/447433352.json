@@ -1,0 +1,112 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/447433352",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1120037543"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/367567172",
+    "http://id.who.int/icd/release/11/2024-01/mms/929788705",
+    "http://id.who.int/icd/release/11/2024-01/mms/1227619262",
+    "http://id.who.int/icd/release/11/2024-01/mms/320540024",
+    "http://id.who.int/icd/release/11/2024-01/mms/578519098",
+    "http://id.who.int/icd/release/11/2024-01/mms/447433352/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/447433352/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#447433352",
+  "code": "2D10",
+  "source": "http://id.who.int/icd/entity/447433352",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Thyroid lymphoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/571063415",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/474972159"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/447433352/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/447433352/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/485621173"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/447433352/postcoordinationScale/histopathology",
+      "axisName": "http://id.who.int/icd/schema/histopathology",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1936976727",
+        "http://id.who.int/icd/release/11/2024-01/mms/926128505"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/447433352/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/447433352/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1409966790",
+        "http://id.who.int/icd/release/11/2024-01/mms/896293199",
+        "http://id.who.int/icd/release/11/2024-01/mms/1094217460",
+        "http://id.who.int/icd/release/11/2024-01/mms/238069351"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/447433352/postcoordinationScale/hasAlternativeSeverity2",
+      "axisName": "http://id.who.int/icd/schema/hasAlternativeSeverity2",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1863636238",
+        "http://id.who.int/icd/release/11/2024-01/mms/885826145",
+        "http://id.who.int/icd/release/11/2024-01/mms/1746207012",
+        "http://id.who.int/icd/release/11/2024-01/mms/303697349"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Malignant neoplasms of thyroid gland"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A primary or metastatic malignant neoplasm affecting the thyroid gland."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant mesenchymal neoplasms"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1965082709",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1965082709"
+    }
+  ]
+}

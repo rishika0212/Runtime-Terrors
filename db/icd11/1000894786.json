@@ -1,0 +1,95 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1000894786",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/135352227"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1000894786",
+  "code": "1A05",
+  "source": "http://id.who.int/icd/entity/1000894786",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postinfectious arthropathy in enteritis due to Yersinia enterocolitica"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/433889502",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1000894786"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1000894786/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/554373034"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Intestinal infections due to Yersinia enterocolitica"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease of the intestinal tract, caused by an infection with the gram-negative bacteria Yersinia enterocolitica. This disease commonly presents with a fever, diarrhoea, or abdominal pain. This disease may also lead to a systemic infection. Transmission is by the faecal-oral route from the ingestion of contaminated food or water, or direct contact with infected individuals or animal. Confirmation is by identification of Yersinia enterocolitica in a faecal sample."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Extraintestinal yersiniosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/63835650",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/63835650"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/911707612"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Intestinal infections due to Yersinia enterocolitica"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Intestinal yersiniosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Enteritis due to Yersinia enterocolitica"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1807415433"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "infectious enteritis due to yersinia enterocolitica"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1807415433"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postinfectious arthropathy in enteritis due to Yersinia enterocolitica"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/433889502"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Colitis due to Yersinia enterocolitica"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/173749429"
+    }
+  ]
+}

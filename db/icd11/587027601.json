@@ -1,0 +1,96 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/587027601",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1437088006"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#587027601",
+  "code": "JB0B.0",
+  "source": "http://id.who.int/icd/entity/587027601",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/587027601/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1579456332"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Retained placenta without haemorrhage"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition characterised by a placenta that has not been expelled from the uterus during the third stage of labour and up to 30 minutes following delivery, and without haemorrhage. This condition is caused by uterine atony, a trapped placenta, or a placenta accreta. This condition may lead to primary postpartum haemorrhage or infection."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Retained placenta without haemorrhage"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "total retained placenta without haemorrhage"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "retained placenta NOS without haemorrhage"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "secundines retention without haemorrhage"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "trapped placenta without haemorrhage"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "placental retention without haemorrhage"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Adherent placenta without haemorrhage"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/27450834"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Placenta accreta without haemorrhage"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1292502914"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Placenta increta without haemorrhage"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/965904963"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Placenta percreta without haemorrhage"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/251571668"
+    }
+  ]
+}

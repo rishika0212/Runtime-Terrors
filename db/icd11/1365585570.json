@@ -1,0 +1,60 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1365585570",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/817691561"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/437268550",
+    "http://id.who.int/icd/release/11/2024-01/mms/1857904825",
+    "http://id.who.int/icd/release/11/2024-01/mms/200715565",
+    "http://id.who.int/icd/release/11/2024-01/mms/1279577094",
+    "http://id.who.int/icd/release/11/2024-01/mms/1365585570/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1365585570/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1365585570",
+  "code": "1F53",
+  "source": "http://id.who.int/icd/entity/1365585570",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1365585570/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1269730048",
+        "http://id.who.int/icd/release/11/2024-01/mms/654702340"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Chagas disease"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease caused by an infection with the protozoan parasite Trypanosoma cruzi. This disease is characterised by fever, headache, lymphadenopathy, pallor, muscle pain, dyspnoea, swelling, or abdominal or chest pain. This disease may also be asymptomatic. Transmission is by direct contact with faeces from an infected triatomine bug, vertical transmission, iatrogenic transmission, or ingestion of contaminated food or water. Confirmation is by identification of Trypanosoma cruzi in a blood sample."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Chagas disease, also known as American trypanosomiasis, is caused by infection with the protozoan parasite Trypanosoma cruzi. T cruzi is found mostly in blood sucking triatomine insects (kissing bugs) and small mammals in a sylvatic cycle that is enzootic from the southern and southwestern United States to central Argentina and Chile. T cruzi infection in humans occurs in a spotty distribution throughout the range of the sylvatic cycle. T cruzi infection is life-long. A minority of persons with long-standing T cruzi infection develop the serious cardiac and gastrointestinal problems that characterize chronic symptomatic Chagas disease."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "American trypanosomiasis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "infection due to Trypanosoma cruzi"
+      }
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1945127438"
+  ]
+}

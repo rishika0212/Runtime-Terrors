@@ -1,0 +1,80 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/500696645",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/46690802"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#500696645",
+  "code": "9C61.2A",
+  "source": "http://id.who.int/icd/entity/500696645",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/500696645/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/500696645/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1158914813"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Glaucoma due to drugs"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Glaucoma due to drugs"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Glaucoma secondary to drugs"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Corticosteroid-induced glaucoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1843279252"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "corticosteroid glaucoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1843279252"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "steroid-induced glaucoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1843279252"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Glaucoma due to corticosteroid treatment"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1843279252"
+    }
+  ]
+}

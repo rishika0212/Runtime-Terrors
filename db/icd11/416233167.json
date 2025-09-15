@@ -1,0 +1,59 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/416233167",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2043723510"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#416233167",
+  "code": "BB63.0",
+  "source": "http://id.who.int/icd/entity/416233167",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/416233167/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/562478860",
+        "http://id.who.int/icd/release/11/2024-01/mms/1663264387",
+        "http://id.who.int/icd/release/11/2024-01/mms/1201187093"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/416233167/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Rheumatic mitral stenosis with insufficiency"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Mitral stenosis and mitral insufficiency occur in patients with rheumatic heart disease."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1380872553"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Rheumatic mitral stenosis with insufficiency"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "rheumatic mitral insufficiency with obstruction"
+      }
+    }
+  ]
+}

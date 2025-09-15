@@ -1,0 +1,73 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1275309968",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1838213761"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1072540840",
+    "http://id.who.int/icd/release/11/2024-01/mms/816962726",
+    "http://id.who.int/icd/release/11/2024-01/mms/1364462139",
+    "http://id.who.int/icd/release/11/2024-01/mms/1506672895",
+    "http://id.who.int/icd/release/11/2024-01/mms/761483266",
+    "http://id.who.int/icd/release/11/2024-01/mms/797673629",
+    "http://id.who.int/icd/release/11/2024-01/mms/1275309968/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1275309968/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1275309968",
+  "code": "GA10.B",
+  "source": "http://id.who.int/icd/entity/1275309968",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1275309968/postcoordinationScale/relational",
+      "axisName": "http://id.who.int/icd/schema/relational",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1013312453",
+        "http://id.who.int/icd/release/11/2024-01/mms/423444880"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1275309968/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/475546725",
+        "http://id.who.int/icd/release/11/2024-01/mms/564122381",
+        "http://id.who.int/icd/release/11/2024-01/mms/344632447",
+        "http://id.who.int/icd/release/11/2024-01/mms/1520433389",
+        "http://id.who.int/icd/release/11/2024-01/mms/836634455",
+        "http://id.who.int/icd/release/11/2024-01/mms/269017418",
+        "http://id.who.int/icd/release/11/2024-01/mms/862783222"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1275309968/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1237004558",
+        "http://id.who.int/icd/release/11/2024-01/mms/1507624466",
+        "http://id.who.int/icd/release/11/2024-01/mms/1290701352"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Endometriosis of the reproductive system"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Endometriosis of the uterus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/171294592",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/171294592"
+    }
+  ]
+}

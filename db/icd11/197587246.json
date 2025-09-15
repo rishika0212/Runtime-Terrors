@@ -1,0 +1,73 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/197587246",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/132592466"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1685012958",
+    "http://id.who.int/icd/release/11/2024-01/mms/480351633",
+    "http://id.who.int/icd/release/11/2024-01/mms/1172376859",
+    "http://id.who.int/icd/release/11/2024-01/mms/1616929118",
+    "http://id.who.int/icd/release/11/2024-01/mms/807995843",
+    "http://id.who.int/icd/release/11/2024-01/mms/1031437858",
+    "http://id.who.int/icd/release/11/2024-01/mms/55732315",
+    "http://id.who.int/icd/release/11/2024-01/mms/197587246/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/197587246/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#197587246",
+  "code": "DD90",
+  "source": "http://id.who.int/icd/entity/197587246",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/197587246/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/72252748",
+        "http://id.who.int/icd/release/11/2024-01/mms/1493524587",
+        "http://id.who.int/icd/release/11/2024-01/mms/337700"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/197587246/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Functional oesophageal or gastroduodenal disorders"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This group incorporates oesophageal and gastroduodenal disorders which principally present unpleasant upper gastrointestinal complaints without apparent morphological changes of oesophagus and gastroduodenum."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bodily distress disorder"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/767044268",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/767044268"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hypochondriasis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/675329566",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/675329566"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ]
+}

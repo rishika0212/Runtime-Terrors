@@ -1,0 +1,328 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1612485599",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1740672793"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1612485599",
+  "code": "NE83.1",
+  "source": "http://id.who.int/icd/entity/1612485599",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infection due to pacemaker or implantable cardioverter defibrillator"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1871888610",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/135357495/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1612485599/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1612485599/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/622600769",
+        "http://id.who.int/icd/release/11/2024-01/mms/1683090852"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1612485599/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1642025150",
+        "http://id.who.int/icd/release/11/2024-01/mms/1162198017",
+        "http://id.who.int/icd/release/11/2024-01/mms/431804121"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Infection arising from device, implant or graft, not elsewhere classified"
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/59436623"
+  ],
+  "codingNote": {
+    "@language": "en",
+    "@value": "This code should not be used if the type of infection is specified"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infection arising from device, implant or graft, not elsewhere classified"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infection or inflammatory reaction due to other cardiac and vascular devices, implants and grafts NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1930435652"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infection or inflammation of artificial heart NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2145480805"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infection or inflammation of vascular balloon implant or device NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/608354362"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infection or inflammatory reaction of heart valve prosthesis NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/375116246"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "infection or inflammation of heart valve prosthesis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/375116246"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infection and inflammatory reaction due to cardiac valve prosthesis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/375116246"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infection or inflammatory reaction of coronary artery bypass graft NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/846078185"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infection or inflammatory reaction of renal dialysis catheter NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1388571204"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infection or inflammatory reaction of vascular catheter NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/308013227"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Central line infection NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2063051062"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infection and inflammatory reaction due to internal joint prosthesis NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1165441256"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infection and inflammatory reaction due to internal fixation device, any site, NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/836397079"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infection or inflammatory reaction due to other internal orthopaedic prosthetic devices, implants and grafts NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1418831235"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infection or inflammatory of bone graft NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/81110667"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infection or inflammation of bone growth stimulator NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/876739953"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infection and inflammatory reaction due to prosthetic device, implant and graft in urinary system"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2114865578"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bladder infection due to device"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2114865578"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "infection due to indwelling urinary catheter"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2114865578"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infection and inflammatory reaction due to prosthetic device, implant and graft in genital tract"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/178461015"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infection or inflammation complication of intrauterine contraceptive device"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/907399603"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "infection or inflammation complication of IUD – [intrauterine contraceptive device]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/907399603"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infection or inflammation complication of penile prosthesis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/845479411"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infection and inflammatory reaction due to other internal prosthetic devices, implants and grafts"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1214868738"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infection or inflammation of bile duct implant NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1361358566"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infection or inflammation of breast implant NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1971696248"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infection or inflammation of chin implant NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1786787986"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infection or inflammation of corneal graft NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2051711268"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infection or inflammation of intraocular lens NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/93616811"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infection or inflammation of eye implant NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/881432721"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infection or inflammation of intraperitoneal catheter NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2136460340"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infection or inflammation of electronic stimulator of nervous system, NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/898552783"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infection or inflammation of neurostimulator NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1643064368"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infection or inflammation of ventricular shunt NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2071225770"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infected VP shunt"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2071225770"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infected Ventriculoperitoneal shunt"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2071225770"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infection or inflammation of epidural or subdural spinal catheter NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/609471515"
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/186956137",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/286694084"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#186956137",
+  "code": "NE80.3",
+  "source": "http://id.who.int/icd/entity/186956137",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Serum sickness vasculitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/340796962",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/572581721/other"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Anaphylactic shock due to serum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2139744662",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1868068711/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/186956137/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2024436666",
+        "http://id.who.int/icd/release/11/2024-01/mms/789379606"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Other serum reactions"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "serum hepatitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1208480469",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1337277167"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/59436623"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Other serum reactions"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Allergic reaction to serum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/760903979"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "serum allergy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/760903979"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Complications of vaccination, protein sickness"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/331111267"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Protein sickness"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/331111267"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "transfusion reaction due to serum protein reaction"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/331111267"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Complications of vaccination, serum reaction"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1190374700"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Vaccination encephalopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1091293511"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "serum encephalopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1091293511"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Serum rash"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/979934456"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "urticaria due to serum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/979934456"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Serum sickness"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/715261250"
+    }
+  ]
+}

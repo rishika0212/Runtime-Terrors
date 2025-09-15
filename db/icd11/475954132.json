@@ -1,0 +1,60 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/475954132",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1658265422"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#475954132",
+  "code": "PG21",
+  "source": "http://id.who.int/icd/entity/475954132",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/475954132/postcoordinationScale/activityWhenInjured",
+      "axisName": "http://id.who.int/icd/schema/activityWhenInjured",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2071638841",
+        "http://id.who.int/icd/release/11/2024-01/mms/1107435129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1428847289",
+        "http://id.who.int/icd/release/11/2024-01/mms/821249273",
+        "http://id.who.int/icd/release/11/2024-01/mms/160164281"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/475954132/postcoordinationScale/objectOrSubstanceProducingInjury",
+      "axisName": "http://id.who.int/icd/schema/objectOrSubstanceProducingInjury",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/254646600",
+        "http://id.who.int/icd/release/11/2024-01/mms/1936176450"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/475954132/postcoordinationScale/transportEventDescriptor",
+      "axisName": "http://id.who.int/icd/schema/transportEventDescriptor",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowedExceptFromSameBlock",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2037136197",
+        "http://id.who.int/icd/release/11/2024-01/mms/1075090949",
+        "http://id.who.int/icd/release/11/2024-01/mms/1463612101",
+        "http://id.who.int/icd/release/11/2024-01/mms/594925588"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Air or space transport injury event of undetermined intent with aircraft or spacecraft not damaged, disabled or destroyed"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Air or space transport injury event of undetermined intent with aircraft or spacecraft not damaged, disabled or destroyed"
+      }
+    }
+  ]
+}

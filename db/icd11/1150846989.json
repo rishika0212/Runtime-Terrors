@@ -1,0 +1,44 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1150846989",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/530888618"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1150846989",
+  "code": "DD91.2",
+  "source": "http://id.who.int/icd/entity/1150846989",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1150846989/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Functional diarrhoea"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Functional diarrhoea is a continuous or recurrent syndrome characterised by the passage of loose (mushy) or watery stools without abdominal pain or discomfort."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Functional diarrhoea"
+      }
+    }
+  ]
+}

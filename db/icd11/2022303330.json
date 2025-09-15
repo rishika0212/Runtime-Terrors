@@ -1,0 +1,53 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2022303330",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/944754984"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/98595592",
+    "http://id.who.int/icd/release/11/2024-01/mms/911785965",
+    "http://id.who.int/icd/release/11/2024-01/mms/216625985",
+    "http://id.who.int/icd/release/11/2024-01/mms/588958190",
+    "http://id.who.int/icd/release/11/2024-01/mms/214592620",
+    "http://id.who.int/icd/release/11/2024-01/mms/15445528",
+    "http://id.who.int/icd/release/11/2024-01/mms/583219258",
+    "http://id.who.int/icd/release/11/2024-01/mms/357570888",
+    "http://id.who.int/icd/release/11/2024-01/mms/2022303330/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/2022303330/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2022303330",
+  "code": "2B31",
+  "source": "http://id.who.int/icd/entity/2022303330",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2022303330/postcoordinationScale/histopathology",
+      "axisName": "http://id.who.int/icd/schema/histopathology",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/406219877",
+        "http://id.who.int/icd/release/11/2024-01/mms/501725963",
+        "http://id.who.int/icd/release/11/2024-01/mms/146718003"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2022303330/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Histiocytic or dendritic cell neoplasms"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "True histiocytic malignancies are vanishing diagnoses due to improved understanding of the provenance of malignant cells."
+  }
+}

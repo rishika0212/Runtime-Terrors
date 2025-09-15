@@ -1,0 +1,111 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/271545608",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/746680558"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#271545608",
+  "code": "1B12.0",
+  "source": "http://id.who.int/icd/entity/271545608",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/271545608/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2051676830",
+        "http://id.who.int/icd/release/11/2024-01/mms/512128824",
+        "http://id.who.int/icd/release/11/2024-01/mms/654702340"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/271545608/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/672063490"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Tuberculosis of heart"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Mycobacterium tuberculosis infection involving the heart and pericardium"
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1240824451"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/576751653"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculosis of heart"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculosis of endocardium"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/551171489"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "tuberculous endocarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/551171489"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Endocardial involvement in tuberculosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/551171489"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculosis of myocardium"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/633835087"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "tuberculous cardiomyopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/633835087"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "tuberculous myocarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/633835087"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculosis of pericardium"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2135325100"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "tuberculous pericarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2135325100"
+    }
+  ]
+}

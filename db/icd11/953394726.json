@@ -1,0 +1,49 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/953394726",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#953394726",
+  "code": "ME24.2",
+  "source": "http://id.who.int/icd/entity/953394726",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/953394726/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/953394726/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1630407678",
+        "http://id.who.int/icd/release/11/2024-01/mms/1256772020"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Digestive system obstruction"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is a clinical form of a sign indicating obstruction of digestive tract. This category will be used for postcoordination codes as complications of underlying illness."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Digestive system obstruction"
+      }
+    }
+  ]
+}

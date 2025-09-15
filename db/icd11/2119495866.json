@@ -1,0 +1,58 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2119495866",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/216625985"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2119495866",
+  "code": "2B31.20",
+  "source": "http://id.who.int/icd/entity/2119495866",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2119495866/postcoordinationScale/histopathology",
+      "axisName": "http://id.who.int/icd/schema/histopathology",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1247023727",
+        "http://id.who.int/icd/release/11/2024-01/mms/879262254",
+        "http://id.who.int/icd/release/11/2024-01/mms/1426997669",
+        "http://id.who.int/icd/release/11/2024-01/mms/1388720498"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2119495866/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Langerhans cell histiocytosis involving the skin"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Langerhans cell histiocytosis involving the skin"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Class I histiocytosis involving the skin"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Histiocytosis X involving the skin"
+      }
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/325070079",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1741519874"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#325070079",
+  "code": "JB40.0",
+  "source": "http://id.who.int/icd/entity/325070079",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/325070079/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/325070079/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/622600769",
+        "http://id.who.int/icd/release/11/2024-01/mms/1683090852"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/325070079/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/194200207",
+        "http://id.who.int/icd/release/11/2024-01/mms/1859686171",
+        "http://id.who.int/icd/release/11/2024-01/mms/443932646",
+        "http://id.who.int/icd/release/11/2024-01/mms/1139189645",
+        "http://id.who.int/icd/release/11/2024-01/mms/673901775"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Puerperal sepsis"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Obstetric pyaemic or septic embolism"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/759302477",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/759302477"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "sepsis during labour"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1909570991",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1124951812"
+    }
+  ],
+  "codingNote": {
+    "@language": "en",
+    "@value": "Any type of infection - bacterial, viral, fungal or protozoal, can cause sepsis and must be coded as well. When the site of infection is unknown, select a code for Infection of unspecified site by organism followed by the appropriate code for sepsis."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Puerperal sepsis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "puerperal fever"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "postpartum sepsis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "puerperal septicaemia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "generalised puerperal infection"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "major puerperal infection"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "puerperal pyaemia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Puerperal endometritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/360314812"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Puerperal metroperitonitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1087633763"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Puerperal metrosalpingitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/356237150"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "puerperal perimetrosalpingitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/356237150"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "puerperal pyosalpingitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/356237150"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "puerperal salpingoperitonitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/356237150"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Puerperal metrovaginitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1693243987"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Puerperal parametritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1622455549"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Puerperal pelvic sepsis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1097060209"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "puerperal peritoneal infection"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1097060209"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "puerperal pelviperitonitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1097060209"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "puerperal peritoneal abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1097060209"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "puerperal pyometra"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1097060209"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/768846885",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1520152220"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#768846885",
+  "code": "DC51.0",
+  "source": "http://id.who.int/icd/entity/768846885",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/768846885/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Chylous ascites"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Chylous ascites is a rare form of ascites caused by accumulation of lymph in the peritoneal cavity, usually due to intra-abdominal malignancy, liver cirrhosis or abdominal surgery complications, and present with painless but progressive abdominal distension, dyspnoea and weight gain."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chylous ascites"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chyloperitoneum"
+      }
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/91676746",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/46690802"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#91676746",
+  "code": "9C61.2C",
+  "source": "http://id.who.int/icd/entity/91676746",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/91676746/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/91676746/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2033444200",
+        "http://id.who.int/icd/release/11/2024-01/mms/477636850",
+        "http://id.who.int/icd/release/11/2024-01/mms/1758820365",
+        "http://id.who.int/icd/release/11/2024-01/mms/456911769",
+        "http://id.who.int/icd/release/11/2024-01/mms/1872149350",
+        "http://id.who.int/icd/release/11/2024-01/mms/228504985",
+        "http://id.who.int/icd/release/11/2024-01/mms/2121278989",
+        "http://id.who.int/icd/release/11/2024-01/mms/982190055",
+        "http://id.who.int/icd/release/11/2024-01/mms/1376721186/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/1376721186/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Secondary glaucoma due to extra-ocular mass"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Secondary glaucoma due to extra-ocular mass"
+      }
+    }
+  ]
+}

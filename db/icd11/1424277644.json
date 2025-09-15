@@ -1,0 +1,50 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1424277644",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/250196878"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1424277644",
+  "code": "9C61.30",
+  "source": "http://id.who.int/icd/entity/1424277644",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1424277644/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1424277644/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/890449463"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Secondary angle closure glaucoma with pupillary block"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Secondary angle closure glaucoma with pupillary block is a condition where an anteriorly subluxated lens occludes the pupil causing acute secondary angle closure and intraocular pressure elevation."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Secondary angle closure glaucoma with pupillary block"
+      }
+    }
+  ]
+}

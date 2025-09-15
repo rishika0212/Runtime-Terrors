@@ -1,0 +1,89 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/620858597",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/770439884"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/609020523",
+    "http://id.who.int/icd/release/11/2024-01/mms/620858597/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/620858597/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#620858597",
+  "code": "LD21",
+  "source": "http://id.who.int/icd/entity/620858597",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/620858597/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/620858597/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2055915829"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Syndromes with eye anomalies as a major feature"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Any syndrome caused by failure of one or both eyes to correctly develop during the antenatal period."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Septo-optic dysplasia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1890642169",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/768216194"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cat-eye syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1813923633",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1565415915"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aicardi syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2057245946",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1800958996"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Papillorenal syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/419164361",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1980732874"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "WAGR syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1858307812",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/565049612"
+    }
+  ]
+}

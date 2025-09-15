@@ -1,0 +1,90 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1289434438",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1693512470"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1289434438",
+  "code": "9B78.2",
+  "source": "http://id.who.int/icd/entity/1289434438",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1289434438/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Other proliferative retinopathy"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "proliferative vitreo-retinopathy with retinal detachment"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/276191780",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/357208479"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Proliferative diabetic retinopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/348602398",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/348602398"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Other proliferative retinopathy"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fibrosis of retina"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/467680911"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "preretinal fibrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/467680911"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Proliferative vitreoretinopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1908429642"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "PVR- [proliferative vitreoretinopathy]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1908429642"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "retinitis proliferans"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1908429642"
+    }
+  ]
+}

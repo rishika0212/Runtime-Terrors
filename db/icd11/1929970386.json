@@ -1,0 +1,76 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1929970386",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/572581721"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1929970386",
+  "code": "4A44.2",
+  "source": "http://id.who.int/icd/entity/1929970386",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1929970386/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1933239759"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Giant cell arteritis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Arteritis, often granulomatous, usually affecting the aorta and/or its major branches, with a predilection for the branches of the carotid artery. Often involves the temporal artery. Onset usually in patients older than 50 and often associated with polymyalgia rheumatica."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Giant cell arteritis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "GCA - [giant cell arteritis]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "temporal arteritis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cranial arteritis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Horton disease"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Giant cell arteritis with polymyalgia rheumatica"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/711560287"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Giant cell arteritis without polymyalgia rheumatica"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2133377198"
+    }
+  ]
+}

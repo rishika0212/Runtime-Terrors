@@ -1,0 +1,96 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1017662917",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1136802325"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1999221102",
+    "http://id.who.int/icd/release/11/2024-01/mms/59040145",
+    "http://id.who.int/icd/release/11/2024-01/mms/1017662917/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1017662917/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1017662917",
+  "code": "1D82",
+  "source": "http://id.who.int/icd/entity/1017662917",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mononucleosis due to cytomegalovirus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1784076753",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1784076753"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital cytomegalovirus infection"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1515465998",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1515465998"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Intestinal infections due to Cytomegalovirus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1519125035",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1519125035"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cytomegaloviral retinitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/315493536",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/315493536"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1017662917/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/956664712",
+        "http://id.who.int/icd/release/11/2024-01/mms/1358604969",
+        "http://id.who.int/icd/release/11/2024-01/mms/1054675109",
+        "http://id.who.int/icd/release/11/2024-01/mms/1154736543",
+        "http://id.who.int/icd/release/11/2024-01/mms/1584778394",
+        "http://id.who.int/icd/release/11/2024-01/mms/1957823459",
+        "http://id.who.int/icd/release/11/2024-01/mms/1024154490",
+        "http://id.who.int/icd/release/11/2024-01/mms/1917562684/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/698285441"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1017662917/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/236924369",
+        "http://id.who.int/icd/release/11/2024-01/mms/771273482",
+        "http://id.who.int/icd/release/11/2024-01/mms/1508081745"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Cytomegaloviral disease"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Any condition caused by an infection with cytomegalovirus. These conditions are commonly asymptomatic. Transmission is by direct contact with infected body fluids."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Cytomegaloviral disease is infection caused by cytomegalovirus which is a viral genus of the viral group known as Herpesviridae or herpesviruses. All herpesviruses share a characteristic ability to remain latent within the body over long periods. Although they may be found throughout the body, CMV infections are frequently associated with the salivary glands in humans and other mammals.\nthe Infection is characterized by enlarged cells bearing intranuclear inclusions. Infection may be in almost any organ, but the salivary glands are the most common site in children, as are the lungs in adults."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1515465998"
+  ]
+}

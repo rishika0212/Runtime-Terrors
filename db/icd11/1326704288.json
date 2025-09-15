@@ -1,0 +1,77 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1326704288",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1932853630"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1326704288",
+  "code": "NC18.0",
+  "source": "http://id.who.int/icd/entity/1326704288",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1326704288/postcoordinationScale/distribution",
+      "axisName": "http://id.who.int/icd/schema/distribution",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1957947885",
+        "http://id.who.int/icd/release/11/2024-01/mms/167867186"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1326704288/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/719727487"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1326704288/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/980862652",
+        "http://id.who.int/icd/release/11/2024-01/mms/851395624",
+        "http://id.who.int/icd/release/11/2024-01/mms/73322695",
+        "http://id.who.int/icd/release/11/2024-01/mms/128104623",
+        "http://id.who.int/icd/release/11/2024-01/mms/1491356379",
+        "http://id.who.int/icd/release/11/2024-01/mms/491063206",
+        "http://id.who.int/icd/release/11/2024-01/mms/185842968",
+        "http://id.who.int/icd/release/11/2024-01/mms/2143219175",
+        "http://id.who.int/icd/release/11/2024-01/mms/558785723",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Traumatic amputation at right shoulder joint"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Traumatic amputation at right shoulder joint"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Complete traumatic amputation at right shoulder joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1849096193"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Partial traumatic amputation at right shoulder joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/249133642"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2138810005",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/778231924"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1595903337",
+    "http://id.who.int/icd/release/11/2024-01/mms/978600189",
+    "http://id.who.int/icd/release/11/2024-01/mms/361941097",
+    "http://id.who.int/icd/release/11/2024-01/mms/2138810005/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/2138810005/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2138810005",
+  "code": "QB94",
+  "source": "http://id.who.int/icd/entity/2138810005",
+  "classKind": "category",
+  "title": {
+    "@language": "en",
+    "@value": "Care involving dialysis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Care involving dialysis includes the preparation and maintenance of the patient and carer(s) on dialysis whether extracorporeal or peritoneal dialysis. This includes, but is not confined to: education, counselling, assessment and management of co-morbidities, prevention and management of infections (particularly blood borne) and psychosocial assessment and support."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "dialysis preparation and treatment"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "renal dialysis status"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1638226305",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1638226305"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/212928655",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1562167000"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#212928655",
+  "code": "9A78.51",
+  "source": "http://id.who.int/icd/entity/212928655",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/212928655/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/212928655/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/985771522"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Corneal staphyloma"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Corneal staphyloma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "staphyloma of cornea"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital staphyloma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Anterior corneal staphyloma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/6706747"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Intercalary staphyloma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1619645552"
+    }
+  ]
+}

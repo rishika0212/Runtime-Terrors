@@ -1,0 +1,78 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2058491071",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1523445293"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1008234693",
+    "http://id.who.int/icd/release/11/2024-01/mms/1498660177",
+    "http://id.who.int/icd/release/11/2024-01/mms/771681710",
+    "http://id.who.int/icd/release/11/2024-01/mms/1219829820",
+    "http://id.who.int/icd/release/11/2024-01/mms/995865520",
+    "http://id.who.int/icd/release/11/2024-01/mms/1578139194",
+    "http://id.who.int/icd/release/11/2024-01/mms/2058491071/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/2058491071/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2058491071",
+  "code": "FB84",
+  "source": "http://id.who.int/icd/entity/2058491071",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2058491071/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/183512318",
+        "http://id.who.int/icd/release/11/2024-01/mms/1415462031"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2058491071/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2058491071/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/515117475",
+        "http://id.who.int/icd/release/11/2024-01/mms/570881596"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Osteomyelitis or osteitis"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "osteomyelitis jaw"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/425213515",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/425213515"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "osteomyelitis vertebra"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/868468606",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/868468606"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1058496688",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1516023078"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1058496688",
+  "code": "9A03.10",
+  "source": "http://id.who.int/icd/entity/1058496688",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1058496688/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1058496688/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/844452979",
+        "http://id.who.int/icd/release/11/2024-01/mms/1468820019"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Cicatricial entropion of eyelid"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cicatricial entropion of eyelid"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "entropion due to scar"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cicatricial entropion of upper eyelid"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/359801591"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cicatricial entropion of lower eyelid"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1642033672"
+    }
+  ]
+}

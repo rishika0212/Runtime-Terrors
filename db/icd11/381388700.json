@@ -1,0 +1,117 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/381388700",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/911707612"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#381388700",
+  "code": "KA60",
+  "source": "http://id.who.int/icd/entity/381388700",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bacterial infection of fetus or newborn due to other and unspecified streptococci"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1540590898",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1935107489/unspecified"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bacterial infection of fetus or newborn due to other and unspecified staphylococci"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1244991579",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1935107489/unspecified"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/381388700/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/381388700/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1683090852",
+        "http://id.who.int/icd/release/11/2024-01/mms/1458683894",
+        "http://id.who.int/icd/release/11/2024-01/mms/508643963",
+        "http://id.who.int/icd/release/11/2024-01/mms/761526554",
+        "http://id.who.int/icd/release/11/2024-01/mms/519468631",
+        "http://id.who.int/icd/release/11/2024-01/mms/243925837",
+        "http://id.who.int/icd/release/11/2024-01/mms/1882742628"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Sepsis of fetus or newborn"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sepsis of fetus or newborn"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "neonatal sepsis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "perinatal sepsis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "neonatorum sepsis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sepsis of fetus or newborn due to streptococcus, group A"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1559390111"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sepsis of fetus or newborn due to streptococcus, group B"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1050165412"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sepsis of fetus or newborn due to staphylococcus aureus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/796843471"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sepsis of fetus or newborn due to Escherichia coli"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/970687439"
+    }
+  ]
+}

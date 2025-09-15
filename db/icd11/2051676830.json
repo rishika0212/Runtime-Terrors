@@ -1,0 +1,187 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2051676830",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2099186145"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2051676830",
+  "code": "BB20.0",
+  "source": "http://id.who.int/icd/entity/2051676830",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2051676830/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2051676830/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/183283901",
+        "http://id.who.int/icd/release/11/2024-01/mms/840155638/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/271545608",
+        "http://id.who.int/icd/release/11/2024-01/mms/1664016479/other"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Infectious pericarditis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease of the pericardium, caused by a secondary infection with a bacterial, viral, or fungal source. This disease is characterised by fever, odynophagia, cough, fatigue, or chest pain. Confirmation is by identification of the bacterial, viral, or fungal agent in a blood sample."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pyopericarditis"
+      }
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1380872553"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infectious pericarditis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "infective pericarditis NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute purulent pericarditis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "fibrinopurulent pericarditis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pericardium abscess"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pericardial abscess"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pyopericarditis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pyopericardium"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "suppurative pericarditis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute suppurative pericarditis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "purulent pericarditis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "septic pericarditis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bacterial pericarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1523310462"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute bacterial pericarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1523310462"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "subacute bacterial pericarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1523310462"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pneumococcal pericarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/290964281"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pneumopyopericardium"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/290964281"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pyopneumopericardium"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/290964281"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Viral pericarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/624707101"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aspergillus pericarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/731165592"
+    }
+  ]
+}

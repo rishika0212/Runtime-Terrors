@@ -1,0 +1,98 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1589820283",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2016483996"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1278038299",
+    "http://id.who.int/icd/release/11/2024-01/mms/70225648",
+    "http://id.who.int/icd/release/11/2024-01/mms/1633960826",
+    "http://id.who.int/icd/release/11/2024-01/mms/365499269",
+    "http://id.who.int/icd/release/11/2024-01/mms/1887624721",
+    "http://id.who.int/icd/release/11/2024-01/mms/57429381",
+    "http://id.who.int/icd/release/11/2024-01/mms/1713864721",
+    "http://id.who.int/icd/release/11/2024-01/mms/311087342",
+    "http://id.who.int/icd/release/11/2024-01/mms/2009144700",
+    "http://id.who.int/icd/release/11/2024-01/mms/1589820283/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1589820283/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1589820283",
+  "code": "NC93",
+  "source": "http://id.who.int/icd/entity/1589820283",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1589820283/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1589820283/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/805764304",
+        "http://id.who.int/icd/release/11/2024-01/mms/1574110781",
+        "http://id.who.int/icd/release/11/2024-01/mms/391521938",
+        "http://id.who.int/icd/release/11/2024-01/mms/711315902"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1589820283/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482",
+        "http://id.who.int/icd/release/11/2024-01/mms/755612283"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Dislocation or strain or sprain of joints or ligaments of knee"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "dislocation of knee recurrent"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2034137861",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2034137861"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Internal derangement of knee"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1686749305",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1686749305"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "derangement of patella"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/29494765",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/29494765"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "dislocation of knee old"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2034137861",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2034137861"
+    }
+  ]
+}

@@ -1,0 +1,606 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/983550510",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/882244568"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#983550510",
+  "code": "1B10.0",
+  "source": "http://id.who.int/icd/entity/983550510",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/983550510/postcoordinationScale/diagnosisConfirmedBy",
+      "axisName": "http://id.who.int/icd/schema/diagnosisConfirmedBy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/288778990",
+        "http://id.who.int/icd/release/11/2024-01/mms/162315363",
+        "http://id.who.int/icd/release/11/2024-01/mms/646401219"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/983550510/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2033392163",
+        "http://id.who.int/icd/release/11/2024-01/mms/909890232"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/983550510/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/672063490"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Respiratory tuberculosis, confirmed"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease of the respiratory tract, caused by an infection with the bacteria Mycobacterium tuberculosis, which has been confirmed by laboratory testing. This disease is characterised by chronic cough, and sputum production that may be haemorrhagic. Transmission is commonly by inhalation of infected respiratory secretions. Confirmation is by identification of Mycobacterium tuberculosis in clinical samples."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Respiratory tuberculosis is a bacterial infection by Mycobacterium tuberculosis complex that includes Mycobacterium tuberculosis, Mycobacterium bovis, Mycobacterium africanuum, and Mycobacterium canettii, into pharynx, larynx, trachea, bronchus, lung, or the other respiratory tracts. It can be transmitted by airborne spread. Respiratory tuberculosis presents the symptoms such as chronic cough, sputum production, or haemoptysis. Hoarseness, dysphonia and dysphagia can arise if the upper airway is involved by tuberculosis. Respiratory tuberculosis is diagnosed by sputum smear microscopy and mycobacterial culture, or tissue biopsy. This category refers to respiratory tuberculosis that has been bacteriologically and histologically confirmed."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1240824451"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/576751653"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Respiratory tuberculosis, confirmed"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "respiratory tuberculosis, with bacteriological or histological confirmation"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "tuberculosis of chest, with bacteriological or histological confirmation"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculosis of lung, confirmed by sputum microscopy with or without culture"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1912425785"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pulmonary tuberculosis confirmed by sputum microscopy with or without culture"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1912425785"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculous bronchiectasis confirmed by sputum microscopy with or without culture"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1686445200"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculous fibrosis of lung confirmed by sputum microscopy with or without culture"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/986641523"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculous pneumonia confirmed by sputum microscopy with or without culture"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/69785147"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculous pneumothorax confirmed by sputum microscopy with or without culture"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/605888121"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculosis of lung, confirmed by culture only"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/347504813"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pulmonary tuberculosis confirmed by culture only"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/347504813"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculosis of lung, confirmed histologically"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1612435540"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pulmonary tuberculosis confirmed histologically"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1612435540"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculosis of lung, confirmed by unspecified means"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/89136582"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pulmonary tuberculosis confirmed by unspecified means"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/89136582"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculosis of intrathoracic lymph nodes, confirmed bacteriologically or histologically"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1992199762"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculosis of hilar lymph nodes confirmed bacteriologically or histologically"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/437733325"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculosis of mediastinal lymph nodes confirmed bacteriologically or histologically"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/384509194"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculosis of tracheobronchial lymph nodes confirmed bacteriologically or histologically"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/858159306"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "tuberculous tracheobronchial adenopathy with bacteriological or histological confirmation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/858159306"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculosis of larynx, trachea or bronchus, confirmed bacteriologically or histologically"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/334840776"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculosis of bronchus confirmed bacteriologically or histologically"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/868450394"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bronchial tuberculosis with bacteriological and histological confirmation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/868450394"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bronchorrhagia tuberculosis with bacteriological and histological confirmation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/868450394"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bronchotracheal tuberculosis with bacteriological and histological confirmation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/868450394"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "peribronchitis tuberculosis with bacteriological and histological confirmation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/868450394"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "tracheobronchial tuberculosis with bacteriological and histological confirmation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/868450394"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "tuberculous bronchitis with bacteriological and histological confirmation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/868450394"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculosis of glottis confirmed bacteriologically or histologically"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/334907418"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "epiglottis tuberculosis with bacteriological or histological confirmation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/334907418"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculosis of larynx confirmed bacteriologically or histologically"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/54317484"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "tuberculous laryngitis with bacteriological and histological confirmation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/54317484"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "tuberculous perichondritis of larynx with bacteriological and histological confirmation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/54317484"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculosis of trachea confirmed bacteriologically or histologically"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2095188515"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "tracheal tuberculosis with bacteriological and histological confirmation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2095188515"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "tuberculous tracheitis with bacteriological and histological confirmation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2095188515"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculous pleurisy, confirmed bacteriologically or histologically"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1733825337"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "tuberculous pleurisy with bacteriological and histological confirmation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1733825337"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculous empyema confirmed bacteriologically or histologically"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1733825337"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "tuberculosis pyothorax with bacteriological and histological confirmation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1733825337"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculosis of pleura confirmed bacteriologically and histologically"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1733825337"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "tuberculosis hydrothorax with bacteriological and histological confirmation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1733825337"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "tuberculosis hydropneumothorax with bacteriological and histological confirmation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1733825337"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "tuberculosis haemothorax with bacteriological and histological confirmation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1733825337"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary respiratory tuberculosis, confirmed bacteriologically or histologically"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/34856621"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "primary ghon tubercle infection with bacteriological and histological confirmation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/34856621"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "primary tuberculous pleura with bacteriological and histological confirmation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/34856621"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "primary pulmonary tuberculous with bacteriological and histological confirmation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/34856621"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "primary respiratory tuberculous with bacteriological and histological confirmation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/34856621"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "complex primary tuberculosis with bacteriological and histological confirmation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/34856621"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "infantile tuberculosis with bacteriological and histological confirmation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/34856621"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "epituberculosis with bacteriological and histological confirmation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/34856621"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "primary pulmonary tuberculosis with bacteriological and histological confirmation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/34856621"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "primary tuberculosis with bacteriological and histological confirmation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/34856621"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pulmonary tuberculosis childhood type or first infection, with bacteriological and histological confirmation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/34856621"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "primary tuberculous pleurisy with bacteriological and histological confirmation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/34856621"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary tracheobronchial tuberculosis adenopathy with bacteriological or histological confirmation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2041438959"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary tuberculous bronchial fistula with bacteriological or histological confirmation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1196146855"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary tuberculous mediastinum with bacteriological or histological confirmation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1652989285"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculosis infection without clinical manifestations with bacteriological or histological confirmation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/852756026"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculous infection without clinical manifestations with bacteriological or histological confirmation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/852756026"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculous tonsillitis, with bacteriological or histological confirmation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/731555988"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculosis of sinus, with bacteriological or histological confirmation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/246549960"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "tuberculosis of any nasal sinus confirmed bacteriologically or histologically"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/246549960"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculous rhinitis, with bacteriological or histological confirmation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1319435697"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculous pharyngitis, with bacteriological or histological confirmation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2130451509"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculous pansinusitis, with bacteriological or histological confirmation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/196042968"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculous mediastinitis, with bacteriological or histological confirmation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/465717520"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculosis of throat, with bacteriological or histological confirmation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/645451613"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculosis of pharynx, with bacteriological or histological confirmation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1562084078"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculosis of nasopharynx, with bacteriological or histological confirmation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2030017984"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "nasopharyngeal tuberculosis confirmed bacteriologically or histologically"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2030017984"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculosis of hypopharynx, with bacteriological or histological confirmation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/954822071"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculosis of mediastinum, with bacteriological or histological confirmation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/671790831"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "mediastinal tuberculosis confirmed bacteriologically or histologically"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/671790831"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculosis of nose confirmed bacteriologically or histologically"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/317036751"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "nasal tuberculosis, with bacteriological or histological confirmation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/317036751"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculous sinusitis of any sinus, with bacteriological and histological confirmation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1917342308"
+    }
+  ]
+}

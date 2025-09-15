@@ -1,0 +1,103 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2035872925",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/733496698"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2035872925",
+  "code": "9B75.1",
+  "source": "http://id.who.int/icd/entity/2035872925",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2035872925/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2035872925/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1234750028",
+        "http://id.who.int/icd/release/11/2024-01/mms/1893754636",
+        "http://id.who.int/icd/release/11/2024-01/mms/1741161420",
+        "http://id.who.int/icd/release/11/2024-01/mms/34684300"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Non-traumatic macular hole"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Non-traumatic macular hole"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hole of macula"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hole degeneration of macula of retina"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stage 1, impending hole"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1912456093"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stage 2, full thickness macular hole <400 microns in maximum diameter"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/751981926"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "full thickness macular hole NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/751981926"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stage 3, full thickness macular hole >400 microns in maximum diameter"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/627663459"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stage 4, Full thickness macular hole >400 microns in maximum diameter + complete vitreous detachment"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1449372184"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Partial thickness macular hole"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/278914833"
+    }
+  ]
+}

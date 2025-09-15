@@ -1,0 +1,1575 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1158914813",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1583926619"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1158914813",
+  "code": "PL00",
+  "source": "http://id.who.int/icd/entity/1158914813",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1158914813/postcoordinationScale/medication",
+      "axisName": "http://id.who.int/icd/schema/medication",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/16341703",
+        "http://id.who.int/icd/release/11/2024-01/mms/373236638",
+        "http://id.who.int/icd/release/11/2024-01/mms/1756699061",
+        "http://id.who.int/icd/release/11/2024-01/mms/1891241424",
+        "http://id.who.int/icd/release/11/2024-01/mms/1193684303",
+        "http://id.who.int/icd/release/11/2024-01/mms/1853123588",
+        "http://id.who.int/icd/release/11/2024-01/mms/534456613",
+        "http://id.who.int/icd/release/11/2024-01/mms/428256012",
+        "http://id.who.int/icd/release/11/2024-01/mms/33615934",
+        "http://id.who.int/icd/release/11/2024-01/mms/648146092",
+        "http://id.who.int/icd/release/11/2024-01/mms/808405469",
+        "http://id.who.int/icd/release/11/2024-01/mms/1870704429",
+        "http://id.who.int/icd/release/11/2024-01/mms/1732158747",
+        "http://id.who.int/icd/release/11/2024-01/mms/1416993969",
+        "http://id.who.int/icd/release/11/2024-01/mms/2121804732",
+        "http://id.who.int/icd/release/11/2024-01/mms/2043582775",
+        "http://id.who.int/icd/release/11/2024-01/mms/1960627774",
+        "http://id.who.int/icd/release/11/2024-01/mms/1076458680",
+        "http://id.who.int/icd/release/11/2024-01/mms/448177412",
+        "http://id.who.int/icd/release/11/2024-01/mms/1864983449",
+        "http://id.who.int/icd/release/11/2024-01/mms/543245955",
+        "http://id.who.int/icd/release/11/2024-01/mms/2017927415",
+        "http://id.who.int/icd/release/11/2024-01/mms/511194385"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1158914813/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1435254666",
+        "http://id.who.int/icd/release/11/2024-01/mms/1766440644",
+        "http://id.who.int/icd/release/11/2024-01/mms/1954798891",
+        "http://id.who.int/icd/release/11/2024-01/mms/21500692",
+        "http://id.who.int/icd/release/11/2024-01/mms/334423054",
+        "http://id.who.int/icd/release/11/2024-01/mms/274880002",
+        "http://id.who.int/icd/release/11/2024-01/mms/1296093776",
+        "http://id.who.int/icd/release/11/2024-01/mms/868865918",
+        "http://id.who.int/icd/release/11/2024-01/mms/1218729044",
+        "http://id.who.int/icd/release/11/2024-01/mms/426429380",
+        "http://id.who.int/icd/release/11/2024-01/mms/197934298",
+        "http://id.who.int/icd/release/11/2024-01/mms/1256772020",
+        "http://id.who.int/icd/release/11/2024-01/mms/1639304259",
+        "http://id.who.int/icd/release/11/2024-01/mms/1473673350",
+        "http://id.who.int/icd/release/11/2024-01/mms/30659757",
+        "http://id.who.int/icd/release/11/2024-01/mms/714000734",
+        "http://id.who.int/icd/release/11/2024-01/mms/1306203631",
+        "http://id.who.int/icd/release/11/2024-01/mms/1843895818",
+        "http://id.who.int/icd/release/11/2024-01/mms/435227771",
+        "http://id.who.int/icd/release/11/2024-01/mms/1323892810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Drugs, medicaments or biological substances associated with injury or harm in therapeutic use"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Circumstances associated with exposure to a drug, medicament or biological substance influencing the episode of care without injury or harm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/933431200",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/933431200"
+    }
+  ],
+  "codingNote": {
+    "@language": "en",
+    "@value": "Code first the injury or harm associated with the substance. Code also the mode or mechanism that explains the main way the cause leads to injury or harm."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs, medicaments or biological substances associated with injury or harm in therapeutic use"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Systemic antibiotics"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/355487209"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Systemic antibiotics, Penicillins"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1705751430"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Systemic antibiotics, Cephalosporins or other beta-lactam antibiotics"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/14712336"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Systemic antibiotics, Chloramphenicol group"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1951215343"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Systemic antibiotics, Macrolides"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/285664123"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Systemic antibiotics, Tetracyclines"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1659400431"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Systemic antibiotics, Aminoglycosides"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/128171387"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Systemic antibiotics, Rifamycins"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1930358148"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Systemic antibiotics, Antifungal antibiotics, systemically used"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/373628946"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Other systemic anti-infectives or antiparasitics"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1887142013"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Other systemic anti-infectives or antiparasitics, Sulfonamides"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2035514117"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Other systemic anti-infectives or antiparasitics, Antimycobacterial drugs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/471381649"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Other systemic anti-infectives or antiparasitics, Antimalarials or drugs acting on other blood protozoa"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1756751472"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Other systemic anti-infectives or antiparasitics, Other antiprotozoal drugs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/234761210"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Other systemic anti-infectives or antiparasitics, Anthelminthics"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2115025006"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Other systemic anti-infectives or antiparasitics, Antiviral drugs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/458978812"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Other systemic anti-infectives or antiparasitics, Other specified systemic anti-infectives or antiparasitics"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2010447315"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury or harm in therapeutic use by hydroxyquinoline derivatives"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/10827774"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Hormones or their synthetic substitutes or antagonists, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/81186946"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Hormones or their synthetic substitutes or antagonists, not elsewhere classified, Glucocorticoids or synthetic analogues"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2027215675"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Hormones or their synthetic substitutes or antagonists, not elsewhere classified, Thyroid hormones or substitutes"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/496965295"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Hormones or their synthetic substitutes or antagonists, not elsewhere classified, Antithyroid drugs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1764902480"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Hormones or their synthetic substitutes or antagonists, not elsewhere classified, Insulin or oral hypoglycaemic drugs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/209292230"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury or harm in therapeutic use by insulin and oral hypoglycaemic [antidiabetic] drugs, Antidiabetic drugs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/209292230"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Hormones or their synthetic substitutes or antagonists, not elsewhere classified, Oral contraceptives"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2140608594"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Hormones or their synthetic substitutes or antagonists, not elsewhere classified, Other estrogens or progestogens"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/450680260"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Hormones or their synthetic substitutes or antagonists, not elsewhere classified, Antigonadotrophins, antiestrogens, antiandrogens, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1852933435"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury or harm in therapeutic use by tamoxifen"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1441448369"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Hormones or their synthetic substitutes or antagonists, not elsewhere classified, Androgens or anabolic congeners"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/188369071"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Primarily systemic agents"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1637686552"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Primarily systemic agents, Antiallergic or antiemetic drugs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1680610234"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Primarily systemic agents, Antineoplastic antimetabolites"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/23584304"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury or harm in therapeutic use by cytarabine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1900797219"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Primarily systemic agents, Antineoplastic natural products"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1976209105"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Primarily systemic agents, Other antineoplastic drugs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/276906821"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury or harm in therapeutic use by antineoplastic antibiotics"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/113812102"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Primarily systemic agents, Immunosuppressive agents"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1668272337"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Primarily systemic agents, Acidifying or alkalizing agents"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/103030085"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Primarily systemic agents, Enzymes, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1921600956"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Agents primarily affecting blood constituents"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/309563012"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Agents primarily affecting blood constituents, Iron preparations or other anti-hypochromic-anaemia preparations"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1599431420"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Agents primarily affecting blood constituents, Vitamin B, folic acid or other anti-megaloblastic-anaemia preparations"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/975089518"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Agents primarily affecting blood constituents, Anticoagulants"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1320419217"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Agents primarily affecting blood constituents, Anticoagulant antagonists, vitamin K or other coagulants"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/737686021"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Agents primarily affecting blood constituents, Antithrombotic drugs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1477878161"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Agents primarily affecting blood constituents, Thrombolytic drugs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1029532677"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury or harm caused by tissue‐type plasminogen activator in therapeutic use"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1946634013"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury or harm caused by tPA [tissue‐type plasminogen activator] in therapeutic use"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1946634013"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Agents primarily affecting blood constituents, Natural blood or blood products"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1240481018"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Agents primarily affecting blood constituents, Plasma substitutes"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/750514544"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Analgesics, antipyretics or anti-inflammatory drugs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2000175894"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Analgesics, antipyretics or anti-inflammatory drugs, Opioids or related analgesics"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1135454843"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Analgesics, antipyretics or anti-inflammatory drugs, Salicylates"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/652634095"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury or harm in therapeutic use of acetylsalicylic acid"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/922437902"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Analgesics, antipyretics or anti-inflammatory drugs, Propionic acid derivatives"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1380661010"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Analgesics, antipyretics or anti-inflammatory drugs, Other nonsteroidal anti-inflammatory drugs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/922811012"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Other NSAID"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/922811012"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Analgesics, antipyretics or anti-inflammatory drugs, Antirheumatics"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1156475152"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Analgesics, antipyretics or anti-inflammatory drugs, 4-Aminophenol derivatives"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/564503686"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Antiepileptics or antiparkinsonism drugs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/60101609"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Antiepileptics or antiparkinsonism drugs, Succinimides"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1110051397"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Antiepileptics or antiparkinsonism drugs, Oxazolidinediones"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/660719569"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Antiepileptics or antiparkinsonism drugs, Hydantoin derivatives"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1405916974"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Antiepileptics or antiparkinsonism drugs, Deoxybarbiturates"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/914840252"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Antiepileptics or antiparkinsonism drugs, Iminostilbenes"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1164560688"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury or harm in therapeutic use by carbamazepine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1998997595"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Antiepileptics or antiparkinsonism drugs, Valproic acid"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/539100346"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Antiepileptics or antiparkinsonism drugs, Other or unspecified antiepileptics"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1418679365"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Antiepileptics or antiparkinsonism drugs, Antiparkinsonism drugs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/834968017"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury or harm in therapeutic use by amantadine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/919735268"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Antiepileptics or antiparkinsonism drugs, Antispasticity drugs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1286442131"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Sedatives, hypnotics or antianxiety drugs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1725881981"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury or harm in therapeutic use by sleeping draught NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1725881981"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury or harm in therapeutic use by sleeping drug NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1725881981"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury or harm in therapeutic use by sleeping tablet NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1725881981"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Sedatives, hypnotics or antianxiety drugs, Barbiturates, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1590870724"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Sedatives, hypnotics or antianxiety drugs, Benzodiazepines"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/999886674"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Sedatives, hypnotics or antianxiety drugs, Cloral derivatives"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1328832431"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Sedatives, hypnotics or antianxiety drugs, Paraldehyde"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/713003579"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Sedatives, hypnotics or antianxiety drugs, Bromine compounds"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1502675375"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Sedatives, hypnotics or antianxiety drugs, Mixed sedatives or hypnotics, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1020972091"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Anaesthetics or therapeutic gases"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/465029951"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Anaesthetics or therapeutic gases, Inhaled anaesthetics"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/274076026"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Anaesthetics or therapeutic gases, Parenteral anaesthetics"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1964891372"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury or harm in therapeutic use of thiobarbiturates"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1671298477"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Anaesthetics or therapeutic gases, Other or unspecified general anaesthetics"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/28347411"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Anaesthetics or therapeutic gases, Local anaesthetics"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1694187911"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Anaesthetics or therapeutic gases, Therapeutic gases"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1918771079"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Psychotropic drugs, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2130445995"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Psychotropic drugs, not elsewhere classified, Tricyclic or tetracyclic antidepressants"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/212785657"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological, substances associated with injury or harm in therapeutic use, Psychotropic drugs, not elsewhere classified, Monoamine-oxidase-inhibitor antidepressants"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1776620653"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Psychotropic drugs, not elsewhere classified, Other or unspecified antidepressants"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/491275412"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Psychotropic drugs, not elsewhere classified, Phenothiazine antipsychotics or neuroleptics"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2013497606"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Psychotropic drugs, not elsewhere classified, Butyrophenone or thioxanthene neuroleptics"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/200088210"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Psychotropic drugs, not elsewhere classified, Other antipsychotics or neuroleptics"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1856427784"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Psychotropic drugs, not elsewhere classified, Psychodysleptics"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/436963321"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury or harm in therapeutic use of hallucinogens"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/436963321"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Psychotropic drugs, not elsewhere classified, Psychostimulants with abuse potential"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2134919789"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Central nervous system stimulants, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1123354098"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Central nervous system stimulants, not elsewhere classified, Analeptics"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1974571189"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Central nervous system stimulants, not elsewhere classified, Opioid receptor antagonists"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/284843297"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Central nervous system stimulants, not elsewhere classified, Methylxanthines, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1683426782"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury or harm in therapeutic use of caffeine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1018844192"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Drugs primarily affecting the autonomic nervous system"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/666814564"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Drugs primarily affecting the autonomic nervous system, Anticholinesterase agents"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1766414388"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Drugs primarily affecting the autonomic nervous system, Other parasympathomimetics"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/201495970"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury or harm in therapeutic use of cholinergics"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2004143495"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Drugs primarily affecting the autonomic nervous system, Ganglionic blocking drugs, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2024785247"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Drugs primarily affecting the autonomic nervous system, Other parasympatholytics or spasmolytics, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/501483723"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury or harm in therapeutic use of anticholinergics or antimuscarinics"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1916854905"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury or harm in therapeutic use of papaverine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2099024507"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Drugs primarily affecting the autonomic nervous system, Predominantly alpha-adrenoreceptor agonists, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1846188895"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury or harm in therapeutic use of metaraminol"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1828192893"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Drugs primarily affecting the autonomic nervous system, Predominantly beta-adrenoreceptor agonists, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/188831435"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Drugs primarily affecting the autonomic nervous system, Alpha-adrenoreceptor antagonists, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2146174518"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Drugs primarily affecting the autonomic nervous system, Beta-adrenoreceptor antagonists, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/447204256"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Drugs primarily affecting the autonomic nervous system, Centrally acting or adrenergic-neuron-blocking agents, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1741610722"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Agents primarily affecting the cardiovascular system"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1393793179"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Agents primarily affecting the cardiovascular system, Cardiac-stimulant glycosides or drugs of similar action"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1758394380"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Agents primarily affecting the cardiovascular system, Calcium-channel blockers"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/226833822"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Agents primarily affecting the cardiovascular system, Other antidysrhythmic drugs, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2032690529"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Agents primarily affecting the cardiovascular system, Coronary vasodilators, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/476293365"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury or harm in therapeutic use of dipyridamole"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/656824024"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Agents primarily affecting the cardiovascular system, Angiotensin-converting-enzyme inhibitors"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1871526753"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Agents primarily affecting the cardiovascular system, Other antihypertensive drugs, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/180811509"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury or harm in therapeutic use of clonidine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1292253983"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury or harm in therapeutic use of guanethidine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/966702812"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury or harm in therapeutic use of rauwolfia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/250777933"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Agents primarily affecting the cardiovascular system, Antihyperlipidaemic or antiarteriosclerotic drugs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2120984074"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Agents primarily affecting the cardiovascular system, Peripheral vasodilators"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/455109536"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury or harm in therapeutic use by nicotinic acid derivatives"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/28238159"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Agents primarily affecting the cardiovascular system, Antivaricose drugs, including sclerosing agents"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1716092638"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Agents primarily affecting the gastrointestinal system"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/911758607"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Agents primarily affecting the gastrointestinal system, Histamine H-receptor antagonists"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1949708427"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "histamine h 2 -receptor antagonists associated with injury or harm in therapeutic use"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1949708427"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Agents primarily affecting the gastrointestinal system, Other antacids or anti-gastric-secretion drugs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/293469471"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Agents primarily affecting the gastrointestinal system, Stimulant laxatives"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1708174818"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Agents primarily affecting the gastrointestinal system, Saline or osmotic laxatives"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/10182772"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Agents primarily affecting the gastrointestinal system, Other laxatives"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1937109984"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "injury or harm in therapeutic use of intestinal atonia drugs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1937109984"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Agents primarily affecting the gastrointestinal system, Digestants"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/373177974"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Agents primarily affecting the gastrointestinal system, Antidiarrhoeal drugs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1653829259"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Agents primarily affecting the gastrointestinal system, Emetics"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/131638047"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Agents primarily affecting water-balance or mineral or uric acid metabolism"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1169606299"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Agents primarily affecting water-balance or mineral or uric acid metabolism, Mineralocorticoids"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1330594251"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Agents primarily affecting water-balance or mineral or uric acid metabolism, Mineralocorticoid antagonists"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/704941151"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "injury or harm in therapeutic use of aldosterone antagonists"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/704941151"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Agents primarily affecting water-balance or mineral or uric acid metabolism, Carbonic-anhydrase inhibitors"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1588190368"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury or harm in therapeutic use of acetazolamide"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1808581738"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Agents primarily affecting water-balance or mineral or uric acid metabolism, Benzothiadiazine derivatives"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1004671286"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Agents primarily affecting water-balance or mineral or uric acid metabolism, Loop diuretics"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1208779426"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "injury or harm in therapeutic use of high-ceiling diuretics"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1208779426"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Agents primarily affecting water-balance or mineral or uric acid metabolism, Other diuretics"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/759648052"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Agents primarily affecting water-balance or mineral or uric acid metabolism, Electrolytic, caloric or water-balance agents"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1508515787"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury or harm in therapeutic use of oral rehydration salts"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1536435694"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Agents primarily affecting water-balance or mineral or uric acid metabolism, Agents affecting calcification"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1017238111"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury or harm in therapeutic use of parathyroid hormones or derivatives"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/78875743"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury or harm in therapeutic use of vitamin D group"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1051357385"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Agents primarily affecting water-balance or mineral or uric acid metabolism, Agents affecting uric acid metabolism"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1103677213"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Agents primarily affecting water-balance or mineral or uric acid metabolism, Mineral salts, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/612567689"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Agents primarily acting on smooth or skeletal muscles or the respiratory system"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/553454351"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Agents primarily acting on smooth or skeletal muscles or the respiratory system, Oxytocic drugs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1404537162"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury or harm in therapeutic use of ergot alkaloids"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/709593648"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Agents primarily acting on smooth or skeletal muscles or the respiratory system, Skeletal muscle relaxants"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/922502368"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "injury or harm in therapeutic use of neuromuscular blocking agents"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/922502368"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Agents primarily acting on smooth or skeletal muscles or the respiratory system, Other or unspecified agents primarily acting on muscles"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1112609825"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Agents primarily acting on smooth or skeletal muscles or the respiratory system, Antitussives"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/656071093"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Agents primarily acting on smooth or skeletal muscles or the respiratory system, Expectorants"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1425295905"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Agents primarily acting on smooth or skeletal muscles or the respiratory system, Anti-common-cold drugs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/834635701"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Agents primarily acting on smooth or skeletal muscles or the respiratory system, Antiasthmatics, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1158862668"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury or harm in therapeutic use of aminophylline"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1047922571"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury or harm in therapeutic use of salbutamol"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1159023162"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury or harm in therapeutic use of theobromine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/443591529"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury or harm in therapeutic use of theophylline"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1796256554"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Agents primarily acting on smooth or skeletal muscles or the respiratory system, Other or unspecified agents primarily acting on the respiratory system"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/542710494"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Topical agents primarily affecting skin or mucous membrane or ophthalmological, otorhinolaryngological or dental drugs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1414552560"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Topical agents primarily affecting skin or mucous membrane or ophthalmological, otorhinolaryngological or dental drugs, Local antifungal, anti-infective or anti-inflammatory drugs, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1378888054"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Topical agents primarily affecting skin or mucous membrane or ophthalmological, otorhinolaryngological or dental drugs, Antipruritics"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/930866400"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Topical agents primarily affecting skin or mucous membrane or ophthalmological, otorhinolaryngological or dental drugs, Local astringents or local detergents"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1138144287"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Topical agents primarily affecting skin or mucous membrane or ophthalmological, otorhinolaryngological or dental drugs, Emollients, demulcents or protectants"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/647854475"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Topical agents primarily affecting skin or mucous membrane or ophthalmological, otorhinolaryngological or dental drugs, Keratolytics, keratoplastics or other hair treatment drugs or preparations"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1433659935"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Topical agents primarily affecting skin or mucous membrane or ophthalmological, otorhinolaryngological or dental drugs, Ophthalmological drugs or preparations"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/808986507"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Topical agents primarily affecting skin or mucous membrane or ophthalmological, otorhinolaryngological drugs or preparations or dental drugs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1150646132"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Topical agents primarily affecting skin or mucous membrane or ophthalmological, otorhinolaryngological or dental drugs, Dental drugs, topically applied"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/568244962"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury or harm in therapeutic use of glucocorticoids, topically used"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1963975520"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Other or unspecified drugs or medicaments"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/823891558"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Other or unspecified drugs or medicaments, Appetite depressants"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1321787893"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "injury or harm in therapeutic use of anorectics"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1321787893"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Other or unspecified drugs or medicaments, Lipotropic drugs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/730016865"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Other or unspecified drugs or medicaments, Antidotes or chelating agents, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1596882080"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Other or unspecified drugs or medicaments, Alcohol deterrents"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/979742986"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Other or unspecified drugs or medicaments, Pharmaceutical excipients"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1233855134"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Other or unspecified drugs or medicaments, X-ray contrast media"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/750841612"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Other or unspecified drugs or medicaments, Other diagnostic agents"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1483587573"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Other or unspecified drugs or medicaments, Vitamins, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1025929825"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Bacterial vaccines"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1282573096"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Bacterial vaccines, BCG vaccine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/4993609"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Bacterial vaccines, Typhoid or paratyphoid vaccine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1695023069"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Bacterial vaccines, Cholera vaccine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/296398626"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Bacterial vaccines, Plague vaccine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1960927928"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Bacterial vaccines, Tetanus vaccine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/118485284"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Bacterial vaccines, Diphtheria vaccine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1648639158"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Bacterial vaccines, Pertussis vaccine, including combinations with a pertussis component"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/384396361"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Bacterial vaccines, Mixed bacterial vaccines, except combinations with a pertussis component"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/248231071"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Other or unspecified vaccines or biological substances"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/691621554"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Other or unspecified vaccines or biological substances, Viral vaccines"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/481622728"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs, medicaments or biological substances associated with injury or harm in therapeutic use, COVID-19 vaccine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/135018067"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Correct administration of COVID-19 vaccine in prophylactic therapeutic use as the cause of any adverse effect"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/135018067"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Other or unspecified vaccines or biological substances, Rickettsial vaccines"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2046768990"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Other or unspecified vaccines or biological substances, Protozoal vaccines"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/223504291"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drugs medicaments or biological substances associated with injury or harm in therapeutic use, Other or unspecified vaccines or biological substances, Immunoglobulin"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1746512439"
+    }
+  ]
+}

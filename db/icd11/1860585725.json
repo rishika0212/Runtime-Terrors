@@ -1,0 +1,50 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1860585725",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1252082051"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1615419254",
+    "http://id.who.int/icd/release/11/2024-01/mms/1379959665",
+    "http://id.who.int/icd/release/11/2024-01/mms/1860585725/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1860585725/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1860585725",
+  "code": "BD73.2",
+  "source": "http://id.who.int/icd/entity/1860585725",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1860585725/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1860585725/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1832356831",
+        "http://id.who.int/icd/release/11/2024-01/mms/389580608",
+        "http://id.who.int/icd/release/11/2024-01/mms/929449332"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Systemic vein obstruction"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A postnatal pathologic condition of a systemic vein in which flow is impeded or blocked due to narrowing or atresia."
+  }
+}

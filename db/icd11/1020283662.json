@@ -1,0 +1,62 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1020283662",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1251496839"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1020283662",
+  "code": "1D63",
+  "source": "http://id.who.int/icd/entity/1020283662",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1020283662/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1077952784",
+        "http://id.who.int/icd/release/11/2024-01/mms/624712907"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Henipavirus encephalitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Acute bat-borne disease characterised by fever and headaches. The disease may progress to drowsiness, disorientation, mental confusion, and finally encephalitis (brain swelling) in less than a week. This progression may occur with or without an acute respiratory distress component. The incubation period ranges from 4 to 14 days. Lethality is high."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/911707612"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Henipavirus encephalitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Encephalitis due to Henipavirus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Encephalitis due to Hendra virus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/359035801"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Encephalitis due to Nipah virus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/661628832"
+    }
+  ]
+}

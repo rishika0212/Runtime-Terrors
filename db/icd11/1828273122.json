@@ -1,0 +1,65 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1828273122",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/344162786"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1828273122",
+  "code": "1A03.2",
+  "source": "http://id.who.int/icd/entity/1828273122",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1828273122/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/916407020"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Enteroinvasive Escherichia coli infection"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition of the gastrointestinal system, caused by an infection with the gram-negative bacteria Escherichia coli. This condition is characterised by acute and profuse diarrhoea (that may be haemorrhagic), fever, and abdominal cramps. Transmission is by the faecal-oral route from ingestion of contaminated food or water. Confirmation is by identification of the Escherichia coli in a faecal sample."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Escherichia coli infection caused by Enteroinvasive E coli (EIEC) strains which share virulence determinants with Shigella spp. The EIEC organisms invade the epithelial cells of the intestine, resulting in a mild form of dysentery, often mistaken for dysentery caused by Shigella species. The illness is characterized by the appearance of blood and mucus in the stools of infected individuals."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/911707612"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Enteroinvasive Escherichia coli infection"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "EIEC - [Enteroinvasive Escherichia coli] infection"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Enteritis in enteroinvasive Escherichia coli infection"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/987079843"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Colitis in enteroinvasive Escherichia coli infection"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/645396827"
+    }
+  ]
+}

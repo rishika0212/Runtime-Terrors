@@ -1,0 +1,73 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/393575368",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/390527954"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/738912364"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#393575368",
+  "code": "1F27.1",
+  "source": "http://id.who.int/icd/entity/393575368",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/393575368/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/431392958"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Cerebral cryptococcosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease of the central nervous system, caused by an infection with the fungi Cryptococcus neoformans or Cryptococcus gattii. This disease is characterised by fever, headache, lethargy, or neurological deficits. Transmission is by inhalation of fungal spores. Confirmation is by identification of Cryptococcus neoformans or Cryptococcus gattii in a blood, sputum, or cerebrospinal fluid sample."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cerebral cryptococcomata"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1821093480"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/528118622"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cerebral cryptococcosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cerebritis due to Cryptococcus neoformans"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cerebral cryptococcomata"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1821093480"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cryptococcosis meningocerebralis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1122105654"
+    }
+  ]
+}

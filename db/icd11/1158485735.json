@@ -1,0 +1,64 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1158485735",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1302193697"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1158485735",
+  "code": "2C72.3",
+  "source": "http://id.who.int/icd/entity/1158485735",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1158485735/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1302701349",
+        "http://id.who.int/icd/release/11/2024-01/mms/1519239653",
+        "http://id.who.int/icd/release/11/2024-01/mms/1062535077",
+        "http://id.who.int/icd/release/11/2024-01/mms/1916678712",
+        "http://id.who.int/icd/release/11/2024-01/mms/564122381",
+        "http://id.who.int/icd/release/11/2024-01/mms/2002162149"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1158485735/postcoordinationScale/histopathology",
+      "axisName": "http://id.who.int/icd/schema/histopathology",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1415553811",
+        "http://id.who.int/icd/release/11/2024-01/mms/35175765"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1158485735/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Carcinosarcomas of uterine ligament, parametrium, or uterine adnexa"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Carcinosarcomas of uterine ligament, parametrium, or uterine adnexa"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant mixed Mullerian tumours"
+      }
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/875271605",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/643334575"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#875271605",
+  "code": "BD93.14",
+  "source": "http://id.who.int/icd/entity/875271605",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/875271605/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1031510592",
+        "http://id.who.int/icd/release/11/2024-01/mms/465545679",
+        "http://id.who.int/icd/release/11/2024-01/mms/2122474603",
+        "http://id.who.int/icd/release/11/2024-01/mms/970208182",
+        "http://id.who.int/icd/release/11/2024-01/mms/481430149",
+        "http://id.who.int/icd/release/11/2024-01/mms/276642106",
+        "http://id.who.int/icd/release/11/2024-01/mms/1525493612"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/875271605/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/247221550"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Lymphoedema due to podoconiosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Lymphoedema of the lower limbs resulting from an inflammatory response within lymphatic vessels to mineral particles from soil in genetically susceptible individuals. It is a leading cause of lower limb lymphoedema in farmers in Africa, Central America and India."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1380872553"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Lymphoedema due to podoconiosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Non-filarial elephantiasis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Podoconiosis"
+      }
+    }
+  ]
+}

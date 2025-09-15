@@ -1,0 +1,59 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1528414070",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/135352227"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/364534567",
+    "http://id.who.int/icd/release/11/2024-01/mms/1528414070/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1528414070/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1528414070",
+  "code": "1A07",
+  "source": "http://id.who.int/icd/entity/1528414070",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1528414070/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/512128824",
+        "http://id.who.int/icd/release/11/2024-01/mms/654702340",
+        "http://id.who.int/icd/release/11/2024-01/mms/1323682030",
+        "http://id.who.int/icd/release/11/2024-01/mms/1370972705",
+        "http://id.who.int/icd/release/11/2024-01/mms/554373034",
+        "http://id.who.int/icd/release/11/2024-01/mms/2058491071",
+        "http://id.who.int/icd/release/11/2024-01/mms/2044414353",
+        "http://id.who.int/icd/release/11/2024-01/mms/1112214727",
+        "http://id.who.int/icd/release/11/2024-01/mms/1472717853"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1528414070/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1837021781"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Typhoid fever"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition caused by an infection with the gram-negative bacteria Salmonella typhi. This condition is characterised by an acute sustained fever. This condition may present with weakness, stomach pains, headache, loss of appetite, or flat, rose-coloured spots. Transmission is by the faecal-oral route from the ingestion of contaminated food or water. Confirmation is by identification of Salmonella typhi in a faecal or blood sample."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Acute systemic febrile infection caused by Salmonella typhi, with insidious onset of sustained fever, marked headache, malaise, anorexia, relative bradycardia, splenomegaly, non productive cough in the early stage of the illness, rose spots on the trunk in 25% of white skinned patients and constipation more often than diarrhoea in adults."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/911707612"
+  ]
+}

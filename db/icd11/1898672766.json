@@ -1,0 +1,106 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1898672766",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1106709617"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1898672766",
+  "code": "LB16.0",
+  "source": "http://id.who.int/icd/entity/1898672766",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1898672766/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1741413713"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Congenital absence, atresia or stenosis of large intestine"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Colonic atresia is a congenital intestinal malformation resulting in a non-latent segment of the colon and characterised by lower intestinal obstruction manifesting with abdominal distention and failure to pass meconium in newborns."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital atresia of rectum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1067067131",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1587585031"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital absence of rectum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1587585031",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1587585031"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1191558345"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital absence, atresia or stenosis of large intestine"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "congenital obstruction, occlusion and stricture of large intestine"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "colonic absence, atresia and stenosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital absence of large intestine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1439719067"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "caecum agenesis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1439719067"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Atresia of large intestine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1779282922"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "caecal atresia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1779282922"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital stenosis of large intestine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1382033321"
+    }
+  ]
+}

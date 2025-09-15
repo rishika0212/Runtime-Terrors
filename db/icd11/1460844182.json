@@ -1,0 +1,331 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1460844182",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1181120673"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1460844182",
+  "code": "GC00.1",
+  "source": "http://id.who.int/icd/entity/1460844182",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1460844182/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/157646292"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1460844182/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1460844182/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1290701352"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1460844182/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/916407020"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1460844182/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/2058324694",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Infectious cystitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Inflammation of the urinary bladder caused by microbes"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "tuberculous cystitis (NHEA)"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/112180879",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1196243886"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bladder disorder in schistosomiasis [bilharziasis] (NHEB)"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1376448576",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1376448576"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/398735090"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infectious cystitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "inflammation of bladder"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "suppuration bladder"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "infective cystitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "infection of bladder"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "perivesical inflammation"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "epicystitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "vesical infection"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "suppurative cystitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute bacterial or fungal cystitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/120069809"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute cystitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/120069809"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute pyocystitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/120069809"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute suppurative cystitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/120069809"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bladder infection due to candidiasis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1537523663"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute haemorrhagic cystitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1676391804"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Other chronic cystitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/382632922"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic cystitis NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/382632922"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic bacterial or fungal cystitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/382632922"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic haemorrhagic cystitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/411629771"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Subacute cystitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/683348801"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic suppurative cystitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/575501087"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic pyocystitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/575501087"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Viral cystitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/171778157"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Abscess of bladder"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1589767282"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bladder abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1589767282"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "vesical abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1589767282"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "perivesical abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1589767282"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "rectovesical abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1589767282"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "retrovesical abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1589767282"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bladder gangrene"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/91394321"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "gangrenous cystitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/91394321"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Emphysematous cystitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1592307356"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bladder sloughing"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1141383224"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Colicystitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/315130906"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Haemorrhagic cystitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/413252133"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/933902267",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/412389819"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#933902267",
+  "code": "GB61.0",
+  "source": "http://id.who.int/icd/entity/933902267",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/933902267/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/465177735",
+        "http://id.who.int/icd/release/11/2024-01/mms/924915526"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Chronic kidney disease, stage 1"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Kidney damage with normal or increased GFR (>90 ml/min/1.73m²)"
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "A disease of the kidney, caused by exposure to another disease, condition, or disorder, commonly diabetes mellitus, hypertension, or glomerulonephritis. This disease is characterized by a gradual rise in serum creatinine and kidney damage, but normal renal function with a glomerular filtration rate of greater or equal to 90 millilitres per minute per 1.73 square metre for over 3 months. Confirmation is by estimated glomerular filtration rate, blood testing for creatinine, urinalysis, and abdominal ultrasound to differentiate chronic kidney disease from acute renal failure."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic renal failure, stage 1"
+      }
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/562199727"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1635967154"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic kidney disease, stage 1"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic renal failure, stage 1"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "CKD - [chronic kidney disease] stage 1"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "normal or increased eGFR (>90 ml/min/1.73m²)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/401485484",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1453089907"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#401485484",
+  "code": "ND51.4",
+  "source": "http://id.who.int/icd/entity/401485484",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/401485484/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482",
+        "http://id.who.int/icd/release/11/2024-01/mms/755612283"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Crushing injury of spine or trunk, level unspecified"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Crushing injury of spine or trunk, level unspecified"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sequelae of crushing injury of trunk"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/825072629"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "late effect of crushing injury of trunk"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/825072629"
+    }
+  ]
+}

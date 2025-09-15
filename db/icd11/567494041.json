@@ -1,0 +1,89 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/567494041",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/530888618"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#567494041",
+  "code": "DD91.1",
+  "source": "http://id.who.int/icd/entity/567494041",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Slow transit constipation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1981595639",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1981595639"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/567494041/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Functional constipation"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Functional constipation is a functional bowel disorder that presents as persistently difficult, infrequent, or seemingly incomplete defecation, which do not meet IBS criteria."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Constipation NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/502284069",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/502284069"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Functional constipation"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "neurogenic constipation"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "spastic constipation"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "functional constipation with slow transit"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Atonic constipation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/395151745"
+    }
+  ]
+}

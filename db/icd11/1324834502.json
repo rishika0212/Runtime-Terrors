@@ -1,0 +1,80 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1324834502",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/46117627"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1324834502",
+  "code": "1B75.3",
+  "source": "http://id.who.int/icd/entity/1324834502",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sacrococcygeal pilonidal abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/646664279",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/646664279"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infected epidermoid cyst"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1400386155",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1400386155"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1324834502/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/223243926",
+        "http://id.who.int/icd/release/11/2024-01/mms/947150833",
+        "http://id.who.int/icd/release/11/2024-01/mms/1810600222"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1324834502/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Pyogenic abscess of the skin"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A pus-producing abscess of the skin most commonly due to bacterial infection by Staphylococcus aureus. It is prone to develop where the normal anatomy is disturbed as in pilonidal disease, an epidermoid cyst or around foreign bodies such as surgical sutures."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/911707612"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pyogenic abscess of the skin"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "abscess NOS"
+      }
+    }
+  ]
+}

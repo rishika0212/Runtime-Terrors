@@ -1,0 +1,55 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1136303691",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1336446723"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1136303691",
+  "code": "EL51",
+  "source": "http://id.who.int/icd/entity/1136303691",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1136303691/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/460401849",
+        "http://id.who.int/icd/release/11/2024-01/mms/1642025150",
+        "http://id.who.int/icd/release/11/2024-01/mms/1162198017",
+        "http://id.who.int/icd/release/11/2024-01/mms/431804121"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Cutaneous flap necrosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Necrosis of surgical skin flap"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cutaneous flap necrosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cutaneous flap necrosis, partial"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/333972756"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cutaneous flap necrosis, total"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/162479054"
+    }
+  ]
+}

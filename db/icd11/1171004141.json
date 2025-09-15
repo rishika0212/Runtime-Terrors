@@ -1,0 +1,70 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1171004141",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1074032998"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1348002723",
+    "http://id.who.int/icd/release/11/2024-01/mms/890449463",
+    "http://id.who.int/icd/release/11/2024-01/mms/1171004141/other"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1171004141",
+  "code": "9B11",
+  "source": "http://id.who.int/icd/entity/1171004141",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Presence of intraocular lens"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1535957698",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1535957698"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1171004141/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Certain specified disorders of lens"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "congenital lens malformations"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1568007102",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1568007102"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cataract lens fragments in eye following cataract surgery"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/723011737",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/723011737"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Certain specified disorders of lens"
+      }
+    }
+  ]
+}

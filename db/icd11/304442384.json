@@ -1,0 +1,90 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/304442384",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/632463913"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#304442384",
+  "code": "NB32.7",
+  "source": "http://id.who.int/icd/entity/304442384",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/304442384/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/304442384/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1142758480",
+        "http://id.who.int/icd/release/11/2024-01/mms/1448882621",
+        "http://id.who.int/icd/release/11/2024-01/mms/857209897",
+        "http://id.who.int/icd/release/11/2024-01/mms/1203416278",
+        "http://id.who.int/icd/release/11/2024-01/mms/586244420",
+        "http://id.who.int/icd/release/11/2024-01/mms/1361048280",
+        "http://id.who.int/icd/release/11/2024-01/mms/877936450",
+        "http://id.who.int/icd/release/11/2024-01/mms/1090088893",
+        "http://id.who.int/icd/release/11/2024-01/mms/1640759172",
+        "http://id.who.int/icd/release/11/2024-01/mms/75510290",
+        "http://id.who.int/icd/release/11/2024-01/mms/1882022639",
+        "http://id.who.int/icd/release/11/2024-01/mms/359051131",
+        "http://id.who.int/icd/release/11/2024-01/mms/1720204527",
+        "http://id.who.int/icd/release/11/2024-01/mms/63172987",
+        "http://id.who.int/icd/release/11/2024-01/mms/2003739014",
+        "http://id.who.int/icd/release/11/2024-01/mms/632463913/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/632463913/unspecified",
+        "http://id.who.int/icd/release/11/2024-01/mms/1490794347",
+        "http://id.who.int/icd/release/11/2024-01/mms/867689657",
+        "http://id.who.int/icd/release/11/2024-01/mms/805284915/unspecified",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Multiple injuries of intrathoracic organs"
+  },
+  "codingNote": {
+    "@language": "en",
+    "@value": "Each injury should be coded separately. This code should be used alone only when the detail of the specific injuries is unknown, or it is not possible to code each injury. This code may also be used in postcoordination to identify cases of complex trauma."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Multiple injuries of intrathoracic organs"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "injury of intrathoracic organs multiple sites"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Multiple injuries of intrathoracic organs without open wound into thoracic cavity"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/678940013"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Multiple injuries of intrathoracic organs with open wound into thoracic cavity"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1295778041"
+    }
+  ]
+}

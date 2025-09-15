@@ -1,0 +1,530 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1957497923",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/395622227"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1957497923",
+  "code": "FA25.0",
+  "source": "http://id.who.int/icd/entity/1957497923",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1957497923/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1957497923/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2030796271",
+        "http://id.who.int/icd/release/11/2024-01/mms/1363003152",
+        "http://id.who.int/icd/release/11/2024-01/mms/1959335168",
+        "http://id.who.int/icd/release/11/2024-01/mms/192726145",
+        "http://id.who.int/icd/release/11/2024-01/mms/223741850",
+        "http://id.who.int/icd/release/11/2024-01/mms/319259361",
+        "http://id.who.int/icd/release/11/2024-01/mms/223046766"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1957497923/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1866592137",
+        "http://id.who.int/icd/release/11/2024-01/mms/847186333",
+        "http://id.who.int/icd/release/11/2024-01/mms/1848981072",
+        "http://id.who.int/icd/release/11/2024-01/mms/163006370",
+        "http://id.who.int/icd/release/11/2024-01/mms/256878807",
+        "http://id.who.int/icd/release/11/2024-01/mms/389168514",
+        "http://id.who.int/icd/release/11/2024-01/mms/1920593940",
+        "http://id.who.int/icd/release/11/2024-01/mms/1968541653"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1957497923/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Primary gout"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Primary gout refers to those cases that appear to be innate, that are neither secondary to another acquired disorder nor a subordinate manifestation of an inborn error that leads initially to a major disease unlike gout. Although some cases of primary gout have a genetic basis, others do not."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gouty bursitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gouty arthropathy"
+      }
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary gout"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "idiopathic gout"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "articular gout"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "idiopathic gout, unspecified site"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "gouty arthritis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gouty arthropathy"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gouty bursitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "uratic arthritis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute primary gout"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/296388664"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute gouty arthritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/296388664"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute gouty arthropathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/296388664"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute primary gout, monoarticular"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/79330083"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute primary gout, polyarticular"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/996644432"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic primary gout"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/858348125"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic gout"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/858348125"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic gouty arthritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/858348125"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic primary gout, monoarticular"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/930546669"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic primary gout, polyarticular"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/368365960"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary gout, multiple sites"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/195836886"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "idiopathic gout, multiple sites"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/195836886"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary gout, shoulder region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1860695616"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "idiopathic gout, shoulder region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1860695616"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary gout, acromioclavicular joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1877966992"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary gout, glenohumeral joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/918154392"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary gout, sternoclavicular joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1448505053"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary gout, upper arm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/441099967"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Idiopathic gout, upper arm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/441099967"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary gout, elbow joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1584730952"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary gout, forearm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2130799403"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "idiopathic gout, forearm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2130799403"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary gout, wrist joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/331795706"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "idiopathic gout, wrist joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/331795706"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary gout, hand"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/217053375"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "idiopathic gout, hand"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/217053375"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary gout, carpus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1625154561"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary gout, fingers"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1088957507"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary gout, metacarpus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/514049186"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary gout, pelvic region or thigh"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1772369195"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "idiopathic gout, pelvic region or thigh"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1772369195"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary gout, hip joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/154914303"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary gout, lower leg"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/487155156"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "idiopathic gout, lower leg"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/487155156"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary gout, knee joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1452197377"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary gout, ankle or foot"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2017634370"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "idiopathic gout, ankle or foot"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2017634370"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary gout, metatarsus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1446455656"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "idiopathic gout, metatarsus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1446455656"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary gout, tarsus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2011189990"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "idiopathic gout, tarsus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2011189990"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary gout, toes"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/558759566"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "idiopathic gout, toes"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/558759566"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary gout, ankle joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1105212453"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "idiopathic gout, ankle joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1105212453"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary gout, other joints in foot"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/554677872"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "idiopathic gout, other joints in foot"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/554677872"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary gout, head"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/918767073"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary gout, neck"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1554079944"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary gout, vertebral column"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/35634569"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gouty neuritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1422927947"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gouty spondylitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/31725880"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gouty synovitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1420554105"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Uric acid nephrolithiasis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/898604052"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Uric acid urolithiasis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/557066724"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gouty cellulitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1917873939"
+    }
+  ]
+}

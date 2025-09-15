@@ -1,0 +1,51 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/932220907",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/982373217"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#932220907",
+  "code": "8B25.3",
+  "source": "http://id.who.int/icd/entity/932220907",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/932220907/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1297540670"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Late effects of other nontraumatic intracranial haemorrhage"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Late effects of other non-traumatic intracranial haemorrhage 1 month or later after the onset of the disease. Codes for acute episode should be exclusively used for the acute haemorrhage and immediately related hospitalisation episodes."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/564191997"
+  ],
+  "codingNote": {
+    "@language": "en",
+    "@value": "Use of the code ”Late effects of cerebrovascular disease” requires that there are residual (still persisting) symptoms or signs after a previous cerebrovascular event. Codes for neurological symptoms may be added.\n\nCode first, the specific residual condition(s) resulting from a previous cerebrovascular event. \n\nCodes for acute stroke should be exclusively used for the acute stroke and immediately related hospitalisation episodes."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Late effects of other nontraumatic intracranial haemorrhage"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "sequelae of other nontraumatic intracranial haemorrhage"
+      }
+    }
+  ]
+}

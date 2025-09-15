@@ -1,0 +1,55 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/781134891",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/9342647"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#781134891",
+  "code": "ME93.48",
+  "source": "http://id.who.int/icd/entity/781134891",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/781134891/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1170330671"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Intervertebral disc stenosis of neural canal, rib cage"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Intervertebral disc stenosis of neural canal, rib cage"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Intervertebral disc stenosis of neural canal, costochondral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1315202213"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Intervertebral disc stenosis of neural canal, costovertebral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/834322220"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Intervertebral disc stenosis of neural canal, sternochondral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/560998046"
+    }
+  ]
+}

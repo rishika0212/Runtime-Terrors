@@ -1,0 +1,58 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2025061243",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1868068711"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1069179856",
+    "http://id.who.int/icd/release/11/2024-01/mms/416451504",
+    "http://id.who.int/icd/release/11/2024-01/mms/2025061243/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/2025061243/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2025061243",
+  "code": "4A84.3",
+  "source": "http://id.who.int/icd/entity/2025061243",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2025061243/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/980862652",
+        "http://id.who.int/icd/release/11/2024-01/mms/851395624",
+        "http://id.who.int/icd/release/11/2024-01/mms/73322695",
+        "http://id.who.int/icd/release/11/2024-01/mms/128104623",
+        "http://id.who.int/icd/release/11/2024-01/mms/1491356379",
+        "http://id.who.int/icd/release/11/2024-01/mms/491063206",
+        "http://id.who.int/icd/release/11/2024-01/mms/185842968",
+        "http://id.who.int/icd/release/11/2024-01/mms/2143219175",
+        "http://id.who.int/icd/release/11/2024-01/mms/558785723",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/unspecified"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2025061243/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/502820569",
+        "http://id.who.int/icd/release/11/2024-01/mms/1206642838",
+        "http://id.who.int/icd/release/11/2024-01/mms/1839152580",
+        "http://id.who.int/icd/release/11/2024-01/mms/683532877"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Anaphylaxis provoked by physical factors"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Anaphylaxis provoked by physical factors covers a group of anaphylaxis phenotypes in which physical factors are the main triggers. The most relevant are: exercise-induced anaphylaxis, exercise-induced anaphylaxis dependent on food, cold-induced anaphylaxis."
+  }
+}

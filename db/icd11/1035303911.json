@@ -1,0 +1,116 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1035303911",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1614716959"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1035303911",
+  "code": "8B11.50",
+  "source": "http://id.who.int/icd/entity/1035303911",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1035303911/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1035303911/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/34787577"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1035303911/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1173205716"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Cerebral ischaemic stroke due to unspecified occlusion or stenosis of extracranial large artery"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is a sudden loss of brain function due to a lack of adequate blood flow of the large extracranial arteries."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cerebral ischaemic stroke due to embolic occlusion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/158815303",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/158815303"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cerebral ischaemic stroke due to other known cause"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1444066580",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1444066580"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cerebral ischaemic stroke due to extracranial large artery atherosclerosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1070137396",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1070137396"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/564191997"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1526436336"
+  ],
+  "codingNote": {
+    "@language": "en",
+    "@value": "If an additional code is used for anatomy, the artery affected by the stroke should be selected."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cerebral ischaemic stroke due to unspecified occlusion or stenosis of extracranial large artery"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stroke due to occlusion or stenosis of internal carotid artery"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/76046964"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cerebral ischaemic stroke due to thrombus of extracranial large artery"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1190400569"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stroke due to occlusion or stenosis of common carotid artery"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/586280391"
+    }
+  ]
+}

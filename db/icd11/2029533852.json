@@ -1,0 +1,80 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2029533852",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/141692930"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2029533852",
+  "code": "FB32.20",
+  "source": "http://id.who.int/icd/entity/2029533852",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2029533852/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2029533852/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1922573088",
+        "http://id.who.int/icd/release/11/2024-01/mms/1359586520",
+        "http://id.who.int/icd/release/11/2024-01/mms/955996865",
+        "http://id.who.int/icd/release/11/2024-01/mms/507472176",
+        "http://id.who.int/icd/release/11/2024-01/mms/107652911",
+        "http://id.who.int/icd/release/11/2024-01/mms/720361080",
+        "http://id.who.int/icd/release/11/2024-01/mms/864968000"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Idiopathic rhabdomyolysis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Skeletal muscle breakdown with leakage of muscle contents, frequently accompanied by myoglobinuria, occurring in both adult and paediatric populations with no identifiable cause. The attacks are often recurrent. Renal failure due to tubular necrosis is a severe complication."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myasthenia gravis or certain specified neuromuscular junction disorders"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1425591047",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1425591047"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Secondary myopathies"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1159616108",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1159616108"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Idiopathic rhabdomyolysis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "rhabdomyolysis NOS"
+      }
+    }
+  ]
+}

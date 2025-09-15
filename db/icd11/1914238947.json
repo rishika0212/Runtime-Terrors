@@ -1,0 +1,75 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1914238947",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1421673399"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1914238947",
+  "code": "MB54.1",
+  "source": "http://id.who.int/icd/entity/1914238947",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1914238947/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1914238947/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1435254666",
+        "http://id.who.int/icd/release/11/2024-01/mms/1630407678",
+        "http://id.who.int/icd/release/11/2024-01/mms/1766440644",
+        "http://id.who.int/icd/release/11/2024-01/mms/1954798891",
+        "http://id.who.int/icd/release/11/2024-01/mms/21500692",
+        "http://id.who.int/icd/release/11/2024-01/mms/1296093776",
+        "http://id.who.int/icd/release/11/2024-01/mms/426429380",
+        "http://id.who.int/icd/release/11/2024-01/mms/1473673350",
+        "http://id.who.int/icd/release/11/2024-01/mms/223744320",
+        "http://id.who.int/icd/release/11/2024-01/mms/435227771"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Spastic monoplegia of upper extremity"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spastic monoplegia of upper extremity"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spastic monoplegia of upper extremity of dominant side"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1624949829"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spastic monoplegia of upper extremity of non dominant side"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1581049357"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spastic monoplegia of upper extremity of unspecified side"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/346534168"
+    }
+  ]
+}

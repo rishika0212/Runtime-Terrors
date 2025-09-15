@@ -1,0 +1,94 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1759174491",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/132592466"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1759174491",
+  "code": "DD95",
+  "source": "http://id.who.int/icd/entity/1759174491",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1759174491/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1759174491/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/501504598",
+        "http://id.who.int/icd/release/11/2024-01/mms/932220680",
+        "http://id.who.int/icd/release/11/2024-01/mms/671508148",
+        "http://id.who.int/icd/release/11/2024-01/mms/579584480"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1759174491/postcoordinationScale/hasAlternativeSeverity1",
+      "axisName": "http://id.who.int/icd/schema/hasAlternativeSeverity1",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/137604848",
+        "http://id.who.int/icd/release/11/2024-01/mms/1926847105",
+        "http://id.who.int/icd/release/11/2024-01/mms/489218088",
+        "http://id.who.int/icd/release/11/2024-01/mms/2029211037"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1759174491/postcoordinationScale/hasAlternativeSeverity2",
+      "axisName": "http://id.who.int/icd/schema/hasAlternativeSeverity2",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/145592658",
+        "http://id.who.int/icd/release/11/2024-01/mms/1824378311",
+        "http://id.who.int/icd/release/11/2024-01/mms/1714449067",
+        "http://id.who.int/icd/release/11/2024-01/mms/1721227995"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Functional sphincter of Oddi disorder"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is a functional disorder of the sphincter of Oddi which defines motility abnormalities of sphincter of Oddi associated with prevention of bile and pancreatic juice from flowing through and a backup of the juice. It causes severe abdominal pain with elevated pancreatic enzymes, liver enzymes or both."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Functional sphincter of Oddi disorder"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Functional biliary sphincter of Oddi disorder"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1719541898"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Functional pancreatic sphincter of Oddi disorder"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/359983357"
+    }
+  ]
+}

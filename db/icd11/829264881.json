@@ -1,0 +1,55 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/829264881",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1619967851"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#829264881",
+  "code": "JB22.0",
+  "source": "http://id.who.int/icd/entity/829264881",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/829264881/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2099609539",
+        "http://id.who.int/icd/release/11/2024-01/mms/409907799"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Delivery by elective caesarean section"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Delivery by elective caesarean section"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "elective caesarean delivery"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Repeat caesarean section"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1636212839"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Repeat caesarean section NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1636212839"
+    }
+  ]
+}

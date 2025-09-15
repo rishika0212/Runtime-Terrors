@@ -1,0 +1,501 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2080365623",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/135352227"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2080365623",
+  "code": "1A02",
+  "source": "http://id.who.int/icd/entity/2080365623",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sepsis due to shigella with septic shock"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/458723679",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/520429137"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2080365623/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1095665982",
+        "http://id.who.int/icd/release/11/2024-01/mms/1527363560",
+        "http://id.who.int/icd/release/11/2024-01/mms/80471749",
+        "http://id.who.int/icd/release/11/2024-01/mms/512546847"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2080365623/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/622600769",
+        "http://id.who.int/icd/release/11/2024-01/mms/1683090852"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2080365623/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1385347061"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Intestinal infections due to Shigella"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease caused by an infection with the gram-negative bacteria genus Shigella. This disease is characterised by an acute onset of small volume diarrhoea, accompanied by fever and nausea. This disease may also present with toxaemia, vomiting, cramps, and tenesmus. Transmission is by ingestion of contaminated food, or direct contact. Confirmation is by identification of Shigella in a faecal sample."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "An acute bacterial disease involving the distal small intestine and colon, characterized by loose stools of small volume accompanied by fever, nausea and sometimes toxoemia, vomiting, cramps and tenesmus."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/911707612"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Intestinal infections due to Shigella"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "shigellosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bacillary dysentery NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bacillary colitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "shigella enteritis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Shigellosis due to Shigella dysenteriae"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1181145033"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bacillary dysentery due to shigella dysenteriae"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1181145033"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bacillary dysentery due to shigella group A"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1181145033"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "infection due to shigella dysenteriae"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1181145033"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "infection due to shigella group A"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1181145033"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Shiga-Kruse dysentery"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1181145033"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "shiga dysentery"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1181145033"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "infection due to shigella schmitzii"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1181145033"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "infection due to bacillus shiga-kruse"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1181145033"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "dysentery due to bacillus shiga-kruse"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1181145033"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "infection due to bacillus shiga"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1181145033"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "dysentery due to bacillus schmitz"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1181145033"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "dysentery due to bacillus schmitz-stutzer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1181145033"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "dysentery due to bacillus shiga"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1181145033"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Group A shigellosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1181145033"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Schmitz dysentery"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1181145033"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Enteritis in shigellosis due to Shigella dysenteriae"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1088295491"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Enteritis in Shigellosis due to Shiga-Kruse dysentery"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1088295491"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Enteritis in Shigellosis due to Group A shigellosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1088295491"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Colitis in shigellosis due to Shigella dysenteriae"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/371596818"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Shigellosis due to Shigella flexneri"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/590158429"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "dysentery due to bacillus flexneri"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/590158429"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "infection due to group B shigella"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/590158429"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bacillary dysentery due to shigella flexneri"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/590158429"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bacillary dysentery due to shigella group B"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/590158429"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bacillus flexner infection (deprecated)"
+      },
+      "deprecated": true,
+      "foundationReference": "http://id.who.int/icd/entity/590158429"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "shigella flexneri infection"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/590158429"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hiss-Russell dysentery"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/590158429"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Group B shigellosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/590158429"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Flexner dysentery"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/590158429"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Enteritis in shigellosis due to Shigella flexneri"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/79738335"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Group B shigellosis resulting in enteritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/79738335"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Colitis in shigellosis due to Shigella flexneri"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/565526380"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Shigellosis due to Shigella boydii"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1468025508"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "infection due to group C shigella"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1468025508"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "infection due to shigella boydii"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1468025508"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bacillary dysentery due to shigella boydii"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1468025508"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bacillary dysentery due to shigella group C"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1468025508"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Boyd dysentery"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1468025508"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Group C shigellosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1468025508"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Enteritis in shigellosis due to Shigella boydii"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2097835090"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Group C shigellosis resulting in enteritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2097835090"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Colitis in shigellosis due to Shigella boydii"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/980970745"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Shigellosis due to Shigella sonnei"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/852199222"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bacillary dysentery due to shigella sonnei"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/852199222"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bacillary dysentery due to shigella group D"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/852199222"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "infection due to group D shigella"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/852199222"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "infection due to shigella sonnei"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/852199222"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Group D shigellosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/852199222"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sonne dysentery"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/852199222"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Enteritis in shigellosis due to Shigella sonnei"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1884887987"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Group D shigellosis resulting in enteritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1884887987"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Colitis in shigellosis due to Shigella sonnei"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/141670656"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bacterial colitis due to Shigella"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/704377697"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bacterial enteritis due to Shigella"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1955742846"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sepsis due to shigella without mention of septic shock"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/793651617"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sepsis due to shigella NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/793651617"
+    }
+  ]
+}

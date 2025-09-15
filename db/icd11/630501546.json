@@ -1,0 +1,69 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/630501546",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1672394552"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#630501546",
+  "code": "DA40.4",
+  "source": "http://id.who.int/icd/entity/630501546",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/630501546/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Hourglass stricture and stenosis of stomach"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is a structural change of stomach in which one more or less completely divided into two parts, resembling an hourglass in shape, due to often scarring which complicates chronic gastric ulcer."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hourglass stricture and stenosis of stomach"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hourglass contraction of stomach"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hourglass stenosis of stomach"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hourglass stricture of stomach"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bilocular stomach"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1274072848"
+    }
+  ]
+}

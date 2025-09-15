@@ -1,0 +1,76 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1417758377",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1437411258"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1417758377",
+  "code": "DA60.1",
+  "source": "http://id.who.int/icd/entity/1417758377",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1417758377/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1493524587"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1417758377/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/294460566",
+        "http://id.who.int/icd/release/11/2024-01/mms/985094335",
+        "http://id.who.int/icd/release/11/2024-01/mms/1794059753",
+        "http://id.who.int/icd/release/11/2024-01/mms/1472717853"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1417758377/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Helicobacter pylori associated gastric ulcer"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Helicobacter pylori (H. pylori) is a gram-negative bacillus that is found in the mucous layer overlying gastric epithelium, within epithelial cells and attached to mucous cells, leading to inflammation. It accounts for the majority of gastric ulcer. H. pylori that involves the acid-producing mucosa of the stomach can lead to hypochlorhydria or achlorhydria, and subsequent gastric ulceration."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Helicobacter pylori associated and drug-induced gastric ulcer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/457169641",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/457169641"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Helicobacter pylori associated gastric ulcer"
+      }
+    }
+  ]
+}

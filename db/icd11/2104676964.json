@@ -1,0 +1,60 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2104676964",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/609351978"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/247295056",
+    "http://id.who.int/icd/release/11/2024-01/mms/1811325382",
+    "http://id.who.int/icd/release/11/2024-01/mms/2104676964/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/2104676964/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2104676964",
+  "code": "NF03",
+  "source": "http://id.who.int/icd/entity/2104676964",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2104676964/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/980862652",
+        "http://id.who.int/icd/release/11/2024-01/mms/851395624",
+        "http://id.who.int/icd/release/11/2024-01/mms/73322695",
+        "http://id.who.int/icd/release/11/2024-01/mms/128104623",
+        "http://id.who.int/icd/release/11/2024-01/mms/1491356379",
+        "http://id.who.int/icd/release/11/2024-01/mms/491063206",
+        "http://id.who.int/icd/release/11/2024-01/mms/185842968",
+        "http://id.who.int/icd/release/11/2024-01/mms/2143219175",
+        "http://id.who.int/icd/release/11/2024-01/mms/558785723",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Other effects of reduced temperature"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Frostbite"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/152692065",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/152692065"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hypothermia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/406396914",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/406396914"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1569734721",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1968541653"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1569734721",
+  "code": "MG30.31",
+  "source": "http://id.who.int/icd/entity/1569734721",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic pain after musculoskeletal injury"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1627253733",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1034914433"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1569734721/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1007332872",
+        "http://id.who.int/icd/release/11/2024-01/mms/597444540"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1569734721/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/501504598",
+        "http://id.who.int/icd/release/11/2024-01/mms/932220680",
+        "http://id.who.int/icd/release/11/2024-01/mms/671508148",
+        "http://id.who.int/icd/release/11/2024-01/mms/579584480"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1569734721/postcoordinationScale/hasAlternativeSeverity1",
+      "axisName": "http://id.who.int/icd/schema/hasAlternativeSeverity1",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/137604848",
+        "http://id.who.int/icd/release/11/2024-01/mms/1926847105",
+        "http://id.who.int/icd/release/11/2024-01/mms/489218088",
+        "http://id.who.int/icd/release/11/2024-01/mms/2029211037"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1569734721/postcoordinationScale/hasAlternativeSeverity2",
+      "axisName": "http://id.who.int/icd/schema/hasAlternativeSeverity2",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/145592658",
+        "http://id.who.int/icd/release/11/2024-01/mms/1824378311",
+        "http://id.who.int/icd/release/11/2024-01/mms/1714449067",
+        "http://id.who.int/icd/release/11/2024-01/mms/1721227995"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1569734721/postcoordinationScale/temporalPatternAndOnset",
+      "axisName": "http://id.who.int/icd/schema/temporalPatternAndOnset",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1281193286",
+        "http://id.who.int/icd/release/11/2024-01/mms/1313511357",
+        "http://id.who.int/icd/release/11/2024-01/mms/47514516"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1569734721/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1525792972",
+        "http://id.who.int/icd/release/11/2024-01/mms/1989556002",
+        "http://id.who.int/icd/release/11/2024-01/mms/789630210",
+        "http://id.who.int/icd/release/11/2024-01/mms/1523445293",
+        "http://id.who.int/icd/release/11/2024-01/mms/1507462233",
+        "http://id.who.int/icd/release/11/2024-01/mms/762797224",
+        "http://id.who.int/icd/release/11/2024-01/mms/252326937",
+        "http://id.who.int/icd/release/11/2024-01/mms/1473673350/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/1473673350/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Chronic secondary musculoskeletal pain associated with structural changes"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Chronic secondary musculoskeletal pain associated with structural changes is chronic pain of unknown mechanism(s) that is attributable to anatomical changes in joint(s), bone(s) or tendon(s). The structural change needs to be inferred from clinical examination and/or demonstrable on imaging. The pain may be spontaneous or movement-induced. It is characterised by clinical features such as swelling, allodynia or restricted movement.\n\nDiagnostic Criteria:\n\nConditions A to D are fulfilled:\n\nA) Chronic pain (persistent or recurrent for longer than 3 months) in joint(s), bone(s), or tendon(s) is present. The pain may be spontaneous or movement induced.\n\nB) At least one of the following fulfilled:\nB1) Swelling is present.\nB2) Allodynia over the part is present.\n\nC) The structural change is inferred from clinical examination or imaging. \n\nD) The pain is not better accounted for by another diagnosis of chronic pain."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Chronic secondary musculoskeletal pain associated with structural changes is chronic pain of unknown mechanism(s) that is attributable to anatomical changes in joint(s), bone(s) or tendon(s). The structural change needs to be inferred from clinical examination and/or demonstrable on imaging. The pain may be spontaneous or movement-induced. It is characterized by clinical features such as swelling, allodynia or restriced movement. Chronic secondary musculoskeletal pain associated with structural changes reflects the older classifications of osteoarthrosis (primary and secondary) and spondylosis (when referring to spinal structures), and includes persistent pain following bone fracture especially if there is anatomical deformity (including replacement of bone by tumour), and demonstrable anatomical change in tendons and/or entheses.\n\nThis is classification of pain by anatomical change in the candidate structure(s). The presumption is that the structural change, as observed clinically, whether or not supported by imaging, is the origin of the nociception ultimately associated with the experience of pain. This classification does not include any implication about the mechanism of nociception There may be discordance between the degree of structural change observed and the nature and intensity of pain experienced.\n\nDiagnostic Criteria:\n\nConditions A to D are fulfilled\n\nA. Chronic pain (persistent or recurrent for longer than 3 months) in joint(s), bone(s), or tendon(s) is present. The pain may be spontaneous or movement induced.\n\nB. At least one of the following fulfilled:\n\nB.1 Swelling is present.\n\nB.2 Allodynia over the part is present.\n\nC. The structural change is inferred from clinical examination or imaging.\n\nD. The pain is not better accounted for by another diagnosis of chronic pain."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic secondary musculoskeletal pain associated with osteoarthritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1613844891"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic secondary musculoskeletal pain associated with spondylosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1138151236"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic secondary musculoskeletal pain associated with structural changes"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic secondary musculoskeletal pain associated with osteoarthritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1613844891"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic secondary musculoskeletal pain associated with spondylosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1138151236"
+    }
+  ]
+}

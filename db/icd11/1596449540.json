@@ -1,0 +1,46 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1596449540",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1935092859"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1742025109",
+    "http://id.who.int/icd/release/11/2024-01/mms/43973633",
+    "http://id.who.int/icd/release/11/2024-01/mms/1983098110",
+    "http://id.who.int/icd/release/11/2024-01/mms/326656364",
+    "http://id.who.int/icd/release/11/2024-01/mms/1596449540/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1596449540/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1596449540",
+  "code": "1B93",
+  "source": "http://id.who.int/icd/entity/1596449540",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1596449540/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/622600769",
+        "http://id.who.int/icd/release/11/2024-01/mms/1683090852"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Plague"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease caused by an infection with the gram-negative bacteria Yersinia pestis. This disease presents with symptoms depending on the site of infection, and may be fatal. Transmission is through the bite of an infected flea, by direct contact, or by droplet transmission."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Acute infectious bacterial disease caused by Yersinia pestis that affects humans, wild rodents, and their ectoparasites; bubonic plague is the most common form."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/911707612"
+  ]
+}

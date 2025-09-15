@@ -1,0 +1,61 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1012779542",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1482297027"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1012779542",
+  "code": "EL50.3",
+  "source": "http://id.who.int/icd/entity/1012779542",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1012779542/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/460401849",
+        "http://id.who.int/icd/release/11/2024-01/mms/1642025150",
+        "http://id.who.int/icd/release/11/2024-01/mms/1162198017",
+        "http://id.who.int/icd/release/11/2024-01/mms/431804121"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Expanded surgical scar"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A widened surgical scar, often resulting from inadequate deep suturing or poor surgical technique. They are common in disorders of connective tissue such as Ehlers-Danlos syndrome."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stretched scar"
+      }
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Expanded surgical scar"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stretched scar"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Widened scar"
+      }
+    }
+  ]
+}

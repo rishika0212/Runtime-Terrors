@@ -1,0 +1,110 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1709165622",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1125547814"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1709165622",
+  "code": "9C20.1",
+  "source": "http://id.who.int/icd/entity/1709165622",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculous panuveitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1442616444",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1074723013"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infectious panuveitis in Lyme disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2004829727",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/59307016"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1709165622/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1709165622/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Infectious panuveitis"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infectious panuveitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Herpesvirus related panuveitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1250436903"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Syphilitic panuveitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1651488006"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Other viral panuveitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1313044714"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Other fungal panuveitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1824565903"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Other bacterial panuveitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1532201969"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Parasitic panuveitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1687053954"
+    }
+  ]
+}

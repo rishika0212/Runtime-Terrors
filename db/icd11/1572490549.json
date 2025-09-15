@@ -1,0 +1,45 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1572490549",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1174774181"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1239211846",
+    "http://id.who.int/icd/release/11/2024-01/mms/1997215876",
+    "http://id.who.int/icd/release/11/2024-01/mms/82152208",
+    "http://id.who.int/icd/release/11/2024-01/mms/1475987117",
+    "http://id.who.int/icd/release/11/2024-01/mms/1572490549/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1572490549/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1572490549",
+  "code": "2A82",
+  "source": "http://id.who.int/icd/entity/1572490549",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1572490549/postcoordinationScale/histopathology",
+      "axisName": "http://id.who.int/icd/schema/histopathology",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2128446983",
+        "http://id.who.int/icd/release/11/2024-01/mms/2065413738",
+        "http://id.who.int/icd/release/11/2024-01/mms/1792010545"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1572490549/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Mature B-cell neoplasm with leukaemic behaviour"
+  }
+}

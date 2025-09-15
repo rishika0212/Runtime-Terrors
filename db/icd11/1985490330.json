@@ -1,0 +1,61 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1985490330",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/248851702"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1188755650",
+    "http://id.who.int/icd/release/11/2024-01/mms/1847489994",
+    "http://id.who.int/icd/release/11/2024-01/mms/1985490330/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1985490330/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1985490330",
+  "code": "1F00.1",
+  "source": "http://id.who.int/icd/entity/1985490330",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Herpes simplex conjunctivitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1019078921",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/157616931/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1985490330/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2055915829"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1985490330/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1475156994",
+        "http://id.who.int/icd/release/11/2024-01/mms/831696556",
+        "http://id.who.int/icd/release/11/2024-01/mms/657977518",
+        "http://id.who.int/icd/release/11/2024-01/mms/404886274"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Herpes simplex infection of the eye"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition of the eye, caused by an infection with herpes simplex virus type 1 or 2. The condition is characterised by blepharoconjunctivitis or keratitis. Transmission is by direct contact. Confirmation is by identification of herpes simplex virus type 1 or 2."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/788102641"
+  ]
+}

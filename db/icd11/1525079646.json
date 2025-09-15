@@ -1,0 +1,55 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1525079646",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/639491801"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1525079646",
+  "code": "LB98.4",
+  "source": "http://id.who.int/icd/entity/1525079646",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1525079646/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Congenital vertical talus"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Isolated congenital vertical talus is a rare pedal deformity recognizable at birth by a dislocation of the talonavicular joint, resulting in a characteristic radiographic near-vertical orientation of the talus."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital vertical talus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital vertical talus, unilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2123428798"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital vertical talus, bilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1224987332"
+    }
+  ]
+}

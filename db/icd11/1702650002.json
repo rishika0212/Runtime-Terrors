@@ -1,0 +1,87 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1702650002",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/771273482"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1702650002",
+  "code": "1C61.1",
+  "source": "http://id.who.int/icd/entity/1702650002",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "HIV-associated immune reconstitution inflammatory syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/647697202",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/180703474"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Herpes resulting from human immunodeficiency virus disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/783317143",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1575370503"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Human immunodeficiency virus disease associated with mycosis classified elsewhere"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1449946108",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1575370503"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1702650002/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1581976053"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1702650002/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/523481501",
+        "http://id.who.int/icd/release/11/2024-01/mms/579583286",
+        "http://id.who.int/icd/release/11/2024-01/mms/1203794080",
+        "http://id.who.int/icd/release/11/2024-01/mms/862789727",
+        "http://id.who.int/icd/release/11/2024-01/mms/1168452782",
+        "http://id.who.int/icd/release/11/2024-01/mms/1260563068",
+        "http://id.who.int/icd/release/11/2024-01/mms/1971756453",
+        "http://id.who.int/icd/release/11/2024-01/mms/482914030",
+        "http://id.who.int/icd/release/11/2024-01/mms/1888093707",
+        "http://id.who.int/icd/release/11/2024-01/mms/1771541907",
+        "http://id.who.int/icd/release/11/2024-01/mms/410058129",
+        "http://id.who.int/icd/release/11/2024-01/mms/2015627151",
+        "http://id.who.int/icd/release/11/2024-01/mms/132072037"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "HIV disease clinical stage 2 associated with malaria"
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1113397856"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/453730080"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "HIV disease clinical stage 2 associated with malaria"
+      }
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2043942865",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/536467755"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2043942865",
+  "code": "FB81.5",
+  "source": "http://id.who.int/icd/entity/2043942865",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoradionecrosis of jaw"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/144565066",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/425213515"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2043942865/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2043942865/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/183512318",
+        "http://id.who.int/icd/release/11/2024-01/mms/1415462031"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2043942865/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/136660883",
+        "http://id.who.int/icd/release/11/2024-01/mms/2036682392",
+        "http://id.who.int/icd/release/11/2024-01/mms/2083619152",
+        "http://id.who.int/icd/release/11/2024-01/mms/1302132158",
+        "http://id.who.int/icd/release/11/2024-01/mms/620459604"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Osteonecrosis due to ionizing radiation"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Necrosis of bone attributable to ionizing radiation, most commonly seen affecting the mandible following radical radiotherapy for the treatment of head and neck cancer or the chest wall following radiotherapy for breast cancer."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteonecrosis due to ionizing radiation"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "osteoradionecrosis"
+      }
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/539284352",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/713304845"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#539284352",
+  "code": "NC55.0",
+  "source": "http://id.who.int/icd/entity/539284352",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/539284352/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/539284352/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1517039867",
+        "http://id.who.int/icd/release/11/2024-01/mms/74532700",
+        "http://id.who.int/icd/release/11/2024-01/mms/1679928503",
+        "http://id.who.int/icd/release/11/2024-01/mms/430791912"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/539284352/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/425464783"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/539284352/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/980862652",
+        "http://id.who.int/icd/release/11/2024-01/mms/851395624",
+        "http://id.who.int/icd/release/11/2024-01/mms/73322695",
+        "http://id.who.int/icd/release/11/2024-01/mms/128104623",
+        "http://id.who.int/icd/release/11/2024-01/mms/1491356379",
+        "http://id.who.int/icd/release/11/2024-01/mms/491063206",
+        "http://id.who.int/icd/release/11/2024-01/mms/185842968",
+        "http://id.who.int/icd/release/11/2024-01/mms/2143219175",
+        "http://id.who.int/icd/release/11/2024-01/mms/558785723",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Injury of ulnar nerve at wrist or hand level"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury of ulnar nerve at wrist or hand level"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Laceration of ulnar nerve at wrist or hand level"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1106450596"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury of ulnar nerve of hand"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/287327854"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury of ulnar nerve of wrist"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/801530918"
+    }
+  ]
+}

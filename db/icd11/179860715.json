@@ -1,0 +1,68 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/179860715",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1026250133"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#179860715",
+  "code": "8A60.00",
+  "source": "http://id.who.int/icd/entity/179860715",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/179860715/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/539646260"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/179860715/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/974582504",
+        "http://id.who.int/icd/release/11/2024-01/mms/42396194"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Epilepsy due to prenatal or perinatal vascular insults"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Epilepsy occurring in relation to an ischemic stroke or haemorrhagic stroke, with the stroke occurring or presumed to occur before birth [prenatal] or between 22 weeks of gestation and 7 days after birth [perinatal]. No other conditions associated with a substantially increased risk of developing epilepsy are present. Onset of epilepsy may be in infancy, childhood, or adulthood."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/564191997"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/2083324835"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Epilepsy due to prenatal or perinatal vascular insults"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Epilepsy due to prenatal or perinatal ischemic stroke"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/895850906"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Epilepsy due to periventricular or intraventricular haemorrhage"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1042467951"
+    }
+  ]
+}

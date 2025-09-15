@@ -1,0 +1,87 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/87260959",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1496140949"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#87260959",
+  "code": "LD24.C",
+  "source": "http://id.who.int/icd/entity/87260959",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Campomelic dysplasia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/913761638",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/565049612/other"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Juvenile osteochondrosis of tibia or fibula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1962183797",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1446309782"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/87260959/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Bent bone dysplasias"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Any syndromes are characterised by poor mineralization of the skull, craniosynostosis, hypoplastic pubis and clavicles, osteopenia, bent long bones, low-set ears, hypertelorism, midface hypoplasia, prematurely erupted fetal teeth, and micrognathia. These syndromes may be associated with mutation of the FGFR2 gene."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bent bone dysplasias"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stüve-Wiedemann syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/545451143"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Kyphomelic dysplasia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/268821879"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Campomelia, Cumming type"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/152223075"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Weismann-Netter syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/180927608"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/396516864",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1425921467"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#396516864",
+  "code": "2C11.0",
+  "source": "http://id.who.int/icd/entity/396516864",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/396516864/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1337584902",
+        "http://id.who.int/icd/release/11/2024-01/mms/1515005003",
+        "http://id.who.int/icd/release/11/2024-01/mms/899820155",
+        "http://id.who.int/icd/release/11/2024-01/mms/1651798887",
+        "http://id.who.int/icd/release/11/2024-01/mms/616736219",
+        "http://id.who.int/icd/release/11/2024-01/mms/532265365",
+        "http://id.who.int/icd/release/11/2024-01/mms/1924631190"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/396516864/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/396516864/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1409966790",
+        "http://id.who.int/icd/release/11/2024-01/mms/896293199",
+        "http://id.who.int/icd/release/11/2024-01/mms/1094217460",
+        "http://id.who.int/icd/release/11/2024-01/mms/238069351"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/396516864/postcoordinationScale/hasAlternativeSeverity1",
+      "axisName": "http://id.who.int/icd/schema/hasAlternativeSeverity1",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2023608436",
+        "http://id.who.int/icd/release/11/2024-01/mms/2001687278",
+        "http://id.who.int/icd/release/11/2024-01/mms/222322191",
+        "http://id.who.int/icd/release/11/2024-01/mms/841991559",
+        "http://id.who.int/icd/release/11/2024-01/mms/697502435"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/396516864/postcoordinationScale/hasAlternativeSeverity2",
+      "axisName": "http://id.who.int/icd/schema/hasAlternativeSeverity2",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1863636238",
+        "http://id.who.int/icd/release/11/2024-01/mms/885826145",
+        "http://id.who.int/icd/release/11/2024-01/mms/1746207012",
+        "http://id.who.int/icd/release/11/2024-01/mms/303697349"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Adenocarcinoma of other or ill-defined digestive organs"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Adenocarcinoma of other or ill-defined digestive organs"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Adenocarcinoma involving overlapping sites of digestive system"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/75033970"
+    }
+  ]
+}

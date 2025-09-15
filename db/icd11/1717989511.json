@@ -1,0 +1,121 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1717989511",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1078773185"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1717989511",
+  "code": "BD75.3",
+  "source": "http://id.who.int/icd/entity/1717989511",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1717989511/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1302701349",
+        "http://id.who.int/icd/release/11/2024-01/mms/1061004251"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1717989511/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1507624466",
+        "http://id.who.int/icd/release/11/2024-01/mms/1119203708"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Pelvic varices"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "The presence of dilated and incompetent ovarian and pelvic veins in women. These may cause no symptoms but may be associated with chronic pelvic pain (pelvic congestion syndrome) or with externally apparent vulvovaginal varicosities."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1429154898",
+    "http://id.who.int/icd/entity/482174292"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pelvic varices"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "varix of pelvis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pelvic varicose vein"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bladder varices"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/522619914"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Varix of bladder"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/522619914"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ovarian varices"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1967434029"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ovarian varicocele"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1967434029"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "varix of ovary"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1967434029"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Varices of broad ligament"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2124202179"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "varix of broad ligament"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2124202179"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Varices of uterine ligament"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2121873491"
+    }
+  ]
+}

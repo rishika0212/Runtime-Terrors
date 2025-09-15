@@ -1,0 +1,1473 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1446309782",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/504298187"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1446309782",
+  "code": "FB82.1",
+  "source": "http://id.who.int/icd/entity/1446309782",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Medial condensing osteitis of clavicle"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1641338379",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/636380515/other"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Idiopathic aseptic osteonecrosis of carpal lunate"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1867483039",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/551598148"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1446309782/postcoordinationScale/timeInLife",
+      "axisName": "http://id.who.int/icd/schema/timeInLife",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/714822826",
+        "http://id.who.int/icd/release/11/2024-01/mms/230631349",
+        "http://id.who.int/icd/release/11/2024-01/mms/955790",
+        "http://id.who.int/icd/release/11/2024-01/mms/890125345",
+        "http://id.who.int/icd/release/11/2024-01/mms/1352518340",
+        "http://id.who.int/icd/release/11/2024-01/mms/914150644",
+        "http://id.who.int/icd/release/11/2024-01/mms/1588782340",
+        "http://id.who.int/icd/release/11/2024-01/mms/1043777387",
+        "http://id.who.int/icd/release/11/2024-01/mms/1088785230",
+        "http://id.who.int/icd/release/11/2024-01/mms/275453639",
+        "http://id.who.int/icd/release/11/2024-01/mms/184470439",
+        "http://id.who.int/icd/release/11/2024-01/mms/963352150",
+        "http://id.who.int/icd/release/11/2024-01/mms/1733780743",
+        "http://id.who.int/icd/release/11/2024-01/mms/1276541597"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1446309782/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/657365008",
+        "http://id.who.int/icd/release/11/2024-01/mms/1363003152",
+        "http://id.who.int/icd/release/11/2024-01/mms/1959335168",
+        "http://id.who.int/icd/release/11/2024-01/mms/192726145",
+        "http://id.who.int/icd/release/11/2024-01/mms/223741850",
+        "http://id.who.int/icd/release/11/2024-01/mms/319259361"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Osteochondrosis or osteochondritis dissecans"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Note: Osteochondroses are typically referred to by eponyms. The most common eponyms are indexed to osteochondrosis with specification identified by the site and time in life."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteochondrosis or osteochondritis dissecans"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "osteochondral lesion"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteochondrosis not specified as adult or juvenile, of unspecified site"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "osteochondrosis NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Juvenile osteochondrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/242668079"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "juvenile osteochondritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/242668079"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "osteochondritis juvenilis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/242668079"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "osteochondropathy-juven"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/242668079"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Juvenile osteochondrosis of pelvis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/393945780"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ischiopubic synchondrosis osteochondrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/393945780"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ischiopubic synchondrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/393945780"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Van Neck ischiopubic synchondrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/393945780"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Van Neck osteochondrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/393945780"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Van Neck phenomenon"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/393945780"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Symphysis pubis osteochondritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/807903866"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "juvenile osteochondrosis of symphysis pubis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/807903866"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pierson juvenile osteochondrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/807903866"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteochondrosis of iliac crest"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/890473860"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "juvenile osteochondrosis of iliac crest"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/890473860"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteochondrosis of acetabulum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/978320774"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "juvenile osteochondrosis of acetabulum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/978320774"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Valtancoli disease of ischial tuberosity"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1833842477"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Coxa plana"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/111001567"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hip flattening"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/111001567"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hip deformity due to previous juvenile osteochondrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/111001567"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pseudocoxalgia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1674998347"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Juvenile osteochondrosis of femur"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/883880049"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Juvenile osteochondrosis of greater trochanter of femur"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/760792922"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Buchman disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/760792922"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mandi disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/760792922"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Juvenile osteochondrosis of patella"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/297746913"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "juvenile osteochondritis of patella"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/297746913"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "osteochondrosis of primary patellar center"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/297746913"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "juvenile osteochondrosis of primary patellar centre"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/297746913"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "osteochondrosis of patellar centre"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/297746913"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Juvenile osteochondrosis of tibia or fibula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1962183797"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Juvenile osteochondrosis of tibia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1073331465"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "osteochondrosis of tibia NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1073331465"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "osteochondrosis deformans tibiae"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1073331465"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Juvenile osteochondrosis of proximal tibia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/292730503"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aseptic necrosis of medial condyle of tibia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1248230294"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Juvenile osteochondrosis of tibial tubercle"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1417227232"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osgood-Schlatter disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1417227232"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osgood-Schlatter osteochondrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1417227232"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "osteochondrosis of tuberosity of the tibia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1417227232"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "tibial tubercle juvenile osteochondritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1417227232"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Schlatter-Osgood disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1417227232"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "non-rachitic bowleg"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1417227232"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Juvenile osteochondrosis of fibula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/568782205"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Juvenile osteochondrosis of tarsus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/5889162"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "juvenile osteochondrosis of foot"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/5889162"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "osteochondrosis of foot"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/5889162"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Juvenile osteochondrosis of talus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/797202931"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "juvenile osteochondrosis of astragalus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/797202931"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "osteochondritis of the talus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/797202931"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "osteochondrosis of astragalus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/797202931"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Juvenile osteochondrosis of tarsal navicular"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2060169148"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "osteochondritis of the navicular"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2060169148"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "osteochondrosis of tarsal navicular"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2060169148"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "juvenile osteochondrosis of os tibiale externum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2060169148"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "osteochondrosis of os naviculare [Köhler]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2060169148"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Brailsford disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2060169148"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteochondrosis of calcaneus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2049857324"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Köhler tarsal scaphoiditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/714683619"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Juvenile osteochondrosis of metatarsus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1695682848"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Juvenile osteochondrosis of fifth metatarsal"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1878631306"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Juvenile osteochondrosis of second metatarsal"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1607092226"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Juvenile osteochondrosis of clavicle"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1793398930"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Juvenile osteochondrosis of humerus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/385647244"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "juvenile osteochondritis of humerus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/385647244"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Juvenile osteochondritis of head of humerus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1110313985"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "juvenile osteochondrosis of head of humerus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1110313985"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Juvenile osteochondrosis of capitellum of humerus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/431240078"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "juvenile osteochondrosis of capitulum of humerus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/431240078"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Juvenile osteochondrosis of radius or ulna"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1941393182"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteochondrosis of radius"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/390641824"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Juvenile osteochondrosis of radial head"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/429748580"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "osteochondritis of the radial head"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/429748580"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "osteochondrosis of radial head"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/429748580"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "radial head juvenile osteochondritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/429748580"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteochondrosis of ulna"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1814820113"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Juvenile osteochondrosis of lower ulna"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1812117503"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Juvenile osteochondrosis of other parts of arm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1649529461"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "other juvenile osteochondrosis of upper limb"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1649529461"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Juvenile osteochondrosis of hand"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/119152609"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Juvenile osteochondrosis of carpal lunate"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1228486795"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "carpal osteochondrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1228486795"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "os lunatum osteochondrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1228486795"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "osteochondritis of the carpal lunate"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1228486795"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "juvenile osteochondrosis of lunate bone"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1228486795"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Avascular necrosis of lunate"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1020130330"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Keinbock disease juvenile"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1020130330"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Avascular necrosis of scaphoid"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/745301920"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Preiser disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/745301920"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Juvenile osteochondrosis of spine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/966839049"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Scheuermann disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/966839049"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Scheuermann osteochondrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/966839049"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Juvenile osteochondrosis of spine, multiple sites in spine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/70944325"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Juvenile osteochondrosis of spine, occipito-atlanto-axial region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1634814929"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Juvenile osteochondrosis of spine, cervical region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/366746414"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Juvenile osteochondrosis of spine, cervicothoracic region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1888999100"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Juvenile osteochondrosis of spine, thoracic region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/58279216"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Juvenile osteochondrosis of spine, thoracolumbar region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1714587834"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Juvenile osteochondrosis of spine, lumbar region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/312465477"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Juvenile osteochondrosis of spine, lumbosacral region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2010387921"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Juvenile osteochondrosis of spine, sacral or sacrococcygeal region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/180158611"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Calcaneal apophysitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1196090368"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "calcaneo-apophysitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1196090368"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Juvenile apophysitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/110617257"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Juvenile epiphysitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1897176332"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Adult osteochondrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1362564388"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Adult osteochondrosis of hand"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1963472404"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Adult osteochondrosis of carpal lunate"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/155501300"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Kienböck osteochondrosis of adult"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/378561446"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Adult osteochondrosis of clavicle"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/196783307"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Friedrich disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/196783307"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Adult osteochondrosis of humerus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1790418254"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Adult osteochondrosis of radius or ulna"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/359220929"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Adult osteochondrosis of femur"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/94625655"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Adult osteochondrosis of patella"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1012431300"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Adult osteochondrosis of tibia or fibula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1645449511"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Adult osteochondrosis of tarsus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1559606127"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Adult osteochondrosis of metatarsus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2092989229"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Adult osteochondrosis of spine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1558906525"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "osteochondrosis; vertebra, adult"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1558906525"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Adult osteochondrosis of spine, multiple sites in spine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1409273438"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Adult osteochondrosis of spine, occipito-atlanto-axial region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/917767112"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Adult osteochondrosis of spine, cervical region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1108955959"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Adult osteochondrosis of spine, cervicothoracic region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/659725987"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Adult osteochondrosis of spine, thoracic region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1421610295"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Adult osteochondrosis of spine, thoracolumbar region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/838320291"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Adult osteochondrosis of spine, lumbar region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1163563100"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Adult osteochondrosis of spine, lumbosacral region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/538009034"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Adult osteochondrosis of spine, sacral or sacrococcygeal region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1568163980"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteochondritis dissecans"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/467851106"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "OCD - [osteochondritis dissecans]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/467851106"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "osteochondrosis dissecans"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/467851106"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "idiopathic avascular necrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/467851106"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteochondrosis of head of femur"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1915809570"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Legg-Calvé-Perthes disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1915809570"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "juvenile osteochondrosis of head of femur"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1915809570"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "coxae juvenilis osteochondrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1915809570"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "legg-perthes osteochondrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1915809570"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Perthes disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1915809570"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Avascular necrosis of the capital femoral epiphysis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1841996229"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Juvenile osteochondritis of hip or pelvis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1222771863"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Juvenile osteochondrosis of hip"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/408250200"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "osteochondrosis of hip"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/408250200"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Perthes disease of hip"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/408250200"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Juvenile osteochondrosis of capitular epiphysis of femur"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1936867777"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "osteochondrosis of capital femoral epiphysis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1936867777"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "osteochondrosis of capitular epiphysis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1936867777"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sinding-Larsen-Johansson disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1733785551"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sinding Larsen disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1733785551"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Larsen-Johansson syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1733785551"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "juvenile osteochondrosis of secondary patellar centre [Sinding-Larsen]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1733785551"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sinding-Larsen disease of adult"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1733785551"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Thiemann disease, familial form"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/67016273"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "osteochondrosis of phalanges [Thiemann syndrome]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/67016273"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Familial avascular necrosis of femoral head"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1216860745"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Familial osteochondritis dissecans"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/117325330"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteochondritis of tarsal or metatarsal bone"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2094373978"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteochondrosis of talus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2082756021"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Diaz disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2082756021"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteochondritis of head of humerus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/983679911"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hass disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/983679911"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "osteochondritis of the humeral head"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/983679911"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "osteochondrosis of capitulum of humerus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/983679911"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "osteochondrosis of head of humerus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/983679911"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "osteochondrosis of capitellum of humerus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/983679911"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Penner disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/983679911"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Panner"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/983679911"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Blount disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/138830223"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "tibia vara"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/138830223"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "osteochondrosis of proximal tibia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/138830223"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Blount's osteochondrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/138830223"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Freiberg disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/74359553"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Freiberg infraction"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/74359553"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "osteochondrosis of second metatarsal"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/74359553"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mauclaire disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1339046683"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "osteochondrosis of metacarpal heads"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1339046683"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "osteochondrosis of heads of metacarpals"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1339046683"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteochondritis of the distal humerus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1396058823"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteochondritis of the lower ulna"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/108649610"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Burns disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/108649610"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "osteochondrosis of lower ulna"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/108649610"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteochondrosis of calcaneum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/644175396"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteochondrosis of fifth metatarsus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1445677015"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Iselin disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1445677015"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "osteochondrosis of fifth metatarsal"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1445677015"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteochondrosis of lateral or medial humeral condyle"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1306902733"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Froelich disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1306902733"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteochondrosis of lesser trochanter of femur"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1174677233"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Monde-Felix disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1174677233"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteochondrosis of patella"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1812673683"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Köhler"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1812673683"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteochondrosis of os tibiale externum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/932252448"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Haglund"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/932252448"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteochondrosis of the proximal epiphysis of the radius"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2018867701"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Schaefer disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2018867701"
+    }
+  ]
+}

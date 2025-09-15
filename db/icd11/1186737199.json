@@ -1,0 +1,124 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1186737199",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1782114659"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1186737199",
+  "code": "GB20.1",
+  "source": "http://id.who.int/icd/entity/1186737199",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1186737199/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1186737199/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/831985561"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Fibroadenosis of breast"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fibroadenoma of breast"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/143326763",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/143326763"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fibroadenosis of breast"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "adenofibrosis of breast"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "fibroadenosis of breast NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Adenosis of breast"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2076338342"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sclerosing adenosis of the breast"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/845061384"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Microglandular adenosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2137984191"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic fibroadenosis of breast"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2130069336"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cystic fibroadenosis of breast"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1906980698"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Diffuse fibroadenosis of breast"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1615767388"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Segmental fibroadenosis of breast"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1484714191"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Periodic fibroadenosis of breast"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/753302796"
+    }
+  ]
+}

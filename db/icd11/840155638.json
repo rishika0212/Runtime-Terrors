@@ -1,0 +1,60 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/840155638",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/609214049"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/707709463",
+    "http://id.who.int/icd/release/11/2024-01/mms/359736861",
+    "http://id.who.int/icd/release/11/2024-01/mms/1002985340",
+    "http://id.who.int/icd/release/11/2024-01/mms/1332021123",
+    "http://id.who.int/icd/release/11/2024-01/mms/1505778051",
+    "http://id.who.int/icd/release/11/2024-01/mms/840155638/other"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#840155638",
+  "code": "1A72",
+  "source": "http://id.who.int/icd/entity/840155638",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/840155638/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/684930313",
+        "http://id.who.int/icd/release/11/2024-01/mms/1128677700",
+        "http://id.who.int/icd/release/11/2024-01/mms/1957823459",
+        "http://id.who.int/icd/release/11/2024-01/mms/2051676830",
+        "http://id.who.int/icd/release/11/2024-01/mms/512128824",
+        "http://id.who.int/icd/release/11/2024-01/mms/654702340",
+        "http://id.who.int/icd/release/11/2024-01/mms/1323682030"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/840155638/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/312500700"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Gonococcal infection of other sites"
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/911707612"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gonococcal infection of other sites"
+      }
+    }
+  ]
+}

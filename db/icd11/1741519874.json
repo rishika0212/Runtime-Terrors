@@ -1,0 +1,49 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1741519874",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1421997617"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/325070079",
+    "http://id.who.int/icd/release/11/2024-01/mms/194200207",
+    "http://id.who.int/icd/release/11/2024-01/mms/1859686171",
+    "http://id.who.int/icd/release/11/2024-01/mms/443932646",
+    "http://id.who.int/icd/release/11/2024-01/mms/214991332",
+    "http://id.who.int/icd/release/11/2024-01/mms/1741519874/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1741519874/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1741519874",
+  "code": "JB40",
+  "source": "http://id.who.int/icd/entity/1741519874",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1741519874/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Infections in the puerperium"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "infection during labour"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1909570991",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1124951812"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/716675709",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/609351978"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2079097589",
+    "http://id.who.int/icd/release/11/2024-01/mms/514281313",
+    "http://id.who.int/icd/release/11/2024-01/mms/1779048350",
+    "http://id.who.int/icd/release/11/2024-01/mms/255971852",
+    "http://id.who.int/icd/release/11/2024-01/mms/2091860384",
+    "http://id.who.int/icd/release/11/2024-01/mms/434408458",
+    "http://id.who.int/icd/release/11/2024-01/mms/1833557237",
+    "http://id.who.int/icd/release/11/2024-01/mms/134353249",
+    "http://id.who.int/icd/release/11/2024-01/mms/716675709/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/716675709/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#716675709",
+  "code": "NF0A",
+  "source": "http://id.who.int/icd/entity/716675709",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/716675709/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/980862652",
+        "http://id.who.int/icd/release/11/2024-01/mms/851395624",
+        "http://id.who.int/icd/release/11/2024-01/mms/73322695",
+        "http://id.who.int/icd/release/11/2024-01/mms/128104623",
+        "http://id.who.int/icd/release/11/2024-01/mms/1491356379",
+        "http://id.who.int/icd/release/11/2024-01/mms/491063206",
+        "http://id.who.int/icd/release/11/2024-01/mms/185842968",
+        "http://id.who.int/icd/release/11/2024-01/mms/2143219175",
+        "http://id.who.int/icd/release/11/2024-01/mms/558785723",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Certain early complications of trauma, not elsewhere classified"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury or harm arising from surgical or medical care, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/383104340",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/383104340"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Respiratory distress of newborn"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1178406122",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1178406122"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Adult acute respiratory distress syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1466842111",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1189702844"
+    }
+  ]
+}

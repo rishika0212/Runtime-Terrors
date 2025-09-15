@@ -1,0 +1,247 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/11236328",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/390439470"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#11236328",
+  "code": "CB27",
+  "source": "http://id.who.int/icd/entity/11236328",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/11236328/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/11236328/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1630407678",
+        "http://id.who.int/icd/release/11/2024-01/mms/1458683894",
+        "http://id.who.int/icd/release/11/2024-01/mms/142052508"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Pleural effusion"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Presence of fluid in the pleural cavity resulting from excessive transudation or exudation from the pleural surfaces."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pleurisy with effusion"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculosis of the respiratory system"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/882244568",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/882244568"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chylous effusion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/693433074",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/693433074"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pleurisy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/317852053",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/317852053"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/923122941"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pleural effusion"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "PE - [pleural effusion]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pleurisy with effusion"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pleurisy with effusion NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pleural effusion with transudate"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pleurorrhoea"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pleural cavity fluid"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chest fluid NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hydrothorax"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "water on chest"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pleural hydrops"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Exudative pleural effusion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1413341388"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "exudative pleurisy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1413341388"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pneumococcal pleurisy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1290311088"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Streptococcal pleurisy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1507498374"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute streptococcal pleurisy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1250230472"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic streptococcal pleurisy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1873651100"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Streptococcal double pleurisy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1381004724"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Streptococcal fibrinous pleurisy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2096250070"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Streptococcal adhesive pleurisy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/213658919"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Subacute streptococcal pleurisy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/432826865"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Serofibrinous pleurisy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1028979377"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Serous pleurisy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/948252127"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute serous pleuritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2022956458"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Encysted pleurisy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1033388239"
+    }
+  ]
+}

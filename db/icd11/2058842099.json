@@ -1,0 +1,63 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2058842099",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1471564294"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2058842099",
+  "code": "FB56.3",
+  "source": "http://id.who.int/icd/entity/2058842099",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2058842099/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2058842099/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/430791912",
+        "http://id.who.int/icd/release/11/2024-01/mms/1896004518"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Hypertrophy of infrapatellar fat pad"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is a hypertrophy of an intracapsular but extrasynovial structure limited by the inferior pole of the patella superiorly, the joint capsule and patellar tendon anteriorly, the proximal tibia and deep infrapatellar bursa inferiorly, and the synovium-lined joint cavity posteriorly."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hypertrophy of infrapatellar fat pad"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hypertrophy of fat pad of knee"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "fat pad of knee"
+      }
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/481852400",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1784240230"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1377614074",
+    "http://id.who.int/icd/release/11/2024-01/mms/1781315693",
+    "http://id.who.int/icd/release/11/2024-01/mms/549472657",
+    "http://id.who.int/icd/release/11/2024-01/mms/481852400/other"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#481852400",
+  "code": "DB93",
+  "source": "http://id.who.int/icd/entity/481852400",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/481852400/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/481852400/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1154736543",
+        "http://id.who.int/icd/release/11/2024-01/mms/1469571641",
+        "http://id.who.int/icd/release/11/2024-01/mms/985510409/unspecified"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/481852400/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Hepatic fibrosis or cirrhosis"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced or toxic liver disease with fibrosis or cirrhosis of liver"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/133444243",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/133444243"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Alcoholic cirrhosis of liver without hepatitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/474954105",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/474954105"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Alcoholic liver fibrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2030367981",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2030367981"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fibropolycystic liver disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/557775192",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/557775192"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital hepatic fibrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/206878481",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/557775192"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic viral hepatitis with cirrhosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1469571641",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1469571641"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Non-alcoholic steatohepatitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1884917970",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1884917970"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Non-alcoholic fatty liver disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1912806631",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1912806631"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cardiac cirrhosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1950717792",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1950717792"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hepatic fibrosis or cirrhosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "fibrosis and cirrhosis of liver"
+      }
+    }
+  ]
+}

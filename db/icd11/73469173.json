@@ -1,0 +1,86 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/73469173",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1203447657"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#73469173",
+  "code": "2C32.2",
+  "source": "http://id.who.int/icd/entity/73469173",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/73469173/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/73469173/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/223243926",
+        "http://id.who.int/icd/release/11/2024-01/mms/947150833",
+        "http://id.who.int/icd/release/11/2024-01/mms/1810600222"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/73469173/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/73469173/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/630328761",
+        "http://id.who.int/icd/release/11/2024-01/mms/1707521326",
+        "http://id.who.int/icd/release/11/2024-01/mms/2137289572"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Superficial basal cell carcinoma of skin"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Superficial basal cell carcinomas are often multiple and appear as pink or red barely elevated patches varying in size from a few mm to over 10 cm in diameter. A fine pearly border can usually be seen on careful inspection. They occur most frequently on the trunk."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Superficial basal cell carcinoma of skin"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Multifocal basal cell carcinoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/722770286"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "multicentric basal cell carcinoma of unspecified site"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/722770286"
+    }
+  ]
+}

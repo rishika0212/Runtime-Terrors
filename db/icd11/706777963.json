@@ -1,0 +1,90 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/706777963",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/850474319"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#706777963",
+  "code": "GA10.C1",
+  "source": "http://id.who.int/icd/entity/706777963",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/706777963/postcoordinationScale/relational",
+      "axisName": "http://id.who.int/icd/schema/relational",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1013312453",
+        "http://id.who.int/icd/release/11/2024-01/mms/423444880"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/706777963/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1928625572",
+        "http://id.who.int/icd/release/11/2024-01/mms/1741413713"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/706777963/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1507624466",
+        "http://id.who.int/icd/release/11/2024-01/mms/1290701352"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/706777963/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/469219785",
+        "http://id.who.int/icd/release/11/2024-01/mms/782258967",
+        "http://id.who.int/icd/release/11/2024-01/mms/14576949/other"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Endometriosis of intestine"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Endometriosis situated inside the bowel wall at or below the subserosal level, excluding superficial serosal lesions that are still classified as peritoneal endometriosis. Mostly affecting rectosigmoid area, but can be found also in other parts of the bowel system."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Endometriosis of intestine"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "endometriosis of bowel"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Endometriosis of small intestine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1601806547"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Endometriosis of large intestine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1689497455"
+    }
+  ]
+}

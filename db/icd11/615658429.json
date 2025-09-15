@@ -1,0 +1,70 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/615658429",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2020673786"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#615658429",
+  "code": "EK00.4",
+  "source": "http://id.who.int/icd/entity/615658429",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/615658429/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/223243926",
+        "http://id.who.int/icd/release/11/2024-01/mms/947150833",
+        "http://id.who.int/icd/release/11/2024-01/mms/1810600222"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/615658429/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/56475710",
+        "http://id.who.int/icd/release/11/2024-01/mms/1991139272"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Allergic contact dermatitis due to hairdressing products"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Allergic contact dermatitis due to hair care products such as dyes, permanent wave and bleaching agents and shampoos. Such allergens may show occupational relevance among hairdressers although consumers are most commonly affected."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Allergic contact dermatitis due to hairdressing products"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Allergic contact eczema due to hairdressing products"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupational allergic contact dermatitis due to hairdressing products"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/713538627"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nonoccupational allergic contact dermatitis due to hairdressing products"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2138045052"
+    }
+  ]
+}

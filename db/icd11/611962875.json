@@ -1,0 +1,69 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/611962875",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1332995100"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1092658552",
+    "http://id.who.int/icd/release/11/2024-01/mms/1355167773",
+    "http://id.who.int/icd/release/11/2024-01/mms/898495881",
+    "http://id.who.int/icd/release/11/2024-01/mms/852375268",
+    "http://id.who.int/icd/release/11/2024-01/mms/491097171",
+    "http://id.who.int/icd/release/11/2024-01/mms/2014200263",
+    "http://id.who.int/icd/release/11/2024-01/mms/212013370",
+    "http://id.who.int/icd/release/11/2024-01/mms/1776868524",
+    "http://id.who.int/icd/release/11/2024-01/mms/436621112",
+    "http://id.who.int/icd/release/11/2024-01/mms/2135786158",
+    "http://id.who.int/icd/release/11/2024-01/mms/611962875/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/611962875/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#611962875",
+  "code": "CA60",
+  "source": "http://id.who.int/icd/entity/611962875",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/611962875/postcoordinationScale/causality",
+      "axisName": "http://id.who.int/icd/schema/causality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/894194405",
+        "http://id.who.int/icd/release/11/2024-01/mms/655959100",
+        "http://id.who.int/icd/release/11/2024-01/mms/56475710"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/611962875/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/611962875/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/678821627",
+        "http://id.who.int/icd/release/11/2024-01/mms/131278066",
+        "http://id.who.int/icd/release/11/2024-01/mms/1583926619"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Pneumoconiosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Pneumoconiosis is a lung disease due to inhalation of minute particles and characterised pathologically by interstitial fibrosis. The different types of pneumoconiosis vary in relation to the types of inhaled particles, often accompanied by certain occupational environments."
+  }
+}

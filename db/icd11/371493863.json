@@ -1,0 +1,96 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/371493863",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2121278989"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#371493863",
+  "code": "2D06.3",
+  "source": "http://id.who.int/icd/entity/371493863",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/371493863/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/371493863/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/921333339"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/371493863/postcoordinationScale/histopathology",
+      "axisName": "http://id.who.int/icd/schema/histopathology",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/406773184",
+        "http://id.who.int/icd/release/11/2024-01/mms/1201112723",
+        "http://id.who.int/icd/release/11/2024-01/mms/1916269207",
+        "http://id.who.int/icd/release/11/2024-01/mms/501365817",
+        "http://id.who.int/icd/release/11/2024-01/mms/868462896",
+        "http://id.who.int/icd/release/11/2024-01/mms/1382625499",
+        "http://id.who.int/icd/release/11/2024-01/mms/401366818",
+        "http://id.who.int/icd/release/11/2024-01/mms/335205580",
+        "http://id.who.int/icd/release/11/2024-01/mms/883278510",
+        "http://id.who.int/icd/release/11/2024-01/mms/2074937915",
+        "http://id.who.int/icd/release/11/2024-01/mms/21495372",
+        "http://id.who.int/icd/release/11/2024-01/mms/2144136007",
+        "http://id.who.int/icd/release/11/2024-01/mms/931014416",
+        "http://id.who.int/icd/release/11/2024-01/mms/1493574777",
+        "http://id.who.int/icd/release/11/2024-01/mms/122539164",
+        "http://id.who.int/icd/release/11/2024-01/mms/961418820",
+        "http://id.who.int/icd/release/11/2024-01/mms/1299262449",
+        "http://id.who.int/icd/release/11/2024-01/mms/53002801",
+        "http://id.who.int/icd/release/11/2024-01/mms/1877382372"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/371493863/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Malignant neuroepithelial tumours of ciliary body"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant neuroepithelial tumours of ciliary body"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Adenocarcinoma of ciliary neuroepithelium"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1300783586"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Medulloepithelioma, malignant"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/806400281"
+    }
+  ]
+}

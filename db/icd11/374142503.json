@@ -1,0 +1,83 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/374142503",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/489508344"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#374142503",
+  "code": "EH75",
+  "source": "http://id.who.int/icd/entity/374142503",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/374142503/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1450176443",
+        "http://id.who.int/icd/release/11/2024-01/mms/1676151582",
+        "http://id.who.int/icd/release/11/2024-01/mms/1583926619",
+        "http://id.who.int/icd/release/11/2024-01/mms/1323892810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Photosensitivity due to drug"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A photosensitive skin reaction to a medicament, most commonly a phototoxic reaction to a systemically administered drug, although photoallergy to drugs may rarely occur."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Photosensitivity due to drug"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Photoallergic drug reaction"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/305500682"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug photoallergic response"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/305500682"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Phototoxic drug reaction"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2004770716"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug phototoxic response"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2004770716"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced photo-onycholysis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/49225828"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "medicament-induced photo-onycholysis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/49225828"
+    }
+  ]
+}

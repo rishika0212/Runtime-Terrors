@@ -1,0 +1,115 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1379313682",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1656637330"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1379313682",
+  "code": "GB56.4",
+  "source": "http://id.who.int/icd/entity/1379313682",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1379313682/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1379313682/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1507624466"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Other or unspecified hydronephrosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This refers to distension and dilation of the renal pelvis and calyces in situations other than those coded elsewhere or when no additional details are available."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pyonephrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/809412333",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/809412333"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Other or unspecified hydronephrosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hydronephrosis NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Calyx dilatation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/904530955"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hydrocalycosis, not otherwise specified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/891729525"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hydronephrotic kidney atrophy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/901992165"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hydroureteronephrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/821518619"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pyelectasis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1954574354"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pyelogenic cyst of kidney"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/171109071"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Uronephrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1901176704"
+    }
+  ]
+}

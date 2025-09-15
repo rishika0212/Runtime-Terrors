@@ -1,0 +1,61 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1913126571",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/393047701"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1913126571",
+  "code": "5D01",
+  "source": "http://id.who.int/icd/entity/1913126571",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1913126571/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/879154182",
+        "http://id.who.int/icd/release/11/2024-01/mms/944754984",
+        "http://id.who.int/icd/release/11/2024-01/mms/2009008947",
+        "http://id.who.int/icd/release/11/2024-01/mms/531713107",
+        "http://id.who.int/icd/release/11/2024-01/mms/1167133946",
+        "http://id.who.int/icd/release/11/2024-01/mms/1158485193",
+        "http://id.who.int/icd/release/11/2024-01/mms/1844086508",
+        "http://id.who.int/icd/release/11/2024-01/mms/264268169"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Tumour lysis syndrome"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is a group of metabolic complications that can occur after treatment of cancer, usually lymphomas and leukaemias, and sometimes even without treatment. These complications are caused by the breakdown products of dying cancer cells and include hyperkalaemia, hyperphosphataemia, hyperuricaemia and hyperuricosuria, hypocalcaemia, and consequent acute uric acid nephropathy and acute renal failure."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1154068795"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tumour lysis syndrome"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tumour lysis spontaneous"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tumour lysis following antineoplastic drug therapy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1357455153"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1200133657",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1868068711"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1200133657",
+  "code": "4A84.1",
+  "source": "http://id.who.int/icd/entity/1200133657",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Anaphylaxis due to radiocontrast media"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1143499549",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/778830229"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1200133657/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1450176443",
+        "http://id.who.int/icd/release/11/2024-01/mms/1098540500",
+        "http://id.who.int/icd/release/11/2024-01/mms/1676151582",
+        "http://id.who.int/icd/release/11/2024-01/mms/1583926619",
+        "http://id.who.int/icd/release/11/2024-01/mms/1323892810"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1200133657/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/502820569",
+        "http://id.who.int/icd/release/11/2024-01/mms/1206642838",
+        "http://id.who.int/icd/release/11/2024-01/mms/1839152580",
+        "http://id.who.int/icd/release/11/2024-01/mms/683532877"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Drug-induced anaphylaxis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Anaphylaxis attributable to a drug. When severe it may be fatal. This systemic reaction usually develops within minutes to hours of administration of the drug, is often severe and may be fatal. The most frequent drugs causing anaphylaxis are antibiotics, particularly penicillins. Clinically there may be premonitory dizziness or faintness, skin tingling and erythema, followed by urticaria, angio-oedema, bronchospasm, abdominal pain and vasomotor collapse."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced anaphylaxis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Anaphylaxis due to drugs and medicaments"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "medicament-induced anaphylaxis"
+      }
+    }
+  ]
+}

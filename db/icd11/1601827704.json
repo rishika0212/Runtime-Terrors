@@ -1,0 +1,353 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1601827704",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1520152220"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1601827704",
+  "code": "DC51.1",
+  "source": "http://id.who.int/icd/entity/1601827704",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1601827704/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1493524587",
+        "http://id.who.int/icd/release/11/2024-01/mms/1928625572",
+        "http://id.who.int/icd/release/11/2024-01/mms/1741413713",
+        "http://id.who.int/icd/release/11/2024-01/mms/704682604",
+        "http://id.who.int/icd/release/11/2024-01/mms/328366540",
+        "http://id.who.int/icd/release/11/2024-01/mms/1699945558",
+        "http://id.who.int/icd/release/11/2024-01/mms/956779537",
+        "http://id.who.int/icd/release/11/2024-01/mms/152505840"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1601827704/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Peritoneal adhesions"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Disorders of peritoneum sticking by scar tissue or fibrosis"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Adhesions of large intestine with obstruction"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/54219558",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/54219558"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postprocedural pelvic peritoneal adhesions"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/913577907",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/913577907"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Intestinal adhesions or bands of small intestine with obstruction"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1048032051",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1048032051"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Peritoneal adhesions"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "abdominal adhesion"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "adhesive peritoneal band"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "peritoneal adhesion"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "peritoneal band"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "peritoneum adhesion"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "abdominal cavity adhesion"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "adhesion of abdominal wall"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "adhesion of male pelvis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "adhesive band"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "intra-abdominal adhesion"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "abdominal wall adhesions"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pelvic male adhesion"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "peritoneum band"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Adhesion of caecum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/876916822"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Adhesion of diaphragm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1801656807"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "diaphragmatic adhesions"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1801656807"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Adhesion of intestine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/548241534"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bowel adhesion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/548241534"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "intestinal band"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/548241534"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "intestinal adhesion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/548241534"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "intestinal adhesions"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/548241534"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Adhesion of ileum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/630828928"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Adhesion of mesentery"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/717610882"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "mesenteric adhesion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/717610882"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "mesentery adhesions"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/717610882"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Adhesion of omentum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/992038788"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "omental adhesions"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/992038788"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Adhesion of sigmoid flexure"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1895766817"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "sigmoidal flexure adhesions"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1895766817"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Adhesion of stomach"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/450852584"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Colonic adhesions"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/962850447"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "colon adhesion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/962850447"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Duodenal adhesion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1012384113"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ileocaecal adhesion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/856404339"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ileocaecum adhesions"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/856404339"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Liver adhesion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2046553190"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Periappendiceal adhesion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1016822543"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Perigastric adhesion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/967791857"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postinfection peritoneal adhesions"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2111325692"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pylorus adhesions"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/57335589"
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/257068234",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/135352227"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#257068234",
+  "code": "1A00",
+  "source": "http://id.who.int/icd/entity/257068234",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/257068234/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/194483911",
+        "http://id.who.int/icd/release/11/2024-01/mms/802386629",
+        "http://id.who.int/icd/release/11/2024-01/mms/21927667"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/257068234/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1215034670",
+        "http://id.who.int/icd/release/11/2024-01/mms/1839638766",
+        "http://id.who.int/icd/release/11/2024-01/mms/501791005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1975056531",
+        "http://id.who.int/icd/release/11/2024-01/mms/828922344",
+        "http://id.who.int/icd/release/11/2024-01/mms/174465822",
+        "http://id.who.int/icd/release/11/2024-01/mms/612672352",
+        "http://id.who.int/icd/release/11/2024-01/mms/1882742628/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/1882742628/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Cholera"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Cholera is a potentially epidemic and life-threatening infection of the intestine, characterised by extreme watery (secretory) diarrhoea often accompanied by vomiting, with rapid depletion of body fluids and salt that may result in hypovolemic shock and acidosis. Cholera outbreaks are caused by toxigenic strains of Vibrio cholerae serogroups O1 and O139. Serogroup O1 has two biovars; classical and eltor. Vibrio cholerae O1, biovar cholerae is classical type. Vibrio cholerae O1, biovar eltor is eltor type."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cholera syndrome"
+      }
+    }
+  ],
+  "fullySpecifiedName": {
+    "@language": "en",
+    "@value": "Intestinal infection due to Vibrio cholerae"
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/911707612"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cholera"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cholera syndrome"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "asiatic cholera"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "epidemic cholera"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Intestinal infection due to Vibrio cholerae"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Enteritis due to cholera due to Vibrio cholerae, non-O1 strains"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1170831944"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cholera due to Vibrio cholerae O1, biovar cholerae"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1205958647"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "classical cholera"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1205958647"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Enteritis due to Cholera due to Vibrio cholerae O1, biovar cholerae"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1384028266"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Enteritis due to classical cholera"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1384028266"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cholera due to Vibrio cholerae O1, biovar eltor"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/581614179"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cholera - vibrio cholerae 01 eltor biotype"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/581614179"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cholera due to Vibrio cholerae 01, Cholera eltor"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/581614179"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cholera due to Cholera eltor"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/581614179"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Enteritis due to cholera due to Vibrio cholerae O1, biovar eltor"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/375406584"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Enteritis due to cholera due to Cholera eltor"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/375406584"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "eltor enteritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/375406584"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "infectious enteritis due to vibrio cholerae 01, biovar eltor"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/375406584"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cholera due to Vibrio cholerae O139"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1972085775"
+    }
+  ]
+}

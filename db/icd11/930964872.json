@@ -1,0 +1,137 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/930964872",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1656637330"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#930964872",
+  "code": "GB56.2",
+  "source": "http://id.who.int/icd/entity/930964872",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/930964872/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/930964872/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1507624466"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Hydronephrosis with ureteral orifice obstruction"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Dilatation of the renal pelvis and calyces associated with (and presumably due to) obstruction of the ureter at the insertion into the bladder and hence ascending back pressure."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "with infection"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/809412333",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/809412333"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hydronephrosis with ureteral orifice obstruction"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hydronephrosis with ureteral orifice obstruction, acquired"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1395625142"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hydronephrosis with ureteral orifice obstruction, acquired, due to cause classified elsewhere"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/900921677"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Calculus of ureter with calculus of kidney and hydronephrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1022294860"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hydronephrosis with renal and ureteral calculous obstruction"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1022294860"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Calculus of ureter with hydronephrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/215814344"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic pyelonephritis with calculus and hydronephrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/217338410"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic pyelitis with calculus and hydronephrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/317391452"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pyelitis with calculus and hydronephrosis, not otherwise specified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2034423387"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Urinary tract calculus with hydronephrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1621490244"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hydronephrosis with ureteral orifice obstruction, congenital"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1178566575"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pyelonephritis with calculus and hydronephrosis, not otherwise specified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2126162482"
+    }
+  ]
+}

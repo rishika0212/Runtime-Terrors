@@ -1,0 +1,71 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1156263785",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1298211163"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1156263785",
+  "code": "JB64.2",
+  "source": "http://id.who.int/icd/entity/1156263785",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1156263785/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/461716838",
+        "http://id.who.int/icd/release/11/2024-01/mms/1671987290",
+        "http://id.who.int/icd/release/11/2024-01/mms/155258022",
+        "http://id.who.int/icd/release/11/2024-01/mms/1915134721"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Endocrine, nutritional or metabolic diseases complicating pregnancy, childbirth or the puerperium"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Any disease affecting pregnant females, characterised by endocrine, nutrition, or metabolic manifestations that complicate pregnancy, childbirth, or the puerperium."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malnutrition in pregnancy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1867773640",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1867773640"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Diabetes mellitus in pregnancy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/169360210",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/169360210"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postpartum thyroiditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1577113218",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1577113218"
+    }
+  ],
+  "codingNote": {
+    "@language": "en",
+    "@value": "This category includes conditions which complicate the pregnant state, are aggravated by the pregnancy or are a main reason for obstetric care but no specific category exists in this chapter."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Endocrine, nutritional or metabolic diseases complicating pregnancy, childbirth or the puerperium"
+      }
+    }
+  ]
+}

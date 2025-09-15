@@ -1,0 +1,113 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1242649410",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1111681557"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1242649410",
+  "code": "AB33",
+  "source": "http://id.who.int/icd/entity/1242649410",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1242649410/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1242649410/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1851292761"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Otosclerosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Otosclerosis is a genetically mediated metabolic bone disease that affects the otic capsule and stapes. It is an autosomal dominant disorder with varying penetrance and expressivity. Usually symptomatic hearing loss from otosclerosis develops early in the third decade of life, although onset in the teenage years does occur."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "otospongiosis"
+      }
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Otosclerosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "otospongiosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Otosclerosis involving oval window, nonobliterative"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/876294903"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "nonobliterative otosclerosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/876294903"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Otosclerosis involving oval window, obliterative"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1366359907"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "obliterative otosclerosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1366359907"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cochlear otosclerosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/635285404"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Otosclerosis involving round window"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/635285404"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Otosclerosis involving otic capsule"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/844933646"
+    }
+  ]
+}

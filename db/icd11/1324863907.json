@@ -1,0 +1,54 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1324863907",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1193296631"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/487162814",
+    "http://id.who.int/icd/release/11/2024-01/mms/2017611304",
+    "http://id.who.int/icd/release/11/2024-01/mms/1324863907/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1324863907/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1324863907",
+  "code": "1F70",
+  "source": "http://id.who.int/icd/entity/1324863907",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Encephalitis due to cysticercosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1963647402",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/487162814/other"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cysticercosis of orbit"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2110318828",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/287258758/other"
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Cysticercosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease caused by an infection of tissue with larval cysts from the parasitic worm Taenia solium. This disease presents with symptoms depending on the site of infection (central nervous system, eye, or muscle). Transmission is through haematogenous spread of larvae to affected tissue after ingestion of Taenia solium eggs (or proglottids) in contaminated food or water. Confirmation is commonly by detection of antibodies against Taenia solium in a blood sample, cerebrospinal fluid, or faeces, and by advanced imaging of affected tissue."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cysticerciasis infection due to larval form of Taenia solium"
+      }
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1945127438"
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2141360941",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1024345542"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2141360941",
+  "code": "GB01.0",
+  "source": "http://id.who.int/icd/entity/2141360941",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2141360941/postcoordinationScale/temporalPatternAndOnset",
+      "axisName": "http://id.who.int/icd/schema/temporalPatternAndOnset",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1281193286",
+        "http://id.who.int/icd/release/11/2024-01/mms/1313511357",
+        "http://id.who.int/icd/release/11/2024-01/mms/47514516"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Torsion of testis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition of the testes, caused by determinants arising during the antenatal period, or exposure to cold temperatures. This condition is characterised by twisting of the spermatic cord, ischaemia of the testis, severe pain, tenderness, and decreased or absent cremasteric reflex. Confirmation is by imaging."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Torsion of spermatic cord"
+      }
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Torsion of testis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Torsion of spermatic cord"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "testicular torsion"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "torsion of spermatic cord NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Torsion of testis with reversible ischemia of the testis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/724972243"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Torsion of testis with testicular necrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1480391336"
+    }
+  ]
+}

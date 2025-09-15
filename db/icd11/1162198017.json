@@ -1,0 +1,54 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1162198017",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/558785723"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/279160930",
+    "http://id.who.int/icd/release/11/2024-01/mms/387174738",
+    "http://id.who.int/icd/release/11/2024-01/mms/1474639400",
+    "http://id.who.int/icd/release/11/2024-01/mms/33759817",
+    "http://id.who.int/icd/release/11/2024-01/mms/1281022650",
+    "http://id.who.int/icd/release/11/2024-01/mms/40498080",
+    "http://id.who.int/icd/release/11/2024-01/mms/972666616",
+    "http://id.who.int/icd/release/11/2024-01/mms/1162198017/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1162198017/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1162198017",
+  "code": "PL11",
+  "source": "http://id.who.int/icd/entity/1162198017",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1162198017/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1318533336",
+        "http://id.who.int/icd/release/11/2024-01/mms/13549609",
+        "http://id.who.int/icd/release/11/2024-01/mms/460401849/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/460401849/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Mode of injury or harm associated with a surgical or other medical procedure"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mode of injury or harm associated with exposure to a drug, medicament or biological substance"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1323892810",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1323892810"
+    }
+  ],
+  "codingNote": {
+    "@language": "en",
+    "@value": "Code first the injury or harm associated with the procedure. Code also the cause of harm which identifies the procedure or intervention."
+  }
+}

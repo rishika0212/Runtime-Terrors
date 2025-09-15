@@ -1,0 +1,97 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/455330172",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1223380074"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/380028323",
+    "http://id.who.int/icd/release/11/2024-01/mms/1944913975",
+    "http://id.who.int/icd/release/11/2024-01/mms/121657546",
+    "http://id.who.int/icd/release/11/2024-01/mms/1644926300",
+    "http://id.who.int/icd/release/11/2024-01/mms/1721328596",
+    "http://id.who.int/icd/release/11/2024-01/mms/1790484912",
+    "http://id.who.int/icd/release/11/2024-01/mms/455330172/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#455330172",
+  "code": "EH90",
+  "source": "http://id.who.int/icd/entity/455330172",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/455330172/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/455330172/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1357976561",
+        "http://id.who.int/icd/release/11/2024-01/mms/730488167",
+        "http://id.who.int/icd/release/11/2024-01/mms/1218764272",
+        "http://id.who.int/icd/release/11/2024-01/mms/986233688",
+        "http://id.who.int/icd/release/11/2024-01/mms/2093217246"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/455330172/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/460401849",
+        "http://id.who.int/icd/release/11/2024-01/mms/1642025150",
+        "http://id.who.int/icd/release/11/2024-01/mms/2024436666",
+        "http://id.who.int/icd/release/11/2024-01/mms/972666616"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Pressure ulceration"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Pressure ulcers result from localised injury and ischaemic necrosis of skin and underlying tissues due to prolonged pressure, or pressure in combination with shear; bony prominences of the body are the most frequently affected sites; immobility and debility are major contributing factors."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pressure injury"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pressure ulcer"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bedsore"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "decubitus (trophic) ulcer of cervix (uteri)"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2067117185",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2067117185"
+    }
+  ]
+}

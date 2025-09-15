@@ -1,0 +1,47 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1763449287",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1057832531"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/224753192",
+    "http://id.who.int/icd/release/11/2024-01/mms/1747893182",
+    "http://id.who.int/icd/release/11/2024-01/mms/2115347058",
+    "http://id.who.int/icd/release/11/2024-01/mms/1763449287/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1763449287/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1763449287",
+  "code": "LB13",
+  "source": "http://id.who.int/icd/entity/1763449287",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gastric volvulus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1023186137",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1023186137"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1763449287/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1493524587"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Structural developmental anomalies of stomach"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Any congenital defect of stomach that results from interference with the normal growth and differentiation of the fetus. Such defects can arise at any stage of embryonic development, vary greatly in type and severity, and are caused by a wide variety of determining factors, including genetic mutations, chromosomal aberrations, teratogenic agents, and environmental factors. Most developmental defects are apparent at birth, especially any structural malformation, but some become evident later."
+  }
+}

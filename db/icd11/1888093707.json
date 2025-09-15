@@ -1,0 +1,114 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1888093707",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/371242799"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1888093707",
+  "code": "DA01.15",
+  "source": "http://id.who.int/icd/entity/1888093707",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1888093707/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/236924369",
+        "http://id.who.int/icd/release/11/2024-01/mms/771273482",
+        "http://id.who.int/icd/release/11/2024-01/mms/1508081745"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Mouth ulcers"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Oral ulceration of other specified or unspecified type."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mechanical oral ulceration"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1038669189",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/371242799"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced oral ulcer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/580675290",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/580675290"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1475546212"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mouth ulcers"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Buccal ulceration"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ulcer of oral mucosa"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ulceration of oral mucosa"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "buccal ulcer"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ulcer of mouth"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "superficial mouth ulcer"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Soft palate ulcer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1662902693"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ulcer of palate"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1662902693"
+    }
+  ]
+}

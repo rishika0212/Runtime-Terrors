@@ -1,0 +1,68 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/621582195",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/306138025"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1848542315",
+    "http://id.who.int/icd/release/11/2024-01/mms/1768769282",
+    "http://id.who.int/icd/release/11/2024-01/mms/2022431339",
+    "http://id.who.int/icd/release/11/2024-01/mms/499128319",
+    "http://id.who.int/icd/release/11/2024-01/mms/621582195/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/621582195/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#621582195",
+  "code": "GA16",
+  "source": "http://id.who.int/icd/entity/621582195",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Adenomyosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/171294592",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/171294592"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Leiomyoma of uterus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/455734276",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/455734276"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired absence of the uterus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/124176483",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/313875936"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/621582195/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/265230989",
+        "http://id.who.int/icd/release/11/2024-01/mms/1779836109",
+        "http://id.who.int/icd/release/11/2024-01/mms/2101231629",
+        "http://id.who.int/icd/release/11/2024-01/mms/2101231629",
+        "http://id.who.int/icd/release/11/2024-01/mms/39079517"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acquired abnormalities of uterus, except cervix"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Any condition of the uterus, caused by determinants arising after birth. These conditions are characterised by a malfunction, malformation, or another anomaly of the uterus (excluding the cervix)."
+  }
+}

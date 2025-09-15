@@ -1,0 +1,96 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1259219261",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/588559962"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1259219261",
+  "code": "EG02",
+  "source": "http://id.who.int/icd/entity/1259219261",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Carcinoid syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/111763187",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/111763187"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Flushing"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/787076427",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/787076427"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Menopausal hot flush"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/222407548",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/222407548"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1259219261/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1583926619",
+        "http://id.who.int/icd/release/11/2024-01/mms/1323892810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Flushing disorders"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Flushing disorders"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Exaggerated physiological flushing"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/575340905"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Emotional flushing"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/193955579"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Blushing"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/193955579"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced flushing"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/13161228"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gustatory flushing"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/366485527"
+    }
+  ]
+}

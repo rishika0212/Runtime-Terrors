@@ -1,0 +1,70 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/758385882",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/592902578"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/269137453",
+    "http://id.who.int/icd/release/11/2024-01/mms/1967225785",
+    "http://id.who.int/icd/release/11/2024-01/mms/32254790",
+    "http://id.who.int/icd/release/11/2024-01/mms/1688725204",
+    "http://id.who.int/icd/release/11/2024-01/mms/1675896249",
+    "http://id.who.int/icd/release/11/2024-01/mms/758385882/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/758385882/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#758385882",
+  "code": "NC34",
+  "source": "http://id.who.int/icd/entity/758385882",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/758385882/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/758385882/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/239716904",
+        "http://id.who.int/icd/release/11/2024-01/mms/246233550",
+        "http://id.who.int/icd/release/11/2024-01/mms/1935818403",
+        "http://id.who.int/icd/release/11/2024-01/mms/223134782"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/758385882/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482",
+        "http://id.who.int/icd/release/11/2024-01/mms/755612283"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Injury of nerves at forearm level"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury of nerves at wrist or hand level"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/713304845",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/713304845"
+    }
+  ]
+}

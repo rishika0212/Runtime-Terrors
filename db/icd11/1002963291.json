@@ -1,0 +1,85 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1002963291",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/924915526"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1002963291",
+  "code": "BA03",
+  "source": "http://id.who.int/icd/entity/1002963291",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1002963291/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/761947693",
+        "http://id.who.int/icd/release/11/2024-01/mms/1210166201",
+        "http://id.who.int/icd/release/11/2024-01/mms/1015872326",
+        "http://id.who.int/icd/release/11/2024-01/mms/1331849426"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Hypertensive crisis"
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1380872553"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1910517058"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hypertensive crisis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hypertensive emergency"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/244762378"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hypertensive crisis with acute organ damage"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/244762378"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "severely elevated blood pressure with acute organ damage"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/244762378"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hypertensive urgency"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/956687992"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hypertensive crisis without acute organ damage"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/956687992"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "severely elevated blood pressure without acute organ damage"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/956687992"
+    }
+  ]
+}

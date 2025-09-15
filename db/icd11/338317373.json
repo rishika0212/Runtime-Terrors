@@ -1,0 +1,75 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/338317373",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1210263011"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#338317373",
+  "code": "GB53",
+  "source": "http://id.who.int/icd/entity/338317373",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/338317373/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acute renal papillary necrosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition of the kidney, caused by ischaemia, liver disease, or analgesic nephropathy. This condition is characterised by death of single or multiple renal papillae, haematuria, flank pain, and tissue fragments in the urine. This condition may also present with fever and chills."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute renal papillary necrosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute renal necrosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute renal papillary necrosis due to drugs, biological agents or environmental toxins"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1190627642"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute papillary necrosis due to drugs, biological agents and environmental toxins"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1190627642"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute renal papillary necrosis cause classified elsewhere"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1045423404"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute papillary necrosis cause classified elsewhere"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1045423404"
+    }
+  ]
+}

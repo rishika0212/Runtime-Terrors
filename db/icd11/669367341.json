@@ -1,0 +1,51 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/669367341",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/28995849"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2048783472",
+    "http://id.who.int/icd/release/11/2024-01/mms/525744634",
+    "http://id.who.int/icd/release/11/2024-01/mms/1336990680",
+    "http://id.who.int/icd/release/11/2024-01/mms/1956278970",
+    "http://id.who.int/icd/release/11/2024-01/mms/1434288855",
+    "http://id.who.int/icd/release/11/2024-01/mms/669367341/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/669367341/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#669367341",
+  "code": "8A80",
+  "source": "http://id.who.int/icd/entity/669367341",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/669367341/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1158914813",
+        "http://id.who.int/icd/release/11/2024-01/mms/1612209162",
+        "http://id.who.int/icd/release/11/2024-01/mms/1583926619/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Migraine"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A primary headache disorder, in most cases episodic. Disabling attacks lasting 4-72 hours are characterised by moderate or severe headache, usually accompanied by nausea, vomiting and/or photophobia and phonophobia, and sometimes preceded by a short-lasting aura of unilateral fully-reversible visual, sensory or other central nervous system symptoms. In a small minority of cases headache, but not necessarily the associated symptoms, becomes very frequent, with loss of episodicity."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Headache, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1405405864",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1405405864"
+    }
+  ]
+}

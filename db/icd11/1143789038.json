@@ -1,0 +1,370 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1143789038",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/236930114"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1143789038",
+  "code": "FB80.8",
+  "source": "http://id.who.int/icd/entity/1143789038",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1143789038/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1143789038/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/183512318",
+        "http://id.who.int/icd/release/11/2024-01/mms/1415462031"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1143789038/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/435227771",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482",
+        "http://id.who.int/icd/release/11/2024-01/mms/755612283"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Nonunion of fracture"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pseudarthrosis after fusion or arthrodesis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/738350070",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/738350070"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nonunion of fracture"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "failed union fracture"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "false joint"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pseudoarthrosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pseudarthrosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pseudoarthrosis of bone"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ununited fracture"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nonunion of fracture, multiple sites"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/284515455"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nonunion of fracture, shoulder region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1975423467"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nonunion of fracture, clavicle"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1912109121"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nonunion of fracture, scapula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1214531859"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nonunion of fracture, acromioclavicular joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1839797457"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nonunion of fracture, glenohumeral joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2023430375"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nonunion of fracture, sternoclavicular joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1565934885"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nonunion of fracture, upper arm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/18071830"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nonunion of fracture, humerus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1494100875"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nonunion of fracture, elbow joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/20186819"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nonunion of fracture, forearm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1683491968"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nonunion of fracture, radius"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/620321537"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nonunion of fracture, ulna"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1847608570"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nonunion of fracture, wrist joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/274621531"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nonunion of fracture, hand"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/397844244"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nonunion of fracture, carpus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1680019722"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nonunion of fracture, fingers"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1596812284"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nonunion of fracture, metacarpus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1145330838"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nonunion of fracture, pelvic region or thigh"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1929204354"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nonunion of fracture, femur"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1247620908"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nonunion of fracture, pelvis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/748187260"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nonunion of fracture, hip joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/683671764"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nonunion of fracture, lower leg"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/105906815"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nonunion of fracture, fibula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1811967123"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nonunion of fracture, knee joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/51654314"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nonunion of fracture, tibia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1897615076"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nonunion of fracture, ankle or foot"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1662767083"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nonunion of fracture, metatarsus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1105469202"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nonunion of fracture, tarsus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1618029694"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nonunion of fracture, toes"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/364670781"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nonunion of fracture, ankle joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2057841926"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nonunion of fracture, other joints in foot"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/81137061"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nonunion of fracture, head"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/510843561"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nonunion of fracture, neck"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/318836968"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nonunion of fracture, ribs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1402540545"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nonunion of fracture, skull"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/104013022"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nonunion of fracture, trunk"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/571228142"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nonunion of fracture, vertebral column"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/126036684"
+    }
+  ]
+}

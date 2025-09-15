@@ -1,0 +1,96 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1801096327",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/357208479"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1801096327",
+  "code": "9B73.3",
+  "source": "http://id.who.int/icd/entity/1801096327",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1801096327/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1801096327/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/968811028"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Serous retinal detachment"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This occurs due to inflammation, injury or vascular abnormalities that results in fluid accumulating underneath the retina without the presence of a hole, tear, or break."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Central serous chorioretinopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1623925689",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1623925689"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Serous retinal detachment"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "serous retinal detachment, unspecified eye"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "sensory retinal detachment"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Retinal detachment without retinal break"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Retinal detachment NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "detached retina"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ablatio retinae"
+      }
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1972636482",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1046496266"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1972636482",
+  "code": "2B03.0",
+  "source": "http://id.who.int/icd/entity/1972636482",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1972636482/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/223243926",
+        "http://id.who.int/icd/release/11/2024-01/mms/947150833",
+        "http://id.who.int/icd/release/11/2024-01/mms/1810600222"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1972636482/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Primary cutaneous CD30-positive anaplastic large cell lymphoma"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "An anaplastic large cell lymphoma that is limited to the skin at the time of diagnosis. Most patients present with solitary or localised skin lesions in a form of nodules or papules, which may be tumours. The t(2;5) translocation that is present in many cases of systemic anaplastic large cell lymphoma is not found in this disease."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary cutaneous CD30-positive anaplastic large cell lymphoma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "primary cutaneous anaplastic large-cell lymphoma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "primary cutaneous CD30+ anaplastic large cell lymphoma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "primary cutaneous CD30+ large T-cell lymphoma"
+      }
+    }
+  ]
+}

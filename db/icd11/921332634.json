@@ -1,0 +1,95 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/921332634",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1084515160"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#921332634",
+  "code": "DA25.2",
+  "source": "http://id.who.int/icd/entity/921332634",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/921332634/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/72252748"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/921332634/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1290701352"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/921332634/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/921332634/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/921332634/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/894935545"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Oesophageal ulcer due to allergic or immunologic disorder"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Oesophageal ulcer or erosion due to allergic disorders or systemic immunologic disorders."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Oesophageal ulcer due to allergic or immunologic disorder"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Oesophageal ulcer due to collagen diseases"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1061123411"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Oesophageal ulcer due to eosinophilic disorder"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1428101270"
+    }
+  ]
+}

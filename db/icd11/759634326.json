@@ -1,0 +1,208 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/759634326",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1501519274"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#759634326",
+  "code": "2A02.3",
+  "source": "http://id.who.int/icd/entity/759634326",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/759634326/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/759634326/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2108063439"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/759634326/postcoordinationScale/histopathology",
+      "axisName": "http://id.who.int/icd/schema/histopathology",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/411368752",
+        "http://id.who.int/icd/release/11/2024-01/mms/932456713"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Benign neoplasm of cranial nerves"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is a tumour of cranial nerves having none of the characteristics of a malignant neoplasm."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Vestibular schwannoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/873486320"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Benign neoplasm of cranial nerves"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "neurinoma of unspecified site"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Vestibular schwannoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/873486320"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acoustic schwannoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/873486320"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Benign neoplasm of abducens nerve"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/813287258"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Benign neoplasm of accessory nerve"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1042480134"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Benign neoplasm of facial nerve"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1107044235"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Benign neoplasm of glossopharyngeal nerve"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1046525156"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Benign neoplasm of hypoglossal nerve"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1758271632"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Benign neoplasm of oculomotor nerve"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1189192562"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Benign neoplasm of olfactory nerve"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1731647740"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Benign neoplasm of optic nerve"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/676665959"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "neuroma of optic nerve"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/676665959"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "benign tumour of optic nerve"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/676665959"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Benign neoplasm of trigeminal nerve"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1224265932"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Benign neoplasm of trochlear nerve"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/672617095"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Benign neoplasm of vagus nerve"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/575046313"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acoustic neuroma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/480288993"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "benign neoplasm of acoustic nerve"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/480288993"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acoustic neurilemmoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/480288993"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acoustic neurinoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/480288993"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/929085937",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1399791513"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#929085937",
+  "code": "BA52.10",
+  "source": "http://id.who.int/icd/entity/929085937",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/929085937/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1612889623"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/929085937/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1998406536",
+        "http://id.who.int/icd/release/11/2024-01/mms/2106647780"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Coronary atherosclerosis of arterial autologous bypass graft"
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1380872553"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Coronary atherosclerosis of arterial autologous bypass graft"
+      }
+    }
+  ]
+}

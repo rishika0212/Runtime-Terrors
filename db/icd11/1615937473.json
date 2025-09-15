@@ -1,0 +1,188 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1615937473",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1469571641"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1615937473",
+  "code": "1E51.1",
+  "source": "http://id.who.int/icd/entity/1615937473",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic hepatitis B, co-infected with hepatitis C virus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1855566176",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/352087872/other"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic hepatitis B, co-infected with hepatitis C virus and hepatitis D virus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1730315877",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/352087872/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1615937473/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/572581721",
+        "http://id.who.int/icd/release/11/2024-01/mms/1781315693"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Chronic hepatitis C"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A liver disease characterised by liver inflammation and fibrosis caused by more than 6 months of infection with the hepatitis C virus. Even at stage of cirrhosis there may be no symptoms. Otherwise, clinical features include fatigue and impaired quality of life, hard liver edge and complications of cirrhosis (muscle wasting, ascites, splenomegaly/portal hypertension). Chronic hepatitis C increases the risks of type 2 diabetes mellitus and cardiovascular disease, which contribute to increased all-cause mortality. Transmission is by blood and body fluid contamination, rarely by sexual transmission and from mother to baby at the time of birth (vertical transmission). Confirmation of the diagnosis is by detection of HCV RNA in the presence of a positive anti-HCV in serum."
+  },
+  "fullySpecifiedName": {
+    "@language": "en",
+    "@value": "Chronic hepatitis C virus infection"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Non-alcoholic fatty liver disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1912806631",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1912806631"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1320597992"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1270001765"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic hepatitis C"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic type C viral hepatitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic HCV - [hepatitis C virus] infection"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hepatitis C NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hepatitis C infection NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hepatitis C-related cirrhosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "type C viral hepatitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hep C NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic hepatitis C virus infection"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic hepatitis C, with cirrhosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/128272532"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic hepatitis C, with cirrhosis, with complications of cirrhosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/853773053"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic hepatitis C, with cirrhosis, without complications of cirrhosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/274749594"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic hepatitis C, without cirrhosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/183910263"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic hepatitis C, co-infected with human immunodeficiency virus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1951721583"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic hepatitis C, co-infected with human immunodeficiency virus, with cirrhosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1220121310"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic hepatitis C, co-infected with human immunodeficiency virus, with cirrhosis, with complications of cirrhosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/894694351"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic hepatitis C, co-infected with human immunodeficiency virus, with cirrhosis, without complications of cirrhosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/484821848"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic hepatitis C, co-infected with human immunodeficiency virus, without cirrhosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1173022013"
+    }
+  ]
+}

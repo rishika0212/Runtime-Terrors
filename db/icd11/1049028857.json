@@ -1,0 +1,157 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1049028857",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1448983042"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1049028857",
+  "code": "2C31.0",
+  "source": "http://id.who.int/icd/entity/1049028857",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1049028857/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1049028857/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/223243926",
+        "http://id.who.int/icd/release/11/2024-01/mms/947150833",
+        "http://id.who.int/icd/release/11/2024-01/mms/1810600222"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1049028857/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1049028857/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1409966790",
+        "http://id.who.int/icd/release/11/2024-01/mms/896293199",
+        "http://id.who.int/icd/release/11/2024-01/mms/1094217460",
+        "http://id.who.int/icd/release/11/2024-01/mms/238069351"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1049028857/postcoordinationScale/hasAlternativeSeverity2",
+      "axisName": "http://id.who.int/icd/schema/hasAlternativeSeverity2",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1863636238",
+        "http://id.who.int/icd/release/11/2024-01/mms/885826145",
+        "http://id.who.int/icd/release/11/2024-01/mms/1746207012",
+        "http://id.who.int/icd/release/11/2024-01/mms/303697349"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Verrucous squamous cell carcinoma of skin"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Verrucous squamous cell carcinoma is a rare variant of well-differentiated squamous cell carcinoma with low malignant potential. It occurs principally on the glans and prepuce of the penis and on the sole of the foot."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Verrucous squamous cell carcinoma of vulva"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/146824338",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/146824338"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Verrucous squamous cell carcinoma of skin"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Verrucous carcinoma of skin"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Verrucous squamous cell carcinoma of penis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/559250222"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Verrucous carcinoma of penis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/559250222"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Giant condyloma acuminatum of Buschke and Löwenstein involving penis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1580954015"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Verrucous squamous cell carcinoma of vulva"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/423161711"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Verrucous carcinoma of vulva"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/423161711"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Anogenital verrucous carcinoma of Buschke and Lowenstein"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/443098642"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Giant condyloma of Buschke and Löwenstein"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/443098642"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Carcinoma cuniculatum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/689063820"
+    }
+  ]
+}

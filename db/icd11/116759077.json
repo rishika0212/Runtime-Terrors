@@ -1,0 +1,137 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/116759077",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1625302107"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#116759077",
+  "code": "ME05.1",
+  "source": "http://id.who.int/icd/entity/116759077",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Noninfectious neonatal diarrhoea"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1478592418",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1478592418"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/116759077/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/236924369",
+        "http://id.who.int/icd/release/11/2024-01/mms/771273482",
+        "http://id.who.int/icd/release/11/2024-01/mms/1508081745"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Diarrhoea"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Diarrhoea is an acute or chronic condition in which there is an increased frequency or decreased consistency of bowel movements, usually with excessive and frequent evacuation of watery faeces. Here diarrhoea other than specifically described elsewhere, such as in motility disorders of intestine or in functional bowel diseases, is described."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "frequent/loose bowel movements"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "watery stools"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Melaena"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/262463613",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/262463613"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Change in faeces or bowel movements"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/811837017",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1511651595"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Functional diarrhoea"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1150846989",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1150846989"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "infectious diarrhoea"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/588616678",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/588616678"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1478592418"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Diarrhoea"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "noninfectious diarrhoea"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "frequent/loose bowel movements"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "watery stools"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "catarrhal diarrhoea"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "watery diarrhoea"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "overflow diarrhoea"
+      }
+    }
+  ]
+}

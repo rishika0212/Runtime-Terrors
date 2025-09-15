@@ -1,0 +1,44 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1632334328",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1136270486"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1632334328",
+  "code": "8A61.00",
+  "source": "http://id.who.int/icd/entity/1632334328",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1632334328/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/539646260"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Pyridoxal dependent epilepsy"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Pyridoxal 5-phosphate dependent epilepsy usually presents with neonatal intractable seizures and is diagnosed by cerebrospinal fluid (CSF) analysis, gene testing, and clinical response. The majority of patients have pyridoxamine 5'-phosphate oxidase (PNPO) gene disease causing mutations. Early diagnosis and effective treatment can lead to a relatively favourable neurodevelopmental outcome."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/564191997"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/2083324835"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pyridoxal dependent epilepsy"
+      }
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1334938734",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1829545371"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/391388807",
+    "http://id.who.int/icd/release/11/2024-01/mms/680129526",
+    "http://id.who.int/icd/release/11/2024-01/mms/1334938734/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1334938734",
+  "code": "BA41",
+  "source": "http://id.who.int/icd/entity/1334938734",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1334938734/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1750488832"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1334938734/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2136808878",
+        "http://id.who.int/icd/release/11/2024-01/mms/437702716",
+        "http://id.who.int/icd/release/11/2024-01/mms/1754821737",
+        "http://id.who.int/icd/release/11/2024-01/mms/1594578199",
+        "http://id.who.int/icd/release/11/2024-01/mms/1992125824",
+        "http://id.who.int/icd/release/11/2024-01/mms/1458683894/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/1458683894/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acute myocardial infarction"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "The term acute myocardial infarction (MI) should be used when there is evidence of myocardial necrosis in a clinical setting consistent with acute myocardial ischemia. Under these conditions any one of the following criteria meets the diagnosis for MI;\nDetection of a rise and/or fall of cardiac biomarker values with at least one value above the 99th percentile upper reference limit and with at least one of the following;\na. Symptoms of ischaemia.\nb. New or presumed new significant ST-segment-T wave (ST-T) changes or new left bundle branch block (LBBB)in the electrocardiogram (ECG).\nc. Development of pathologic Q waves in the electrocardiogram (ECG).\nd. Imaging evidence of new loss of viable myocardium or new regional wall motion abnormality.\ne. Identification of an intracoronary thrombus by angiography or autopsy.\n\n\nInfarction of any myocardial site, occurring within 4 weeks (28 days) from onset of a previous infarction (WHO)"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "postmyocardial infarction syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1353640147",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1353640147"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Subsequent myocardial infarction"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/993844371",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/993844371"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Certain current complications following acute myocardial infarction"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1584861447",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1584861447"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Old myocardial infarction"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/956002477",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/956002477"
+    }
+  ]
+}

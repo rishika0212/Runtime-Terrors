@@ -1,0 +1,65 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/902939755",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/565740065"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#902939755",
+  "code": "8A45.02",
+  "source": "http://id.who.int/icd/entity/902939755",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/902939755/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1173624218",
+        "http://id.who.int/icd/release/11/2024-01/mms/1468768235/other"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/902939755/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/236924369",
+        "http://id.who.int/icd/release/11/2024-01/mms/771273482",
+        "http://id.who.int/icd/release/11/2024-01/mms/1508081745"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Progressive multifocal leukoencephalopathy"
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Progressive multifocal leukoencephalopathy (PML) is a rare disorder that damages the material (myelin) that covers and protects nerves in the white matter of the brain. Symptoms include headaches ,loss of coordination, clumsiness, loss of language ability (aphasia), memory loss, vision problems, and weakness of the legs and arms that gets worse"
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/564191997"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Progressive multifocal leukoencephalopathy"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "progressive multifocal leukoencephalopathy"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "PML - [progressive multifocal leukoencephalopathy]"
+      }
+    }
+  ]
+}

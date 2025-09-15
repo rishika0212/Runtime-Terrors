@@ -1,0 +1,48 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/659253654",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/9342647"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#659253654",
+  "code": "ME93.44",
+  "source": "http://id.who.int/icd/entity/659253654",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/659253654/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1170330671"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Intervertebral disc stenosis of neural canal, sacral region"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Intervertebral disc stenosis of neural canal, sacral region"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Intervertebral disc stenosis of neural canal, sacroiliac"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/124726725"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Intervertebral disc stenosis of neural canal, sacrococcygeal"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2024928844"
+    }
+  ]
+}

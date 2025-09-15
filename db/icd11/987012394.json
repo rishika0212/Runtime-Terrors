@@ -1,0 +1,86 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/987012394",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/902999289"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#987012394",
+  "code": "AB14",
+  "source": "http://id.who.int/icd/entity/987012394",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/987012394/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acute myringitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Myringitis is the inflammation of the tympanic membrane, often involving painful blisters on the tympanic membrane. It can develop as self-maintained primary disease of the TM (primary myringitis) or as an effect of an inflammatory process of adjacent tissues of the external or middle ear (secondary myringitis). Myringitis may be accompanied by hearing impairment and a sensation of congestion and earache. It is generally a viral or bacterial infection and may occur with otitis media. After 3 weeks, acute myringitis becomes subacute and, within 3 months, chronic."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute tympanitis"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute myringitis with otitis media"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/476505279",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/476505279"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute myringitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute tympanitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bullous myringitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/207025082"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "myringitis bullosa"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/207025082"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myringitis bullosa haemorrhagica"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/763463736"
+    }
+  ]
+}

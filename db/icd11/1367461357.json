@@ -1,0 +1,83 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1367461357",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1392133133"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/510369115",
+    "http://id.who.int/icd/release/11/2024-01/mms/2065715407",
+    "http://id.who.int/icd/release/11/2024-01/mms/260898866",
+    "http://id.who.int/icd/release/11/2024-01/mms/1367461357/other"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1367461357",
+  "code": "GB07",
+  "source": "http://id.who.int/icd/entity/1367461357",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1367461357/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1678247922"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1367461357/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Inflammatory disorders of male genital organs, not elsewhere classified"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Any disorder of the male genital organs, characterised by pathological changes and inflammation of the tissue, not classified elsewhere."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Inflammation of penis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/326486193",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/885653625"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Orchitis or epididymitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1480951888",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1480951888"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Epididymorchitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1480951888",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1480951888"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Inflammatory disorders of male genital organs, not elsewhere classified"
+      }
+    }
+  ]
+}

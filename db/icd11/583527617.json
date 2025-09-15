@@ -1,0 +1,77 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/583527617",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/136743240"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#583527617",
+  "code": "9A06.8",
+  "source": "http://id.who.int/icd/entity/583527617",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/583527617/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/583527617/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/844452979",
+        "http://id.who.int/icd/release/11/2024-01/mms/1468820019"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Blepharochalasis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is a malposition of the eyelid caused either by involution or by inflammation of the eyelid. The inflammation is characterised by exacerbations and remissions of eyelid oedema, which results in a stretching and subsequent atrophy of the eyelid tissue resulting in redundant folds over the lid margins. It typically affects only the upper eyelids, and may be unilateral as well as bilateral."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Blepharochalasis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dermatolysis palpebrarum"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "adiposa ptosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Blepharochalasis upper eyelid"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/950486885"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Blepharochalasis lower eyelid"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1275729820"
+    }
+  ]
+}

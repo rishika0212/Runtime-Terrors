@@ -1,0 +1,146 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1471943310",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1584533435"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1471943310",
+  "code": "FB53.1",
+  "source": "http://id.who.int/icd/entity/1471943310",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1471943310/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1471943310/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1569734721"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Rotator cuff syndrome"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Rotator cuff tendonitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/896987119",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/856383808"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Rotator cuff syndrome"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "impingement syndrome"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "rotator cuff rupture"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "rotator cuff tear"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "rupture of rotator cuff of shoulder"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "rotator cuff syndrome NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "spontaneous rupture of rotator cuff tendon"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "complete rotator cuff or supraspinatus tear or rupture, not specified as traumatic"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "complete rupture of rotator cuff"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Incomplete rotator cuff or supraspinatus tear or rupture, not specified as traumatic"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1790455240"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Rupture supraspinatus tendon"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1310273882"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "supraspinatus rupture"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1310273882"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "supraspinatus syndrome NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1310273882"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "supraspinitus tear"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1310273882"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "supraspinatus tear"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1310273882"
+    }
+  ]
+}

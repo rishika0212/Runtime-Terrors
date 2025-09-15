@@ -1,0 +1,78 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/507077490",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/786251500"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#507077490",
+  "code": "DC12.1",
+  "source": "http://id.who.int/icd/entity/507077490",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/507077490/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Chronic cholecystitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Chronic inflammation of the gall bladder wall resulted from repeated acute cholecystitis or from mechanical irritation of the gall bladder wall by unspecified disorders"
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic acalculous cholecystitis"
+      }
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic cholecystitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic acalculous cholecystitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "nonfunctioning gallbladder"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Porcelain gallbladder"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1319190224"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Xanthogranulomatous cholecystitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/294033251"
+    }
+  ]
+}

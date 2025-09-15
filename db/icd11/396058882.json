@@ -1,0 +1,42 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/396058882",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1833416892"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/783417456",
+    "http://id.who.int/icd/release/11/2024-01/mms/396058882/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/396058882/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#396058882",
+  "code": "5C64.1",
+  "source": "http://id.who.int/icd/entity/396058882",
+  "classKind": "category",
+  "title": {
+    "@language": "en",
+    "@value": "Disorders of iron metabolism"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This refers to any disorders of the set of chemical reactions maintaining human homeostasis of iron. The control of this necessary but potentially toxic substance is an important part of many aspects of human health and disease."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sideroblastic anaemia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/235504456",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/235504456"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Iron deficiency anaemia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1577750667",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1577750667"
+    }
+  ]
+}

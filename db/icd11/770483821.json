@@ -1,0 +1,209 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/770483821",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2020075784"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#770483821",
+  "code": "MA15.0",
+  "source": "http://id.who.int/icd/entity/770483821",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/770483821/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Bacteraemia"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "The presence of bacteria in the blood. A positive blood culture without signs of infection."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bacterial infection of unspecified site"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/520429137",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/520429137"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sepsis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/293771399",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/293771399"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bacteraemia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bacteraemia NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Staphylococcus aureus bacteraemia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1876028448"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Septicaemia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2093238381"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "group d streptococcal septicaemia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2093238381"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "anaerobic septicaemia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2093238381"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Escherichia coli septicaemia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2093238381"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "gangrenous septicaemia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2093238381"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "gram-negative septicaemia NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2093238381"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pneumococcal septicaemia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2093238381"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "salmonella septicaemia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2093238381"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "septicaemia due to anaerobes"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2093238381"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "septicaemia due to coagulase-negative staphylococcus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2093238381"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "septicaemia due to haemophilus influenzae [h. influenzae]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2093238381"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "septicaemia due to streptococcus group A"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2093238381"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "septicaemia due to streptococcus group B"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2093238381"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "septicaemic colibacillosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2093238381"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "staphylococcal septicaemia NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2093238381"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "staphylococcus aureus septicaemia NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2093238381"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "streptococcal septicaemia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2093238381"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "streptococcus pyogenes septicaemia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2093238381"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "streptococcaemia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2093238381"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pyaemia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2093238381"
+    }
+  ]
+}

@@ -1,0 +1,386 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1759045232",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/392647661"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1759045232",
+  "code": "FA34.4",
+  "source": "http://id.who.int/icd/entity/1759045232",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1759045232/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1363003152",
+        "http://id.who.int/icd/release/11/2024-01/mms/1959335168",
+        "http://id.who.int/icd/release/11/2024-01/mms/192726145",
+        "http://id.who.int/icd/release/11/2024-01/mms/223741850",
+        "http://id.who.int/icd/release/11/2024-01/mms/1188078244",
+        "http://id.who.int/icd/release/11/2024-01/mms/1574110781",
+        "http://id.who.int/icd/release/11/2024-01/mms/2000483733",
+        "http://id.who.int/icd/release/11/2024-01/mms/355147270"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1759045232/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1569734721"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Ankylosis of joint"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "stiffness of joint without ankylosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1948266223",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1948266223"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ankylosis of spinal joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/192451325",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/192451325"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ankylosis of joint"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ankylosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ankylosis of joint, site unspecified"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "frozen joint"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "fusion of joint"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "joint ankylosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "joint fusion"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bony ankylosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bony block of joint"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "false ankylosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "fibrous ankylosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "fibrous ankylosis of joint"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "joint arthrofibrosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "osseous ankylosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "osseous ankylosis of joint"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pseudoankylosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "spurious ankylosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "surgical ankylosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "true ankylosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ankylosis of joint, multiple sites"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/865818007"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ankylosis of joint, shoulder region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1456510979"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ankylosis of joint, acromioclavicular joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/593996821"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ankylosis of joint, glenohumeral joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1753524478"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ankylosis of joint, sternoclavicular joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/756494403"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ankylosis of joint, upper arm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/578668798"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ankylosis of joint, elbow joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/412746833"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ankylosis of joint, forearm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1194722664"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ankylosis of joint, wrist joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1655104276"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ankylosis of joint, hand"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/886609660"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ankylosis of joint, carpus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/705612821"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ankylosis of joint, fingers"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1404607585"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ankylosis of joint, metacarpus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/101880512"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ankylosis of joint, pelvic region or thigh"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1368611690"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ankylosis of joint, hip joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/308210053"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ankylosis of joint, lower leg"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/624823191"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ankylosis of joint, knee joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/958659535"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "knee joint ankylosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/958659535"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "knee fusion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/958659535"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ankylosis of joint, ankle or foot"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1081460227"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ankylosis of joint, ankle joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/764665088"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ankle joint ankylosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/764665088"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ankle ankylosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/764665088"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ankylosis of joint, metatarsus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1728613349"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ankylosis of joint, other joints in foot"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1408105567"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ankylosis of joint, tarsus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1829494295"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ankylosis of joint, toes"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/663783692"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ankylosis of joint, head"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/94305713"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ankylosis of joint, neck"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/22760359"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ankylosis of joint, vertebral column"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/255997979"
+    }
+  ]
+}

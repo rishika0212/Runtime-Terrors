@@ -1,0 +1,112 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/631263622",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1611980611"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#631263622",
+  "code": "2A60.35",
+  "source": "http://id.who.int/icd/entity/631263622",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/631263622/postcoordinationScale/histopathology",
+      "axisName": "http://id.who.int/icd/schema/histopathology",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/538743484"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/631263622/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/631263622/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1863636238",
+        "http://id.who.int/icd/release/11/2024-01/mms/885826145",
+        "http://id.who.int/icd/release/11/2024-01/mms/1746207012",
+        "http://id.who.int/icd/release/11/2024-01/mms/303697349"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acute erythroid leukaemia"
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Erythroleukaemia"
+      }
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute erythroid leukaemia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute erythraemia and erythroleukaemia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute erythroid leukaemia without mention of remission"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "erythraemia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "erythraemic myelosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Erythroleukaemia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute erythraemic myelosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute erythraemia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute erythroid leukaemia in complete remission"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1403617129"
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/671778206",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1658346518"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#671778206",
+  "code": "DA90.1",
+  "source": "http://id.who.int/icd/entity/671778206",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Glucose-galactose malabsorption"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2108415931",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2108415931"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fructose malabsorption"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1392260268",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1392260268"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acrodermatitis enteropathica"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1813939482",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1813939482"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Idiopathic bile acid malabsorption"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/140648189",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2016472924"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hereditary megaloblastic anaemia due to transcobalamin deficiency"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/892302875",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1463520192"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Glycogen storage disease due to GLUT2 deficiency"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/426701963",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1187107383"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Lysinuric protein intolerance"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/972050440",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1631611896/other"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Haptocorrin deficiency"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1005802309",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/936546617"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hereditary folate malabsorption"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/773545237",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2081529009"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Vitamin B12 deficiency anaemia due to selective vitamin B12 malabsorption with proteinuria"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1099048678",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/623613402/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/671778206/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Congenital intestinal transport defect"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is a congenital disease of the small intestinal mucosa that presents with intractable diarrhoea and malabsorption of nutrients in young children, due to defect of transporter of nutrients in enterocytes."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital intestinal transport defect"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital chloride diarrhoea"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/606816226"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital sodium diarrhoea"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1461817237"
+    }
+  ]
+}

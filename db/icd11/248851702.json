@@ -1,0 +1,100 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/248851702",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1646490591"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1897656051",
+    "http://id.who.int/icd/release/11/2024-01/mms/1985490330",
+    "http://id.who.int/icd/release/11/2024-01/mms/163693711",
+    "http://id.who.int/icd/release/11/2024-01/mms/1740550387",
+    "http://id.who.int/icd/release/11/2024-01/mms/248851702/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/248851702/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#248851702",
+  "code": "1F00",
+  "source": "http://id.who.int/icd/entity/248851702",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Perinatal Herpes simplex infection"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/788102641",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/788102641"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Anogenital herpes simplex infection"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/616315615",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/616315615"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sexually transmissible infections due to Herpes simplex virus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/278931580",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1904876434/unspecified"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/248851702/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/223243926",
+        "http://id.who.int/icd/release/11/2024-01/mms/947150833",
+        "http://id.who.int/icd/release/11/2024-01/mms/1810600222"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/248851702/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/590662611",
+        "http://id.who.int/icd/release/11/2024-01/mms/2046015098"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/248851702/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/236924369",
+        "http://id.who.int/icd/release/11/2024-01/mms/771273482",
+        "http://id.who.int/icd/release/11/2024-01/mms/1508081745"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Herpes simplex infections"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Any condition caused by an infection with herpes simplex virus (human herpesviruses 1 and 2). Confirmation is by identification of herpes simplex virus type 1 or 2."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Herpangina"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/61181798",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/61181798"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/788102641"
+  ]
+}

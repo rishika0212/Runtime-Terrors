@@ -1,0 +1,60 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2120055524",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1817741506"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2120055524",
+  "code": "NA23.41",
+  "source": "http://id.who.int/icd/entity/2120055524",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2120055524/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/980862652",
+        "http://id.who.int/icd/release/11/2024-01/mms/851395624",
+        "http://id.who.int/icd/release/11/2024-01/mms/73322695",
+        "http://id.who.int/icd/release/11/2024-01/mms/128104623",
+        "http://id.who.int/icd/release/11/2024-01/mms/1491356379",
+        "http://id.who.int/icd/release/11/2024-01/mms/491063206",
+        "http://id.who.int/icd/release/11/2024-01/mms/185842968",
+        "http://id.who.int/icd/release/11/2024-01/mms/2143219175",
+        "http://id.who.int/icd/release/11/2024-01/mms/558785723",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acute whiplash associated disorder with complaint of neck pain with musculoskeletal signs"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic whiplash injury associated pain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/134684950",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1034914433"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute whiplash associated disorder with complaint of neck pain with musculoskeletal signs"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "WAD2 - [whiplash associated disorder, grade 2]"
+      }
+    }
+  ]
+}

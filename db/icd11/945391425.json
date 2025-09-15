@@ -1,0 +1,60 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/945391425",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1411910384"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#945391425",
+  "code": "9C40.5",
+  "source": "http://id.who.int/icd/entity/945391425",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/945391425/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Compressive optic neuropathy"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Optic nerve disorders caused by the compression of the optic nerve"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Compressive optic neuropathy"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "compression of optic nerve"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "n.opticus compression"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Foster-Kennedy syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/288363660"
+    }
+  ]
+}

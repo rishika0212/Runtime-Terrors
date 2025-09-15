@@ -1,0 +1,296 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/915343154",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1390117811"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#915343154",
+  "code": "MG26",
+  "source": "http://id.who.int/icd/entity/915343154",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pyrexia of unknown origin following delivery"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/214991332",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/214991332"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pyrexia during labour, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/345665595",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/345665595"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fever of newborn"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/660796688",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/660796688"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/915343154/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1583926619",
+        "http://id.who.int/icd/release/11/2024-01/mms/1323892810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Fever of other or unknown origin"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "An abnormal elevation of body temperature of unknown origin, often as a result of a pathologic process."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Fever of unknown origin is defined by the following criteria: 1) temperatures of >38.3°C on several occasions; 2) a duration of fever of >3 weeks; 3) failure to reach a diagnosis despite 1 week of inpatient investigation."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "fever of unknown origin in newborn"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1319339568",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1319339568"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant hyperthermia due to anaesthesia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/483464556",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/483464556"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/345665595",
+    "http://id.who.int/icd/entity/214991332"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/660796688"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fever of other or unknown origin"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "febrile"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "febris"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "fever"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "feverish"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "high body temperature"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hyperthermia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hyperthermic"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "increased body temperature"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pyrexia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "fever NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "raised body temperature"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pyrexia NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ephemeral fever"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "elevated body temperature"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "FUO - [fever of unknown origin]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hyperpyrexia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hyperpyrexia NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hyperpyrexia of unknown origin"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "malignant hyperthermia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "PUO - [pyrexia of unknown origin]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "fever, unspecified"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "intermittent fever of unknown origin"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Central fever"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/805441643"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced fever"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1596497122"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "drug fever"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1596497122"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "medicament-induced fever"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1596497122"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute febrile syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1707026873"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Other specified fever"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1078560607"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fever with chills"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1614642919"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fever with rigors"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1591434415"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Persistent fever"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/339741622"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "persistent pyrexia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/339741622"
+    }
+  ]
+}

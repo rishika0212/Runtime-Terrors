@@ -1,0 +1,57 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/331905400",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2068634895"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#331905400",
+  "code": "BD52.71",
+  "source": "http://id.who.int/icd/entity/331905400",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postprocedural ascending aorta dilation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/933918875",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/609966086"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/331905400/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/968811028"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acquired ascending aorta or root dilation"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Enlargement of the luminal diameter of the aorta between the ventriculo-aortic junction and the origin of the first brachiocephalic branch above the upper limit of normal adjusted for body size that develops after birth"
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1380872553"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired ascending aorta or root dilation"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acquired ascending aorta dilation"
+      }
+    }
+  ]
+}

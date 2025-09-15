@@ -1,0 +1,59 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/283208662",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/194771855"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/53001072",
+    "http://id.who.int/icd/release/11/2024-01/mms/283208662/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/283208662/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#283208662",
+  "code": "DD31.0",
+  "source": "http://id.who.int/icd/entity/283208662",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute non-occlusive mesenteric arterial ischaemia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/490394188",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/653594279"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/283208662/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1928625572",
+        "http://id.who.int/icd/release/11/2024-01/mms/1741413713"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/283208662/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731",
+        "http://id.who.int/icd/release/11/2024-01/mms/1119203708"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Non-occlusive mesenteric ischaemia"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Non-occlusive mesenteric ischaemia causes 20% to 30% of acute mesenteric ischaemia episodes. Mesenteric ischaemia without anatomic arterial or venous obstruction is due to mesenteric vasospasm, which can occur during periods of relatively low mesenteric flow, especially if there is underlying arterial atherosclerotic disease. Such low-flow state can result from heart failure, hypotension, or hypovolemia."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ]
+}

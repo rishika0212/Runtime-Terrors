@@ -1,0 +1,74 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/40657776",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/839332886"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#40657776",
+  "code": "8C71.3",
+  "source": "http://id.who.int/icd/entity/40657776",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/40657776/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1450176443",
+        "http://id.who.int/icd/release/11/2024-01/mms/1676151582",
+        "http://id.who.int/icd/release/11/2024-01/mms/1583926619",
+        "http://id.who.int/icd/release/11/2024-01/mms/1323892810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Drug-induced myotonia"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Drug-induced myotonia refers to the myotonia-inducing effects of certain drugs. Hypocholesterolaemic agents may induce myotonia by altering the sterol composition of the muscle cell membrane, while other drugs including beta-adrenergic blockers and agonists, succinylcholine and diuretics may exacerbate or unmask pre-existing myotonia."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myasthenia gravis or certain specified neuromuscular junction disorders"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1425591047",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1425591047"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Secondary myopathies"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1159616108",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1159616108"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/564191997"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced myotonia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "medicament-induced myotonia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "drug myotonia"
+      }
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/685349915",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1749762534"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#685349915",
+  "code": "LA75.5",
+  "source": "http://id.who.int/icd/entity/685349915",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/685349915/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/685349915/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1992239052"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Congenital lobar emphysema"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Congenital lobar emphysema is a developmental lung anomaly characterised by over distension of the affected lobe and leading to compression and displacement of adjacent normal lung tissue and mediastinum. In the majority of cases, symptoms appear during the neonatal period or in early childhood. Clinically, children present with signs of respiratory distress, frequently occurring with a lower respiratory tract infection that aggravates air trapping and renders the patient symptomatic."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital lobar emphysema"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital lobar emphysema, unilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/505197930"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital lobar emphysema, bilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/566319131"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1023132628",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1801368748"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1023132628",
+  "code": "5A80.0",
+  "source": "http://id.who.int/icd/entity/1023132628",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1023132628/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1158914813",
+        "http://id.who.int/icd/release/11/2024-01/mms/1612209162",
+        "http://id.who.int/icd/release/11/2024-01/mms/1583926619/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Clinical hyperandrogenism"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Presence of hirsutism, acne or androgenic alopecia (scalp hair loss in women)"
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1156263785"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Clinical hyperandrogenism"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "androgen excess"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ovarian dysfunction with androgen excess"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hypersecretion of ovarian androgen"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hypersecretion of ovarian androgen hormone"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced androgen excess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2098313556"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tumoural androgen excess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1957334615"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1417218455",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1950330641"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1417218455",
+  "code": "5A60.1",
+  "source": "http://id.who.int/icd/entity/1417218455",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Prolactinoma of pituitary gland"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1489672789",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1290583069/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1417218455/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1158914813",
+        "http://id.who.int/icd/release/11/2024-01/mms/1612209162",
+        "http://id.who.int/icd/release/11/2024-01/mms/1583926619/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Hyperprolactinaemia"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Increased peripheral blood levels of prolactin often associated with galactorrhea, sometimes associated with normal ovarian function, but often resulting in a spectrum of ovulatory dysfunction varying between short luteal phase (inadequate preovulatory follicular development), anovulatory cycles, amenorrhea and hypogonadotropic hypogonadism"
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1156263785"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hyperprolactinaemia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced hyperprolactinaemia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1201485347"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hypothyroidism-associated hyperprolactinemia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1430591318"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Functional hyperprolactinoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/364113964"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chiari-Frommel Syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1561058139"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Argonz-del Castillo Syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/302221600"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ahumada-Del Castillo syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/302221600"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "amenorrhoea-galactorrhoea syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/302221600"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "non-pregnancy related a-g syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/302221600"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hyperprolactinemia caused by other hypothalamo-pituitary disorders"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1206230399"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Macroprolactinaemia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/118716933"
+    }
+  ]
+}

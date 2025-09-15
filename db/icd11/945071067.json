@@ -1,0 +1,55 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/945071067",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1105991600"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#945071067",
+  "code": "9A04.0",
+  "source": "http://id.who.int/icd/entity/945071067",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/945071067/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Trichiasis without entropion"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This refers to abnormally positioned eyelashes that grow back toward the eye, touching the cornea or conjunctiva. This can be caused by infection, inflammation, autoimmune conditions, congenital defects, eyelid agenesis and trauma such as burns or eyelid injury. This diagnosis is without a condition in which the eyelid (usually the lower lid) folds inward. It is very uncomfortable, as the eyelashes constantly rub against the cornea and irritate it."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Trichiasis without entropion"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Trichiasis without entropion upper eyelid"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1860827950"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Trichiasis without entropion lower eyelid"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/440708051"
+    }
+  ]
+}

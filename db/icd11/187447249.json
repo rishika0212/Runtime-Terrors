@@ -1,0 +1,86 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/187447249",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2025976730"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#187447249",
+  "code": "LB73.2A",
+  "source": "http://id.who.int/icd/entity/187447249",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/187447249/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/929081680"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/187447249/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1569734721",
+        "http://id.who.int/icd/release/11/2024-01/mms/1170330671"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Congenital spondylolisthesis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition caused by vertebral malformation, which allows the vertebra to slip forward over the sacrum. This condition may present with lower back pain, or may be asymptomatic."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acquired spondylolisthesis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1075039772",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1075039772"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acquired spondylolysis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/790009325",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/790009325"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital spondylolisthesis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "prespondylolisthesis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Lumbosacral prespondylolisthesis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/285079262"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital spondylolysis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/790405064"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/395422191",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/757547077"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1966487547",
+    "http://id.who.int/icd/release/11/2024-01/mms/1782916831",
+    "http://id.who.int/icd/release/11/2024-01/mms/1903057237",
+    "http://id.who.int/icd/release/11/2024-01/mms/547109156",
+    "http://id.who.int/icd/release/11/2024-01/mms/2121132007",
+    "http://id.who.int/icd/release/11/2024-01/mms/395422191/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#395422191",
+  "code": "MC82",
+  "source": "http://id.who.int/icd/entity/395422191",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/395422191/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/391771100",
+        "http://id.who.int/icd/release/11/2024-01/mms/53410898"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Cardiac arrest"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A sudden, sometimes temporary, cessation of heart function resulting in hemodynamic collapse."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "complicating abortion or ectopic or molar pregnancy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1403588899",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1403588899"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cardiogenic shock"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1974956233",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1974956233"
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1475156994",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1435390252"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1475156994",
+  "code": "9A01.3",
+  "source": "http://id.who.int/icd/entity/1475156994",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Herpes simplex infection of eyelid"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1847489994",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1847489994"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Molluscum contagiosum of eyelid"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1527981498",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/82201615"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Zoster infection of eyelid"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/649610899",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2105678631"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1475156994/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1475156994/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/187562291",
+        "http://id.who.int/icd/release/11/2024-01/mms/1084493555"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1475156994/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Infectious blepharitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition of the eyelid, commonly caused by an infection with a bacterial source. This condition is characterised by pruritus, burning, scratchiness, excessive tearing, or crusty debris around the eyelashes. This condition may also present with lid erythema, collarettes, madarosis, trichiasis, or plugged meibomian glands. Transmission is by direct or indirect contact with an infected individual, endogenous spread, or through fomites."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Blepharoconjunctivitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/956823887",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/956823887"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infectious blepharitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "blepharitis, nonulcerative"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "marginal blepharitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ciliary blepharitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "anterior squamous lid disease"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "anterior lid margin disease"
+      }
+    }
+  ]
+}

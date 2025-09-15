@@ -1,0 +1,188 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/949012083",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/933570887"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#949012083",
+  "code": "DA26.00",
+  "source": "http://id.who.int/icd/entity/949012083",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/949012083/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/72252748"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/949012083/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/949012083/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/949012083/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/985510409",
+        "http://id.who.int/icd/release/11/2024-01/mms/1194562592",
+        "http://id.who.int/icd/release/11/2024-01/mms/481852400",
+        "http://id.who.int/icd/release/11/2024-01/mms/469481605",
+        "http://id.who.int/icd/release/11/2024-01/mms/2125493521",
+        "http://id.who.int/icd/release/11/2024-01/mms/649193479",
+        "http://id.who.int/icd/release/11/2024-01/mms/1506184775"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Oesophageal varices with bleeding"
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Oesophageal varices with bleeding"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bleeding oesophageal varices"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "oesophageal varices with haemorrhage"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "BOV - [bleeding oesophageal varices]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ruptured oesophageal varices"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bleeding oesophageal varicose vein"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bleeding oesophageal varix"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "oesophageal variceal bleeding"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "oesophageal variceal haemorrhage"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "oesophageal varix haemorrhage"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bleeding oesophageal varicose ulcer"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bleeding varicose oesophagus ulcer"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ruptured oesophageal varix"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Secondary oesophageal varices with bleeding"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1266570727"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Oesophageal varices with bleeding in diseases classified elsewhere"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1266570727"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Oesophageal varices with bleeding in schistosomiasis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1540802036"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Oesophageal varices with bleeding in liver disorders"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/874338532"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Oesophageal varices with bleeding in viral hepatic disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/515561457"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Oesophageal varices with bleeding in autoimmune hepatitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/326037125"
+    }
+  ]
+}

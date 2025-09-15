@@ -1,0 +1,72 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/320939116",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1644587915"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/659345903",
+    "http://id.who.int/icd/release/11/2024-01/mms/728568723",
+    "http://id.who.int/icd/release/11/2024-01/mms/54219558",
+    "http://id.who.int/icd/release/11/2024-01/mms/398087495",
+    "http://id.who.int/icd/release/11/2024-01/mms/1955750400",
+    "http://id.who.int/icd/release/11/2024-01/mms/320939116/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/320939116/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#320939116",
+  "code": "DB30",
+  "source": "http://id.who.int/icd/entity/320939116",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/320939116/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1741413713"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/320939116/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731",
+        "http://id.who.int/icd/release/11/2024-01/mms/1507624466"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/320939116/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Obstruction of large intestine"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Hindrance of the passage of luminal contents in the large intestine. Obstruction of the large intestine can be partial or complete, and caused by intrinsic or extrinsic factors. Simple obstruction is associated with diminished or stopped flow of luminal contents. Strangulating obstruction is associated with impaired blood flow to the large intestine in addition to obstructed flow of luminal contents."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paralytic ileus of large intestine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/399235103",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1868011045"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ]
+}

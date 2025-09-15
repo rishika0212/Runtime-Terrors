@@ -1,0 +1,120 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1341937641",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/609351978"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1341937641",
+  "code": "NF09",
+  "source": "http://id.who.int/icd/entity/1341937641",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1341937641/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/980862652",
+        "http://id.who.int/icd/release/11/2024-01/mms/851395624",
+        "http://id.who.int/icd/release/11/2024-01/mms/73322695",
+        "http://id.who.int/icd/release/11/2024-01/mms/128104623",
+        "http://id.who.int/icd/release/11/2024-01/mms/1491356379",
+        "http://id.who.int/icd/release/11/2024-01/mms/491063206",
+        "http://id.who.int/icd/release/11/2024-01/mms/185842968",
+        "http://id.who.int/icd/release/11/2024-01/mms/2143219175",
+        "http://id.who.int/icd/release/11/2024-01/mms/558785723",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Adverse effects, not elsewhere classified"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Adverse effects which cannot be attributed to any more specific cause and thus excluding but not limited to injury, allergy, hypersensitivity, toxic effects and complications of surgical and medical care."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury or harm arising from surgical or medical care, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/383104340",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/383104340"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Anaphylaxis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1868068711",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1868068711"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "anaphylactic shock due to serum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/186956137",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/186956137"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Allergic or hypersensitivity disorders involving skin or mucous membranes"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1047945302",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1047945302"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Allergic or hypersensitivity disorders involving the gastrointestinal tract"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/894935545",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/894935545"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Allergic or hypersensitivity disorders involving the respiratory tract"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1531458929",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1531458929"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "anaphylactic shock due to adverse food reaction"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1729383028",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1729383028"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Harmful effects of substances"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1236563202",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1236563202"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Adverse effects, not elsewhere classified"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "adverse effects, unspecified"
+      }
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1475579100",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/665250899"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1475579100",
+  "code": "PK9B.2",
+  "source": "http://id.who.int/icd/entity/1475579100",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1475579100/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1435254666",
+        "http://id.who.int/icd/release/11/2024-01/mms/1766440644",
+        "http://id.who.int/icd/release/11/2024-01/mms/1954798891",
+        "http://id.who.int/icd/release/11/2024-01/mms/21500692",
+        "http://id.who.int/icd/release/11/2024-01/mms/334423054",
+        "http://id.who.int/icd/release/11/2024-01/mms/274880002",
+        "http://id.who.int/icd/release/11/2024-01/mms/1296093776",
+        "http://id.who.int/icd/release/11/2024-01/mms/868865918",
+        "http://id.who.int/icd/release/11/2024-01/mms/1218729044",
+        "http://id.who.int/icd/release/11/2024-01/mms/426429380",
+        "http://id.who.int/icd/release/11/2024-01/mms/197934298",
+        "http://id.who.int/icd/release/11/2024-01/mms/1256772020",
+        "http://id.who.int/icd/release/11/2024-01/mms/1639304259",
+        "http://id.who.int/icd/release/11/2024-01/mms/1473673350",
+        "http://id.who.int/icd/release/11/2024-01/mms/30659757",
+        "http://id.who.int/icd/release/11/2024-01/mms/714000734",
+        "http://id.who.int/icd/release/11/2024-01/mms/1306203631",
+        "http://id.who.int/icd/release/11/2024-01/mms/1843895818",
+        "http://id.who.int/icd/release/11/2024-01/mms/435227771",
+        "http://id.who.int/icd/release/11/2024-01/mms/1281022650",
+        "http://id.who.int/icd/release/11/2024-01/mms/431804121"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "General or plastic surgery devices associated with injury or harm, prosthetic or other implants, materials or accessory devices"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "General- or plastic-surgery related prosthetic and other implants, materials and accessory devices were involved in an adverse related incident"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Circumstances associated with a surgical or other medical device influencing the episode of care without injury or harm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1628956058",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1628956058"
+    }
+  ],
+  "codingNote": {
+    "@language": "en",
+    "@value": "Code first the injury or harm associated with the device. Code also the mode or mechanism that explains the main way the cause leads to injury or harm."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "General or plastic surgery devices associated with injury or harm, prosthetic or other implants, materials or accessory devices"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Surgical operation with implant of artificial internal general or plastic surgery device associated with abnormal reaction of the patient, or of later complication, without mention of misadventure at the time of the procedure"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "General or plastic surgery devices associated with injury or harm, breast implant"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/753852581"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "General or plastic surgery devices associated with adverse incidents, breast implant"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/753852581"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mechanical complication of breast prosthesis and implant"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1019493885"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "mechanical complications of breast implant"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1019493885"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "General or plastic surgery devices associated with adverse incidents, skin graft"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1228229906"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mechanical complication of chin implant"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/78111445"
+    }
+  ]
+}

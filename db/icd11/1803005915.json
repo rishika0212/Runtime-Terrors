@@ -1,0 +1,40 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1803005915",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1294458332"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/453532731",
+    "http://id.who.int/icd/release/11/2024-01/mms/108749166",
+    "http://id.who.int/icd/release/11/2024-01/mms/1762507906",
+    "http://id.who.int/icd/release/11/2024-01/mms/1803005915/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1803005915/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1803005915",
+  "code": "DD50",
+  "source": "http://id.who.int/icd/entity/1803005915",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1803005915/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Non-abdominal wall hernia"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A hernia occurs through the foramen in the diaphragm, the pelvic wall and the other opening covered by peritoneum not through the abdominal wall."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ]
+}

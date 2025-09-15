@@ -1,0 +1,116 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/399491868",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/452386362"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1744412697",
+    "http://id.who.int/icd/release/11/2024-01/mms/45247885",
+    "http://id.who.int/icd/release/11/2024-01/mms/1015303322",
+    "http://id.who.int/icd/release/11/2024-01/mms/1981758834",
+    "http://id.who.int/icd/release/11/2024-01/mms/1622827892",
+    "http://id.who.int/icd/release/11/2024-01/mms/539670604",
+    "http://id.who.int/icd/release/11/2024-01/mms/1901919769",
+    "http://id.who.int/icd/release/11/2024-01/mms/337064845",
+    "http://id.who.int/icd/release/11/2024-01/mms/399491868/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/399491868/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#399491868",
+  "code": "NA02",
+  "source": "http://id.who.int/icd/entity/399491868",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fracture of skull due to birth injury"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/950673209",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/950673209"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Birth injury to facial bones"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/716774677",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/716774677"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/399491868/postcoordinationScale/fractureSubtype",
+      "axisName": "http://id.who.int/icd/schema/fractureSubtype",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1126329182",
+        "http://id.who.int/icd/release/11/2024-01/mms/1941319848",
+        "http://id.who.int/icd/release/11/2024-01/mms/1225495470",
+        "http://id.who.int/icd/release/11/2024-01/mms/1856452751",
+        "http://id.who.int/icd/release/11/2024-01/mms/2006159364",
+        "http://id.who.int/icd/release/11/2024-01/mms/1080133681",
+        "http://id.who.int/icd/release/11/2024-01/mms/56999138",
+        "http://id.who.int/icd/release/11/2024-01/mms/302675287",
+        "http://id.who.int/icd/release/11/2024-01/mms/39276591",
+        "http://id.who.int/icd/release/11/2024-01/mms/1210711974",
+        "http://id.who.int/icd/release/11/2024-01/mms/1451058270",
+        "http://id.who.int/icd/release/11/2024-01/mms/870613257",
+        "http://id.who.int/icd/release/11/2024-01/mms/1227306904",
+        "http://id.who.int/icd/release/11/2024-01/mms/750703299",
+        "http://id.who.int/icd/release/11/2024-01/mms/25495220",
+        "http://id.who.int/icd/release/11/2024-01/mms/718215016",
+        "http://id.who.int/icd/release/11/2024-01/mms/1801367926",
+        "http://id.who.int/icd/release/11/2024-01/mms/1274784063",
+        "http://id.who.int/icd/release/11/2024-01/mms/1157346122",
+        "http://id.who.int/icd/release/11/2024-01/mms/801921263",
+        "http://id.who.int/icd/release/11/2024-01/mms/517952894",
+        "http://id.who.int/icd/release/11/2024-01/mms/1331098173",
+        "http://id.who.int/icd/release/11/2024-01/mms/898974882",
+        "http://id.who.int/icd/release/11/2024-01/mms/1343005175",
+        "http://id.who.int/icd/release/11/2024-01/mms/804640573",
+        "http://id.who.int/icd/release/11/2024-01/mms/1520378894",
+        "http://id.who.int/icd/release/11/2024-01/mms/293807484"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/399491868/postcoordinationScale/fractureOpenOrClosed",
+      "axisName": "http://id.who.int/icd/schema/fractureOpenOrClosed",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1387112294",
+        "http://id.who.int/icd/release/11/2024-01/mms/1882092801"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/399491868/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/523484767",
+        "http://id.who.int/icd/release/11/2024-01/mms/2037389465"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/399491868/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482",
+        "http://id.who.int/icd/release/11/2024-01/mms/755612283"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Fracture of skull or facial bones"
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/950673209",
+    "http://id.who.int/icd/entity/716774677"
+  ]
+}

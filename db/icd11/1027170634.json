@@ -1,0 +1,64 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1027170634",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/67461053"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1027170634",
+  "code": "LB81.0",
+  "source": "http://id.who.int/icd/entity/1027170634",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1027170634/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1027170634/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1003902257",
+        "http://id.who.int/icd/release/11/2024-01/mms/754856433",
+        "http://id.who.int/icd/release/11/2024-01/mms/361143473",
+        "http://id.who.int/icd/release/11/2024-01/mms/45021297",
+        "http://id.who.int/icd/release/11/2024-01/mms/769712024"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Clinodactyly of toes"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Clinodactyly of toes"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Clinodactyly of toes, bilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/673813075"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Clinodactyly of toes, unilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/532329261"
+    }
+  ]
+}

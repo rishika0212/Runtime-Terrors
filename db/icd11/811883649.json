@@ -1,0 +1,107 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/811883649",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/327513558"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#811883649",
+  "code": "DD92.2",
+  "source": "http://id.who.int/icd/entity/811883649",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/811883649/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Functional defaecation disorders"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Functional defaecation disorders are characterised by paradoxical contraction or inadequate relaxation of the pelvic floor muscles during attempted defaecation (dyssynergic defaecation) or inadequate propulsive forces during attempted defaecation (inadequate defaecatory propulsion). The patients must satisfy diagnostic criteria for functional constipation."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dyssynergic defaecation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1130229965"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Inadequate defaecatory propulsion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1309574958"
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Encopresis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/313374467",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/313374467"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Encopresis with constipation or overflow incontinence"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/528060023",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/528060023"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Encopresis without constipation or overflow incontinence"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/541725793",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/541725793"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Functional defaecation disorders"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dyssynergic defaecation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1130229965"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pelvic floor dyssynergia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1130229965"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Inadequate defaecatory propulsion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1309574958"
+    }
+  ]
+}

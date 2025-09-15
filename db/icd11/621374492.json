@@ -1,0 +1,51 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/621374492",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/594796480"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1598961655",
+    "http://id.who.int/icd/release/11/2024-01/mms/621374492/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/621374492/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#621374492",
+  "code": "NF08.2",
+  "source": "http://id.who.int/icd/entity/621374492",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Vibratory angioedema"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1471948086",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1922613180/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/621374492/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/980862652",
+        "http://id.who.int/icd/release/11/2024-01/mms/851395624",
+        "http://id.who.int/icd/release/11/2024-01/mms/73322695",
+        "http://id.who.int/icd/release/11/2024-01/mms/128104623",
+        "http://id.who.int/icd/release/11/2024-01/mms/1491356379",
+        "http://id.who.int/icd/release/11/2024-01/mms/491063206",
+        "http://id.who.int/icd/release/11/2024-01/mms/185842968",
+        "http://id.who.int/icd/release/11/2024-01/mms/2143219175",
+        "http://id.who.int/icd/release/11/2024-01/mms/558785723",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Effects of vibration"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1505896560",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1848981072"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/56498807",
+    "http://id.who.int/icd/release/11/2024-01/mms/1712707555",
+    "http://id.who.int/icd/release/11/2024-01/mms/1505896560/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1505896560/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1505896560",
+  "code": "FA92.0",
+  "source": "http://id.who.int/icd/entity/1505896560",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1505896560/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/183512318"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1505896560/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2096289196",
+        "http://id.who.int/icd/release/11/2024-01/mms/390684604"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Axial spondyloarthritis"
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Experts from the Assessment of SpondyloArthritis international Society (ASAS) developed classification criteria for axSpA and peripheral SpA. Axial spondyloarthritis (SpA) criteria consist of two arms: the 'imaging arm' and the 'clinical arm.' Both arms require that the patient experience chronic back pain before the age of 45 years that persists for approximately 3 months. To fulfill the imaging arm, a patient should have sacroiliitis on either MRI images or conventional radiographs, and have at least one feature of SpA. To fulfill the clinical arm, the patient should be HLA-B27 positive and have at least two other SpA-associated features; sacroiliitis is not mandatory for fulfillment of the ASAS axSpA criteria when the criteria for the clinical arm are met."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ankylosing spondylitis"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Behçet disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1668927157",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1668927157"
+    }
+  ]
+}

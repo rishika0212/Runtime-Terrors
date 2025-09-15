@@ -1,0 +1,87 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2081252099",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/347064800"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2081252099",
+  "code": "QF01.0",
+  "source": "http://id.who.int/icd/entity/2081252099",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Traumatic amputation of breast"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/295559710",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/295559710"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2081252099/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acquired absence of breast"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired absence of breast"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "absence of breast"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "mastectomy status"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired absence of breast, partial"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1063679654"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired absence of breast, total"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1491251387"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired absence of breast, unilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/904647114"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired absence of breast, bilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/827738102"
+    }
+  ]
+}

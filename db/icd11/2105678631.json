@@ -1,0 +1,306 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2105678631",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/523481501"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2105678631",
+  "code": "1E91.1",
+  "source": "http://id.who.int/icd/entity/2105678631",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2105678631/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/814437206",
+        "http://id.who.int/icd/release/11/2024-01/mms/2055915829"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2105678631/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/523481501/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/1475156994",
+        "http://id.who.int/icd/release/11/2024-01/mms/1957823459",
+        "http://id.who.int/icd/release/11/2024-01/mms/831696556",
+        "http://id.who.int/icd/release/11/2024-01/mms/657977518",
+        "http://id.who.int/icd/release/11/2024-01/mms/404886274",
+        "http://id.who.int/icd/release/11/2024-01/mms/2097802831"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Ophthalmic zoster"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease of the eyes, caused by the reactivation of a latent infection with varicella zoster virus in the trigeminal nerve. This disease is characterised by a periorbital rash (typically within one dermatome), and conjunctivitis."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Zoster keratoconjunctivitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/130546848"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Zoster conjunctivitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/927004016"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Zoster keratitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/373247843"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Zoster scleritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/641390589"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Zoster anterior uveitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/528775272"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Zoster infection of eyelid"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/649610899"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/911707612"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ophthalmic zoster"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "zoster ophthalmicus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Herpes zoster ophthalmicus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Herpes zoster with ophthalmic complications"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Herpes zoster involving eye"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "zoster involving eye"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Zoster keratoconjunctivitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/130546848"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Herpes zoster keratoconjunctivitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/130546848"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Keratoconjunctivitis due to zoster"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/130546848"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Zoster conjunctivitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/927004016"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Conjunctivitis due to Herpes zoster"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/927004016"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Herpes zoster conjunctivitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/927004016"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Zoster keratitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/373247843"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Keratitis due to zoster"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/373247843"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Herpes zoster keratitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/373247843"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Zoster scleritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/641390589"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Scleritis due to Herpes zoster"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/641390589"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Herpes zoster scleritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/641390589"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Zoster anterior uveitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/528775272"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Iritis due to Herpes zoster"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/528775272"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Zoster iritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/528775272"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Herpes zoster anterior uveitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/528775272"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "zoster iridocyclitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/528775272"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Iridocyclitis in zoster"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/528775272"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Zoster infection of eyelid"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/649610899"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Herpes zoster ulceration and scarring of eyelid"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/649610899"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Zoster ulceration and scarring of eyelid"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/649610899"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Herpes zoster infection of eyelid"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/649610899"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Herpes zoster of supraorbital nerve"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1867767981"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Interstitial keratitis and keratoconjunctivitis in zoster"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1305980863"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "keratitis and keratoconjunctivitis in zoster"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1305980863"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/357570888",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2022303330"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#357570888",
+  "code": "2B31.7",
+  "source": "http://id.who.int/icd/entity/357570888",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/357570888/postcoordinationScale/histopathology",
+      "axisName": "http://id.who.int/icd/schema/histopathology",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/227616764"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/357570888/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Fibroblastic reticular cell tumour"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A very rare dendritic cell tumour affecting the lymph nodes, spleen, and soft tissues. Morphologically it is similar to the interdigitating dendritic cell sarcoma or follicular dendritic cell sarcoma. The tumour cells are positive for cytokeratin and CD68. Clinical outcome is variable."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fibroblastic reticular cell tumour"
+      }
+    }
+  ]
+}

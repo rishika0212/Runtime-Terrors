@@ -1,0 +1,57 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1642684637",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1964968944"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/50955500",
+    "http://id.who.int/icd/release/11/2024-01/mms/240841487",
+    "http://id.who.int/icd/release/11/2024-01/mms/1642684637/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1642684637",
+  "code": "DC81",
+  "source": "http://id.who.int/icd/entity/1642684637",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1642684637/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1741413713"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1642684637/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/953394726"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1642684637/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Diverticulosis of large intestine"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "The name diverticulosis is used merely to indicate the presence of multiple diverticula in the large intestine, with or without the accompanying muscle abnormalities found in classical diverticular disease. The condition of having multiple pouches (diverticula) is called diverticulosis. Most people with diverticulosis do not have any discomfort or symptoms. However, some people may experience crampy pain or discomfort in the lower abdomen, bloating, and constipation."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ]
+}

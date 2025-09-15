@@ -1,0 +1,81 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1417419084",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1369041370"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1417419084",
+  "code": "GC72",
+  "source": "http://id.who.int/icd/entity/1417419084",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1417419084/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1395490493",
+        "http://id.who.int/icd/release/11/2024-01/mms/2105390909",
+        "http://id.who.int/icd/release/11/2024-01/mms/815030812",
+        "http://id.who.int/icd/release/11/2024-01/mms/1141185149",
+        "http://id.who.int/icd/release/11/2024-01/mms/1358238409"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1417419084/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/460401849",
+        "http://id.who.int/icd/release/11/2024-01/mms/1642025150",
+        "http://id.who.int/icd/release/11/2024-01/mms/1162198017",
+        "http://id.who.int/icd/release/11/2024-01/mms/431804121"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Postprocedural urethral stricture"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Urethral stricture caused by catheterization, transurethral manipulations (e.g. transurethral resections), urethral instillations, or irradiation exposure"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postprocedural urethral stricture"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "postprocedural or postoperative stricture of urethra"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Post catheterisation urethral stricture"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1248389554"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "postcatheterisation stricture of urethra"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1248389554"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "postcatheterisation urethral stricture"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1248389554"
+    }
+  ]
+}

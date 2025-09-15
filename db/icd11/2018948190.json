@@ -1,0 +1,62 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2018948190",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1953986082"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2018948190",
+  "code": "2A83.50",
+  "source": "http://id.who.int/icd/entity/2018948190",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2018948190/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Heavy chain deposition disease"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease of the kidney, caused by proliferation and deposition of pieces of truncated or abnormal alpha, gamma, delta, or mu immunoglobulin heavy chain segments of white blood cells. This disease is characterised by fibrillar or granular tissue deposits and renal dysfunction, which may lead to organ failure. Confirmation is by identifying heavy chain deposition tissue biopsy using immunofluorescence under a microscope."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Heavy chain diseases or malignant immunoproliferative diseases"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/702525006",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/702525006"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Immunoglobulin heavy chain deficiency"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/960006636",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/14210665"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Heavy chain deposition disease"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "AH type amyloidosis"
+      }
+    }
+  ]
+}

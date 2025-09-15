@@ -1,0 +1,84 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/695549192",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1106082935"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1677754934",
+    "http://id.who.int/icd/release/11/2024-01/mms/1978015581",
+    "http://id.who.int/icd/release/11/2024-01/mms/1665352029",
+    "http://id.who.int/icd/release/11/2024-01/mms/695549192/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/695549192/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#695549192",
+  "code": "DB70.0",
+  "source": "http://id.who.int/icd/entity/695549192",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ischiorectal abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/279827145",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/279827145"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/695549192/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1211030054",
+        "http://id.who.int/icd/release/11/2024-01/mms/1594277606",
+        "http://id.who.int/icd/release/11/2024-01/mms/1212282357"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/695549192/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/695549192/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/695549192/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Abscess of anal regions"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition of the anal and rectal region, caused by an infection with a bacterial, viral, or fungal source. This condition is characterised by a focal accumulation of purulent material in the anal or rectal region."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ]
+}

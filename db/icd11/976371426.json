@@ -1,0 +1,152 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/976371426",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1520152220"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#976371426",
+  "code": "DC51.2",
+  "source": "http://id.who.int/icd/entity/976371426",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/976371426/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1070187421",
+        "http://id.who.int/icd/release/11/2024-01/mms/1699945558",
+        "http://id.who.int/icd/release/11/2024-01/mms/956779537"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/976371426/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/976371426/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Haemoperitoneum"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Blood retention in peritoneal cavity"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "traumatic retroperitoneal haemorrhage or haematoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2049252374",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2049252374"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Haemoperitoneum"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "abdominal apoplexy"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bloody peritoneal effusion"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "haemorrhage intraperitoneal"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "peritoneal haemorrhage"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "intraperitoneal bleed"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "male intrapelvic haemorrhage"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "peritoneum haemorrhage"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mesenteric haemorrhage"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1304620190"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nontraumatic retroperitoneal haemorrhage"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1995774392"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "nontraumatic retroperitoneal haematoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1995774392"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "retroperitoneal haematoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1995774392"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Omental haemorrhage"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/762258997"
+    }
+  ]
+}

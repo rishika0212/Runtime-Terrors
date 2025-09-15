@@ -1,0 +1,70 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/283512206",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/894625870"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/18792049",
+    "http://id.who.int/icd/release/11/2024-01/mms/179017711",
+    "http://id.who.int/icd/release/11/2024-01/mms/283512206/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/283512206/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#283512206",
+  "code": "LB71",
+  "source": "http://id.who.int/icd/entity/283512206",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/283512206/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1757281176"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Structural developmental anomalies of facial bones"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Any condition caused by failure of the facial bones to correctly develop during the antenatal period."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Facial clefts"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/11389088",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/11389088"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Otomandibular dysplasia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/424177015",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/424177015"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Agnathia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1192957236",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1874269997"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Micrognathia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1457759945",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1457759945"
+    }
+  ]
+}

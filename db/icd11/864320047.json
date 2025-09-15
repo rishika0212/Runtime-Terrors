@@ -1,0 +1,81 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/864320047",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/103374449"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#864320047",
+  "code": "NA00.6",
+  "source": "http://id.who.int/icd/entity/864320047",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/864320047/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/862454798",
+        "http://id.who.int/icd/release/11/2024-01/mms/269345714",
+        "http://id.who.int/icd/release/11/2024-01/mms/216471431",
+        "http://id.who.int/icd/release/11/2024-01/mms/1286369458",
+        "http://id.who.int/icd/release/11/2024-01/mms/13424608",
+        "http://id.who.int/icd/release/11/2024-01/mms/608198862"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/864320047/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/588039752"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/864320047/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/980862652",
+        "http://id.who.int/icd/release/11/2024-01/mms/851395624",
+        "http://id.who.int/icd/release/11/2024-01/mms/73322695",
+        "http://id.who.int/icd/release/11/2024-01/mms/128104623",
+        "http://id.who.int/icd/release/11/2024-01/mms/1491356379",
+        "http://id.who.int/icd/release/11/2024-01/mms/491063206",
+        "http://id.who.int/icd/release/11/2024-01/mms/185842968",
+        "http://id.who.int/icd/release/11/2024-01/mms/2143219175",
+        "http://id.who.int/icd/release/11/2024-01/mms/558785723",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Abrasion of other or unspecified sites of head"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Abrasion of other or unspecified sites of head"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Abrasion of supraorbital region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/174433175"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Abrasion of temple"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1757070473"
+    }
+  ]
+}

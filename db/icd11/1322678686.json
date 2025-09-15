@@ -1,0 +1,75 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1322678686",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/396939646"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1990556904",
+    "http://id.who.int/icd/release/11/2024-01/mms/1326412651",
+    "http://id.who.int/icd/release/11/2024-01/mms/1473955563",
+    "http://id.who.int/icd/release/11/2024-01/mms/1128255226",
+    "http://id.who.int/icd/release/11/2024-01/mms/504387587",
+    "http://id.who.int/icd/release/11/2024-01/mms/1322678686/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1322678686/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1322678686",
+  "code": "FA24",
+  "source": "http://id.who.int/icd/entity/1322678686",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1322678686/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1363003152",
+        "http://id.who.int/icd/release/11/2024-01/mms/1959335168",
+        "http://id.who.int/icd/release/11/2024-01/mms/192726145",
+        "http://id.who.int/icd/release/11/2024-01/mms/223741850",
+        "http://id.who.int/icd/release/11/2024-01/mms/319259361",
+        "http://id.who.int/icd/release/11/2024-01/mms/223046766"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1322678686/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1968541653"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Juvenile idiopathic arthritis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Juvenile idiopathic arthritis (JIA) is the term used to describe a group of inflammatory articular disorders of unknown cause that begin before the age of 16 and last over 6 weeks. Six disorders have been defined: systemic-onset juvenile idiopathic arthritis (formerly referred to as Still's disease), oligoarticular arthritis, rheumatoid factor-positive polyarthritis, rheumatoid factor-negative polyarthritis, enthesitis-related arthritis (spondyloarthropathies), and the juvenile form of psoriatic arthritis (see these terms). A seventh category has been defined comprising unclassified types of arthritis (types that do not correspond to any of the defined disease or that correspond to more than one of the disease definitions)."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Juvenile dermatomyositis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1428089375",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1428089375"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Felty syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1118910093",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1698769251"
+    }
+  ],
+  "codingNote": {
+    "@language": "en",
+    "@value": "Arthritis in children, with onset before 16th birthday and lasting longer than 6 weeks"
+  }
+}

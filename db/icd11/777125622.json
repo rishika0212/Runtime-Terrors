@@ -1,0 +1,79 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/777125622",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/527743894"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#777125622",
+  "code": "8A01.16",
+  "source": "http://id.who.int/icd/entity/777125622",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/777125622/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/746448055",
+        "http://id.who.int/icd/release/11/2024-01/mms/248569732",
+        "http://id.who.int/icd/release/11/2024-01/mms/817370856",
+        "http://id.who.int/icd/release/11/2024-01/mms/1583926619",
+        "http://id.who.int/icd/release/11/2024-01/mms/1323892810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Drug-induced chorea"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Chorea may be due to prescribed and illicit drugs."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/564191997"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced chorea"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "medicament-induced chorea"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chorea due to oral contraceptives"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/885852117"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chorea due to dopamine receptor blocking agents"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/432201612"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chorea due to Tardive dyskinesia including classic orobuccolingual dyskinesia or Tardive Stereotypy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/994119151"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chorea due to certain specified drugs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/41759514"
+    }
+  ]
+}

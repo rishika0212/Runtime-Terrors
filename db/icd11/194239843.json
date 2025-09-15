@@ -1,0 +1,87 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/194239843",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1925333068"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#194239843",
+  "code": "BE16",
+  "source": "http://id.who.int/icd/entity/194239843",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/194239843/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1210083104"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/194239843/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/460401849",
+        "http://id.who.int/icd/release/11/2024-01/mms/1642025150",
+        "http://id.who.int/icd/release/11/2024-01/mms/1162198017",
+        "http://id.who.int/icd/release/11/2024-01/mms/431804121"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Postprocedural pulmonary venous disorder"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "An event or occurrence affecting one or more pulmonary vein(s) that is associated with a healthcare intervention, is a departure from the desired course of events, and may cause, or be associated with, a suboptimal outcome."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1380872553"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postprocedural pulmonary venous disorder"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "postprocedural pulmonary vein complication"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postprocedural obstructed pulmonary venous pathway"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1163916478"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postprocedural obstructed pulmonary vein"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2002133179"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postprocedural pulmonary vein atresia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/999582501"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postprocedural pulmonary vein stenosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1885008572"
+    }
+  ]
+}

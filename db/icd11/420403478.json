@@ -1,0 +1,85 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/420403478",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/868468606"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#420403478",
+  "code": "FA90.1",
+  "source": "http://id.who.int/icd/entity/420403478",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/420403478/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Infection of vertebra with determinants"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infection of vertebra with determinants"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "secondary infection of vertebra"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "infectious spondylitis with determinant"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bacterial infection of vertebra"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/114479472"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fungal infection of vertebra"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/609288981"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mycobacterial infection of vertebra"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/331489899"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Parasitic infection of vertebra"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/740282136"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Viral infection of vertebra"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/660118255"
+    }
+  ]
+}

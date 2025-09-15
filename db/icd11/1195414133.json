@@ -1,0 +1,107 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1195414133",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1040032122"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1195414133",
+  "code": "GA07.0",
+  "source": "http://id.who.int/icd/entity/1195414133",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute gonococcal salpingitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/48273613",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1015780375"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1195414133/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/61287910",
+        "http://id.who.int/icd/release/11/2024-01/mms/987725990"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acute salpingitis and oophoritis"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute salpingitis and oophoritis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute salpingo-oophoritis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute oophoritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/646613687"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute salpingitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1286268784"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute endosalpingitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1286268784"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute purulent salpingo-oophoritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1466196076"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute ruptured salpingo-oophoritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/214185775"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute septic salpingo-oophoritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/593573137"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute suppurative salpingo-oophoritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/951038475"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute pyosalpinx"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2036068788"
+    }
+  ]
+}

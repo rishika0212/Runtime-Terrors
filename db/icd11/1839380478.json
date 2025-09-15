@@ -1,0 +1,58 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1839380478",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1147802348"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1839380478",
+  "code": "2A34",
+  "source": "http://id.who.int/icd/entity/1839380478",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1839380478/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Refractory cytopenia with multi-lineage dysplasia"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A myelodysplastic syndrome characterised by bi-cytopenia or pancytopenia and dysplastic changes in 10% or more of the cells in two or more of the myeloid cell lines."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Refractory cytopenia with multi-lineage dysplasia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Refractory anaemia with multi-lineage dysplasia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Refractory anaemia with excess blasts in transformation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2041159051"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "refractory anaemia with sideroblasts with transformation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2041159051"
+    }
+  ]
+}

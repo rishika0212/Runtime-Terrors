@@ -1,0 +1,128 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/858910376",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1672394552"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#858910376",
+  "code": "DA40.3",
+  "source": "http://id.who.int/icd/entity/858910376",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/858910376/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1493524587"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/858910376/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Gastric diverticulum"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Gastric diverticulum is a disorder having out-pouchings from the gastric wall."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital diverticulum of stomach"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1492165140",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1763449287"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gastric diverticulum"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "diverticulum of stomach"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "gastric diverticula"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "stomach diverticula"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "stomach diverticulum"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "gastric pouch"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gastric diverticulum with complication"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2039404822"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gastric diverticulum without complication"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1310586988"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gastric diverticulitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/932096645"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gastric diverticulosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/953342599"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "stomach diverticulosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/953342599"
+    }
+  ]
+}

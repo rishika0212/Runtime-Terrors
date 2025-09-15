@@ -1,0 +1,171 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1551946073",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1679904912"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1551946073",
+  "code": "NA06.4",
+  "source": "http://id.who.int/icd/entity/1551946073",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1551946073/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1551946073/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/470130163",
+        "http://id.who.int/icd/release/11/2024-01/mms/985771522"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1551946073/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/980862652",
+        "http://id.who.int/icd/release/11/2024-01/mms/851395624",
+        "http://id.who.int/icd/release/11/2024-01/mms/73322695",
+        "http://id.who.int/icd/release/11/2024-01/mms/128104623",
+        "http://id.who.int/icd/release/11/2024-01/mms/1491356379",
+        "http://id.who.int/icd/release/11/2024-01/mms/491063206",
+        "http://id.who.int/icd/release/11/2024-01/mms/185842968",
+        "http://id.who.int/icd/release/11/2024-01/mms/2143219175",
+        "http://id.who.int/icd/release/11/2024-01/mms/558785723",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Injury of conjunctiva or corneal abrasion without mention of foreign body"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Foreign body in cornea"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1421032401",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1421032401"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Foreign body in conjunctival sac"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/838399557",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/838399557"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1804006919"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury of conjunctiva or corneal abrasion without mention of foreign body"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury of conjunctiva"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1720268067"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Superficial injury of conjunctiva"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1018425730"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Superficial injury of subconjunctiva"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1965118734"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Contusion of conjunctiva"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1296946785"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Subconjunctival contusion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/854117086"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Haematoma of conjunctiva"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1064006404"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury of cornea"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2069048512"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "corneal injury"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2069048512"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Superficial injury of cornea"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/481262380"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Corneal abrasion injury"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/212424932"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Traumatic corneal erosion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1590847680"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Haematoma of cornea"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/9050646"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1067183755",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1851919630"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1067183755",
+  "code": "8D43.21",
+  "source": "http://id.who.int/icd/entity/1067183755",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1067183755/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1640181609"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1067183755/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/136660883",
+        "http://id.who.int/icd/release/11/2024-01/mms/2036682392",
+        "http://id.who.int/icd/release/11/2024-01/mms/372796891",
+        "http://id.who.int/icd/release/11/2024-01/mms/1302132158",
+        "http://id.who.int/icd/release/11/2024-01/mms/1348791597/unspecified",
+        "http://id.who.int/icd/release/11/2024-01/mms/620459604",
+        "http://id.who.int/icd/release/11/2024-01/mms/1162198017"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Post radiation polyneuropathy"
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/564191997"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Post radiation polyneuropathy"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "radiation-induced polyneuropathy"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "actinoneuritis"
+      }
+    }
+  ]
+}

@@ -1,0 +1,530 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/512128824",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/162683166"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#512128824",
+  "code": "BB40",
+  "source": "http://id.who.int/icd/entity/512128824",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Endocardial fibroelastosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1971033419",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1971033419"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/512128824/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1746753308",
+        "http://id.who.int/icd/release/11/2024-01/mms/1350243387",
+        "http://id.who.int/icd/release/11/2024-01/mms/1912610276"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/512128824/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/512128824/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/2058324694"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/512128824/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1528414070",
+        "http://id.who.int/icd/release/11/2024-01/mms/183283901",
+        "http://id.who.int/icd/release/11/2024-01/mms/609214049",
+        "http://id.who.int/icd/release/11/2024-01/mms/271545608",
+        "http://id.who.int/icd/release/11/2024-01/mms/419706488",
+        "http://id.who.int/icd/release/11/2024-01/mms/1664016479",
+        "http://id.who.int/icd/release/11/2024-01/mms/2113860626",
+        "http://id.who.int/icd/release/11/2024-01/mms/1314810340",
+        "http://id.who.int/icd/release/11/2024-01/mms/2096491408",
+        "http://id.who.int/icd/release/11/2024-01/mms/749596428",
+        "http://id.who.int/icd/release/11/2024-01/mms/863862503",
+        "http://id.who.int/icd/release/11/2024-01/mms/2097520643"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acute or subacute infectious endocarditis"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infectious myocarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/654702340",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/654702340"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1380872553"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute or subacute infectious endocarditis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "subacute infective endocarditis NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "infective endocarditis NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute infective endocarditis NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "infectious endocarditis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute malignant endocarditis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic infective endocarditis NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute or subacute infectious endocarditis, laterality not specified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/117254574"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute or subacute infective endocarditis, left-sided"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/21844126"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute or subacute infective endocarditis, right-sided"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1049673197"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bacterial endocarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1924438986"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "BE - [bacterial endocarditis]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1924438986"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bacterial valvular endocarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1924438986"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute bacterial endocarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1782854071"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute streptococcal endocarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/875976328"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic bacterial endocarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2141866691"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic streptococcal endocarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/771242103"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Subacute bacterial endocarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/933942548"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "SBE - [subacute bacterial endocarditis]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/933942548"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Streptococcal endocarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1993702070"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "streptococcal valvular endocarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1993702070"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pneumococcal endocarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/289288790"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fungal endocarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1487619220"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "mycotic endocarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1487619220"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "mycosis endocarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1487619220"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "mycotic heart valve vegetation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1487619220"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute mycotic endocarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1097149029"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic mycotic endocarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2122597235"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aspergillus endocarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/167870708"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osler node"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1219323740"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Septic endocarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/588341476"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute septic endocarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1657561523"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic septic endocarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/939020496"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Subacute septic endocarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/388522012"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Suppurative endocarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/485824369"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic suppurative endocarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/840242929"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Subacute suppurative endocarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/319539586"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ulcerative endocarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1752013490"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "heart valve ulcer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1752013490"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute ulcerative endocarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1319037463"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic ulcerative endocarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/841783587"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Subacute ulcerative endocarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1688335563"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Vegetative endocarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1188025300"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "heart valve vegetation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1188025300"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute vegetative endocarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/335781572"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic vegetative endocarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1572219268"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Subacute vegetative endocarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1073801305"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Endocarditis lenta"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1882391507"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute endocarditis lenta"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1076472503"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic endocarditis lenta"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1880768829"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Subacute endocarditis lenta"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/321031024"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Streptococcal nonbacterial thrombotic endocarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1723682291"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Purulent endocarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1656202881"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute purulent endocarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1114084947"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic purulent endocarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1208994223"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Subacute purulent endocarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/60020204"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Endocarditis of common atrioventricular valve"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/64876347"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Endocarditis of right atrioventricular valve"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/758777391"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Endocarditis of left atrioventricular valve"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1129576011"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Endocarditis of truncal valve or neo-aortic valve of truncal origin"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/515751010"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Endocarditis of the neoaortic valve of pulmonary origin"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1474605887"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Endocarditis of neoaortic valve"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1474605887"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Endocarditis of neopulmonary valve"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1661060229"
+    }
+  ]
+}

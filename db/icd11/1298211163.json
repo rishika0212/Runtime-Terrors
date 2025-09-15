@@ -1,0 +1,100 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1298211163",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1781019902"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1426960900",
+    "http://id.who.int/icd/release/11/2024-01/mms/809926550",
+    "http://id.who.int/icd/release/11/2024-01/mms/1156263785",
+    "http://id.who.int/icd/release/11/2024-01/mms/564191997",
+    "http://id.who.int/icd/release/11/2024-01/mms/1380872553",
+    "http://id.who.int/icd/release/11/2024-01/mms/923122941",
+    "http://id.who.int/icd/release/11/2024-01/mms/1135143938",
+    "http://id.who.int/icd/release/11/2024-01/mms/652419480",
+    "http://id.who.int/icd/release/11/2024-01/mms/1717433410",
+    "http://id.who.int/icd/release/11/2024-01/mms/1298211163/other"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1298211163",
+  "code": "JB64",
+  "source": "http://id.who.int/icd/entity/1298211163",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mental or behavioural disorders associated with pregnancy, childbirth or the puerperium"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/882114523",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/882114523"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury complicating pregnancy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2013366661",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2013366661"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1298211163/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1630407678",
+        "http://id.who.int/icd/release/11/2024-01/mms/868865918",
+        "http://id.who.int/icd/release/11/2024-01/mms/1218729044",
+        "http://id.who.int/icd/release/11/2024-01/mms/1473673350",
+        "http://id.who.int/icd/release/11/2024-01/mms/1932345217",
+        "http://id.who.int/icd/release/11/2024-01/mms/438200634",
+        "http://id.who.int/icd/release/11/2024-01/mms/1870522325"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Certain maternal diseases classifiable elsewhere but complicating pregnancy, childbirth or the puerperium"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "when the reason for maternal care is that the condition is known or suspected to have affected the fetus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/949403359",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/949403359"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "infectious and parasitic diseases"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/673901775",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/673901775"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury, poisoning or certain other consequences of external causes"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/435227771",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/435227771"
+    }
+  ],
+  "codingNote": {
+    "@language": "en",
+    "@value": "This category includes conditions which complicate the pregnant state, are aggravated by the pregnancy or are a main reason for obstetric care but no specific category exists in this chapter."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Certain maternal diseases classifiable elsewhere but complicating pregnancy, childbirth or the puerperium"
+      }
+    }
+  ]
+}

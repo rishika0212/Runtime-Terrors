@@ -1,0 +1,100 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/805990521",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/843843448"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1199499236",
+    "http://id.who.int/icd/release/11/2024-01/mms/805990521/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/805990521/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#805990521",
+  "code": "8B24",
+  "source": "http://id.who.int/icd/entity/805990521",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hypoxic ischaemic encephalopathy of newborn"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1281282034",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1281282034"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/805990521/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/562478860",
+        "http://id.who.int/icd/release/11/2024-01/mms/1663264387",
+        "http://id.who.int/icd/release/11/2024-01/mms/1201187093"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Hypoxic-ischaemic encephalopathy"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Brain damage due to hypoxia-ischemia: Previous term Anoxic brain damage has been changed. The new term is now widely accepted, and better describes the pathophysiology, i.e., the combination of complete and incomplete transitory global cerebral ischemia together with a combination of anoxia and hypoxia. In a surviving patient, pure anoxic encephalopathy is very uncommon."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "complicating: surgical and medical care"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/383104340",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/383104340"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "neonatal anoxia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/848321559",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/848321559"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Central nervous system complications of anaesthesia during pregnancy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/199994446",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/199994446"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "complicating: abortion or ectopic or molar pregnancy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/877352786",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/877352786"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Central nervous system complications of anaesthesia during labour or delivery"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1831433520",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1831433520"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Central nervous system complications of anaesthesia during the puerperium"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1425083480",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1425083480"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1281282034"
+  ]
+}

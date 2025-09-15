@@ -1,0 +1,88 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2072706284",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1517885800"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2072706284",
+  "code": "5B58",
+  "source": "http://id.who.int/icd/entity/2072706284",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired vitamin E deficiency anaemia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/325416665",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/325416665"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dementia due to vitamin E deficiency"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/635934326",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1468768235/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2072706284/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/71197968/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/1567256935",
+        "http://id.who.int/icd/release/11/2024-01/mms/2053072995"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Vitamin E deficiency"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Vitamin E deficiency is a condition that causes haemolysis and/or neurologic manifestations. Red blood cell fragility occurs and can produce a haemolytic anaemia. Neuronal degeneration produces peripheral neuropathies, ophthalmoplegia, and destruction of posterior columns of spinal cord. Neurologic disease is frequently irreversible if deficiency is not corrected early enough. Vitamin E deficiency may also contribute to the haemolytic anaemia and retrolental fibroplasia seen in premature infants."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Because vitamin E is plentiful in common foods, primary dietary deficiency is rare except in premature infants and in severe undernutrition. Vitamin E deficiency does occur in children and adults with fat malabsorption secondary to the need for bile acid for vitamin E absorption. Patients with cholestasis or pancreatic exocrine insufficiency (steatorrhea) are at risk for vitamin E deficiency because of malabsorption of fat and fat-soluble vitamin. These disorders include cirrhosis, cholestatic liver disease, cystic fibrosis, small bowel bacterial overgrowth, pancreatic insufficiency, celiac disease, and Crohn disease. The degree of deficiency is generally proportional to the magnitude and the duration of steatorrhea. \r\n\r\nBecause of its role as an antioxidant, there is considerable research on the potential role of vitamin E supplementation in chronic illnesses."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1867773640"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/517413026"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Vitamin E deficiency"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "tocopherol deficiency"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Peripheral neuropathy due to vitamin E deficiency"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1787416388"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spinocerebellar ataxia due to vitamin E deficiency"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/234085898"
+    }
+  ]
+}

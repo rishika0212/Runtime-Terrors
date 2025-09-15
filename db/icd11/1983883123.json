@@ -1,0 +1,57 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1983883123",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2141918942"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1983883123",
+  "code": "9D52",
+  "source": "http://id.who.int/icd/entity/1983883123",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1983883123/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Hemifield losses"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hemifield losses"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "quadrant loss"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hemifield loss in migraine or epilepsy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1492575261"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hemifield loss caused by vertebrobasilar artery"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1503307085"
+    }
+  ]
+}

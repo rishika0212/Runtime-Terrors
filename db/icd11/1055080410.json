@@ -1,0 +1,60 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1055080410",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/78189128"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1511230615",
+    "http://id.who.int/icd/release/11/2024-01/mms/723033820"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1055080410",
+  "code": "ED73.1",
+  "source": "http://id.who.int/icd/entity/1055080410",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced hair colour change"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2141979476",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1442306126/other"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Segmental heterochromia of hair"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/16831299",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1444833828"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1055080410/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/459275392"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acquired changes in hair colour"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Abnormal diffuse or circumscribed alterations in natural hair colour. Causes include drugs, idiopathic premature greying of the hair, differential shedding of pigmented hair in alopecia areata or hair pigment loss in association with vitiligo or regressing melanocytic naevi."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired changes in hair colour"
+      }
+    }
+  ]
+}

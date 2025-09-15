@@ -1,0 +1,66 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1288604967",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/921595235"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1288604967",
+  "code": "1D4B",
+  "source": "http://id.who.int/icd/entity/1288604967",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1288604967/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/956664712"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Kyasanur Forest disease"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease caused by an infection with Kyasanur Forest disease virus. This disease commonly presents with fever, chills, headache, muscle pain and vomiting, or gastrointestinal symptoms and bleeding. This disease may also present with neurological manifestations such as a severe headache, mental disturbances, tremors, or vision deficits. Transmission is through the bite of an infected tick or by direct contact with an infected animal. Confirmation is by identification of Kyasanur Forest disease virus in a serum sample."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/911707612"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Kyasanur Forest disease"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "KFD - [ Kyasanur Forest disease]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "monkey fever"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "monkey sickness"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Kyasanur forest disease encephalitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1248982672"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1947902215",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2125493521"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/557524328",
+    "http://id.who.int/icd/release/11/2024-01/mms/1947902215/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1947902215/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1947902215",
+  "code": "DB95.2",
+  "source": "http://id.who.int/icd/entity/1947902215",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1947902215/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1947902215/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/746448055",
+        "http://id.who.int/icd/release/11/2024-01/mms/248569732",
+        "http://id.who.int/icd/release/11/2024-01/mms/817370856",
+        "http://id.who.int/icd/release/11/2024-01/mms/1583926619"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1947902215/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Drug-induced or toxic liver disease with cholestasis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is a drug-induced cholestatic liver injury where the symptoms of pruritus and jaundice are often prominent, and elevated serum alkaline phosphatase is the dominant biochemical finding."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cholestasis with hepatocyte injury"
+      }
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ]
+}

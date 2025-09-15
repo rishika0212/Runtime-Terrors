@@ -1,0 +1,109 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1083057426",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1203416278"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1083057426",
+  "code": "NA82.4",
+  "source": "http://id.who.int/icd/entity/1083057426",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1083057426/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1083057426/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/480847577",
+        "http://id.who.int/icd/release/11/2024-01/mms/1670051326"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1083057426/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482",
+        "http://id.who.int/icd/release/11/2024-01/mms/755612283"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Multiple fractures of ribs"
+  },
+  "codingNote": {
+    "@language": "en",
+    "@value": "Each injury should be coded separately. This code should be used only when the detail of the specific injuries is unknown, or it is not possible to code each injury."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Multiple fractures of ribs"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "rib fractures"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Multiple rib fractures, involving first rib"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/131111943"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Multiple rib fractures, involving two ribs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/638052235"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Multiple rib fractures, involving three ribs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/980354249"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Multiple rib fractures involving four or more ribs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1522716258"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sequelae of multiple fractures of ribs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1885007649"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "late effect of multiple fractures of ribs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1885007649"
+    }
+  ]
+}

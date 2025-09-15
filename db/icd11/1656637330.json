@@ -1,0 +1,70 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1656637330",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1210263011"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/647756013",
+    "http://id.who.int/icd/release/11/2024-01/mms/1137718649",
+    "http://id.who.int/icd/release/11/2024-01/mms/930964872",
+    "http://id.who.int/icd/release/11/2024-01/mms/772609501",
+    "http://id.who.int/icd/release/11/2024-01/mms/1379313682",
+    "http://id.who.int/icd/release/11/2024-01/mms/1433758585",
+    "http://id.who.int/icd/release/11/2024-01/mms/1656637330/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1656637330/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1656637330",
+  "code": "GB56",
+  "source": "http://id.who.int/icd/entity/1656637330",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1656637330/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1656637330/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1507624466"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Obstructive or reflux nephropathy"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Distention of the pelvis and calices of the kidney with urine as a result of obstruction of the ureter or as a result of a vesicoureteral or vesicoureterorenal reflux of urine. Diffuse or focal cortical scarring and chronic tubulointerstitial nephritis may be present."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Calculus of kidney and ureter without hydronephrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1746821938",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1746821938"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Obstructive pyelonephritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1935203065",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1935203065"
+    }
+  ]
+}

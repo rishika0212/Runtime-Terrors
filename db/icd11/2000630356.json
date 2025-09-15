@@ -1,0 +1,89 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2000630356",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1948684645"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2000630356",
+  "code": "MF97",
+  "source": "http://id.who.int/icd/entity/2000630356",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2000630356/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Pyuria"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Pyuria is a urinary condition that is characterized by an elevated number of white blood cells in the urine. Doctors define a high number as at least 10 white blood cells per cubic millimeter (mm³) of centrifuged urine. Pyuria can cause the urine to look cloudy or as if it contains pus."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pyuria"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pus in urine"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pus cells in urine"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pyuria associated with urinary tract infection"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/295847851"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bacterial pyuria"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/295847851"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pyuria associated cause classified elsewhere"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2138177119"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pyuria, unknown cause"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1882817893"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "sterile pyuria"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1882817893"
+    }
+  ]
+}

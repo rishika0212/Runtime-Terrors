@@ -1,0 +1,129 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/516478127",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1448983042"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#516478127",
+  "code": "2C31.1",
+  "source": "http://id.who.int/icd/entity/516478127",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/516478127/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/223243926",
+        "http://id.who.int/icd/release/11/2024-01/mms/947150833",
+        "http://id.who.int/icd/release/11/2024-01/mms/1810600222"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/516478127/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/516478127/postcoordinationScale/hasAlternativeSeverity2",
+      "axisName": "http://id.who.int/icd/schema/hasAlternativeSeverity2",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1863636238",
+        "http://id.who.int/icd/release/11/2024-01/mms/885826145",
+        "http://id.who.int/icd/release/11/2024-01/mms/1746207012",
+        "http://id.who.int/icd/release/11/2024-01/mms/303697349"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Keratoacanthoma"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Keratoacanthoma is a relatively common keratinocytic epidermal tumour which shows resemblances to squamous cell carcinoma of the skin, from which it may be difficult to distinguish either clinically or histopathologically. It is characterised by rapid growth over a few weeks to months, followed by spontaneous resolution over 4-6 months. Because it is not possible to predict its benign behaviour with complete certainty during its initial growth phase, the designation \"Well-differentiated squamous cell carcinoma (keratoacanthoma type)\" is also used."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Keratoacanthoma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "KA - [keratoacanthoma]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Well-differentiated squamous cell carcinoma (keratoacanthoma type)"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Giant keratoacanthoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1464954992"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Multiple keratoacanthomas"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1811397628"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Generalised eruptive keratoacanthomas"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1659428165"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Grzybowski syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1659428165"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Familial multiple keratoacanthomas"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1434188859"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ferguson-Smith multiple keratoacanthomas"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1434188859"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Multiple self-healing squamous epitheliomas of Ferguson-Smith"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1434188859"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Muir-Torre syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/229304403"
+    }
+  ]
+}

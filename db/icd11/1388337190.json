@@ -1,0 +1,52 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1388337190",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/634116368"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1388337190",
+  "code": "1D05.1",
+  "source": "http://id.who.int/icd/entity/1388337190",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1388337190/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Subdural infectious cyst"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition of the subdural space, caused by an infection with a bacterial, viral, fungal, or parasitic source. This condition is characterised by a membranous sac that may be filled with gas, fluid, or semi solid material between the dura mater and the arachnoid mater. This condition may present with neurological deficits."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/911707612"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Subdural infectious cyst"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Parasitic subdural cyst"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1025024097"
+    }
+  ]
+}

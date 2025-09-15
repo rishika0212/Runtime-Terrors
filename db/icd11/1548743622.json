@@ -1,0 +1,124 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1548743622",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1025888387"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1548743622",
+  "code": "BD91",
+  "source": "http://id.who.int/icd/entity/1548743622",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ascending bacterial lymphangitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/845065622",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/845065622"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sclerosing lymphangitis of penis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1629463754",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1629463754"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1548743622/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1031510592",
+        "http://id.who.int/icd/release/11/2024-01/mms/465545679",
+        "http://id.who.int/icd/release/11/2024-01/mms/2122474603",
+        "http://id.who.int/icd/release/11/2024-01/mms/970208182",
+        "http://id.who.int/icd/release/11/2024-01/mms/481430149",
+        "http://id.who.int/icd/release/11/2024-01/mms/276642106"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1548743622/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/523481501",
+        "http://id.who.int/icd/release/11/2024-01/mms/248851702",
+        "http://id.who.int/icd/release/11/2024-01/mms/1913468488",
+        "http://id.who.int/icd/release/11/2024-01/mms/733043150"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Lymphangitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Lymphangitis is an inflammation of lymphatic vessels. It is most often caused by infection from bacteria, virus or fungus or infiltration by cancer cells."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Lymphocutaneous sporotrichosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/768312788",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/768312788"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1380872553"
+  ],
+  "codingNote": {
+    "@language": "en",
+    "@value": "Code first any underlying infection."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Lymphangitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "inflammation of lymphatics"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic lymphangitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1268872075"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Subacute lymphangitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1318411381"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Lymphangitis due to unspecified bacteria"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/788007323"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Lymphangitis NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/788007323"
+    }
+  ]
+}

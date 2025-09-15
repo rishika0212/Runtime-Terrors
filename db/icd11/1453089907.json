@@ -1,0 +1,66 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1453089907",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1121827324"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/441251337",
+    "http://id.who.int/icd/release/11/2024-01/mms/216639497",
+    "http://id.who.int/icd/release/11/2024-01/mms/2131180445",
+    "http://id.who.int/icd/release/11/2024-01/mms/1772250525",
+    "http://id.who.int/icd/release/11/2024-01/mms/401485484",
+    "http://id.who.int/icd/release/11/2024-01/mms/1453089907/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1453089907/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1453089907",
+  "code": "ND51",
+  "source": "http://id.who.int/icd/entity/1453089907",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1453089907/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482",
+        "http://id.who.int/icd/release/11/2024-01/mms/856028269"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Other injuries of spine or trunk, level unspecified"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "multiple internal injuries of trunk"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/656848417",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/737505585"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "crushing injury of trunk NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/974384220",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/974384220"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "transection of trunk"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1599611342",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1599611342"
+    }
+  ],
+  "codingNote": {
+    "@language": "en",
+    "@value": "Each injury should be coded separately. This code should be used only when the detail of the specific injuries is unknown, or it is not possible to code each injury."
+  }
+}

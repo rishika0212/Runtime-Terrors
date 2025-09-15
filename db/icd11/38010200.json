@@ -1,0 +1,71 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/38010200",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1079654421"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#38010200",
+  "code": "AB01",
+  "source": "http://id.who.int/icd/entity/38010200",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic serous or mucoid otitis media"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/480877235",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/480877235"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic suppurative otitis media"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/996997454",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/996997454"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/38010200/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/38010200/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/995310870",
+        "http://id.who.int/icd/release/11/2024-01/mms/194676178"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Chronic otitis media"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic otitis media"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic otitis media NOS"
+      }
+    }
+  ]
+}

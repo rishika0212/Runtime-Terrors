@@ -1,0 +1,140 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/965393145",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1699744436"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#965393145",
+  "code": "NF01.0",
+  "source": "http://id.who.int/icd/entity/965393145",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Environmental hyperthermia of newborn"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1256305345",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1256305345"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/965393145/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/980862652",
+        "http://id.who.int/icd/release/11/2024-01/mms/851395624",
+        "http://id.who.int/icd/release/11/2024-01/mms/73322695",
+        "http://id.who.int/icd/release/11/2024-01/mms/128104623",
+        "http://id.who.int/icd/release/11/2024-01/mms/1491356379",
+        "http://id.who.int/icd/release/11/2024-01/mms/491063206",
+        "http://id.who.int/icd/release/11/2024-01/mms/185842968",
+        "http://id.who.int/icd/release/11/2024-01/mms/2143219175",
+        "http://id.who.int/icd/release/11/2024-01/mms/558785723",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Heat stroke"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Elevation of core body temperature above 40.6 degrees centigrade due to environmental heat exposure and a failure of thermoregulation. This is a potentially fatal disorder, particularly in infants and children."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Exertional heat stroke"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/833004294",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/833004294"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1256305345"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Heat stroke"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "heat-induced hyperthermia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "heat apoplexy"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "heat pyrexia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "heat stress"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "heat hyperpyrexia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "heat fever"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "environmental hyperthermia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "heatstroke"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sunstroke"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1369735957"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "sun stroke"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1369735957"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "siriasis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1369735957"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/574933822",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2057222152"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1929651751",
+    "http://id.who.int/icd/release/11/2024-01/mms/1150748505",
+    "http://id.who.int/icd/release/11/2024-01/mms/1819317628",
+    "http://id.who.int/icd/release/11/2024-01/mms/574933822/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#574933822",
+  "code": "BD74.1",
+  "source": "http://id.who.int/icd/entity/574933822",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Varicose veins of lower extremity in pregnancy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1853305829",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1853305829"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/574933822/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/574933822/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1381503063"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Lower limb varicose veins"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "The commonest manifestation of chronic peripheral venous insufficiency, varicose veins present as dilatation and tortuosity of the superficial veins of the lower extremities. Incompetence of the superficial venous valve system impedes the return of venous blood to the heart. Chronically increased venous pressure causes symptoms like heaviness, discomfort, extremity fatigue, itching, and dull or burning pain."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "complicating: puerperium"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/42381716",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/42381716"
+    }
+  ]
+}

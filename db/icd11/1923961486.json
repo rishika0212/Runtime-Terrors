@@ -1,0 +1,75 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1923961486",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/824827875"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1923961486",
+  "code": "GA31.00",
+  "source": "http://id.who.int/icd/entity/1923961486",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1923961486/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1488350448",
+        "http://id.who.int/icd/release/11/2024-01/mms/610326051",
+        "http://id.who.int/icd/release/11/2024-01/mms/621582195",
+        "http://id.who.int/icd/release/11/2024-01/mms/1380149912"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Primary female infertility of uterine origin"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Female infertility caused by uterine abnormalities on the level of the endometrium or myometrium, with more detailed description classified elsewhere, i.e. under genitourinary infections, STDs and noninflammatory benign gynaecological disease"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary female infertility of uterine origin"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "infertility of uterine origin NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Female infertility associated with congenital anomaly of uterus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/656382302"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "infertility associated with congenital anomaly of uterus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/656382302"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nonimplantation of ovum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/117642224"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "nonimplantation female infertility"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/117642224"
+    }
+  ]
+}

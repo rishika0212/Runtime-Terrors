@@ -1,0 +1,124 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/673901775",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1781019902"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1240824451",
+    "http://id.who.int/icd/release/11/2024-01/mms/750696215",
+    "http://id.who.int/icd/release/11/2024-01/mms/1477699562",
+    "http://id.who.int/icd/release/11/2024-01/mms/1029188220",
+    "http://id.who.int/icd/release/11/2024-01/mms/1320597992",
+    "http://id.who.int/icd/release/11/2024-01/mms/738030718",
+    "http://id.who.int/icd/release/11/2024-01/mms/1599087747",
+    "http://id.who.int/icd/release/11/2024-01/mms/1113397856",
+    "http://id.who.int/icd/release/11/2024-01/mms/673901775/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/673901775/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#673901775",
+  "code": "JB63",
+  "source": "http://id.who.int/icd/entity/673901775",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/673901775/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/622600769",
+        "http://id.who.int/icd/release/11/2024-01/mms/1683090852"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/673901775/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/588616678",
+        "http://id.who.int/icd/release/11/2024-01/mms/1904876434",
+        "http://id.who.int/icd/release/11/2024-01/mms/979278646",
+        "http://id.who.int/icd/release/11/2024-01/mms/1539889147",
+        "http://id.who.int/icd/release/11/2024-01/mms/1412960686",
+        "http://id.who.int/icd/release/11/2024-01/mms/1935092859",
+        "http://id.who.int/icd/release/11/2024-01/mms/487269828",
+        "http://id.who.int/icd/release/11/2024-01/mms/1000704511",
+        "http://id.who.int/icd/release/11/2024-01/mms/1104303944",
+        "http://id.who.int/icd/release/11/2024-01/mms/1585949804",
+        "http://id.who.int/icd/release/11/2024-01/mms/1959883044",
+        "http://id.who.int/icd/release/11/2024-01/mms/921595235",
+        "http://id.who.int/icd/release/11/2024-01/mms/1251496839",
+        "http://id.who.int/icd/release/11/2024-01/mms/1136802325",
+        "http://id.who.int/icd/release/11/2024-01/mms/145723401",
+        "http://id.who.int/icd/release/11/2024-01/mms/985510409",
+        "http://id.who.int/icd/release/11/2024-01/mms/1646490591",
+        "http://id.who.int/icd/release/11/2024-01/mms/1939815950",
+        "http://id.who.int/icd/release/11/2024-01/mms/255141529",
+        "http://id.who.int/icd/release/11/2024-01/mms/1435254666/unspecified",
+        "http://id.who.int/icd/release/11/2024-01/mms/1760597414",
+        "http://id.who.int/icd/release/11/2024-01/mms/1965146397",
+        "http://id.who.int/icd/release/11/2024-01/mms/142052508"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Maternal infectious diseases classifiable elsewhere but complicating pregnancy, childbirth or the puerperium"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Maternal infectious and parasitic diseases classifiable elsewhere but complicating pregnancy, childbirth or the puerperium"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Obstetrical tetanus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/262236278",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/262236278"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Laboratory evidence of human immunodeficiency virus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/82994689",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/82994689"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Asymptomatic human immunodeficiency virus infection"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1511167574",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/574153866"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "puerperal infection"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1741519874",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1741519874"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Puerperal sepsis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/325070079",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/325070079"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "when the reason for maternal care is that the disease is known or suspected to have affected the fetus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1864248550",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1864248550"
+    }
+  ]
+}

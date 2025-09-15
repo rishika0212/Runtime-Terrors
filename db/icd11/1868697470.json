@@ -1,0 +1,61 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1868697470",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1200365909"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1868697470",
+  "code": "9A03.40",
+  "source": "http://id.who.int/icd/entity/1868697470",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1868697470/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1868697470/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/844452979",
+        "http://id.who.int/icd/release/11/2024-01/mms/1468820019"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Cicatricial lagophthalmos"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cicatricial lagophthalmos"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cicatricial lagophthalmos upper eyelid"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/135088712"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cicatricial lagophthalmos lower eyelid"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2090867383"
+    }
+  ]
+}

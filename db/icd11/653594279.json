@@ -1,0 +1,73 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/653594279",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1859139099"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#653594279",
+  "code": "DD30.1",
+  "source": "http://id.who.int/icd/entity/653594279",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/653594279/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1928625572",
+        "http://id.who.int/icd/release/11/2024-01/mms/1741413713"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/653594279/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acute mesenteric arterial ischaemia"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Acute mesenteric ischemia is low flow states of mesenteric circulation, in which inadequate blood flow through the mesenteric circulation causes ischemia and eventual gangrene of the bowel wall. It can be caused by various conditions such as arterial occlusion, venous occlusion, strangulating obstruction, and hypoperfusion associated with nonocclusive vascular diseases."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute mesenteric arterial ischaemia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "AMI - [acute mesenteric ischaemia]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute bowel mesenteric ischaemia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute non-occlusive mesenteric arterial ischaemia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/490394188"
+    }
+  ]
+}

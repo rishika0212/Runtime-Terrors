@@ -1,0 +1,61 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1475987117",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1572490549"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1475987117",
+  "code": "2A82.3",
+  "source": "http://id.who.int/icd/entity/1475987117",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1475987117/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Splenic B-cell lymphoma or leukaemia, unclassifiable"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A small B-cell clonal lymphoproliferative disorder of the spleen that does not fall into any of the other categories of mature B-cell neoplasms."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hairy cell leukaemia-variant"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1512964057"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Splenic B-cell lymphoma or leukaemia, unclassifiable"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hairy cell leukaemia-variant"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1512964057"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hairy cell leukaemia variant, provisional"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1512964057"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/389818276",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1489212950"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1831408694",
+    "http://id.who.int/icd/release/11/2024-01/mms/140695968",
+    "http://id.who.int/icd/release/11/2024-01/mms/952630573",
+    "http://id.who.int/icd/release/11/2024-01/mms/395318846",
+    "http://id.who.int/icd/release/11/2024-01/mms/2093975903",
+    "http://id.who.int/icd/release/11/2024-01/mms/428098763",
+    "http://id.who.int/icd/release/11/2024-01/mms/1064797215",
+    "http://id.who.int/icd/release/11/2024-01/mms/1785386847",
+    "http://id.who.int/icd/release/11/2024-01/mms/253827787",
+    "http://id.who.int/icd/release/11/2024-01/mms/2072791604",
+    "http://id.who.int/icd/release/11/2024-01/mms/149202273",
+    "http://id.who.int/icd/release/11/2024-01/mms/516392866",
+    "http://id.who.int/icd/release/11/2024-01/mms/389818276/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/389818276/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#389818276",
+  "code": "NB91",
+  "source": "http://id.who.int/icd/entity/389818276",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Adrenal haemorrhage due to birth injury"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1748536000",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1748536000"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/389818276/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/143777109",
+        "http://id.who.int/icd/release/11/2024-01/mms/1651798887",
+        "http://id.who.int/icd/release/11/2024-01/mms/326645548",
+        "http://id.who.int/icd/release/11/2024-01/mms/328366540",
+        "http://id.who.int/icd/release/11/2024-01/mms/1202131133",
+        "http://id.who.int/icd/release/11/2024-01/mms/1924631190",
+        "http://id.who.int/icd/release/11/2024-01/mms/1311573163"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/389818276/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482",
+        "http://id.who.int/icd/release/11/2024-01/mms/755612283"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Injury of intra-abdominal organs"
+  }
+}

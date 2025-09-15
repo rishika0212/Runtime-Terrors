@@ -1,0 +1,91 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1916712542",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/390527954"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1916712542",
+  "code": "1F27.0",
+  "source": "http://id.who.int/icd/entity/1916712542",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1916712542/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1338477196",
+        "http://id.who.int/icd/release/11/2024-01/mms/1492119116",
+        "http://id.who.int/icd/release/11/2024-01/mms/1322869997",
+        "http://id.who.int/icd/release/11/2024-01/mms/1637303052"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1916712542/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2024199586",
+        "http://id.who.int/icd/release/11/2024-01/mms/1765820617",
+        "http://id.who.int/icd/release/11/2024-01/mms/189285942",
+        "http://id.who.int/icd/release/11/2024-01/mms/795057595",
+        "http://id.who.int/icd/release/11/2024-01/mms/1298895686",
+        "http://id.who.int/icd/release/11/2024-01/mms/1552748079"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1916712542/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/299901355"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Pulmonary cryptococcosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "The pattern of cryptococcal pulmonary disease ranges from asymptomatic airway colonization to pneumonia to acute respiratory distress syndrome. If present, symptoms include cough, dyspnoea or chest pain. Common chest X-ray appearances include nodules or infiltrates. In the immunocompetent host, focal lesions are more commonly seen with infection due to C. gattii."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/528118622"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pulmonary cryptococcosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cryptococcal pneumonitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cryptococcal pneumonia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cryptococcal lung disease"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "lung Cryptococcus neoformans"
+      }
+    }
+  ]
+}

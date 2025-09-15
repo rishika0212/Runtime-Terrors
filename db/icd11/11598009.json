@@ -1,0 +1,259 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/11598009",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1323892810"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#11598009",
+  "code": "PL13.0",
+  "source": "http://id.who.int/icd/entity/11598009",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/11598009/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1435254666",
+        "http://id.who.int/icd/release/11/2024-01/mms/1766440644",
+        "http://id.who.int/icd/release/11/2024-01/mms/1954798891",
+        "http://id.who.int/icd/release/11/2024-01/mms/21500692",
+        "http://id.who.int/icd/release/11/2024-01/mms/334423054",
+        "http://id.who.int/icd/release/11/2024-01/mms/274880002",
+        "http://id.who.int/icd/release/11/2024-01/mms/1296093776",
+        "http://id.who.int/icd/release/11/2024-01/mms/868865918",
+        "http://id.who.int/icd/release/11/2024-01/mms/1218729044",
+        "http://id.who.int/icd/release/11/2024-01/mms/426429380",
+        "http://id.who.int/icd/release/11/2024-01/mms/197934298",
+        "http://id.who.int/icd/release/11/2024-01/mms/1256772020",
+        "http://id.who.int/icd/release/11/2024-01/mms/1639304259",
+        "http://id.who.int/icd/release/11/2024-01/mms/1473673350",
+        "http://id.who.int/icd/release/11/2024-01/mms/30659757",
+        "http://id.who.int/icd/release/11/2024-01/mms/714000734",
+        "http://id.who.int/icd/release/11/2024-01/mms/1306203631",
+        "http://id.who.int/icd/release/11/2024-01/mms/1843895818",
+        "http://id.who.int/icd/release/11/2024-01/mms/435227771",
+        "http://id.who.int/icd/release/11/2024-01/mms/1583926619"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Overdose of substance, as mode of injury or harm"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Incorrect dose - too high"
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Incorrect dose (too high) administered by healthcare system, self or delivery unspecified. Includes excess drug arising from these mechanisms: incorrect timing, incorrect rate, Incorrect duration of administration or course of therapy, Incorrect strength or concentration, Incorrect preparation, including inappropriate cutting of tablets, error in compounding, mixing, etc."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "overdose of prescribed drug"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "medication error leading to excess level or effect of prescribed drug"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Overdose of substance without injury or harm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/514851173",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/514851173"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unintentional exposure to or harmful effects of drugs, medicaments or biological substances"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1450176443",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1450176443"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Intentional self-harm by exposure to or harmful effects of drugs, medicaments or biological substances"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1098540500",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1098540500"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of drugs, medicaments or biological substances"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1008592825",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1008592825"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Exposure to or harmful effects of undetermined intent of drugs, medicaments or biological substances"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1676151582",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1676151582"
+    }
+  ],
+  "codingNote": {
+    "@language": "en",
+    "@value": "Code first the injury or harm associated with the drug, medicament or substance. Code also the cause of harm which identifies the substance."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Overdose of substance, as mode of injury or harm"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "wrong dose of substance as mode of injury"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "wrong strength of substance as mode of injury"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "dose of substance administered or taken too early or too quickly as a mode of injury"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "extra dose of substance administered as mode of injury"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "excess dosage of substance administered as mode of injury"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "overdose of substance arising from frequent administration leading to excess level or effect of medication or substance"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "overdose of substance arising from error in mixing as mode of injury"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "overdose of substance arising from error in compounding as mode of injury"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "overdose of substance arising from including inappropriate cutting of tablets as mode of injury"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "overdose of substance arising from incorrect preparation as mode of injury"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "overdose of substance arising from incorrect rate as mode of injury"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "overdose of substance arising from incorrect duration of administration or course of therapy as mode of injury"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "overdose of substance arising from incorrect strength or concentration as mode of injury"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "overdose of substance arising from incorrect timing as mode of injury"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "overdose of prescribed drug"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "overdose of drug administered by health care provider"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "wrong dose of drug leading to excess level or effect of medication or substance"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "incorrect strength leading to excess level or effect of medication of substance as mode of injury"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "incorrect dose leading to excess level or effect of medication or substance as mode of injury"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "wrong strength leading to excess level or effect of medication of substance as mode of injury"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "adverse drug event leading to excess level or effect"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "medication error leading to excess level or effect of prescribed drug"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "prescription drug overdose"
+      }
+    }
+  ]
+}

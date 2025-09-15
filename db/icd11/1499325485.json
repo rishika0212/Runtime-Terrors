@@ -1,0 +1,85 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1499325485",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/862789727"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1499325485",
+  "code": "1F42.0",
+  "source": "http://id.who.int/icd/entity/1499325485",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1499325485/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1783829886",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184209951",
+        "http://id.who.int/icd/release/11/2024-01/mms/1467154806",
+        "http://id.who.int/icd/release/11/2024-01/mms/658360080/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/658360080/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Plasmodium malariae malaria with nephropathy"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Quartan malarial nephropathy is a rare complication of malariae (quartan) malaria, especially occurring in children; it is a glomerulonephritis, usually fatal."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/684978486"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1945127438"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Plasmodium malariae malaria with nephropathy"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "nephrotic syndrome of quartan malaria"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "malaria nephrosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "malarial nephrosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "nephrotic syndrome in malaria"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "quartan nephrosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Glomerular disorders in plasmodium malariae malaria"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/53251185"
+    }
+  ]
+}

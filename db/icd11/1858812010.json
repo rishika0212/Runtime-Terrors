@@ -1,0 +1,92 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1858812010",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1508081745"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1044381913",
+    "http://id.who.int/icd/release/11/2024-01/mms/1858812010/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1858812010/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1858812010",
+  "code": "1C62.3",
+  "source": "http://id.who.int/icd/entity/1858812010",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dementia due to human immunodeficiency virus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1173624218",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1173624218"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "HIV retinitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/997733385",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/997733385"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Oesophagitis associated with human immunodeficiency virus disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1089484939",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1540965840/other"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "HIV or AIDS vacuolar myelopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/935491102",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/565740065/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1858812010/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/956664712",
+        "http://id.who.int/icd/release/11/2024-01/mms/1581976053"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1858812010/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1837013982",
+        "http://id.who.int/icd/release/11/2024-01/mms/137713224",
+        "http://id.who.int/icd/release/11/2024-01/mms/1839818377",
+        "http://id.who.int/icd/release/11/2024-01/mms/1017662917",
+        "http://id.who.int/icd/release/11/2024-01/mms/248851702",
+        "http://id.who.int/icd/release/11/2024-01/mms/1229869827",
+        "http://id.who.int/icd/release/11/2024-01/mms/30418378",
+        "http://id.who.int/icd/release/11/2024-01/mms/738999268",
+        "http://id.who.int/icd/release/11/2024-01/mms/944754984",
+        "http://id.who.int/icd/release/11/2024-01/mms/2131977134",
+        "http://id.who.int/icd/release/11/2024-01/mms/1173624218",
+        "http://id.who.int/icd/release/11/2024-01/mms/902939755",
+        "http://id.who.int/icd/release/11/2024-01/mms/1323682030",
+        "http://id.who.int/icd/release/11/2024-01/mms/1229452918",
+        "http://id.who.int/icd/release/11/2024-01/mms/132072037"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "HIV disease clinical stage 4 without mention of tuberculosis or malaria"
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/453730080"
+  ]
+}

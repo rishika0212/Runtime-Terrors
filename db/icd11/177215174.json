@@ -1,0 +1,72 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/177215174",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/894625870"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#177215174",
+  "code": "LB77",
+  "source": "http://id.who.int/icd/entity/177215174",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/177215174/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/177215174/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/15105170",
+        "http://id.who.int/icd/release/11/2024-01/mms/806667718",
+        "http://id.who.int/icd/release/11/2024-01/mms/1823823558",
+        "http://id.who.int/icd/release/11/2024-01/mms/1621005983",
+        "http://id.who.int/icd/release/11/2024-01/mms/1003902257",
+        "http://id.who.int/icd/release/11/2024-01/mms/754856433",
+        "http://id.who.int/icd/release/11/2024-01/mms/361143473",
+        "http://id.who.int/icd/release/11/2024-01/mms/45021297",
+        "http://id.who.int/icd/release/11/2024-01/mms/769712024"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Hyperphalangy"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Hyperphalangy is a congenital, non-syndromic limb malformation characterized by the presence of an accessory phalanx between metacarpal/metatarsal and proximal phalanx, or between any two other phalanges of a digit, excluding the thumb. Hypherphalangy is almost always bilateral and patients present no more than five digits and no other skeletal anomalies."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hyperphalangy"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hyperphalangy, unilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1023621052"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hyperphalangy, bilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/528541151"
+    }
+  ]
+}

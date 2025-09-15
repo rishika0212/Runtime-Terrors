@@ -1,0 +1,110 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1058351226",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/980864631"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2077068570",
+    "http://id.who.int/icd/release/11/2024-01/mms/787633484",
+    "http://id.who.int/icd/release/11/2024-01/mms/1058326567",
+    "http://id.who.int/icd/release/11/2024-01/mms/1516176819",
+    "http://id.who.int/icd/release/11/2024-01/mms/699504167",
+    "http://id.who.int/icd/release/11/2024-01/mms/1562167000",
+    "http://id.who.int/icd/release/11/2024-01/mms/678499211",
+    "http://id.who.int/icd/release/11/2024-01/mms/1366805733",
+    "http://id.who.int/icd/release/11/2024-01/mms/966233826",
+    "http://id.who.int/icd/release/11/2024-01/mms/485862779",
+    "http://id.who.int/icd/release/11/2024-01/mms/219361296",
+    "http://id.who.int/icd/release/11/2024-01/mms/1058351226/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1058351226",
+  "code": "9A78",
+  "source": "http://id.who.int/icd/entity/1058351226",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury of conjunctiva or corneal abrasion without mention of foreign body"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1551946073",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1551946073"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ocular laceration or rupture with prolapse or loss of intraocular tissue, unilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1298549812",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1298549812"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ocular laceration without prolapse or loss of intraocular tissue, unilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/674070950",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/674070950"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ocular laceration or rupture with prolapse or loss of intraocular tissue, bilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1416481198",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1416481198"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ocular laceration without prolapse or loss of intraocular tissue, bilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1151815704",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1151815704"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Foreign body in cornea"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1421032401",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1421032401"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chemical burn of cornea or conjunctival sac"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1941938366",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2071994109"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1058351226/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1058351226/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/985771522"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Certain specified disorders of cornea"
+  }
+}

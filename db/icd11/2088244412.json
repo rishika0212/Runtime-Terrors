@@ -1,0 +1,56 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2088244412",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/953010840"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/856359002",
+    "http://id.who.int/icd/release/11/2024-01/mms/2106577896",
+    "http://id.who.int/icd/release/11/2024-01/mms/1818840717",
+    "http://id.who.int/icd/release/11/2024-01/mms/2088244412/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/2088244412/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2088244412",
+  "code": "LA90.4",
+  "source": "http://id.who.int/icd/entity/2088244412",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hereditary cerebrovascular diseases"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/133909731",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/133909731"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2088244412/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1933239759"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2088244412/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1331849426"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Peripheral arterial malformations"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is a peripheral lesion with a direct connection between an artery and a vein, without an intervening capillary bed, but with an interposed nidus of dysplastic vascular channels in between."
+  }
+}

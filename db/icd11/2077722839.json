@@ -1,0 +1,63 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2077722839",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2073711696"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2077722839",
+  "code": "8A60.8",
+  "source": "http://id.who.int/icd/entity/2077722839",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2077722839/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/539646260"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2077722839/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/587326822",
+        "http://id.who.int/icd/release/11/2024-01/mms/609223181",
+        "http://id.who.int/icd/release/11/2024-01/mms/1008515027",
+        "http://id.who.int/icd/release/11/2024-01/mms/2115467890",
+        "http://id.who.int/icd/release/11/2024-01/mms/642618805",
+        "http://id.who.int/icd/release/11/2024-01/mms/966435382",
+        "http://id.who.int/icd/release/11/2024-01/mms/1860070272",
+        "http://id.who.int/icd/release/11/2024-01/mms/603645706",
+        "http://id.who.int/icd/release/11/2024-01/mms/183978472",
+        "http://id.who.int/icd/release/11/2024-01/mms/1954798891/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/1954798891/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Epilepsy due to immune disorders"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Epilepsy in relation to immunological or autoimmune disorders, such as systemic lupus erythematosus [1], inflammatory bowel disease [2], and antibody associated encephalitis (e.g. NMDA receptors) [3]. Antibody associated encephalitis is often a limbic encephalitis, and is sometimes paraneoplastic. Excludes multiple sclerosis and other demyelinating disorders."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/564191997"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/2083324835"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Epilepsy due to immune disorders"
+      }
+    }
+  ]
+}

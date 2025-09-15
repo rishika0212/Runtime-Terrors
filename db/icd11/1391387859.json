@@ -1,0 +1,54 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1391387859",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1594312948"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/348407164",
+    "http://id.who.int/icd/release/11/2024-01/mms/417695496",
+    "http://id.who.int/icd/release/11/2024-01/mms/1391387859/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1391387859",
+  "code": "DA22",
+  "source": "http://id.who.int/icd/entity/1391387859",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gastro-oesophageal reflux disease in newborn"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/79025938",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/79025938"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1391387859/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/873018279",
+        "http://id.who.int/icd/release/11/2024-01/mms/1522101892",
+        "http://id.who.int/icd/release/11/2024-01/mms/1084515160",
+        "http://id.who.int/icd/release/11/2024-01/mms/453532731",
+        "http://id.who.int/icd/release/11/2024-01/mms/2044414353",
+        "http://id.who.int/icd/release/11/2024-01/mms/1112214727",
+        "http://id.who.int/icd/release/11/2024-01/mms/1290701352"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Gastro-oesophageal reflux disease"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition which develops when the reflux of stomach contents causes troublesome symptoms and/or complications"
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/79025938"
+  ]
+}

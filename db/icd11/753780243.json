@@ -1,0 +1,212 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/753780243",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/145723401"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#753780243",
+  "code": "1E30",
+  "source": "http://id.who.int/icd/entity/753780243",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/753780243/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1892948726",
+        "http://id.who.int/icd/release/11/2024-01/mms/37117747",
+        "http://id.who.int/icd/release/11/2024-01/mms/675449443"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/753780243/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/956664712",
+        "http://id.who.int/icd/release/11/2024-01/mms/293771399",
+        "http://id.who.int/icd/release/11/2024-01/mms/1328350091",
+        "http://id.who.int/icd/release/11/2024-01/mms/1079654421",
+        "http://id.who.int/icd/release/11/2024-01/mms/1079654421/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/654702340",
+        "http://id.who.int/icd/release/11/2024-01/mms/1971756453",
+        "http://id.who.int/icd/release/11/2024-01/mms/1889351414",
+        "http://id.who.int/icd/release/11/2024-01/mms/142052508",
+        "http://id.who.int/icd/release/11/2024-01/mms/727572936",
+        "http://id.who.int/icd/release/11/2024-01/mms/82568660"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Influenza due to identified seasonal influenza virus"
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Influenza due to infection with seasonal influenza virus strains, virus identified. \nThese diseases are characterized by fever, cough, headache, myalgia, arthralgia, or malaise. Transmission is by inhalation of infected respiratory secretions. Confirmation is by identification of the specified influenza virus in a nasopharyngeal, nose, or throat swab."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Haemophilus influenzae [H. influenzae] meningitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1005770900",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1005770900"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Haemophilus influenzae [H. influenzae] pneumonia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/732824952",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/732824952"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/911707612"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Influenza due to identified seasonal influenza virus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "seasonal influenza, virus identified"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Influenza with pneumonia, seasonal influenza virus identified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1820640764"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "influenza with pneumonia, influenza virus identified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1820640764"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Influenzal bronchopneumonia, other influenza virus identified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1820640764"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Influenza with other respiratory manifestations, seasonal influenza virus identified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/164563054"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "influenza virus identified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/164563054"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Influenza other influenza virus identified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/164563054"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Influenzal acute upper respiratory infection other influenza virus identified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/100621829"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Influenzal laryngitis other influenza virus identified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1538569960"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Influenzal pharyngitis other influenza virus identified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/985237347"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Influenzal pleural effusion other influenza virus identified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1164401900"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Influenza with other manifestations, seasonal influenza virus identified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1644380974"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Encephalitis in influenza with other manifestations, other influenza virus identified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/406270192"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Encephalopathy due to influenza certain influenza virus identified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/406270192"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Influenzal myocarditis, other influenza virus identified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2005009412"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Influenzal acute myocarditis, other influenza virus identified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2005009412"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute Influenzal myocarditis certain influenza virus identified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2005009412"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Influenzal gastroenteritis certain influenza virus identified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1437451610"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Otitis media in influenza with seasonal virus identified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/182198409"
+    }
+  ]
+}

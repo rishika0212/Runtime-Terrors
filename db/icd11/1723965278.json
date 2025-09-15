@@ -1,0 +1,63 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1723965278",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1839818377"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1974989140",
+    "http://id.who.int/icd/release/11/2024-01/mms/1723965278/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1723965278/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1723965278",
+  "code": "1B21.2",
+  "source": "http://id.who.int/icd/entity/1723965278",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1723965278/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1811629557",
+        "http://id.who.int/icd/release/11/2024-01/mms/1419042429",
+        "http://id.who.int/icd/release/11/2024-01/mms/1520758575",
+        "http://id.who.int/icd/release/11/2024-01/mms/24942658",
+        "http://id.who.int/icd/release/11/2024-01/mms/246291168",
+        "http://id.who.int/icd/release/11/2024-01/mms/1956714047",
+        "http://id.who.int/icd/release/11/2024-01/mms/1271827895",
+        "http://id.who.int/icd/release/11/2024-01/mms/1871342005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1526993921",
+        "http://id.who.int/icd/release/11/2024-01/mms/2069550669",
+        "http://id.who.int/icd/release/11/2024-01/mms/390674113",
+        "http://id.who.int/icd/release/11/2024-01/mms/1924561533"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Cutaneous non-tuberculous mycobacterial infection"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Leprosy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/149072669",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/149072669"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2072728114",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2072728114"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/911707612"
+  ]
+}

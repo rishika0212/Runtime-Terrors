@@ -1,0 +1,104 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2019158769",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1314810340"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2019158769",
+  "code": "1F20.01",
+  "source": "http://id.who.int/icd/entity/2019158769",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2019158769/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/873092535"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2019158769/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/828922344"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Invasive cerebral aspergillosis"
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aspergillus meningitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/934599414"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cerebral abscess due to Aspergillus species"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/427661724"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mycotic cerebral aneurysm due to Aspergillus species"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/119570704"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Haemorrhagic cerebral infarction due to Aspergillus species"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/517923649"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1791817517"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Invasive cerebral aspergillosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aspergillus meningitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/934599414"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cerebral abscess due to Aspergillus species"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/427661724"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mycotic cerebral aneurysm due to Aspergillus species"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/119570704"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Haemorrhagic cerebral infarction due to Aspergillus species"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/517923649"
+    }
+  ]
+}

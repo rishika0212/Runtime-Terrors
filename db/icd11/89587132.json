@@ -1,0 +1,97 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/89587132",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1024154490"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#89587132",
+  "code": "CA40.13",
+  "source": "http://id.who.int/icd/entity/89587132",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/89587132/postcoordinationScale/causality",
+      "axisName": "http://id.who.int/icd/schema/causality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/894194405",
+        "http://id.who.int/icd/release/11/2024-01/mms/1674014893",
+        "http://id.who.int/icd/release/11/2024-01/mms/655959100",
+        "http://id.who.int/icd/release/11/2024-01/mms/56475710",
+        "http://id.who.int/icd/release/11/2024-01/mms/339929010"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/89587132/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/89587132/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1983574845",
+        "http://id.who.int/icd/release/11/2024-01/mms/922044675",
+        "http://id.who.int/icd/release/11/2024-01/mms/1013784154"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/89587132/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2024199586",
+        "http://id.who.int/icd/release/11/2024-01/mms/1765820617",
+        "http://id.who.int/icd/release/11/2024-01/mms/189285942",
+        "http://id.who.int/icd/release/11/2024-01/mms/795057595",
+        "http://id.who.int/icd/release/11/2024-01/mms/1298895686",
+        "http://id.who.int/icd/release/11/2024-01/mms/1552748079"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Pneumonia due to Human metapneumovirus"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease of the pulmonary system, caused by an infection with Human metapneumovirus. This disease is characterised by fever, myalgia, rhinorrhoea, dyspnoea, tachypnoea, or wheezing. This disease also presents with symptoms of pneumonia. Transmission is by direct or indirect contact, inhalation of infected respiratory sections, or through fomites. Confirmation is by identification of Human metapneumovirus in a nasopharyngeal, nose, or throat swab or blood sample."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/923122941"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/594985340"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pneumonia due to Human metapneumovirus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Human metapneumovirus pneumonia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Human metapneumovirus infection resulting in pneumonia"
+      }
+    }
+  ]
+}

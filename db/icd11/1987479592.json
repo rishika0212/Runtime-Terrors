@@ -1,0 +1,85 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1987479592",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/63858592"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1987479592",
+  "code": "8B90",
+  "source": "http://id.who.int/icd/entity/1987479592",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1987479592/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/228268642",
+        "http://id.who.int/icd/release/11/2024-01/mms/512294470"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1987479592/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/425464783"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1987479592/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1630407678",
+        "http://id.who.int/icd/release/11/2024-01/mms/1989556002"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Nerve root and plexus compressions"
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/564191997"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nerve root and plexus compressions"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nerve root or plexus compressions in spondylosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1549857781"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nerve root or plexus compressions in neoplastic disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1300655776"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nerve root or plexus compressions in intervertebral disc disorders"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/684565258"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nerve root or plexus compressions in other disorders of the spine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/959135329"
+    }
+  ]
+}

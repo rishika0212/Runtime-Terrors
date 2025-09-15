@@ -1,0 +1,63 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/942630604",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2043496606"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#942630604",
+  "code": "1F20.10",
+  "source": "http://id.who.int/icd/entity/942630604",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/942630604/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Aspergillus otomycosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Chronic superficial fungal infection of the external auditory canal and auricle due to saprophytic fungi of the genus Aspergillus."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1791817517"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aspergillus otomycosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aspergillosis of external ear"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "otitis externa in aspergillosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic suppurative aspergillus otitis media"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/513033983"
+    }
+  ]
+}

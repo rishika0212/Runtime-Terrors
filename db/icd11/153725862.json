@@ -1,0 +1,76 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/153725862",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2115139779"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#153725862",
+  "code": "BB60.0",
+  "source": "http://id.who.int/icd/entity/153725862",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/153725862/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2136808878",
+        "http://id.who.int/icd/release/11/2024-01/mms/437702716",
+        "http://id.who.int/icd/release/11/2024-01/mms/1754821737",
+        "http://id.who.int/icd/release/11/2024-01/mms/1594578199",
+        "http://id.who.int/icd/release/11/2024-01/mms/1992125824",
+        "http://id.who.int/icd/release/11/2024-01/mms/1458683894/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/1458683894/unspecified"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/153725862/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/562478860",
+        "http://id.who.int/icd/release/11/2024-01/mms/1663264387",
+        "http://id.who.int/icd/release/11/2024-01/mms/1201187093"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Rheumatic mitral valve stenosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Mitral stenosis refers to narrowing of the mitral valve orifice, resulting in impedance of filling of the left ventricle in diastole. It is usually caused by rheumatic heart disease."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1380872553"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Rheumatic mitral valve stenosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "rheumatic mitral valve obstruction"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "rheumatic mitral obstruction"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "inactive mitral stenosis"
+      }
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/598493320",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2024168133"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1493396558",
+    "http://id.who.int/icd/release/11/2024-01/mms/598493320/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/598493320/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#598493320",
+  "code": "8A00.1",
+  "source": "http://id.who.int/icd/entity/598493320",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Multiple system atrophy, Parkinsonism"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/296753000",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/296753000"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Lewy body disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2091156678",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2091156678"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/598493320/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1494928041",
+        "http://id.who.int/icd/release/11/2024-01/mms/2019368323"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Atypical parkinsonism"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Atypical parkinsonism is a term used to describe several neurodegenerative conditions where the degeneration extends beyond the substantia nigra and is more extensive than seen in conditions like Parkinson disease. The clinical picture is often more complex than PD and patients may have apraxia, supranuclear ophthalmoplegia or autonomic failure."
+  }
+}

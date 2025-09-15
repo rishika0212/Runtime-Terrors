@@ -1,0 +1,111 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/498053587",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1059873720"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#498053587",
+  "code": "BA82",
+  "source": "http://id.who.int/icd/entity/498053587",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/498053587/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1642334362",
+        "http://id.who.int/icd/release/11/2024-01/mms/787267597"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/498053587/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/718946808",
+        "http://id.who.int/icd/release/11/2024-01/mms/1334938734",
+        "http://id.who.int/icd/release/11/2024-01/mms/993844371",
+        "http://id.who.int/icd/release/11/2024-01/mms/904209735",
+        "http://id.who.int/icd/release/11/2024-01/mms/1829545371/unspecified"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/498053587/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Coronary artery dissection"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Coronary artery dissection results from a tear in the inner layer of the coronary artery, the tunica intima. This allows blood to penetrate and cause an intramural hematoma in the central layer, the tunica media, and restriction in the size of lumen."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "spontaneous coronary artery dissection"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury or harm arising from a procedure, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1952274258",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1952274258"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury of blood vessels of thorax"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/877936450",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/877936450"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1380872553"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Coronary artery dissection"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "spontaneous coronary artery dissection"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute coronary artery dissection"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/589559318"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic coronary artery dissection"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/486415207"
+    }
+  ]
+}

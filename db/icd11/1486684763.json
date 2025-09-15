@@ -1,0 +1,119 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1486684763",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1092991948"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1486684763",
+  "code": "GC02.1",
+  "source": "http://id.who.int/icd/entity/1486684763",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1486684763/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1290701352"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1486684763/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/588616678",
+        "http://id.who.int/icd/release/11/2024-01/mms/1904876434",
+        "http://id.who.int/icd/release/11/2024-01/mms/979278646",
+        "http://id.who.int/icd/release/11/2024-01/mms/1539889147",
+        "http://id.who.int/icd/release/11/2024-01/mms/1412960686",
+        "http://id.who.int/icd/release/11/2024-01/mms/1935092859",
+        "http://id.who.int/icd/release/11/2024-01/mms/487269828",
+        "http://id.who.int/icd/release/11/2024-01/mms/1000704511",
+        "http://id.who.int/icd/release/11/2024-01/mms/1104303944",
+        "http://id.who.int/icd/release/11/2024-01/mms/1585949804",
+        "http://id.who.int/icd/release/11/2024-01/mms/1959883044",
+        "http://id.who.int/icd/release/11/2024-01/mms/921595235",
+        "http://id.who.int/icd/release/11/2024-01/mms/1251496839",
+        "http://id.who.int/icd/release/11/2024-01/mms/1136802325",
+        "http://id.who.int/icd/release/11/2024-01/mms/145723401",
+        "http://id.who.int/icd/release/11/2024-01/mms/985510409",
+        "http://id.who.int/icd/release/11/2024-01/mms/1646490591",
+        "http://id.who.int/icd/release/11/2024-01/mms/1939815950",
+        "http://id.who.int/icd/release/11/2024-01/mms/255141529",
+        "http://id.who.int/icd/release/11/2024-01/mms/293771399",
+        "http://id.who.int/icd/release/11/2024-01/mms/1760597414",
+        "http://id.who.int/icd/release/11/2024-01/mms/458687859",
+        "http://id.who.int/icd/release/11/2024-01/mms/1435254666/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Nonspecific urethritis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Urethral inflammation for which a specific sexually transmitted infective cause, in particular gonococcal or chlamydial infection, has not been identified. It typically presents in males with dysuria, urethral discharge, itching or urinary urgency. It can occur following urinary tract infection or genital trauma. Historically, before chlamydia infection could be easily identified, chlamydial urethritis was labeled \"non-specific\"."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chlamydial infection of lower genitourinary tract"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/806511043",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/806511043"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chlamydial urethritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1004668578",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/806511043"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gonococcal genitourinary infection"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1977691885",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1977691885"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1667851791"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nonspecific urethritis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Secondary urethritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1011970033"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Urethritis in diseases classified elsewhere"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1011970033"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nonvenereal urethritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/999738961"
+    }
+  ]
+}

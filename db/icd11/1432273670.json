@@ -1,0 +1,68 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1432273670",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1167594753"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/340159393",
+    "http://id.who.int/icd/release/11/2024-01/mms/1896719925",
+    "http://id.who.int/icd/release/11/2024-01/mms/94435020",
+    "http://id.who.int/icd/release/11/2024-01/mms/1626028894",
+    "http://id.who.int/icd/release/11/2024-01/mms/1984849248",
+    "http://id.who.int/icd/release/11/2024-01/mms/48444833",
+    "http://id.who.int/icd/release/11/2024-01/mms/1739126837",
+    "http://id.who.int/icd/release/11/2024-01/mms/1324121276",
+    "http://id.who.int/icd/release/11/2024-01/mms/1348252797",
+    "http://id.who.int/icd/release/11/2024-01/mms/1432273670/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1432273670/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1432273670",
+  "code": "DA04",
+  "source": "http://id.who.int/icd/entity/1432273670",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aplasia of lacrimal or salivary glands"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/539255304",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/539255304"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Uveoparotid fever"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2079034902",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/330792642/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1432273670/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1515005003"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Diseases of salivary glands"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A group of diseases with any pathological condition that affects the structural tissues of the salivary glands or the salivary ducts which may or not interfere with the normal production and transport of saliva into the oral cavity."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Any pathological process which affects the structure of salivary glands. Salivary duct calculus may cause blockage of the ducts, causing pain and swelling of the gland because of cysts. Many anti-cancer treatments may impair salivary flow. Radiation therapy may cause permanent xerostomia, whereas chemotherapy may cause only temporary salivary impairment. Graft versus host disease after allogeneic bone marrow transplantation may manifest as dry mouth and many small mucoceles. Tumors of the salivary glands may occur."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ]
+}

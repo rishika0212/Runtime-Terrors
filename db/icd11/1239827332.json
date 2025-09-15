@@ -1,0 +1,100 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1239827332",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1736296640"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1239827332",
+  "code": "LB79.3",
+  "source": "http://id.who.int/icd/entity/1239827332",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1239827332/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1239827332/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1003902257",
+        "http://id.who.int/icd/release/11/2024-01/mms/754856433",
+        "http://id.who.int/icd/release/11/2024-01/mms/361143473",
+        "http://id.who.int/icd/release/11/2024-01/mms/45021297",
+        "http://id.who.int/icd/release/11/2024-01/mms/769712024"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Webbed toes"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition caused by failure of the longitudinal interdigital necrosis that normally separates the toes during the antenatal period. This condition is characterised by the presence of two or more toes that are fused together."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Simple syndactyly of toes without synostosis"
+      }
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Webbed toes"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "membranous connection of toes"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "webbing of toes"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Simple syndactyly of toes without synostosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "syndactyly of toes without fusion of bone"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Webbed toes, unilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/193549703"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Webbed toes, bilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/877967604"
+    }
+  ]
+}

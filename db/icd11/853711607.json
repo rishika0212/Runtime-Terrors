@@ -1,0 +1,52 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/853711607",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1765280656"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#853711607",
+  "code": "QE50.7",
+  "source": "http://id.who.int/icd/entity/853711607",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/853711607/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/953246526",
+        "http://id.who.int/icd/release/11/2024-01/mms/919081088",
+        "http://id.who.int/icd/release/11/2024-01/mms/1913158855",
+        "http://id.who.int/icd/release/11/2024-01/mms/387934990",
+        "http://id.who.int/icd/release/11/2024-01/mms/848330288"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Personality difficulty"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Personality difficulty refers to pronounced personality characteristics that may affect treatment or health services but do not rise to the level of severity to merit a diagnosis of Personality disorder. Personality difficulty is characterised by long-standing difficulties (e.g., at least 2 years), in the individual’s way of experiencing and thinking about the self, others and the world. In contrast to Personality disorders, these difficulties are manifested in cognitive and emotional experience and expression only intermittently (e.g., during times of stress) or at low intensity. The difficulties are associated with some problems in functioning but these are insufficiently severe to cause notable disruption in social, occupational, and interpersonal relationships and may be limited to specific relationships or situations."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Personality disorder"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/941859884",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/941859884"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Personality difficulty"
+      }
+    }
+  ]
+}

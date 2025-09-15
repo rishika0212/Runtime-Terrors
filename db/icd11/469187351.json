@@ -1,0 +1,130 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/469187351",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/471986432"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#469187351",
+  "code": "FA13",
+  "source": "http://id.who.int/icd/entity/469187351",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/469187351/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/405704375",
+        "http://id.who.int/icd/release/11/2024-01/mms/183759612",
+        "http://id.who.int/icd/release/11/2024-01/mms/1948870691",
+        "http://id.who.int/icd/release/11/2024-01/mms/1448239612",
+        "http://id.who.int/icd/release/11/2024-01/mms/1377385364",
+        "http://id.who.int/icd/release/11/2024-01/mms/246982804",
+        "http://id.who.int/icd/release/11/2024-01/mms/2029439036",
+        "http://id.who.int/icd/release/11/2024-01/mms/428919892"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/469187351/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/469187351/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/985186256",
+        "http://id.who.int/icd/release/11/2024-01/mms/390684604",
+        "http://id.who.int/icd/release/11/2024-01/mms/1569734721",
+        "http://id.who.int/icd/release/11/2024-01/mms/1170330671",
+        "http://id.who.int/icd/release/11/2024-01/mms/1027961521"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Infectious spondyloarthritis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition of the spine, caused by an infection with a bacterial, viral, fungal, or parasitic source. This condition is characterised by inflammation of the vertebrae."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Inflammatory spondyloarthritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1848981072",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1848981072"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infectious spondyloarthritis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bacterial spondyloarthritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/680286863"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spondylitis in brucellosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/9118428"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Brucella spondylitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/9118428"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mycobacterial spondyloarthritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/403395455"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Viral spondyloarthritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1794400258"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fungal spondyloarthritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/635383150"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Parasitic spondyloarthritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/358098078"
+    }
+  ]
+}

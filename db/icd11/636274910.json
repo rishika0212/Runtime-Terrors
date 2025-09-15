@@ -1,0 +1,88 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/636274910",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1427441570"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1070137396",
+    "http://id.who.int/icd/release/11/2024-01/mms/1371457",
+    "http://id.who.int/icd/release/11/2024-01/mms/158815303",
+    "http://id.who.int/icd/release/11/2024-01/mms/1595033000",
+    "http://id.who.int/icd/release/11/2024-01/mms/1444066580",
+    "http://id.who.int/icd/release/11/2024-01/mms/1614716959"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#636274910",
+  "code": "8B11",
+  "source": "http://id.who.int/icd/entity/636274910",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/636274910/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/636274910/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1173205716",
+        "http://id.who.int/icd/release/11/2024-01/mms/1882771459"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Cerebral ischaemic stroke"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Acute focal neurological dysfunction caused by focal infarction at single or multiple sites of the brain. Evidence of acute infarction may come either from a) symptom duration lasting more than 24 hours, or b) neuroimaging or other technique in the clinically relevant area of the brain. The term does not include infarction of the retina."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "“Precerebral” have been changed to “extracranial” as the latter term is the one generally used in the literature. Arteries to the brain are divided into intracranial and extracranial. The carotid siphon is included in the “intracranial” part of the carotid artery as the major part of the carotid siphon is located distal to the dural passage of the artery."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "sequelae of cerebral infarction"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1390101119",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1390101119"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Silent cerebral infarct"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1261473506",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1261473506"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1526436336"
+  ],
+  "codingNote": {
+    "@language": "en",
+    "@value": "When the cause of ischaemic stroke is known, code to the cause. When the cause of ischaemic stroke is not known, code to 8B11.5-. When the cause of stroke is not known, code to 8B20 Stroke not known if ischaemic or haemorrhagic."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cerebral ischaemic stroke"
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/229121159",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1042184245"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2044260215",
+    "http://id.who.int/icd/release/11/2024-01/mms/479404771",
+    "http://id.who.int/icd/release/11/2024-01/mms/1748922908",
+    "http://id.who.int/icd/release/11/2024-01/mms/229121159/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#229121159",
+  "code": "JA24",
+  "source": "http://id.who.int/icd/entity/229121159",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/229121159/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1902649856",
+        "http://id.who.int/icd/release/11/2024-01/mms/337899414",
+        "http://id.who.int/icd/release/11/2024-01/mms/1619967851",
+        "http://id.who.int/icd/release/11/2024-01/mms/96826111",
+        "http://id.who.int/icd/release/11/2024-01/mms/1982587243",
+        "http://id.who.int/icd/release/11/2024-01/mms/973282267/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Pre-eclampsia"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This condition is characterised by systolic blood pressure greater than 140 mmHg and/or diastolic greater or equal to 90 mmHg on two occasions 4 hours or more apart in the presence of either proteinuria or other new onset maternal organ dysfunction characterised by one thrombocytopenia, elevated serum creatinine or liver transaminases, or neurological conditions or fetal growth restriction."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pre-eclampsia superimposed on chronic hypertension"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1872761464",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1872761464"
+    }
+  ]
+}

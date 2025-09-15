@@ -1,0 +1,49 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/114886962",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/487269828"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/197163558",
+    "http://id.who.int/icd/release/11/2024-01/mms/788554020",
+    "http://id.who.int/icd/release/11/2024-01/mms/114886962/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/114886962/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#114886962",
+  "code": "1C45",
+  "source": "http://id.who.int/icd/entity/114886962",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/114886962/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Toxic shock syndrome"
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "A rare acute life-threatening systemic bacterial noncontagious illness caused by any of several related staphylococcal exotoxins (staphylococcal toxic shock syndrome) or by streptococcal toxins (streptococcal toxic shock syndrome). Toxic shock syndrome is characterised by high fever, hypotension, rash, multi-organ dysfunction, and cutaneous desquamation during the early convalescent period. The toxins affect the host immune system, causing an exuberant and pathological host inflammatory response."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "endotoxic shock NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1683090852",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1683090852"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1935107489"
+  ]
+}

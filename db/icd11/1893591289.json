@@ -1,0 +1,75 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1893591289",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2064197173"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1893591289",
+  "code": "5B5K.6",
+  "source": "http://id.who.int/icd/entity/1893591289",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Copper deficiency anaemia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1207626305",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1207626305"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1893591289/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1366882206",
+        "http://id.who.int/icd/release/11/2024-01/mms/439233336",
+        "http://id.who.int/icd/release/11/2024-01/mms/1893591289"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Copper deficiency"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Dietary deficiency is rare; it has been observed in premature and low birthweight infants fed exclusively a cow’s milk diet and in individuals on long-term total parenteral nutrition without copper. Clinical manifestations include depigmentation of skin and hair, neurologic disturbances, leukopenia, hypochromic microcytic anaemia, and skeletal abnormalities."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1867773640"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/517413026"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Copper deficiency"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic copper deficiency"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hypocupremia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myelopathy due to copper deficiency"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1755529993"
+    }
+  ]
+}

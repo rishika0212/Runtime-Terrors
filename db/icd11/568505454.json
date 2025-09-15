@@ -1,0 +1,48 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/568505454",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1411910384"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1456058300",
+    "http://id.who.int/icd/release/11/2024-01/mms/311270680",
+    "http://id.who.int/icd/release/11/2024-01/mms/568505454/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#568505454",
+  "code": "9C40.B",
+  "source": "http://id.who.int/icd/entity/568505454",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Leber hereditary optic neuropathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1018428959",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/601991549/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/568505454/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Optic atrophy"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Optic atrophies (OA) refer to a specific group of hereditary optic neuropathies in which the cause of the optic nerve dysfunction is inherited either in an autosomal dominant or autosomal recessive pattern. Autosomal dominant optic atrophy (ADOA), type Kjer, is the most common OA, whereas autosomal recessive optic atrophy (AROA) is a rare form."
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1070420822",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/892860325"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1070420822",
+  "code": "9B66.0",
+  "source": "http://id.who.int/icd/entity/1070420822",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1070420822/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Noninfectious intermediate choroiditis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is a non-infectious form of uveitis localised to the vitreous and peripheral retina. Primary sites of inflammation include the vitreous of which other such entities as pars planitis, posterior cyclitis, and hyalitis are encompassed. Intermediate uveitis may either be an isolated eye disease or associated with the development of a systemic disease such as multiple sclerosis or sarcoidosis."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Noninfectious intermediate choroiditis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Noninfectious intermediate uveitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pars planitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/127977237"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Multiple sclerosis associated intermediate uveitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/623056240"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sarcoidosis associated intermediate uveitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/313537550"
+    }
+  ]
+}

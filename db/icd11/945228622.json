@@ -1,0 +1,92 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/945228622",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1562167000"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#945228622",
+  "code": "9A78.50",
+  "source": "http://id.who.int/icd/entity/945228622",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/945228622/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/945228622/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/985771522"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/945228622/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1624623908"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Keratoconus"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Keratoconus is a noninflammatory, often bilateral, corneal dystrophy characterised by progressive cone-shaped bulging and thinning of the cornea."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Keratoconus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cornea conical"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acquired conus of cornea"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Keratoconus, stable"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1634662656"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Keratoconus, unstable"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1534345368"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Keratoconus in Down syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1172059041"
+    }
+  ]
+}

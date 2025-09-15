@@ -1,0 +1,49 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2135358643",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1721217915"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2135358643",
+  "code": "JA67.1",
+  "source": "http://id.who.int/icd/entity/2135358643",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2135358643/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1458683894",
+        "http://id.who.int/icd/release/11/2024-01/mms/395422191"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Cardiac complications of anaesthesia during pregnancy"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cardiac complications of anaesthesia during pregnancy"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cardiac arrest complicating anaesthesia or other sedation, in pregnancy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/777118106"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cardiac failure due to anaesthesia during pregnancy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1703916861"
+    }
+  ]
+}

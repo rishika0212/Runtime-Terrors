@@ -1,0 +1,110 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1207385905",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1423532858"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1207385905",
+  "code": "9A61.1",
+  "source": "http://id.who.int/icd/entity/1207385905",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1207385905/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1207385905/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/470130163"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Pterygium"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pseudopterygium of conjunctiva"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1195759310",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1195759310"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pterygium"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pterygium of eye"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "web eye"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Amyloid pterygium"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1795384121"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Central pterygium of eye"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/531510214"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Double pterygium of eye"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2061893204"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Peripheral pterygium of eye, stationary"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/151743944"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Peripheral pterygium of eye, progressive"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1816174674"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Recurrent pterygium of eye"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/418246829"
+    }
+  ]
+}

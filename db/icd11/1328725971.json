@@ -1,0 +1,367 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1328725971",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1632259883"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1328725971",
+  "code": "MB20.1",
+  "source": "http://id.who.int/icd/entity/1328725971",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1328725971/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/277610609",
+        "http://id.who.int/icd/release/11/2024-01/mms/1560768871"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Coma"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Acute state lasting more than one hour and usually less than a month. The comatose patient is unresponsive, lying with their eyes closed and cannot be aroused even by vigorous and noxious stimuli. Motor responses to noxious stimulation are limited to reflexive behaviour. Etiologies include but are not limited to traumatic, anoxic, infectious, neoplastic, vascular, inflammatory and metabolic brain injuries."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Coma is characterized by the absence of arousal and thus also of consciousness. It is a state of unarousable unresponsiveness in which the patient lies with the eyes closed and has no awareness of self and surroundings. The patient lacks the spontaneous periods of wakefulness and eye-opening induced by stimulation that can be observed in the vegetative state. To be clearly distinguished from syncope, concussion, or other states of transient unconsciousness, coma must persist for at least one hour. In general, comatose patients who survive begin to awaken and recover gradually within 2 to 4 weeks. This recovery may go no further than vegetative state or minimally conscious state or these may be stages (brief or prolonged) on the way to more complete recovery of consciousness."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Diabetic coma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/367815473",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/367815473"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hepatic coma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1769383160",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1769383160"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neonatal coma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/955490063",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1453118191"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nondiabetic hypoglycaemic coma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/6363984",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1004695600"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic uremic coma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/412389819",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/412389819"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Coma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "comatose"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "exanimation"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Coma, NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unconsciousness, NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "unconsciousness"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Coma scale, eyes open"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1305388531"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Coma scale, eyes open, never"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/623409879"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Coma scale, eyes open score 1"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/623409879"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Coma scale, eyes open, to pain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1367681576"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Coma scale, eyes open, to pain, score 2"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1367681576"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Coma scale, eyes open, to sound"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/885974974"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Coma scale, eyes open, to sound, score 3"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/885974974"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Coma scale, eyes open, spontaneous"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1193309226"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Coma scale, eyes open, spontaneous, score 4"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1193309226"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Coma scale, best verbal response"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/962852108"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Coma scale, best verbal response, none"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/580410628"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Coma scale, best verbal response, none, score 1"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/580410628"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Coma scale, best verbal response, incomprehensible words or sounds"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1446317565"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Coma scale, best verbal response, incomprehensible words or sounds, score 2"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1446317565"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Coma scale, best verbal response, inappropriate words"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/863944809"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Coma scale, best verbal response, inappropriate words, score 3"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/863944809"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Coma scale, best verbal response, confused conversation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1083200509"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Coma scale, best verbal response, confused conversation, score 4"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1083200509"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Coma scale, best verbal response, oriented"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/635149929"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Coma scale, best verbal response, oriented, score 5"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/635149929"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Coma scale, best motor response"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1546139802"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Coma scale, best motor response, none"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1969034523"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Flaccid response"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1969034523"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Coma scale, best motor response, none, score 1"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1969034523"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Coma scale, best motor response, extension"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/32523750"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Decerebrate posture"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/32523750"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Coma scale, best motor response, extension, score 2"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/32523750"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Coma scale, best motor response, abnormal flexion to pain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1690011760"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Decorticate posture"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1690011760"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Coma scale, best motor response, abnormal flexion to pain, score 3"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1690011760"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Coma scale, best motor response, flexion withdrawal to pain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/391453668"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Coma scale, best motor response, flexion withdrawal to pain, score 4"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/391453668"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Coma scale, best motor response, localises to pain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1914623602"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Coma scale, best motor response, localises to pain, score 5"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1914623602"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Coma scale, best motor response, obeys commands"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/112428687"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Coma scale, best motor response, obeys commands, score 6"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/112428687"
+    }
+  ]
+}

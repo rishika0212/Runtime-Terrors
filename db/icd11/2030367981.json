@@ -1,0 +1,80 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2030367981",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/469481605"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2030367981",
+  "code": "DB94.2",
+  "source": "http://id.who.int/icd/entity/2030367981",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2030367981/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2030367981/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Alcoholic liver fibrosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Alcoholic fibrosis of liver is defined as an excess deposition of the collagens and extracellular matrix within the liver as evident histologically, caused by excessive intake of alcohol."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Alcoholic sclerosis of liver"
+      }
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Alcoholic liver fibrosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "alcoholic fibrosis and sclerosis of liver"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "alcohol liver fibrosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Alcoholic sclerosis of liver"
+      }
+    }
+  ]
+}

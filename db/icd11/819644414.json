@@ -1,0 +1,71 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/819644414",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1965082709"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/468657126",
+    "http://id.who.int/icd/release/11/2024-01/mms/319870485",
+    "http://id.who.int/icd/release/11/2024-01/mms/819644414/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/819644414/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#819644414",
+  "code": "2B5B",
+  "source": "http://id.who.int/icd/entity/819644414",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/819644414/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1651798887",
+        "http://id.who.int/icd/release/11/2024-01/mms/72252748",
+        "http://id.who.int/icd/release/11/2024-01/mms/430404896"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/819644414/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/819644414/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1409966790",
+        "http://id.who.int/icd/release/11/2024-01/mms/896293199",
+        "http://id.who.int/icd/release/11/2024-01/mms/1094217460",
+        "http://id.who.int/icd/release/11/2024-01/mms/238069351"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/819644414/postcoordinationScale/hasAlternativeSeverity2",
+      "axisName": "http://id.who.int/icd/schema/hasAlternativeSeverity2",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1863636238",
+        "http://id.who.int/icd/release/11/2024-01/mms/885826145",
+        "http://id.who.int/icd/release/11/2024-01/mms/1746207012",
+        "http://id.who.int/icd/release/11/2024-01/mms/303697349"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Gastrointestinal stromal tumour, primary site"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is the most common mesenchymal tumour that arises in the gastrointestinal tract. It is generally immunohistochemically positive for CD117 (KIT), phenotypically paralleling Cajal-cell differentiation, and most examples contain KIT- or PDGFRA-activating mutations. It is most frequent in the stomach and to a lesser degree in the small intestine. The prognosis depends on the tumour size and the mitotic activity."
+  }
+}

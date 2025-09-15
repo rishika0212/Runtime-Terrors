@@ -1,0 +1,81 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1942095878",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1082373067"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1942095878",
+  "code": "1F54.2",
+  "source": "http://id.who.int/icd/entity/1942095878",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1942095878/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1377441319",
+        "http://id.who.int/icd/release/11/2024-01/mms/1730007635",
+        "http://id.who.int/icd/release/11/2024-01/mms/639970196",
+        "http://id.who.int/icd/release/11/2024-01/mms/39964566",
+        "http://id.who.int/icd/release/11/2024-01/mms/929434596"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Mucocutaneous leishmaniasis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Mucocutaneous leishmaniasis is a secondary infection of nasal and oral mucosae, predominantly by Leishmania braziliensis. It usually first manifests within two years of initial cutaneous infection but often after the latter has healed. It results from lymphatic or haematogenous spread of infection and can cause severe local tissue destruction."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Leishmania braziliensis infection"
+      }
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1599087747"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1945127438"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mucocutaneous leishmaniasis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Espundia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "American mucocutaneous leishmaniasis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Leishmania braziliensis infection"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nasopharyngeal leishmaniasis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/665457616"
+    }
+  ]
+}

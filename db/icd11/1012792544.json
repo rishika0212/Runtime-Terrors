@@ -1,0 +1,70 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1012792544",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2020673786"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1012792544",
+  "code": "EK00.0",
+  "source": "http://id.who.int/icd/entity/1012792544",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1012792544/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/223243926",
+        "http://id.who.int/icd/release/11/2024-01/mms/947150833",
+        "http://id.who.int/icd/release/11/2024-01/mms/1810600222"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1012792544/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/56475710",
+        "http://id.who.int/icd/release/11/2024-01/mms/1991139272"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Allergic contact dermatitis due to clothing or footwear"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Allergic contact dermatitis due to exposure to allergens found in clothing and footwear: these include colophony, p-phenylenediamine (PPD), disperse dyes, potassium dichromate and formaldehyde resins."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Allergic contact dermatitis due to clothing or footwear"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Allergic contact eczema due to clothing or footwear"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupational allergic contact dermatitis due to clothing or footwear"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2005516021"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nonoccupational allergic contact dermatitis due to clothing or footwear"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1232051389"
+    }
+  ]
+}

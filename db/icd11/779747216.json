@@ -1,0 +1,64 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/779747216",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1914297331"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#779747216",
+  "code": "GB80.1",
+  "source": "http://id.who.int/icd/entity/779747216",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/779747216/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/779747216/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/720032908"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Complex renal cyst"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Renal cyst with high attenuation or mixed contents, septate or thickened wall. May be subclassified by the Bosniak classification Bosniak 2-4 to indicate increasing likelihood of neoplasm."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Complex renal cyst"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Solitary complex renal cyst"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1912318903"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Multiple complex renal cysts"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1984680581"
+    }
+  ]
+}

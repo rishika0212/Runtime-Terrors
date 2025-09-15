@@ -1,0 +1,60 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/11753425",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1582386590"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/209542282",
+    "http://id.who.int/icd/release/11/2024-01/mms/290835130",
+    "http://id.who.int/icd/release/11/2024-01/mms/11753425/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/11753425/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#11753425",
+  "code": "CA20",
+  "source": "http://id.who.int/icd/entity/11753425",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute bronchitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/727572936",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/727572936"
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Bronchitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Bronchitis is inflammation of the main air passages to the lungs."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bronchitis, asthmatic NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2138913203",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2138913203"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bronchitis, chemical (acute)"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1853640188",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1581366987"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/607453719"
+  ],
+  "codingNote": {
+    "@language": "en",
+    "@value": "Excludes acute infectious bronchitis"
+  }
+}

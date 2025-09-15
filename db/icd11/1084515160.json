@@ -1,0 +1,87 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1084515160",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1594312948"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2140708241",
+    "http://id.who.int/icd/release/11/2024-01/mms/1851797100",
+    "http://id.who.int/icd/release/11/2024-01/mms/921332634",
+    "http://id.who.int/icd/release/11/2024-01/mms/1742412137",
+    "http://id.who.int/icd/release/11/2024-01/mms/1084515160/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1084515160/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1084515160",
+  "code": "DA25",
+  "source": "http://id.who.int/icd/entity/1084515160",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1084515160/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/72252748"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1084515160/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731",
+        "http://id.who.int/icd/release/11/2024-01/mms/1290701352"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1084515160/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Oesophageal ulcer"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Oesophageal ulcer is tissue defect located in the oesophagus. It causes inflammatory injuries in the oesophageal mucosa, with extension beyond the submucosa into the muscularis mucosa. The oesophageal ulcer due to acidic digestive juices is classified elsewhere in gastro-oesophageal reflux disease, and excluded from here."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Barrett ulcer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/900292816",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/900292816"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neoplasms of the oesophagus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1503334455",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1503334455"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Crohn disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1267652425",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1267652425"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ]
+}

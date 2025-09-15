@@ -1,0 +1,67 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1945127438",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/911707612"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1194018225",
+    "http://id.who.int/icd/release/11/2024-01/mms/1456330972",
+    "http://id.who.int/icd/release/11/2024-01/mms/1945127438/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1945127438/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1945127438",
+  "code": "KA64",
+  "source": "http://id.who.int/icd/entity/1945127438",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1945127438/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1439886552",
+        "http://id.who.int/icd/release/11/2024-01/mms/817691561",
+        "http://id.who.int/icd/release/11/2024-01/mms/1786908147",
+        "http://id.who.int/icd/release/11/2024-01/mms/793136270",
+        "http://id.who.int/icd/release/11/2024-01/mms/255141529/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/255141529/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Parasitic diseases in the fetus or newborn"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Any condition affecting fetuses or newborns, caused by an infection with a parasite."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tetanus neonatorum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2085616610",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2085616610"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital syphilis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/587996426",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/587996426"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Necrotising enterocolitis of newborn"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/141267925",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/141267925"
+    }
+  ]
+}

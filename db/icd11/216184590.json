@@ -1,0 +1,573 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/216184590",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/622473950"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#216184590",
+  "code": "FA10.0",
+  "source": "http://id.who.int/icd/entity/216184590",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gonococcal arthritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/488918209",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/707709463"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/216184590/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/216184590/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/805764304",
+        "http://id.who.int/icd/release/11/2024-01/mms/1363003152",
+        "http://id.who.int/icd/release/11/2024-01/mms/1959335168",
+        "http://id.who.int/icd/release/11/2024-01/mms/192726145",
+        "http://id.who.int/icd/release/11/2024-01/mms/223741850",
+        "http://id.who.int/icd/release/11/2024-01/mms/319259361",
+        "http://id.who.int/icd/release/11/2024-01/mms/774802386"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/216184590/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/216184590/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/622600769",
+        "http://id.who.int/icd/release/11/2024-01/mms/1683090852"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/216184590/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Bacterial infection of joint"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bacterial infection of joint"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Arthritis in other bacterial diseases classified elsewhere"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bacterial infection of joint, multiple sites"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2017221098"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Arthritis in other bacterial diseases classified elsewhere, multiple sites"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2017221098"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bacterial infection of joint, shoulder region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/494376064"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Arthritis in other bacterial diseases classified elsewhere, shoulder region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/494376064"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bacterial infection of joint, acromioclavicular joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/438316608"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bacterial infection of joint, glenohumeral joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/978824930"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bacterial infection of joint, sternoclavicular joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/510168530"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bacterial infection of joint, elbow joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1592823611"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bacterial infection of joint, wrist joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/837078276"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bacterial infection of joint, hand"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2139069057"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Arthritis in other bacterial diseases classified elsewhere, hand"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2139069057"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bacterial infection of joint, carpus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/136276913"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bacterial infection of joint, fingers"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1448379220"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bacterial infection of joint, metacarpus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1756537116"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bacterial infection of joint, pelvic region or thigh"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/439637781"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Arthritis in other bacterial diseases classified elsewhere, pelvic region or thigh"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/439637781"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bacterial infection of joint, hip joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/663956321"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Staphylococcal infection of joint, hip joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/663286617"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bacterial infection of joint, knee joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1127484090"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mycobacterial infection of joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/446445709"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bacterial infection of joint, ankle joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1830334792"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bacterial infection of joint, metatarsus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1288686282"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bacterial infection of joint, tarsus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1624478817"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bacterial infection of joint, other joints in foot"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/8281804"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bacterial infection of joint, toes"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/3937834"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Staphylococcal arthritis or polyarthritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1689726834"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Arthritis due to staphylococcus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/782978104"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "staphylococcal arthritic"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/782978104"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "staphylococcal arthritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/782978104"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute staphylococcal arthritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1844991516"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic staphylococcal arthritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/106005021"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pneumococcal arthritis or polyarthritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/33350376"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "arthritis or polyarthritis due to pneumococcus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/33350376"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pneumococcal arthritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/33350376"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pneumococcal arthritis or polyarthritis, multiple sites"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/944968983"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pneumococcal arthritis or polyarthritis, shoulder region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1561909379"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pneumococcal arthritis or polyarthritis, acromioclavicular joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/762207803"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pneumococcal arthritis or polyarthritis, clavicle"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/573713977"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pneumococcal arthritis or polyarthritis, glenohumeral joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1454023674"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pneumococcal arthritis or polyarthritis, scapula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1825085534"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pneumococcal arthritis or polyarthritis, sternoclavicular joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1670703196"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pneumococcal arthritis or polyarthritis, upper arm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/699762812"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pneumococcal arthritis or polyarthritis, elbow joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/167169403"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pneumococcal arthritis or polyarthritis, humerus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/967716095"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pneumococcal arthritis or polyarthritis, forearm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1291732458"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pneumococcal arthritis or polyarthritis, radius"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1720288588"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pneumococcal arthritis or polyarthritis, ulna"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1552972250"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pneumococcal arthritis or polyarthritis, wrist joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1264462535"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pneumococcal arthritis or polyarthritis, hand"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1058068094"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pneumococcal arthritis or polyarthritis, carpus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/809330550"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pneumococcal arthritis or polyarthritis, fingers"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1868072485"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pneumococcal arthritis or polyarthritis, joints between hand bones"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/507027046"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pneumococcal arthritis or polyarthritis, metacarpus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2608660"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pneumococcal arthritis or polyarthritis, pelvic region or thigh"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1515920360"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pneumococcal arthritis or polyarthritis, femur"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/977154694"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pneumococcal arthritis or polyarthritis, hip joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1341167327"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pneumococcal arthritis or polyarthritis, pelvis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1326804559"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pneumococcal arthritis or polyarthritis, sacroiliac joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/628575082"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pneumococcal arthritis or polyarthritis, lower leg"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/787893015"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pneumococcal arthritis or polyarthritis, fibula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/446046848"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pneumococcal arthritis or polyarthritis, knee joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/339995580"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pneumococcal arthritis or polyarthritis, tibia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1880227785"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pneumococcal arthritis or polyarthritis, ankle or foot"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1270711939"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pneumococcal arthritis or polyarthritis, ankle joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1045232096"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pneumococcal arthritis or polyarthritis, metatarsus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1441082841"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pneumococcal arthritis or polyarthritis, other joints in foot"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1422599273"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pneumococcal arthritis or polyarthritis, tarsus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1797934463"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pneumococcal arthritis or polyarthritis, toes"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/511259036"
+    }
+  ]
+}

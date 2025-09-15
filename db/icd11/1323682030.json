@@ -1,0 +1,162 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1323682030",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/142052508"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1258650683",
+    "http://id.who.int/icd/release/11/2024-01/mms/680186620",
+    "http://id.who.int/icd/release/11/2024-01/mms/732824952",
+    "http://id.who.int/icd/release/11/2024-01/mms/1250089989",
+    "http://id.who.int/icd/release/11/2024-01/mms/963399569",
+    "http://id.who.int/icd/release/11/2024-01/mms/801706385",
+    "http://id.who.int/icd/release/11/2024-01/mms/1533297008",
+    "http://id.who.int/icd/release/11/2024-01/mms/1480627948",
+    "http://id.who.int/icd/release/11/2024-01/mms/1043303674",
+    "http://id.who.int/icd/release/11/2024-01/mms/1323682030/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1323682030/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1323682030",
+  "code": "CA40.0",
+  "source": "http://id.who.int/icd/entity/1323682030",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pulmonary actinomycosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/452367246",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/452367246"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pulmonary nocardiosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/101604109",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/101604109"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Legionnaires disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/424434722",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/424434722"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1323682030/postcoordinationScale/causality",
+      "axisName": "http://id.who.int/icd/schema/causality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/894194405",
+        "http://id.who.int/icd/release/11/2024-01/mms/1674014893",
+        "http://id.who.int/icd/release/11/2024-01/mms/655959100",
+        "http://id.who.int/icd/release/11/2024-01/mms/56475710",
+        "http://id.who.int/icd/release/11/2024-01/mms/339929010"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1323682030/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1323682030/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1323682030/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/622600769",
+        "http://id.who.int/icd/release/11/2024-01/mms/1683090852"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1323682030/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1000704511",
+        "http://id.who.int/icd/release/11/2024-01/mms/1882742628",
+        "http://id.who.int/icd/release/11/2024-01/mms/833290117"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1323682030/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1528414070",
+        "http://id.who.int/icd/release/11/2024-01/mms/515117475",
+        "http://id.who.int/icd/release/11/2024-01/mms/840155638",
+        "http://id.who.int/icd/release/11/2024-01/mms/2058300982",
+        "http://id.who.int/icd/release/11/2024-01/mms/980168338",
+        "http://id.who.int/icd/release/11/2024-01/mms/1321303663",
+        "http://id.who.int/icd/release/11/2024-01/mms/2064398473",
+        "http://id.who.int/icd/release/11/2024-01/mms/419706488",
+        "http://id.who.int/icd/release/11/2024-01/mms/1937339080",
+        "http://id.who.int/icd/release/11/2024-01/mms/2113860626"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Bacterial pneumonia"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease of the pulmonary system, caused by an infection with a bacterial source. This disease is characterised by fever, lethargy, headache, myalgia, vomiting, or coughing. Transmission is by inhalation of infected respiratory secretions. Confirmation is by identification of the bacterial source in a sputum sample."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bronchopneumonia due to bacteria other than S. pneumoniae and H. influenzae"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital pneumonia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/594985340",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/594985340"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Legionellosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/390042715",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/390042715"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/594985340"
+  ]
+}

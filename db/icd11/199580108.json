@@ -1,0 +1,40 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/199580108",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/517052870"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1014397110",
+    "http://id.who.int/icd/release/11/2024-01/mms/519416529",
+    "http://id.who.int/icd/release/11/2024-01/mms/1036649329",
+    "http://id.who.int/icd/release/11/2024-01/mms/199580108/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/199580108/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#199580108",
+  "code": "8A61.3",
+  "source": "http://id.who.int/icd/entity/199580108",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/199580108/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/539646260"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Genetic epileptic syndrome with adolescent or adult onset"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Includes a wide array of epilepsy syndromes having a (presumed) genetic origin, with onset in adolescence or in adult life. The developmental background is usually normal. Family history of epilepsy is frequently present. Focal and generalised seizures may be present most frequently in isolation to mark the diagnostic category, and rarely in combination. The interictal and ictal EEG may show typical, sometimes pathognomonic, patterns. Neuroimaging is normal although focal abnormalities are occasionally reported."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/2083324835"
+  ]
+}

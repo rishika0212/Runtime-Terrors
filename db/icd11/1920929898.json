@@ -1,0 +1,306 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1920929898",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/733056203"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1920929898",
+  "code": "5A74.0",
+  "source": "http://id.who.int/icd/entity/1920929898",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Adrenocorticotropic hormone deficiency"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/538301537",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/538301537"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculous Addison disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/53170779",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/807058764"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1920929898/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/746448055",
+        "http://id.who.int/icd/release/11/2024-01/mms/248569732",
+        "http://id.who.int/icd/release/11/2024-01/mms/1530721759",
+        "http://id.who.int/icd/release/11/2024-01/mms/817370856",
+        "http://id.who.int/icd/release/11/2024-01/mms/1583926619"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acquired adrenocortical insufficiency"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is a acquired condition in which the adrenal glands do not produce adequate amounts of steroid hormones, primarily cortisol; but may also include impaired production of aldosterone (a mineralocorticoid), which regulates sodium conservation, potassium secretion, and water retention."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Amyloidosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2078467774",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2078467774"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1156263785"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired adrenocortical insufficiency"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Addison disease"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic acquired adrenal insufficiency"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Autoimmune Addison disease"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary Addison disease"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Classic Addison disease"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired hypocortisolism"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Autoimmune adrenalitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "primary adrenal insufficiency"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "primary hypoadrenalism"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Addison syndrome"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Addison disease NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Addisons NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "adrenal cortex insufficiency"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Addison bronzed skin disease"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Addison bronzed skin disorder"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Addisonian melanosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "autoimmune adrenal atrophy"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "adrenal melasma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "adrenal melanosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bronze disease"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "noncongenital chronic primary adrenocortical insufficiency"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "primary adrenal atrophy"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "primary adrenal capsule atrophy"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "primary adrenal cortex deficiency"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "primary adrenal glandular insufficiency"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "primary adrenal cortex hypofunction"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "primary adrenocortical deficiency"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "primary adrenocortical hypofunction"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "primary corticoadrenal deficiency"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "primary hypoadrenocorticism"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "primary suprarenal insufficiency"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "suprarenal melanosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "suprarenal melasma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced adrenocortical insufficiency"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1671007491"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "medicament-induced adrenocortical insufficiency"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1671007491"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "drug-induced adrenocortical hypofunction"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1671007491"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myopathy in Addison disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1434177374"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Adrenal cortex atrophy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1512952006"
+    }
+  ]
+}

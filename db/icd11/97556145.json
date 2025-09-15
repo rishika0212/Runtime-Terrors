@@ -1,0 +1,50 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/97556145",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/302903168"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1604903536",
+    "http://id.who.int/icd/release/11/2024-01/mms/1632550968",
+    "http://id.who.int/icd/release/11/2024-01/mms/27345523",
+    "http://id.who.int/icd/release/11/2024-01/mms/1370591694",
+    "http://id.who.int/icd/release/11/2024-01/mms/97556145/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#97556145",
+  "code": "HA01.1",
+  "source": "http://id.who.int/icd/entity/97556145",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/97556145/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1099536224"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/97556145/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1894406676",
+        "http://id.who.int/icd/release/11/2024-01/mms/465177735",
+        "http://id.who.int/icd/release/11/2024-01/mms/1164983645",
+        "http://id.who.int/icd/release/11/2024-01/mms/723430526",
+        "http://id.who.int/icd/release/11/2024-01/mms/435227771"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Male erectile dysfunction"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Male erectile dysfunction is characterised by inability or marked reduction in the ability in men to attain or sustain a penile erection of sufficient duration or rigidity to allow for sexual activity. The pattern of erectile difficulty occurs despite the desire for sexual activity and adequate sexual stimulation, has occurred episodically or persistently over a period at least several months, and is associated with clinically significant distress."
+  }
+}

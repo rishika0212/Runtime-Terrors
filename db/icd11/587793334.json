@@ -1,0 +1,67 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/587793334",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1907280211"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/737694495",
+    "http://id.who.int/icd/release/11/2024-01/mms/1320394379",
+    "http://id.who.int/icd/release/11/2024-01/mms/1599407074",
+    "http://id.who.int/icd/release/11/2024-01/mms/587793334/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/587793334/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#587793334",
+  "code": "5A03",
+  "source": "http://id.who.int/icd/entity/587793334",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postpartum thyroiditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1577113218",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1577113218"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/587793334/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1470387017",
+        "http://id.who.int/icd/release/11/2024-01/mms/1583926619",
+        "http://id.who.int/icd/release/11/2024-01/mms/1323892810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Thyroiditis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Thyroiditis is the inflammation of the thyroid gland. It includes acute and chronic forms of thyroiditis. Thyroiditis is usually caused by autoimmune reaction to the thyroid, resulting in inflammation and damage to the thyroid cells. The symptoms include fatigue, weight gain, depression, dry skin, and constipation."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired hypothyroidism"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1090587977",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1090587977"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Thyrotoxicosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1470387017",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1470387017"
+    }
+  ]
+}

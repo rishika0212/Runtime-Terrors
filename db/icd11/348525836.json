@@ -1,0 +1,72 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/348525836",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1651247891"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#348525836",
+  "code": "1B70.01",
+  "source": "http://id.who.int/icd/entity/348525836",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/348525836/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/348525836/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/348525836/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/40564846"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Erysipelas of external ear"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A rapidly expanding diffuse superficial dermal streptococcal infection involving the external ear. In contrast with infective otitis externa, the skin of the auricle is often initially healthy except at a point of entry for beta-haemolytic streptococci (commonly at a fissure behind the ear or where the ear lobule is attached to the side of the head) and systemic features including fever and malaise are common."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/911707612"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Erysipelas of external ear"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Otitis externa in erysipelas"
+      }
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1349182195",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/698285441"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1349182195",
+  "code": "DC31.1",
+  "source": "http://id.who.int/icd/entity/1349182195",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1349182195/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1349182195/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/562478860",
+        "http://id.who.int/icd/release/11/2024-01/mms/1663264387",
+        "http://id.who.int/icd/release/11/2024-01/mms/1201187093"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acute alcohol-induced pancreatitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Acute pancreatitis associated with alcohol consumption. Although alcohol consumption is a major cause of this disease, the diagnosis should be made after exclusion of other etiologies."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute alcohol-induced pancreatitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute alcohol-induced pancreatitis, with local complication"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/845585833"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute alcohol-induced pancreatitis, with systemic complication"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1044864981"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute alcohol-induced pancreatitis, with local and systemic complication"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1139380388"
+    }
+  ]
+}

@@ -1,0 +1,282 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/897101649",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/339662111"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#897101649",
+  "code": "DA0E.8",
+  "source": "http://id.who.int/icd/entity/897101649",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/897101649/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1916173590"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Temporomandibular joint disorders"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is an umbrella term covering acute or chronic pain, especially in the muscles of mastication and/or inflammation of the temporomandibular joint, which connects the mandible to the skull."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Temporomandibular joint-pain-dysfunction syndrome"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Derangement of temporomandibular joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1623091284"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic temporomandibular disorder pain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1928634854"
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "current temporomandibular joint: strain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2084744179",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2084744179"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "current temporomandibular joint: dislocation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2063689880",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2063689880"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Temporomandibular joint disorders"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "temporomandibular joint disease"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "temporomandibular jaw disorder"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "TMJ - [temporomandibular joint] disorder"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "temporomandibular developmental disorder of jaw"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "temporomandibular dysfunction"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "temporomandibular joint dysfunction"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "temporomandibular joint syndrome"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Temporomandibular joint-pain-dysfunction syndrome"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "mandibular dysfunction NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "TMJ - [temporomandibular joint disorder] syndrome"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "TMJPDS - [temporomandibular joint pain dysfunction syndrome]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "TMJ - [temporomandibular joint] dysfunction"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Derangement of temporomandibular joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1623091284"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Articular disc disorder of temporomandibular joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1623091284"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Temporomandibular joint disc displacement"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1623091284"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "temporomandibular joint internal derangement"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1623091284"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Temporomandibular joint disc displacement, with reduction"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/818122149"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Temporomandibular joint disc displacement, without reduction"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1524883554"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Synovitis of temporomandibular joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1729297299"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Undifferentiated inflammatory polyarthritis of temporomandibular joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1501178693"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic temporomandibular disorder pain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1928634854"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Adhesions of temporomandibular joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1714759551"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Arthralgia of temporomandibular joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1450034939"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Costen complex"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/155873096"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Costen syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/155873096"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Intermaxillary contracture"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/329966052"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Snapping jaw"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/538990333"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Temporomandibular joint click"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/538990333"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Temporomandibular malocclusion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1794722056"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Trismus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2065553666"
+    }
+  ]
+}

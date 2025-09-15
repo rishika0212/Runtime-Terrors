@@ -1,0 +1,77 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1877039847",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/833816211"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1877039847",
+  "code": "8C77",
+  "source": "http://id.who.int/icd/entity/1877039847",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1877039847/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Ocular myopathy"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Slowly progressive weakness of ocular muscles, usually characterised by decreased mobility of the eye and drooping of the upper lid. The disorder may be unilateral or bilateral, and may be caused by central or peripheral nervous system lesion or by a neuromuscular disease."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ocular myopathy with mitochondrial abnormalities"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1698427219",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1698427219"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "oculopharyngeal muscular dystrophy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1354386293",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/85581889"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ocular muscular dystrophy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/847954239",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/85581889"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/564191997"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ocular myopathy"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ocular dystrophy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/97732802"
+    }
+  ]
+}

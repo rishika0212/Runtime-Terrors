@@ -1,0 +1,54 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/854229089",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/455894495"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2118246468",
+    "http://id.who.int/icd/release/11/2024-01/mms/183283901",
+    "http://id.who.int/icd/release/11/2024-01/mms/1883423833",
+    "http://id.who.int/icd/release/11/2024-01/mms/854229089/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/854229089/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#854229089",
+  "code": "1A62",
+  "source": "http://id.who.int/icd/entity/854229089",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/854229089/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1783829886",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184209951",
+        "http://id.who.int/icd/release/11/2024-01/mms/1467154806",
+        "http://id.who.int/icd/release/11/2024-01/mms/658360080/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/658360080/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Late syphilis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease caused by an infection with the gram-negative bacteria Treponema pallidum pallidum. This disease is characterised by gummas, neurological abnormalities, or cardiac abnormalities. Clinical signs normally manifest approximately 3-15 years after initial infection. Transmission is commonly by sexual contact."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Late congenital syphilis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1685932952",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/587996426"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/911707612"
+  ]
+}

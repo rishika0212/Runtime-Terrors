@@ -1,0 +1,58 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/578178116",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/125069185"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/752440271",
+    "http://id.who.int/icd/release/11/2024-01/mms/1131962276",
+    "http://id.who.int/icd/release/11/2024-01/mms/578178116/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#578178116",
+  "code": "DC71",
+  "source": "http://id.who.int/icd/entity/578178116",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/578178116/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/18598211",
+        "http://id.who.int/icd/release/11/2024-01/mms/1708923236"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/578178116/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/953394726"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/578178116/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Diverticulosis of small intestine"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Diverticulosis of small intestine is a condition characterised by the presence of multiple sack-like mucosal herniations called diverticula through weak points in the wall or lining of the small intestine. Small intestinal diverticula are far less common than colonic diverticula. Most people with diverticulosis do not have any discomfort or symptoms. However, some people may experience pain or discomfort in the abdomen, bloating, and bleeding."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ]
+}

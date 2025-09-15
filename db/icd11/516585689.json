@@ -1,0 +1,131 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/516585689",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1664016479"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#516585689",
+  "code": "1C1C.0",
+  "source": "http://id.who.int/icd/entity/516585689",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/516585689/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/622600769",
+        "http://id.who.int/icd/release/11/2024-01/mms/1683090852"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/516585689/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/243404922"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Meningococcal meningitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition of the meninges, caused by an infection with the gram-negative bacteria Neisseria meningitidis. This condition is characterised by high fever, stiff neck, severe headache, vomiting, purpura, photophobia, and sometimes chills, altered mental status, or seizures. Transmission is through haematogenous spread to the meninges after droplet transmission or direct contact. Confirmation is by identification of Neisseria meningitidis in CSF (cerebrospinal fluid), for example, by agglutination test or polymerase chain reaction."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Meningitis due to Neisseria meningitidis"
+      }
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1935107489"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Meningococcal meningitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "epidemic meningitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Meningitis due to Neisseria meningitidis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "meningococcal meninges infection"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "meningococcal meningeal infection"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "meningococcal cerebrospinal inflammation"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic meningococcal arachnoiditis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "meningococcal arachnoiditis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "diplococcal spinal meningitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "diplococcal meningitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "meningococcal cerebrospinal fever"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "meningococcal cerebrospinal infection"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "meningococcal spinal meningitis"
+      }
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/691643472",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/37207998"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1144812971",
+    "http://id.who.int/icd/release/11/2024-01/mms/1300710062",
+    "http://id.who.int/icd/release/11/2024-01/mms/233404891",
+    "http://id.who.int/icd/release/11/2024-01/mms/29932455",
+    "http://id.who.int/icd/release/11/2024-01/mms/691643472/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/691643472/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#691643472",
+  "code": "2A21",
+  "source": "http://id.who.int/icd/entity/691643472",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/691643472/postcoordinationScale/histopathology",
+      "axisName": "http://id.who.int/icd/schema/histopathology",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1251027837",
+        "http://id.who.int/icd/release/11/2024-01/mms/1770652518"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/691643472/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Mastocytosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Mastocytosis is due to a clonal, neoplastic proliferation of mast cells that accumulate in one or more organ systems. Activating mutations of KIT are frequently found. It is characterised by the presence of multifocal compact clusters or cohesive aggregates/infiltrates of abnormal mast cells. The disorder is heterogeneous, ranging from skin lesions that may spontaneously regress to highly aggressive neoplasms associated with multiorgan failure and short survival. Subtypes of mastocytosis are recognised mainly by the distribution of the disease and clinical manifestations. In cutaneous mastocytosis (CM), the mast cell infiltration remains confined to the skin, whereas systemic mastocytosis (SM) is characterised by involvement of at least one extracutaneous organ with or without evidence of skin lesions. Mastocytosis should be strictly separated from mast cell hyperplasia or mast cell activation states without morphological and/or molecular abnormalities that characterize the neoplastic proliferation."
+  }
+}

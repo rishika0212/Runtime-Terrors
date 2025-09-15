@@ -1,0 +1,125 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/244539956",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1287322576"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#244539956",
+  "code": "PE20.1",
+  "source": "http://id.who.int/icd/entity/244539956",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/244539956/postcoordinationScale/activityWhenInjured",
+      "axisName": "http://id.who.int/icd/schema/activityWhenInjured",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2071638841",
+        "http://id.who.int/icd/release/11/2024-01/mms/1107435129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1428847289",
+        "http://id.who.int/icd/release/11/2024-01/mms/821249273",
+        "http://id.who.int/icd/release/11/2024-01/mms/160164281"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/244539956/postcoordinationScale/objectOrSubstanceProducingInjury",
+      "axisName": "http://id.who.int/icd/schema/objectOrSubstanceProducingInjury",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1539630306"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/244539956/postcoordinationScale/placeOfOccurrence",
+      "axisName": "http://id.who.int/icd/schema/placeOfOccurrence",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowedExceptFromSameBlock",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1081404635",
+        "http://id.who.int/icd/release/11/2024-01/mms/1786773723"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/244539956/postcoordinationScale/alcoholUseInInjury",
+      "axisName": "http://id.who.int/icd/schema/alcoholUseInInjury",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowedExceptFromSameBlock",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1993515327",
+        "http://id.who.int/icd/release/11/2024-01/mms/1336544383",
+        "http://id.who.int/icd/release/11/2024-01/mms/1484941503",
+        "http://id.who.int/icd/release/11/2024-01/mms/1029396223",
+        "http://id.who.int/icd/release/11/2024-01/mms/712192575"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/244539956/postcoordinationScale/psychoactiveDrugUseInInjury",
+      "axisName": "http://id.who.int/icd/schema/psychoactiveDrugUseInInjury",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowedExceptFromSameBlock",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1848703062",
+        "http://id.who.int/icd/release/11/2024-01/mms/1464358166",
+        "http://id.who.int/icd/release/11/2024-01/mms/1080046038",
+        "http://id.who.int/icd/release/11/2024-01/mms/632885142",
+        "http://id.who.int/icd/release/11/2024-01/mms/848390998"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Assault by projectile from rifle, shotgun or larger firearm"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by projectile from rifle, shotgun or larger firearm"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by being struck by projectile from shotgun"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/275909020"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault: Contact with weapon: Firearm discharge: Shotgun"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/275909020"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by being struck by projectile from hunting rifle"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/98939926"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault: Contact with weapon: Firearm discharge: Hunting rifle"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/98939926"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by being struck by projectile from machine gun"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1147266803"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault: Contact with weapon: Firearm discharge: Machine gun"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1147266803"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1782114659",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1433201931"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/840006864",
+    "http://id.who.int/icd/release/11/2024-01/mms/1186737199",
+    "http://id.who.int/icd/release/11/2024-01/mms/1782114659/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1782114659/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1782114659",
+  "code": "GB20",
+  "source": "http://id.who.int/icd/entity/1782114659",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Breast abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1033306788",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1033306788"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Disorders of breast augmentation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1834821292",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1834821292"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Disorders of breast reduction"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1270657927",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1270657927"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1782114659/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1782114659/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/831985561"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Benign breast disease"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Any disease affecting females, characterised by benign, noncancerous lesions in the breast, leading to pathological changes to (and discomfort of) the breast or breast tissue."
+  }
+}

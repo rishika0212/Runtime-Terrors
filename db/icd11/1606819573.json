@@ -1,0 +1,150 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1606819573",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/843843448"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1606819573",
+  "code": "8B23",
+  "source": "http://id.who.int/icd/entity/1606819573",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Vein of Galen aneurysm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1884295064",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1884295064"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cerebral arteritis in infectious or parasitic diseases"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1606752149",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/132422185/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1606819573/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/749596428",
+        "http://id.who.int/icd/release/11/2024-01/mms/1327645131",
+        "http://id.who.int/icd/release/11/2024-01/mms/1479285656",
+        "http://id.who.int/icd/release/11/2024-01/mms/280853107"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Cerebrovascular abnormalities"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Cerebrovascular abnormalities in diseases that also involve other parts of the vascular system than intracranial and extracranial arteries, or other body systems than the nervous system."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Entities in this section should be coded together with the main classification code of the specific disease. Entities in this section may also be used in combination with other diagnostic codes within the block of Cerebrovascular Diseases as appropriate. The different entities may, for example, manifest clinically as TIA or cerebral ischemic stroke."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/564191997"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cerebrovascular abnormalities"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cerebral amyloid angiopathy in association with a systemic amyloidopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1168085353"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cerebral stenosis or occlusion in infectious disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/930780267"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Secondary cerebral arteritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/728254316"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cerebral arteritis in other diseases classified elsewhere"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/728254316"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cerebral arteritis in systemic lupus erythematosus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/338037123"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cerebrovascular abnormalities in sarcoidosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1305566566"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cerebrovascular abnormalities in fibromuscular dysplasia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/983248039"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cerebrovascular abnormalities in Takayasu disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/143849634"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Secondary cerebrovascular abnormalities"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/873028823"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cerebrovascular abnormalities in other diseases classified elsewhere"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/873028823"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Uraemic apoplexia in chronic kidney disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1866810420"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cerebrovascular diseases in developmental abnormalities"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1290379832"
+    }
+  ]
+}

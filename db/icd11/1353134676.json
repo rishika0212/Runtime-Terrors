@@ -1,0 +1,45 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1353134676",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/838370829"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1353134676",
+  "code": "XE1QQ",
+  "source": "http://id.who.int/icd/entity/1353134676",
+  "classKind": "category",
+  "title": {
+    "@language": "en",
+    "@value": "Volume accuracy problem"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Inconsistent filling of a device. This describes a problem which is observed to vary between overfilling and under filling, and may be intermittent."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Consistent overfilling"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1963025816",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1963025816"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Consistent short filling"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1512740152",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1512740152"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Volume accuracy problem"
+      }
+    }
+  ]
+}

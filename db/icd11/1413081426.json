@@ -1,0 +1,54 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1413081426",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/592562777"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1413081426",
+  "code": "8E41.0",
+  "source": "http://id.who.int/icd/entity/1413081426",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1413081426/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1537714794"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1413081426/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Pachymeningitis due to infection"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Inflammation of the pachymeninges resulting in localised or diffuse thickening of the dura mater caused by chronic infection such as tuberculosis. The cranial and/or the spinal dura may be affected. Neurological features include headache, visual disturbance, cranial nerve palsies, ataxia and, with spinal involvement, limb weakness, sensory impairment and sphincter disturbances. Diagnosis may be aided by neuroimaging, spinal fluid analysis and dural biopsy."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/564191997"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pachymeningitis due to infection"
+      }
+    }
+  ]
+}

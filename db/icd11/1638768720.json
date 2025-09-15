@@ -1,0 +1,50 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1638768720",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1108174726"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1638768720",
+  "code": "9A10.2",
+  "source": "http://id.who.int/icd/entity/1638768720",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1638768720/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1638768720/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/629756149"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Benign lymphoepithelial lesion of lacrimal gland"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is a type of benign enlargement of the parotid and/or lacrimal glands. This pathologic state is sometimes, but not always, associated with Sjögren's syndrome. This diagnosis is of paired almond-shaped glands, one for each eye, that secrete the aqueous layer of the tear film."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Benign lymphoepithelial lesion of lacrimal gland"
+      }
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1001865004",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/135357495"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1001865004",
+  "code": "NE82.00",
+  "source": "http://id.who.int/icd/entity/1001865004",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1001865004/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/741790660",
+        "http://id.who.int/icd/release/11/2024-01/mms/431804121"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Pacemaker or implantable cardioverter defibrillator pocket erosion"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Any breakdown of the implant site or skin overlying pacemaker or an implantable cardioverter defibrillator (ICD) pocket."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/59436623"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pacemaker or implantable cardioverter defibrillator pocket erosion"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Implantable cardioverter defibrillator pocket erosion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1587853089"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pacemaker pocket erosion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/655550293"
+    }
+  ]
+}

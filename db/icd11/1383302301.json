@@ -1,0 +1,57 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1383302301",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/894625870"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1383302301",
+  "code": "LB94",
+  "source": "http://id.who.int/icd/entity/1383302301",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1383302301/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Congenital patella dislocation"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital patella dislocation"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "congenital patellar dislocation"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital patella dislocation, unilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1894799098"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital patella dislocation, bilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1604828649"
+    }
+  ]
+}

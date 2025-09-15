@@ -1,0 +1,69 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1616050398",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1528863768"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1995941600",
+    "http://id.who.int/icd/release/11/2024-01/mms/352299041",
+    "http://id.who.int/icd/release/11/2024-01/mms/39515681",
+    "http://id.who.int/icd/release/11/2024-01/mms/1729182645",
+    "http://id.who.int/icd/release/11/2024-01/mms/1616050398/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1616050398",
+  "code": "2B30.1",
+  "source": "http://id.who.int/icd/entity/1616050398",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1616050398/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1616050398/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1409966790",
+        "http://id.who.int/icd/release/11/2024-01/mms/896293199",
+        "http://id.who.int/icd/release/11/2024-01/mms/1094217460",
+        "http://id.who.int/icd/release/11/2024-01/mms/238069351"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1616050398/postcoordinationScale/hasAlternativeSeverity2",
+      "axisName": "http://id.who.int/icd/schema/hasAlternativeSeverity2",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1863636238",
+        "http://id.who.int/icd/release/11/2024-01/mms/885826145",
+        "http://id.who.int/icd/release/11/2024-01/mms/1746207012",
+        "http://id.who.int/icd/release/11/2024-01/mms/303697349"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Classical Hodgkin lymphoma"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Classical Hodgkin lymphoma is a B-cell lymphoma characterised histologically by the presence of large mononuclear Hodgkin cells and multinucleated Reed-Sternberg (HRS) cells.\n\nA monoclonal B-cell lymphoproliferation in the vast majority of cases. It is characterised by a bimodal age distribution (15-30 years of life and late life) and is often associated with EBV infection. In less than 5% of cases it is a monoclonal proliferation of T-lymphocytes. Morphologically, it is characterised by the presence of Reed-Sternberg cells and mononuclear Hodgkin cells. The Reed-Sternberg and mononuclear Hodgkin cells are CD30 positive in nearly all cases and CD15 positive in the majority of cases."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Classical Hodgkin lymphoma, type not specified"
+      }
+    }
+  ]
+}

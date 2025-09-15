@@ -1,0 +1,149 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/109367356",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1821859817"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/897545836",
+    "http://id.who.int/icd/release/11/2024-01/mms/1600740300",
+    "http://id.who.int/icd/release/11/2024-01/mms/975345242",
+    "http://id.who.int/icd/release/11/2024-01/mms/2027292232",
+    "http://id.who.int/icd/release/11/2024-01/mms/109367356/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/109367356/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#109367356",
+  "code": "BD40",
+  "source": "http://id.who.int/icd/entity/109367356",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Atherosclerotic retinopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/581420197",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/109367356/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/109367356/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/109367356/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/852143287",
+        "http://id.who.int/icd/release/11/2024-01/mms/1885434231",
+        "http://id.who.int/icd/release/11/2024-01/mms/553603158",
+        "http://id.who.int/icd/release/11/2024-01/mms/1421585111",
+        "http://id.who.int/icd/release/11/2024-01/mms/1316314647",
+        "http://id.who.int/icd/release/11/2024-01/mms/1508677205",
+        "http://id.who.int/icd/release/11/2024-01/mms/1480916274"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/109367356/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2000854880"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Atherosclerotic chronic arterial occlusive disease"
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "endarteritis deformans"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "senile arteritis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "senile endarteritis"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic vascular disorders of intestine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/194771855",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/194771855"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cerebral ischaemic stroke due to intracranial large artery atherosclerosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1371457",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1371457"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Coronary atherosclerosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1280712786",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1280712786"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chilblains"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/247295056",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/247295056"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Frostbite"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/152692065",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/152692065"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cerebral ischaemic stroke due to extracranial large artery atherosclerosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1070137396",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1070137396"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Asymptomatic stenosis of intracranial or extracranial artery"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/860460764",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/860460764"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/369985440",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/158815303"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#369985440",
+  "code": "8B11.20",
+  "source": "http://id.who.int/icd/entity/369985440",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/369985440/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/369985440/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/868053242"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/369985440/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1173205716"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/369985440/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1829545371",
+        "http://id.who.int/icd/release/11/2024-01/mms/1121431779",
+        "http://id.who.int/icd/release/11/2024-01/mms/171698302",
+        "http://id.who.int/icd/release/11/2024-01/mms/1458683894"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Cerebral ischaemic stroke due to cardiac embolism"
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/564191997"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1526436336"
+  ],
+  "codingNote": {
+    "@language": "en",
+    "@value": "If an additional code is used for anatomy, the artery affected by the stroke should be selected."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cerebral ischaemic stroke due to cardiac embolism"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cardioembolic infarction"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cardioembolic stroke"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cerebral infarction due to cardiac embolism"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stroke due to atrial fibrillation related arterial occlusion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1278657169"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cerebral infarction due to atrial fibrillation related clot"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1278657169"
+    }
+  ]
+}

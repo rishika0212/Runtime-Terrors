@@ -1,0 +1,82 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1091682870",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1111681557"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1091682870",
+  "code": "AB37",
+  "source": "http://id.who.int/icd/entity/1091682870",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1091682870/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1091682870/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1393618433"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Noise effects on inner ear"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Noise toxicity can cause hearing loss, either transient or permanent, and impairment. Noise-induced hearing loss typically begins in the high-pitched frequency range of human voices communication."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Noise-induced hearing loss"
+      }
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Noise effects on inner ear"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "noise induced deafness"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acoustic trauma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "boilermaker's deafness"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Noise-induced hearing loss"
+      }
+    }
+  ]
+}

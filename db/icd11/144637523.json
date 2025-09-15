@@ -1,0 +1,71 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/144637523",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1223380074"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#144637523",
+  "code": "EK11",
+  "source": "http://id.who.int/icd/entity/144637523",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/144637523/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/630328761",
+        "http://id.who.int/icd/release/11/2024-01/mms/1707521326",
+        "http://id.who.int/icd/release/11/2024-01/mms/2137289572"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Protein contact dermatitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Immediate contact dermatitis due to exposure to proteins from plants, animal tissue and other organic matter."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Allergic contact dermatitis due to food allergen"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/943039030",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/943039030"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Protein contact dermatitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Protein contact dermatitis due to plant protein"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1389378658"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Protein contact dermatitis due to animal protein"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/809462926"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupational protein contact dermatitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1373344231"
+    }
+  ]
+}

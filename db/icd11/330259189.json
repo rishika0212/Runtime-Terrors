@@ -1,0 +1,42 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/330259189",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/224336967"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/531667506",
+    "http://id.who.int/icd/release/11/2024-01/mms/675675654",
+    "http://id.who.int/icd/release/11/2024-01/mms/2063292324",
+    "http://id.who.int/icd/release/11/2024-01/mms/528767052",
+    "http://id.who.int/icd/release/11/2024-01/mms/418601307",
+    "http://id.who.int/icd/release/11/2024-01/mms/330259189/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/330259189/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#330259189",
+  "code": "3A50",
+  "source": "http://id.who.int/icd/entity/330259189",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/330259189/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/536467755"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Thalassaemias"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease caused by genetically inherited autosomal recessive mutations leading to abnormal production of haemoglobin. This disease is characterised by destruction of red blood cells leading to anaemia and abnormal production of haemoglobin. This disease may present with pallor, jaundice, iron overload, fatigue, or shortness of breath. Confirmation is by identification of mutations through genetic testing."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1148519290"
+  ]
+}

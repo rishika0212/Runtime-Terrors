@@ -1,0 +1,55 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1897292724",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/923313934"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1897292724",
+  "code": "LB45.5",
+  "source": "http://id.who.int/icd/entity/1897292724",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1897292724/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Congenital absence of fallopian tube"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition of the fallopian tube, caused by determinants arising during the antenatal period. This condition is characterised by a female born with fewer than two fallopian tubes."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital absence of fallopian tube"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital absence of fallopian tube, unilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/160453542"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital absence of fallopian tube, bilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/561496455"
+    }
+  ]
+}

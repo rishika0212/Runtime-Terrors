@@ -1,0 +1,105 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1237451411",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1244512758"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1237451411",
+  "code": "2C94.2",
+  "source": "http://id.who.int/icd/entity/1237451411",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1237451411/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1026096812",
+        "http://id.who.int/icd/release/11/2024-01/mms/608526902",
+        "http://id.who.int/icd/release/11/2024-01/mms/508369172",
+        "http://id.who.int/icd/release/11/2024-01/mms/1392687323",
+        "http://id.who.int/icd/release/11/2024-01/mms/1819091795",
+        "http://id.who.int/icd/release/11/2024-01/mms/157646292",
+        "http://id.who.int/icd/release/11/2024-01/mms/688763962"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1237451411/postcoordinationScale/histopathology",
+      "axisName": "http://id.who.int/icd/schema/histopathology",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/122476262",
+        "http://id.who.int/icd/release/11/2024-01/mms/961481790",
+        "http://id.who.int/icd/release/11/2024-01/mms/893338611",
+        "http://id.who.int/icd/release/11/2024-01/mms/502141104",
+        "http://id.who.int/icd/release/11/2024-01/mms/1720540447",
+        "http://id.who.int/icd/release/11/2024-01/mms/139652614",
+        "http://id.who.int/icd/release/11/2024-01/mms/600082586",
+        "http://id.who.int/icd/release/11/2024-01/mms/1771267581",
+        "http://id.who.int/icd/release/11/2024-01/mms/739641860",
+        "http://id.who.int/icd/release/11/2024-01/mms/378877716"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1237451411/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1237451411/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1409966790",
+        "http://id.who.int/icd/release/11/2024-01/mms/896293199",
+        "http://id.who.int/icd/release/11/2024-01/mms/1094217460",
+        "http://id.who.int/icd/release/11/2024-01/mms/238069351"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1237451411/postcoordinationScale/hasAlternativeSeverity1",
+      "axisName": "http://id.who.int/icd/schema/hasAlternativeSeverity1",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2023608436",
+        "http://id.who.int/icd/release/11/2024-01/mms/2001687278",
+        "http://id.who.int/icd/release/11/2024-01/mms/222322191",
+        "http://id.who.int/icd/release/11/2024-01/mms/841991559",
+        "http://id.who.int/icd/release/11/2024-01/mms/697502435"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Urothelial carcinoma of bladder"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Urothelial carcinoma of bladder"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "TCC - [transitional cell carcinoma] of bladder"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Non-papillary transitional cell carcinoma of the bladder"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1541108245"
+    }
+  ]
+}

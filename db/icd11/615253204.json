@@ -1,0 +1,148 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/615253204",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/925320484"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#615253204",
+  "code": "BD71.4",
+  "source": "http://id.who.int/icd/entity/615253204",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/615253204/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/615253204/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2131830168",
+        "http://id.who.int/icd/release/11/2024-01/mms/20963081",
+        "http://id.who.int/icd/release/11/2024-01/mms/944206409",
+        "http://id.who.int/icd/release/11/2024-01/mms/1517755559",
+        "http://id.who.int/icd/release/11/2024-01/mms/1458260872",
+        "http://id.who.int/icd/release/11/2024-01/mms/841784239",
+        "http://id.who.int/icd/release/11/2024-01/mms/627942161",
+        "http://id.who.int/icd/release/11/2024-01/mms/1047398280",
+        "http://id.who.int/icd/release/11/2024-01/mms/1993918130"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Lower limb deep vein thrombosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Thrombosis within the deep venous system of the lower limb."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "deep vein thrombosis NOS"
+      }
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/450519836",
+    "http://id.who.int/icd/entity/1914718106"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Lower limb deep vein thrombosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Venous thrombosis of deep veins of lower extremity"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Thrombosis of deep vein of lower extremity"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Thrombosis of deep vein of leg"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "DVT NOS - [deep vein thrombosis not otherwise specified]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "DVT - [deep vein thrombosis]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "deep vein thrombosis NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Femoropopliteal deep vein thrombosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/894081465"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Deep vein thrombosis of femoral vein"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/894081465"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Femoral vein thrombosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/894081465"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Crural vein thrombosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1316507013"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Deep vein thrombosis of lower leg"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1316507013"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Calf vein thrombosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1316507013"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1261495652",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/980864631"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1261495652",
+  "code": "9A73",
+  "source": "http://id.who.int/icd/entity/1261495652",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1261495652/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Exposure keratitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is an exposure condition in which the eye's cornea, the front part of the eye, becomes inflamed. The condition is often marked by moderate to intense pain and usually involves impaired eyesight. May cause feelings of scratching each time individual blinks eye."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Exposure keratitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Exposure keratitis due to exophthalmus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1762053930"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Exposure keratitis due to incomplete eyelid closure"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1851327281"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Exposure keratitis due to lid abnormalities"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1354703225"
+    }
+  ]
+}

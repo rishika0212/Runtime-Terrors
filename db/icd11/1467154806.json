@@ -1,0 +1,93 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1467154806",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/658360080"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1408386909",
+    "http://id.who.int/icd/release/11/2024-01/mms/857589016",
+    "http://id.who.int/icd/release/11/2024-01/mms/1467154806/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1467154806/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1467154806",
+  "code": "GB42",
+  "source": "http://id.who.int/icd/entity/1467154806",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1467154806/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/84161233",
+        "http://id.who.int/icd/release/11/2024-01/mms/1877494378",
+        "http://id.who.int/icd/release/11/2024-01/mms/69778702",
+        "http://id.who.int/icd/release/11/2024-01/mms/923657942",
+        "http://id.who.int/icd/release/11/2024-01/mms/1359757645",
+        "http://id.who.int/icd/release/11/2024-01/mms/591736785",
+        "http://id.who.int/icd/release/11/2024-01/mms/1039550850/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/1039550850/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Persistent proteinuria or albuminuria"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Persistent albuminuria >3mg/mmol creatinine or >30mg/day is regarded as abnormal, indicative and often the first manifestation of chronic kidney disease (KDOQI, KDIGO). In surveillance for CKD in “at risk” patients such as diabetics, urinalysis for albuminuria is recommended by most clinical practice guidelines. This diagnosis does not refer to intermittent proteinuria as in orthostatic or exercise induced proteinuria, nor to non-albuminuric proteinuria such as Bence Jones (immunoglobulin light chain) proteinuria."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Orthostatic proteinuria"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2144070055",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2144070055"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "proteinuria NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/930895737",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/930895737"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gestational proteinuria without hypertension"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/991075106",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/991075106"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bence Jones proteinuria"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/696187905",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/696187905"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nephrotic syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1184209951",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1184209951"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "albuminuria NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/930895737",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/930895737"
+    }
+  ]
+}

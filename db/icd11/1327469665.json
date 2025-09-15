@@ -1,0 +1,51 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1327469665",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1594312948"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/873018279",
+    "http://id.who.int/icd/release/11/2024-01/mms/1206362163",
+    "http://id.who.int/icd/release/11/2024-01/mms/1115191723",
+    "http://id.who.int/icd/release/11/2024-01/mms/1522101892",
+    "http://id.who.int/icd/release/11/2024-01/mms/1327469665/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1327469665/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1327469665",
+  "code": "DA20",
+  "source": "http://id.who.int/icd/entity/1327469665",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1327469665/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/72252748"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acquired anatomical alterations of the oesophagus"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This group incorporates oesophageal disorders principally due to acquired morphological changes of the oesophagus."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Structural developmental anomalies of oesophagus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1999264345",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1999264345"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ]
+}

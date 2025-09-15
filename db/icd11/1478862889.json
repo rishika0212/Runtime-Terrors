@@ -1,0 +1,75 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1478862889",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/672106711"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1478862889",
+  "code": "2A01.00",
+  "source": "http://id.who.int/icd/entity/1478862889",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1478862889/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1979147242",
+        "http://id.who.int/icd/release/11/2024-01/mms/1284492970"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1478862889/postcoordinationScale/histopathology",
+      "axisName": "http://id.who.int/icd/schema/histopathology",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1130915844",
+        "http://id.who.int/icd/release/11/2024-01/mms/1295213329",
+        "http://id.who.int/icd/release/11/2024-01/mms/1178041789",
+        "http://id.who.int/icd/release/11/2024-01/mms/689614936"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1478862889/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Primary malignant meningioma"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary malignant meningioma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "meningeal sarcoma of unspecified site"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "meningothelial sarcoma of unspecified site"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Familial multiple meningioma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/160795085"
+    }
+  ]
+}

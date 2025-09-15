@@ -1,0 +1,50 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1255654700",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1310497511"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1255654700",
+  "code": "8A61.11",
+  "source": "http://id.who.int/icd/entity/1255654700",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1255654700/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/539646260"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Dravet syndrome"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A refractory epileptic encephalopathy occurring in otherwise healthy infants during the first year of life with clonic/tonic-clonic, generalised and unilateral seizures, hemiclonic or generalised status epilepticus. The interictal EEG may initially be normal but with time background activity deteriorates and bilateral asymmetric, focal or multifocal paroxysms of polyspike and slow-waves appear. Mutations in the voltage-gated sodium channel gene SCN1A are commonly found."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/564191997"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/2083324835"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dravet syndrome"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Severe myoclonic epilepsy in infancy"
+      }
+    }
+  ]
+}

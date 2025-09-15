@@ -1,0 +1,71 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2117585407",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1352501137"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2117585407",
+  "code": "DB60.3",
+  "source": "http://id.who.int/icd/entity/2117585407",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2117585407/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Fourth degree haemorrhoids"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "(grade IV): Fourth-degree haemorrhoids cannot be pushed back into the anal canal and permanently prolapsed."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Haemorrhoids (bleeding) with prolapsed tissue that cannot be manually reduced"
+      }
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1765077136",
+    "http://id.who.int/icd/entity/109909861"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fourth degree haemorrhoids"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "stage IV haemorrhoids"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Haemorrhoids (bleeding) with prolapsed tissue that cannot be manually reduced"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Grade IV haemorrhoids"
+      }
+    }
+  ]
+}

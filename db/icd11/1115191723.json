@@ -1,0 +1,64 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1115191723",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1327469665"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1115191723",
+  "code": "DA20.2",
+  "source": "http://id.who.int/icd/entity/1115191723",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Plummer-Vinson syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1568337509",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1577750667/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1115191723/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Oesophageal web"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Oesophageal web is a thin membrane located in the middle or upper oesophagus, resulting in pain and dysphagia."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital oesophageal web or ring"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/325400233",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/325400233"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Oesophageal web"
+      }
+    }
+  ]
+}

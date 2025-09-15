@@ -1,0 +1,83 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/495078252",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1707270816"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#495078252",
+  "code": "BC02.31",
+  "source": "http://id.who.int/icd/entity/495078252",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/495078252/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/460401849",
+        "http://id.who.int/icd/release/11/2024-01/mms/1642025150",
+        "http://id.who.int/icd/release/11/2024-01/mms/1162198017",
+        "http://id.who.int/icd/release/11/2024-01/mms/431804121"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/495078252/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/562478860",
+        "http://id.who.int/icd/release/11/2024-01/mms/1663264387",
+        "http://id.who.int/icd/release/11/2024-01/mms/1201187093"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/495078252/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Insufficiency of the neoaortic valve of pulmonary origin"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Acquired backward flow through the neo-aortic valve of pulmonary origin, that is, the native pulmonary valve that has become the functional neo-aortic valve.\nExamples of hearts in which a neo-aortic valve has been created include the aortopulmonary anastomosis (Damus-Kaye-Stansel, Norwood procedures), pulmonary valve autograft (Ross procedure), and arterial switch operation."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1380872553"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Insufficiency of the neoaortic valve of pulmonary origin"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neo-aortic valve regurgitation"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neo-aortic valve incompetence"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neoaortic valve insufficiency"
+      }
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/653179449",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1014964218"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#653179449",
+  "code": "BB00.1",
+  "source": "http://id.who.int/icd/entity/653179449",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic thromboembolic pulmonary hypertension"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1567490107",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1567490107"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/653179449/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2034447649",
+        "http://id.who.int/icd/release/11/2024-01/mms/1210083104",
+        "http://id.who.int/icd/release/11/2024-01/mms/1852527073"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Chronic pulmonary thromboembolism"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Chronic pulmonary thromboembolism is defined as a partial or complete occlusion of at least one major pulmonary arterial branch in the presence of a mean pulmonary artery pressure 25mmHg at rest, and normal left ventricular filling pressures, despite effective coagulation over at least three months."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1380872553"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic pulmonary thromboembolism"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic pulmonary thromboembolism without pulmonary hypertension"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1028740777"
+    }
+  ]
+}

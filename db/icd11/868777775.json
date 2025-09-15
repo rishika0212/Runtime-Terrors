@@ -1,0 +1,67 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/868777775",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1918887625"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#868777775",
+  "code": "EA90.53",
+  "source": "http://id.who.int/icd/entity/868777775",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/868777775/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/294531567",
+        "http://id.who.int/icd/release/11/2024-01/mms/402925049"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Anogenital psoriasis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Psoriasis involving anogenital skin including the vulva, penis or perianal area."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Anogenital psoriasis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Penile psoriasis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1383609516"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Vulval psoriasis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1132496727"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Perianal psoriasis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1466273606"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Psoriasis of natal cleft"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1466273606"
+    }
+  ]
+}

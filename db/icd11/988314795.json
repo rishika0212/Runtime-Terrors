@@ -1,0 +1,55 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/988314795",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/131793405"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/218751696",
+    "http://id.who.int/icd/release/11/2024-01/mms/103936902",
+    "http://id.who.int/icd/release/11/2024-01/mms/988314795/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/988314795/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#988314795",
+  "code": "FB86.1",
+  "source": "http://id.who.int/icd/entity/988314795",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ankylosing hyperostosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/879348960",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/879348960"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/988314795/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/988314795/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/183512318",
+        "http://id.who.int/icd/release/11/2024-01/mms/1415462031"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Bone hyperplasias"
+  }
+}

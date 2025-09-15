@@ -1,0 +1,96 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/125842620",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/106136071"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#125842620",
+  "code": "1F6A.0",
+  "source": "http://id.who.int/icd/entity/125842620",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/125842620/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/657977518",
+        "http://id.who.int/icd/release/11/2024-01/mms/1211141166",
+        "http://id.who.int/icd/release/11/2024-01/mms/887583241"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Onchocerciasis of the eye"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease of the eye, caused by an infection with the parasitic worm Onchocerca volvulus. This disease is characterised by transient punctate keratitis, or potentially blinding conditions (such as sclerosing keratitis, iridocyclitis, or optic atrophy). Transmission is through the bite of an infected Simulium fly. Confirmation is by identification of Onchocerca volvulus from the anterior chamber of the eye."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ocular onchocerciasis"
+      }
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1945127438"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Onchocerciasis of the eye"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Onchophthalmia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "River blindness"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "River valley blindness"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ocular onchocerciasis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Onchocerciasis with endophthalmitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/67520155"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Glaucoma due to onchocerciasis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/171392543"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "onchocerciasis with glaucoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/171392543"
+    }
+  ]
+}

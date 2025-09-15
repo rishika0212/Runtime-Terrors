@@ -1,0 +1,91 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/74527684",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1164983645"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#74527684",
+  "code": "BD54",
+  "source": "http://id.who.int/icd/entity/74527684",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/74527684/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/74527684/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1896004518"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/74527684/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/188156827"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/74527684/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1651053999",
+        "http://id.who.int/icd/release/11/2024-01/mms/119724091",
+        "http://id.who.int/icd/release/11/2024-01/mms/1150913605",
+        "http://id.who.int/icd/release/11/2024-01/mms/381961554",
+        "http://id.who.int/icd/release/11/2024-01/mms/1697306310"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Diabetic foot ulcer"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Chronic foot ulcers occur in as many as 15–25% of diabetic patients. The underlying aetiology is a combination of disturbed sensation from diabetic neuropathy and impaired perfusion from diabetic vasculopathy. Poor foot care, abnormal foot structure, or poorly fitting shoes increase the risk of diabetic foot ulcers. The ulcers typically occur in areas of increased plantar pressure, especially beneath the metatarsal heads."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1380872553"
+  ],
+  "codingNote": {
+    "@language": "en",
+    "@value": "Always assign an additional code for diabetes mellitus."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Diabetic foot ulcer"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Diabetic foot"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neuropathic ulceration of foot due to diabetes"
+      }
+    }
+  ]
+}

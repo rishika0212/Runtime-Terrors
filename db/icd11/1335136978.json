@@ -1,0 +1,73 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1335136978",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/266977088"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/797489061",
+    "http://id.who.int/icd/release/11/2024-01/mms/1254324785",
+    "http://id.who.int/icd/release/11/2024-01/mms/1047407310",
+    "http://id.who.int/icd/release/11/2024-01/mms/1335136978/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1335136978",
+  "code": "FB55",
+  "source": "http://id.who.int/icd/entity/1335136978",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1335136978/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1335136978/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1753246500",
+        "http://id.who.int/icd/release/11/2024-01/mms/8274514",
+        "http://id.who.int/icd/release/11/2024-01/mms/1477031686",
+        "http://id.who.int/icd/release/11/2024-01/mms/1321950693"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Certain specified enthesopathies"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bursitis related to use, overuse or pressure"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/443957299",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/443957299"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "spinal enthesopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/56498807",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/56498807"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteophyte"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/292283259",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/292283259"
+    }
+  ]
+}

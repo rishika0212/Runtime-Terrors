@@ -1,0 +1,102 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/691084626",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/826335789"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#691084626",
+  "code": "8B10.0",
+  "source": "http://id.who.int/icd/entity/691084626",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/691084626/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1141586109"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Amaurosis fugax"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A transient episode of acute visual dysfunction caused by retinal ischaemia. Symptoms should resolve completely within 24 hours."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/564191997"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1526436336"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Amaurosis fugax"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "momentary blindness"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "transient monocular blindness"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "AF - [amaurosis fugax]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Transient vision loss, spontaneous"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Amaurosis fugax, course of resolution unspecified"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Transient vision loss, spontaneous, complete resolution within 1 to 24 hours"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1180967557"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Amaurosis fugax, complete resolution within 1 to 24 hours"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1180967557"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Transient vision loss, spontaneous, complete resolution within less than 1 hour"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/661197568"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Amaurosis fugax, complete resolution within less than 1 hour"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/661197568"
+    }
+  ]
+}

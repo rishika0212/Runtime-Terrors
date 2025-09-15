@@ -1,0 +1,96 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/536337528",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/357208479"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#536337528",
+  "code": "9B73.2",
+  "source": "http://id.who.int/icd/entity/536337528",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/536337528/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Retinal cysts"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A retinal cyst is a closed sac, having a distinct membrane and division compared to the nearby tissue in retina that can either be congenital or acquired."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cyst of ora serrata"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/729374474"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Parasitic cyst of retina"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1607733239"
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "congenital retinoschisis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/44221751",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/44221751"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Microcystoid degeneration of retina"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/332813459",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1518234440"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Retinal cysts"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cyst of ora serrata"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/729374474"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Parasitic cyst of retina"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1607733239"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pseudocyst of retina"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/962473987"
+    }
+  ]
+}

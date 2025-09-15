@@ -1,0 +1,69 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/708418764",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/723430526"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1342264365",
+    "http://id.who.int/icd/release/11/2024-01/mms/115152826",
+    "http://id.who.int/icd/release/11/2024-01/mms/674623750",
+    "http://id.who.int/icd/release/11/2024-01/mms/1274367546",
+    "http://id.who.int/icd/release/11/2024-01/mms/708418764/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/708418764/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#708418764",
+  "code": "BD70",
+  "source": "http://id.who.int/icd/entity/708418764",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Superficial thrombophlebitis in pregnancy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2140253838",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2140253838"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Superficial thrombophlebitis in the puerperium"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/392923664",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/392923664"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/708418764/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/708418764/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/821283472",
+        "http://id.who.int/icd/release/11/2024-01/mms/1832356831",
+        "http://id.who.int/icd/release/11/2024-01/mms/389580608",
+        "http://id.who.int/icd/release/11/2024-01/mms/929449332",
+        "http://id.who.int/icd/release/11/2024-01/mms/1725328867",
+        "http://id.who.int/icd/release/11/2024-01/mms/1381503063"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Superficial thrombophlebitis"
+  }
+}

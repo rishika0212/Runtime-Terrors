@@ -1,0 +1,106 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2137507044",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1167224858"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2137507044",
+  "code": "MG43.7",
+  "source": "http://id.who.int/icd/entity/2137507044",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2137507044/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1381875066",
+        "http://id.who.int/icd/release/11/2024-01/mms/133673893",
+        "http://id.who.int/icd/release/11/2024-01/mms/480150735",
+        "http://id.who.int/icd/release/11/2024-01/mms/286779656",
+        "http://id.who.int/icd/release/11/2024-01/mms/1153296343"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Anorexia"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Anorexia is a pathological lack or loss of appetite."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Loss of appetite"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "loss of appetite of nonorganic origin"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1412387537",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1412387537"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "anorexia nervosa"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/263852475",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/263852475"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Decreased appetite"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2119032619",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2119032619"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Anorexia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "anorectic"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "anorexic"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "lack of appetite"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Loss of appetite"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "dysorexia"
+      }
+    }
+  ]
+}

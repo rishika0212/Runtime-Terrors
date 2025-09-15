@@ -1,0 +1,52 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/157756569",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/545773433"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#157756569",
+  "code": "9B10.23",
+  "source": "http://id.who.int/icd/entity/157756569",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/157756569/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/157756569/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/499924848"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Subcapsular glaucomatous flecks"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Subcapsular glaucomatous flecks"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "glaucomatous flecks"
+      }
+    }
+  ]
+}

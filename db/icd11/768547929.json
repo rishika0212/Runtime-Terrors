@@ -1,0 +1,64 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/768547929",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/886187088"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#768547929",
+  "code": "GA32.2",
+  "source": "http://id.who.int/icd/entity/768547929",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/768547929/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/768547929/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/460401849",
+        "http://id.who.int/icd/release/11/2024-01/mms/1642025150",
+        "http://id.who.int/icd/release/11/2024-01/mms/1583926619",
+        "http://id.who.int/icd/release/11/2024-01/mms/2024436666",
+        "http://id.who.int/icd/release/11/2024-01/mms/1162198017",
+        "http://id.who.int/icd/release/11/2024-01/mms/431804121",
+        "http://id.who.int/icd/release/11/2024-01/mms/1323892810",
+        "http://id.who.int/icd/release/11/2024-01/mms/1669303982"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Infection associated with medically assisted reproduction"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Significant genital or pelvic infection occurring after egg retrieval or other treatment with medically assisted reproduction"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infection associated with medically assisted reproduction"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "infection associated with artificial insemination"
+      }
+    }
+  ]
+}

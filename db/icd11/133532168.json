@@ -1,0 +1,188 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/133532168",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1210263011"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#133532168",
+  "code": "GB54",
+  "source": "http://id.who.int/icd/entity/133532168",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/133532168/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/133532168/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Tubulo-interstitial nephritis, not specified as acute or chronic"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease characterised by inflammation of and damage to tubules or the interstitium of the kidney while sparing the glomeruli secondary to immune reaction or toxic agent."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "calculous pyelonephritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/295907514",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/295907514"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tubulo-interstitial nephritis, not specified as acute or chronic"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "tubulo-interstitial nephritis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "renal disease with interstitial nephritis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital pyelitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2099653030"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cystopyelitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1502033208"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pyelocystitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1502033208"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Kidney tubular function disease or disorder"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2098162508"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "impaired tubulo-renal function"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2098162508"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "renal tubular disorder"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2098162508"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "renal tubular dysfunction"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2098162508"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "tubular renal disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2098162508"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "tubulopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2098162508"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Interstitial nephritis, not otherwise specified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/146403129"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nonobstructive pyelonephritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/739832747"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pustular nephrocystitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/188939084"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pyelitis not otherwise specified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/997265608"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pyelonephritis not otherwise specified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1515545517"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pyonephritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1272641957"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Uremic pyelitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/896033658"
+    }
+  ]
+}

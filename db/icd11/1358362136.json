@@ -1,0 +1,46 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1358362136",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/592240375"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1358362136",
+  "code": "PK04",
+  "source": "http://id.who.int/icd/entity/1358362136",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1358362136/postcoordinationScale/objectOrSubstanceProducingInjury",
+      "axisName": "http://id.who.int/icd/schema/objectOrSubstanceProducingInjury",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1656506786",
+        "http://id.who.int/icd/release/11/2024-01/mms/1539630306",
+        "http://id.who.int/icd/release/11/2024-01/mms/1610657031"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1358362136/postcoordinationScale/aspectsOfArmedConflict",
+      "axisName": "http://id.who.int/icd/schema/aspectsOfArmedConflict",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowedExceptFromSameBlock",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/517417642",
+        "http://id.who.int/icd/release/11/2024-01/mms/699071140"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Unarmed combat during armed conflict"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unarmed combat during armed conflict"
+      }
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1295562681",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1997348476"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1295562681",
+  "code": "BB65",
+  "source": "http://id.who.int/icd/entity/1295562681",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1295562681/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/395424725",
+        "http://id.who.int/icd/release/11/2024-01/mms/1697151268"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Mitral valve rupture"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Rupture of papillary muscle or chordae tendineae as current complication following acute myocardial infarction"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/165648238",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/165648238"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1380872553"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mitral valve rupture"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Rupture of mitral valve chordae tendineae"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1874552286"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Rupture of mitral valve papillary muscle"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1451711273"
+    }
+  ]
+}

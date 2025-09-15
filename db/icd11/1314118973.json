@@ -1,0 +1,79 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1314118973",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/680965837"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1314118973",
+  "code": "FA25.12",
+  "source": "http://id.who.int/icd/entity/1314118973",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1314118973/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1363003152",
+        "http://id.who.int/icd/release/11/2024-01/mms/1959335168",
+        "http://id.who.int/icd/release/11/2024-01/mms/192726145",
+        "http://id.who.int/icd/release/11/2024-01/mms/223741850",
+        "http://id.who.int/icd/release/11/2024-01/mms/319259361",
+        "http://id.who.int/icd/release/11/2024-01/mms/223046766"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1314118973/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1766440644",
+        "http://id.who.int/icd/release/11/2024-01/mms/1954798891",
+        "http://id.who.int/icd/release/11/2024-01/mms/21500692",
+        "http://id.who.int/icd/release/11/2024-01/mms/223744320"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Gouty arthropathy due to enzyme defects or other inherited disorders"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gouty arthropathy due to enzyme defects or other inherited disorders"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute gouty arthropathy due to enzyme defects or other inherited disorders"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/195262310"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic gouty arthropathy due to enzyme defects or other inherited disorders"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/591717703"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gouty arthropathy in Lesch-Nyhan syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/805341050"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gouty arthropathy in sickle-cell disorders"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1359853309"
+    }
+  ]
+}

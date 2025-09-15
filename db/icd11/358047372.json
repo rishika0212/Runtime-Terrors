@@ -1,0 +1,142 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/358047372",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/188684108"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#358047372",
+  "code": "KA65.0",
+  "source": "http://id.who.int/icd/entity/358047372",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/358047372/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Neonatal conjunctivitis or dacryocystitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This refers to inflammation of the conjunctiva (the outermost layer of the eye and the inner surface of the eyelids) and the inflammation of the nasolacrimal sac, frequently caused by nasolacrimal duct obstruction or infection."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gonococcal conjunctivitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/884042621",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1505778051"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neonatal conjunctivitis or dacryocystitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ophthalmia neonatorum NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neonatal conjunctivitis or dacryocystitis due to bacteria"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1339317328"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neonatal conjunctivitis or dacryocystitis due to Pseudomonas"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1968840345"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neonatal conjunctivitis or dacryocystitis due to Neisseria gonorrhoeae"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1255177601"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ophthalmia neonatorum due to gonococcus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1255177601"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neonatal conjunctivitis or dacryocystitis due to virus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/16716064"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neonatal conjunctivitis or dacryocystitis due to Chlamydia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1912611421"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ophthalmia neonatorum - chlamydial"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1912611421"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neonatal conjunctivitis due to Chlamydia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/159245683"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neonatal chlamydial conjunctivitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/159245683"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neonatal dacryocystitis due to Chlamydia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/119987759"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neonatal dacryocystitis, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1203690696"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neonatal conjunctivitis, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/303354393"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1516023078",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1305335252"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1058496688",
+    "http://id.who.int/icd/release/11/2024-01/mms/1270493263",
+    "http://id.who.int/icd/release/11/2024-01/mms/787611099",
+    "http://id.who.int/icd/release/11/2024-01/mms/1562340943",
+    "http://id.who.int/icd/release/11/2024-01/mms/1516023078/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1516023078/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1516023078",
+  "code": "9A03.1",
+  "source": "http://id.who.int/icd/entity/1516023078",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1516023078/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1516023078/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/844452979",
+        "http://id.who.int/icd/release/11/2024-01/mms/1468820019"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Entropion of eyelid"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/270343310",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/458687859"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#270343310",
+  "code": "1G83",
+  "source": "http://id.who.int/icd/entity/270343310",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/270343310/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1296093776",
+        "http://id.who.int/icd/release/11/2024-01/mms/1473673350"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Sequelae of poliomyelitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Sequelae of poliomyelitis refers to the residuals of acute poliomyelitis as well as other disorders that have an etiological link to either the acute polio infection or to chronic deficits resulting from the acute infection. Disorders that may manifest late in the lives of polio survivors include early advanced degenerative arthritis, sleep disorders, respiratory insufficiency, and a variety of mental disorders."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Post polio progressive muscular atrophy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2018885243",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2018885243"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/911707612"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sequelae of poliomyelitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Late effect of poliomyelitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "old polio NOS"
+      }
+    }
+  ]
+}

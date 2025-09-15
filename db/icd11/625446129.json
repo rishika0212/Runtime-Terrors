@@ -1,0 +1,61 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/625446129",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1839818377"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#625446129",
+  "code": "1B21.3",
+  "source": "http://id.who.int/icd/entity/625446129",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/625446129/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1811629557",
+        "http://id.who.int/icd/release/11/2024-01/mms/1419042429",
+        "http://id.who.int/icd/release/11/2024-01/mms/1520758575",
+        "http://id.who.int/icd/release/11/2024-01/mms/24942658",
+        "http://id.who.int/icd/release/11/2024-01/mms/246291168",
+        "http://id.who.int/icd/release/11/2024-01/mms/1956714047",
+        "http://id.who.int/icd/release/11/2024-01/mms/1271827895",
+        "http://id.who.int/icd/release/11/2024-01/mms/1871342005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1526993921",
+        "http://id.who.int/icd/release/11/2024-01/mms/2069550669",
+        "http://id.who.int/icd/release/11/2024-01/mms/390674113"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Disseminated non-tuberculous mycobacterial infection"
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/911707612"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Disseminated non-tuberculous mycobacterial infection"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Disseminated Mycobacterium avium-intracellulare infection"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1953154909"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "DMAC - [disseminated mycobacterium avium-intracellulare complex infection]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1953154909"
+    }
+  ]
+}

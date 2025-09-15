@@ -1,0 +1,76 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/437702716",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1458683894"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1428007510",
+    "http://id.who.int/icd/release/11/2024-01/mms/572130061",
+    "http://id.who.int/icd/release/11/2024-01/mms/1653508908",
+    "http://id.who.int/icd/release/11/2024-01/mms/437702716/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#437702716",
+  "code": "BD11",
+  "source": "http://id.who.int/icd/entity/437702716",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/437702716/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/206731332",
+        "http://id.who.int/icd/release/11/2024-01/mms/1232119755",
+        "http://id.who.int/icd/release/11/2024-01/mms/537685513",
+        "http://id.who.int/icd/release/11/2024-01/mms/175684441"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/437702716/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/437702716/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/465177735",
+        "http://id.who.int/icd/release/11/2024-01/mms/1492142148",
+        "http://id.who.int/icd/release/11/2024-01/mms/1210166201",
+        "http://id.who.int/icd/release/11/2024-01/mms/1015872326",
+        "http://id.who.int/icd/release/11/2024-01/mms/1280712786",
+        "http://id.who.int/icd/release/11/2024-01/mms/1121431779",
+        "http://id.who.int/icd/release/11/2024-01/mms/2135151223",
+        "http://id.who.int/icd/release/11/2024-01/mms/197934298"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Left ventricular failure"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A clinical syndrome characterised by abnormalities of left ventricular function resulting in pulmonary congestion and fluid retention."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Left heart failure"
+      }
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1611051049"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1378244108",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/559816116"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1378244108",
+  "code": "LB31.A",
+  "source": "http://id.who.int/icd/entity/1378244108",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1378244108/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Duplication of ureter"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition caused by failure of the ureter to correctly develop during the antenatal period, resulting in incorrect connection of the ureter to the kidney. This condition may present with ureteroureteral reflux, or ureteropelvic junction obstruction of the lower pole of the kidney in the case of incomplete duplication. Complete duplication may present with vesicoureteral reflux, ectopic ureterocele, or ectopic ureteral insertion. Confirmation is through observation of two ureters on one side by imaging."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Double ureter"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Accessory ureter"
+      }
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Duplication of ureter"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Double ureter"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bifid ureter"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ureter bifurcation"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Accessory ureter"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Double ureter with double pelvis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1998138881"
+    }
+  ]
+}

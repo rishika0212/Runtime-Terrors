@@ -1,0 +1,80 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1992638304",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1881255733"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1992638304",
+  "code": "DB10.1",
+  "source": "http://id.who.int/icd/entity/1992638304",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1992638304/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1290701352"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Chronic appendicitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A correctly diagnosed non-acute form of appendicitis. Chronic appendicitis is a disorder caused by inflammation of the appendix over a period of time. While acute appendicitis shows the typical manifestation of an inflamed appendix, chronic appendicitis may cause symptoms related to abdominal discomfort or more generalised symptoms. In this category chronic appendicitis only due to common bacterial infection is included, and appendicitis due to specific organisms is ruled out from here, and described elsewhere."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic appendicitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "recurrent appendicitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Rumbling appendicitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "grumbling appendix"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "healed appendicitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "interval appendicitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "obstructive appendicitis NOS"
+      }
+    }
+  ]
+}

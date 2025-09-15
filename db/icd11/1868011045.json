@@ -1,0 +1,176 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1868011045",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/95065212"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1868011045",
+  "code": "DA93.0",
+  "source": "http://id.who.int/icd/entity/1868011045",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Transitory ileus of newborn"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/465240566",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/465240566"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1868011045/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1493524587",
+        "http://id.who.int/icd/release/11/2024-01/mms/1928625572",
+        "http://id.who.int/icd/release/11/2024-01/mms/1741413713"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1868011045/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731",
+        "http://id.who.int/icd/release/11/2024-01/mms/1318533336",
+        "http://id.who.int/icd/release/11/2024-01/mms/1162198017"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Paralytic ileus"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A type of ileus, a functional not mechanical obstruction of the small intestines, and a state of pathophysiologic inhibition of motor activity due to non-mechanical causes. The paralysis does not need to be complete, but the intestinal muscles must be so inactive that it leads to a functional blockage of the intestine."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Obstructive ileus of small intestine due to impaction"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/198057480",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/198057480"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gallstone ileus of small intestine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/439791099",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/439791099"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/465240566"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paralytic ileus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "adynamic ileus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paralytic ileus of bowel"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ileus NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "paralysis of bowel"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "paralysis of intestine"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "adynamic intestinal obstruction"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "paralytic intestinal ileus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paralytic ileus of small intestine or colon"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1807863745"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paralytic ileus of small and large intestine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1807863745"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paralytic ileus of small intestine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1220146782"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paralytic ileus of large intestine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/399235103"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "adynamic colon ileus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/399235103"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "adynamic colonic ileus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/399235103"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "paralysis of colon"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/399235103"
+    }
+  ]
+}

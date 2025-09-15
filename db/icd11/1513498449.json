@@ -1,0 +1,70 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1513498449",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1729106757"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1513498449",
+  "code": "EC90.2",
+  "source": "http://id.who.int/icd/entity/1513498449",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1513498449/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1583926619",
+        "http://id.who.int/icd/release/11/2024-01/mms/1323892810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Drug-induced pruritus"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Pruritus attributable to drugs, in particular opioids."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1401753686"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced pruritus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pruritus due to antimalarials"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/280664129"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Opioid-induced pruritus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/479943229"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hydroxyethyl starch-induced pruritus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/860618683"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pruritus due to other specified drug"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1063927239"
+    }
+  ]
+}

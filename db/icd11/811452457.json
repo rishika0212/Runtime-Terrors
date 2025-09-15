@@ -1,0 +1,144 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/811452457",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1660422480"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#811452457",
+  "code": "NE85.6",
+  "source": "http://id.who.int/icd/entity/811452457",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/811452457/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/811452457/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/460401849",
+        "http://id.who.int/icd/release/11/2024-01/mms/1162198017"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Other or unspecified complications of amputation stump"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Phantom limb syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1994899048",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1994899048"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/59436623"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Other or unspecified complications of amputation stump"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Abnormal or painful amputation stump"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/361082075"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Amputation stump contracture"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/877844311"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Amputation stump oedema"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/674903061"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Oedema of amputation stump"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/674903061"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Contracture of next proximal joint of amputation stump"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1217920704"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Flexion of next proximal joint of amputation stump"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/678984949"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Haematoma of amputation stump"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/921296415"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Late complication of amputation stump"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/135265367"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Secondary or delayed haemorrhage of amputation stump"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/741400423"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Amputation stump haemorrhage"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/71859763"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gangrene of amputation stump"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1559748501"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ischaemic stump gangrene"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1559748501"
+    }
+  ]
+}

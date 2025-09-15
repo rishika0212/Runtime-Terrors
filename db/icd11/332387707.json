@@ -1,0 +1,93 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/332387707",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1359732999"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#332387707",
+  "code": "AB72.0",
+  "source": "http://id.who.int/icd/entity/332387707",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/332387707/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/332387707/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/588616678",
+        "http://id.who.int/icd/release/11/2024-01/mms/1904876434",
+        "http://id.who.int/icd/release/11/2024-01/mms/979278646",
+        "http://id.who.int/icd/release/11/2024-01/mms/1539889147",
+        "http://id.who.int/icd/release/11/2024-01/mms/1412960686",
+        "http://id.who.int/icd/release/11/2024-01/mms/1935092859",
+        "http://id.who.int/icd/release/11/2024-01/mms/487269828",
+        "http://id.who.int/icd/release/11/2024-01/mms/1000704511",
+        "http://id.who.int/icd/release/11/2024-01/mms/1104303944",
+        "http://id.who.int/icd/release/11/2024-01/mms/1585949804",
+        "http://id.who.int/icd/release/11/2024-01/mms/1959883044",
+        "http://id.who.int/icd/release/11/2024-01/mms/921595235",
+        "http://id.who.int/icd/release/11/2024-01/mms/1251496839",
+        "http://id.who.int/icd/release/11/2024-01/mms/1136802325",
+        "http://id.who.int/icd/release/11/2024-01/mms/145723401",
+        "http://id.who.int/icd/release/11/2024-01/mms/985510409",
+        "http://id.who.int/icd/release/11/2024-01/mms/1646490591",
+        "http://id.who.int/icd/release/11/2024-01/mms/1939815950",
+        "http://id.who.int/icd/release/11/2024-01/mms/255141529",
+        "http://id.who.int/icd/release/11/2024-01/mms/293771399",
+        "http://id.who.int/icd/release/11/2024-01/mms/1760597414",
+        "http://id.who.int/icd/release/11/2024-01/mms/458687859",
+        "http://id.who.int/icd/release/11/2024-01/mms/1435254666/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acoustic neuritis"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acoustic neuritis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "auditory nerve neuritis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "eighth cranial nerve neuritis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "vestibulocochlearis nerve neuritis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acoustic neuritis in infectious and parasitic diseases"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/517980346"
+    }
+  ]
+}

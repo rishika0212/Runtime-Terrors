@@ -1,0 +1,71 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/889423501",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/433284171"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#889423501",
+  "code": "CA09.1",
+  "source": "http://id.who.int/icd/entity/889423501",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/889423501/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2116703819"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Chronic nasopharyngitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Persistent or recurrent inflammation of the top portion of the pharynx situated posterior to the nose and superior to the soft palate, usually including its mucosa, related lymphoid structure, and glands."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute nasopharyngitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2066255370",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2066255370"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/923122941"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic nasopharyngitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic rhinopharyngitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nasopharyngeal atrophy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1471262945"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nasopharyngeal catarrh"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/376222134"
+    }
+  ]
+}

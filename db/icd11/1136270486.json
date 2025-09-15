@@ -1,0 +1,56 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1136270486",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/517052870"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1632334328",
+    "http://id.who.int/icd/release/11/2024-01/mms/1136270486/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1136270486/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1136270486",
+  "code": "8A61.0",
+  "source": "http://id.who.int/icd/entity/1136270486",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1136270486/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/539646260"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Genetic epileptic syndromes with neonatal onset"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Epilepsy with onset in the first 30 days of life resulting from one or more known or presumed genetic defects in which seizures are the core symptom of the disorder."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neonatal seizures"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2083324835",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2083324835"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Epilepsy due to prenatal or perinatal brain insults"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1026250133",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1026250133"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/2083324835"
+  ]
+}

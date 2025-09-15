@@ -1,0 +1,185 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1323593849",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/760322910"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1323593849",
+  "code": "DB90.0",
+  "source": "http://id.who.int/icd/entity/1323593849",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Amoebic liver abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1730350429",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1730350429"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1323593849/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1323593849/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731",
+        "http://id.who.int/icd/release/11/2024-01/mms/1290701352"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1323593849/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Abscess of liver"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition of the liver, caused by an infection with a bacterial, viral, or fungal source. This condition is characterised by a focal accumulation of purulent material in the liver. This condition may present with fever, abdominal pain, or shock. Confirmation is by advanced imaging or ultrasonography."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pylephlebitis without liver abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/866276949",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/866276949"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Abscess of liver"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hepatic abscess NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bacterial liver abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1639399112"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pyogenic liver abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1639399112"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pyogenic hepatic abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1639399112"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cholangitic liver abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1274900023"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cholangitic hepatic abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1274900023"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Haematogenic liver abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1938881142"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "haematogenic hepatic abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1938881142"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Lymphogenic liver abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/629835391"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "lymphogenic hepatic abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/629835391"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Capillariasis due to Capillaria hepatica"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/460330876"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Periportal abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1160102000"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pylephlebitic hepatic abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/37543794"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pylephlebitis hepatic abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/37543794"
+    }
+  ]
+}

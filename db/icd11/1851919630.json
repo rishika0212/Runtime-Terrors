@@ -1,0 +1,65 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1851919630",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2083995737"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1188133517",
+    "http://id.who.int/icd/release/11/2024-01/mms/1067183755",
+    "http://id.who.int/icd/release/11/2024-01/mms/1851919630/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1851919630/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1851919630",
+  "code": "8D43.2",
+  "source": "http://id.who.int/icd/entity/1851919630",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Alcoholic polyneuropathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/597341977",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/597341977"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1851919630/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/425464783"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1851919630/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/980862652",
+        "http://id.who.int/icd/release/11/2024-01/mms/851395624",
+        "http://id.who.int/icd/release/11/2024-01/mms/73322695",
+        "http://id.who.int/icd/release/11/2024-01/mms/128104623",
+        "http://id.who.int/icd/release/11/2024-01/mms/1491356379",
+        "http://id.who.int/icd/release/11/2024-01/mms/491063206",
+        "http://id.who.int/icd/release/11/2024-01/mms/185842968",
+        "http://id.who.int/icd/release/11/2024-01/mms/2143219175",
+        "http://id.who.int/icd/release/11/2024-01/mms/558785723",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Neuropathy due to toxicity"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "In considering the diagnosis of toxic neuropathy, two criteria should be met: (1) Exposure can be verified and temporally related to the onset of clinical symptoms. Neuropathic symptoms usually occur concurrently with the exposure or following a variable latency of up to several months. (2) There must be neurological signs and abnormal electrodiagnostic studies, because many toxic neuropathies are subclinical, subjective symptoms may or may not occur. Removal from exposure results in cessation of progression of symptoms and the deficit. Most toxins produce symmetrical axonal degeneration in a length-dependent pattern, beginning in the distal segments of the long and large-calibre nerve fibres eventually spreading proximally with continued exposure. In addition to motor and/or sensory deficits, severe pain may be a characteristic feature."
+  }
+}

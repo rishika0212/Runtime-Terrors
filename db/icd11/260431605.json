@@ -1,0 +1,65 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/260431605",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1971756453"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2098808565",
+    "http://id.who.int/icd/release/11/2024-01/mms/260431605/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/260431605/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#260431605",
+  "code": "CA03",
+  "source": "http://id.who.int/icd/entity/260431605",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/260431605/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acute tonsillitis"
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Acute tonsillitis is a mostly bacterial infection of palatine tonsils with Staphylococcus aureus or Streptococci. Viral infection or chlamydial infection are also alternative causes. Signs and symptoms of acute tonsillitis include swollen tonsils, sore throat and difficulty swallowing. Severe pharyngeal pain and swallowing pain are prominent with high fever, headache, general fatigue. The common cold, aging and stress can be the triggering factor of disease onset. Whitish purulent plug formation in tonsillar crypts is also characteristic. If the infection becomes very serious, it may extend to peritonsillar space and consequently peritonsillar abscess occurs. Chronic tonsillitis is recognized as a recurrent acute tonsillitis."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Streptococcal pharyngitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1642172022",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1642172022"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute pharyngitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1791890273",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1791890273"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Peritonsillar abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1782446047",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1782446047"
+    }
+  ]
+}

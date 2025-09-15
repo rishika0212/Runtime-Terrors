@@ -1,0 +1,156 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1950717792",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2116214427"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1950717792",
+  "code": "DB98.8",
+  "source": "http://id.who.int/icd/entity/1950717792",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1950717792/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1950717792/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Passive congestion of liver"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition of congestion, due to impaired venous drainage, typically by right heart failure, that affects the liver."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hepatic veno-occlusive disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/762044088",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/762044088"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Budd-Chiari syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1300118676",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1300118676"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Passive congestion of liver"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute passive congestion of liver"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1812337576"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic passive congestion of liver"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/707272147"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "nutmeg liver"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/707272147"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "congestive liver"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/707272147"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hepatic congestion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/707272147"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "liver congestion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/707272147"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cardiac fibrosis and cirrhosis of liver"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1613222364"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cardiac cirrhosis of liver"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1613222364"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cardiac sclerosis of liver"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1613222364"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cirrhose cardiaque"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1613222364"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "congestive cirrhosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1613222364"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cardiac cirrhosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1613222364"
+    }
+  ]
+}

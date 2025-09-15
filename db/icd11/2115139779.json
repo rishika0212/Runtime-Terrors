@@ -1,0 +1,68 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2115139779",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1997348476"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/153725862",
+    "http://id.who.int/icd/release/11/2024-01/mms/874093341",
+    "http://id.who.int/icd/release/11/2024-01/mms/2115139779/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2115139779",
+  "code": "BB60",
+  "source": "http://id.who.int/icd/entity/2115139779",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postprocedural mitral valve stenosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1892669517",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1892669517"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2115139779/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2136808878",
+        "http://id.who.int/icd/release/11/2024-01/mms/437702716",
+        "http://id.who.int/icd/release/11/2024-01/mms/1754821737",
+        "http://id.who.int/icd/release/11/2024-01/mms/1594578199",
+        "http://id.who.int/icd/release/11/2024-01/mms/1992125824",
+        "http://id.who.int/icd/release/11/2024-01/mms/1458683894/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/1458683894/unspecified"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2115139779/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/562478860",
+        "http://id.who.int/icd/release/11/2024-01/mms/1663264387",
+        "http://id.who.int/icd/release/11/2024-01/mms/1201187093"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Mitral valve stenosis"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mitral valve stenosis with insufficiency"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2043723510",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2043723510"
+    }
+  ]
+}

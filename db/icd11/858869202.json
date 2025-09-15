@@ -1,0 +1,97 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/858869202",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1757898640"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#858869202",
+  "code": "2F20.3",
+  "source": "http://id.who.int/icd/entity/858869202",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/858869202/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/223243926",
+        "http://id.who.int/icd/release/11/2024-01/mms/947150833",
+        "http://id.who.int/icd/release/11/2024-01/mms/1810600222"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/858869202/postcoordinationScale/histopathology",
+      "axisName": "http://id.who.int/icd/schema/histopathology",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1481399604",
+        "http://id.who.int/icd/release/11/2024-01/mms/1199375606",
+        "http://id.who.int/icd/release/11/2024-01/mms/574837203",
+        "http://id.who.int/icd/release/11/2024-01/mms/935192475",
+        "http://id.who.int/icd/release/11/2024-01/mms/1564097068",
+        "http://id.who.int/icd/release/11/2024-01/mms/1213903814",
+        "http://id.who.int/icd/release/11/2024-01/mms/137856131",
+        "http://id.who.int/icd/release/11/2024-01/mms/954308505",
+        "http://id.who.int/icd/release/11/2024-01/mms/1660031444",
+        "http://id.who.int/icd/release/11/2024-01/mms/1997318044",
+        "http://id.who.int/icd/release/11/2024-01/mms/1753200312",
+        "http://id.who.int/icd/release/11/2024-01/mms/729604718",
+        "http://id.who.int/icd/release/11/2024-01/mms/1562681815",
+        "http://id.who.int/icd/release/11/2024-01/mms/432902014",
+        "http://id.who.int/icd/release/11/2024-01/mms/1455769579",
+        "http://id.who.int/icd/release/11/2024-01/mms/1396560491",
+        "http://id.who.int/icd/release/11/2024-01/mms/375211266",
+        "http://id.who.int/icd/release/11/2024-01/mms/1565601828",
+        "http://id.who.int/icd/release/11/2024-01/mms/1390983346",
+        "http://id.who.int/icd/release/11/2024-01/mms/1835195304",
+        "http://id.who.int/icd/release/11/2024-01/mms/1418342908",
+        "http://id.who.int/icd/release/11/2024-01/mms/997952341",
+        "http://id.who.int/icd/release/11/2024-01/mms/1100054308",
+        "http://id.who.int/icd/release/11/2024-01/mms/1160571164",
+        "http://id.who.int/icd/release/11/2024-01/mms/1335971448",
+        "http://id.who.int/icd/release/11/2024-01/mms/129237528",
+        "http://id.who.int/icd/release/11/2024-01/mms/50959400",
+        "http://id.who.int/icd/release/11/2024-01/mms/1507648172",
+        "http://id.who.int/icd/release/11/2024-01/mms/953915794",
+        "http://id.who.int/icd/release/11/2024-01/mms/1920647300",
+        "http://id.who.int/icd/release/11/2024-01/mms/15604794"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Generalised eruptive melanocytic naevi"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This phenomenon describes the rapid simultaneous appearance of multiple melanocytic naevi, often hundreds in number, on previously uninvolved sun-exposed skin. The phenomenon has been linked to immunosuppression, particularly in renal transplant recipients and in individuals receiving cancer chemotherapy, and may be considered a more advanced counterpart of generalised eruptive lentiginosis."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Multiple benign melanocytic naevi"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1971711642",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1971711642"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Generalized eruptive lentiginosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2052676433",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2052676433"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Generalised eruptive melanocytic naevi"
+      }
+    }
+  ]
+}

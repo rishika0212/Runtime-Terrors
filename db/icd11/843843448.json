@@ -1,0 +1,69 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/843843448",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1296093776"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1990827977",
+    "http://id.who.int/icd/release/11/2024-01/mms/1427441570",
+    "http://id.who.int/icd/release/11/2024-01/mms/1442995018",
+    "http://id.who.int/icd/release/11/2024-01/mms/1935481507",
+    "http://id.who.int/icd/release/11/2024-01/mms/581897143",
+    "http://id.who.int/icd/release/11/2024-01/mms/1606819573",
+    "http://id.who.int/icd/release/11/2024-01/mms/805990521",
+    "http://id.who.int/icd/release/11/2024-01/mms/982373217",
+    "http://id.who.int/icd/release/11/2024-01/mms/1173205716",
+    "http://id.who.int/icd/release/11/2024-01/mms/843843448/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#843843448",
+  "code": "",
+  "source": "http://id.who.int/icd/entity/843843448",
+  "classKind": "block",
+  "blockId": "BlockL1-8B0",
+  "codeRange": "8B00-8B2Z",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Asymptomatic stenosis of intracranial or extracranial artery"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/860460764",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/860460764"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Asymptomatic occlusion of intracranial or extracranial artery"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/723758842",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/723758842"
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Cerebrovascular diseases"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is a group of brain dysfunctions related to disease of the blood vessels supplying the brain. This includes “stroke”, which includes the following entities: Intracerebral haemorrhage; Subarachnoid haemorrhage; Cerebral ischaemic stroke; and Stroke not known if ischaemic or haemorrhagic."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cerebrovascular disease with mention of hypertension"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Intracranial injury"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/277610609",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/277610609"
+    }
+  ]
+}

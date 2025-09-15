@@ -1,0 +1,84 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1548485475",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1609206873"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1843774992",
+    "http://id.who.int/icd/release/11/2024-01/mms/1548485475/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1548485475/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1548485475",
+  "code": "BB71",
+  "source": "http://id.who.int/icd/entity/1548485475",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postprocedural aortic valve insufficiency"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1062361894",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1062361894"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Insufficiency of the neoaortic valve of pulmonary origin"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/495078252",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/495078252"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1548485475/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/562478860",
+        "http://id.who.int/icd/release/11/2024-01/mms/1663264387",
+        "http://id.who.int/icd/release/11/2024-01/mms/1201187093"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1548485475/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1548485475/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/749596428",
+        "http://id.who.int/icd/release/11/2024-01/mms/1327645131",
+        "http://id.who.int/icd/release/11/2024-01/mms/1929970386",
+        "http://id.who.int/icd/release/11/2024-01/mms/1173370808",
+        "http://id.who.int/icd/release/11/2024-01/mms/1938903985",
+        "http://id.who.int/icd/release/11/2024-01/mms/1360167380",
+        "http://id.who.int/icd/release/11/2024-01/mms/331905400",
+        "http://id.who.int/icd/release/11/2024-01/mms/576319925",
+        "http://id.who.int/icd/release/11/2024-01/mms/1505896560",
+        "http://id.who.int/icd/release/11/2024-01/mms/968811028",
+        "http://id.who.int/icd/release/11/2024-01/mms/1090088893"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Aortic valve insufficiency"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Aortic valve insufficiency results from leakage and backflow of blood that is ejected from the left ventricle into the ascending aorta back into the left ventricle."
+  }
+}

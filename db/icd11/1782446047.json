@@ -1,0 +1,182 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1782446047",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/767797954"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1782446047",
+  "code": "CA0K.1",
+  "source": "http://id.who.int/icd/entity/1782446047",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1782446047/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Peritonsillar abscess"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Peritonsillar abscess is defined with abscess formation between the tonsillar capsule and the tonsillar constrictor muscles. Peritonsillar abscess mostly comes from peritonsillitis. Fever rise, pharyngeal pain and swallowing pain are the main symptoms, but, it also causes a muffled voice. Uvula is deviated to the unaffected side and swelling and redness around the affected tonsil is remarkable. Bacterial examination from the peritonsillar pus often reveal streptococcus group A beta-haemolytic as the aerobic bacteria and the detection rate of anaerobic bacteria also amounted to more than half. The treatment consists of antimicrobial therapy and incision and drainage of the abscess. The symptoms improve with above treatment in the most cases, while in some cases the abscess proceeds to a deadly deep neck infection and mediastinal abscess. If there are systemic complications such as diabetes mellitus, special attention is required."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Quinsy"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute tonsillitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/260431605",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/260431605"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic tonsillitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1790351975",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/512796448"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "tonsillitis, NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/260431605",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/260431605"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "retropharyngeal abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/632678885",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/632678885"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/923122941"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Peritonsillar abscess"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Quinsy"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "angina tonsillaris"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "posttonsillar abscess"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Recurrent peritonsillar abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/552663946"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Abscess of tonsil"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/669740758"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "tonsil abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/669740758"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "tonsillar abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/669740758"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Intratonsillar abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/961777362"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Lingual tonsil abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/401721268"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tonsillopharyngeal abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/384188880"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Peritonsillar cellulitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1979405442"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cellulitis of tonsil"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/945079692"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute peritonsillitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1305150225"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "peritonsillitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1305150225"
+    }
+  ]
+}

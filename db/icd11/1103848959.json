@@ -1,0 +1,513 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1103848959",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/915779102"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1103848959",
+  "code": "CA44",
+  "source": "http://id.who.int/icd/entity/1103848959",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1103848959/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1103848959/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1103848959/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/236924369",
+        "http://id.who.int/icd/release/11/2024-01/mms/771273482",
+        "http://id.who.int/icd/release/11/2024-01/mms/1508081745"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Pyothorax"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Suppurative inflammation of the pleural space, typically due to acute bacterial infection. It can occur as a complication of pneumonia, thoracotomy, abscesses (lung, hepatic, or subdiaphragmatic), or penetrating trauma with a secondary infection."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "empyema"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pyopneumothorax"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "due to tuberculosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/309519352",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/882244568"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/923122941"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pyothorax"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "empyema"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pyopneumothorax"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pyothorax with fistula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/607238524"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "empyema with fistula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/607238524"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "empyema with thoracic fistula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/607238524"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pleural empyema with fistula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/607238524"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chest fistula NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/607238524"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "thoracic abscess with fistula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/607238524"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "thoracic fistula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/607238524"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Abdominothoracic fistula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/128040504"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "thoracoabdominal fistula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/128040504"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bronchial fistula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1461116407"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bronchus fistula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1461116407"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Broncho-oesophageal fistula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1378021897"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bronchoesophageal fistula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1378021897"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "oesophagobronchial fistula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1378021897"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bronchopleural fistula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1388776089"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bronchovisceral fistula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1373234812"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fistula of costal region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/76943411"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chest wall fistula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/540478625"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hepatopulmonary fistula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/79647453"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chest abscess with fistula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/881637719"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hepatopleural fistula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1360354306"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Lung fistula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1177361994"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pulmonary fistula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1177361994"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mediastinum fistula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/325249029"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "mediastinal fistula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/325249029"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mediastinobronchial fistula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/863920809"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Oesophagopleural-cutaneous fistula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/867358935"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pleural abscess with fistula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1727868570"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mediastinocutaneous fistula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/597539313"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Oesophagotracheal fistula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/43431231"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "tracheoesophageal fistula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/43431231"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pulmonoperitoneal fistula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/425210405"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pyopneumothorax fistula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/122118737"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Thoracogastric fistula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1997108130"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Thoracointestinal fistula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1825043642"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pyothorax without fistula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1342042688"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chest empyema"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1342042688"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "thoracic empyema"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1342042688"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Abscess of pleural cavity"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/928893749"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pleural abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/928893749"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "thoracic abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/928893749"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Supradiaphragmatic empyema"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/512298146"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Staphylococcal pleurisy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1258963089"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute staphylococcal pleurisy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/458808272"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic staphylococcal pleurisy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/9854164"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Subacute staphylococcal pleurisy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1312714607"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Staphylococcal adhesive pleurisy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/259871130"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Staphylococcal double pleurisy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1062124050"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Staphylococcal fibrinous pleurisy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/561555594"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Empyema of lung"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1274001409"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Empyema of pleura"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1793373391"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pleural empyema"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1793373391"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "loculated empyema"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1793373391"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chest abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1511777595"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pneumopyothorax"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/257168244"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Septic pleurisy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2009877168"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Seropurulent pleurisy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/212797185"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "purulent pleurisy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/212797185"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "suppurative pleurisy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/212797185"
+    }
+  ]
+}

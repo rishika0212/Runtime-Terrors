@@ -1,0 +1,81 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/282555450",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1066261769"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1605714008",
+    "http://id.who.int/icd/release/11/2024-01/mms/1492550461",
+    "http://id.who.int/icd/release/11/2024-01/mms/1952133259",
+    "http://id.who.int/icd/release/11/2024-01/mms/1660841611",
+    "http://id.who.int/icd/release/11/2024-01/mms/282555450/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/282555450/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#282555450",
+  "code": "FA38",
+  "source": "http://id.who.int/icd/entity/282555450",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/282555450/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/864772028",
+        "http://id.who.int/icd/release/11/2024-01/mms/2085220884",
+        "http://id.who.int/icd/release/11/2024-01/mms/625587547",
+        "http://id.who.int/icd/release/11/2024-01/mms/1753246500",
+        "http://id.who.int/icd/release/11/2024-01/mms/8274514",
+        "http://id.who.int/icd/release/11/2024-01/mms/1041587014",
+        "http://id.who.int/icd/release/11/2024-01/mms/223046766",
+        "http://id.who.int/icd/release/11/2024-01/mms/570772363"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/282555450/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1630407678",
+        "http://id.who.int/icd/release/11/2024-01/mms/2078467774"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Arthropathy in diseases classified elsewhere"
+  },
+  "fullySpecifiedName": {
+    "@language": "en",
+    "@value": "Arthropathies in diseases classified elsewhere"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "arthropathy in: haematological disorders"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1766440644",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1766440644"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "neuropathic spondylopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1251543714",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1652428001"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "psoriatic and enteropathic arthropathies juvenile"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1473955563",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1473955563"
+    }
+  ]
+}

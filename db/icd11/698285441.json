@@ -1,0 +1,72 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/698285441",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1726554290"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1099726746",
+    "http://id.who.int/icd/release/11/2024-01/mms/1349182195",
+    "http://id.who.int/icd/release/11/2024-01/mms/617067020",
+    "http://id.who.int/icd/release/11/2024-01/mms/891367271",
+    "http://id.who.int/icd/release/11/2024-01/mms/927250371",
+    "http://id.who.int/icd/release/11/2024-01/mms/1965759338",
+    "http://id.who.int/icd/release/11/2024-01/mms/698285441/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/698285441/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#698285441",
+  "code": "DC31",
+  "source": "http://id.who.int/icd/entity/698285441",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cytomegaloviral pancreatitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/59040145",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/59040145"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pancreatitis due to mumps virus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1732807739",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1732807739"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/698285441/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/698285441/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/562478860",
+        "http://id.who.int/icd/release/11/2024-01/mms/1663264387",
+        "http://id.who.int/icd/release/11/2024-01/mms/1201187093"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acute pancreatitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Inflammation of the pancreas with sudden onset. Pathological changes range from oedema to necrosis. While mild cases often recover without complications, severe cases have high mortality due to systemic complications despite intensive treatment."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ]
+}

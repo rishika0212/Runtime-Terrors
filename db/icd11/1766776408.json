@@ -1,0 +1,75 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1766776408",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1854675041"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1766776408",
+  "code": "CB05.3",
+  "source": "http://id.who.int/icd/entity/1766776408",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Familial hypocalciuric hypercalcaemia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/81374726",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/81374726"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1766776408/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/155258022",
+        "http://id.who.int/icd/release/11/2024-01/mms/1875237176/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/1631611896/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/1189424097"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Interstitial lung diseases associated with metabolic diseases"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Interstitial lung diseases associated with metabolic diseases refers to a group of lung diseases affecting the interstitium (the tissue and space around the air sacs of the lungs). This diagnosis is associated with a large class of genetic diseases involving disorders of metabolism."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/923122941"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Interstitial lung diseases associated with metabolic diseases"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Interstitial lung disease in Gaucher disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1435726955"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Interstitial lung disease in Niemann-Pick disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2082819326"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Interstitial lung disease in protein intolerance"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1738186860"
+    }
+  ]
+}

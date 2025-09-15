@@ -1,0 +1,47 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/133903488",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1286981409"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#133903488",
+  "code": "9C85.01",
+  "source": "http://id.who.int/icd/entity/133903488",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gaze-evoked nystagmus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/3503394",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/3503394"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/133903488/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Disorders of the saccadic step"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Disorders of the saccadic step"
+      }
+    }
+  ]
+}

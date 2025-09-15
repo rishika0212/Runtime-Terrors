@@ -1,0 +1,45 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/88962007",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1961426220"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#88962007",
+  "code": "GB71.2",
+  "source": "http://id.who.int/icd/entity/88962007",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/88962007/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1507624466"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Calculus of bowel segments for urinary diversion"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition caused by dehydration, decreased urine volume or fluid flow rates, or increased excretion of minerals such as calcium, oxalate, magnesium, cystine, and phosphate. This condition is characterised by urinary calculi located in the bowel segment for urinary diversion (ileal neobladder, ileal conduit, ileocaecal pouch). This condition may also present with haematuria, dysuria, or pain in the flank, lower abdomen, or groin. Confirmation is by abdominal radiography to determine the presence and location of calculi."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Calculus of bowel segments for urinary diversion"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Suburethral calculus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1659380154"
+    }
+  ]
+}

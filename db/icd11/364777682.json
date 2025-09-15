@@ -1,0 +1,55 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/364777682",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/727252860"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/708080584",
+    "http://id.who.int/icd/release/11/2024-01/mms/364777682/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/364777682/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#364777682",
+  "code": "GA00.4",
+  "source": "http://id.who.int/icd/entity/364777682",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Vulvovaginal candidosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1806329739",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1806329739"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/364777682/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/475546725",
+        "http://id.who.int/icd/release/11/2024-01/mms/1145498957"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/364777682/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Vulvovaginal ulceration and inflammation"
+  }
+}

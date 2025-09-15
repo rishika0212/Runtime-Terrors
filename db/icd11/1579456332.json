@@ -1,0 +1,55 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1579456332",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1377312465"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1579456332",
+  "code": "JA8A.2",
+  "source": "http://id.who.int/icd/entity/1579456332",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1579456332/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1040555026"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Morbidly adherent placenta"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Morbidly adherent placenta"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Placenta accreta"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/298160226"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Maternal care for accreta placenta"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/298160226"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Placenta percreta"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1343787319"
+    }
+  ]
+}

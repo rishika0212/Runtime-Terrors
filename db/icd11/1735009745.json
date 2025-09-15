@@ -1,0 +1,72 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1735009745",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1658448496"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/981844848",
+    "http://id.who.int/icd/release/11/2024-01/mms/524852916",
+    "http://id.who.int/icd/release/11/2024-01/mms/515563584",
+    "http://id.who.int/icd/release/11/2024-01/mms/997703044",
+    "http://id.who.int/icd/release/11/2024-01/mms/1735009745/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1735009745/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1735009745",
+  "code": "2A20.0",
+  "source": "http://id.who.int/icd/entity/1735009745",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1735009745/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Chronic myelogenous leukaemia, BCR-ABL1-positive"
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Chronic myeloid leukaemia (CML) is the most common myeloproliferative disorder accounting for 15-20% of all leukaemia cases. Its annual incidence has been estimated at between 1 and 1.5 cases per 100,000 and its prevalence at around 1 in 17,000. The disease is typically triphasic with a chronic phase (CML-CP), accelerated phase (CML-AP) and blast phase (CML-BP). The majority of patients are diagnosed in the chronic phase and may be either asymptomatic (diagnosed through a routine white blood cell count) or present with fatigue, anaemia, weight loss, night sweats or splenomegaly. CML is characterised by the presence of the Philadelphia chromosome, an abnormality resulting from a balanced translocation between chromosomes 9 and 22 (t(9;22)(q34;q11.2)). This translocation generates a BCR/ABL gene fusion encoding a constitutively active tyrosine kinase. CML does not appear to be an inherited disease and the factors leading to predisposition for the disorder remain largely unknown. Although an allogeneic bone marrow transplant is viewed as the only curative treatment option, the prognosis for patients improved dramatically with the targeted development of imatinib mesylate. Imatinib mesylate is a competitive inhibitor of BCR/ABL tyrosine kinase activity and has held EU marketing authorisation as an Orphan drug for the treatment of CML since 2001."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Atypical chronic myeloid leukaemia, BCR-ABL1-negative"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/331838766",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/331838766"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic myelomonocytic leukaemia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2073226578",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2073226578"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Other and unspecified myeloproliferative neoplasms"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1981398038",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1981398038"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic myeloid leukaemia, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/596808334",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/596808334"
+    }
+  ]
+}

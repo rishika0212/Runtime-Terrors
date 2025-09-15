@@ -1,0 +1,41 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/137713224",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2092703582"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1058992628",
+    "http://id.who.int/icd/release/11/2024-01/mms/883510242",
+    "http://id.who.int/icd/release/11/2024-01/mms/137713224/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/137713224/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#137713224",
+  "code": "1A33",
+  "source": "http://id.who.int/icd/entity/137713224",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/137713224/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/236924369",
+        "http://id.who.int/icd/release/11/2024-01/mms/771273482",
+        "http://id.who.int/icd/release/11/2024-01/mms/1508081745"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Cystoisosporiasis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease caused by the protozoan parasite Cystoisospora belli. This disease is characterised by watery diarrhoea, fever, abdominal pain, nausea, or malaise. Transmission is by the faecal-oral route, commonly through the ingestion of contaminated food or water. Confirmation is by identification of Cystoisospora belli in a faecal sample."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/911707612"
+  ]
+}

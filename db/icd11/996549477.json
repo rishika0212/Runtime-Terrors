@@ -1,0 +1,51 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/996549477",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/262268689"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/246113667",
+    "http://id.who.int/icd/release/11/2024-01/mms/298483262",
+    "http://id.who.int/icd/release/11/2024-01/mms/399201817",
+    "http://id.who.int/icd/release/11/2024-01/mms/1843494960",
+    "http://id.who.int/icd/release/11/2024-01/mms/1929272735",
+    "http://id.who.int/icd/release/11/2024-01/mms/996549477/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#996549477",
+  "code": "EB90.2",
+  "source": "http://id.who.int/icd/entity/996549477",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/996549477/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2023062398"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Cutaneous and subcutaneous xanthomata"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "An abnormal accumulation of lipid in the skin or soft tissues, most frequently due to an associated dyslipidaemia."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Benign cephalic histiocytosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/339468256",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1966128216"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/710405171"
+  ]
+}

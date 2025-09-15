@@ -1,0 +1,86 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/716546173",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/444340411"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#716546173",
+  "code": "AB11.2",
+  "source": "http://id.who.int/icd/entity/716546173",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/716546173/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/716546173/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Petrositis"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Petrositis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "inflammation of petrous bone"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "osteitis of petrous bone"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "osteomyelitis of petrous bone"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute inflammation of petrous bone"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1521135878"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic inflammation of petrous bone"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/266684235"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Caries of petrous bone"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2004688527"
+    }
+  ]
+}

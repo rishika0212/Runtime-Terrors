@@ -1,0 +1,113 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1979103207",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1969898416"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1979103207",
+  "code": "BD52.3",
+  "source": "http://id.who.int/icd/entity/1979103207",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1979103207/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/852143287",
+        "http://id.who.int/icd/release/11/2024-01/mms/1885434231",
+        "http://id.who.int/icd/release/11/2024-01/mms/553603158",
+        "http://id.who.int/icd/release/11/2024-01/mms/1421585111",
+        "http://id.who.int/icd/release/11/2024-01/mms/1316314647",
+        "http://id.who.int/icd/release/11/2024-01/mms/1508677205"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Rupture of artery"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "traumatic rupture of artery - see injury of blood vessel by body region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/435227771",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/435227771"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1380872553"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Rupture of artery"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ruptured artery"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "artery fistula"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aortic duodenal fistula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1815162909"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aortic colon fistula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/425872640"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aortic oesophageal fistula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/152003896"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aortic iliac fistula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/929543664"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aortocutaneous fistula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1275394143"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aortoenteric fistula, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/957729886"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Suppurative arteritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/577420929"
+    }
+  ]
+}

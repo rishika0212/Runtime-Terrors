@@ -1,0 +1,72 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/778830229",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1336446723"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#778830229",
+  "code": "EL80",
+  "source": "http://id.who.int/icd/entity/778830229",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nephrogenic systemic fibrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1537082562",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/765238319/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/778830229/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/460401849",
+        "http://id.who.int/icd/release/11/2024-01/mms/1642025150",
+        "http://id.who.int/icd/release/11/2024-01/mms/1162198017",
+        "http://id.who.int/icd/release/11/2024-01/mms/431804121"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Adverse cutaneous effects of diagnostic procedures"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Skin problems arising from diagnostic procedures. Examples would be radiation necrosis from prolonged fluoroscopy or anaphylaxis from use of radiocontrast media."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Adverse cutaneous effects of diagnostic procedures"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Radionecrosis of skin attributable to diagnostic procedure"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1722530170"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Anaphylaxis due to radiocontrast media"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1143499549"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Other elsewhere classified cutaneous complication of diagnostic procedure"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1941654115"
+    }
+  ]
+}

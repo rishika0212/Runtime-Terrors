@@ -1,0 +1,47 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/588958190",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2022303330"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#588958190",
+  "code": "2B31.3",
+  "source": "http://id.who.int/icd/entity/588958190",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/588958190/postcoordinationScale/histopathology",
+      "axisName": "http://id.who.int/icd/schema/histopathology",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/933337476"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/588958190/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Langerhans cell sarcoma"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A neoplastic proliferation of Langerhans cells with overtly malignant cytologic features. It can be considered a higher grade variant of Langerhans cell histiocytosis (LCH) and it can present de novo or progress from antecedent LCH."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Langerhans cell sarcoma"
+      }
+    }
+  ]
+}

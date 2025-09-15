@@ -1,0 +1,35 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1257393361",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1705355202"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/47298761",
+    "http://id.who.int/icd/release/11/2024-01/mms/1257393361/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1257393361/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1257393361",
+  "code": "8A03.2",
+  "source": "http://id.who.int/icd/entity/1257393361",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1257393361/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1890931931"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Non-hereditary degenerative ataxia"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Ataxia is characterized by incoordination, due to lesions in the cerebellum and efferent or afferent connections. Sporadic forms of ataxia that present without any family history or known genetic cause. Diagnosis is made after ruling out other causes of ataxia."
+  }
+}

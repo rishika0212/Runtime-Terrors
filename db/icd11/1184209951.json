@@ -1,0 +1,274 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1184209951",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/658360080"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1184209951",
+  "code": "GB41",
+  "source": "http://id.who.int/icd/entity/1184209951",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1184209951/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1184209951/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/476391827",
+        "http://id.who.int/icd/release/11/2024-01/mms/412389819",
+        "http://id.who.int/icd/release/11/2024-01/mms/761526554/unspecified"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1184209951/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/84161233",
+        "http://id.who.int/icd/release/11/2024-01/mms/1877494378",
+        "http://id.who.int/icd/release/11/2024-01/mms/69778702",
+        "http://id.who.int/icd/release/11/2024-01/mms/923657942",
+        "http://id.who.int/icd/release/11/2024-01/mms/1359757645",
+        "http://id.who.int/icd/release/11/2024-01/mms/591736785",
+        "http://id.who.int/icd/release/11/2024-01/mms/1039550850/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/1039550850/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Nephrotic syndrome"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition characterised by severe proteinuria, greater than 3.5 g/day in an average adult. The substantial loss of protein in the urine results in hypoalbuminaemia and generalised oedema. There is also usually hyperlipidaemia. Other manifestations of glomerular disease may be present. There are many possible causes and renal histological appearances. Possible complications include vascular thrombosis, infections, malnutrition and renal failure."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nephrotic syndrome"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "NS - [nephrotic syndrome]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "nephrosis syndrome"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "nephrosis NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "glomerular lesion nephrosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Steroid sensitive nephrotic syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1426920554"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Idiopathic steroid-sensitive nephrotic syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1426920554"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Steroid resistant nephrotic syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1647994026"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Galloway Mowat syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1140537618"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pierson syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/555082533"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Multi-drug resistant nephrotic syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/22053390"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Minimal change glomerulonephritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1629260860"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "MCGN - [minimal change glomerulonephritis]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1629260860"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "foot process disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1629260860"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital Finnish nephrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2134488194"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "CNF - [Finnish congenital nephrotic syndrome]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2134488194"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Finnish congenital nephrotic syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2134488194"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Epstein's nephrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/177156339"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital nephrotic syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/714324575"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "congenital nephrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/714324575"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute congenital nephrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/714324575"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Familial nephrotic syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1524476844"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Lipid nephrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1642749578"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "lipoid nephrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1642749578"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nephritis with oedema"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/980443399"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "glomerulonephritis with oedema NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/980443399"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "nephritis with oedema NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/980443399"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute nephrosis syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2114416652"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute nephrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2114416652"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Familial idiopathic steroid-resistant nephrotic syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1385860879"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital membranous nephropathy due to fetomaternal anti-neutral endopeptidase alloimmunization"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1180368331"
+    }
+  ]
+}

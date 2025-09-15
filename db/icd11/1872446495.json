@@ -1,0 +1,57 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1872446495",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2122176884"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1872446495",
+  "code": "LB98.01",
+  "source": "http://id.who.int/icd/entity/1872446495",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1872446495/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Talipes calcaneovarus"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Talipes calcaneovarus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "congenital talipes calcaneovarus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Talipes calcaneovarus, unilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/312553624"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Talipes calcaneovarus, bilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/624038378"
+    }
+  ]
+}

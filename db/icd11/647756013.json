@@ -1,0 +1,95 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/647756013",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1656637330"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#647756013",
+  "code": "GB56.0",
+  "source": "http://id.who.int/icd/entity/647756013",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/647756013/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/647756013/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1507624466"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Hydronephrosis with ureteropelvic junction obstruction"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition caused by any obstruction in or stenosis of the ureteropelvic junction. This condition is characterised by distension of the pelvis and calyces of the kidney with a partial or complete obstructed flow of urine. This condition may present with flank pain, haematuria, pyuria, or hyperpyrexia."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital ureteropelvic junction occlusion (QJCB)"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1432720737",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1432720737"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital hydronephrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/808343797",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/808343797"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hydronephrosis with ureteropelvic junction obstruction"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "stricture of ureteropelvic junction with hydronephrosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hydronephrosis with ureteropelvic junction obstruction, acquired"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/953391681"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hydronephrosis with ureteropelvic junction obstruction due to cause classified elsewhere"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/351290439"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hydronephrosis with ureteropelvic junction obstruction, congenital"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1919758784"
+    }
+  ]
+}

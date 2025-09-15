@@ -1,0 +1,78 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1605714008",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/282555450"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1605714008",
+  "code": "FA38.0",
+  "source": "http://id.who.int/icd/entity/1605714008",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1605714008/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/864772028",
+        "http://id.who.int/icd/release/11/2024-01/mms/2085220884",
+        "http://id.who.int/icd/release/11/2024-01/mms/625587547",
+        "http://id.who.int/icd/release/11/2024-01/mms/1753246500",
+        "http://id.who.int/icd/release/11/2024-01/mms/8274514",
+        "http://id.who.int/icd/release/11/2024-01/mms/1041587014",
+        "http://id.who.int/icd/release/11/2024-01/mms/223046766",
+        "http://id.who.int/icd/release/11/2024-01/mms/570772363"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1605714008/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1651053999",
+        "http://id.who.int/icd/release/11/2024-01/mms/119724091",
+        "http://id.who.int/icd/release/11/2024-01/mms/1150913605",
+        "http://id.who.int/icd/release/11/2024-01/mms/381961554",
+        "http://id.who.int/icd/release/11/2024-01/mms/1697306310"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Diabetic arthropathy"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Diabetic Charcot arthropathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1165099558",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1165099558"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Diabetic cheiroarthropathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/283404213",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/895101139"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Diabetic arthropathy"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "diabetic arthropathy NOS"
+      }
+    }
+  ]
+}

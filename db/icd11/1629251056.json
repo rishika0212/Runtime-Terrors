@@ -1,0 +1,72 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1629251056",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1122828822"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1629251056",
+  "code": "DB33.11",
+  "source": "http://id.who.int/icd/entity/1629251056",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1629251056/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1777850685",
+        "http://id.who.int/icd/release/11/2024-01/mms/328294343",
+        "http://id.who.int/icd/release/11/2024-01/mms/2128592381",
+        "http://id.who.int/icd/release/11/2024-01/mms/204400509",
+        "http://id.who.int/icd/release/11/2024-01/mms/453411773",
+        "http://id.who.int/icd/release/11/2024-01/mms/894847549",
+        "http://id.who.int/icd/release/11/2024-01/mms/720455085",
+        "http://id.who.int/icd/release/11/2024-01/mms/1614204137",
+        "http://id.who.int/icd/release/11/2024-01/mms/1431962259"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1629251056/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731",
+        "http://id.who.int/icd/release/11/2024-01/mms/1290701352"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1629251056/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Lymphocytic colitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Lymphocytic colitis is an intestinal inflammatory disorder characterised by increased intraepithelial lymphocytes and manifesting as chronic watery diarrhoea, abdominal pain, nausea, incontinence and faecal urgency. Together with collagenous colitis it makes up a group known as microscopic colitis."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Lymphocytic colitis"
+      }
+    }
+  ]
+}

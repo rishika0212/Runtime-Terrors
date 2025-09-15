@@ -1,0 +1,54 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/372861747",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1838213761"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1896339453",
+    "http://id.who.int/icd/release/11/2024-01/mms/372861747/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/372861747/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#372861747",
+  "code": "GA10.D",
+  "source": "http://id.who.int/icd/entity/372861747",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/372861747/postcoordinationScale/relational",
+      "axisName": "http://id.who.int/icd/schema/relational",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1013312453",
+        "http://id.who.int/icd/release/11/2024-01/mms/423444880"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/372861747/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/720032908",
+        "http://id.who.int/icd/release/11/2024-01/mms/1267519716",
+        "http://id.who.int/icd/release/11/2024-01/mms/921977085"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/372861747/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/567819142",
+        "http://id.who.int/icd/release/11/2024-01/mms/1507624466",
+        "http://id.who.int/icd/release/11/2024-01/mms/1290701352"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Endometriosis of urinary system"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/553916326",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/598093212"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#553916326",
+  "code": "DD72",
+  "source": "http://id.who.int/icd/entity/553916326",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/553916326/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/578694909"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/553916326/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731",
+        "http://id.who.int/icd/release/11/2024-01/mms/1290701352"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Indeterminate colitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Indeterminate colitis is a chronic inflammatory disorder of the colon, for which a definitive diagnosis of neither Crohn’s disease or ulcerative colitis can be made."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Indeterminate colitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Indeterminate colitis inflammatory bowel disease, unclassified"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Undetermined colitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Indeterminate pancolitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1347487447"
+    }
+  ]
+}

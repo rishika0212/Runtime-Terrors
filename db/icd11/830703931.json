@@ -1,0 +1,129 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/830703931",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1125547814"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#830703931",
+  "code": "9C20.2",
+  "source": "http://id.who.int/icd/entity/830703931",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/830703931/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/830703931/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2055915829"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/830703931/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Purulent endophthalmitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Suppurative inflammation of the tissues of the internal structures of the eye; often caused by fungi, necrosis of intraocular tumours, or retained intraocular foreign bodies. Other aetiology can be any infectious uveitis."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Panophthalmitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/349386559"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Purulent endophthalmitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute endophthalmitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "endophthalmia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "eye infestation NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "intraocular infection"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "eye infection NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Panophthalmitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/349386559"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute panophthalmitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/349386559"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Vitreous abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1185507932"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Abscess of eye, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1036658667"
+    }
+  ]
+}

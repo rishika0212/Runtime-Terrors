@@ -1,0 +1,65 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/487964804",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1369041370"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#487964804",
+  "code": "GC7B",
+  "source": "http://id.who.int/icd/entity/487964804",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/487964804/postcoordinationScale/distribution",
+      "axisName": "http://id.who.int/icd/schema/distribution",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1957947885",
+        "http://id.who.int/icd/release/11/2024-01/mms/704366208"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/487964804/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/460401849",
+        "http://id.who.int/icd/release/11/2024-01/mms/1642025150",
+        "http://id.who.int/icd/release/11/2024-01/mms/1162198017",
+        "http://id.who.int/icd/release/11/2024-01/mms/431804121"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Postinterventional ischemia or infarction of kidney"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This refers to a restriction in blood supply to tissues of the kidney due to a health care intervention causing a shortage of oxygen and glucose needed for cellular metabolism resulting in the death of kidney tissue cells."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postinterventional ischemia or infarction of kidney"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postinterventional complete ischemia or infarction of kidney"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/288621304"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postinterventional segmental ischemia or infarction of kidney"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/599431272"
+    }
+  ]
+}

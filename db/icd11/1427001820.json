@@ -1,0 +1,70 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1427001820",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1024877043"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1427001820",
+  "code": "GA34.6",
+  "source": "http://id.who.int/icd/entity/1427001820",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1427001820/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/344632447"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Female genital pain"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A symptom of genital pain affecting females that is idiopathic. This symptom is characterised by any type of pain in the genital area tissues, during sexual intercourse, physical activity, or rest."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic primary visceral pain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/679352876",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/679352876"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic secondary visceral pain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/446969214",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/446969214"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Female genital pain"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ovarian pain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/250742860"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pain of ovary"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/250742860"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1003389114",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2116214427"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1003389114",
+  "code": "DB98.0",
+  "source": "http://id.who.int/icd/entity/1003389114",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1003389114/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Infarction of liver"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Infarction of the liver is hepatic damage caused by limited blood supply to the liver due to obstruction or reduced blood flow of hepatic artery, portal vein or both."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infarction of liver"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hepatic infarct"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hepatic infarction"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "liver infarct"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "liver infarction"
+      }
+    }
+  ]
+}

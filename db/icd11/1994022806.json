@@ -1,0 +1,58 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1994022806",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1719389232"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/290815825",
+    "http://id.who.int/icd/release/11/2024-01/mms/1711526170",
+    "http://id.who.int/icd/release/11/2024-01/mms/1994022806/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1994022806/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1994022806",
+  "code": "2A00.1",
+  "source": "http://id.who.int/icd/entity/1994022806",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1994022806/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/258384733",
+        "http://id.who.int/icd/release/11/2024-01/mms/976604742",
+        "http://id.who.int/icd/release/11/2024-01/mms/407816093",
+        "http://id.who.int/icd/release/11/2024-01/mms/1651949308",
+        "http://id.who.int/icd/release/11/2024-01/mms/282738158",
+        "http://id.who.int/icd/release/11/2024-01/mms/305649277"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1994022806/postcoordinationScale/histopathology",
+      "axisName": "http://id.who.int/icd/schema/histopathology",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/776593826",
+        "http://id.who.int/icd/release/11/2024-01/mms/1590381103",
+        "http://id.who.int/icd/release/11/2024-01/mms/464248136",
+        "http://id.who.int/icd/release/11/2024-01/mms/1877382372"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1994022806/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Embryonal tumours of brain"
+  }
+}

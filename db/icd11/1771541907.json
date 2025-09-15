@@ -1,0 +1,90 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1771541907",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1887882424"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1342871787",
+    "http://id.who.int/icd/release/11/2024-01/mms/1010943819",
+    "http://id.who.int/icd/release/11/2024-01/mms/1771541907/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1771541907/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1771541907",
+  "code": "EA81",
+  "source": "http://id.who.int/icd/entity/1771541907",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infantile seborrhoeic dermatitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1493830367",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1493830367"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Seborrhoeic dermatitis of eyelids"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1420272543",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1420272543"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Seborrhoeic otitis externa"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1384400156",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1384400156"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malassezia folliculitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/12958750",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/12958750"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "HIV-associated seborrhoeic dermatitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1499612904",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/141396655/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1771541907/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/236924369",
+        "http://id.who.int/icd/release/11/2024-01/mms/771273482",
+        "http://id.who.int/icd/release/11/2024-01/mms/1508081745"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Seborrhoeic dermatitis and related conditions"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A group of related inflammatory skin disorders affecting predominantly the scalp, face, upper trunk and flexures and characterised by variable amounts of erythema, scale, inflammation and exudation. It is thought that Malassezia yeasts play an important role in their pathogenesis. Although these disorders are common, they are seen with increased frequency and severity amongst persons infected with HIV."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Seborrhoea"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/351100904",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/351100904"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1975710133",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/460883639"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1975710133",
+  "code": "8A07.1",
+  "source": "http://id.who.int/icd/entity/1975710133",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1975710133/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1158914813"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Akathisia"
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/564191997"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Akathisia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Akathisia due to drugs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1112658123"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Akathisia not related to drugs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1624375984"
+    }
+  ]
+}

@@ -1,0 +1,271 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/594689864",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1370972705"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#594689864",
+  "code": "FA11.2",
+  "source": "http://id.who.int/icd/entity/594689864",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/594689864/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/594689864/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1363003152",
+        "http://id.who.int/icd/release/11/2024-01/mms/1959335168",
+        "http://id.who.int/icd/release/11/2024-01/mms/192726145",
+        "http://id.who.int/icd/release/11/2024-01/mms/223741850",
+        "http://id.who.int/icd/release/11/2024-01/mms/319259361"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/594689864/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/455894495",
+        "http://id.who.int/icd/release/11/2024-01/mms/609214049",
+        "http://id.who.int/icd/release/11/2024-01/mms/251474152",
+        "http://id.who.int/icd/release/11/2024-01/mms/1357024926",
+        "http://id.who.int/icd/release/11/2024-01/mms/764124124",
+        "http://id.who.int/icd/release/11/2024-01/mms/1220564554",
+        "http://id.who.int/icd/release/11/2024-01/mms/1372745524",
+        "http://id.who.int/icd/release/11/2024-01/mms/616315615",
+        "http://id.who.int/icd/release/11/2024-01/mms/641342831",
+        "http://id.who.int/icd/release/11/2024-01/mms/508325484",
+        "http://id.who.int/icd/release/11/2024-01/mms/1904876434/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/1904876434/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Arthropathy following genitourinary infection"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Reactive arthritis (ReA) is an autoimmune disorder belonging to the group of seronegative spondyloarthropathies and is characterised by the classic triad of arthritis, urethritis and conjunctivitis."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Arthropathy following genitourinary infection"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Arthritis urethritica"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Venereal arthritis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "urethro-oculo-articular syndrome"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "urethrooculoarticular syndrome"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "infectious uroarthritis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "nongonococcal Reiter urethritis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fiessinger-Leroy disease (deprecated)"
+      },
+      "deprecated": true
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fiessinger-Leroy-Reiter disease (deprecated)"
+      },
+      "deprecated": true
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Reiter (deprecated)"
+      },
+      "deprecated": true
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Reiter disease (deprecated)"
+      },
+      "deprecated": true
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Reiter triad (deprecated)"
+      },
+      "deprecated": true
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Reiter urethritis (deprecated)"
+      },
+      "deprecated": true
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Reiter's disease (deprecated)"
+      },
+      "deprecated": true
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Reiter's syndrome (deprecated)"
+      },
+      "deprecated": true
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Reiter's urethritis (deprecated)"
+      },
+      "deprecated": true
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Arthropathy following genitourinary infection, multiple sites"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/53158274"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "reiter disease, multiple sites"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/53158274"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Arthropathy following genitourinary infection, shoulder region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2026282671"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "reiter disease, shoulder region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2026282671"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Arthropathy following genitourinary infection, forearm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/651116204"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "reiter disease, forearm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/651116204"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Arthropathy following genitourinary infection, hand"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1963834250"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "reiter disease, hand"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1963834250"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Arthropathy following genitourinary infection, pelvic region or thigh"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/181624839"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "reiter disease, pelvic region or thigh"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/181624839"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Arthropathy following genitourinary infection, lower leg"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1419282662"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "reiter disease, lower leg"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1419282662"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Arthropathy following genitourinary infection, ankle or foot"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/899004769"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "reiter disease, ankle or foot"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/899004769"
+    }
+  ]
+}

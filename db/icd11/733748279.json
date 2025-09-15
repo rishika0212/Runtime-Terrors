@@ -1,0 +1,55 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/733748279",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1193296631"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/32590653",
+    "http://id.who.int/icd/release/11/2024-01/mms/1689945769",
+    "http://id.who.int/icd/release/11/2024-01/mms/733748279/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/733748279/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#733748279",
+  "code": "1F76",
+  "source": "http://id.who.int/icd/entity/733748279",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/733748279/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1269730048",
+        "http://id.who.int/icd/release/11/2024-01/mms/342012360",
+        "http://id.who.int/icd/release/11/2024-01/mms/1328350091"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Taeniasis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease of the intestines, caused by an infection with the adult parasitic worm Taenia. This disease is characterised by abdominal pain, weight loss, diarrhoea, constipation, or may be asymptomatic. Transmission is by ingestion of larval cysts in undercooked beef or pork. Confirmation is by identification of Taenia eggs or proglottids in faecal samples (samples from multiple days)."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Infection with tapeworms of the genus Taenia. Taeniasis is a form of tapeworm infection. The worm remains in the intestine until it reaches a length of a meter or so. The two most important human pathogens in the genus are Taenia solium (the pork tapeworm) and Taenia saginata (the beef tapeworm). Infection is acquired by eating undercooked contaminated meat and infected pork. The adult worms live in the lumen of the intestine where it causes very few symptoms. Taeniasis is generally asymptomatic and is diagnosed when a portion of the worm is passed in the stool."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cysticercosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1324863907",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1324863907"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1945127438"
+  ]
+}

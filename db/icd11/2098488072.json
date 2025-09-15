@@ -1,0 +1,79 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2098488072",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1119245712"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2098488072",
+  "code": "8D42",
+  "source": "http://id.who.int/icd/entity/2098488072",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2098488072/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1668932342",
+        "http://id.who.int/icd/release/11/2024-01/mms/1840019509",
+        "http://id.who.int/icd/release/11/2024-01/mms/1492142148/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/1492142148/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Neurological disorders due to overweight or obesity in adults or children"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Neurological disorders that arise from the metabolic dysfunction, inflammation, and dyslipidemia caused by overweight (BMI > 25) or obese (BMI >30) status. Examples include mild cognitive impairment secondary to hippocampal alteration, hypothalamic dysfunction, autonomic dysfunction, peripheral polyneuropathy, and obstructive sleep apnea."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/564191997"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neurological disorders due to overweight or obesity in adults or children"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neuropathy due to overweight or obesity"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/457299588"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Peripheral neuropathy due to overweight or obesity"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/969016545"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myopathy due to overweight or obesity"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1047690707"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pseudotumour cerebri related to obesity"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/955774332"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Certain specified neurological disorders due to overweight or obesity"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/308195389"
+    }
+  ]
+}

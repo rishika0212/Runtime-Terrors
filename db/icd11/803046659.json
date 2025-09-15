@@ -1,0 +1,53 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/803046659",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1946973604"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#803046659",
+  "code": "2A81.2",
+  "source": "http://id.who.int/icd/entity/803046659",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/803046659/postcoordinationScale/histopathology",
+      "axisName": "http://id.who.int/icd/schema/histopathology",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2114952181",
+        "http://id.who.int/icd/release/11/2024-01/mms/1582389689",
+        "http://id.who.int/icd/release/11/2024-01/mms/1354571689",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063643120",
+        "http://id.who.int/icd/release/11/2024-01/mms/1164634895",
+        "http://id.who.int/icd/release/11/2024-01/mms/2047176839",
+        "http://id.who.int/icd/release/11/2024-01/mms/1581356165"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/803046659/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Plasmablastic lymphoma"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "An aggressive diffuse large B-cell lymphoma frequently arising in the setting of HIV infection and characterised by the presence of large neoplastic cells resembling B-immunoblasts which have the immunophenotypic profile of plasma cells. Sites of involvement include the oral cavity and other extranodal sites"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Plasmablastic lymphoma"
+      }
+    }
+  ]
+}

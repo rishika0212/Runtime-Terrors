@@ -1,0 +1,61 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/352087872",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1469571641"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1994012056",
+    "http://id.who.int/icd/release/11/2024-01/mms/352087872/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/352087872/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#352087872",
+  "code": "1E51.0",
+  "source": "http://id.who.int/icd/entity/352087872",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic hepatitis B, co-infected with hepatitis D virus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1907860138",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1011250453"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hepatitis B surface antigen [HBsAg] carrier"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1552248434",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1469571641/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/352087872/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/572581721",
+        "http://id.who.int/icd/release/11/2024-01/mms/1781315693"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Chronic hepatitis B"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A liver disease characterised by liver inflammation and fibrosis caused by more than 6 months of infection with the hepatitis B virus. Even at stage of cirrhosis there are often no symptoms. Otherwise, clinical features include fatigue, hard liver edge and complications of cirrhosis (muscle wasting, ascites, splenomegaly/portal hypertension). Transmission is by blood and body fluid contamination, sexual transmission, and from mother to baby at the time of birth (vertical transmission). Confirmation of the diagnosis is by detection of HBsAg, but assessment of severity, prognosis and indication for treatment requires quantification of HBV DNA in serum."
+  },
+  "fullySpecifiedName": {
+    "@language": "en",
+    "@value": "Chronic hepatitis B virus infection"
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1270001765"
+  ]
+}

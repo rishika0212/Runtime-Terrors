@@ -1,0 +1,121 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1363344947",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1522101892"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1363344947",
+  "code": "DA20.30",
+  "source": "http://id.who.int/icd/entity/1363344947",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1363344947/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/72252748"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1363344947/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1363344947/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Spontaneous rupture of oesophagus"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Spontaneous perforation of the oesophageal wall. This most commonly results from a sudden increase in intraoesophageal pressure combined with relatively negative intrathoracic pressure caused by straining or vomiting. This is known as effort rupture of the oesophagus or Boerhaave's syndrome."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Rupture of oesophagus"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "traumatic perforation of (thoracic) oesophagus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/632463913",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/632463913"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mallory-Weiss syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/860549324",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/860549324"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Perforation due to malignant neoplasm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1503334455",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1503334455"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spontaneous rupture of oesophagus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Boerhaave syndrome"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "oesophageal rupture"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Rupture of oesophagus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ruptured oesophagus"
+      }
+    }
+  ]
+}

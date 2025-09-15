@@ -1,0 +1,281 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/728553280",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1397617262"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#728553280",
+  "code": "2B72.1",
+  "source": "http://id.who.int/icd/entity/728553280",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neuroendocrine neoplasm of duodenum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1585809486",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1585809486"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neuroendocrine neoplasms of appendix"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1590340268",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1590340268"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/728553280/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1493524587"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/728553280/postcoordinationScale/histopathology",
+      "axisName": "http://id.who.int/icd/schema/histopathology",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/477527598",
+        "http://id.who.int/icd/release/11/2024-01/mms/1509102037",
+        "http://id.who.int/icd/release/11/2024-01/mms/1609609938",
+        "http://id.who.int/icd/release/11/2024-01/mms/311089140",
+        "http://id.who.int/icd/release/11/2024-01/mms/1275963293",
+        "http://id.who.int/icd/release/11/2024-01/mms/522339131",
+        "http://id.who.int/icd/release/11/2024-01/mms/1432496894",
+        "http://id.who.int/icd/release/11/2024-01/mms/1704819468",
+        "http://id.who.int/icd/release/11/2024-01/mms/1278312485",
+        "http://id.who.int/icd/release/11/2024-01/mms/1294602000"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/728553280/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/728553280/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1409966790",
+        "http://id.who.int/icd/release/11/2024-01/mms/896293199",
+        "http://id.who.int/icd/release/11/2024-01/mms/1094217460",
+        "http://id.who.int/icd/release/11/2024-01/mms/238069351"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/728553280/postcoordinationScale/hasAlternativeSeverity2",
+      "axisName": "http://id.who.int/icd/schema/hasAlternativeSeverity2",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1863636238",
+        "http://id.who.int/icd/release/11/2024-01/mms/885826145",
+        "http://id.who.int/icd/release/11/2024-01/mms/1746207012",
+        "http://id.who.int/icd/release/11/2024-01/mms/303697349"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Malignant neuroendocrine neoplasm of stomach"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A neoplasm with neuroendocrine differentiation that arises from the stomach. It includes well differentiated neuroendocrine tumours (low and intermediate grade) and poorly differentiated neuroendocrine carcinomas (high grade)."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "carcinoid and other malignant neuroendocrine neoplasms"
+      }
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant neuroendocrine neoplasm of stomach"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "carcinoid and other malignant neuroendocrine neoplasms"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gastric endocrine tumour"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neuroendocrine tumour of stomach"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/166659419"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "NET - [neuroendocrine tumour] of stomach"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/166659419"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Carcinoid or other neuroendocrine tumour of cardia of stomach"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/62532423"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Carcinoid or other neuroendocrine tumour of body of stomach"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/424963427"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Carcinoid or other neuroendocrine tumour of pyloric antrum of stomach"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/784813085"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Carcinoid or other neuroendocrine tumour of overlapping lesion of stomach"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1026976898"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neuroendocrine tumour of stomach, G1 (carcinoid)"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/664546762"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neuroendocrine tumour of stomach, G2"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1144407508"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neuroendocrine carcinoma of stomach"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1048323109"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "NEC - [neuroendocrine carcinoma] of stomach"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1048323109"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neuroendocrine carcinoma of cardia of stomach"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1003994886"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neuroendocrine carcinoma of body of stomach"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/124875914"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neuroendocrine carcinoma of pyloric antrum of stomach"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/897097869"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neuroendocrine carcinoma involving overlapping sites of stomach"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/178605568"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Large cell neuroendocrine carcinoma of stomach"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/295455499"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Small cell neuroendocrine carcinoma of stomach"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/183860321"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Other specified neuroendocrine neoplasm of stomach"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/399121588"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ECL cell, serotonin-producing NET - [neuroendocrine tumour]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1093347524"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gastrin-producing NET - [neuroendocrine tumour]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/562487919"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gastrointestinal endocrine tumours"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1536701348"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gastrointestinal neuroendocrine tumours"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1536701348"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gastrointestinal APUDomas"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1536701348"
+    }
+  ]
+}

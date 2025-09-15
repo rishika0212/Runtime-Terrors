@@ -1,0 +1,53 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/37703457",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1920461362"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#37703457",
+  "code": "NB92.8",
+  "source": "http://id.who.int/icd/entity/37703457",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/37703457/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482",
+        "http://id.who.int/icd/release/11/2024-01/mms/755612283"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Injury of multiple pelvic organs"
+  },
+  "codingNote": {
+    "@language": "en",
+    "@value": "Each injury should be coded separately. This code should be used alone only when the detail of the specific injuries is unknown, or it is not possible to code each injury. This code may also be used in postcoordination to identify cases of complex trauma."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury of multiple pelvic organs"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury of multiple pelvic organs without open wound into cavity"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1280158647"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury of multiple pelvic organs with open wound into cavity"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/688285219"
+    }
+  ]
+}

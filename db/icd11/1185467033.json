@@ -1,0 +1,54 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1185467033",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1295356165"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1185467033",
+  "code": "1B20.20",
+  "source": "http://id.who.int/icd/entity/1185467033",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1185467033/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1968541653",
+        "http://id.who.int/icd/release/11/2024-01/mms/1170330671"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Type I leprosy reaction"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This phenomenon, also named “upgrading reaction,” occurs in borderline leprosy states and is associated with an increase in cell-mediated immunity. It occurs typically within the first 6 months of treatment in previously untreated patients but may be related to stress, intercurrent infections, or pregnancy. Clinical features include inflammatory swelling, erythema and occasionally ulceration of existing lesions, constitutional symptoms and neuritis. If the neuritis is not treated promptly permanent motor nerve damage may ensue."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/911707612"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Type I leprosy reaction"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Leprosy reversal reaction"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Leprosy upgrading reaction"
+      }
+    }
+  ]
+}

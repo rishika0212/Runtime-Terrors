@@ -1,0 +1,58 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/836532562",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2073711696"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#836532562",
+  "code": "8A60.2",
+  "source": "http://id.who.int/icd/entity/836532562",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/836532562/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/539646260"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/836532562/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1611724421",
+        "http://id.who.int/icd/release/11/2024-01/mms/1345814274",
+        "http://id.who.int/icd/release/11/2024-01/mms/2091156678",
+        "http://id.who.int/icd/release/11/2024-01/mms/2099230583",
+        "http://id.who.int/icd/release/11/2024-01/mms/1719545571/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/1719545571/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Epilepsy due to degenerative brain disorders"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Epilepsy in relation to a degenerative brain disorder known to be associated with seizures, such as certain neuronal storage disorders (e.g. adult neuronal ceroid lipofuscinosis), and certain mitochondrial disorders."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/564191997"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/2083324835"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Epilepsy due to degenerative brain disorders"
+      }
+    }
+  ]
+}

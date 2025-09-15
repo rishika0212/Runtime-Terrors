@@ -1,0 +1,93 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/521279908",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1739890344"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#521279908",
+  "code": "FB33",
+  "source": "http://id.who.int/icd/entity/521279908",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/521279908/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1922573088",
+        "http://id.who.int/icd/release/11/2024-01/mms/1359586520",
+        "http://id.who.int/icd/release/11/2024-01/mms/955996865",
+        "http://id.who.int/icd/release/11/2024-01/mms/507472176",
+        "http://id.who.int/icd/release/11/2024-01/mms/107652911",
+        "http://id.who.int/icd/release/11/2024-01/mms/720361080",
+        "http://id.who.int/icd/release/11/2024-01/mms/864968000"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/521279908/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1435254666",
+        "http://id.who.int/icd/release/11/2024-01/mms/1630407678",
+        "http://id.who.int/icd/release/11/2024-01/mms/1766440644",
+        "http://id.who.int/icd/release/11/2024-01/mms/1954798891",
+        "http://id.who.int/icd/release/11/2024-01/mms/1008515027",
+        "http://id.who.int/icd/release/11/2024-01/mms/1576710885",
+        "http://id.who.int/icd/release/11/2024-01/mms/330792642",
+        "http://id.who.int/icd/release/11/2024-01/mms/21500692",
+        "http://id.who.int/icd/release/11/2024-01/mms/1296093776",
+        "http://id.who.int/icd/release/11/2024-01/mms/1577503643",
+        "http://id.who.int/icd/release/11/2024-01/mms/426429380",
+        "http://id.who.int/icd/release/11/2024-01/mms/1256772020",
+        "http://id.who.int/icd/release/11/2024-01/mms/1639304259",
+        "http://id.who.int/icd/release/11/2024-01/mms/252326937",
+        "http://id.who.int/icd/release/11/2024-01/mms/1525792972",
+        "http://id.who.int/icd/release/11/2024-01/mms/1989556002",
+        "http://id.who.int/icd/release/11/2024-01/mms/82568660",
+        "http://id.who.int/icd/release/11/2024-01/mms/250905801",
+        "http://id.who.int/icd/release/11/2024-01/mms/2052707382",
+        "http://id.who.int/icd/release/11/2024-01/mms/842838910",
+        "http://id.who.int/icd/release/11/2024-01/mms/266977088",
+        "http://id.who.int/icd/release/11/2024-01/mms/1523445293",
+        "http://id.who.int/icd/release/11/2024-01/mms/1507462233",
+        "http://id.who.int/icd/release/11/2024-01/mms/762797224",
+        "http://id.who.int/icd/release/11/2024-01/mms/30659757",
+        "http://id.who.int/icd/release/11/2024-01/mms/894625870",
+        "http://id.who.int/icd/release/11/2024-01/mms/1496140949",
+        "http://id.who.int/icd/release/11/2024-01/mms/1178222588",
+        "http://id.who.int/icd/release/11/2024-01/mms/1810466448"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Secondary disorders of muscle"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "myopathy in: metabolic diseases"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1159616108",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1159616108"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Secondary disorders of muscle"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Disorders of muscle in diseases classified elsewhere"
+      }
+    }
+  ]
+}

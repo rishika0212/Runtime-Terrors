@@ -1,0 +1,83 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/889756042",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1489212950"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#889756042",
+  "code": "NB95",
+  "source": "http://id.who.int/icd/entity/889756042",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sequelae of injury of intra-abdominal or pelvic organs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1936392744",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/389818276/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/889756042/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1493524587",
+        "http://id.who.int/icd/release/11/2024-01/mms/1928625572",
+        "http://id.who.int/icd/release/11/2024-01/mms/578694909",
+        "http://id.who.int/icd/release/11/2024-01/mms/720455085",
+        "http://id.who.int/icd/release/11/2024-01/mms/771220582",
+        "http://id.who.int/icd/release/11/2024-01/mms/1351578749",
+        "http://id.who.int/icd/release/11/2024-01/mms/532265365",
+        "http://id.who.int/icd/release/11/2024-01/mms/720032908",
+        "http://id.who.int/icd/release/11/2024-01/mms/157646292",
+        "http://id.who.int/icd/release/11/2024-01/mms/1678247922",
+        "http://id.who.int/icd/release/11/2024-01/mms/344632447"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/889756042/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482",
+        "http://id.who.int/icd/release/11/2024-01/mms/755612283"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Injury of intra-abdominal organ with pelvic organ"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury of intra-abdominal organ with pelvic organ"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "injury of abdomen with pelvic organs"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "injury of pelvic organ with abdominal organ(s)"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Abdominal viscera haematoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1223861741"
+    }
+  ]
+}

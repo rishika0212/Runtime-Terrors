@@ -1,0 +1,45 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2140822372",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/757547077"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/38037245",
+    "http://id.who.int/icd/release/11/2024-01/mms/329448344",
+    "http://id.who.int/icd/release/11/2024-01/mms/2140822372/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2140822372",
+  "code": "MC83",
+  "source": "http://id.who.int/icd/entity/2140822372",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2140822372/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1912610276"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Cardiac murmurs and other cardiac sounds"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Cardiac murmurs are blowing, whooshing, or rasping sounds heard during a heartbeat. Other cardiac sounds are sounds heard from heart other than cardiac murmurs."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cardiovascular disorders present in the perinatal or neonatal period"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1008196289",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1008196289"
+    }
+  ]
+}

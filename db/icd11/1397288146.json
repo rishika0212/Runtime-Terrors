@@ -1,0 +1,69 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1397288146",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1296093776"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2073711696",
+    "http://id.who.int/icd/release/11/2024-01/mms/517052870",
+    "http://id.who.int/icd/release/11/2024-01/mms/1786562875",
+    "http://id.who.int/icd/release/11/2024-01/mms/1376414432",
+    "http://id.who.int/icd/release/11/2024-01/mms/2006527791",
+    "http://id.who.int/icd/release/11/2024-01/mms/429021871",
+    "http://id.who.int/icd/release/11/2024-01/mms/906174792",
+    "http://id.who.int/icd/release/11/2024-01/mms/1988362682",
+    "http://id.who.int/icd/release/11/2024-01/mms/539646260",
+    "http://id.who.int/icd/release/11/2024-01/mms/1397288146/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1397288146/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1397288146",
+  "code": "",
+  "source": "http://id.who.int/icd/entity/1397288146",
+  "classKind": "block",
+  "blockId": "BlockL1-8A6",
+  "codeRange": "8A60-8A6Z",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sudden unexpected death in epilepsy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1370023741",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1370023741"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neonatal seizures"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2083324835",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2083324835"
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Epilepsy or seizures"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "At least 2 unprovoked (or reflex) seizures occurring more than 24 hours apart."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Syncope"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1418136013",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1418136013"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/2083324835"
+  ],
+  "codingNote": {
+    "@language": "en",
+    "@value": "Use additional code, if desired, to identify the type of seizure."
+  }
+}

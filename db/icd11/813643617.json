@@ -1,0 +1,82 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/813643617",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1103667651"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#813643617",
+  "code": "9D90.2",
+  "source": "http://id.who.int/icd/entity/813643617",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/813643617/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/813643617/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2110791639",
+        "http://id.who.int/icd/release/11/2024-01/mms/112415334",
+        "http://id.who.int/icd/release/11/2024-01/mms/914405870"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Moderate vision impairment"
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "visual impairment category 2, in both eyes"
+      }
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Moderate vision impairment"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "low vision, both eyes"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "visual impairment category 2, in both eyes"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Low vision"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1502665450"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "LW - [low vision]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1502665450"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/348602398",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1006882070"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#348602398",
+  "code": "9B71.01",
+  "source": "http://id.who.int/icd/entity/348602398",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/348602398/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/348602398/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1651053999",
+        "http://id.who.int/icd/release/11/2024-01/mms/119724091",
+        "http://id.who.int/icd/release/11/2024-01/mms/1150913605",
+        "http://id.who.int/icd/release/11/2024-01/mms/381961554",
+        "http://id.who.int/icd/release/11/2024-01/mms/1697306310"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Proliferative diabetic retinopathy"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is proliferative retinopathy (damage to the retina) caused by complications of diabetes, which can eventually lead to blindness. It is an ocular manifestation of diabetes, a systemic disease, which affects up to 80 percent of all patients who have had diabetes for 10 years or more.\n\n\nAlways assign an additional code for the type of diabetes mellitus."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Proliferative diabetic retinopathy"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Diabetes mellitus, independent of type with proliferative retinopathy"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Proliferative diabetic retinopathy with vitreous haemorrhage"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/869703154"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Proliferative diabetic retinopathy with tractional retinal detachment, macula not involved"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/442541415"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Proliferative diabetic retinopathy with tractional retinal detachment, macula involved"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/677998944"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Proliferative diabetic retinopathy with combined rhegmatogenous and tractional retinal detachment"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/397712403"
+    }
+  ]
+}

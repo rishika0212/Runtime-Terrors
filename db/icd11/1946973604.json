@@ -1,0 +1,59 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1946973604",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1174774181"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/950282079",
+    "http://id.who.int/icd/release/11/2024-01/mms/952730197",
+    "http://id.who.int/icd/release/11/2024-01/mms/803046659",
+    "http://id.who.int/icd/release/11/2024-01/mms/1890408959",
+    "http://id.who.int/icd/release/11/2024-01/mms/257833622",
+    "http://id.who.int/icd/release/11/2024-01/mms/1029172881",
+    "http://id.who.int/icd/release/11/2024-01/mms/407807101",
+    "http://id.who.int/icd/release/11/2024-01/mms/42599396",
+    "http://id.who.int/icd/release/11/2024-01/mms/2077559619",
+    "http://id.who.int/icd/release/11/2024-01/mms/697911710",
+    "http://id.who.int/icd/release/11/2024-01/mms/1418101362",
+    "http://id.who.int/icd/release/11/2024-01/mms/1946973604/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1946973604/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1946973604",
+  "code": "2A81",
+  "source": "http://id.who.int/icd/entity/1946973604",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Diffuse large B-cell lymphoma of small intestine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1578565768",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/474972159"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1946973604/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Diffuse large B-cell lymphomas"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Non-Hodgkin lymphomas are characterised by a proliferation of predominantly large neoplastic B lymphocytes."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Primary diffuse large B-cell lymphoma is an aggressive tumor accounting for approximately 40% of the B-cell malignancies that presents with single or multiple rapidly enlarging, symptomatic masses in nodal or extranodal sites (stomach, central nervous system, bone, kidneys and testes)."
+  }
+}

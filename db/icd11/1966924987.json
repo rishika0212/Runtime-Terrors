@@ -1,0 +1,224 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1966924987",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/951191646"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1966924987",
+  "code": "2E62.0",
+  "source": "http://id.who.int/icd/entity/1966924987",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1966924987/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1422142995"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1966924987/postcoordinationScale/histopathology",
+      "axisName": "http://id.who.int/icd/schema/histopathology",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1395468571",
+        "http://id.who.int/icd/release/11/2024-01/mms/522986416",
+        "http://id.who.int/icd/release/11/2024-01/mms/1324810543",
+        "http://id.who.int/icd/release/11/2024-01/mms/1370766919",
+        "http://id.who.int/icd/release/11/2024-01/mms/710558848",
+        "http://id.who.int/icd/release/11/2024-01/mms/1494848434",
+        "http://id.who.int/icd/release/11/2024-01/mms/682879579",
+        "http://id.who.int/icd/release/11/2024-01/mms/602786424",
+        "http://id.who.int/icd/release/11/2024-01/mms/136153868"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1966924987/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Carcinoma in situ of larynx"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Carcinoma in situ of aryepiglottic fold, hypopharyngeal aspect"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1749257222",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1749257222"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Carcinoma in situ of aryepiglottic fold, marginal zone"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1749257222",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1749257222"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Carcinoma in situ of aryepiglottic fold, NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1749257222",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1749257222"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Carcinoma in situ of larynx"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Intraepithelial neoplasia (dysplasia) of larynx, high grade"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "carcinoma in situ of ventricular bands of larynx"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Carcinoma in situ of arytenoid cartilage"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1117175913"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Carcinoma in situ of cricoid cartilage"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1392241071"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Carcinoma in situ of cuneiform cartilage"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/249291433"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Carcinoma in situ of epiglottis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/238950969"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "carcinoma in situ of epiglottis NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/238950969"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "epiglottic carcinoma in situ"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/238950969"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Carcinoma in situ of posterior surface of epiglottis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1051345347"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Carcinoma in situ of suprahyoid portion of epiglottis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/796352023"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Carcinoma in situ of vocal fold"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1162346220"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "carcinoma in situ of vocal fold - glottis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1162346220"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Carcinoma in situ of false vocal cord"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/517849441"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Carcinoma in situ of glottis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1808594276"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Carcinoma in situ of laryngeal aspect of aryepiglottic fold"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/605571765"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Carcinoma in situ of laryngeal aspect of interarytenoid fold"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/973544129"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Carcinoma in situ of laryngeal commissure"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/711602951"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Carcinoma in situ of supraglottis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1870943986"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Carcinoma in situ of vocal cord"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1868672610"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Carcinoma in situ of thyroid cartilage"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/959493324"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/772609501",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1656637330"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#772609501",
+  "code": "GB56.3",
+  "source": "http://id.who.int/icd/entity/772609501",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/772609501/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/772609501/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1507624466"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Hydronephrosis due to bladder obstruction"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition caused by an obstruction in the urinary bladder. It is characterised by distention of the pelvis and calices of one or both kidneys, and lack of free flow of urine from the kidney, and can lead to progressive atrophy of the kidney if untreated. The condition may also present with pain in the flank, haematuria, pyuria, or hyperpyrexia."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hydronephrosis due to bladder obstruction"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hydronephrosis due to bladder obstruction, acquired"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1568707391"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hydronephrosis due to bladder obstruction, acquired, due to cause classified elsewhere"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/991815368"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hydronephrosis due to bladder obstruction, congenital"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1439588146"
+    }
+  ]
+}

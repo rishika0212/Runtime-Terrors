@@ -1,0 +1,60 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/876401817",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1999801446"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#876401817",
+  "code": "DB34.4",
+  "source": "http://id.who.int/icd/entity/876401817",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/876401817/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/720455085",
+        "http://id.who.int/icd/release/11/2024-01/mms/771220582"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/876401817/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acute haemorrhagic rectal ulcer"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Acute haemorrhagic rectal ulcer is regarded as an acute ischemic mucosal disorder that occurs in elderly patients who are suffering from incipient blood flow reduction due to arteriosclerotic factors. These patients are often bedridden, and this causes a decrease in mucosal blood flow in the lower rectum, which in turn triggers this pathology."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute haemorrhagic rectal ulcer"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "AHRU - [acute haemorrhagic rectal ulcer]"
+      }
+    }
+  ]
+}

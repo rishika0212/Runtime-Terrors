@@ -1,0 +1,102 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2051865312",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2096491408"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2051865312",
+  "code": "1F23.31",
+  "source": "http://id.who.int/icd/entity/2051865312",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2051865312/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1983574845",
+        "http://id.who.int/icd/release/11/2024-01/mms/922044675",
+        "http://id.who.int/icd/release/11/2024-01/mms/1013784154"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2051865312/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/622600769",
+        "http://id.who.int/icd/release/11/2024-01/mms/1683090852",
+        "http://id.who.int/icd/release/11/2024-01/mms/2024199586",
+        "http://id.who.int/icd/release/11/2024-01/mms/1765820617",
+        "http://id.who.int/icd/release/11/2024-01/mms/189285942",
+        "http://id.who.int/icd/release/11/2024-01/mms/795057595",
+        "http://id.who.int/icd/release/11/2024-01/mms/1298895686",
+        "http://id.who.int/icd/release/11/2024-01/mms/1552748079"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Pulmonary candidosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease of the pulmonary system, caused by an infection with the fungi Candida. This disease is characterised by fever, chills, cough, nausea, vomiting, tachypnoea, tachycardia, or dyspnoea. Transmission is by opportunistic transmission. Confirmation is by identification of Candida from a sputum sample."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "A type of fungal pneumonia caused by infection with Candida species, seen especially in immunocompromised patients or those with malignancies"
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1080592090"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pulmonary candidosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "candidosis of lung"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pulmonary candidiasis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Candida pneumonia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Early-onset pneumonia due to Candida"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1170519227"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Late acquired pneumonia due to Candida"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/841651396"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bronchomoniliasis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/419636664"
+    }
+  ]
+}

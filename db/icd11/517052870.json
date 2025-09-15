@@ -1,0 +1,42 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/517052870",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1397288146"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1136270486",
+    "http://id.who.int/icd/release/11/2024-01/mms/1310497511",
+    "http://id.who.int/icd/release/11/2024-01/mms/1612372804",
+    "http://id.who.int/icd/release/11/2024-01/mms/199580108",
+    "http://id.who.int/icd/release/11/2024-01/mms/91180764",
+    "http://id.who.int/icd/release/11/2024-01/mms/517052870/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/517052870/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#517052870",
+  "code": "8A61",
+  "source": "http://id.who.int/icd/entity/517052870",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/517052870/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/539646260"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Genetic or presumed genetic syndromes primarily expressed as epilepsy"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "The epilepsy is, as best as understood, the direct result of one or more known or presumed genetic defects in which seizures are the core symptom of the disorder."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/2083324835"
+  ]
+}

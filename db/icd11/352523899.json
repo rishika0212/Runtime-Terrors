@@ -1,0 +1,58 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/352523899",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1327154972"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#352523899",
+  "code": "2A90.0",
+  "source": "http://id.who.int/icd/entity/352523899",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/352523899/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "T-cell prolymphocytic leukaemia"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "An aggressive T-cell leukaemia, characterised by the proliferation of small to medium sized prolymphocytes with a mature T-cell phenotype, involving the blood, bone marrow, lymph nodes, liver, spleen, and skin."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "T-cell prolymphocytic leukaemia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "prolymphocytic leukaemia of T-cell type without mention of remission"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "T-cell prolymphocytic leukaemia in complete remission"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/82188617"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "prolymphocytic leukaemia of T-cell type in complete remission"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/82188617"
+    }
+  ]
+}

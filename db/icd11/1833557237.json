@@ -1,0 +1,166 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1833557237",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/716675709"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1833557237",
+  "code": "NF0A.6",
+  "source": "http://id.who.int/icd/entity/1833557237",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1833557237/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1922573088",
+        "http://id.who.int/icd/release/11/2024-01/mms/1359586520",
+        "http://id.who.int/icd/release/11/2024-01/mms/955996865",
+        "http://id.who.int/icd/release/11/2024-01/mms/507472176",
+        "http://id.who.int/icd/release/11/2024-01/mms/107652911",
+        "http://id.who.int/icd/release/11/2024-01/mms/720361080",
+        "http://id.who.int/icd/release/11/2024-01/mms/864968000"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1833557237/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/980862652",
+        "http://id.who.int/icd/release/11/2024-01/mms/851395624",
+        "http://id.who.int/icd/release/11/2024-01/mms/73322695",
+        "http://id.who.int/icd/release/11/2024-01/mms/128104623",
+        "http://id.who.int/icd/release/11/2024-01/mms/1491356379",
+        "http://id.who.int/icd/release/11/2024-01/mms/491063206",
+        "http://id.who.int/icd/release/11/2024-01/mms/185842968",
+        "http://id.who.int/icd/release/11/2024-01/mms/2143219175",
+        "http://id.who.int/icd/release/11/2024-01/mms/558785723",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Traumatic ischaemia of muscle, not elsewhere classified"
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Traumatic compartment syndrome"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "anterior tibial syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/719281988",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/719281988"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Traumatic ischaemia of muscle, not elsewhere classified"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Traumatic compartment syndrome"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "extremity compartment syndrome NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Arm compartment syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1290571689"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "traumatic arm compartment syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1290571689"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "upper extremity compartment syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1290571689"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Leg compartment syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/932168218"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "traumatic leg compartment syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/932168218"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "lower extremity compartment syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/932168218"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Shin splints"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1631883119"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Volkmann contracture"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/366740140"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Volkmann ischaemic contracture"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/366740140"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Volkmann paralysis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/998132686"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Volkmann ischemic paralysis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/998132686"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1913468488",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1939815950"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1314810340",
+    "http://id.who.int/icd/release/11/2024-01/mms/2043496606",
+    "http://id.who.int/icd/release/11/2024-01/mms/1913468488/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1913468488",
+  "code": "1F20",
+  "source": "http://id.who.int/icd/entity/1913468488",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aspergillus-induced allergic or hypersensitivity conditions"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1826470791",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1826470791"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neonatal aspergillosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1791817517",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1791817517"
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Aspergillosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Aspergillosis is a disease caused by fungi of the genus Aspergillus. The organism is ubiquitous, being found in soil and water or in decaying vegetation. While Aspergillus is entirely harmless for most individuals, the spores can cause various forms of mycosis in people with lung diseases or weakened immune system."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "aspergilloma"
+      }
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1791817517"
+  ]
+}

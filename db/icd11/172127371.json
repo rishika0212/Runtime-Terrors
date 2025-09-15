@@ -1,0 +1,51 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/172127371",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1106709617"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#172127371",
+  "code": "LB16.3",
+  "source": "http://id.who.int/icd/entity/172127371",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/172127371/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1741413713"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Congenital hypoganglionosis of large intestine"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "The number and size of ganglion cells are small at birth. The size of ganglion cells tends to increase over time, but because their numbers do not increase the symptoms of dysmotility do not improve. \nSource: http://www.ncbi.nlm.nih.gov/pubmed/17161202"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired hypoganglionosis of large intestine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1683062254",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1683062254"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1191558345"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital hypoganglionosis of large intestine"
+      }
+    }
+  ]
+}

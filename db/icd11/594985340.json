@@ -1,0 +1,185 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/594985340",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1858685964"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#594985340",
+  "code": "KB24",
+  "source": "http://id.who.int/icd/entity/594985340",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/594985340/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1065383727",
+        "http://id.who.int/icd/release/11/2024-01/mms/1292092042",
+        "http://id.who.int/icd/release/11/2024-01/mms/1811342866",
+        "http://id.who.int/icd/release/11/2024-01/mms/428956900",
+        "http://id.who.int/icd/release/11/2024-01/mms/942223947",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Congenital pneumonia"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Congenital pneumonia is an acute respiratory infection contracted prenatally or during the intrapartum period that is caused by a virus, bacteria, or fungi."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Congenital pneumonia is an acute respiratory infection contracted prenatally or during the intrapartum period that is caused by a virus, bacteria, or fungi, and leads to alveolar consolidation in one or more lungs and lobes as shown on chest radiograph and demonstrated by respiratory distress and oxygen dependency in the newborn"
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "infective pneumonia acquired in utero or during birth"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neonatal aspiration syndromes"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1352159976",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1352159976"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pneumonitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1324545867",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1324545867"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital pneumonia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute congenital pneumonia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "congenital double pneumonia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "congenital purulent pneumonia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "congenital infective pneumonia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "fetal pneumonia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "infective pneumonia acquired in utero or during birth"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "infective pneumonia acquired prenatally"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "intrauterine pneumonia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital pneumonia due to Chlamydia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1842329598"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "congenital chlamydial pneumonia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1842329598"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "neonatal chlamydial lung infection"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1842329598"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "neonatal chlamydial pneumonia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1842329598"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "neonatal chlamydial pneumonitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1842329598"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital pneumonia due to staphylococcus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/425912065"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital pneumonia due to streptococcus, group B"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2083072661"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital pneumonia due to Escherichia coli"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/264747265"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital pneumonia due to Pseudomonas aeruginosa"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1787589781"
+    }
+  ]
+}

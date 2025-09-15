@@ -1,0 +1,51 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1513496791",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/108076065"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2005415414",
+    "http://id.who.int/icd/release/11/2024-01/mms/2056675356",
+    "http://id.who.int/icd/release/11/2024-01/mms/534621578",
+    "http://id.who.int/icd/release/11/2024-01/mms/238760163",
+    "http://id.who.int/icd/release/11/2024-01/mms/413036259",
+    "http://id.who.int/icd/release/11/2024-01/mms/1513496791/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1513496791/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1513496791",
+  "code": "LA22",
+  "source": "http://id.who.int/icd/entity/1513496791",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1513496791/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1513496791/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1144556225"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Structural developmental anomalies of ear causing hearing impairment"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Any condition caused by the failure of the ear to correctly develop during the antenatal period. These conditions are characterised by hearing impairment."
+  }
+}

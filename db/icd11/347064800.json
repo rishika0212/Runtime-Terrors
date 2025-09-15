@@ -1,0 +1,71 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/347064800",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/954411279"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2081252099",
+    "http://id.who.int/icd/release/11/2024-01/mms/1789410563",
+    "http://id.who.int/icd/release/11/2024-01/mms/347064800/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/347064800/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#347064800",
+  "code": "QF01",
+  "source": "http://id.who.int/icd/entity/347064800",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/347064800/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/347064800/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/485621173",
+        "http://id.who.int/icd/release/11/2024-01/mms/1963131822",
+        "http://id.who.int/icd/release/11/2024-01/mms/2055915829",
+        "http://id.who.int/icd/release/11/2024-01/mms/1144556225",
+        "http://id.who.int/icd/release/11/2024-01/mms/1422142995",
+        "http://id.who.int/icd/release/11/2024-01/mms/1338477196",
+        "http://id.who.int/icd/release/11/2024-01/mms/2108966855",
+        "http://id.who.int/icd/release/11/2024-01/mms/480847577",
+        "http://id.who.int/icd/release/11/2024-01/mms/1223109342",
+        "http://id.who.int/icd/release/11/2024-01/mms/223243926"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acquired absence of organs"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "postoperative absence of endocrine glands"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1915134721",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1915134721"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "postoperative absence of spleen"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1409065148",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1409065148"
+    }
+  ]
+}

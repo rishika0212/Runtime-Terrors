@@ -1,0 +1,72 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1866434304",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/383104340"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1866434304",
+  "code": "NE87",
+  "source": "http://id.who.int/icd/entity/1866434304",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1866434304/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/460401849",
+        "http://id.who.int/icd/release/11/2024-01/mms/1642025150",
+        "http://id.who.int/icd/release/11/2024-01/mms/2024436666",
+        "http://id.who.int/icd/release/11/2024-01/mms/1162198017",
+        "http://id.who.int/icd/release/11/2024-01/mms/431804121",
+        "http://id.who.int/icd/release/11/2024-01/mms/1669303982"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Failed or difficult intubation"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Intubation complicated by patient anatomy or physiology which complicates, prolongs or prevents intubation.\n\nComplication is defined as saturations falling more than 20% below baseline, significant damage to lips, teeth or tongue, or regurgitation and aspiration of gastric contents. Prolongation is defined as either intubation using special techniques (fibreoptic intubation) or three or more attempts at intubation using direct laryngoscopy or videolaryngoscopy when performed by a fully trained and expert anesthetist. Failure is defined as the abandonment of the attempt at intubation."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Failed or difficult intubation during pregnancy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/212365095",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/212365095"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Failed or difficult intubation during labour or delivery"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1785378373",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1785378373"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Failed or difficult intubation during the puerperium"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1404227379",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1404227379"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/59436623"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Failed or difficult intubation"
+      }
+    }
+  ]
+}

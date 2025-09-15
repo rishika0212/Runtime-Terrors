@@ -1,0 +1,133 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1128255226",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1322678686"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1128255226",
+  "code": "FA24.3",
+  "source": "http://id.who.int/icd/entity/1128255226",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1128255226/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1128255226/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1363003152",
+        "http://id.who.int/icd/release/11/2024-01/mms/1959335168",
+        "http://id.who.int/icd/release/11/2024-01/mms/192726145",
+        "http://id.who.int/icd/release/11/2024-01/mms/223741850",
+        "http://id.who.int/icd/release/11/2024-01/mms/319259361",
+        "http://id.who.int/icd/release/11/2024-01/mms/223046766"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1128255226/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1968541653"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1128255226/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1885288190"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Juvenile enthesitis related arthritis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Enthesitis-related arthritis is a type of juvenile idiopathic arthritis (JIA) that represents the paediatric form of spondyloarthropathy in adults, but differs from it as the initial manifestations in the paediatric form are asymmetric oligoarticular arthritis of the lower limbs, associated with enthesitis. Axial manifestations (sacroiliac involvement) are present in only 25% of cases at onset but appear several years later in the disease course."
+  },
+  "codingNote": {
+    "@language": "en",
+    "@value": "Use additional code to identify associated uveitis"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Juvenile enthesitis related arthritis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Juvenile enthesitis related arthritis, ANA positive"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/918088103"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Juvenile enthesitis related arthritis, ANA positive, with uveitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/103592541"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Juvenile enthesitis related arthritis, ANA negative"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/472499303"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Juvenile enthesitis related arthritis, ANA negative, with uveitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2098050830"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Juvenile enthesitis related arthritis, HLA B27 negative"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1622341053"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Juvenile enthesitis related arthritis, HLA B27 negative, with uveitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/352612816"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Juvenile enthesitis related arthritis, HLA B27 positive"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/256069398"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Juvenile enthesitis related arthritis, HLA B27 positive, with uveitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/177379452"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1239818910",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1443317238"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1239818910",
+  "code": "4A40.1",
+  "source": "http://id.who.int/icd/entity/1239818910",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1239818910/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/390684604"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1239818910/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1583926619",
+        "http://id.who.int/icd/release/11/2024-01/mms/1323892810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Drug-induced lupus erythematosus"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Drug-induced lupus erythematosus is a syndrome in which positive antinuclear antibodies are associated with symptoms, such as fever, malaise, arthritis, intense arthralgia/myalgia, serositis, and/or rash. The syndrome appears during therapy with certain medications (e.g., procainamide, hydralazine, phenytoin) and tumour necrosis factor inhibitors. It occurs predominantly in Caucasians, has less female predilection than SLE, rarely involves kidneys or brain, is rarely associated with anti-dsDNA, is commonly associated with antibodies to histones, and usually resolves over several weeks after discontinuation of the offending medication."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/213855225"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced lupus erythematosus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "drug-induced systemic lupus erythematosus"
+      }
+    }
+  ]
+}

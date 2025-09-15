@@ -1,0 +1,101 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/545773433",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/109841337"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/703325880",
+    "http://id.who.int/icd/release/11/2024-01/mms/340836242",
+    "http://id.who.int/icd/release/11/2024-01/mms/1273227337",
+    "http://id.who.int/icd/release/11/2024-01/mms/157756569",
+    "http://id.who.int/icd/release/11/2024-01/mms/545773433/other"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#545773433",
+  "code": "9B10.2",
+  "source": "http://id.who.int/icd/entity/545773433",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myotonic cataract"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1723425593",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/545773433/other"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Undernutrition-dehydration cataract"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/925440127",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/545773433/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/545773433/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/545773433/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1583926619",
+        "http://id.who.int/icd/release/11/2024-01/mms/1323892810"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/545773433/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1722092627",
+        "http://id.who.int/icd/release/11/2024-01/mms/1517885800",
+        "http://id.who.int/icd/release/11/2024-01/mms/192087511"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Certain specified cataracts"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A cataract is clouding of the lens of the eye, which impedes the passage of light."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "A cataract is clouding of the lens of the eye, which impedes the passage of light. Most cataracts are related to ageing, although occasionally children may be born with the condition, or cataract may develop after an injury, inflammation or disease.\n\nRisk factors for age-related cataract include diabetes, prolonged exposure to sunlight, tobacco use and alcohol drinking. Vision can be restored by surgically removing the affected lens, and replacing it by an artificial one"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital cataract"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1080602978",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1080602978"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Certain specified cataracts"
+      }
+    }
+  ]
+}

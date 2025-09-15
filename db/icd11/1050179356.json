@@ -1,0 +1,55 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1050179356",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/943599144"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1050179356",
+  "code": "LA11.0",
+  "source": "http://id.who.int/icd/entity/1050179356",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1050179356/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Blue sclera"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition of the eye, characterised by transparency of the sclera such that the blue uvea is visible."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Blue sclera"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Blue sclera, unilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/983556719"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Blue sclera, bilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/309882956"
+    }
+  ]
+}

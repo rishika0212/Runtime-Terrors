@@ -1,0 +1,87 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1111587867",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1357848258"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1111587867",
+  "code": "1F2L.1",
+  "source": "http://id.who.int/icd/entity/1111587867",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1111587867/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1338477196",
+        "http://id.who.int/icd/release/11/2024-01/mms/1492119116",
+        "http://id.who.int/icd/release/11/2024-01/mms/1322869997",
+        "http://id.who.int/icd/release/11/2024-01/mms/1637303052"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1111587867/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2024199586",
+        "http://id.who.int/icd/release/11/2024-01/mms/1765820617",
+        "http://id.who.int/icd/release/11/2024-01/mms/189285942",
+        "http://id.who.int/icd/release/11/2024-01/mms/795057595",
+        "http://id.who.int/icd/release/11/2024-01/mms/1298895686",
+        "http://id.who.int/icd/release/11/2024-01/mms/1552748079"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1111587867/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/299901355"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Pulmonary adiaspiromycosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Pulmonary adiaspiromycosis is an infection of the lungs due to inhalation of spores of the saprophytic soil fungus Chrysosporium parvum (formerly Emmonsia parva). The fungus affects many species of rodents but may occasionally infect humans. It is characterised by the presence of huge spherules (adiaspores) in the lungs."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Adiaspiromycosis"
+      }
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/528118622"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pulmonary adiaspiromycosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Adiaspiromycosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pulmonary emmonsiosis"
+      }
+    }
+  ]
+}

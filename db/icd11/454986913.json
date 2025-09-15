@@ -1,0 +1,86 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/454986913",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/306281816"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#454986913",
+  "code": "EL73.0",
+  "source": "http://id.who.int/icd/entity/454986913",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/454986913/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/460401849",
+        "http://id.who.int/icd/release/11/2024-01/mms/1642025150",
+        "http://id.who.int/icd/release/11/2024-01/mms/1162198017",
+        "http://id.who.int/icd/release/11/2024-01/mms/431804121"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Adverse reaction to dermal or deep fillers"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Any adverse event attributable to the use of injected fillers used for soft tissue augmentation."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pyogenic abscess of the skin"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1324834502",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1324834502"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Adverse reaction to dermal or deep fillers"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cutaneous necrosis following injection of filler"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/781695563"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Foreign body granulomatous reaction to injected filler"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2118898570"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nodule formation attributable to injected filler"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2118898570"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Serious adverse reaction to injection of filler"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/40770674"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Abscess of skin or subcutaneous tissue attributable to injection of filler"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2091197854"
+    }
+  ]
+}

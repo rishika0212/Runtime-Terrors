@@ -1,0 +1,107 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/783234001",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1501519274"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#783234001",
+  "code": "2A02.2",
+  "source": "http://id.who.int/icd/entity/783234001",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/783234001/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1150229943",
+        "http://id.who.int/icd/release/11/2024-01/mms/677972541"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/783234001/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Primary neoplasm of spinal cord of unknown or unspecified type"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary neoplasm of spinal cord of unknown or unspecified type"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant neoplasm of spinal cord"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/492029077"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "primary malignant neoplasm of spinal cord"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/492029077"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "spinal cord cancer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/492029077"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cervical spinal cord cancer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1682626269"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Lumbar spinal cord cancer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1804303975"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Thoracic spinal cord cancer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1328177909"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "thorax spinal cord cancer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1328177909"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant neoplasm of cauda equina"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2014841089"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "primary malignant neoplasm of cauda equina"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2014841089"
+    }
+  ]
+}

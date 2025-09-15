@@ -1,0 +1,115 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1040555026",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/820245648"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1040555026",
+  "code": "JA43.0",
+  "source": "http://id.who.int/icd/entity/1040555026",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1040555026/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1579456332"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Third-stage haemorrhage"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition characterised by excessive loss of blood during the third stage of labour for a vaginal delivery. This condition is caused by uterine atony, trauma, retained placenta, or coagulopathy."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "third-stage postpartum haemorrhage"
+      }
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Third-stage haemorrhage"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "third-stage postpartum haemorrhage"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Haemorrhage associated with placenta accreta"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/478014818"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "placenta increta NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/478014818"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Haemorrhage associated with placenta percreta"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1981794373"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Haemorrhage associated with retained, trapped or adherent placenta"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1244461000"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Retained placenta NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1244461000"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "placenta retention NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1244461000"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "haemorrhage associated with retained placenta NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1244461000"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "adherent placenta NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1244461000"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "trapped placenta NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1244461000"
+    }
+  ]
+}

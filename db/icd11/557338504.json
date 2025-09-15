@@ -1,0 +1,35 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/557338504",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2145753518"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1127235959",
+    "http://id.who.int/icd/release/11/2024-01/mms/557338504/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/557338504/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#557338504",
+  "code": "8A02.0",
+  "source": "http://id.who.int/icd/entity/557338504",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/557338504/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2019368323"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Primary dystonia"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Primary dystonias (primary torsion dystonias) are disorders where dystonia is the sole neurological manifestation. These disorders are slowly progressive and may be familial/genetic or sporadic in origin."
+  }
+}

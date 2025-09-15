@@ -1,0 +1,54 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/296753000",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1890931931"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#296753000",
+  "code": "8D87.01",
+  "source": "http://id.who.int/icd/entity/296753000",
+  "classKind": "category",
+  "title": {
+    "@language": "en",
+    "@value": "Multiple system atrophy, Parkinsonism"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is a progressive disorder of the central and autonomic nervous systems, characterised by orthostatic hypotension (an excessive drop in blood pressure when standing up), which causes dizziness or fainting. It can occur without orthostatic hypotension, but instead have urinary involvement (urgency/incontinence). This type includes symptoms of Parkinson's disease such as slow movement, rigidity, and tremor."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spinocerebellar ataxia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/600993818",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/600993818"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pure autonomic nervous system failure"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/734022291",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/734022291"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/564191997"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Multiple system atrophy, Parkinsonism"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "MSA-P - [multiple system atrophy, Parkinsonian type]"
+      }
+    }
+  ]
+}

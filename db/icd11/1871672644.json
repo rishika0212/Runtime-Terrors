@@ -1,0 +1,66 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1871672644",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1264914040"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/248006617",
+    "http://id.who.int/icd/release/11/2024-01/mms/88597691",
+    "http://id.who.int/icd/release/11/2024-01/mms/1944772274",
+    "http://id.who.int/icd/release/11/2024-01/mms/2052188597",
+    "http://id.who.int/icd/release/11/2024-01/mms/19182249",
+    "http://id.who.int/icd/release/11/2024-01/mms/356971565",
+    "http://id.who.int/icd/release/11/2024-01/mms/1343994188",
+    "http://id.who.int/icd/release/11/2024-01/mms/1457092071",
+    "http://id.who.int/icd/release/11/2024-01/mms/1426457254",
+    "http://id.who.int/icd/release/11/2024-01/mms/1759664954",
+    "http://id.who.int/icd/release/11/2024-01/mms/1871672644/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1871672644/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1871672644",
+  "code": "DA42",
+  "source": "http://id.who.int/icd/entity/1871672644",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1871672644/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731",
+        "http://id.who.int/icd/release/11/2024-01/mms/1290701352"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1871672644/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Gastritis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Gastritis is an injury of gastric mucosa that involves epithelial damage, mucosal inflammation, and epithelial cell regeneration except for any epithelial defect. Gastritis is caused by various factors such as infectious agents, drugs, chemical agents, autoimmune reaction and others. Gastritis is diagnosed histopathologically and/or endoscopically. Gastritis is classified as acute and chronic phase by clinical course."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gastroduodenitis"
+      }
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1271971260",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/750435296"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1144302768",
+    "http://id.who.int/icd/release/11/2024-01/mms/20223105",
+    "http://id.who.int/icd/release/11/2024-01/mms/366058642",
+    "http://id.who.int/icd/release/11/2024-01/mms/44221751",
+    "http://id.who.int/icd/release/11/2024-01/mms/129144529",
+    "http://id.who.int/icd/release/11/2024-01/mms/323246172",
+    "http://id.who.int/icd/release/11/2024-01/mms/1980732874",
+    "http://id.who.int/icd/release/11/2024-01/mms/1768853109",
+    "http://id.who.int/icd/release/11/2024-01/mms/1271971260/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1271971260/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1271971260",
+  "code": "LA13",
+  "source": "http://id.who.int/icd/entity/1271971260",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Juvenile retinoschisis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2074506458",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2074506458"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Optic nerve hypoplasia or aplasia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/891014919",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1980732874/unspecified"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1271971260/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1271971260/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2103679387",
+        "http://id.who.int/icd/release/11/2024-01/mms/1900566978",
+        "http://id.who.int/icd/release/11/2024-01/mms/2088597502"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Structural developmental anomalies of the posterior segment of eye"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Any condition caused by failure of the posterior segment of the eye to correctly develop during the antenatal period. These conditions are characterised by clinical, functional, or morphological changes to the posterior segment of the eye."
+  }
+}

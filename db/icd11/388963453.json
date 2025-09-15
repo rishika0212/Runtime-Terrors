@@ -1,0 +1,65 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/388963453",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/381961554"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#388963453",
+  "code": "5A13.4",
+  "source": "http://id.who.int/icd/entity/388963453",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/388963453/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1868408442",
+        "http://id.who.int/icd/release/11/2024-01/mms/1583926619",
+        "http://id.who.int/icd/release/11/2024-01/mms/1323892810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Diabetes mellitus due to drug or chemical"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Other specified diabetes mellitus due to drug or chemical is a form of diabetes, which is caused by drug or chemical substance that impairs insulin secretion and insulin action."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/169360210"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1217915084"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Diabetes mellitus due to drug or chemical"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chemical diabetes"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chemical DM"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Steroid-induced diabetes"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/235906657"
+    }
+  ]
+}

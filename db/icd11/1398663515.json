@@ -1,0 +1,55 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1398663515",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1429730271"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1398663515",
+  "code": "LB90.4",
+  "source": "http://id.who.int/icd/entity/1398663515",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1398663515/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Madelung deformity"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Madelung disease, or deformity is a predominantly bilateral wrist anomaly characterised by shortened and bowed radii and long ulnae leading to dorsal dislocation of the distal ulna and limited mobility of the wrist and elbow."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Madelung deformity"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Madelung deformity, unilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1964514438"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Madelung deformity, bilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1577029287"
+    }
+  ]
+}

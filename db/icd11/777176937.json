@@ -1,0 +1,66 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/777176937",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/337572245"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#777176937",
+  "code": "BC81.22",
+  "source": "http://id.who.int/icd/entity/777176937",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/777176937/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/236819908",
+        "http://id.who.int/icd/release/11/2024-01/mms/541780232"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Scar mediated macro reentrant atrial tachycardia"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A macro re-entrant atrial tachycardia in which the central obstacle and/or the zone of slow conduction sustaining the tachycardia is due to scar. In this context scar generally refers to surgical or ischaemic heart disease mediated scarring rather than the fibrosis that can accompany other disease states or aging."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1380872553"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/88964541"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Scar mediated macro reentrant atrial tachycardia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Scar mediated right atrial macro reentrant atrial tachycardia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2065510694"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Scar mediated left atrial macro reentrant atrial tachycardia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/79948457"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Scar mediated left atrial macro reentrant atrial tachycardia after ablation of atrial fibrillation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/903743635"
+    }
+  ]
+}

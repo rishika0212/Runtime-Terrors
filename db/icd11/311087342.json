@@ -1,0 +1,155 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/311087342",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1589820283"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#311087342",
+  "code": "NC93.7",
+  "source": "http://id.who.int/icd/entity/311087342",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/311087342/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/311087342/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/435983056",
+        "http://id.who.int/icd/release/11/2024-01/mms/1155293432",
+        "http://id.who.int/icd/release/11/2024-01/mms/1585802427",
+        "http://id.who.int/icd/release/11/2024-01/mms/223992584",
+        "http://id.who.int/icd/release/11/2024-01/mms/166096716",
+        "http://id.who.int/icd/release/11/2024-01/mms/1236076667",
+        "http://id.who.int/icd/release/11/2024-01/mms/970434236"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/311087342/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/980862652",
+        "http://id.who.int/icd/release/11/2024-01/mms/851395624",
+        "http://id.who.int/icd/release/11/2024-01/mms/73322695",
+        "http://id.who.int/icd/release/11/2024-01/mms/128104623",
+        "http://id.who.int/icd/release/11/2024-01/mms/1491356379",
+        "http://id.who.int/icd/release/11/2024-01/mms/491063206",
+        "http://id.who.int/icd/release/11/2024-01/mms/185842968",
+        "http://id.who.int/icd/release/11/2024-01/mms/2143219175",
+        "http://id.who.int/icd/release/11/2024-01/mms/558785723",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Strain or sprain of other or unspecified parts of knee"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A collective term for muscle and ligament injuries of other and unspecified tissues associated with the knee without dislocation or fracture; a joint injury in which some of the fibers of a supporting ligament are ruptured but the continuity of the ligament remains intact. A strain is an overstretching or overexertion of some part of the musculature."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "sprain of patellar ligament"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1208636772",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1208636772"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Strain or sprain of other or unspecified parts of knee"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sprain of meniscus of knee"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/93634241"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sprained patella"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/542761731"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Strained patella"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/604081581"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sprain of semilunar cartilage of knee"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1158462506"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Strain of semilunar cartilage of knee"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1623319018"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Strain of meniscus of knee"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/706280977"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Strain or sprain of knee"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/753647348"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "strain or sprain of knee NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/753647348"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Lateral meniscus knee injury"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2121859566"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Medial meniscus knee injury"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1945136169"
+    }
+  ]
+}

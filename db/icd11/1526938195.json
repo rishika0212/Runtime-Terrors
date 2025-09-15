@@ -1,0 +1,78 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1526938195",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/29198741"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/449241496",
+    "http://id.who.int/icd/release/11/2024-01/mms/316377284",
+    "http://id.who.int/icd/release/11/2024-01/mms/2016472924",
+    "http://id.who.int/icd/release/11/2024-01/mms/780637678",
+    "http://id.who.int/icd/release/11/2024-01/mms/778202494",
+    "http://id.who.int/icd/release/11/2024-01/mms/1526938195/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1526938195/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1526938195",
+  "code": "DA96.0",
+  "source": "http://id.who.int/icd/entity/1526938195",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postsurgical malabsorption, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2056130748",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2056130748"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neonatal malabsorption syndromes"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1702124777",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1702124777"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Amyloidosis of small intestine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/742891610",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1061366491"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1526938195/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/18598211",
+        "http://id.who.int/icd/release/11/2024-01/mms/1708923236"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1526938195/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Intestinal malabsorption"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Intestinal malabsorption (syndrome) occurs due to pathological interference with the normal physiological sequence of digestion (intraluminal process), absorption (mucosal process), and transport (post-mucosal events) of nutrients in the small intestine. The concept of intestinal failure is a life-threatening severe type of intestinal malabsorption due to short bowel, structural enterocyte defects, and intestinal dysmotility etc."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1702124777"
+  ]
+}

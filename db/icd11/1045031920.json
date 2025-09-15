@@ -1,0 +1,68 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1045031920",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/845687188"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1045031920",
+  "code": "DA50.1",
+  "source": "http://id.who.int/icd/entity/1045031920",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1045031920/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Diverticulum of duodenum"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Diverticulum of duodenum is a disorder having out-pouchings from the duodenal wall."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital diverticulum of duodenum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1614374889",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1446249766"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Diverticulum of duodenum"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Diverticulum of duodenum, with complication"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1998702239"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Diverticulum of duodenum, without complication"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1085466593"
+    }
+  ]
+}

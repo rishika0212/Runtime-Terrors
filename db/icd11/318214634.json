@@ -1,0 +1,146 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/318214634",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1450176443"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#318214634",
+  "code": "PB25",
+  "source": "http://id.who.int/icd/entity/318214634",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/318214634/postcoordinationScale/medication",
+      "axisName": "http://id.who.int/icd/schema/medication",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/677082440",
+        "http://id.who.int/icd/release/11/2024-01/mms/923858885",
+        "http://id.who.int/icd/release/11/2024-01/mms/1825079466",
+        "http://id.who.int/icd/release/11/2024-01/mms/1378788066",
+        "http://id.who.int/icd/release/11/2024-01/mms/278359861",
+        "http://id.who.int/icd/release/11/2024-01/mms/973488885"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/318214634/postcoordinationScale/activityWhenInjured",
+      "axisName": "http://id.who.int/icd/schema/activityWhenInjured",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2071638841",
+        "http://id.who.int/icd/release/11/2024-01/mms/1107435129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1428847289",
+        "http://id.who.int/icd/release/11/2024-01/mms/821249273",
+        "http://id.who.int/icd/release/11/2024-01/mms/160164281"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/318214634/postcoordinationScale/placeOfOccurrence",
+      "axisName": "http://id.who.int/icd/schema/placeOfOccurrence",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowedExceptFromSameBlock",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1670965842",
+        "http://id.who.int/icd/release/11/2024-01/mms/1524647698",
+        "http://id.who.int/icd/release/11/2024-01/mms/1304962002",
+        "http://id.who.int/icd/release/11/2024-01/mms/672210322",
+        "http://id.who.int/icd/release/11/2024-01/mms/1060731218",
+        "http://id.who.int/icd/release/11/2024-01/mms/713258542",
+        "http://id.who.int/icd/release/11/2024-01/mms/292139218",
+        "http://id.who.int/icd/release/11/2024-01/mms/839669614",
+        "http://id.who.int/icd/release/11/2024-01/mms/623129518",
+        "http://id.who.int/icd/release/11/2024-01/mms/278563516",
+        "http://id.who.int/icd/release/11/2024-01/mms/1231726668",
+        "http://id.who.int/icd/release/11/2024-01/mms/1581436044",
+        "http://id.who.int/icd/release/11/2024-01/mms/1731879372",
+        "http://id.who.int/icd/release/11/2024-01/mms/391771100",
+        "http://id.who.int/icd/release/11/2024-01/mms/53410898"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Unintentional exposure to or harmful effects of antidepressants"
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "accidental overdose of antidepressants"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Substances associated with injury or harm in therapeutic use"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1583926619",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1583926619"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unintentional exposure to or harmful effects of antidepressants"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "accidental overdose of antidepressants"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "accidental poisoning by antidepressants"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "antidepressants taken in error"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unintentional exposure to or harmful effects of tricyclic antidepressants"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/937374906"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unintentional exposure to or harmful effects of tetracyclic antidepressants"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/139810720"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unintentional exposure to or harmful effects of monoamine-oxidase-inhibitor antidepressants"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2003727551"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unintentional exposure to or harmful effects of selective serotonin or norepinephrine reuptake inhibitors"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/665984382"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unintentional exposure to or harmful effects of selective serotonin reuptake inhibitors"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/841457978"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1157848596",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/135357495"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1157848596",
+  "code": "NE82.02",
+  "source": "http://id.who.int/icd/entity/1157848596",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1157848596/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/741790660",
+        "http://id.who.int/icd/release/11/2024-01/mms/431804121"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Pacemaker or implantable cardioverter defibrillator phrenic nerve stimulation"
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/59436623"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pacemaker or implantable cardioverter defibrillator phrenic nerve stimulation"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Implantable cardioverter defibrillator phrenic nerve stimulation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/901529628"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pacemaker phrenic nerve stimulation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1788602793"
+    }
+  ]
+}

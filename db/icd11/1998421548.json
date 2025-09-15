@@ -1,0 +1,47 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1998421548",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/450630526"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1550338805",
+    "http://id.who.int/icd/release/11/2024-01/mms/901411509",
+    "http://id.who.int/icd/release/11/2024-01/mms/1358020385",
+    "http://id.who.int/icd/release/11/2024-01/mms/1046496266",
+    "http://id.who.int/icd/release/11/2024-01/mms/1998421548/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1998421548/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1998421548",
+  "code": "",
+  "source": "http://id.who.int/icd/entity/1998421548",
+  "classKind": "block",
+  "blockId": "BlockL3-2B0",
+  "codeRange": "2B00-2B0Z",
+  "title": {
+    "@language": "en",
+    "@value": "Mature T-cell or NK-cell lymphomas and lymphoproliferative disorders, primary cutaneous specified types"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Primary cutaneous T-cell lymphomas (CTCL) and NK-cell lymphomas are malignant lymphoproliferative diseases of unknown cause that are thought to originate from T-lymphocytes in the lymphoid tissue of the skin and by definition are confined to the skin at initial diagnosis. Included in the class is also a small number of lymphoma-like primary cutaneous lymphoproliferative disorders which are not considered to be truly malignant."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary cutaneous peripheral T-cell lymphoma"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Skin infiltration by nodal or non-cutaneous extranodal lymphoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2007421609",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2026855228"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1423532858",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1471747216"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/998631499",
+    "http://id.who.int/icd/release/11/2024-01/mms/1207385905",
+    "http://id.who.int/icd/release/11/2024-01/mms/1195759310",
+    "http://id.who.int/icd/release/11/2024-01/mms/1443996250",
+    "http://id.who.int/icd/release/11/2024-01/mms/1085602908",
+    "http://id.who.int/icd/release/11/2024-01/mms/861564880",
+    "http://id.who.int/icd/release/11/2024-01/mms/582808229",
+    "http://id.who.int/icd/release/11/2024-01/mms/1423532858/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1423532858",
+  "code": "9A61",
+  "source": "http://id.who.int/icd/entity/1423532858",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Conjunctival blebitis after glaucoma surgery"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1965150820",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1965150820"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Complications with glaucoma drainage devices"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/354155269",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/354155269"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury of conjunctiva or corneal abrasion without mention of foreign body"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1551946073",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1551946073"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Foreign body in conjunctival sac"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/838399557",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/838399557"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1423532858/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1423532858/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/470130163"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Certain specified disorders of conjunctiva"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "keratoconjunctivitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/741260397",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/980864631"
+    }
+  ]
+}

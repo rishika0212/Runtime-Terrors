@@ -1,0 +1,52 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/357208479",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/77208243"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2059145710",
+    "http://id.who.int/icd/release/11/2024-01/mms/1118046584",
+    "http://id.who.int/icd/release/11/2024-01/mms/536337528",
+    "http://id.who.int/icd/release/11/2024-01/mms/1801096327",
+    "http://id.who.int/icd/release/11/2024-01/mms/236011795",
+    "http://id.who.int/icd/release/11/2024-01/mms/357208479/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/357208479/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#357208479",
+  "code": "9B73",
+  "source": "http://id.who.int/icd/entity/357208479",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/357208479/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Retinal detachments or breaks"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Retinal breaks are full thickness openings in the neurosensory retina that can be in the form of a hole, a tear or a retinal dialysis. Retinal detachment is a condition in which the retina peels away from its underlying layer of support tissue."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "detachment of retinal pigment epithelium"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/785595321",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/785595321"
+    }
+  ]
+}

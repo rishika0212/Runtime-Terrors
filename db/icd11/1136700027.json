@@ -1,0 +1,53 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1136700027",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/270831750"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1136700027",
+  "code": "FA30.2",
+  "source": "http://id.who.int/icd/entity/1136700027",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1136700027/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acquired hammer toe"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital hammer toe"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1846467039",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1846467039"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired hammer toe"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hammer toe NOS"
+      }
+    }
+  ]
+}

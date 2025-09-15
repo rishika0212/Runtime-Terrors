@@ -1,0 +1,86 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1946559257",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/390439470"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/304972724",
+    "http://id.who.int/icd/release/11/2024-01/mms/2003193382",
+    "http://id.who.int/icd/release/11/2024-01/mms/1946559257/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1946559257/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1946559257",
+  "code": "CB21",
+  "source": "http://id.who.int/icd/entity/1946559257",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pneumothorax originating in the perinatal period"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1246629439",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1246629439"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1946559257/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Pneumothorax"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Pneumothorax is an abnormal collection of air or gas in the pleural space that separates the lung from the chest wall, and that may interfere with normal breathing."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pyopneumothorax"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1103848959",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1103848959"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pneumothorax: tuberculous (not confirmed)"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1311939281",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1311939281"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Traumatic pneumothorax"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1640759172",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1640759172"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pneumothorax: tuberculous (confirmed)"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/983550510",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/983550510"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1246629439"
+  ]
+}

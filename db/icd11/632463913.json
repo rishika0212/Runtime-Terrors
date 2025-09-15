@@ -1,0 +1,89 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/632463913",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/805284915"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1640759172",
+    "http://id.who.int/icd/release/11/2024-01/mms/75510290",
+    "http://id.who.int/icd/release/11/2024-01/mms/1882022639",
+    "http://id.who.int/icd/release/11/2024-01/mms/359051131",
+    "http://id.who.int/icd/release/11/2024-01/mms/1720204527",
+    "http://id.who.int/icd/release/11/2024-01/mms/63172987",
+    "http://id.who.int/icd/release/11/2024-01/mms/2003739014",
+    "http://id.who.int/icd/release/11/2024-01/mms/304442384",
+    "http://id.who.int/icd/release/11/2024-01/mms/632463913/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/632463913/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#632463913",
+  "code": "NB32",
+  "source": "http://id.who.int/icd/entity/632463913",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Oesophagitis due to external causes"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/524771725",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/524771725"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury of oesophagus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2001881014",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1522101892/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/632463913/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/198809973",
+        "http://id.who.int/icd/release/11/2024-01/mms/958419954",
+        "http://id.who.int/icd/release/11/2024-01/mms/909890232",
+        "http://id.who.int/icd/release/11/2024-01/mms/72252748",
+        "http://id.who.int/icd/release/11/2024-01/mms/152505840",
+        "http://id.who.int/icd/release/11/2024-01/mms/393131222"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/632463913/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482",
+        "http://id.who.int/icd/release/11/2024-01/mms/755612283"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Injury of other or unspecified intrathoracic organs"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "injury of cervical oesophagus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1842013215",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1842013215"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "injury of trachea (cervical)"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1842013215",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1842013215"
+    }
+  ]
+}

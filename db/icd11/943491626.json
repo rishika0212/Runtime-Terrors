@@ -1,0 +1,84 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/943491626",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1860691848"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#943491626",
+  "code": "DB11.2",
+  "source": "http://id.who.int/icd/entity/943491626",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/943491626/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Appendicular concretions"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition of the appendix filled with calcification"
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Appendicular concretions"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Appendicolithiasis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "concretion of appendix"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Faecalith of appendix"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/903672094"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "appendicular faecalith"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/903672094"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "stercolith of appendix"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/903672094"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Calculus of appendix"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1792154179"
+    }
+  ]
+}

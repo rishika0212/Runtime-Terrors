@@ -1,0 +1,47 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1653169553",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1481115868"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1067895658",
+    "http://id.who.int/icd/release/11/2024-01/mms/1515325397",
+    "http://id.who.int/icd/release/11/2024-01/mms/1653169553/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1653169553",
+  "code": "LA41",
+  "source": "http://id.who.int/icd/entity/1653169553",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1653169553/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1653169553/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2129534948"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Cleft lip and alveolus"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Cleft lip and alveolus is a fissure type embryopathy that involves the upper lip, nasal base and alveolar ridge in variable degrees."
+  }
+}

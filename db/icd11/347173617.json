@@ -1,0 +1,62 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/347173617",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1656445230"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1030818265",
+    "http://id.who.int/icd/release/11/2024-01/mms/841017462",
+    "http://id.who.int/icd/release/11/2024-01/mms/1466639844"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#347173617",
+  "code": "CA23.2",
+  "source": "http://id.who.int/icd/entity/347173617",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Asthmatic pulmonary eosinophilia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1074315068",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1074315068"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Samter syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/330367715",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/330367715"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/347173617/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/562478860",
+        "http://id.who.int/icd/release/11/2024-01/mms/1663264387",
+        "http://id.who.int/icd/release/11/2024-01/mms/1201187093"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Other specified forms of asthma or bronchospasm"
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/607453719"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Other specified forms of asthma or bronchospasm"
+      }
+    }
+  ]
+}

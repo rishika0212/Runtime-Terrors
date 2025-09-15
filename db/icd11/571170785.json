@@ -1,0 +1,116 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/571170785",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1040032122"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#571170785",
+  "code": "GA07.1",
+  "source": "http://id.who.int/icd/entity/571170785",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic gonococcal salpingitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1233448408",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1015780375"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/571170785/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/61287910",
+        "http://id.who.int/icd/release/11/2024-01/mms/987725990"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/571170785/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1290701352"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Chronic salpingitis and oophoritis"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic salpingitis and oophoritis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic salpingo-oophoritis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic oophoritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1980203442"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic salpingitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1932766800"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic purulent salpingo-oophoritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/956118999"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic ruptured salpingo-oophoritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1742380644"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic septic salpingo-oophoritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/848652331"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic suppurative salpingo-oophoritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1239377780"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fallopian tube inflammatory cyst"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/851192517"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic pyosalpinx"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/42975567"
+    }
+  ]
+}

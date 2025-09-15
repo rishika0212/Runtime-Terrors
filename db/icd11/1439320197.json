@@ -1,0 +1,345 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1439320197",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/236930114"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1439320197",
+  "code": "FB80.A",
+  "source": "http://id.who.int/icd/entity/1439320197",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1439320197/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1439320197/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/183512318",
+        "http://id.who.int/icd/release/11/2024-01/mms/1415462031"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1439320197/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/435227771",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Stress fracture, not elsewhere classified"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "stress fracture of vertebra"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1449247265",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1449247265"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stress fracture, not elsewhere classified"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stress fracture NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "fatigue fracture"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stress fracture, not elsewhere classified, multiple sites"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1082143667"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stress fracture, not elsewhere classified, shoulder region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/634125863"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stress fracture, not elsewhere classified, clavicle"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/585547147"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stress fracture, not elsewhere classified, scapula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1563977222"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stress fracture, not elsewhere classified, acromioclavicular joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1307770804"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stress fracture, not elsewhere classified, glenohumeral joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1841772528"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stress fracture, not elsewhere classified, sternoclavicular joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/864870163"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stress fracture, not elsewhere classified, upper arm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1365683928"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stress fracture, not elsewhere classified, humerus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/225115483"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stress fracture, not elsewhere classified, elbow joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/966739933"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stress fracture, not elsewhere classified, forearm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/875389774"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stress fracture, not elsewhere classified, radius"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/693493355"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stress fracture, not elsewhere classified, ulna"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1451951588"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stress fracture, not elsewhere classified, wrist joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1737943008"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stress fracture, not elsewhere classified, hand"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1204023514"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stress fracture, not elsewhere classified, carpus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1775099012"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stress fracture, not elsewhere classified, fingers"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/588563321"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stress fracture, not elsewhere classified, metacarpus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1356038817"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stress fracture, not elsewhere classified, pelvic region or thigh"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/579353932"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stress fracture, not elsewhere classified, femur"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/898030988"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stress fracture, not elsewhere classified, pelvis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2136982129"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stress fracture, not elsewhere classified, hip joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/367104020"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stress fracture, not elsewhere classified, lower leg"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1445293491"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stress fracture, not elsewhere classified, fibula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1429985821"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stress fracture, not elsewhere classified, knee joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1488107484"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stress fracture, not elsewhere classified, tibia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/219724037"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stress fracture, not elsewhere classified, ankle or foot"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/862887975"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stress fracture, not elsewhere classified, metatarsus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1492188986"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "march fracture"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1492188986"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stress fracture, not elsewhere classified, tarsus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1038608625"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stress fracture, not elsewhere classified, toes"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/968853087"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stress fracture, not elsewhere classified, ankle joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/409533907"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stress fracture, not elsewhere classified, other joints in foot"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/779406273"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stress fracture, not elsewhere classified, head"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1309128037"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stress fracture, not elsewhere classified, ribs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1689113658"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stress fracture, not elsewhere classified, skull"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1096845818"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stress fracture, not elsewhere classified, trunk"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/450098331"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stress fracture, not elsewhere classified, vertebral column"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/607508179"
+    }
+  ]
+}

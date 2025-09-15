@@ -1,0 +1,92 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/476505279",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1079654421"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#476505279",
+  "code": "AB00",
+  "source": "http://id.who.int/icd/entity/476505279",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute nonserous nonsuppurative otitis media"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1745144396",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1745144396"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute suppurative otitis media"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/214476774",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/214476774"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/476505279/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/476505279/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/675811104",
+        "http://id.who.int/icd/release/11/2024-01/mms/1409902713",
+        "http://id.who.int/icd/release/11/2024-01/mms/701476640",
+        "http://id.who.int/icd/release/11/2024-01/mms/1075681120",
+        "http://id.who.int/icd/release/11/2024-01/mms/1375406603",
+        "http://id.who.int/icd/release/11/2024-01/mms/1981489535",
+        "http://id.who.int/icd/release/11/2024-01/mms/337755889",
+        "http://id.who.int/icd/release/11/2024-01/mms/1197364235"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/476505279/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/995310870"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acute otitis media"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute otitis media"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "AOM - [acute otitis media]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute otitis media NOS"
+      }
+    }
+  ]
+}

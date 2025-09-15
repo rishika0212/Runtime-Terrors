@@ -1,0 +1,62 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/784669405",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/598093212"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1412360037",
+    "http://id.who.int/icd/release/11/2024-01/mms/908519836",
+    "http://id.who.int/icd/release/11/2024-01/mms/545503130",
+    "http://id.who.int/icd/release/11/2024-01/mms/1170766352",
+    "http://id.who.int/icd/release/11/2024-01/mms/784669405/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/784669405/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#784669405",
+  "code": "DD71",
+  "source": "http://id.who.int/icd/entity/784669405",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/784669405/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/326645548",
+        "http://id.who.int/icd/release/11/2024-01/mms/578694909"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/784669405/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731",
+        "http://id.who.int/icd/release/11/2024-01/mms/1290701352"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/784669405/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Ulcerative colitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Ulcerative colitis is a chronic inflammatory disorder of unknown etiology that continuously causes ulcers in the lining of the rectum and colon. Inflammation is histologically restricted to the mucosa."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ]
+}

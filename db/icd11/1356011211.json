@@ -1,0 +1,118 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1356011211",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/157616931"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1356011211",
+  "code": "1D84.1",
+  "source": "http://id.who.int/icd/entity/1356011211",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1356011211/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1356011211/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/626416374"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acute epidemic haemorrhagic conjunctivitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease of the conjunctiva, caused by an infection with enterovirus. This disease is characterised by painful and red eyes, swollen lids, conjunctival follicles, chemosis, or subconjunctival haemorrhage. Transmission is by direct contact, or contact with contaminated water."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/738030718"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/2071159826"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute epidemic haemorrhagic conjunctivitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute haemorrhagic conjunctivitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "AHC- [acute haemorrhagic conjunctivitis]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Apollo conjunctivitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Apollo disease"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "epidemic haemorrhagic conjunctivitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "haemorrhagic conjunctivitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ehc - epidemic haemorrhagic conjunctivitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute epidemic haemorrhagic enteroviral conjunctivitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Conjunctivitis due to coxsackievirus 24"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/279497240"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Conjunctivitis due to enterovirus 70"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/238643442"
+    }
+  ]
+}

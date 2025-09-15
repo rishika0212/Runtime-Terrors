@@ -1,0 +1,150 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/869771751",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1121827324"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#869771751",
+  "code": "ND50",
+  "source": "http://id.who.int/icd/entity/869771751",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fracture, dislocation or subluxation of spine due to birth injury"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/689092517",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/689092517"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/869771751/postcoordinationScale/fractureSubtype",
+      "axisName": "http://id.who.int/icd/schema/fractureSubtype",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1126329182",
+        "http://id.who.int/icd/release/11/2024-01/mms/1941319848",
+        "http://id.who.int/icd/release/11/2024-01/mms/1225495470",
+        "http://id.who.int/icd/release/11/2024-01/mms/1856452751",
+        "http://id.who.int/icd/release/11/2024-01/mms/2006159364",
+        "http://id.who.int/icd/release/11/2024-01/mms/1080133681",
+        "http://id.who.int/icd/release/11/2024-01/mms/56999138",
+        "http://id.who.int/icd/release/11/2024-01/mms/302675287",
+        "http://id.who.int/icd/release/11/2024-01/mms/39276591",
+        "http://id.who.int/icd/release/11/2024-01/mms/1210711974",
+        "http://id.who.int/icd/release/11/2024-01/mms/1451058270",
+        "http://id.who.int/icd/release/11/2024-01/mms/870613257",
+        "http://id.who.int/icd/release/11/2024-01/mms/1227306904",
+        "http://id.who.int/icd/release/11/2024-01/mms/750703299",
+        "http://id.who.int/icd/release/11/2024-01/mms/25495220",
+        "http://id.who.int/icd/release/11/2024-01/mms/718215016",
+        "http://id.who.int/icd/release/11/2024-01/mms/1801367926",
+        "http://id.who.int/icd/release/11/2024-01/mms/1274784063",
+        "http://id.who.int/icd/release/11/2024-01/mms/1157346122",
+        "http://id.who.int/icd/release/11/2024-01/mms/801921263",
+        "http://id.who.int/icd/release/11/2024-01/mms/517952894",
+        "http://id.who.int/icd/release/11/2024-01/mms/1331098173",
+        "http://id.who.int/icd/release/11/2024-01/mms/898974882",
+        "http://id.who.int/icd/release/11/2024-01/mms/1343005175",
+        "http://id.who.int/icd/release/11/2024-01/mms/804640573",
+        "http://id.who.int/icd/release/11/2024-01/mms/1520378894",
+        "http://id.who.int/icd/release/11/2024-01/mms/293807484"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/869771751/postcoordinationScale/fractureOpenOrClosed",
+      "axisName": "http://id.who.int/icd/schema/fractureOpenOrClosed",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1387112294",
+        "http://id.who.int/icd/release/11/2024-01/mms/1882092801"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/869771751/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482",
+        "http://id.who.int/icd/release/11/2024-01/mms/856028269"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Fracture of spine, level unspecified"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "multiple fractures of spine, level unspecified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/446407734",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/750170714"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fracture of spine, level unspecified"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "compression fracture of vertebral column"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "fracture of vertebra"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "fracture of vertebral column"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "vertebral compression fracture"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "vertebral fracture"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "vertebral fracture dislocation"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sequelae of fracture of spine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1948827981"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sequelae of fracture of neck"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1040461525"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1252576495",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/820245648"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1252576495",
+  "code": "JA43.3",
+  "source": "http://id.who.int/icd/entity/1252576495",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1252576495/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1904468617",
+        "http://id.who.int/icd/release/11/2024-01/mms/348663581",
+        "http://id.who.int/icd/release/11/2024-01/mms/1617264610"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1252576495/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1181865707",
+        "http://id.who.int/icd/release/11/2024-01/mms/2057381685",
+        "http://id.who.int/icd/release/11/2024-01/mms/1016799900/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Postpartum coagulation defects"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition characterised by excessive loss of blood following a vaginal or caesarean section delivery. This condition is caused by coagulation defects during the postpartum period."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postpartum coagulation defects"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "puerperal coagulopathy"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Circulating anticoagulants following childbirth"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1944208200"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postpartum afibrinogenaemia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1464033238"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postpartum blood dyscrasia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1942684074"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "puerperal blood dyscrasia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1942684074"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postpartum defibrination syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1140386338"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "postpartum defibrination"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1140386338"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postpartum fibrinolysis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/643895159"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postpartum fibrinolysis with haemorrhage"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/846055373"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postpartum intravascular hemolysis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1730294146"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Puerperal thrombocytopaenia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1132670224"
+    }
+  ]
+}

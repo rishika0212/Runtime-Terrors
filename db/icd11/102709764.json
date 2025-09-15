@@ -1,0 +1,63 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/102709764",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/405257730"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#102709764",
+  "code": "4A85.02",
+  "source": "http://id.who.int/icd/entity/102709764",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced immune thrombocytopenia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1910746507",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/7135461"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced secondary agranulocytosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1897183140",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/348671706"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/102709764/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1583926619",
+        "http://id.who.int/icd/release/11/2024-01/mms/1323892810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Drug-induced cytopenia"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Drug-induced cytopenia is a relatively common immune-mediated cytopenia and the target cells include erythrocytes, leukocytes, platelets and hematopoietic precursor cells in the marrow. The most frequent condition is the drug-induced immune thrombocytopenia and the most frequent implicated drugs are penicillin and structurally related drugs, quinine, quinidine, sulfonamide antibiotics, non-steroidal anti-inflammatory drugs and anticonvulsants."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced cytopenia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "medicament-induced cytopenia"
+      }
+    }
+  ]
+}

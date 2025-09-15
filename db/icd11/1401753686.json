@@ -1,0 +1,54 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1401753686",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/522040577"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1401753686",
+  "code": "JA65.11",
+  "source": "http://id.who.int/icd/entity/1401753686",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Intrahepatic cholestasis of pregnancy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1576251337",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1110228123"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1401753686/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1729106757"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Pruritus of pregnancy"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Pruritus in pregnancy can usually be attributed to a specific cause such as cholestasis, a pregnancy-specific dermatosis such as pruritic urticarial papules and plaques of pregnancy, or to exacerbation of a preexisting inflammatory dermatosis such as atopic eczema. Not uncommonly, however, a specific cause cannot be identified."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pruritus of pregnancy"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pruritus gravidarum"
+      }
+    }
+  ]
+}

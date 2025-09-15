@@ -1,0 +1,126 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1467715547",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1594217552"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1467715547",
+  "code": "2D41",
+  "source": "http://id.who.int/icd/entity/1467715547",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1467715547/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1467715547/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1409966790",
+        "http://id.who.int/icd/release/11/2024-01/mms/896293199",
+        "http://id.who.int/icd/release/11/2024-01/mms/1094217460",
+        "http://id.who.int/icd/release/11/2024-01/mms/238069351"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1467715547/postcoordinationScale/hasAlternativeSeverity2",
+      "axisName": "http://id.who.int/icd/schema/hasAlternativeSeverity2",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1863636238",
+        "http://id.who.int/icd/release/11/2024-01/mms/885826145",
+        "http://id.who.int/icd/release/11/2024-01/mms/1746207012",
+        "http://id.who.int/icd/release/11/2024-01/mms/303697349"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Unspecified carcinoma of unspecified site"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unspecified carcinoma of unspecified site"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "carcinoma of unspecified primary site"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "carcinoma NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Carcinoma in polyp of unspecified site"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/263421031"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Carcinoma with apocrine metaplasia of unspecified site"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/257328375"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Carcinoma with cartilaginous metaplasia of unspecified site"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1329624192"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Carcinoma with osseous metaplasia of unspecified site"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1523960008"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Carcinoma with productive fibrosis of unspecified site"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2121585750"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Carcinoma with spindle cell metaplasia of unspecified site"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/438747169"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Carcinoma with squamous metaplasia of unspecified site"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2114917224"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Metastatic carcinoma [primary carcinoma spreading elsewhere]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/553023050"
+    }
+  ]
+}

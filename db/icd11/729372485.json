@@ -1,0 +1,61 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/729372485",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2072728114"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1820468614",
+    "http://id.who.int/icd/release/11/2024-01/mms/539334538",
+    "http://id.who.int/icd/release/11/2024-01/mms/164227092",
+    "http://id.who.int/icd/release/11/2024-01/mms/1199221405",
+    "http://id.who.int/icd/release/11/2024-01/mms/729372485/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/729372485/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#729372485",
+  "code": "1B11",
+  "source": "http://id.who.int/icd/entity/729372485",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/729372485/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1656157931",
+        "http://id.who.int/icd/release/11/2024-01/mms/684930313",
+        "http://id.who.int/icd/release/11/2024-01/mms/373833091",
+        "http://id.who.int/icd/release/11/2024-01/mms/1483190070",
+        "http://id.who.int/icd/release/11/2024-01/mms/2108355318",
+        "http://id.who.int/icd/release/11/2024-01/mms/132422185/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/1691058302",
+        "http://id.who.int/icd/release/11/2024-01/mms/1866592137"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/729372485/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/672063490"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Tuberculosis of the nervous system"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease of the central nervous system, caused by an infection with bacteria of the Mycobacterium tuberculosis complex. This disease is characterised by neurological deficits depending on the site affected. Transmission is through haematogenous spread to the nervous system after inhalation of infected respiratory secretions. Confirmation is by identification of bacteria of the Mycobacterium tuberculosis complex in the cerebrospinal fluid."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Tuberculosis of the nervous system refers to central nervous system involvement that is frequently found, particularly if miliary tuberculosis develops."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/576751653"
+  ]
+}

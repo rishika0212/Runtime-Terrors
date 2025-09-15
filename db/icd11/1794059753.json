@@ -1,0 +1,68 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1794059753",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1112214727"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1794059753",
+  "code": "ME24.A5",
+  "source": "http://id.who.int/icd/entity/1794059753",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neonatal haematemesis or melaena due to swallowed maternal blood"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1030375992",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1030375992"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1794059753/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Haematemesis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Vomiting of blood that is either fresh bright red, or older \"coffee-ground\" in character. Vomiting blood is a regurgitation of blood through the upper gastrointestinal tract and it generally indicates bleeding of the upper gastrointestinal tract."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Haematemesis is blood in the vomit. Vomiting blood is a regurgitation of blood through the upper gastrointestinal tract. The upper gastrointestinal tract includes the stomach, mouth, throat, esophagus, and the first part of the small intestine."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1030375992"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Haematemesis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "vomiting blood"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "blood in vomit"
+      }
+    }
+  ]
+}

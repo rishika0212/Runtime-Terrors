@@ -1,0 +1,47 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1923044320",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/636081762"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/899463360",
+    "http://id.who.int/icd/release/11/2024-01/mms/953143133",
+    "http://id.who.int/icd/release/11/2024-01/mms/1696887984",
+    "http://id.who.int/icd/release/11/2024-01/mms/1923044320/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1923044320/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1923044320",
+  "code": "4A43.2",
+  "source": "http://id.who.int/icd/entity/1923044320",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Keratoconjunctivitis sicca"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1067300253",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1067300253"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1923044320/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/390684604"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Sjögren syndrome"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Sjögren syndrome is a slowly progressive, systemic inflammatory autoimmune disease affecting primarily the exocrine glands. Lymphocytic infiltrates replace functional epithelium, leading to oral and ocular dryness. Characteristic autoantibodies (e.g., anti-Ro/SS-A and/or anti-La/SS-B) are produced. The disorder can occur alone (it is then known as “primary SS”) or in association with another autoimmune disease (it is then known as “secondary SS”)."
+  }
+}

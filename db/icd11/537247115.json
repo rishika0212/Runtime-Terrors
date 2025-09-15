@@ -1,0 +1,62 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/537247115",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1416283029"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#537247115",
+  "code": "NC19",
+  "source": "http://id.who.int/icd/entity/537247115",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/537247115/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2108852140",
+        "http://id.who.int/icd/release/11/2024-01/mms/418990654",
+        "http://id.who.int/icd/release/11/2024-01/mms/1817451201",
+        "http://id.who.int/icd/release/11/2024-01/mms/153081685",
+        "http://id.who.int/icd/release/11/2024-01/mms/2062632129",
+        "http://id.who.int/icd/release/11/2024-01/mms/532318549",
+        "http://id.who.int/icd/release/11/2024-01/mms/1796725162",
+        "http://id.who.int/icd/release/11/2024-01/mms/240915520",
+        "http://id.who.int/icd/release/11/2024-01/mms/1932853630",
+        "http://id.who.int/icd/release/11/2024-01/mms/1416283029/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Multiple injuries of shoulder or upper arm"
+  },
+  "codingNote": {
+    "@language": "en",
+    "@value": "Each injury should be coded separately. This code should be used alone only when the detail of the specific injuries is unknown, or it is not possible to code each injury. This code may also be used in postcoordination to identify cases of complex trauma."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Multiple injuries of shoulder or upper arm"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury of multiple sites of shoulder"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1312913571"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury of multiple sites of upper arm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/177330648"
+    }
+  ]
+}

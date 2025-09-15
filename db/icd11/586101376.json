@@ -1,0 +1,95 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/586101376",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/923546127"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#586101376",
+  "code": "EH64",
+  "source": "http://id.who.int/icd/entity/586101376",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/586101376/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1450176443",
+        "http://id.who.int/icd/release/11/2024-01/mms/1676151582",
+        "http://id.who.int/icd/release/11/2024-01/mms/1583926619",
+        "http://id.who.int/icd/release/11/2024-01/mms/1323892810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Drug-induced erythroderma"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Erythroderma (defined as erythema and scaling involving at least 90% of the skin surface) which is attributable to drug administration but which cannot be more precisely categorized, thus excluding more specific severe cutaneous adverse reactions to drugs reaction patterns such as DRESS syndrome, acute generalised exanthematous pustulosis (AGEP) and toxic epidermal necrolysis. Many drugs have been implicated."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "DRESS syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/516577496",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/516577496"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stevens-Johnson syndrome and toxic epidermal necrolysis due to drug"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1322710779",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1322710779"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced toxic epidermal necrolysis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1478125852",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1478125852"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced Stevens-Johnson and toxic epidermal necrolysis overlap syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1077457356",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1077457356"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced acute generalised exanthematous pustulosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/254592445",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/254592445"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced erythroderma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced exfoliative dermatitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Generalised exfoliative dermatitis due to drug"
+      }
+    }
+  ]
+}

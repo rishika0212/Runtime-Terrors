@@ -1,0 +1,58 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2061915845",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/610125614"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2061915845",
+  "code": "BB02.0",
+  "source": "http://id.who.int/icd/entity/2061915845",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2061915845/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2034447649",
+        "http://id.who.int/icd/release/11/2024-01/mms/1210083104",
+        "http://id.who.int/icd/release/11/2024-01/mms/1852527073"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Arteriovenous fistula of pulmonary vessels"
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1380872553"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Arteriovenous fistula of pulmonary vessels"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "arteriovenous pulmonary shunt"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acquired arteriovenous pulmonary aneurysm"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aortopulmonary fistula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1861410694"
+    }
+  ]
+}

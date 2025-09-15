@@ -1,0 +1,52 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/296066191",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2024168133"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/169504799",
+    "http://id.who.int/icd/release/11/2024-01/mms/811427861",
+    "http://id.who.int/icd/release/11/2024-01/mms/296066191/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/296066191/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#296066191",
+  "code": "8A00.0",
+  "source": "http://id.who.int/icd/entity/296066191",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/296066191/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1494928041",
+        "http://id.who.int/icd/release/11/2024-01/mms/2019368323"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/296066191/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/562478860",
+        "http://id.who.int/icd/release/11/2024-01/mms/1663264387",
+        "http://id.who.int/icd/release/11/2024-01/mms/1201187093"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Parkinson disease"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Parkinson Disease is a gradual onset progressive degenerative disease whose cardinal manifestations include bradykinesia plus one of the following-tremor, rigidity or postural instability. Nonmotor manifestations include autonomic dysfunction and neuropsychiatric features."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Parkinson Disease is a gradual onset progressive degenerative disease whose cardinal manifestations include bradykinesia plus one of the following-tremor, rigidity or postural instability. None motor manifestations include autonomic dysfunction and neuropsychiatric features.\n\nEarly mild PD, H&Y stage I-III, is characterized by mild to moderate motor deficits with either preserved or mildly affected postural stability, leading to mild to moderate motor disability of the patients (including unilateral rest tremor, akinesia, no regular falls)Patients with early PD usually don't need additional care or caregivers, treatment will be initiated and it efficient, usually without complications, need for physicians and nurses care can be calculated and does not need major resources, medical complications may include non-motor symptoms, falls are rare.\n\nAdvanced PD is characterized by H&Y stage IV-V, is characterized by moderate to severe motor deficits, usually accompanied with response fluctuations, dyskinesias and severe off-periods and includes postural instability leading to frequent falls with increased risk of fractures. Patients with advanced PD need intensive and individual medical care including neurologist, PD experts and nurses because of treatment complications, such as on-off fluctuations, psychiatric complications, dementia, frequent falls with i.e. fractures. Advanced PD patients need specific treatment options, such as deep brain stimulation, continuous delivery of medications via pump therapies to improve response fluctuations. These regimens require many resources and sometimes inpatients stay. Psychiatric complications may need additional attention and psychiatric experts for specific interventions and dementia may require additional medications and care."
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1645607956",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1758007371"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1645607956",
+  "code": "DC32.5",
+  "source": "http://id.who.int/icd/entity/1645607956",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1645607956/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1645607956/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731",
+        "http://id.who.int/icd/release/11/2024-01/mms/1290701352"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1645607956/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1651053999",
+        "http://id.who.int/icd/release/11/2024-01/mms/119724091",
+        "http://id.who.int/icd/release/11/2024-01/mms/1150913605",
+        "http://id.who.int/icd/release/11/2024-01/mms/381961554",
+        "http://id.who.int/icd/release/11/2024-01/mms/1697306310",
+        "http://id.who.int/icd/release/11/2024-01/mms/1304552818"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Tropical pancreatitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Tropical pancreatitis is a rare pancreatic disease of juvenile onset occurring mainly in tropical developing countries and characterised by chronic non-alcoholic pancreatitis manifesting with abdominal pain, steatorrhoea and fibrocalculous pancreatopathy. It is also commonly associated with the development of pancreatic calculi and pancreatic cancer at a much higher frequency than seen in ordinary chronic pancreatitis."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tropical pancreatitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tropical calcific chronic pancreatitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "TCP - [tropical chronic pancreatitis]"
+      }
+    }
+  ]
+}

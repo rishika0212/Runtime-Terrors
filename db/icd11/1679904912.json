@@ -1,0 +1,111 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1679904912",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/452386362"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1372588188",
+    "http://id.who.int/icd/release/11/2024-01/mms/1539510834",
+    "http://id.who.int/icd/release/11/2024-01/mms/105174385",
+    "http://id.who.int/icd/release/11/2024-01/mms/332638091",
+    "http://id.who.int/icd/release/11/2024-01/mms/1551946073",
+    "http://id.who.int/icd/release/11/2024-01/mms/786137763",
+    "http://id.who.int/icd/release/11/2024-01/mms/1935231429",
+    "http://id.who.int/icd/release/11/2024-01/mms/1868804956",
+    "http://id.who.int/icd/release/11/2024-01/mms/1743180897",
+    "http://id.who.int/icd/release/11/2024-01/mms/969612493",
+    "http://id.who.int/icd/release/11/2024-01/mms/1752952621",
+    "http://id.who.int/icd/release/11/2024-01/mms/1679904912/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1679904912/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1679904912",
+  "code": "NA06",
+  "source": "http://id.who.int/icd/entity/1679904912",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Birth injury to eye"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1804006919",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1804006919"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1679904912/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1679904912/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2055915829",
+        "http://id.who.int/icd/release/11/2024-01/mms/28784496",
+        "http://id.who.int/icd/release/11/2024-01/mms/822296309",
+        "http://id.who.int/icd/release/11/2024-01/mms/1144556225",
+        "http://id.who.int/icd/release/11/2024-01/mms/2115390727"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1679904912/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482",
+        "http://id.who.int/icd/release/11/2024-01/mms/755612283"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Injury of eye or orbit"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Orbital fracture"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1015303322",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1015303322"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury of optic nerve, unilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/746726096",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/746726096"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury of oculomotor nerve"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/624153676",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/624153676"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "superficial injury of eyelid"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1801475533",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/672745559"
+    }
+  ]
+}

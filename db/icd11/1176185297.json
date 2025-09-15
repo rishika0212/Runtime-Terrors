@@ -1,0 +1,120 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1176185297",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/142052508"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1229452918",
+    "http://id.who.int/icd/release/11/2024-01/mms/1176185297/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1176185297/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1176185297",
+  "code": "CA40.2",
+  "source": "http://id.who.int/icd/entity/1176185297",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pulmonary adiaspiromycosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1111587867",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1111587867"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pulmonary candidosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2051865312",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2051865312"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pulmonary cryptococcosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1916712542",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1916712542"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic pulmonary aspergillosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/86747759",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/86747759"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Disseminated histoplasmosis capsulati"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/970357944",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1303003466/other"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Early-onset pneumonia due to Candida"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1170519227",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2051865312"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1176185297/postcoordinationScale/causality",
+      "axisName": "http://id.who.int/icd/schema/causality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/894194405",
+        "http://id.who.int/icd/release/11/2024-01/mms/1674014893",
+        "http://id.who.int/icd/release/11/2024-01/mms/655959100",
+        "http://id.who.int/icd/release/11/2024-01/mms/56475710",
+        "http://id.who.int/icd/release/11/2024-01/mms/339929010"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1176185297/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1176185297/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1176185297/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1314810340",
+        "http://id.who.int/icd/release/11/2024-01/mms/132287989",
+        "http://id.who.int/icd/release/11/2024-01/mms/997943937"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Fungal pneumonia"
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/594985340"
+  ]
+}

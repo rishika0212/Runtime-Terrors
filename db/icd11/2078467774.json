@@ -1,0 +1,66 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2078467774",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/393047701"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1061366491",
+    "http://id.who.int/icd/release/11/2024-01/mms/570181034",
+    "http://id.who.int/icd/release/11/2024-01/mms/1152878652",
+    "http://id.who.int/icd/release/11/2024-01/mms/448754119",
+    "http://id.who.int/icd/release/11/2024-01/mms/2078467774/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/2078467774/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2078467774",
+  "code": "5D00",
+  "source": "http://id.who.int/icd/entity/2078467774",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2078467774/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1048482858",
+        "http://id.who.int/icd/release/11/2024-01/mms/1196650747",
+        "http://id.who.int/icd/release/11/2024-01/mms/1338477196",
+        "http://id.who.int/icd/release/11/2024-01/mms/328366540",
+        "http://id.who.int/icd/release/11/2024-01/mms/720032908",
+        "http://id.who.int/icd/release/11/2024-01/mms/687250607"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2078467774/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/425464783"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Amyloidosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Amyloidosis is a vast group of diseases defined by the presence of insoluble protein deposits in tissues. Its diagnosis is based on histological findings. Amyloidoses are classified according to clinical signs and biochemical type of amyloid protein involved. Most amyloidoses are multisystemic, 'generalised' or 'diffuse'. There are a few forms of localised amylosis. The most frequent forms are AL amyloidosis (immunoglobulins), AA (inflammatory), and ATTR (transthyretin accumulation)."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Amyloidosis is a vast group of diseases defined by the presence of insoluble protein deposits in tissues. Its diagnosis is based on histological findings. Amyloidoses are classified according to clinical signs and biochemical type of amyloid protein involved. Most amyloidoses are multisystemic, \"generalize\" or \"diffuse\". Mainly affected are the kidneys, heart, GI tract, liver, skin, peripheral nerves and eyes, but any organ can be affected. Progression is usually severe, as affected organs are destroyed. There are a few forms of localized amylosis. The most frequent forms are AL amyloidosis (immunoglobulins), AA (inflammatory), and ATTR (transthyretin accumulation). Treatment is symptomatic when irreversible kidney failure occurs (dialysis or transplant). Chemotherapy of AL amyloidosis strives to reduce the levels of monoclonal immunoglobulin. Patients with AA amyloidosis should first and foremost be treated for the underlying inflammation. Finally, for amyloidosis due to deposits of transthyretin, which is produced in the liver, liver transplant has been suggested to stop the production of the causative protein. The use of new anti-inflammatory therapies (anti-TNF, anti-IL1) requires some more studies. Prenatal diagnosis is available for severe forms, especially Portuguese amyloid neuropathies."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dementia due to Alzheimer disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/795022044",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/795022044"
+    }
+  ]
+}

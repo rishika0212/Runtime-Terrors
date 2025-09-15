@@ -1,0 +1,91 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1598961655",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/621374492"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1598961655",
+  "code": "NF08.20",
+  "source": "http://id.who.int/icd/entity/1598961655",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1598961655/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1598961655/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482",
+        "http://id.who.int/icd/release/11/2024-01/mms/56475710"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Hand and arm vibration syndrome"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Hand Transmitted Vibration is mechanical vibration arising from powered processes or tools which enters the body at the fingers or the palm of the hands. As a consequence of this exposure some people develop a secondary Raynaud’s phenomenon and / or peripheral sensory neuropathy affecting the hands."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Carpal tunnel syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1275186848",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1275186848"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hand and arm vibration syndrome"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Vibration white finger"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "HAVS - [hand arm vibration syndrome]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pneumatic hammer disease"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "spastic anaemia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "traumatic vasospastic disease of the hand"
+      }
+    }
+  ]
+}

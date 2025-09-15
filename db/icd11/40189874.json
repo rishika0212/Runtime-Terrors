@@ -1,0 +1,110 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/40189874",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1843729715"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#40189874",
+  "code": "NA0A.2",
+  "source": "http://id.who.int/icd/entity/40189874",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/40189874/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/40189874/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482",
+        "http://id.who.int/icd/release/11/2024-01/mms/856028269"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Traumatic rupture of ear drum"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Traumatic rupture of ear drum"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "traumatic rupture of membrana tympani"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "traumatic perforation of tympanum"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "traumatic rupture of tympanum"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "traumatic rupture of tympanic membrane"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "traumatic tympanic membrane perforation"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "open wound of tympanic membrane"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "open wound of ear drum"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Traumatic rupture of left ear drum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2000430283"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Traumatic rupture of right ear drum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1438643886"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sequelae of traumatic rupture of ear drum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/695403156"
+    }
+  ]
+}

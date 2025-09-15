@@ -1,0 +1,60 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/579583286",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1439886552"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1143114898",
+    "http://id.who.int/icd/release/11/2024-01/mms/579583286/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/579583286/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#579583286",
+  "code": "1F40",
+  "source": "http://id.who.int/icd/entity/579583286",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital falciparum malaria"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1456330972",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1456330972"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/579583286/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1203794080",
+        "http://id.who.int/icd/release/11/2024-01/mms/862789727",
+        "http://id.who.int/icd/release/11/2024-01/mms/1168452782",
+        "http://id.who.int/icd/release/11/2024-01/mms/1260563068",
+        "http://id.who.int/icd/release/11/2024-01/mms/716575694"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Malaria due to Plasmodium falciparum"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease caused by an infection with the protozoan parasite Plasmodium falciparum. This disease is characterised by fever, chills, headache, myalgia, arthralgia, weakness, vomiting, or diarrhoea. This disease may also present with splenomegaly, anaemia, thrombocytopenia, hypoglycaemia, pulmonary or renal dysfunction, or neurologic changes. Transmission is through the bite of an infected mosquito. Confirmation is by identification of Plasmodium falciparum in a blood sample."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Plasmodium falciparum malaria is disease caused by infection of red blood cells with protozoan parasites of species Plasmodium falciparum, inoculated into the human by a feeding female anopheles mosquito. The first symptoms of malaria are nonspecific including fever, headache, and vomiting, but if the disease progresses, malaria can quickly become life-threatening by massive haemolysis."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1456330972"
+  ],
+  "codingNote": {
+    "@language": "en",
+    "@value": "Includes mixed infections of Plasmodium falciparum with any other Plasmodium species."
+  }
+}

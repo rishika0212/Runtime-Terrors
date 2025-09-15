@@ -1,0 +1,126 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2076924640",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/237422666"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2076924640",
+  "code": "1D91",
+  "source": "http://id.who.int/icd/entity/2076924640",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital echovirus infection"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1354629557",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1354629557"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital enterovirus infection"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1981771784",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1981771784"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2076924640/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/622600769",
+        "http://id.who.int/icd/release/11/2024-01/mms/1683090852"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Enterovirus infection of unspecified site"
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/738030718"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1981771784"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Enterovirus infection of unspecified site"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "disease due to enterovirus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "enteroviral infection"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "enterovirus infection unspecified"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Coxsackievirus unspecified nature or site"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/819940026"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "coxsackie infection"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/819940026"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "coxsackie viral infection"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/819940026"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "coxsackie virus infection"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/819940026"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Coxsackievirus infection NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/819940026"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Echovirus infection of unspecified nature or site"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1345374449"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Echovirus infection NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1345374449"
+    }
+  ]
+}

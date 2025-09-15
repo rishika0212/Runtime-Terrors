@@ -1,0 +1,334 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1800532632",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1471564294"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1800532632",
+  "code": "FB56.4",
+  "source": "http://id.who.int/icd/entity/1800532632",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1800532632/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1800532632/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/986233688",
+        "http://id.who.int/icd/release/11/2024-01/mms/2093217246"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Pain in limb"
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "This is a condition characterized by unpleasant sensory and emotional experience associated with actual or potential tissue damage to the limb."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic primary limb pain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/413174579",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1236923870"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic primary musculoskeletal pain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1236923870",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1236923870"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic secondary musculoskeletal pain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1968541653",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1968541653"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pain in limb"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pain in limb, site unspecified"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pain in limb NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pain in limb, multiple sites"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/862316519"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pain in limb, shoulder region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1445866099"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pain in limb, acromioclavicular joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/608131183"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pain in limb, glenohumeral joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/543635137"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pain in limb, sternoclavicular joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1097467716"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pain in limb, upper arm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/579041932"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pain in limb, humerus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1688689288"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pain in limb, elbow joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/780027261"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pain in limb, forearm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1204336410"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pain in limb, wrist joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1832128783"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pain in limb, hand"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/874914958"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pain in hand"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/874914958"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pain in limb, carpus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/665798164"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pain in limb, fingers"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1573601531"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pain in finger"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1573601531"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pain in limb, metacarpus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/140594724"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pain in limb, pelvic region or thigh"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1366157592"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pain in limb, femur"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/468872468"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pain in limb, hip joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/905417732"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pain in limb, lower leg"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/633387495"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pain in limb, knee joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/791582076"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pain in limb, ankle or foot"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1082881139"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pain in limb, metatarsus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/247178768"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pain in limb, tarsus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1874237333"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tarsalgia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1874237333"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pain in limb, toes"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/275270684"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pain in toe"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/275270684"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pain in limb, ankle joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/10671534"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pain in limb, other joints in foot"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/962163487"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pain in foot NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/962163487"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Lower extremity pain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/217292296"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pain in leg"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/217292296"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pain in lower limb"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/217292296"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pain in arm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/266306878"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pain in upper limb"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/266306878"
+    }
+  ]
+}

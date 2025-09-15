@@ -1,0 +1,159 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1442995018",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/843843448"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1442995018",
+  "code": "8B20",
+  "source": "http://id.who.int/icd/entity/1442995018",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1442995018/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1442995018/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1173205716"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Stroke not known if ischaemic or haemorrhagic"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Fulfills criteria for stroke in acute symptoms of focal brain injury that have lasted 24 hours or more (or led to death before 24 hours), but subtype of stroke (ischemic or haemorrhagic) has not been determined by neuroimaging or other techniques."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "sequelae of stroke"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/557175275",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/557175275"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/564191997"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stroke not known if ischaemic or haemorrhagic"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "apoplexy"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "brain vascular accident"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cerebral accident"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cerebral apoplexy"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cerebrovascular accident"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "stroke"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "stroke syndrome"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "stroke, not specified as haemorrhage or infarction"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "CVA - [cerebrovascular accident]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cerebral vascular accident"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "stroke NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cerebrovascular incident"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute cerebrovascular accident"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cerebrovascular event"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "massive cerebral vascular accident"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "massive cerebrovascular accident"
+      }
+    }
+  ]
+}

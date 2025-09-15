@@ -1,0 +1,69 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/295907514",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1746821938"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/389168514",
+    "http://id.who.int/icd/release/11/2024-01/mms/1920593940",
+    "http://id.who.int/icd/release/11/2024-01/mms/295907514/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#295907514",
+  "code": "GB70",
+  "source": "http://id.who.int/icd/entity/295907514",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/295907514/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/295907514/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/720032908",
+        "http://id.who.int/icd/release/11/2024-01/mms/1267519716",
+        "http://id.who.int/icd/release/11/2024-01/mms/1723327326"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/295907514/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1507624466"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/295907514/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1194562592",
+        "http://id.who.int/icd/release/11/2024-01/mms/1583926619",
+        "http://id.who.int/icd/release/11/2024-01/mms/1323892810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Calculus of upper urinary tract"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition of the urinary system, caused by dehydration, decreased urine volume or fluid flow rates, or increased excretion of minerals such as calcium, oxalate, magnesium, cystine, and phosphate. This condition is characterised by urinary calculi located in the upper urinary tract (renal papilla). This condition may present with haematuria, dysuria, or pain in the flank, lower abdomen, or groin. Confirmation is by abdominal radiography to determine the presence and location of calculi."
+  }
+}

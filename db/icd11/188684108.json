@@ -1,0 +1,75 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/188684108",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/911707612"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/358047372",
+    "http://id.who.int/icd/release/11/2024-01/mms/244932428",
+    "http://id.who.int/icd/release/11/2024-01/mms/78758887",
+    "http://id.who.int/icd/release/11/2024-01/mms/1880920858",
+    "http://id.who.int/icd/release/11/2024-01/mms/1366690608",
+    "http://id.who.int/icd/release/11/2024-01/mms/188684108/other"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#188684108",
+  "code": "KA65",
+  "source": "http://id.who.int/icd/entity/188684108",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neonatal tracheitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2040953952",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2040953952"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neonatal skin infection"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2002735219",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2002735219"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/188684108/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1644747126",
+        "http://id.who.int/icd/release/11/2024-01/mms/687250607",
+        "http://id.who.int/icd/release/11/2024-01/mms/1509166126"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/188684108/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Neonatal infections of certain specified sites"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neonatal infections of certain specified sites"
+      }
+    }
+  ]
+}

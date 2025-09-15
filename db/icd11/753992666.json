@@ -1,0 +1,48 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/753992666",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2025976730"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#753992666",
+  "code": "LB73.29",
+  "source": "http://id.who.int/icd/entity/753992666",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/753992666/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1170330671"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Caudal appendage"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition caused by development of a malformation on the lower back during the antenatal period. This condition is characterised by a cutaneous protrusion superior to the buttocks. This condition may be associated with occult spinal dysraphism."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Caudal regression sequence"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/269997265",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1106405864"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Caudal appendage"
+      }
+    }
+  ]
+}

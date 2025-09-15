@@ -1,0 +1,78 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/164227092",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/729372485"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#164227092",
+  "code": "1B11.2",
+  "source": "http://id.who.int/icd/entity/164227092",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/164227092/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/672063490"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Meningeal tuberculoma"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Meningeal tuberculomas are conglomerate caseous foci within the meninges of the brain, caused by dissemination of tuberculosis to the central nervous system."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculoma of meninges"
+      }
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1240824451"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/576751653"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Meningeal tuberculoma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculoma of meninges"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculous granuloma of the meninges"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculoma of cerebral meninges"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/656384591"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculoma of spinal meninges"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/154343857"
+    }
+  ]
+}

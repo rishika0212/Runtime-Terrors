@@ -1,0 +1,44 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1929272735",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/996549477"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1929272735",
+  "code": "EB90.24",
+  "source": "http://id.who.int/icd/entity/1929272735",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1929272735/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/461716838",
+        "http://id.who.int/icd/release/11/2024-01/mms/1671987290",
+        "http://id.who.int/icd/release/11/2024-01/mms/155258022",
+        "http://id.who.int/icd/release/11/2024-01/mms/1915134721"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Xanthoma due to specified disorder of lipid metabolism"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Lipid accumulations in the skin and soft tissues resulting from disordered lipid metabolism."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/710405171"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Xanthoma due to specified disorder of lipid metabolism"
+      }
+    }
+  ]
+}

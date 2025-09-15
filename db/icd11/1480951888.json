@@ -1,0 +1,88 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1480951888",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1392133133"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1365831385",
+    "http://id.who.int/icd/release/11/2024-01/mms/983868827",
+    "http://id.who.int/icd/release/11/2024-01/mms/1480951888/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1480951888/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1480951888",
+  "code": "GB02",
+  "source": "http://id.who.int/icd/entity/1480951888",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Orchitis due to mumps virus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/333831364",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/333831364"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gonococcal epididymitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1568078343",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1977691885/other"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gonococcal orchitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/833409171",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1977691885/other"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chlamydial epididymitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/160907582",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1431940183"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chlamydial orchitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/95847234",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1431940183"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1480951888/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1002532547",
+        "http://id.who.int/icd/release/11/2024-01/mms/413436285"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1480951888/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Orchitis or epididymitis"
+  }
+}

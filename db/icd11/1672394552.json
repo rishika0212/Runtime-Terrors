@@ -1,0 +1,70 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1672394552",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1264914040"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1032906398",
+    "http://id.who.int/icd/release/11/2024-01/mms/1386767292",
+    "http://id.who.int/icd/release/11/2024-01/mms/1023186137",
+    "http://id.who.int/icd/release/11/2024-01/mms/858910376",
+    "http://id.who.int/icd/release/11/2024-01/mms/630501546",
+    "http://id.who.int/icd/release/11/2024-01/mms/1922553285",
+    "http://id.who.int/icd/release/11/2024-01/mms/1672394552/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1672394552/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1672394552",
+  "code": "DA40",
+  "source": "http://id.who.int/icd/entity/1672394552",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1672394552/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1493524587"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1672394552/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acquired anatomical alterations of the stomach"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This group incorporates gastric disorders principally due to acquired morphological changes of the stomach."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Structural developmental anomalies of stomach"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1763449287",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1763449287"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Diaphragmatic hernia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/453532731",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/453532731"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/962827983",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/113146812"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#962827983",
+  "code": "BC81.1",
+  "source": "http://id.who.int/icd/entity/962827983",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/962827983/postcoordinationScale/causality",
+      "axisName": "http://id.who.int/icd/schema/causality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1048408993",
+        "http://id.who.int/icd/release/11/2024-01/mms/4953745",
+        "http://id.who.int/icd/release/11/2024-01/mms/894194405"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Junctional ectopic tachycardia"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Narrow or usual complex tachycardia originates from a focus at or near the atrioventricular junction."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "This form of supraventricular tachycardia originates in the av junction. This irregular heart-rate is manifest by ventricular rates between 100 and 250 bpm and rarely at 300 bpm. It may be associated with retrograde p-waves or with ventriculoatrial dissociation. It is often seen in the post-operative period after surgery for congenital heart disease. There is also a congenital form of junctional ectopic tachycardia."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1380872553"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/88964541"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Junctional ectopic tachycardia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "His bundle tachycardia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "AV - [atrioventricular] junctional ectopic tachycardia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "JET - [junctional ectopic tachycardia]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital junctional ectopic tachycardia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/825451184"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postoperative junctional ectopic tachycardia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/193801800"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Idiopathic junctional ectopic tachycardia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/352206700"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1742380769",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1219149360"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1742380769",
+  "code": "2A83.3",
+  "source": "http://id.who.int/icd/entity/1742380769",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1742380769/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1644747126",
+        "http://id.who.int/icd/release/11/2024-01/mms/687250607",
+        "http://id.who.int/icd/release/11/2024-01/mms/1509166126"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1742380769/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1742380769/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1863636238",
+        "http://id.who.int/icd/release/11/2024-01/mms/885826145",
+        "http://id.who.int/icd/release/11/2024-01/mms/1746207012",
+        "http://id.who.int/icd/release/11/2024-01/mms/303697349"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Extraosseous plasmacytoma"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Extraosseous plasmacytoma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Extramedullary plasmacytoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/246947217"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "malignant plasma cell neoplasm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/246947217"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "extramedullary plasmacytoma NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/246947217"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "extramedullary plasmacytoma without mention of remission"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/246947217"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "monostotic myeloma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/246947217"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "plasma cell sarcoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/246947217"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "solitary osseous myeloma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/246947217"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "SOM - [solitary osseous myeloma] disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/246947217"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "plasma cell neoplasm NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/246947217"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Extramedullary plasmacytoma in complete remission"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1204242229"
+    }
+  ]
+}

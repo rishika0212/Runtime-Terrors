@@ -1,0 +1,70 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1914646281",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1971756453"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/961356134",
+    "http://id.who.int/icd/release/11/2024-01/mms/1543957744",
+    "http://id.who.int/icd/release/11/2024-01/mms/682343439",
+    "http://id.who.int/icd/release/11/2024-01/mms/1041162767",
+    "http://id.who.int/icd/release/11/2024-01/mms/1531260827",
+    "http://id.who.int/icd/release/11/2024-01/mms/803766116",
+    "http://id.who.int/icd/release/11/2024-01/mms/1914646281/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1914646281/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1914646281",
+  "code": "CA0H",
+  "source": "http://id.who.int/icd/entity/1914646281",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1914646281/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1422142995"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Diseases of vocal cords or larynx, not elsewhere classified"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "stridor: NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1551292969",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1551292969"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "laryngitis: ulcerative"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1180710837",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1180710837"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute obstructive laryngitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1519976244",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1519976244"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postprocedural subglottic stenosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1470379148",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1470379148"
+    }
+  ]
+}

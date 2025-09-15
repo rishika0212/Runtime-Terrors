@@ -1,0 +1,59 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1386767292",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1672394552"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1386767292",
+  "code": "DA40.1",
+  "source": "http://id.who.int/icd/entity/1386767292",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1386767292/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1493524587"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1386767292/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Gastric fistula, acquired"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Acquired gastric fistula is an opening through the gastric wall and into the peritoneal cavity, into another organ and vessels that normally do not connect, or through the abdominal wall."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gastric fistula, acquired"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "fistula of stomach"
+      }
+    }
+  ]
+}

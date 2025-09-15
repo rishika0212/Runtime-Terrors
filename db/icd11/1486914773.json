@@ -1,0 +1,107 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1486914773",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1001757676"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1486914773",
+  "code": "DA60.62",
+  "source": "http://id.who.int/icd/entity/1486914773",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1486914773/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1493524587"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1486914773/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/294460566",
+        "http://id.who.int/icd/release/11/2024-01/mms/985094335",
+        "http://id.who.int/icd/release/11/2024-01/mms/1794059753",
+        "http://id.who.int/icd/release/11/2024-01/mms/1472717853",
+        "http://id.who.int/icd/release/11/2024-01/mms/1450176443",
+        "http://id.who.int/icd/release/11/2024-01/mms/1098540500",
+        "http://id.who.int/icd/release/11/2024-01/mms/1676151582",
+        "http://id.who.int/icd/release/11/2024-01/mms/1583926619"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1486914773/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Drug-induced gastric ulcer"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Medications such as NSAIDs can cause gastric ulcer. Other drugs that may increase the risk of ulceration include potassium chloride, concomitant use of steroids with NSAIDs, bisphosphonates, and mycophenolate mofetil."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Toxic gastric ulcer"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Helicobacter pylori associated and drug-induced gastric ulcer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/457169641",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/457169641"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced gastric ulcer"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "medicament-induced gastric ulcer"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Toxic gastric ulcer"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ulcer of the stomach due to NSAID - [non-steroidal anti-inflammatory drug]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1750844488"
+    }
+  ]
+}

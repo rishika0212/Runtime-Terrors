@@ -1,0 +1,116 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1331660907",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1539889147"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1331660907",
+  "code": "1B54",
+  "source": "http://id.who.int/icd/entity/1331660907",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1331660907/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1979147242",
+        "http://id.who.int/icd/release/11/2024-01/mms/1284492970"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1331660907/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/428956900"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1331660907/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/622600769",
+        "http://id.who.int/icd/release/11/2024-01/mms/1683090852"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1331660907/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1446152257"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Meningitis due to Staphylococcus"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease of the meninges, caused by an infection with the gram-positive bacteria genus Staphylococcus. This disease commonly presents with acute inflammation of the meninges causing headache, fever, stiff neck, or neurological deficits. Confirmation is by identification of Staphylococcus in the cerebrospinal fluid."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "This is a bacterial form of meningitis due to infection with staphylococcal species, such as Staphylococcus aureus or Staphylococcus epidermidis. Meningitis is an inflammation of the protective membranes covering the brain and spinal cord, known collectively as the meninges. This is commonly due to it complications due to surgery or as an infection spread through the blood from another site."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Staphylococcal meningitis"
+      }
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/911707612"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Meningitis due to Staphylococcus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Staphylococcal meningitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Meningitis due to Staphylococcus aureus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/240293267"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bacterial meningitis due to methicillin resistant Staphylococcus aureus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/578705533"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Staphylococcal cerebral meningitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/276960425"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Staphylococcal spinal meningitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1599515520"
+    }
+  ]
+}

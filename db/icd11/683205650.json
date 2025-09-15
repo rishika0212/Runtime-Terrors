@@ -1,0 +1,59 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/683205650",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/204637746"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#683205650",
+  "code": "AB70.1",
+  "source": "http://id.who.int/icd/entity/683205650",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/683205650/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Otorrhagia"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "traumatic otorrhagia - code by type of injury"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/435227771",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/435227771"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Otorrhagia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bleeding from ear"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "haemorrhage from the ear"
+      }
+    }
+  ]
+}

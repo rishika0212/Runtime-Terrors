@@ -1,0 +1,51 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/672749362",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/560107272"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#672749362",
+  "code": "QC40.4",
+  "source": "http://id.who.int/icd/entity/672749362",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/672749362/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1678247922",
+        "http://id.who.int/icd/release/11/2024-01/mms/344632447"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/672749362/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/751805133",
+        "http://id.who.int/icd/release/11/2024-01/mms/1894406676"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Personal history of malignant neoplasm of genital organs"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Personal history of malignant neoplasm of genital organs"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "history of malignant neoplasm of genital organ"
+      }
+    }
+  ]
+}

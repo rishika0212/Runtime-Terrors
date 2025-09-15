@@ -1,0 +1,70 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1231935480",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/384289569"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/179893645",
+    "http://id.who.int/icd/release/11/2024-01/mms/1126823287",
+    "http://id.who.int/icd/release/11/2024-01/mms/888456807",
+    "http://id.who.int/icd/release/11/2024-01/mms/1231935480/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1231935480/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1231935480",
+  "code": "8A06",
+  "source": "http://id.who.int/icd/entity/1231935480",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1231935480/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1568332253",
+        "http://id.who.int/icd/release/11/2024-01/mms/1805681916",
+        "http://id.who.int/icd/release/11/2024-01/mms/393047701/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/546689346",
+        "http://id.who.int/icd/release/11/2024-01/mms/1397288146",
+        "http://id.who.int/icd/release/11/2024-01/mms/1973223737",
+        "http://id.who.int/icd/release/11/2024-01/mms/508643963",
+        "http://id.who.int/icd/release/11/2024-01/mms/282512557",
+        "http://id.who.int/icd/release/11/2024-01/mms/761526554",
+        "http://id.who.int/icd/release/11/2024-01/mms/2008663041",
+        "http://id.who.int/icd/release/11/2024-01/mms/1583926619",
+        "http://id.who.int/icd/release/11/2024-01/mms/1323892810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Myoclonic disorders"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "myoclonic epilepsy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1397288146",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1397288146"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Facial myokymia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1882946699",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1882946699"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dystonia-plus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/378693810",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/378693810"
+    }
+  ]
+}

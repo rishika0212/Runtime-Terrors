@@ -1,0 +1,60 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/5922645",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1893259570"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#5922645",
+  "code": "DA41.2",
+  "source": "http://id.who.int/icd/entity/5922645",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/5922645/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acid hypersecretion"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Acid hypersecretion is a condition due to basal hypersecretion of gastric acid in the stomach, resulting in peptic ulcer and steatorrhoea."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Zollinger-Ellison syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/375645550",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/375645550"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acid hypersecretion"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acid peptic disease"
+      }
+    }
+  ]
+}

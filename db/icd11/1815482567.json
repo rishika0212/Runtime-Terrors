@@ -1,0 +1,66 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1815482567",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1490912126"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1852649756",
+    "http://id.who.int/icd/release/11/2024-01/mms/1576878036",
+    "http://id.who.int/icd/release/11/2024-01/mms/788002727",
+    "http://id.who.int/icd/release/11/2024-01/mms/777233947",
+    "http://id.who.int/icd/release/11/2024-01/mms/1272869150",
+    "http://id.who.int/icd/release/11/2024-01/mms/1486280298",
+    "http://id.who.int/icd/release/11/2024-01/mms/1395747124",
+    "http://id.who.int/icd/release/11/2024-01/mms/1360782719",
+    "http://id.who.int/icd/release/11/2024-01/mms/1140842756",
+    "http://id.who.int/icd/release/11/2024-01/mms/1734551333",
+    "http://id.who.int/icd/release/11/2024-01/mms/1417669099",
+    "http://id.who.int/icd/release/11/2024-01/mms/1815482567/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1815482567/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1815482567",
+  "code": "GB90.4",
+  "source": "http://id.who.int/icd/entity/1815482567",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cystinuria"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1237620397",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1237620397"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nephrogenic syndrome of inappropriate antidiuresis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/808905140",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/808905140"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1815482567/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Renal tubular function disorders"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Disorders primarily due to abnormalities of renal tubular resorption or secretion."
+  }
+}

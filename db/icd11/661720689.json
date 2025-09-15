@@ -1,0 +1,56 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/661720689",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1861279867"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1982355687",
+    "http://id.who.int/icd/release/11/2024-01/mms/1143049440",
+    "http://id.who.int/icd/release/11/2024-01/mms/2080137619",
+    "http://id.who.int/icd/release/11/2024-01/mms/1282359533",
+    "http://id.who.int/icd/release/11/2024-01/mms/1686688462",
+    "http://id.who.int/icd/release/11/2024-01/mms/620164044",
+    "http://id.who.int/icd/release/11/2024-01/mms/2090347823",
+    "http://id.who.int/icd/release/11/2024-01/mms/1764644031",
+    "http://id.who.int/icd/release/11/2024-01/mms/661720689/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/661720689/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#661720689",
+  "code": "8B60",
+  "source": "http://id.who.int/icd/entity/661720689",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Brown-Vialetto-van Laere syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1499927268",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/186534168/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/661720689/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2019368323"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Motor neuron disease"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Motor neuron disease is a neurodegenerative disorder of undetermined etiology, characterised by degeneration of upper motor neurons (cortical Betz cells and corticospinal tract) or lower motor neurons (ventral horns of spinal cord and cranial nerve motor nuclei) or both. Features of involvement of lower motor neurons (LMN) are atrophy, weakness, fasciculations, hypotonia, decreased or absent deep tendon reflexes. Features of involvement of upper motor neurons (UMN) are spasticity, exaggerated deep tendon reflexes, and extensor plantar responses. Depending on the site of onset and the presence of UMN or LMN features or both, MND has varying patterns and distributions of signs and symptoms."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "(In some countries the term motor neuron disease is used synonymously with amyotrophic lateral sclerosis)."
+  }
+}

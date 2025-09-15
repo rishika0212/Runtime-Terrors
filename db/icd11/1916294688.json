@@ -1,0 +1,43 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1916294688",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/282225286"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/423719003",
+    "http://id.who.int/icd/release/11/2024-01/mms/1782708952",
+    "http://id.who.int/icd/release/11/2024-01/mms/1916294688/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1916294688",
+  "code": "BC43.0",
+  "source": "http://id.who.int/icd/entity/1916294688",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1916294688/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1119203708"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Dilated cardiomyopathy"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Dilated cardiomyopathy is a myocardial disorder in which there is systolic dysfunction and chamber dilation of one or both ventricles in the absence of a haemodynamic cause that can produce the existent dilation and dysfunction, including physiological (such as sepsis) or anatomic causes with either abnormal loading conditions (such as coarctation of the aorta) or ischaemia (such as coronary artery disease or anomalies).\n\nAdditional information: Physiological and anatomic conditions can affect the dilated cardiomyopathy morphofunctional phenotype. If this morphofunctional phenotype is retained after appropriate intervention, then a dilated cardiomyopathy is established."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congestive cardiomyopathy"
+      }
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/197850369",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1961426220"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#197850369",
+  "code": "GB71.0",
+  "source": "http://id.who.int/icd/entity/197850369",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/197850369/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/157646292"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/197850369/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1507624466"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Calculus in bladder"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition caused by dehydration, decreased urine volume or fluid flow rates, or increased excretion of minerals such as calcium, oxalate, magnesium, cystine, and phosphate. This condition is characterised by urinary calculi located in the bladder. This condition may also present with haematuria, dysuria, or pain in the flank, lower abdomen, or groin. Confirmation is by abdominal radiography, to determine the presence and location of calculi."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Urinary bladder stone"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Calculus in a bowel segment for urinary diversion (e.g. neobladder, pouch) (NFBC)"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/88962007",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/88962007"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Calculus in bladder"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Urinary bladder stone"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bladder calculi"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bladder stone"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "urinary bladder calculus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "vesical calculi"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "vesical calculus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "vesicolithiasis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cystolithiasis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cystic calculi"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cystic calculus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Calculous cystitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/776010730"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Calculus in diverticulum of bladder"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/422370427"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "stone in bladder diverticulum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/422370427"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Impacted bladder calculus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/376482937"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "impacted vesical calculus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/376482937"
+    }
+  ]
+}

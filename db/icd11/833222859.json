@@ -1,0 +1,68 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/833222859",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1012897702"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#833222859",
+  "code": "LB30.2",
+  "source": "http://id.who.int/icd/entity/833222859",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/833222859/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Congenital single renal cyst"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A single cyst in a kidney, noted in utero or from birth. No other structural abnormality of the kidney or urinary tract noted."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital single renal cyst"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Single congenital cyst of kidney"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital solitary renal cyst"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/951928673"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital multiloculated renal cyst"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/318183328"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital haemorrhagic renal cyst"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/994884299"
+    }
+  ]
+}

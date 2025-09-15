@@ -1,0 +1,70 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1726978545",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2108355318"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1726978545",
+  "code": "1D04.0",
+  "source": "http://id.who.int/icd/entity/1726978545",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1726978545/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1048482858",
+        "http://id.who.int/icd/release/11/2024-01/mms/1074640675"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1726978545/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1191270655",
+        "http://id.who.int/icd/release/11/2024-01/mms/1639872620",
+        "http://id.who.int/icd/release/11/2024-01/mms/36915786"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Parasitic intracerebral granuloma"
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/911707612"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Parasitic intracerebral granuloma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Intracerebral granuloma due to Schistosoma species"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/38320170"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Intracerebral granuloma due to Mansoni species"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1018075746"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Intracerebral granuloma due to Haematobium species"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/479941154"
+    }
+  ]
+}

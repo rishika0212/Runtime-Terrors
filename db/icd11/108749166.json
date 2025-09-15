@@ -1,0 +1,100 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/108749166",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1803005915"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#108749166",
+  "code": "DD50.1",
+  "source": "http://id.who.int/icd/entity/108749166",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/108749166/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/108749166/postcoordinationScale/temporalPatternAndOnset",
+      "axisName": "http://id.who.int/icd/schema/temporalPatternAndOnset",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1721353160"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Pelvic hernia"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A hernia occurs through the foramen in the pelvic wall."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pelvic hernia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Obturator hernia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pudental hernia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pelvic hernia with obstruction without gangrene"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1100590746"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pelvic hernia with gangrene"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1288362363"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pelvic hernia without obstruction or gangrene"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/148143847"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Perineal hernia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1421187501"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sciatic hernia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2064685971"
+    }
+  ]
+}

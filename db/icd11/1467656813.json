@@ -1,0 +1,61 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1467656813",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/768075878"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/188522347",
+    "http://id.who.int/icd/release/11/2024-01/mms/1321698742",
+    "http://id.who.int/icd/release/11/2024-01/mms/1467656813/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1467656813/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1467656813",
+  "code": "NC51.1",
+  "source": "http://id.who.int/icd/entity/1467656813",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1467656813/postcoordinationScale/typeOfInjury",
+      "axisName": "http://id.who.int/icd/schema/typeOfInjury",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/377475788",
+        "http://id.who.int/icd/release/11/2024-01/mms/1306914119",
+        "http://id.who.int/icd/release/11/2024-01/mms/2040998541",
+        "http://id.who.int/icd/release/11/2024-01/mms/1442982067",
+        "http://id.who.int/icd/release/11/2024-01/mms/1704055292",
+        "http://id.who.int/icd/release/11/2024-01/mms/2010469183",
+        "http://id.who.int/icd/release/11/2024-01/mms/1124176890"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1467656813/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1679928503",
+        "http://id.who.int/icd/release/11/2024-01/mms/2088002216",
+        "http://id.who.int/icd/release/11/2024-01/mms/2008478303",
+        "http://id.who.int/icd/release/11/2024-01/mms/1065556593",
+        "http://id.who.int/icd/release/11/2024-01/mms/243611688"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Superficial injury of other parts of wrist or hand"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Superficial injury of finger or thumb"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1671421399",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1671421399"
+    }
+  ]
+}

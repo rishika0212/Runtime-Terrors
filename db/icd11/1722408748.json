@@ -1,0 +1,114 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1722408748",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1884626736"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1722408748",
+  "code": "9B65.1",
+  "source": "http://id.who.int/icd/entity/1722408748",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Late syphilitic posterior uveitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2123347071",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/551528014"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1722408748/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1722408748/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/395565060",
+        "http://id.who.int/icd/release/11/2024-01/mms/1665042685",
+        "http://id.who.int/icd/release/11/2024-01/mms/1074723013",
+        "http://id.who.int/icd/release/11/2024-01/mms/836709998"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Infectious posterior choroiditis"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infectious posterior choroiditis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "infectious posterior uveitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Herpesvirus retinitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1327491005"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute retinal necrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2098607034"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Progressive outer retinal necrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1120657097"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Posterior uveitis, other viruses"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1855302690"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Posterior uveitis, other fungi"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1553758245"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bacterial Posterior uveitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1965703348"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Parasitic posterior uveitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1119445454"
+    }
+  ]
+}

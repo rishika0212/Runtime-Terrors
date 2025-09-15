@@ -1,0 +1,78 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1108993080",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/135549215"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1108993080",
+  "code": "5B5C.0",
+  "source": "http://id.who.int/icd/entity/1108993080",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1108993080/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/868851323",
+        "http://id.who.int/icd/release/11/2024-01/mms/1567256935"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1108993080/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/148241182"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1108993080/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/562478860",
+        "http://id.who.int/icd/release/11/2024-01/mms/1663264387",
+        "http://id.who.int/icd/release/11/2024-01/mms/1201187093"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Pellagra"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Pellagra is a potentially life-threatening disorder due to niacin deficiency and is observed in malnourished individuals, especially alcoholics, and as a complication of isoniazid therapy. The diagnosis is often overlooked or delayed. Pellagra manifests as diarrhoea, dermatitis, dementia, which usually appear in this order. Gastrointestinal tract symptoms always precede skin involvement, which presents initially with a sunburn-like blistering erythema, typically affecting the dorsal surfaces of the hands, face, neck, arms, and feet. With time the skin becomes thickened, scaly and pigmented."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1867773640"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/517413026"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pellagra"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pellagroid syndrome"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Polyneuropathy in pellagra"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1743067451"
+    }
+  ]
+}

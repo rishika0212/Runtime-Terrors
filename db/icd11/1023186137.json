@@ -1,0 +1,60 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1023186137",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1672394552"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1023186137",
+  "code": "DA40.2",
+  "source": "http://id.who.int/icd/entity/1023186137",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1023186137/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1023186137/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Gastric volvulus"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Gastric volvulus is an uncommon clinical entity defined as an abnormal rotation (twisting) of all or part of the stomach by more than 180 degrees, creating a closed-loop obstruction of the flow of material through the stomach. It can result in incarceration and strangulation, with variable loss of blood supply. \nAlthough rare in childhood, a wandering spleen may also be associated with gastric volvulus, because they share a common etiology: congenital absence of intraperitoneal visceral attachments."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gastric volvulus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "volvulus of stomach"
+      }
+    }
+  ]
+}

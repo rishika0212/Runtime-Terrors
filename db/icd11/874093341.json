@@ -1,0 +1,74 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/874093341",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2115139779"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#874093341",
+  "code": "BB60.1",
+  "source": "http://id.who.int/icd/entity/874093341",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/874093341/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2136808878",
+        "http://id.who.int/icd/release/11/2024-01/mms/437702716",
+        "http://id.who.int/icd/release/11/2024-01/mms/1754821737",
+        "http://id.who.int/icd/release/11/2024-01/mms/1594578199",
+        "http://id.who.int/icd/release/11/2024-01/mms/1992125824",
+        "http://id.who.int/icd/release/11/2024-01/mms/1458683894/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/1458683894/unspecified"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/874093341/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/562478860",
+        "http://id.who.int/icd/release/11/2024-01/mms/1663264387",
+        "http://id.who.int/icd/release/11/2024-01/mms/1201187093"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Nonrheumatic mitral valve stenosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Mitral stenosis is narrowing of the passage through the mitral valve due to fibrosis, and calcinosis in the leaflets and chordal areas.\nThe most common reason of mitral stenosis is rheumatic fever. Except rheumatic fever; SLE, Malignant Sarcoid, Active Infective Endocarditis, Gout Whipple's Disease, Massive Annular calcification cause to the mitral stenosis."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postprocedural mitral valve stenosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1892669517",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1892669517"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1380872553"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nonrheumatic mitral valve stenosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "mitral stenosis except rheumatic"
+      }
+    }
+  ]
+}

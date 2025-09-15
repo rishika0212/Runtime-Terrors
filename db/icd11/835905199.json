@@ -1,0 +1,61 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/835905199",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1989891499"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#835905199",
+  "code": "LB9A.7",
+  "source": "http://id.who.int/icd/entity/835905199",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/835905199/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Congenital absence of both lower leg and foot"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Any condition caused by the failure of the lower leg and foot to develop during the antenatal period."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital absence of both lower leg and foot"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "lower leg and foot agenesis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital absence of both lower leg and foot, unilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/608099172"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital absence of both lower leg and foot, bilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/113051911"
+    }
+  ]
+}

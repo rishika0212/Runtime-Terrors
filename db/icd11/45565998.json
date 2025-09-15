@@ -1,0 +1,68 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/45565998",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1305335252"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#45565998",
+  "code": "9A03.5",
+  "source": "http://id.who.int/icd/entity/45565998",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/45565998/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/45565998/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/844452979",
+        "http://id.who.int/icd/release/11/2024-01/mms/1468820019"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Dermatochalasis of eyelid"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dermatochalasis of eyelid"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dermatochalasis of eyelid with fat prolapse"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1774904149"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dermatochalasis of upper eyelid"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/821751751"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dermatochalasis of lower eyelid"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1146601274"
+    }
+  ]
+}

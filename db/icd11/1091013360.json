@@ -1,0 +1,98 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1091013360",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/921595235"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1091013360",
+  "code": "1D46",
+  "source": "http://id.who.int/icd/entity/1091013360",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1091013360/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/956664712"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "West Nile virus infection"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition caused by an infection with West Nile virus. This condition is commonly asymptomatic. This condition may present with fever, headache, stiffness of the neck, stupor, disorientation, coma, tremors, convulsions, muscle weakness, or paralysis. Transmission is through the bite of an infected mosquito. Confirmation is by detection of IgG or IgM anti-West Nile virus antibodies in a serum sample."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "West Nile virus infection is a mosquito-borne viral infection with flu-like symptoms. Approximately 1 in 150 infections will result in severe neurological disease. Treatment is supportive"
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "West Nile fever"
+      }
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/911707612"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "West Nile virus infection"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "West Nile fever"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "disease due to West Nile virus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "West Nile viral infection"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Kunjin virus disease"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Encephalitis due to Kunjin virus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1962783063"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "West Nile encephalitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1659165624"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "West Nile viral encephalitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1659165624"
+    }
+  ]
+}

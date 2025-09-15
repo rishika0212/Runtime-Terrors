@@ -1,0 +1,78 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1742998538",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/446305135"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1497870078",
+    "http://id.who.int/icd/release/11/2024-01/mms/1742998538/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1742998538/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1742998538",
+  "code": "DB32.2",
+  "source": "http://id.who.int/icd/entity/1742998538",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1742998538/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/326645548",
+        "http://id.who.int/icd/release/11/2024-01/mms/578694909",
+        "http://id.who.int/icd/release/11/2024-01/mms/771220582"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1742998538/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1742998538/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/588616678",
+        "http://id.who.int/icd/release/11/2024-01/mms/250688797",
+        "http://id.who.int/icd/release/11/2024-01/mms/1365585570"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Megacolon"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Megacolon is a descriptive term indicating an abnormal dilation of large intestine. The dilatation is often accompanied by a paralysis of the peristaltic movements of the bowel."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital megacolon"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1772690306",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1772690306"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hirschsprung disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1772690306",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1772690306"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ]
+}

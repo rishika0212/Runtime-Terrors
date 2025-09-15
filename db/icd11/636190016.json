@@ -1,0 +1,87 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/636190016",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/354267423"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#636190016",
+  "code": "NB62.4",
+  "source": "http://id.who.int/icd/entity/636190016",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/636190016/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1284492970",
+        "http://id.who.int/icd/release/11/2024-01/mms/1403484535"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/636190016/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482",
+        "http://id.who.int/icd/release/11/2024-01/mms/755612283"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Brown-Sequard syndrome of lumbar spinal cord"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Brown-Sequard syndrome of lumbar spinal cord"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Brown-Sequard syndrome at L1 level"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1105133245"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Brown-Sequard syndrome at L2 level"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1854477740"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Brown-Sequard syndrome at L3 level"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/319931733"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Brown-Sequard syndrome at L4 level"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/612557867"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Brown-Sequard syndrome at L5 level"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/100742734"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Brown-Sequard syndrome of lumbar spinal cord, multiple levels"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/648863571"
+    }
+  ]
+}

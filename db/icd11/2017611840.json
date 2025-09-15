@@ -1,0 +1,42 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2017611840",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2092499426"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1360335041",
+    "http://id.who.int/icd/release/11/2024-01/mms/428071867",
+    "http://id.who.int/icd/release/11/2024-01/mms/2017611840/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/2017611840/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2017611840",
+  "code": "5B5A.1",
+  "source": "http://id.who.int/icd/entity/2017611840",
+  "classKind": "category",
+  "title": {
+    "@language": "en",
+    "@value": "Wernicke-Korsakoff Syndrome"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A thiamine-deficiency syndrome characterised by symmetric hyperaemic lesions of the brainstem, hypothalamus, thalamus, and mammillary bodies with glial proliferation, capillary dilatation, and perivascular haemorrhage. The syndrome is manifested by a confusional state, disorientation, ophthalmoplegia, nystagmus, diplopia, and ataxia (Wernicke encephalopathy), with severe loss of memory for recent events and confabulation (the invention of accounts of events to cover the loss of memory) (Korsakov psychosis) occurring following recovery. Defective binding of thiamine diphosphate by transketolase has been found. It appears that the disorder is of autosomal recessive inheritance but is expressed as clinical disease only in the event of thiamine deficiency."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Amnestic disorder due to use of alcohol"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/988431240",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/988431240"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/517413026"
+  ],
+  "codingNote": {
+    "@language": "en",
+    "@value": "Chronic alcohol use may be associated with thiamine deficiency, but alcohol may also have effects on the brain via other mechanisms. This category should be used to describe cognitive symptoms due to chronic alcohol use if there is evidence of thiamine deficiency."
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1092658552",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/611962875"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/29181140",
+    "http://id.who.int/icd/release/11/2024-01/mms/1092658552/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1092658552/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1092658552",
+  "code": "CA60.0",
+  "source": "http://id.who.int/icd/entity/1092658552",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1092658552/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Pneumoconiosis due to dust containing silica"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Interstitial lung disease due to inhalation of silica dust. The accumulation of silica/silicates in lung leads to fibrosis and formation of opacities in upper lobes of lungs on chest X-ray"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "with tuberculosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2072728114",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2072728114"
+    }
+  ]
+}

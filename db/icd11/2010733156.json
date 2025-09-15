@@ -1,0 +1,97 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2010733156",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1597834211"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2010733156",
+  "code": "9A80",
+  "source": "http://id.who.int/icd/entity/2010733156",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2010733156/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Hyphaema"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "traumatic hyphaema"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/969612493",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/969612493"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hyphaema"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "blood in anterior chamber"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "haemorrhage of anterior chamber of eye"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hyphaemia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "anterior chamber haemorrhage"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hyphaema, unspecified eye"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hyphema"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ciliary body haemorrhage"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1787044916"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Iris haemorrhage"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/899911047"
+    }
+  ]
+}

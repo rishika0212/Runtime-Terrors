@@ -1,0 +1,106 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1988933820",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1611980611"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1988933820",
+  "code": "2A60.39",
+  "source": "http://id.who.int/icd/entity/1988933820",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1988933820/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1644747126",
+        "http://id.who.int/icd/release/11/2024-01/mms/687250607",
+        "http://id.who.int/icd/release/11/2024-01/mms/1509166126"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1988933820/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Myeloid sarcoma"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Myeloid sarcoma is a rare solid tumour of the myelogenous cells occurring in an extramedullary site."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chloroma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Granulocytic sarcoma"
+      }
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myeloid sarcoma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chloroma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Granulocytic sarcoma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "myelosarcoma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "myeloid sarcoma disease"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "myeloid sarcoma NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "myeloid sarcoma without mention of remission"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myeloid sarcoma in complete remission"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2126244336"
+    }
+  ]
+}

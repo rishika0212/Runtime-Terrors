@@ -1,0 +1,71 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1004311915",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1352501137"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1004311915",
+  "code": "DB60.0",
+  "source": "http://id.who.int/icd/entity/1004311915",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1004311915/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "First degree haemorrhoids"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "(grade I): First-degree haemorrhoids bulge into the anal canal and sometimes bleed, but do not prolapse through the anus."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Haemorrhoids (bleeding) without prolapse outside of anal canal"
+      }
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1765077136",
+    "http://id.who.int/icd/entity/109909861"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "First degree haemorrhoids"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Haemorrhoids (bleeding) without prolapse outside of anal canal"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Grade 1 haemorrhoids"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "stage I haemorrhoids"
+      }
+    }
+  ]
+}

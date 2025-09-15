@@ -1,0 +1,41 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/199994446",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1721217915"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#199994446",
+  "code": "JA67.2",
+  "source": "http://id.who.int/icd/entity/199994446",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/199994446/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/805990521"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Central nervous system complications of anaesthesia during pregnancy"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Central nervous system complications of anaesthesia during pregnancy"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cerebral anoxia due to anaesthesia during pregnancy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1244313347"
+    }
+  ]
+}

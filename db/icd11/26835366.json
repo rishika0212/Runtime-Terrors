@@ -1,0 +1,92 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/26835366",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1489212950"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1362106175",
+    "http://id.who.int/icd/release/11/2024-01/mms/1252568565",
+    "http://id.who.int/icd/release/11/2024-01/mms/464207910",
+    "http://id.who.int/icd/release/11/2024-01/mms/803430497",
+    "http://id.who.int/icd/release/11/2024-01/mms/851732244",
+    "http://id.who.int/icd/release/11/2024-01/mms/1531850910",
+    "http://id.who.int/icd/release/11/2024-01/mms/960904801",
+    "http://id.who.int/icd/release/11/2024-01/mms/26835366/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/26835366/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#26835366",
+  "code": "NB50",
+  "source": "http://id.who.int/icd/entity/26835366",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sequelae of superficial injury or open wound of neck or trunk"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/291704025",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/435227771/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/26835366/postcoordinationScale/typeOfInjury",
+      "axisName": "http://id.who.int/icd/schema/typeOfInjury",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/377475788",
+        "http://id.who.int/icd/release/11/2024-01/mms/1306914119",
+        "http://id.who.int/icd/release/11/2024-01/mms/2040998541",
+        "http://id.who.int/icd/release/11/2024-01/mms/1442982067",
+        "http://id.who.int/icd/release/11/2024-01/mms/1704055292",
+        "http://id.who.int/icd/release/11/2024-01/mms/2010469183",
+        "http://id.who.int/icd/release/11/2024-01/mms/1124176890"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/26835366/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1399556983",
+        "http://id.who.int/icd/release/11/2024-01/mms/1678247922",
+        "http://id.who.int/icd/release/11/2024-01/mms/344632447",
+        "http://id.who.int/icd/release/11/2024-01/mms/1983193090",
+        "http://id.who.int/icd/release/11/2024-01/mms/1218764272",
+        "http://id.who.int/icd/release/11/2024-01/mms/294531567",
+        "http://id.who.int/icd/release/11/2024-01/mms/1894266247"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/26835366/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482",
+        "http://id.who.int/icd/release/11/2024-01/mms/755612283"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Superficial injury of abdomen, lower back or pelvis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Damage inflicted on the surface or shallow tissues of the abdomen, lower back and pelvis as the direct or indirect result of an external force, with or without disruption of structural continuity."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "superficial injury of hip"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2046992511",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2046992511"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/891367271",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/698285441"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#891367271",
+  "code": "DC31.3",
+  "source": "http://id.who.int/icd/entity/891367271",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/891367271/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731",
+        "http://id.who.int/icd/release/11/2024-01/mms/1098540500",
+        "http://id.who.int/icd/release/11/2024-01/mms/1676151582",
+        "http://id.who.int/icd/release/11/2024-01/mms/1583926619"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/891367271/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/562478860",
+        "http://id.who.int/icd/release/11/2024-01/mms/1663264387",
+        "http://id.who.int/icd/release/11/2024-01/mms/1201187093"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acute drug-induced pancreatitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Acute pancreatitis caused by drug administration. Some diuretics, anti-tumour or antibiotic drugs, estrogen-containing contraceptives, azathioprine and others have been reported to induce acute pancreatitis."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute drug-induced pancreatitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute medicament-induced pancreatitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute drug-induced pancreatitis, with local complication"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1386050881"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute drug-induced pancreatitis, with systemic complication"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1130743486"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute drug-induced pancreatitis, with local and systemic complication"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1146743184"
+    }
+  ]
+}

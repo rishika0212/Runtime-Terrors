@@ -1,0 +1,95 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1398301359",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2086488820"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/234431289",
+    "http://id.who.int/icd/release/11/2024-01/mms/995429783",
+    "http://id.who.int/icd/release/11/2024-01/mms/467618964",
+    "http://id.who.int/icd/release/11/2024-01/mms/137260047",
+    "http://id.who.int/icd/release/11/2024-01/mms/1398301359/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1398301359/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1398301359",
+  "code": "DA94",
+  "source": "http://id.who.int/icd/entity/1398301359",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1398301359/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/18598211",
+        "http://id.who.int/icd/release/11/2024-01/mms/1708923236"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1398301359/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1398301359/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Noninfectious enteritis or ulcer of small intestine"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Noninfectious enteritis and ulcer of small intestine is inflammation or tissue defect in the small intestine of non-infectious origin, usually due to medication including chemotherapy or radiation therapy side effects; or allergic or systemic disorders. Its severity may vary from mild and inconvenient to severe and life-threatening."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Noninfectious small intestinal inflammation, erosion, ulcer or ulcer scar"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Crohn disease of small intestine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1221996518",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1221996518"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Functional diarrhoea"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1150846989",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1150846989"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Noninfectious neonatal diarrhoea"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1478592418",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1478592418"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ]
+}

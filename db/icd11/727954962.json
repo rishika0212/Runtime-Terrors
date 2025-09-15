@@ -1,0 +1,74 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/727954962",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2120366482"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#727954962",
+  "code": "2F30.2",
+  "source": "http://id.who.int/icd/entity/727954962",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/727954962/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/727954962/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/831985561"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/727954962/postcoordinationScale/histopathology",
+      "axisName": "http://id.who.int/icd/schema/histopathology",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/281564171",
+        "http://id.who.int/icd/release/11/2024-01/mms/723147197",
+        "http://id.who.int/icd/release/11/2024-01/mms/288706574",
+        "http://id.who.int/icd/release/11/2024-01/mms/87482947",
+        "http://id.who.int/icd/release/11/2024-01/mms/879097732",
+        "http://id.who.int/icd/release/11/2024-01/mms/679104027",
+        "http://id.who.int/icd/release/11/2024-01/mms/1430405383",
+        "http://id.who.int/icd/release/11/2024-01/mms/74208820",
+        "http://id.who.int/icd/release/11/2024-01/mms/915142093"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Intraductal papilloma of breast"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A benign papillary neoplasm that arises anywhere in the ductal system of the breast. It is characterised by fibrovascular structures lined by benign epithelial and myoepithelial proliferations. Intraductal breast papillomas are classified as central, when they arise in large ducts, or peripheral, when they arise in the terminal ductal lobular units."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Intraductal papilloma of breast"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ductal adenoma of breast"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/537587180"
+    }
+  ]
+}

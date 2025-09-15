@@ -1,0 +1,73 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1613358778",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1611980611"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1613358778",
+  "code": "2A60.33",
+  "source": "http://id.who.int/icd/entity/1613358778",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1613358778/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1613358778/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1863636238",
+        "http://id.who.int/icd/release/11/2024-01/mms/885826145",
+        "http://id.who.int/icd/release/11/2024-01/mms/1746207012",
+        "http://id.who.int/icd/release/11/2024-01/mms/303697349"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acute myelomonocytic leukaemia"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "An acute leukaemia characterised by the proliferation of both neutrophil and monocyte precursors."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Acute myeloblastic leukemia (AML) (see this term) is a group of malignant bone marrow neoplasms of myeloid precursors of white blood cells. Acute myelomonocytic leukemia (AML-M4) is a common type of pediatric AML. However, the condition is rare and represents approximately 3 % of all leukemias during childhood and has an incidence of 1.1-1.7 per million per year. The symptoms may be aspecific: asthenia, pallor, fever, dizziness and respiratory symptoms. More specific symptoms are bruises and/or (excessive) bleeding, coagulation disorders (DIC), neurological disorders and gingival hyperplasia. Diagnostic methods include blood analysis, bone marrow aspirate for cytochemical, immunological and cytogenetical analysis, and cerebrospinal fluid (CSF) investigations. A characteristic chromosomal abnormality observed in AML-M4 is inv(16). Treatment includes intensive multidrug chemotherapy and in selected cases allogeneic bone marrow transplantation. Nevertheless, outcome of AML remains poor with an overall survival of 35-60%. Children with AML-M4 carrying the inv(16) abnormality have a better prognosis (61% 5-year overall survival). New therapeutics are required to increase the probability of cure in this serious disorder."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute myelomonocytic leukaemia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute myelomonocytic leukaemia without mention of remission"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "myelomonocytic leukaemia NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute myelomonocytic leukaemia in complete remission"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/254723103"
+    }
+  ]
+}

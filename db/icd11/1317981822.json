@@ -1,0 +1,69 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1317981822",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1317981822",
+  "code": "ME24.0",
+  "source": "http://id.who.int/icd/entity/1317981822",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1317981822/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1167594753",
+        "http://id.who.int/icd/release/11/2024-01/mms/1594312948",
+        "http://id.who.int/icd/release/11/2024-01/mms/914520008",
+        "http://id.who.int/icd/release/11/2024-01/mms/2086488820",
+        "http://id.who.int/icd/release/11/2024-01/mms/1980672892",
+        "http://id.who.int/icd/release/11/2024-01/mms/1644587915",
+        "http://id.who.int/icd/release/11/2024-01/mms/1305923085",
+        "http://id.who.int/icd/release/11/2024-01/mms/1784240230",
+        "http://id.who.int/icd/release/11/2024-01/mms/587365414",
+        "http://id.who.int/icd/release/11/2024-01/mms/1726554290",
+        "http://id.who.int/icd/release/11/2024-01/mms/851941810",
+        "http://id.who.int/icd/release/11/2024-01/mms/1265113635",
+        "http://id.who.int/icd/release/11/2024-01/mms/696703416",
+        "http://id.who.int/icd/release/11/2024-01/mms/1294458332",
+        "http://id.who.int/icd/release/11/2024-01/mms/598093212",
+        "http://id.who.int/icd/release/11/2024-01/mms/132592466",
+        "http://id.who.int/icd/release/11/2024-01/mms/2031646451",
+        "http://id.who.int/icd/release/11/2024-01/mms/1256772020/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/1256772020/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Digestive system abscess"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is a clinical form of sign indicating the presence of abscess in digestive system. This category will be used for postcoordination codes as complications of underlying illness."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Digestive system abscess"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "unspecified abscess of the digestive system"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Enteric abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/780932201"
+    }
+  ]
+}

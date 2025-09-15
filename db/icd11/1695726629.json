@@ -1,0 +1,51 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1695726629",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1264914040"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1891839623",
+    "http://id.who.int/icd/release/11/2024-01/mms/977696596",
+    "http://id.who.int/icd/release/11/2024-01/mms/966328337",
+    "http://id.who.int/icd/release/11/2024-01/mms/677491694",
+    "http://id.who.int/icd/release/11/2024-01/mms/567969001",
+    "http://id.who.int/icd/release/11/2024-01/mms/1695726629/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1695726629/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1695726629",
+  "code": "DA43",
+  "source": "http://id.who.int/icd/entity/1695726629",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1695726629/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1493524587"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1695726629/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Vascular disorders of the stomach"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This group incorporates vascular disorders principally affecting the blood vessels of the stomach. They include vascular disorders of arteries, veins and capillaries that carry blood to and from the stomach"
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ]
+}

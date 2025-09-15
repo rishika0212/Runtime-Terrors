@@ -1,0 +1,86 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1154736543",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/985510409"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/991455762",
+    "http://id.who.int/icd/release/11/2024-01/mms/1337277167",
+    "http://id.who.int/icd/release/11/2024-01/mms/1517862018",
+    "http://id.who.int/icd/release/11/2024-01/mms/1060335896",
+    "http://id.who.int/icd/release/11/2024-01/mms/785771645",
+    "http://id.who.int/icd/release/11/2024-01/mms/1154736543/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1154736543/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1154736543",
+  "code": "1E50",
+  "source": "http://id.who.int/icd/entity/1154736543",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cytomegaloviral hepatitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1999221102",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1999221102"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Epstein-Barr viral hepatitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1579569385",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/760322910/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1154736543/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acute viral hepatitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A group of liver diseases characterised by liver inflammation and fibrosis, caused by more than 6 months of infection with one or more of hepatitis B virus, hepatitis C virus and hepatitis D virus, with or without HIV. Even at stage of cirrhosis there are often no symptoms. Otherwise, clinical features include fatigue, hard liver edge and complications of cirrhosis (muscle wasting, ascites, splenomegaly/portal hypertension). Transmission of hepatitis B and C viruses is by blood and body fluid contamination, sexual transmission, and from mother to baby at the time of birth (vertical transmission). In addition to detection of specific antigens (HBsAg) and antibodies (anti-HCV), diagnostic assessment requires assay of viral nucleic acids (HBV DNA, HCV RNA etc)."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infectious liver disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/760322910",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/760322910"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute or subacute hepatic failure"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1973223737",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1973223737"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic viral hepatitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1469571641",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1469571641"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1270001765"
+  ]
+}

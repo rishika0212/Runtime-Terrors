@@ -1,0 +1,84 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/287258758",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/73394252"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1330743591",
+    "http://id.who.int/icd/release/11/2024-01/mms/1730588366",
+    "http://id.who.int/icd/release/11/2024-01/mms/1578799163",
+    "http://id.who.int/icd/release/11/2024-01/mms/1589056590",
+    "http://id.who.int/icd/release/11/2024-01/mms/287258758/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/287258758/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#287258758",
+  "code": "9A21",
+  "source": "http://id.who.int/icd/entity/287258758",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteomyelitis of orbit"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1006426584",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2058491071/other"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hydatic cyst"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1108673945",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1639301709"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Echinococcus infection of orbit"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1886125814",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1456802165/other"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myiasis of orbit"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1368824321",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1105275196"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/287258758/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/287258758/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Orbital infection"
+  }
+}

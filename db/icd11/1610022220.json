@@ -1,0 +1,65 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1610022220",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1408868257"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1610022220",
+  "code": "CB04.4",
+  "source": "http://id.who.int/icd/entity/1610022220",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1610022220/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Pulmonary capillaritis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Isolated pauciimmune pulmonary capillaritis is a small vessel vasculitis restricted to the lungs that may induce diffuse alveolar haemorrhage with dyspnoea, anaemia, chest pain, haemoptysis, bilateral and diffuse alveolar infiltrates at chest X-rays, without any underlying systemic disease. ANCA are frequently positive but could be negative."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/923122941"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pulmonary capillaritis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Isolated pulmonary capillaritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1607123556"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pulmonary Langerhans cell histiocytosis specific to childhood"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/742868104"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pulmonary LCH - [Langerhans cell histiocytosis] specific to childhood"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/742868104"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/336704235",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1658448496"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#336704235",
+  "code": "2A20.2",
+  "source": "http://id.who.int/icd/entity/336704235",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/336704235/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Primary myelofibrosis"
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic idiopathic myelofibrosis"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute panmyelosis with myelofibrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/585339631",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/585339631"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary myelofibrosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "myelofibrosis NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic idiopathic myelofibrosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myelofibrosis with myeloid metaplasia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/673220507"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "idiopathic myelofibrosis with myeloid metaplasia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/673220507"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "megakaryocytic myelosclerosis with myeloid metaplasia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/673220507"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "megakaryocytic myeloid metaplasia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/673220507"
+    }
+  ]
+}

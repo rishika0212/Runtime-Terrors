@@ -1,0 +1,101 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/570181034",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2078467774"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#570181034",
+  "code": "5D00.1",
+  "source": "http://id.who.int/icd/entity/570181034",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/570181034/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1048482858",
+        "http://id.who.int/icd/release/11/2024-01/mms/1196650747"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/570181034/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/658360080",
+        "http://id.who.int/icd/release/11/2024-01/mms/425464783"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "AA amyloidosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "AA amyloid is due to the deposition of the acute phase reactant serum amyloid A protein (SAA) in glomeruli where they are seen as Congo red binding fibrils which immunostain specifically for SAA. Chronic inflammation is responsible. Other organs are also involved in this systemic disease."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "This includes the deposition of beta2-microglobulin amyloidoids, which can result after long-term haemodialysis. Symptoms can start in the wrist, progress to the spine, and begin affecting organs around 15 years."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1154068795"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "AA amyloidosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "reactive systemic amyloidosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Secondary systemic amyloidosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Amyloid AA"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Secondary amyloidosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cardiac secondary systemic amyloidosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/579985911"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cerebral secondary systemic amyloidosis angiopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1335701312"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Glomerular disorders in secondary systemic amyloidosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/528976887"
+    }
+  ]
+}

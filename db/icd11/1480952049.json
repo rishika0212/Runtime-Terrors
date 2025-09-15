@@ -1,0 +1,100 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1480952049",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2138913203"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1480952049",
+  "code": "CA23.31",
+  "source": "http://id.who.int/icd/entity/1480952049",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1480952049/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/562478860",
+        "http://id.who.int/icd/release/11/2024-01/mms/1663264387",
+        "http://id.who.int/icd/release/11/2024-01/mms/1201187093"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Unspecified asthma with status asthmaticus"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This refers to an unspecified inflammatory disease of the airways characterised by variable and recurring symptoms, reversible airflow obstruction, and bronchospasm, with an acute exacerbation of asthma that does not respond to standard treatments of bronchodilators (inhalers) and steroids."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute asthma NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/577724120",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/577724120"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "severe asthma NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/577724120",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/577724120"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/923122941"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/607453719"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unspecified asthma with status asthmaticus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Asthma, unspecified, with stated status asthmaticus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "status asthmaticus NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute severe asthma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute severe bronchial asthma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "status asthma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "status post asthmaticus"
+      }
+    }
+  ]
+}

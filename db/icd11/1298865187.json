@@ -1,0 +1,53 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1298865187",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/724748131"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/799053936",
+    "http://id.who.int/icd/release/11/2024-01/mms/1020720762",
+    "http://id.who.int/icd/release/11/2024-01/mms/1045965709",
+    "http://id.who.int/icd/release/11/2024-01/mms/1298865187/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1298865187/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1298865187",
+  "code": "8A40",
+  "source": "http://id.who.int/icd/entity/1298865187",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Retrobulbar neuritis in multiple sclerosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/568060293",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/210935787/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1298865187/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/388810416",
+        "http://id.who.int/icd/release/11/2024-01/mms/2019368323",
+        "http://id.who.int/icd/release/11/2024-01/mms/1297540670"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Multiple sclerosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Multiple Sclerosis (MS) is a chronic, inflammatory demyelinating disease of the central nervous system. Three categories of multiple sclerosis have been outlined: Relapsing/remitting, secondary progressive and primary progressive multiple sclerosis."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "The diagnosis of MS should be made on clinical grounds with input from imaging and other paraclinical studies. The clinical phenotype may be assessed based on current status and historical clinical and paraclinical data, with the understanding that this can be a dynamic process and that the subtype on the initial assessment may change over time."
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/898495881",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/611962875"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#898495881",
+  "code": "CA60.2",
+  "source": "http://id.who.int/icd/entity/898495881",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/898495881/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Pneumoconiosis due to mineral fibres including asbestos"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Asbestosis is pneumoconiosis, an interstitial lung disease due to inhalation of asbestos fibres. The accumulation of fibres in the lung leads to diffuse fibrosis and formation of opacities in lower parts of lungs on chest X-ray. Asbestos bodies may be detected in lungs and sputum."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Asbestosis"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pleural plaque with presence of asbestos"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/248859443",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/290320013"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "with tuberculosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2072728114",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2072728114"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/923122941"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pneumoconiosis due to mineral fibres including asbestos"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "asbestos pneumoconiosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "amianthosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Asbestosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "lung fibrosis with asbestosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pulmonary asbestosis"
+      }
+    }
+  ]
+}

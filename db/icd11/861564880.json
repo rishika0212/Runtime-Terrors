@@ -1,0 +1,78 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/861564880",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1423532858"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#861564880",
+  "code": "9A61.5",
+  "source": "http://id.who.int/icd/entity/861564880",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/861564880/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/861564880/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/470130163"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Conjunctival or subconjunctival haemorrhage"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A conjunctival haemorrhage is a small haematoma clearly delimited on the conjunctiva itself resulting from a direct blow on the eye. Subconjunctival haemorrhage extends from the orbit, forward and deep to the conjunctiva with no posterior limit."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Conjunctival or subconjunctival haemorrhage"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Subconjunctival haemorrhage"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2090038126"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "subconjunctival bleed"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2090038126"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Conjunctiva haemorrhage"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/910847127"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "conjunctival ecchymosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/910847127"
+    }
+  ]
+}

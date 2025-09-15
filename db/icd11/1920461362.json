@@ -1,0 +1,79 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1920461362",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1489212950"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1909578933",
+    "http://id.who.int/icd/release/11/2024-01/mms/345641249",
+    "http://id.who.int/icd/release/11/2024-01/mms/1614234080",
+    "http://id.who.int/icd/release/11/2024-01/mms/92048458",
+    "http://id.who.int/icd/release/11/2024-01/mms/1989287902",
+    "http://id.who.int/icd/release/11/2024-01/mms/333042252",
+    "http://id.who.int/icd/release/11/2024-01/mms/1735688885",
+    "http://id.who.int/icd/release/11/2024-01/mms/437042373",
+    "http://id.who.int/icd/release/11/2024-01/mms/37703457",
+    "http://id.who.int/icd/release/11/2024-01/mms/1920461362/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1920461362/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1920461362",
+  "code": "NB92",
+  "source": "http://id.who.int/icd/entity/1920461362",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Female Genital Mutilation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1459051663",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1459051663"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sequelae of injury of intra-abdominal or pelvic organs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1936392744",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/389818276/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1920461362/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/72373228",
+        "http://id.who.int/icd/release/11/2024-01/mms/1803734370",
+        "http://id.who.int/icd/release/11/2024-01/mms/1061004251"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1920461362/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482",
+        "http://id.who.int/icd/release/11/2024-01/mms/755612283"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Injury of urinary or pelvic organs"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "peritoneum and retroperitoneum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/389818276",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/389818276"
+    }
+  ]
+}

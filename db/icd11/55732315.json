@@ -1,0 +1,72 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/55732315",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/197587246"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#55732315",
+  "code": "DD90.6",
+  "source": "http://id.who.int/icd/entity/55732315",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/55732315/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/55732315/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Adult rumination syndrome"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Adult rumination syndrome is a disorder in adulthood characterised by the persistent or recurrent regurgitation of recently ingested food into the mouth with subsequent spitting or remastication and swallowing."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Rumination-regurgitation disorder"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1205760590",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1205760590"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Rumination-regurgitation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/292610046",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/292610046"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Adult rumination syndrome"
+      }
+    }
+  ]
+}

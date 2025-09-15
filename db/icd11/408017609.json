@@ -1,0 +1,85 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/408017609",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/842838910"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1066570902",
+    "http://id.who.int/icd/release/11/2024-01/mms/851787406",
+    "http://id.who.int/icd/release/11/2024-01/mms/953243647",
+    "http://id.who.int/icd/release/11/2024-01/mms/779356671"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#408017609",
+  "code": "FB42",
+  "source": "http://id.who.int/icd/entity/408017609",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/408017609/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/408017609/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1126217939",
+        "http://id.who.int/icd/release/11/2024-01/mms/687054421",
+        "http://id.who.int/icd/release/11/2024-01/mms/1234541117",
+        "http://id.who.int/icd/release/11/2024-01/mms/1170102886",
+        "http://id.who.int/icd/release/11/2024-01/mms/1089203821",
+        "http://id.who.int/icd/release/11/2024-01/mms/1477031686",
+        "http://id.who.int/icd/release/11/2024-01/mms/1321950693",
+        "http://id.who.int/icd/release/11/2024-01/mms/2001178851"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Certain specified disorders of synovium or tendon"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Palmar fascial fibromatosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/160345690",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/160345690"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "tendinitis NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1335136978",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1335136978"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "xanthomatosis localized to tendons"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/405028062",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/405028062"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Certain specified disorders of synovium or tendon"
+      }
+    }
+  ]
+}

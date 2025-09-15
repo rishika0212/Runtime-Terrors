@@ -1,0 +1,48 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2068032195",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/4407978"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/547989362",
+    "http://id.who.int/icd/release/11/2024-01/mms/2088138730",
+    "http://id.who.int/icd/release/11/2024-01/mms/1675210300",
+    "http://id.who.int/icd/release/11/2024-01/mms/2068032195/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/2068032195/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2068032195",
+  "code": "GC04",
+  "source": "http://id.who.int/icd/entity/2068032195",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fistula of intestinal segments used for urinary diversion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1087526634",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/196209509"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2068032195/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1223109342",
+        "http://id.who.int/icd/release/11/2024-01/mms/2091559330"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Fistula of the genitourinary tract"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Any condition caused by trauma, medical intervention, infection, cancer, or congenital factors. This condition is characterised by the formation of an abnormal passage between any two locations within the genitourinary tract."
+  }
+}

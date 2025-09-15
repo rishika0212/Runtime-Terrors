@@ -1,0 +1,514 @@
+{
+  "resourceType": "ConceptMap",
+  "status": "active",
+  "name": "NAMASTEAyurvedaToICD11",
+  "title": "NAMASTE-Ayurveda to ICD-11 Mapping",
+  "date": "2025-09-15T14:04:23Z",
+  "group": [
+    {
+      "sourceScopeUri": "http://namaste.gov.in/fhir/ayurveda",
+      "targetScopeUri": "http://id.who.int/icd/release/11/2024-01/mms/718687701",
+      "element": [
+        {
+          "code": "PE-3.1",
+          "display": "alarkaviShaH/jalatrAsaH",
+          "target": [
+            {
+              "code": "SC62",
+              "display": "Numbness disorder (TM1)",
+              "relationship": "related-to",
+              "extension": [
+                {
+                  "url": "http://example.org/fhir/StructureDefinition/mapping-confidence",
+                  "valueDecimal": 80.19
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sourceScopeUri": "http://namaste.gov.in/fhir/ayurveda",
+      "targetScopeUri": "https://id.who.int/icd/release/11/2024-01/mms",
+      "element": [
+        {
+          "code": "BI-16",
+          "display": "yakShmajajvaraH",
+          "target": [
+            {
+              "code": "MD90.1",
+              "display": "Vomiting",
+              "relationship": "related-to",
+              "extension": [
+                {
+                  "url": "http://example.org/fhir/StructureDefinition/mapping-confidence",
+                  "valueDecimal": 85.58
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "EC-2.7",
+          "display": "hRudroga-upadravaH",
+          "target": [
+            {
+              "code": "MB48",
+              "display": "Dizziness and giddiness",
+              "relationship": "related-to",
+              "extension": [
+                {
+                  "url": "http://example.org/fhir/StructureDefinition/mapping-confidence",
+                  "valueDecimal": 79.26
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "ED-2.20",
+          "display": "santApaH",
+          "target": [
+            {
+              "code": "XE4YS",
+              "display": "Ant",
+              "relationship": "related-to",
+              "extension": [
+                {
+                  "url": "http://example.org/fhir/StructureDefinition/mapping-confidence",
+                  "valueDecimal": 75.42
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "EJ-4.6",
+          "display": "purISharodhajamUtrakRucCram",
+          "target": [
+            {
+              "code": "ME01",
+              "display": "Abdominal distension",
+              "relationship": "related-to",
+              "extension": [
+                {
+                  "url": "http://example.org/fhir/StructureDefinition/mapping-confidence",
+                  "valueDecimal": 85.59
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "EJ-4.7",
+          "display": "SarkarAjamUtrakRucCram",
+          "target": [
+            {
+              "code": "MC86",
+              "display": "Precordial pain",
+              "relationship": "related-to",
+              "extension": [
+                {
+                  "url": "http://example.org/fhir/StructureDefinition/mapping-confidence",
+                  "valueDecimal": 84.84
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "EM-5.8",
+          "display": "pAnAjIrNam",
+          "target": [
+            {
+              "code": "ME01",
+              "display": "Abdominal distension",
+              "relationship": "related-to",
+              "extension": [
+                {
+                  "url": "http://example.org/fhir/StructureDefinition/mapping-confidence",
+                  "valueDecimal": 86.83
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "GE-9",
+          "display": "tAluSoShaH",
+          "target": [
+            {
+              "code": "XA1LF4",
+              "display": "Talus",
+              "relationship": "related-to",
+              "extension": [
+                {
+                  "url": "http://example.org/fhir/StructureDefinition/mapping-confidence",
+                  "valueDecimal": 81.83
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "HG-3.9.6",
+          "display": "CatrakI",
+          "target": [
+            {
+              "code": "XE4V0",
+              "display": "Cat",
+              "relationship": "related-to",
+              "extension": [
+                {
+                  "url": "http://example.org/fhir/StructureDefinition/mapping-confidence",
+                  "valueDecimal": 78.83
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "LB-2",
+          "display": "snehadagdhaH",
+          "target": [
+            {
+              "code": "XS2E",
+              "display": "Severe pain",
+              "relationship": "related-to",
+              "extension": [
+                {
+                  "url": "http://example.org/fhir/StructureDefinition/mapping-confidence",
+                  "valueDecimal": 86.28
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "LD-2.1",
+          "display": "guda-marmaviddhaH",
+          "target": [
+            {
+              "code": "MH12.0",
+              "display": "Instantaneous death",
+              "relationship": "related-to",
+              "extension": [
+                {
+                  "url": "http://example.org/fhir/StructureDefinition/mapping-confidence",
+                  "valueDecimal": 85.97
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "LD-2.3",
+          "display": "nABi-marmaviddhaH",
+          "target": [
+            {
+              "code": "MH12.0",
+              "display": "Instantaneous death",
+              "relationship": "related-to",
+              "extension": [
+                {
+                  "url": "http://example.org/fhir/StructureDefinition/mapping-confidence",
+                  "valueDecimal": 85.97
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "LD-2.4",
+          "display": "hRudaya--marmaviddhaH",
+          "target": [
+            {
+              "code": "MH12.0",
+              "display": "Instantaneous death",
+              "relationship": "related-to",
+              "extension": [
+                {
+                  "url": "http://example.org/fhir/StructureDefinition/mapping-confidence",
+                  "valueDecimal": 85.93
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "LD-3.12",
+          "display": "SRuMgATaka-marmaviddhaH",
+          "target": [
+            {
+              "code": "MH12.0",
+              "display": "Instantaneous death",
+              "relationship": "related-to",
+              "extension": [
+                {
+                  "url": "http://example.org/fhir/StructureDefinition/mapping-confidence",
+                  "valueDecimal": 86.06
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "LD-3.13",
+          "display": "sImanta-marmaviddhaH",
+          "target": [
+            {
+              "code": "MH12.0",
+              "display": "Instantaneous death",
+              "relationship": "related-to",
+              "extension": [
+                {
+                  "url": "http://example.org/fhir/StructureDefinition/mapping-confidence",
+                  "valueDecimal": 85.7
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "LD-3.14",
+          "display": "adhipati-marmaviddhaH",
+          "target": [
+            {
+              "code": "MH12.0",
+              "display": "Instantaneous death",
+              "relationship": "related-to",
+              "extension": [
+                {
+                  "url": "http://example.org/fhir/StructureDefinition/mapping-confidence",
+                  "valueDecimal": 85.47
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "LD-3.8",
+          "display": "Avarta-marmaviddhaH",
+          "target": [
+            {
+              "code": "9D90.6",
+              "display": "Blindness",
+              "relationship": "related-to",
+              "extension": [
+                {
+                  "url": "http://example.org/fhir/StructureDefinition/mapping-confidence",
+                  "valueDecimal": 86.35
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "LD-3.9",
+          "display": "SaMkhamarmaviddhaH",
+          "target": [
+            {
+              "code": "MH12.0",
+              "display": "Instantaneous death",
+              "relationship": "related-to",
+              "extension": [
+                {
+                  "url": "http://example.org/fhir/StructureDefinition/mapping-confidence",
+                  "valueDecimal": 85.33
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "LH-4.2",
+          "display": "annavahasrotoviddhaH",
+          "target": [
+            {
+              "code": "ME01",
+              "display": "Abdominal distension",
+              "relationship": "related-to",
+              "extension": [
+                {
+                  "url": "http://example.org/fhir/StructureDefinition/mapping-confidence",
+                  "valueDecimal": 86.69
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "MD-19",
+          "display": "bAla-koShTharuk",
+          "target": [
+            {
+              "code": "ME05.0",
+              "display": "Constipation",
+              "relationship": "related-to",
+              "extension": [
+                {
+                  "url": "http://example.org/fhir/StructureDefinition/mapping-confidence",
+                  "valueDecimal": 86.53
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "O-3 (SP9Y)",
+          "display": "anuSayI",
+          "target": [
+            {
+              "code": "XA0D34",
+              "display": "Anus",
+              "relationship": "related-to",
+              "extension": [
+                {
+                  "url": "http://example.org/fhir/StructureDefinition/mapping-confidence",
+                  "valueDecimal": 84.24
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "O-46.6",
+          "display": "vAtapittaja/visPoTaH",
+          "target": [
+            {
+              "code": "XS2E",
+              "display": "Severe pain",
+              "relationship": "related-to",
+              "extension": [
+                {
+                  "url": "http://example.org/fhir/StructureDefinition/mapping-confidence",
+                  "valueDecimal": 85.44
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "PC-4",
+          "display": "puShpa-viShaH",
+          "target": [
+            {
+              "code": "ME01",
+              "display": "Abdominal distension",
+              "relationship": "related-to",
+              "extension": [
+                {
+                  "url": "http://example.org/fhir/StructureDefinition/mapping-confidence",
+                  "valueDecimal": 86.36
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "PE-3.1",
+          "display": "alarkaviShaH/jalatrAsaH",
+          "target": [
+            {
+              "code": "SC62",
+              "display": "Numbness disorder (TM1)",
+              "relationship": "related-to",
+              "extension": [
+                {
+                  "url": "http://example.org/fhir/StructureDefinition/mapping-confidence",
+                  "valueDecimal": 80.19
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "SI-1.10",
+          "display": "a~ggArti-bastivyApad",
+          "target": [
+            {
+              "code": "MG43.7",
+              "display": "Anorexia is a pathological lack or loss of appetite.",
+              "relationship": "related-to",
+              "extension": [
+                {
+                  "url": "http://example.org/fhir/StructureDefinition/mapping-confidence",
+                  "valueDecimal": 75.46
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "SI-3.3.3",
+          "display": "arSasasya anuvAsanavyApadaH",
+          "target": [
+            {
+              "code": "ME01",
+              "display": "Abdominal distension",
+              "relationship": "related-to",
+              "extension": [
+                {
+                  "url": "http://example.org/fhir/StructureDefinition/mapping-confidence",
+                  "valueDecimal": 85.84
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "SM1J (GC-3)",
+          "display": "dantaharShaH",
+          "target": [
+            {
+              "code": "XE7QR",
+              "display": "Increased sensitivity",
+              "relationship": "related-to",
+              "extension": [
+                {
+                  "url": "http://example.org/fhir/StructureDefinition/mapping-confidence",
+                  "valueDecimal": 86.85
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "SN12 (EL-2.12)",
+          "display": "jAtaghnI/putraghnI",
+          "target": [
+            {
+              "code": "JA00.0",
+              "display": "Spontaneous abortion",
+              "relationship": "related-to",
+              "extension": [
+                {
+                  "url": "http://example.org/fhir/StructureDefinition/mapping-confidence",
+                  "valueDecimal": 76.89
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "SR-5",
+          "display": "parihArakAle ajIrNAdhyaSana",
+          "target": [
+            {
+              "code": "ME01",
+              "display": "Abdominal distension",
+              "relationship": "related-to",
+              "extension": [
+                {
+                  "url": "http://example.org/fhir/StructureDefinition/mapping-confidence",
+                  "valueDecimal": 87.02
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

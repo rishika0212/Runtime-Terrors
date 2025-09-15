@@ -1,0 +1,125 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/410058129",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1861250844"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#410058129",
+  "code": "EE12.1",
+  "source": "http://id.who.int/icd/entity/410058129",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Onychomycosis due to non-dermatophyte mould"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1414602212",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1414602212"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dermatophytosis of nail"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1731433055",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1731433055"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Candida onychomycosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/908531876",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/828693449"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/410058129/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/236924369",
+        "http://id.who.int/icd/release/11/2024-01/mms/771273482",
+        "http://id.who.int/icd/release/11/2024-01/mms/1508081745"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Onychomycosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Fungal infection of fingernails and/or toenails due most commonly to dermatophytes (tinea unguium) or yeasts, especially Candida species."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fungal infection of the nails"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Candidosis of nail or paronychium"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/828693449",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/828693449"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Onychomycosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fungal infection of the nails"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Onychomycosis classified according to clinical pattern"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1097036276"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Superficial white onychomycosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/462753577"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Distal and lateral subungual onychomycosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1635777370"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Proximal subungual onychomycosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/244204017"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Total dystrophic onychomycosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1800793156"
+    }
+  ]
+}

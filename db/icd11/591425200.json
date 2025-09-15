@@ -1,0 +1,57 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/591425200",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1633923486"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1864868094",
+    "http://id.who.int/icd/release/11/2024-01/mms/174878056",
+    "http://id.who.int/icd/release/11/2024-01/mms/2126593431",
+    "http://id.who.int/icd/release/11/2024-01/mms/462090243",
+    "http://id.who.int/icd/release/11/2024-01/mms/32216920",
+    "http://id.who.int/icd/release/11/2024-01/mms/591425200/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#591425200",
+  "code": "NC59",
+  "source": "http://id.who.int/icd/entity/591425200",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/591425200/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/591425200/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1679928503",
+        "http://id.who.int/icd/release/11/2024-01/mms/430791912"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/591425200/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482",
+        "http://id.who.int/icd/release/11/2024-01/mms/755612283"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Traumatic amputation of wrist or hand"
+  }
+}

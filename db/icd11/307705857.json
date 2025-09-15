@@ -1,0 +1,75 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/307705857",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/221651900"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1870522325",
+    "http://id.who.int/icd/release/11/2024-01/mms/307705857/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/307705857/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#307705857",
+  "code": "MA18.0",
+  "source": "http://id.who.int/icd/entity/307705857",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neonatal hyperglycaemia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/28520480",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/28520480"
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Elevated blood glucose level"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Diabetes mellitus in pregnancy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/169360210",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/169360210"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Syndrome of infant of mother with gestational diabetes"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1500607905",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1500607905"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postprocedural hypoinsulinaemia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2132388673",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2132388673"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Syndrome of infant of a diabetic mother, type 1 or 2, nongestational, insulin dependent"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1010481205",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1010481205"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neonatal diabetes mellitus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1217915084",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1217915084"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/28520480"
+  ]
+}

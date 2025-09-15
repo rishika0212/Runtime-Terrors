@@ -1,0 +1,109 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1912806631",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1784240230"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/327718790",
+    "http://id.who.int/icd/release/11/2024-01/mms/1884917970",
+    "http://id.who.int/icd/release/11/2024-01/mms/1912806631/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1912806631/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1912806631",
+  "code": "DB92",
+  "source": "http://id.who.int/icd/entity/1912806631",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1912806631/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1912806631/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1294035808",
+        "http://id.who.int/icd/release/11/2024-01/mms/459275392"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1912806631/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Non-alcoholic fatty liver disease"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "NAFLD is characterised by fatty liver related to insulin resistance in the absence of significant alcohol consumption. It embraces a pathological spectrum from simple steatosis to steatohepatitis. 10-20% of cases have steatohepatitis (non-alcoholic steatohepatitis: NASH), which can progress to cirrhosis and hepatocellular carcinoma."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Reye syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/649014905",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/649014905"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute fatty liver of pregnancy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1226221530",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1110228123"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced or toxic liver disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2125493521",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2125493521"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic hepatitis C"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1615937473",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1615937473"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Alcoholic liver disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/469481605",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/469481605"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "inherited defects in mitochondrial metabolism"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/266291267",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/266291267"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ]
+}

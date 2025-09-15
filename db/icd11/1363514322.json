@@ -1,0 +1,398 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1363514322",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1121431779"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1363514322",
+  "code": "BC01",
+  "source": "http://id.who.int/icd/entity/1363514322",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infection or inflammatory reaction of heart valve prosthesis NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/375116246",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1612485599"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1363514322/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/162683166",
+        "http://id.who.int/icd/release/11/2024-01/mms/1997348476",
+        "http://id.who.int/icd/release/11/2024-01/mms/1609206873",
+        "http://id.who.int/icd/release/11/2024-01/mms/1843615838",
+        "http://id.who.int/icd/release/11/2024-01/mms/1146446025",
+        "http://id.who.int/icd/release/11/2024-01/mms/1493458947"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1363514322/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Prosthetic valve disease"
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1380872553"
+  ],
+  "codingNote": {
+    "@language": "en",
+    "@value": "When specific type of valve disease is known, assign codes for the specific conditions."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Prosthetic valve disease"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "homograft prosthetic valve disease"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "mechanical prosthetic valve disease"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "allograft prosthetic valve disease"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "biological prosthetic valve disease"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mitral prosthetic valve disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/226396094"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mitral prosthetic valve stenosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/754240547"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mitral prosthetic valve stenosis due to calcification"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/343181279"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mitral prosthetic valve regurgitation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/459795805"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute mitral prosthetic valve regurgitation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1761708187"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic mitral prosthetic valve regurgitation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/709670678"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Periprosthetic mitral valve regurgitation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/424219809"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mitral prosthetic valve stenosis and regurgitation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/971259704"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mitral prosthetic valve failure"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/14156237"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mitral prosthetic valve failure requiring replacement"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/184562820"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mitral prosthetic valve failure requiring revision"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1016272382"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Endocarditis of mitral prosthetic valve"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2131759194"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aortic prosthetic valve disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/988653252"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aortic prosthetic valve stenosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/576443306"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aortic prosthetic valve regurgitation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/365490904"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute aortic prosthetic valve regurgitation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1527274652"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic aortic prosthetic valve regurgitation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/899159616"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Periprosthetic aortic valve regurgitation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1003144902"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aortic prosthetic valve stenosis and regurgitation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/706027429"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aortic prosthetic valve failure"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/309890020"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aortic prosthetic valve failure requiring replacement"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/281008146"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aortic prosthetic valve failure requiring revision"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/696510183"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Endocarditis of aortic prosthetic valve"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1199408153"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tricuspid prosthetic valve disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/409892007"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tricuspid prosthetic valve stenosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/821778817"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tricuspid prosthetic valve regurgitation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/124287231"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute tricuspid prosthetic valve regurgitation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1925080075"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic tricuspid prosthetic valve regurgitation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1773673800"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Periprosthetic tricuspid valve regurgitation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/207218620"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tricuspid prosthetic valve failure"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/786317416"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tricuspid prosthetic valve failure requiring replacement"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/95365897"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tricuspid prosthetic valve failure requiring revision"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/842795639"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Endocarditis of tricuspid prosthetic valve"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1711167100"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pulmonary prosthetic valve disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/926523318"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pulmonary prosthetic valve stenosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/483890287"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pulmonary prosthetic valve regurgitation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/587888926"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Periprosthetic pulmonary valve regurgitation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/864291529"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pulmonary prosthetic valve failure"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/345593956"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pulmonary prosthetic valve failure requiring replacement"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/825594765"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pulmonary prosthetic valve failure requiring revision"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/980600442"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Endocarditis of pulmonary prosthetic valve"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1382905602"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mechanical haemolysis due to prosthetic valve"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1087241515"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Endocarditis of unspecified prosthetic valve"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/205989264"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "PVE - [prosthetic valve endocarditis]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/205989264"
+    }
+  ]
+}

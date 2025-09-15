@@ -1,0 +1,97 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/807995843",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/197587246"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#807995843",
+  "code": "DD90.4",
+  "source": "http://id.who.int/icd/entity/807995843",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cyclic vomiting syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1434288855",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1434288855"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/807995843/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Functional nausea or vomiting"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Functional nausea and vomiting is a disorder having no structural abnormalities for nausea and vomiting."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nausea or vomiting NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/677319549",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/677319549"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Functional nausea or vomiting"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic nausea vomiting syndrome"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "CNVS- [Chronic nausea vomiting syndrome]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Functional vomiting"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1383276874"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cannabinoid hyperemesis syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/908145983"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "CHS - [Cannabinoid hyperemesis syndrome]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/908145983"
+    }
+  ]
+}

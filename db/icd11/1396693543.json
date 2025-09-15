@@ -1,0 +1,93 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1396693543",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1369041370"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1396693543",
+  "code": "GC74",
+  "source": "http://id.who.int/icd/entity/1396693543",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1396693543/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/460401849",
+        "http://id.who.int/icd/release/11/2024-01/mms/1642025150",
+        "http://id.who.int/icd/release/11/2024-01/mms/1162198017",
+        "http://id.who.int/icd/release/11/2024-01/mms/431804121"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Malfunction or complication of external stoma of urinary tract"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition caused by a surgically created opening connecting the urinary tract to the external environment. This condition is characterised by dysfunction or decreased function of the incision."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postsurgical leak"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1302613751",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1302613751"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malfunction or complication of external stoma of urinary tract"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cystostomy complications"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/824638071"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cystostomy dysfunction"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/824638071"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cystostomy malfunction"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/824638071"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nephrostomy complications"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1048218229"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ureterostomy dysfunction"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/995009931"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Urethrostomy dysfunction"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2106466343"
+    }
+  ]
+}

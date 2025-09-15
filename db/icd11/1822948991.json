@@ -1,0 +1,62 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1822948991",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/375360441"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/759273714",
+    "http://id.who.int/icd/release/11/2024-01/mms/1208636772",
+    "http://id.who.int/icd/release/11/2024-01/mms/1017578907",
+    "http://id.who.int/icd/release/11/2024-01/mms/1508689935",
+    "http://id.who.int/icd/release/11/2024-01/mms/1588530022",
+    "http://id.who.int/icd/release/11/2024-01/mms/1822948991/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1822948991/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1822948991",
+  "code": "NC76",
+  "source": "http://id.who.int/icd/entity/1822948991",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1822948991/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1822948991/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2041500561",
+        "http://id.who.int/icd/release/11/2024-01/mms/1377581424",
+        "http://id.who.int/icd/release/11/2024-01/mms/43412023",
+        "http://id.who.int/icd/release/11/2024-01/mms/492081930",
+        "http://id.who.int/icd/release/11/2024-01/mms/266150789",
+        "http://id.who.int/icd/release/11/2024-01/mms/1014624341"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1822948991/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482",
+        "http://id.who.int/icd/release/11/2024-01/mms/755612283"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Injury of muscle, fascia, tendon or bursa at hip or thigh level"
+  }
+}

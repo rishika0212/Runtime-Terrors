@@ -1,0 +1,73 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/649668501",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/337572245"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#649668501",
+  "code": "BC81.21",
+  "source": "http://id.who.int/icd/entity/649668501",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/649668501/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/236819908",
+        "http://id.who.int/icd/release/11/2024-01/mms/541780232"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Non-scar, non-isthmus dependent macro reentrant atrial tachycardia"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A macro re-entrant atrial tachycardia coursing around a normal cardiac structure (except the cavotricuspid isthmus) such as the mitral valve annulus, or superior caval vein."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1380872553"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/88964541"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Non-scar, non-isthmus dependent macro reentrant atrial tachycardia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Non-scar, non-isthmus dependent right atrial macro reentrant atrial tachycardia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/30159706"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Right atrial non-cavotricuspid isthmus dependent macroreentrant atrial tachycardia, non-scar mediated"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/30159706"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Non-scar, non-isthmus dependent left atrial macro reentrant atrial tachycardia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/515842686"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "macroreentry tachycardia arising from the left atrium"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/515842686"
+    }
+  ]
+}

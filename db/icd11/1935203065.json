@@ -1,0 +1,91 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1935203065",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1210263011"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/18497836",
+    "http://id.who.int/icd/release/11/2024-01/mms/1766840660",
+    "http://id.who.int/icd/release/11/2024-01/mms/256878807",
+    "http://id.who.int/icd/release/11/2024-01/mms/1935203065/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1935203065/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1935203065",
+  "code": "GB55",
+  "source": "http://id.who.int/icd/entity/1935203065",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Autosomal dominant polycystic kidney disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/91220434",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/91220434"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1935203065/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1935203065/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1935203065/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1630407678",
+        "http://id.who.int/icd/release/11/2024-01/mms/1766440644",
+        "http://id.who.int/icd/release/11/2024-01/mms/155258022",
+        "http://id.who.int/icd/release/11/2024-01/mms/1473673350",
+        "http://id.who.int/icd/release/11/2024-01/mms/223744320",
+        "http://id.who.int/icd/release/11/2024-01/mms/746448055",
+        "http://id.who.int/icd/release/11/2024-01/mms/248569732",
+        "http://id.who.int/icd/release/11/2024-01/mms/1530721759",
+        "http://id.who.int/icd/release/11/2024-01/mms/817370856",
+        "http://id.who.int/icd/release/11/2024-01/mms/1583926619"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Chronic tubulo-interstitial nephritis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease characterised by inflammation of and damage to tubules and/or the interstitium of the kidney, interstitial scarring, fibrosis and tubule atrophy resulting in progressive chronic renal insufficiency"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "calculous pyelonephritis (NFAD)"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/295907514",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/295907514"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1468065226",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/4407978"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/441939472",
+    "http://id.who.int/icd/release/11/2024-01/mms/196209509",
+    "http://id.who.int/icd/release/11/2024-01/mms/1861887729",
+    "http://id.who.int/icd/release/11/2024-01/mms/487896421",
+    "http://id.who.int/icd/release/11/2024-01/mms/590198069",
+    "http://id.who.int/icd/release/11/2024-01/mms/1468065226/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1468065226/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1468065226",
+  "code": "GC01",
+  "source": "http://id.who.int/icd/entity/1468065226",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bladder pain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/615316952",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/615316952"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neonatal haemorrhage originating in kidney or bladder"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/330257271",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/330257271"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1468065226/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/157646292"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Other disorders of bladder"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Any disorder characterised by pathological changes to the urinary bladder."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cystocele"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/832280705",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1619125776"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hernia or prolapse of bladder, female"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/832280705",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1619125776"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Calculus in bladder"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/197850369",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/197850369"
+    }
+  ]
+}

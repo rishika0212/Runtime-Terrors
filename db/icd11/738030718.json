@@ -1,0 +1,43 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/738030718",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/673901775"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#738030718",
+  "code": "JB63.5",
+  "source": "http://id.who.int/icd/entity/738030718",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/738030718/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1104303944",
+        "http://id.who.int/icd/release/11/2024-01/mms/1136802325",
+        "http://id.who.int/icd/release/11/2024-01/mms/1646490591"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Other viral diseases complicating pregnancy, childbirth or the puerperium"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Other viral diseases complicating pregnancy, childbirth or the puerperium"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Rubella complicating pregnancy, childbirth, or the puerperium"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/626695411"
+    }
+  ]
+}

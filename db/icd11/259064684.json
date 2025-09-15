@@ -1,0 +1,47 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/259064684",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1843615838"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/95444592",
+    "http://id.who.int/icd/release/11/2024-01/mms/259064684/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/259064684/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#259064684",
+  "code": "BB82",
+  "source": "http://id.who.int/icd/entity/259064684",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/259064684/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/562478860",
+        "http://id.who.int/icd/release/11/2024-01/mms/1663264387",
+        "http://id.who.int/icd/release/11/2024-01/mms/1201187093"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/259064684/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Tricuspid valve stenosis with insufficiency"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is a valvular heart disease which results in the narrowing of the orifice of the tricuspid valve of the heart. It is a relatively rare condition that causes stenosis- increased resistance to blood flow through the valve, with regurgitation."
+  }
+}

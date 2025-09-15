@@ -1,0 +1,99 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/381961554",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/465177735"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1484144649",
+    "http://id.who.int/icd/release/11/2024-01/mms/133436462",
+    "http://id.who.int/icd/release/11/2024-01/mms/1050647875",
+    "http://id.who.int/icd/release/11/2024-01/mms/1736581746",
+    "http://id.who.int/icd/release/11/2024-01/mms/388963453",
+    "http://id.who.int/icd/release/11/2024-01/mms/1418416880",
+    "http://id.who.int/icd/release/11/2024-01/mms/1730828870",
+    "http://id.who.int/icd/release/11/2024-01/mms/891371477",
+    "http://id.who.int/icd/release/11/2024-01/mms/381961554/other"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#381961554",
+  "code": "5A13",
+  "source": "http://id.who.int/icd/entity/381961554",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/381961554/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1304552818",
+        "http://id.who.int/icd/release/11/2024-01/mms/1736778",
+        "http://id.who.int/icd/release/11/2024-01/mms/1296093776",
+        "http://id.who.int/icd/release/11/2024-01/mms/868865918",
+        "http://id.who.int/icd/release/11/2024-01/mms/1218729044",
+        "http://id.who.int/icd/release/11/2024-01/mms/426429380",
+        "http://id.who.int/icd/release/11/2024-01/mms/197934298",
+        "http://id.who.int/icd/release/11/2024-01/mms/1256772020",
+        "http://id.who.int/icd/release/11/2024-01/mms/1639304259",
+        "http://id.who.int/icd/release/11/2024-01/mms/1473673350",
+        "http://id.who.int/icd/release/11/2024-01/mms/30659757",
+        "http://id.who.int/icd/release/11/2024-01/mms/188156827"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Diabetes mellitus, other specified type"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Diabetes mellitus which cannot be classified as either Type 1 or Type 2 diabetes mellitus."
+  },
+  "fullySpecifiedName": {
+    "@language": "en",
+    "@value": "Other specified Diabetes mellitus, not Type 1 and not Type 2"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Diabetes mellitus in pregnancy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/169360210",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/169360210"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Type 2 diabetes mellitus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/119724091",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/119724091"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Idiopathic Type 1 diabetes mellitus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/702044482",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1651053999"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1217915084"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Diabetes mellitus, other specified type"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Other specified Diabetes mellitus, not Type 1 and not Type 2"
+      }
+    }
+  ]
+}

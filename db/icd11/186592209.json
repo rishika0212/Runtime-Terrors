@@ -1,0 +1,135 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/186592209",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/969101922"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#186592209",
+  "code": "2C81.0",
+  "source": "http://id.who.int/icd/entity/186592209",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Verrucous squamous cell carcinoma of penis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/559250222",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1049028857"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/186592209/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/435785772"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/186592209/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/871564532"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/186592209/postcoordinationScale/histopathology",
+      "axisName": "http://id.who.int/icd/schema/histopathology",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1738201981",
+        "http://id.who.int/icd/release/11/2024-01/mms/801349004",
+        "http://id.who.int/icd/release/11/2024-01/mms/665703097",
+        "http://id.who.int/icd/release/11/2024-01/mms/402491490",
+        "http://id.who.int/icd/release/11/2024-01/mms/1919184181",
+        "http://id.who.int/icd/release/11/2024-01/mms/1575678579",
+        "http://id.who.int/icd/release/11/2024-01/mms/334871684",
+        "http://id.who.int/icd/release/11/2024-01/mms/1572957963",
+        "http://id.who.int/icd/release/11/2024-01/mms/1545112705",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038806115",
+        "http://id.who.int/icd/release/11/2024-01/mms/1181505860",
+        "http://id.who.int/icd/release/11/2024-01/mms/180517430",
+        "http://id.who.int/icd/release/11/2024-01/mms/1720681097",
+        "http://id.who.int/icd/release/11/2024-01/mms/2041452145",
+        "http://id.who.int/icd/release/11/2024-01/mms/1455780263",
+        "http://id.who.int/icd/release/11/2024-01/mms/121049560",
+        "http://id.who.int/icd/release/11/2024-01/mms/572503172",
+        "http://id.who.int/icd/release/11/2024-01/mms/218610836",
+        "http://id.who.int/icd/release/11/2024-01/mms/1684085490",
+        "http://id.who.int/icd/release/11/2024-01/mms/878218147",
+        "http://id.who.int/icd/release/11/2024-01/mms/1065393097",
+        "http://id.who.int/icd/release/11/2024-01/mms/768467940",
+        "http://id.who.int/icd/release/11/2024-01/mms/1072073638"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/186592209/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/186592209/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1409966790",
+        "http://id.who.int/icd/release/11/2024-01/mms/896293199",
+        "http://id.who.int/icd/release/11/2024-01/mms/1094217460",
+        "http://id.who.int/icd/release/11/2024-01/mms/238069351"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/186592209/postcoordinationScale/hasAlternativeSeverity2",
+      "axisName": "http://id.who.int/icd/schema/hasAlternativeSeverity2",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1863636238",
+        "http://id.who.int/icd/release/11/2024-01/mms/885826145",
+        "http://id.who.int/icd/release/11/2024-01/mms/1746207012",
+        "http://id.who.int/icd/release/11/2024-01/mms/303697349"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Squamous cell carcinoma of penis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A squamous cell carcinoma arising from the penis. It occurs chiefly in the squamous epithelium of the glans, coronal sulcus, and foreskin. Etiologic factors include phimosis, lichen sclerosus, smoking, ultraviolet irradiation, history of warts or condylomas, and lack of circumcision. Human papilloma virus is present in a subset of penile squamous cell carcinomas. Patients may present with an exophytic or flat ulcerative mass in the glans or a large primary tumour with inguinal nodal and skin metastases. Morphologic variants include the basaloid carcinoma, warty (condylomatous) carcinoma, verrucous carcinoma, and sarcomatoid (spindle cell) carcinoma."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Squamous cell carcinoma of penis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Squamous cell carcinoma of mucocutaneous epithelium of penis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1474982646"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Squamous cell carcinoma of skin of penis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1625117655"
+    }
+  ]
+}

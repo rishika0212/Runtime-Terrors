@@ -1,0 +1,69 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/48858533",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1426457254"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#48858533",
+  "code": "DA42.82",
+  "source": "http://id.who.int/icd/entity/48858533",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/48858533/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1290701352"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/48858533/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1281102481",
+        "http://id.who.int/icd/release/11/2024-01/mms/1559145231",
+        "http://id.who.int/icd/release/11/2024-01/mms/131278066"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Chemical gastritis"
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chemical gastritis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "actinic gastroenteritis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "toxic enterogastritis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "toxic gastroenteritis"
+      }
+    }
+  ]
+}

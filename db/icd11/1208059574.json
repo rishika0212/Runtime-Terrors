@@ -1,0 +1,116 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1208059574",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1294458332"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1208059574",
+  "code": "DD57",
+  "source": "http://id.who.int/icd/entity/1208059574",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1208059574/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1208059574/postcoordinationScale/temporalPatternAndOnset",
+      "axisName": "http://id.who.int/icd/schema/temporalPatternAndOnset",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1721353160"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Parastomal hernia"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A hernia occurs through the weak parastomal area after making stoma."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Parastomal hernia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Parastomal hernia with obstruction, without gangrene"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2007429964"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "incarcerated parastomal hernia without gangrene"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2007429964"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "irreducible parastomal hernia without gangrene"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2007429964"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Parastomal hernia causing obstruction without gangrene"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2007429964"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "strangulated parastomal hernia without gangrene"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2007429964"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Parastomal hernia with gangrene"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/786709893"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gangrenous parastomal hernia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/786709893"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Parastomal hernia without obstruction or gangrene"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1057136878"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Parastomal hernia NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1057136878"
+    }
+  ]
+}

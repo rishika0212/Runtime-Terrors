@@ -1,0 +1,38 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2077227161",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/861066692"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/368775893",
+    "http://id.who.int/icd/release/11/2024-01/mms/1890639681",
+    "http://id.who.int/icd/release/11/2024-01/mms/1128998473",
+    "http://id.who.int/icd/release/11/2024-01/mms/2077227161/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2077227161",
+  "code": "KD30",
+  "source": "http://id.who.int/icd/entity/2077227161",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2077227161/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/927970860",
+        "http://id.who.int/icd/release/11/2024-01/mms/287901798",
+        "http://id.who.int/icd/release/11/2024-01/mms/624443803"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Birth depression"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition characterised by cardiorespiratory and neurological depression in a newborn."
+  }
+}

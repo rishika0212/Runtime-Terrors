@@ -1,0 +1,104 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/854587674",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1324545867"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#854587674",
+  "code": "CA72",
+  "source": "http://id.who.int/icd/entity/854587674",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/854587674/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/854587674/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/460401849",
+        "http://id.who.int/icd/release/11/2024-01/mms/1642025150",
+        "http://id.who.int/icd/release/11/2024-01/mms/1583926619",
+        "http://id.who.int/icd/release/11/2024-01/mms/2024436666",
+        "http://id.who.int/icd/release/11/2024-01/mms/1162198017",
+        "http://id.who.int/icd/release/11/2024-01/mms/431804121",
+        "http://id.who.int/icd/release/11/2024-01/mms/1323892810",
+        "http://id.who.int/icd/release/11/2024-01/mms/1669303982"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Mendelson syndrome"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is chemical pneumonitis caused by aspiration during anaesthesia, especially during pregnancy. Aspiration contents may include gastric juice, blood, bile, water or an association of them."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Complications of anaesthesia during pregnancy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1721217915",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1721217915"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Complications of anaesthesia during labour or delivery"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/642165394",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/642165394"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Complications of anaesthesia during the puerperium"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/446982468",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/446982468"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/428090833"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mendelson syndrome"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mendelson syndrome resulting from a procedure"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pulmonary acid aspiration syndrome"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pneumonitis due to inhalation of gastric secretions"
+      }
+    }
+  ]
+}

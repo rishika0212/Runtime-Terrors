@@ -1,0 +1,52 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1521790398",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1400950460"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1521790398",
+  "code": "EH72.00",
+  "source": "http://id.who.int/icd/entity/1521790398",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1521790398/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/746448055",
+        "http://id.who.int/icd/release/11/2024-01/mms/248569732",
+        "http://id.who.int/icd/release/11/2024-01/mms/1530721759",
+        "http://id.who.int/icd/release/11/2024-01/mms/817370856",
+        "http://id.who.int/icd/release/11/2024-01/mms/1583926619"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Drug-induced telogen hair loss"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Telogen hair loss due to drug. Many drugs may occasionally cause telogen hair loss. Commonly implicated drugs include retinoids and anticonvulsants."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Anagen effluvium"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/597448549",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/597448549"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced telogen hair loss"
+      }
+    }
+  ]
+}

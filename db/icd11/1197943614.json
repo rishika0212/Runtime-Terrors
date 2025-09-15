@@ -1,0 +1,105 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1197943614",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/723430526"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1197943614",
+  "code": "BD72",
+  "source": "http://id.who.int/icd/entity/1197943614",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1197943614/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1197943614/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/389580608",
+        "http://id.who.int/icd/release/11/2024-01/mms/929449332",
+        "http://id.who.int/icd/release/11/2024-01/mms/1725328867",
+        "http://id.who.int/icd/release/11/2024-01/mms/1381503063",
+        "http://id.who.int/icd/release/11/2024-01/mms/1477784330"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1197943614/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/460401849",
+        "http://id.who.int/icd/release/11/2024-01/mms/1642025150",
+        "http://id.who.int/icd/release/11/2024-01/mms/1583926619",
+        "http://id.who.int/icd/release/11/2024-01/mms/2024436666",
+        "http://id.who.int/icd/release/11/2024-01/mms/1162198017",
+        "http://id.who.int/icd/release/11/2024-01/mms/431804121",
+        "http://id.who.int/icd/release/11/2024-01/mms/1323892810",
+        "http://id.who.int/icd/release/11/2024-01/mms/1669303982"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Venous thromboembolism"
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1429154898",
+    "http://id.who.int/icd/entity/482174292"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Venous thromboembolism"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Venous thromboembolism originating from vena cava"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1709504857"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Venous thromboembolism originating from iliac vein"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1383585831"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Venous thromboembolism originating from lower limb"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2076303538"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Venous thromboembolism originating from upper limb"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1237857463"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Venous thromboembolism originating from other or unspecified sites"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1981143492"
+    }
+  ]
+}

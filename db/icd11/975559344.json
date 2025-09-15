@@ -1,0 +1,71 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/975559344",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/224336967"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2011497038",
+    "http://id.who.int/icd/release/11/2024-01/mms/1711513381",
+    "http://id.who.int/icd/release/11/2024-01/mms/55071409",
+    "http://id.who.int/icd/release/11/2024-01/mms/313446364",
+    "http://id.who.int/icd/release/11/2024-01/mms/125581497",
+    "http://id.who.int/icd/release/11/2024-01/mms/2097316574",
+    "http://id.who.int/icd/release/11/2024-01/mms/1508363690",
+    "http://id.who.int/icd/release/11/2024-01/mms/141481914",
+    "http://id.who.int/icd/release/11/2024-01/mms/1300597550",
+    "http://id.who.int/icd/release/11/2024-01/mms/1439043542",
+    "http://id.who.int/icd/release/11/2024-01/mms/1898135714",
+    "http://id.who.int/icd/release/11/2024-01/mms/1622651355",
+    "http://id.who.int/icd/release/11/2024-01/mms/975559344/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/975559344/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#975559344",
+  "code": "3A51",
+  "source": "http://id.who.int/icd/entity/975559344",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteonecrosis due to haemoglobinopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/213920096",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/213920096"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Other sickle-cell disorders with retinopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1699023697",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2000854880/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/975559344/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2000854880",
+        "http://id.who.int/icd/release/11/2024-01/mms/1496633964",
+        "http://id.who.int/icd/release/11/2024-01/mms/1314118973",
+        "http://id.who.int/icd/release/11/2024-01/mms/536467755",
+        "http://id.who.int/icd/release/11/2024-01/mms/658360080"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Sickle cell disorders or other haemoglobinopathies"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Any disorder caused by a HbS mutation in the haemoglobin gene. This disorder is characterised by abnormal rigid sickle-shaped red blood cells decreasing its ability to carry oxygen. This disorder may present with fatigue, shortness of breath, dizziness, headaches, pallor of skin or mucous membranes, and jaundice. This disorder is confirmed by identification of HbS mutation by genetic testing."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1148519290"
+  ]
+}

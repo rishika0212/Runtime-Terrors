@@ -1,0 +1,86 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1667404773",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/452386362"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/744102274",
+    "http://id.who.int/icd/release/11/2024-01/mms/327677171",
+    "http://id.who.int/icd/release/11/2024-01/mms/736780466",
+    "http://id.who.int/icd/release/11/2024-01/mms/157922007",
+    "http://id.who.int/icd/release/11/2024-01/mms/1056609193",
+    "http://id.who.int/icd/release/11/2024-01/mms/361796531",
+    "http://id.who.int/icd/release/11/2024-01/mms/1667404773/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1667404773/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1667404773",
+  "code": "NA01",
+  "source": "http://id.who.int/icd/entity/1667404773",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Open wound of eyelid or periocular area"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/53857715",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/53857715"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1667404773/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1144556225",
+        "http://id.who.int/icd/release/11/2024-01/mms/375873857",
+        "http://id.who.int/icd/release/11/2024-01/mms/573235775",
+        "http://id.who.int/icd/release/11/2024-01/mms/809989035",
+        "http://id.who.int/icd/release/11/2024-01/mms/1357976561"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1667404773/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482",
+        "http://id.who.int/icd/release/11/2024-01/mms/755612283"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Open wound of head"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Decapitation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/170769591",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1600884926"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Traumatic amputation of part of head"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/145676455",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/145676455"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury of eye or orbit"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1679904912",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1679904912"
+    }
+  ]
+}

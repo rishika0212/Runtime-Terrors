@@ -1,0 +1,78 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1431377239",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1152878652"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1431377239",
+  "code": "5D00.21",
+  "source": "http://id.who.int/icd/entity/1431377239",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Familial Mediterranean fever with amyloidosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1022901773",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1373335705"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1431377239/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1048482858",
+        "http://id.who.int/icd/release/11/2024-01/mms/1196650747",
+        "http://id.who.int/icd/release/11/2024-01/mms/1338477196",
+        "http://id.who.int/icd/release/11/2024-01/mms/720032908",
+        "http://id.who.int/icd/release/11/2024-01/mms/687250607"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1431377239/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/425464783"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Non-neuropathic heredofamilial amyloidosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is an amyloidosis (the formation of insoluble proteins, or amyloids) of inherited origin that does not affect the peripheral nerves. The most common sites of deposits are associated with the kidney and heart."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1154068795"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Non-neuropathic heredofamilial amyloidosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cardiac non-neuropathic heredofamilial amyloidosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1026800659"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cerebral non-neuropathic heredofamilial amyloidosis angiopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1050571861"
+    }
+  ]
+}

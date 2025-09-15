@@ -1,0 +1,92 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/506390162",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/581725607"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#506390162",
+  "code": "DA21.3",
+  "source": "http://id.who.int/icd/entity/506390162",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/506390162/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/506390162/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/506390162/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1008515027",
+        "http://id.who.int/icd/release/11/2024-01/mms/461716838"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Disorder of lower oesophageal sphincter function"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Disorder of lower oesophageal sphincter function is a condition characterised by dysphagia, chest pain, heartburn and regurgitation due to incompetence of lower oesophageal sphincter."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Disorder of lower oesophageal sphincter function"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hypertensive lower oesophageal sphincter"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1059273838"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hypotensive lower oesophageal sphincter"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1034805659"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Incomplete lower oesophageal sphincter relaxation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/743789160"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "lack of reflex relaxation of lower oesophageal sphincter"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/743789160"
+    }
+  ]
+}

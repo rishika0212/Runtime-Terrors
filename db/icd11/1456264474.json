@@ -1,0 +1,54 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1456264474",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/953010840"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1525487462",
+    "http://id.who.int/icd/release/11/2024-01/mms/1796778763",
+    "http://id.who.int/icd/release/11/2024-01/mms/1122633896",
+    "http://id.who.int/icd/release/11/2024-01/mms/1845825765",
+    "http://id.who.int/icd/release/11/2024-01/mms/1456264474/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1456264474/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1456264474",
+  "code": "LA90.1",
+  "source": "http://id.who.int/icd/entity/1456264474",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary lymphoedema"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/794588197",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/794588197"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1456264474/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1031510592",
+        "http://id.who.int/icd/release/11/2024-01/mms/465545679",
+        "http://id.who.int/icd/release/11/2024-01/mms/2122474603",
+        "http://id.who.int/icd/release/11/2024-01/mms/970208182",
+        "http://id.who.int/icd/release/11/2024-01/mms/481430149",
+        "http://id.who.int/icd/release/11/2024-01/mms/276642106",
+        "http://id.who.int/icd/release/11/2024-01/mms/1525493612"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Lymphatic malformations"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Lymphatic malformations (LM), formerly referred to by the term lymphangioma, are malformations of the lymphatic system which result in obstructed lymphatic drainage. There are two types of LM: macrocystic LM (including cystic hygroma/lymphangioma) and tissue-infiltrating microcystic LM (lymphangioma circumscriptum). The macro and microcystic forms of LM may occur in association."
+  }
+}

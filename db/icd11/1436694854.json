@@ -1,0 +1,81 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1436694854",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/412389819"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1436694854",
+  "code": "GB61.4",
+  "source": "http://id.who.int/icd/entity/1436694854",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1436694854/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/465177735",
+        "http://id.who.int/icd/release/11/2024-01/mms/924915526"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Chronic kidney disease, stage 4"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "GFR (15-29 ml/min/1.73m²)"
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "A disease of the kidney, caused by exposure to another disease, condition, or disorder, commonly diabetes mellitus, hypertension, or glomerulonephritis. This disease is characterized by a gradual rise in serum creatinine, severely reduced renal function, and kidney damage with a glomerular filtration rate of 15-29 millilitres per minute per 1.73 square metre for over 3 months. Confirmation is by estimated glomerular filtration rate, blood testing for creatinine, urinalysis, and abdominal ultrasound to differentiate chronic kidney disease from acute renal failure."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic renal failure, stage 4"
+      }
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/562199727"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1635967154"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic kidney disease, stage 4"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "severe decrease in GFR"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic renal failure, stage 4"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "CKD - [chronic kidney disease] stage 4"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "eGFR - [estimated glomerular filtration rate] 15-29 ml/min/1.73m²"
+      }
+    }
+  ]
+}

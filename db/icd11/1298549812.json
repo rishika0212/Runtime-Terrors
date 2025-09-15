@@ -1,0 +1,131 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1298549812",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1743180897"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1298549812",
+  "code": "NA06.87",
+  "source": "http://id.who.int/icd/entity/1298549812",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1298549812/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1298549812/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2055915829"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1298549812/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/980862652",
+        "http://id.who.int/icd/release/11/2024-01/mms/851395624",
+        "http://id.who.int/icd/release/11/2024-01/mms/73322695",
+        "http://id.who.int/icd/release/11/2024-01/mms/128104623",
+        "http://id.who.int/icd/release/11/2024-01/mms/1491356379",
+        "http://id.who.int/icd/release/11/2024-01/mms/491063206",
+        "http://id.who.int/icd/release/11/2024-01/mms/185842968",
+        "http://id.who.int/icd/release/11/2024-01/mms/2143219175",
+        "http://id.who.int/icd/release/11/2024-01/mms/558785723",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Ocular laceration or rupture with prolapse or loss of intraocular tissue, unilateral"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Forcible or traumatic tearing or breaking of the eyeball with protrusion or loss of the tissues and fluids located within the eyeball."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1804006919"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ocular laceration or rupture with prolapse or loss of intraocular tissue, unilateral"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ocular laceration with prolapse and/or exposure of intraocular tissue"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "laceration of eyeball with prolapse or loss of intraocular tissue"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "penetrating eyeball injury with prolapse or loss of intraocular tissue"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ocular laceration or rupture with prolapse of ciliary body, unilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/17321044"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ocular laceration or rupture with ciliary body hernia, unilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/17321044"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ocular laceration or rupture with prolapse of iris, unilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1194418619"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ocular laceration or rupture with hernia of iris, unilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1194418619"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ocular laceration or rupture with prolapse of uvea, unilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1660697721"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ocular laceration or rupture with hernia of lens, unilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1122023125"
+    }
+  ]
+}

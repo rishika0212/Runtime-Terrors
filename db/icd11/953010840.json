@@ -1,0 +1,72 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/953010840",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1833285474"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1410574529",
+    "http://id.who.int/icd/release/11/2024-01/mms/1456264474",
+    "http://id.who.int/icd/release/11/2024-01/mms/1315785107",
+    "http://id.who.int/icd/release/11/2024-01/mms/585997617",
+    "http://id.who.int/icd/release/11/2024-01/mms/2088244412",
+    "http://id.who.int/icd/release/11/2024-01/mms/913404991",
+    "http://id.who.int/icd/release/11/2024-01/mms/953010840/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/953010840/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#953010840",
+  "code": "LA90",
+  "source": "http://id.who.int/icd/entity/953010840",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/953010840/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1933239759",
+        "http://id.who.int/icd/release/11/2024-01/mms/832846369",
+        "http://id.who.int/icd/release/11/2024-01/mms/1206540937"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Structural developmental anomalies of the peripheral vascular system"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital anomaly of coronary artery"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/902783759",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/902783759"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital anomaly of pulmonary arterial tree"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/953235173",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/953235173"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "haemangioma and lymphangioma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1880513528",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1880513528"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital retinal aneurysm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/129144529",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/129144529"
+    }
+  ]
+}

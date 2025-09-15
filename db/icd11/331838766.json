@@ -1,0 +1,108 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/331838766",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/110923694"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#331838766",
+  "code": "2A41",
+  "source": "http://id.who.int/icd/entity/331838766",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/331838766/postcoordinationScale/histopathology",
+      "axisName": "http://id.who.int/icd/schema/histopathology",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1997653496"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/331838766/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/331838766/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1863636238",
+        "http://id.who.int/icd/release/11/2024-01/mms/885826145",
+        "http://id.who.int/icd/release/11/2024-01/mms/1746207012",
+        "http://id.who.int/icd/release/11/2024-01/mms/303697349"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Atypical chronic myeloid leukaemia, BCR-ABL1-negative"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A myelodysplastic/myeloproliferative neoplasm characterised by the principal involvement of the neutrophil series with leukocytosis with circulating immature myeloid cells, fewer than 20 percent blasts in the bone marrow and blood, and severe dysgranulopoiesis. The neoplastic cells do not have a Philadelphia chromosome or the BCR/ABL1 fusion gene."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Atypical chronic myeloid leukaemia, BCR-ABL1-negative"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "atypical chronic myeloid leukaemia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "subacute myelogenous leukaemia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "subacute myeloid leukaemia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "subacute myelosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Atypical chronic myeloid leukaemia, BCR-ABL-negative without mention of remission"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "subacute monocytic leukaemia without mention of remission"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "subacute monocytic leukaemia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Atypical chronic myeloid leukaemia, BCR-ABL1-negative in complete remission"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1534506036"
+    }
+  ]
+}

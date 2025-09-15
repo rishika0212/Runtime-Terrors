@@ -1,0 +1,77 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/900996209",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1584533435"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#900996209",
+  "code": "FB53.2",
+  "source": "http://id.who.int/icd/entity/900996209",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/900996209/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/900996209/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1091984320",
+        "http://id.who.int/icd/release/11/2024-01/mms/719727487",
+        "http://id.who.int/icd/release/11/2024-01/mms/1020159779"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/900996209/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1569734721"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Impingement syndrome of shoulder"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is a clinical syndrome which occurs when the tendons of the rotator cuff muscles become irritated and inflamed as they pass through the subacromial space, the passage beneath the acromion. This can result in pain, weakness and loss of movement at the shoulder."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Compression of the rotator cuff tendons and subacromial bursa between the humeral head and structures that make up the coracoacromial arch and the humeral tuberosities. This condition is associated with subacromial bursitis and rotator cuff (largely supraspinatus) and bicipital tendon inflammation, with or without degenerative changes in the tendon. Pain that is most severe when the arm is abducted in an arc between 40 and 120 degrees, sometimes associated with tears in the rotator cuff, is the chief symptom."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Impingement syndrome of shoulder"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "impingement syndrome of shoulder region"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "subacromial impingement"
+      }
+    }
+  ]
+}

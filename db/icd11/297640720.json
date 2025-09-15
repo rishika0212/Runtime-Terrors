@@ -1,0 +1,116 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/297640720",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/647067594"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#297640720",
+  "code": "EC92.0",
+  "source": "http://id.who.int/icd/entity/297640720",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/297640720/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1007332872",
+        "http://id.who.int/icd/release/11/2024-01/mms/597444540"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/297640720/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/501504598",
+        "http://id.who.int/icd/release/11/2024-01/mms/932220680",
+        "http://id.who.int/icd/release/11/2024-01/mms/671508148",
+        "http://id.who.int/icd/release/11/2024-01/mms/579584480"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/297640720/postcoordinationScale/hasAlternativeSeverity1",
+      "axisName": "http://id.who.int/icd/schema/hasAlternativeSeverity1",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/137604848",
+        "http://id.who.int/icd/release/11/2024-01/mms/1926847105",
+        "http://id.who.int/icd/release/11/2024-01/mms/489218088",
+        "http://id.who.int/icd/release/11/2024-01/mms/2029211037"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/297640720/postcoordinationScale/hasAlternativeSeverity2",
+      "axisName": "http://id.who.int/icd/schema/hasAlternativeSeverity2",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/145592658",
+        "http://id.who.int/icd/release/11/2024-01/mms/1824378311",
+        "http://id.who.int/icd/release/11/2024-01/mms/1714449067",
+        "http://id.who.int/icd/release/11/2024-01/mms/1721227995"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Penoscrotodynia"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "An uncommon but distressing somatoform disorder affecting men in which there is a clear and precise complaint of genital pain and/or a skin burning sensation for which no underlying cause can be found."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Penoscrotodynia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dysaesthetic penile and scrotal pain"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dysaesthetic penodynia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1244109981"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dysaesthetic penile pain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1244109981"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Burning scrotum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/740076781"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Scrotodynia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/740076781"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Red scrotum syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/740076781"
+    }
+  ]
+}

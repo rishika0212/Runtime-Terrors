@@ -1,0 +1,113 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2057951941",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1726554290"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2057951941",
+  "code": "DC33",
+  "source": "http://id.who.int/icd/entity/2057951941",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2057951941/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1290701352"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2057951941/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1954798891",
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2057951941/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Autoimmune pancreatitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Autoimmune pancreatitis (AIP) is a rare pancreatic disease characterised by chronic non-alcoholic pancreatitis that presents with abdominal pain, steatorrhoea, obstructive jaundice and responds well to steroid therapy and is seen in two subforms: type 1 AIP which affects elderly males, involves other organs and has increased immunoglobin G4 (IgG4) levels and type 2 AIP which affects both sexes equally but presents at a younger age and has no other organ involvement or increased IgG4 levels."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Autoimmune pancreatitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Type 1 IgG4 related autoimmune pancreatitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/614401663"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "LPSP - [lymphoplasmacytic sclerosing pancreatitis]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/614401663"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Autoimmune pancreatitis with other organ involvement"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/866313779"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Autoimmune pancreatitis without other organ involvement"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/824982468"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Type 2 Autoimmune pancreatitis featuring granulocytic epithelial lesion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/319563521"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "IDCP - [idiopathic duct-centric chronic pancreatitis]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/319563521"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Type 2 Autoimmune pancreatitis featuring GEL"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/319563521"
+    }
+  ]
+}

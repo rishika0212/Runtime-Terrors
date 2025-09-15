@@ -1,0 +1,126 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1683066042",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1210263011"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1683066042",
+  "code": "GB59",
+  "source": "http://id.who.int/icd/entity/1683066042",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1683066042/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1683066042/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Renal or perinephric abscess"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A collection of purulent material in the kidney substance and/or around the kidneys. Usually due to bacterial infection. Minor: Origin can be haematogenous or ascending infection."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Renal or perinephric abscess"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "kidney abscess"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "nephritic abscess"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "perinephric abscess"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "perirenal abscess"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "renal abscess"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Staphylococcal kidney abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/34443898"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Carbuncle of kidney"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/93440791"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "renal carbuncle"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/93440791"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nephropyosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1881624420"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Purulent perinephritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/791258169"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Renal cortical abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1879969162"
+    }
+  ]
+}

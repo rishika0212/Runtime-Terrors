@@ -1,0 +1,110 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1700220656",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1838213761"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1700220656",
+  "code": "GA10.G",
+  "source": "http://id.who.int/icd/entity/1700220656",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1700220656/postcoordinationScale/relational",
+      "axisName": "http://id.who.int/icd/schema/relational",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1013312453",
+        "http://id.who.int/icd/release/11/2024-01/mms/423444880"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1700220656/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1422142995",
+        "http://id.who.int/icd/release/11/2024-01/mms/909890232",
+        "http://id.who.int/icd/release/11/2024-01/mms/468902907",
+        "http://id.who.int/icd/release/11/2024-01/mms/152505840"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1700220656/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1507624466",
+        "http://id.who.int/icd/release/11/2024-01/mms/1290701352"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1700220656/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2002014072",
+        "http://id.who.int/icd/release/11/2024-01/mms/1946559257",
+        "http://id.who.int/icd/release/11/2024-01/mms/951218073",
+        "http://id.who.int/icd/release/11/2024-01/mms/11236328",
+        "http://id.who.int/icd/release/11/2024-01/mms/453532731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Thoracic endometriosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Thoracic endometriosis lesions can affect the diaphragm, pleura, lung and bronchi. There may be a greater affinity for the right hemi thorax, and the parenchyma is more commonly affected in the lower lobes. Macroscopically, the endometriotic implants appear as brown–yellow and sometimes red nodules surrounded by neovascularization. Symptoms include: dyspnea, shortness of breath, rapid heartbeat, coughing up blood and a variety of pain patterns to include scapula, chest, ipsilateral neck and shoulder, upper abdominal and epigastric. Thoracic endometriosis may present with catamenial pneumothorax (recurrent pneumothorax occurring within 72 hours of menstruation), haemoptysis in case of bronchial location, haemothorax, pericardial effusions. A diagnosis of thoracic endometriosis is simple when both endometrial stroma and gland are present. In cases of endometriosis with stroma only, a further classification of “aggregated pattern”, in which immunohistochemistry is ER-, PR- and CD10-positive might be necessary for diagnosis."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Endometriosis of the heart"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2082014966",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2082014966"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Thoracic endometriosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Thoracic endometriosis syndrome"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Endometriosis of the thorax"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Diaphragm endometriosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/262505955"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "diaphragmatic endometriosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/262505955"
+    }
+  ]
+}

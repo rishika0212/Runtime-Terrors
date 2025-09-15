@@ -1,0 +1,68 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1376414432",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1397288146"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1766832202",
+    "http://id.who.int/icd/release/11/2024-01/mms/1376414432/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1376414432/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1376414432",
+  "code": "8A63",
+  "source": "http://id.who.int/icd/entity/1376414432",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1376414432/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/539646260"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1376414432/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1104303944",
+        "http://id.who.int/icd/release/11/2024-01/mms/1585949804",
+        "http://id.who.int/icd/release/11/2024-01/mms/1954798891",
+        "http://id.who.int/icd/release/11/2024-01/mms/590211325",
+        "http://id.who.int/icd/release/11/2024-01/mms/843843448",
+        "http://id.who.int/icd/release/11/2024-01/mms/1199499236",
+        "http://id.who.int/icd/release/11/2024-01/mms/277610609",
+        "http://id.who.int/icd/release/11/2024-01/mms/746448055",
+        "http://id.who.int/icd/release/11/2024-01/mms/248569732",
+        "http://id.who.int/icd/release/11/2024-01/mms/1530721759",
+        "http://id.who.int/icd/release/11/2024-01/mms/817370856",
+        "http://id.who.int/icd/release/11/2024-01/mms/1583926619"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Seizure due to acute causes"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A clinical seizure occurring at the time of a systemic insult or in close temporal association with a documented brain insult."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Migraine aura-triggered seizures"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1767638988",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1956278970"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/2083324835"
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/947283385",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2000854880"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#947283385",
+  "code": "9B71.3",
+  "source": "http://id.who.int/icd/entity/947283385",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/947283385/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/947283385/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1234750028",
+        "http://id.who.int/icd/release/11/2024-01/mms/1893754636",
+        "http://id.who.int/icd/release/11/2024-01/mms/1741161420",
+        "http://id.who.int/icd/release/11/2024-01/mms/34684300",
+        "http://id.who.int/icd/release/11/2024-01/mms/356079948"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/947283385/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1950379483"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Retinopathy of prematurity"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Retinopathy of prematurity is a vasoproliferative disorder that affects extremely premature infants potentially leading to severe visual impairment or blindness. Exposure of newborn premature infants to hyperoxia down regulates retinal vascular endothelial growth factor. Blood vessels constrict and can become obliterated, resulting in delays of normal retinal vascular development. Low birth weight, young gestational age, and severity of illness (e.g. respiratory distress syndrome, bronchopulmonary dysplasia, sepsis) are associated factors. It primarily occurs in extremely low birth weight infants because of the cessation of normal retinal vascular maturation."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Retrolental fibroplasia"
+      }
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Retinopathy of prematurity"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Retrolental fibroplasia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "retinopathy of prematurity NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "RLF- [retrolental fibroplasia]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ROP - [retinopathy of prematurity]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Terry syndrome"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Retinopathy of prematurity, Stage 0"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2053929171"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stage 0 - , No ROP"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2053929171"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Retinopathy of prematurity, Stage 1"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1984805551"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stage 1, Demarcation Line"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1984805551"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Retinopathy of prematurity, Stage 2"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/634205151"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stage 2, Ridge"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/634205151"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Retinopathy of prematurity, Stage 3"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/703394211"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stage 3, Extraretinal Fibrovascular Proliferation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/703394211"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Plus disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1653321111"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Retinopathy of prematurity, Stage 4"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1203242688"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stage 4, Partial Retinal Detachment"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1203242688"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Retinopathy of prematurity, Stage 5"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1398607571"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stage 5, Total Retinal Detachment"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1398607571"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Retinopathy of prematurity, Zone 1"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1118158126"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Retinopathy of prematurity, Posterior Zone 2"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1098566253"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Retinopathy of prematurity, Zone 3"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1798347410"
+    }
+  ]
+}

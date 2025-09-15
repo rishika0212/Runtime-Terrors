@@ -1,0 +1,125 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2052707382",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1739890344"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/429165931",
+    "http://id.who.int/icd/release/11/2024-01/mms/2095005951",
+    "http://id.who.int/icd/release/11/2024-01/mms/141692930",
+    "http://id.who.int/icd/release/11/2024-01/mms/1832508820",
+    "http://id.who.int/icd/release/11/2024-01/mms/517426688",
+    "http://id.who.int/icd/release/11/2024-01/mms/254923627",
+    "http://id.who.int/icd/release/11/2024-01/mms/2052707382/other"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2052707382",
+  "code": "FB32",
+  "source": "http://id.who.int/icd/entity/2052707382",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced myopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1456167356",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1456167356"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sarcoid myositis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1908479253",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/330792642/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2052707382/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2052707382/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1922573088",
+        "http://id.who.int/icd/release/11/2024-01/mms/1359586520",
+        "http://id.who.int/icd/release/11/2024-01/mms/955996865",
+        "http://id.who.int/icd/release/11/2024-01/mms/507472176",
+        "http://id.who.int/icd/release/11/2024-01/mms/107652911",
+        "http://id.who.int/icd/release/11/2024-01/mms/720361080",
+        "http://id.who.int/icd/release/11/2024-01/mms/864968000"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Certain specified disorders of muscle"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is an impairment of health or a condition of abnormal functioning of the muscle that does not fit in another category."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Alcoholic myopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/864064554",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/864064554"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myalgia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/415195404",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/415195404"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cramp or spasm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/157838476",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/157838476"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stiff person syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/771780430",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/496011112"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary disorders of muscles"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/833816211",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/833816211"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Certain specified disorders of muscle"
+      }
+    }
+  ]
+}

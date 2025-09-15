@@ -1,0 +1,75 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1434414203",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/330792642"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1434414203",
+  "code": "4B20.2",
+  "source": "http://id.who.int/icd/entity/1434414203",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gastritis due to sarcoidosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/218460373",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1871672644/other"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Oesophagitis due to sarcoidosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/224437555",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1540965840/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1434414203/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1337584902",
+        "http://id.who.int/icd/release/11/2024-01/mms/1515005003",
+        "http://id.who.int/icd/release/11/2024-01/mms/899820155",
+        "http://id.who.int/icd/release/11/2024-01/mms/1651798887",
+        "http://id.who.int/icd/release/11/2024-01/mms/616736219",
+        "http://id.who.int/icd/release/11/2024-01/mms/532265365",
+        "http://id.who.int/icd/release/11/2024-01/mms/1924631190"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Sarcoidosis of the digestive system"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is a syndrome involving abnormal collections of chronic inflammatory cells (granulomas) that can form as nodules in the digestive system."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sarcoidosis of the digestive system"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Digestive tract sarcoidosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hepatic sarcoidosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1303332626"
+    }
+  ]
+}

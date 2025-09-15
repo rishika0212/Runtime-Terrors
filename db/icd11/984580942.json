@@ -1,0 +1,71 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/984580942",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2035326404"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#984580942",
+  "code": "AA02",
+  "source": "http://id.who.int/icd/entity/984580942",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/984580942/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/984580942/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/768242906"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/984580942/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Malignant otitis externa"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Malignant otitis externa is a rare life-threatening infective complication of otitis externa. It is due in the majority of cases to Pseudomonas aeruginosa. Organisms penetrate from the external ear canal into the surrounding deeper tissues resulting in osteomyelitis of the temporal bone and risks of damage to adjacent cranial nerves and septic thrombo-emboli to the brain. Advanced age, uncontrolled diabetes mellitus and immunosuppression are risk factors."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant otitis externa"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Necrotising otitis externa"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pseudomonas aeruginosa osteomyelitis of the temporal bone"
+      }
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/244932428",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/188684108"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#244932428",
+  "code": "KA65.1",
+  "source": "http://id.who.int/icd/entity/244932428",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/244932428/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Omphalitis of newborn"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease of the umbilical cord affecting newborns, commonly caused by an infection with a bacterial source. This disease is characterised by purulent or foul-smelling discharge from the umbilicus or umbilical stump, periumbilical erythema, oedema, or tenderness. This disease may also present with fever, hypothermia, jaundice, tachycardia, hypotension, tachypnoea, respiratory distress, apnoea, or abdominal distention with absent bowel sounds. Transmission is by vertical transmission or iatrogenic transmission. Confirmation is by identification of the infectious agent."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Omphalitis of newborn"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Umbilical infection of newborn"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Navel inflammation in newborn"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Navel infection in newborn"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "septic umbilical cord"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Umbilical stump infection of the newborn"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neonatal staphylococcal omphalitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/654935539"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neonatal streptococcal omphalitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/698784376"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Polymicrobial neonatal omphalitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/379232393"
+    }
+  ]
+}

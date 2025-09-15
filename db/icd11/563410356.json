@@ -1,0 +1,128 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/563410356",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1730556128"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#563410356",
+  "code": "RA01.1",
+  "source": "http://id.who.int/icd/entity/563410356",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/563410356/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1024154490"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/563410356/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/425996485",
+        "http://id.who.int/icd/release/11/2024-01/mms/1061373903",
+        "http://id.who.int/icd/release/11/2024-01/mms/1062820800"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "COVID-19, virus not identified"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "COVID-19, virus identified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1790791774",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1790791774"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Coronavirus infection, unspecified site"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/258345505",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/258345505"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Special screening examination for other viral diseases"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/412651167",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/412651167"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "suspected but ruled out by negative laboratory results"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/461464819",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/461464819"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "confirmed by laboratory testing"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1790791774",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1790791774"
+    }
+  ],
+  "codingNote": {
+    "@language": "en",
+    "@value": "Use this code when COVID-19 is diagnosed clinically or epidemiologically but laboratory testing is inconclusive or not available."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "COVID-19, virus not identified"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "clinically diagnosed COVID-19"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "suspected COVID-19"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "probable COVID-19"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "clinical COVID-19"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "epidemilogically diagnosed COVID-19"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "COVID-19 with pneumonia, SARS-CoV-2 not identified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1393326267"
+    }
+  ]
+}

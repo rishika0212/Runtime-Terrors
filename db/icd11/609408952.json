@@ -1,0 +1,68 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/609408952",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1099770685"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#609408952",
+  "code": "KA42.1",
+  "source": "http://id.who.int/icd/entity/609408952",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/609408952/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/570444145"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/609408952/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/128908879",
+        "http://id.who.int/icd/release/11/2024-01/mms/1659188187",
+        "http://id.who.int/icd/release/11/2024-01/mms/373842724",
+        "http://id.who.int/icd/release/11/2024-01/mms/541657990",
+        "http://id.who.int/icd/release/11/2024-01/mms/986673759",
+        "http://id.who.int/icd/release/11/2024-01/mms/1929621170",
+        "http://id.who.int/icd/release/11/2024-01/mms/15547686",
+        "http://id.who.int/icd/release/11/2024-01/mms/437941753",
+        "http://id.who.int/icd/release/11/2024-01/mms/927970860/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Cephalohaematoma due to birth injury"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Cephalhaematoma is a subperiosteal collection of blood caused by rupture of vessels beneath the periosteum and does not extend across the suture lines."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cephalohaematoma due to birth injury"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cephalohaematoma of fetus or newborn"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cephalohaematoma deformans of Schüller"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/339740610"
+    }
+  ]
+}

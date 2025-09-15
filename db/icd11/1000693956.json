@@ -1,0 +1,107 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1000693956",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1842783299"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1000693956",
+  "code": "ND56.8",
+  "source": "http://id.who.int/icd/entity/1000693956",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1000693956/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/980862652",
+        "http://id.who.int/icd/release/11/2024-01/mms/851395624",
+        "http://id.who.int/icd/release/11/2024-01/mms/73322695",
+        "http://id.who.int/icd/release/11/2024-01/mms/128104623",
+        "http://id.who.int/icd/release/11/2024-01/mms/1491356379",
+        "http://id.who.int/icd/release/11/2024-01/mms/491063206",
+        "http://id.who.int/icd/release/11/2024-01/mms/185842968",
+        "http://id.who.int/icd/release/11/2024-01/mms/2143219175",
+        "http://id.who.int/icd/release/11/2024-01/mms/558785723",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Traumatic amputation of unspecified body region"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "multiple: crushing injuries NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/974384220",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/974384220"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "multiple traumatic amputations NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1599611342",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1599611342"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Traumatic amputation of unspecified body region"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "avulsion NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Traumatic amputation NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "traumatic avulsion NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "traumatic extremity loss"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sequelae of traumatic amputation of unspecified body region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1219269770"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Traumatic amputation of limb"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/949010725"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Partial traumatic amputation of limb"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1196300972"
+    }
+  ]
+}

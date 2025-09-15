@@ -1,0 +1,78 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/191424358",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1012897702"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#191424358",
+  "code": "LB30.3",
+  "source": "http://id.who.int/icd/entity/191424358",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/191424358/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Renal tubular dysgenesis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Abnormal renal development and kidney formation secondary to an underlying condition or exposure."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Renal tubular dysgenesis is a rare disorder of the fetus characterized by absent or poorly developed proximal tubules of the kidneys, persistent oligohydramnios, leading to Potter sequence (facial dysmorphism with large and flat low-set ears, lung hypoplasia arthrogryposis and limb positioning defects), and skull ossification defects. It can be acquired during fetal development due to drugs taken by the mother or certain disorders (twin-twin transfusion syndrome, TTTS; ) or inherited in an autosomal recessive manner.'"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Renal tubular dysgenesis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Renotubular dysgenesis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primitive kidney tubule syndrome"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Renal tubular dysgenesis due to twin-twin transfusion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/122234138"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Renal tubular dysgenesis, drug-related"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/681148572"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Renal tubular dysgenesis of genetic origin"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/616055520"
+    }
+  ]
+}

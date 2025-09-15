@@ -1,0 +1,96 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/578744597",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/256882243"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#578744597",
+  "code": "5C70.0",
+  "source": "http://id.who.int/icd/entity/578744597",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dehydration of newborn"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/113535307",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/113535307"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/578744597/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/476391827"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Dehydration"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Dehydration occurs when there is an insufficient amount or excessive loss of water in the body. This can be caused by vomiting, diarrhoea, fever, use of diuretics, profuse sweating, or decreased water intake."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1154068795"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/113535307"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dehydration"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "fluid depletion"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "anhydration"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "anhydremia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "fluid volume deficit"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "fluid volume depletion"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "sodium and water depletion"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "loss of fluid"
+      }
+    }
+  ]
+}

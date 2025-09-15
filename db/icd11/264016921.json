@@ -1,0 +1,74 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/264016921",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/380509625"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#264016921",
+  "code": "ND73.20",
+  "source": "http://id.who.int/icd/entity/264016921",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/264016921/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1493524587"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/264016921/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/833390860",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Trichobezoar"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A hair ball which is formed from ingested hairs in the stomach which may cause bowel obstruction."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Trichobezoar"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "stomach bezoar"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hairball in stomach"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stomach phytobezoar"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1986033626"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stomach trichophytobezoar"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/473963037"
+    }
+  ]
+}

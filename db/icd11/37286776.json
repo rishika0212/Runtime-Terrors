@@ -1,0 +1,54 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/37286776",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1676151582"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/361686862",
+    "http://id.who.int/icd/release/11/2024-01/mms/37286776/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#37286776",
+  "code": "PH47",
+  "source": "http://id.who.int/icd/entity/37286776",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/37286776/postcoordinationScale/medication",
+      "axisName": "http://id.who.int/icd/schema/medication",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1775802116",
+        "http://id.who.int/icd/release/11/2024-01/mms/596605543"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/37286776/postcoordinationScale/activityWhenInjured",
+      "axisName": "http://id.who.int/icd/schema/activityWhenInjured",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2071638841",
+        "http://id.who.int/icd/release/11/2024-01/mms/1107435129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1428847289",
+        "http://id.who.int/icd/release/11/2024-01/mms/821249273",
+        "http://id.who.int/icd/release/11/2024-01/mms/160164281"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/37286776/postcoordinationScale/placeOfOccurrence",
+      "axisName": "http://id.who.int/icd/schema/placeOfOccurrence",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowedExceptFromSameBlock",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1081404635",
+        "http://id.who.int/icd/release/11/2024-01/mms/1786773723"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Exposure to or harmful effects of undetermined intent of antiepileptics or antiparkinsonism drugs"
+  }
+}

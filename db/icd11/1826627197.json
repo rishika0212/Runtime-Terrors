@@ -1,0 +1,151 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1826627197",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/316539081"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1826627197",
+  "code": "2C25.5",
+  "source": "http://id.who.int/icd/entity/1826627197",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1826627197/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1826627197/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1338477196",
+        "http://id.who.int/icd/release/11/2024-01/mms/1492119116",
+        "http://id.who.int/icd/release/11/2024-01/mms/1322869997",
+        "http://id.who.int/icd/release/11/2024-01/mms/1637303052"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1826627197/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1826627197/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1409966790",
+        "http://id.who.int/icd/release/11/2024-01/mms/896293199",
+        "http://id.who.int/icd/release/11/2024-01/mms/1094217460",
+        "http://id.who.int/icd/release/11/2024-01/mms/238069351"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1826627197/postcoordinationScale/hasAlternativeSeverity2",
+      "axisName": "http://id.who.int/icd/schema/hasAlternativeSeverity2",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1863636238",
+        "http://id.who.int/icd/release/11/2024-01/mms/885826145",
+        "http://id.who.int/icd/release/11/2024-01/mms/1746207012",
+        "http://id.who.int/icd/release/11/2024-01/mms/303697349"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Unspecified malignant epithelial neoplasm of bronchus or lung"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unspecified malignant epithelial neoplasm of bronchus or lung"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "unspecified carcinoma of bronchus or lung"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Oat cell carcinoma of unspecified site"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/586946007"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Metastatic lung carcinoma [primary lung carcinoma spreading elsewhere]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/79056340"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Metastatic carcinoma of lung [primary carcinoma of lung spreading elsewhere]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/79056340"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Lung carcinoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/947165291"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bronchogenic carcinoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/947165291"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "carcinoma of lung"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/947165291"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bronchus carcinoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1034243845"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "carcinoma of bronchus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1034243845"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bronchiolar carcinoma of unspecified site"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/577891921"
+    }
+  ]
+}

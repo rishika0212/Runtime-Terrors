@@ -1,0 +1,53 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/149072669",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/979278646"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1800264981",
+    "http://id.who.int/icd/release/11/2024-01/mms/1123804548",
+    "http://id.who.int/icd/release/11/2024-01/mms/1295356165",
+    "http://id.who.int/icd/release/11/2024-01/mms/1324017222",
+    "http://id.who.int/icd/release/11/2024-01/mms/149072669/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#149072669",
+  "code": "1B20",
+  "source": "http://id.who.int/icd/entity/149072669",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/149072669/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2019368323",
+        "http://id.who.int/icd/release/11/2024-01/mms/425464783"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Leprosy"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease caused by an infection with Mycobacterium leprae. This disease commonly presents with a long asymptomatic period followed by granulomatous lesions of the skin, respiratory tract, and peripheral nerves. Transmission is commonly by droplet transmission. Confirmation is by identification of Mycobacterium leprae with skin biopsy."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "A chronic granulomatous infection caused by Mycobacterium leprae. The granulomatous lesions are manifested in the skin, the mucous membranes, and the peripheral nerves. The clinical manifestations are highly dependent on the individual's immune response to infection. Much of the disability from leprosy results from damage to peripheral motor and sensory nerves."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infection due to Mycobacterium leprae"
+      }
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/911707612"
+  ]
+}

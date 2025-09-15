@@ -1,0 +1,38 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1622653958",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1412960686"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1929235891",
+    "http://id.who.int/icd/release/11/2024-01/mms/1622653958/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1622653958/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1622653958",
+  "code": "1B74",
+  "source": "http://id.who.int/icd/entity/1622653958",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1622653958/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Superficial bacterial folliculitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Bacterial infection of the follicular ostium manifested as follicular papules and pustules with perifollicular erythema. The most commonly isolated organisms are coagulase-negative staphylococci and Staphylococcus aureus. The infection may be acute but is more commonly subacute or chronic; individual lesions heal without scarring. Commonly affected sites include the scalp, beard area, thighs and buttocks."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/911707612"
+  ]
+}

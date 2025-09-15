@@ -1,0 +1,735 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2023965817",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1594217552"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2023965817",
+  "code": "2D42",
+  "source": "http://id.who.int/icd/entity/2023965817",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2023965817/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2023965817/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/809989035",
+        "http://id.who.int/icd/release/11/2024-01/mms/223243926",
+        "http://id.who.int/icd/release/11/2024-01/mms/269345714",
+        "http://id.who.int/icd/release/11/2024-01/mms/1286369458",
+        "http://id.who.int/icd/release/11/2024-01/mms/1939141711",
+        "http://id.who.int/icd/release/11/2024-01/mms/1946003505",
+        "http://id.who.int/icd/release/11/2024-01/mms/650081113",
+        "http://id.who.int/icd/release/11/2024-01/mms/533192217",
+        "http://id.who.int/icd/release/11/2024-01/mms/402925049",
+        "http://id.who.int/icd/release/11/2024-01/mms/986233688",
+        "http://id.who.int/icd/release/11/2024-01/mms/2093217246",
+        "http://id.who.int/icd/release/11/2024-01/mms/836634455",
+        "http://id.who.int/icd/release/11/2024-01/mms/1910628372",
+        "http://id.who.int/icd/release/11/2024-01/mms/538706260"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2023965817/postcoordinationScale/histopathology",
+      "axisName": "http://id.who.int/icd/schema/histopathology",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1255450803",
+        "http://id.who.int/icd/release/11/2024-01/mms/1401592171",
+        "http://id.who.int/icd/release/11/2024-01/mms/1286751171",
+        "http://id.who.int/icd/release/11/2024-01/mms/493891342",
+        "http://id.who.int/icd/release/11/2024-01/mms/59671317",
+        "http://id.who.int/icd/release/11/2024-01/mms/1603120779",
+        "http://id.who.int/icd/release/11/2024-01/mms/1041548506",
+        "http://id.who.int/icd/release/11/2024-01/mms/1052315868",
+        "http://id.who.int/icd/release/11/2024-01/mms/1414907749",
+        "http://id.who.int/icd/release/11/2024-01/mms/162852828",
+        "http://id.who.int/icd/release/11/2024-01/mms/1978867629",
+        "http://id.who.int/icd/release/11/2024-01/mms/1025049113",
+        "http://id.who.int/icd/release/11/2024-01/mms/8987040",
+        "http://id.who.int/icd/release/11/2024-01/mms/218746635",
+        "http://id.who.int/icd/release/11/2024-01/mms/1079699653",
+        "http://id.who.int/icd/release/11/2024-01/mms/1983715813",
+        "http://id.who.int/icd/release/11/2024-01/mms/1878363789",
+        "http://id.who.int/icd/release/11/2024-01/mms/332064829",
+        "http://id.who.int/icd/release/11/2024-01/mms/578851160",
+        "http://id.who.int/icd/release/11/2024-01/mms/1716858530",
+        "http://id.who.int/icd/release/11/2024-01/mms/546679566",
+        "http://id.who.int/icd/release/11/2024-01/mms/854107677",
+        "http://id.who.int/icd/release/11/2024-01/mms/1260174985",
+        "http://id.who.int/icd/release/11/2024-01/mms/726115988",
+        "http://id.who.int/icd/release/11/2024-01/mms/2049079851",
+        "http://id.who.int/icd/release/11/2024-01/mms/79274524",
+        "http://id.who.int/icd/release/11/2024-01/mms/2022905621",
+        "http://id.who.int/icd/release/11/2024-01/mms/928474622",
+        "http://id.who.int/icd/release/11/2024-01/mms/108819171",
+        "http://id.who.int/icd/release/11/2024-01/mms/410618845",
+        "http://id.who.int/icd/release/11/2024-01/mms/1308280814",
+        "http://id.who.int/icd/release/11/2024-01/mms/1550841006",
+        "http://id.who.int/icd/release/11/2024-01/mms/1219462764",
+        "http://id.who.int/icd/release/11/2024-01/mms/521514084",
+        "http://id.who.int/icd/release/11/2024-01/mms/226408345",
+        "http://id.who.int/icd/release/11/2024-01/mms/358536454",
+        "http://id.who.int/icd/release/11/2024-01/mms/1083553185",
+        "http://id.who.int/icd/release/11/2024-01/mms/2108039829",
+        "http://id.who.int/icd/release/11/2024-01/mms/428602671",
+        "http://id.who.int/icd/release/11/2024-01/mms/2128446983",
+        "http://id.who.int/icd/release/11/2024-01/mms/1965497047",
+        "http://id.who.int/icd/release/11/2024-01/mms/1826383387",
+        "http://id.who.int/icd/release/11/2024-01/mms/1024952760",
+        "http://id.who.int/icd/release/11/2024-01/mms/2065413738",
+        "http://id.who.int/icd/release/11/2024-01/mms/1891884932",
+        "http://id.who.int/icd/release/11/2024-01/mms/1488076383",
+        "http://id.who.int/icd/release/11/2024-01/mms/732271914",
+        "http://id.who.int/icd/release/11/2024-01/mms/1792010545",
+        "http://id.who.int/icd/release/11/2024-01/mms/496794681",
+        "http://id.who.int/icd/release/11/2024-01/mms/1295816090"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2023965817/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2023965817/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1409966790",
+        "http://id.who.int/icd/release/11/2024-01/mms/896293199",
+        "http://id.who.int/icd/release/11/2024-01/mms/1094217460",
+        "http://id.who.int/icd/release/11/2024-01/mms/238069351"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2023965817/postcoordinationScale/hasAlternativeSeverity2",
+      "axisName": "http://id.who.int/icd/schema/hasAlternativeSeverity2",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1863636238",
+        "http://id.who.int/icd/release/11/2024-01/mms/885826145",
+        "http://id.who.int/icd/release/11/2024-01/mms/1746207012",
+        "http://id.who.int/icd/release/11/2024-01/mms/303697349"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Malignant neoplasms of ill-defined sites"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Malignant neoplasms of ill defined sites is used for cases where the documentation refers to a site that includes multiple organ systems and tissue types that should be coded separately."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant neoplasms of ill-defined sites"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant neoplasm of ill-defined site of head, face or neck"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/665654763"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant neoplasm of nose NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1373446179"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary malignant neoplasm of cheek"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1070731825"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "malignant neoplasm of cheek NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1070731825"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cheek cancer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1070731825"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary malignant neoplasm of jaw"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1535116870"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cancer of the jaw"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1535116870"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "jaw cancer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1535116870"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "malignant neoplasm of jaw NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1535116870"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary malignant neoplasm of supraclavicular region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1310046722"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "malignant neoplasm of supraclavicular region NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1310046722"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "supraclavicular region cancer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1310046722"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant neoplasm of submental area"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1047718175"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "submental cancer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1047718175"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Temple region cancer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/23018103"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "temporal region cancer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/23018103"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant neoplasm of ill-defined site of thorax"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1122424959"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "malignant neoplasm of thorax"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1122424959"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "thoracic cancer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1122424959"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "thoracic malignant neoplasm nos"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1122424959"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "intrathoracic malignant neoplasm NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1122424959"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "thoracic cavity cancer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1122424959"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "thorax cancer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1122424959"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "intrathoracic cancer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1122424959"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "malignant tumour of thorax"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1122424959"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "thorax cavity cancer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1122424959"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary malignant neoplasm of axilla region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/496334790"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "axilla cancer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/496334790"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "axillary cancer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/496334790"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "malignant neoplasm of axilla NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/496334790"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Scapular region cancer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1492508847"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant neoplasm of ill-defined site of abdomen"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/910919810"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "abdomen cancer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/910919810"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "abdominal cancer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/910919810"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "malignant neoplasm of abdomen"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/910919810"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "abdomen cavity cancer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/910919810"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "abdomen organ cancer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/910919810"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "abdomen viscera cancer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/910919810"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "abdominal organ cancer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/910919810"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "abdominal viscera cancer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/910919810"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "abdominal visceral cancer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/910919810"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "malignant tumour of abdomen"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/910919810"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "abdominal cavity cancer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/910919810"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant neoplasm of ill-defined site of pelvis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1392526612"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cancer of pelvis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1392526612"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pelvic cancer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1392526612"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pelvic viscera cancer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1392526612"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pelvic visceral cancer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1392526612"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pelvis cancer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1392526612"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pelvis viscera cancer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1392526612"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pelvis visceral cancer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1392526612"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pelvic wall cancer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1392526612"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pelvis wall cancer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1392526612"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "primary malignant neoplasm of pelvis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1392526612"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pararectal cancer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1392526612"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ischiorectal fossa cancer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1392526612"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ischiorectal cancer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1392526612"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "gluteal region cancer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1392526612"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "perirectal cancer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1392526612"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary malignant neoplasm of inguinal region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/126878206"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "inguinal cancer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/126878206"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "inguinal region cancer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/126878206"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary malignant neoplasm of presacral region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/935911546"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "malignant neoplasm of presacral region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/935911546"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary malignant neoplasm of rectovaginal septum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1760512459"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "rectovaginal (septum) malignant neoplasm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1760512459"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "rectovaginal septum cancer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1760512459"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sites overlapping systems within the pelvis, such as rectovaginal (septum)"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1760512459"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary malignant neoplasm of rectovesical septum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1391899997"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sites overlapping systems within the pelvis, such as rectovesical (septum)"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1391899997"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "rectovesical (septum) malignant neoplasm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1391899997"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "rectovesical septum cancer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1391899997"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Perineal cancer, not elsewehere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1948261113"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "perineum cancer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1948261113"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant neoplasm of ill-defined site of arm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/552523392"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "malignant neoplasm of other and ill-defined sites: upper limb"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/552523392"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "primary malignant neoplasm of upper limb"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/552523392"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "upper limb cancer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/552523392"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant neoplasm of ill-defined site of leg"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1168448278"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "malignant neoplasm of other and ill-defined sites: lower limb"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1168448278"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "lower extremity cancer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1168448278"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "primary malignant neoplasm of lower limb"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1168448278"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "calf cancer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1168448278"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/946166369",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/877352786"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1338299833",
+    "http://id.who.int/icd/release/11/2024-01/mms/714020909",
+    "http://id.who.int/icd/release/11/2024-01/mms/946166369/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/946166369/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#946166369",
+  "code": "JA02",
+  "source": "http://id.who.int/icd/entity/946166369",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/946166369/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1403588899",
+        "http://id.who.int/icd/release/11/2024-01/mms/920837303"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Molar pregnancy"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition caused by the over-production of cells arising into the placenta during pregnancy. This condition is characterised by a pregnancy with abnormal placental growth in which the chorionic villi become hydropic, trophoblast proliferation and invasion of the uterine tissue within 10-16 weeks after conception, and a placental mass."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "malignant hydatidiform mole"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1972855304",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1972855304"
+    }
+  ]
+}

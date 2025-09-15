@@ -1,0 +1,82 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/939513521",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/489508344"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#939513521",
+  "code": "EH74",
+  "source": "http://id.who.int/icd/entity/939513521",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced oral ulcer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/580675290",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/580675290"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced cheilitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1261216593",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/482914030"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Oral mucositis due to cancer chemotherapy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1370112759",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1634507618"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced gingival hyperplasia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1671665394",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1517220932"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/939513521/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1583926619",
+        "http://id.who.int/icd/release/11/2024-01/mms/1323892810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Drug-induced oral conditions"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced oral conditions"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "medicament-induced oral conditions"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced xerostomia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/622949154"
+    }
+  ]
+}

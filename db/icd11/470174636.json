@@ -1,0 +1,82 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/470174636",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1698128682"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/277076074",
+    "http://id.who.int/icd/release/11/2024-01/mms/1620794149",
+    "http://id.who.int/icd/release/11/2024-01/mms/470174636/other"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#470174636",
+  "code": "GA80",
+  "source": "http://id.who.int/icd/entity/470174636",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Herpes simplex infection of penis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1152591914",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/666746193"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mucous membrane pemphigoid of penile mucosa"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/538506632",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1456138933"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ulceration of penis or scrotum due to Behçet disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1437873971",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1668927157"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Necrotising fasciitis of the scrotum, penis or perineum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/112774633",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/270802913"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Amoebiasis of penis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/116020407",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1777228366/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/470174636/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/435785772",
+        "http://id.who.int/icd/release/11/2024-01/mms/344934694"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Ulcerative disorders of the penis or scrotum"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ulcerative disorders of the penis or scrotum"
+      }
+    }
+  ]
+}

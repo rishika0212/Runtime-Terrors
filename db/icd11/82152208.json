@@ -1,0 +1,83 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/82152208",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1572490549"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#82152208",
+  "code": "2A82.2",
+  "source": "http://id.who.int/icd/entity/82152208",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/82152208/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Hairy-cell leukaemia"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A neoplasm of small B-lymphocytes with hairy projections in bone marrow, spleen, and peripheral blood. Most patients present with splenomegaly and pancytopenia."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Leukaemic reticuloendotheliosis"
+      }
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hairy-cell leukaemia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Leukaemic reticuloendotheliosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "LRE - [leukemic reticuloendotheliosis]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hairy-cell leukaemia, NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "HCL - [hairy cell leukaemia]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hairy-cell leukaemia without mention of remission"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hairy-c ell leukaemia in compete remission"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1539420412"
+    }
+  ]
+}

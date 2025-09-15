@@ -1,0 +1,118 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1437411258",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/379518314"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1634855479",
+    "http://id.who.int/icd/release/11/2024-01/mms/1417758377",
+    "http://id.who.int/icd/release/11/2024-01/mms/457169641",
+    "http://id.who.int/icd/release/11/2024-01/mms/387848341",
+    "http://id.who.int/icd/release/11/2024-01/mms/1557992733",
+    "http://id.who.int/icd/release/11/2024-01/mms/1358747489",
+    "http://id.who.int/icd/release/11/2024-01/mms/1001757676",
+    "http://id.who.int/icd/release/11/2024-01/mms/1051205634",
+    "http://id.who.int/icd/release/11/2024-01/mms/1437411258/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1437411258/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1437411258",
+  "code": "DA60",
+  "source": "http://id.who.int/icd/entity/1437411258",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1437411258/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1493524587"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1437411258/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2044414353",
+        "http://id.who.int/icd/release/11/2024-01/mms/1112214727",
+        "http://id.who.int/icd/release/11/2024-01/mms/1472717853"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1437411258/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1766440644",
+        "http://id.who.int/icd/release/11/2024-01/mms/1954798891",
+        "http://id.who.int/icd/release/11/2024-01/mms/21500692",
+        "http://id.who.int/icd/release/11/2024-01/mms/334423054",
+        "http://id.who.int/icd/release/11/2024-01/mms/1296093776",
+        "http://id.who.int/icd/release/11/2024-01/mms/426429380",
+        "http://id.who.int/icd/release/11/2024-01/mms/197934298",
+        "http://id.who.int/icd/release/11/2024-01/mms/1473673350"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1437411258/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Gastric ulcer"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Gastric ulcer is defined as a distinct breach in the mucosa of the stomach as a result of caustic effects of acid and pepsin in the lumen. Histologically, gastric ulcer is identified as necrosis of the mucosa extending through the muscularis mucosae into the submucosa. In the endoscopic or radiological view, there is an appreciable depth of the lesion. When the break of epithelial lining is confined to the mucosa without penetrating through the muscularis mucosae, the superficial lesion is called ‘erosion’."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Gastric ulcer is a hole in the lining of the stomach. This hole is caused by corrosion of the acidic digestive juices, secreted by stomach cells. The disease occurs when there is imbalance of acidity of digestive juice and protective mechanism of the stomach mucous. Helicobacter pylori infection, use of anti-inflammatory medications, and cigarette smoking are some of the related factors. The disease can cause abdominal pain or epigastric pain described as a burning or gnawing discomfort, and also the disease can represent a malignancy."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mucosal defect of the stomach"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Peptic ulcer of stomach"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute haemorrhagic erosive gastritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1368763406",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1368763406"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant neoplasms of stomach"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1397617262",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1397617262"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ]
+}

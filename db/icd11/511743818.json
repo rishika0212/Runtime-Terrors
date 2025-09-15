@@ -1,0 +1,45 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/511743818",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/237422666"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#511743818",
+  "code": "1D90",
+  "source": "http://id.who.int/icd/entity/511743818",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/511743818/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/622600769",
+        "http://id.who.int/icd/release/11/2024-01/mms/1683090852"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Adenovirus infection of unspecified site"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Adenovirus infections most commonly cause illness of the respiratory system; however, depending on the infecting serotype, they may also cause various other illnesses and presentations."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/738030718"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/2071159826"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Adenovirus infection of unspecified site"
+      }
+    }
+  ]
+}

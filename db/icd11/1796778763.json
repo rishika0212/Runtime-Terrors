@@ -1,0 +1,98 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1796778763",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1456264474"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1796778763",
+  "code": "LA90.11",
+  "source": "http://id.who.int/icd/entity/1796778763",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1796778763/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1031510592",
+        "http://id.who.int/icd/release/11/2024-01/mms/465545679",
+        "http://id.who.int/icd/release/11/2024-01/mms/2122474603",
+        "http://id.who.int/icd/release/11/2024-01/mms/970208182",
+        "http://id.who.int/icd/release/11/2024-01/mms/481430149",
+        "http://id.who.int/icd/release/11/2024-01/mms/276642106",
+        "http://id.who.int/icd/release/11/2024-01/mms/1525493612"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Microcystic lymphatic malformation"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Microcystic lymphatic malformations consist of clusters of dilated lymphatic vessels which have developed without connection to the systemic lymphatic circulation. They present with grouped clear or haemorrhagic vesicles anywhere on the skin or mucous membrane."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Lymphangioma circumscriptum"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Circumscribed lymphatic malformation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/88890474",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1525487462"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Microcystic lymphatic malformation"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Lymphangioma circumscriptum"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Capillary lymphangioma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Capillary lymphatic malformation"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Microcystic infiltrating lymphatic malformation"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Microcystic lymphangioma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Superficial lymphangioma"
+      }
+    }
+  ]
+}

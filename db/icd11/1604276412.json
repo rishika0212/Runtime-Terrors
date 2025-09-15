@@ -1,0 +1,71 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1604276412",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/902999289"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1604276412",
+  "code": "AB15",
+  "source": "http://id.who.int/icd/entity/1604276412",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1604276412/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Chronic myringitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Persistent or recurrent inflammation of the tympanic membrane."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic tympanitis"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic myringitis with otitis media"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/38010200",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/38010200"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic myringitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic tympanitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic myringitis without mention of otitis media"
+      }
+    }
+  ]
+}

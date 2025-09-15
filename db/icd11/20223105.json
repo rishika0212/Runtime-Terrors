@@ -1,0 +1,61 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/20223105",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1271971260"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#20223105",
+  "code": "LA13.1",
+  "source": "http://id.who.int/icd/entity/20223105",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/20223105/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Coloboma of choroid or retina"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition of the eye characterised by absence of the retina in the lower inside corner of the eye."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Coloboma of choroid or retina"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chorioretinal coloboma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Coloboma of choroid or retina, unilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/893019997"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Coloboma of choroid or retina, bilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/478961610"
+    }
+  ]
+}

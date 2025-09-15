@@ -1,0 +1,126 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/748678746",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1528413662"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#748678746",
+  "code": "GA13.1",
+  "source": "http://id.who.int/icd/entity/748678746",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/748678746/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1782448509",
+        "http://id.who.int/icd/release/11/2024-01/mms/1730349811",
+        "http://id.who.int/icd/release/11/2024-01/mms/1568013412",
+        "http://id.who.int/icd/release/11/2024-01/mms/191897765",
+        "http://id.who.int/icd/release/11/2024-01/mms/837187090",
+        "http://id.who.int/icd/release/11/2024-01/mms/402925049"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Low grade squamous intraepithelial lesion of vulva"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition of the vulva, characterised by lesion of the squamous vulvar intraepithelial cells, leading to unspecified grade or severity of dysplasia and varying degrees of atypia of the cells. This condition is associated with smoking and immunosuppression, or conditions such as human papillomavirus, chronic vulvar irritation, or herpes simplex virus type 2. Confirmation is by tissue biopsy."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Genital warts of vulva"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1923797700",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/144526718"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Squamous cell carcinoma of vulva"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/146824338",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/146824338"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "High grade squamous intraepithelial lesion of vulva, HPV-associated"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/482153699",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/482153699"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Vulvar intraepithelial neoplasia, HPV-independent"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/214973733",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/214973733"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Low grade squamous intraepithelial lesion of vulva"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "dysplasia of vulva NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "intraepithelial neoplasia of vulva NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "epithelial hyperplasia of vulva"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "mild vulvar dysplasia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "VIN I- [vulvar intraepithelial neoplasia grade I]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "LSIL – [low grade squamous intraepithelial lesion of vulva]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "epithelial hyperplasia of labia (deprecated)"
+      },
+      "deprecated": true
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "VIN [vulvar intraepithelial neoplasia] NOS"
+      }
+    }
+  ]
+}

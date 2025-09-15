@@ -1,0 +1,128 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/362161517",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2064197173"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#362161517",
+  "code": "5B5K.0",
+  "source": "http://id.who.int/icd/entity/362161517",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired iron deficiency anaemia due to blood loss"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/942744561",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/942744561"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired iron deficiency anaemia due to low intake"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1809391766",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1809391766"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired iron deficiency anaemia due to decreased absorption"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1767374177",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1767374177"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired iron deficiency anaemia due to increased requirement"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1539184766",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1539184766"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired iron deficiency anaemia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/84542709",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1577750667/unspecified"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dementia due to iron deficiency"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1873836819",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1468768235/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/362161517/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/392405182"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Iron deficiency"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Iron deficiency is a state in which there is insufficient iron to maintain the normal physiological function of blood, brain and muscles. It can exist in the absence of anaemia if it has not lasted long enough or if it has not been severe enough to cause the haemoglobin concentration to fall below the threshold for the specific sex and age group. Iron deficiency is the most common nutritional deficiency."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Iron deficiency is defined as a condition in which there are no mobilizable iron stores and in which signs of a compromised supply of iron to tissues, including the erythron, are noted. The more severe stages of iron deficiency are associated with anaemia. Nutritional iron deficiency implies that the diet cannot supply enough iron to cover the body’s physiological requirements for this mineral. Populations most at risk for iron deficiency are infants, children, adolescents, and women of childbearing age, especially pregnant women. \r\n\r\nIron deficiency with or without anaemia has important consequences for human health and child development: anaemic women and their infants are at greater risk of dying during the perinatal period; there is increased risk of low birth weight; children’s mental and physical development is delayed or impaired by iron deficiency."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Iron deficiency anaemia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1577750667",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1577750667"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1867773640"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/517413026"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Iron deficiency"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fe deficiency"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Intellectual developmental disorder due to iron deficiency"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1428593972"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Iron depletion without anaemia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1120661005"
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1666440799",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1845275831"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1666440799",
+  "code": "9D00.0",
+  "source": "http://id.who.int/icd/entity/1666440799",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1666440799/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1666440799/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/968811028"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1666440799/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1027961521"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Myopia"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A refractive error in which rays of light entering the eye parallel to the optic axis are brought to a focus in front of the retina when ocular accommodation is relaxed. This usually results from the eyeball being too long from front to back, but can be caused by an overly curved cornea, a lens with increased optical power, or both. It is also called nearsightedness."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "degenerative myopia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/543495250",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/543495250"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myopia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "near sighted"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "near-sightedness"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "nearsighted"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "nearsightedness"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Axial myopia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/103113807"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital axial myopia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/602421645"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital myopia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1764828792"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Progressive myopia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/598372717"
+    }
+  ]
+}

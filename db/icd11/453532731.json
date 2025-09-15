@@ -1,0 +1,285 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/453532731",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1803005915"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#453532731",
+  "code": "DD50.0",
+  "source": "http://id.who.int/icd/entity/453532731",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/453532731/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/453532731/postcoordinationScale/temporalPatternAndOnset",
+      "axisName": "http://id.who.int/icd/schema/temporalPatternAndOnset",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1721353160"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Diaphragmatic hernia"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A hernia occurs through the foramen in the diaphragm."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "paraoesophageal hernia"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital diaphragmatic hernia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1414428936",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1414428936"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital hiatus hernia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1747893182",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1747893182"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Diaphragmatic hernia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hiatus hernia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "oesophageal hiatus hernia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "paraoesophageal hernia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "sliding hiatus hernia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Diaphragmatic hernia with obstruction, without gangrene"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1647500715"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "incarcerated sliding hiatus hernia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1647500715"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Diaphragmatic hernia causing obstruction without gangrene"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1647500715"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hiatus hernia with obstruction"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1647500715"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "diaphragmatic hernia with obstruction"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1647500715"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "incarcerated diaphragmatic hernia without gangrene"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1647500715"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "irreducible diaphragmatic hernia without gangrene"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1647500715"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "obstructive sliding hiatus hernia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1647500715"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "obstructed diaphragmatic hernia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1647500715"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "strangulated sliding hiatus hernia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1647500715"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "obstructive hiatus hernia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1647500715"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "obstructive oesophageal hiatal hernia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1647500715"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "strangulated diaphragmatic hernia without gangrene"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1647500715"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Diaphragmatic hernia with gangrene"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/125374527"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gangrenous diaphragmatic hernia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/125374527"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "gangrenous diaphragm hernia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/125374527"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "gangrenous hiatus hernia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/125374527"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "gangrenous oesophageal hiatal hernia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/125374527"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hiatus hernia with gangrene"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/125374527"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "gangrenous sliding hiatus hernia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/125374527"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Diaphragmatic hernia without obstruction or gangrene"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/167679721"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "stomach hernia into pleural cavity"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/167679721"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Diaphragmatic hernia NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/167679721"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hiatal hernia NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/167679721"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "paraesophageal hernia NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/167679721"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Saint's Triad"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/459455376"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2055968951",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1939815950"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/520566646",
+    "http://id.who.int/icd/release/11/2024-01/mms/284380638",
+    "http://id.who.int/icd/release/11/2024-01/mms/1229869827",
+    "http://id.who.int/icd/release/11/2024-01/mms/2096491408",
+    "http://id.who.int/icd/release/11/2024-01/mms/2055968951/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/2055968951/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2055968951",
+  "code": "1F23",
+  "source": "http://id.who.int/icd/entity/2055968951",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neonatal candidosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1080592090",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1080592090"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Invasive neonatal candidosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1116154797",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1080592090"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2055968951/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/622600769",
+        "http://id.who.int/icd/release/11/2024-01/mms/1683090852"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Candidosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Candidosis is an infection caused by yeasts of the genus Candida. Superficial infections of the mucous membranes and skin are common, but deep invasive disease including fungal sepsis, endocarditis and meningitis may also occur."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "moniliasis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "candidiasis"
+      }
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1080592090"
+  ]
+}

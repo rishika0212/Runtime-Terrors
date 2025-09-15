@@ -1,0 +1,61 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/933570887",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/601991681"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/949012083",
+    "http://id.who.int/icd/release/11/2024-01/mms/1574636519",
+    "http://id.who.int/icd/release/11/2024-01/mms/933570887/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#933570887",
+  "code": "DA26.0",
+  "source": "http://id.who.int/icd/entity/933570887",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/933570887/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/72252748"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/933570887/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/933570887/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/985510409",
+        "http://id.who.int/icd/release/11/2024-01/mms/1194562592",
+        "http://id.who.int/icd/release/11/2024-01/mms/481852400",
+        "http://id.who.int/icd/release/11/2024-01/mms/469481605",
+        "http://id.who.int/icd/release/11/2024-01/mms/649193479",
+        "http://id.who.int/icd/release/11/2024-01/mms/1506184775"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Oesophageal varices"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Abnormally dilated veins developed as portosystemic shunts in the lining of the lower oesophagus in patients with portal hypertension. Once oesophageal varices develop, they continue to grow, and bleeding from oesophageal varices can be fatal."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ]
+}

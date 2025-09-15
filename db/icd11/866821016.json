@@ -1,0 +1,84 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/866821016",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/425728062"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#866821016",
+  "code": "PB5A",
+  "source": "http://id.who.int/icd/entity/866821016",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/866821016/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/334423054",
+        "http://id.who.int/icd/release/11/2024-01/mms/435227771"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/866821016/postcoordinationScale/activityWhenInjured",
+      "axisName": "http://id.who.int/icd/schema/activityWhenInjured",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2071638841",
+        "http://id.who.int/icd/release/11/2024-01/mms/1107435129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1428847289",
+        "http://id.who.int/icd/release/11/2024-01/mms/821249273",
+        "http://id.who.int/icd/release/11/2024-01/mms/160164281"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/866821016/postcoordinationScale/placeOfOccurrence",
+      "axisName": "http://id.who.int/icd/schema/placeOfOccurrence",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowedExceptFromSameBlock",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1081404635",
+        "http://id.who.int/icd/release/11/2024-01/mms/1786773723"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/866821016/postcoordinationScale/alcoholUseInInjury",
+      "axisName": "http://id.who.int/icd/schema/alcoholUseInInjury",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowedExceptFromSameBlock",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1993515327",
+        "http://id.who.int/icd/release/11/2024-01/mms/1336544383",
+        "http://id.who.int/icd/release/11/2024-01/mms/1484941503",
+        "http://id.who.int/icd/release/11/2024-01/mms/1029396223",
+        "http://id.who.int/icd/release/11/2024-01/mms/712192575"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/866821016/postcoordinationScale/psychoactiveDrugUseInInjury",
+      "axisName": "http://id.who.int/icd/schema/psychoactiveDrugUseInInjury",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowedExceptFromSameBlock",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1848703062",
+        "http://id.who.int/icd/release/11/2024-01/mms/1464358166",
+        "http://id.who.int/icd/release/11/2024-01/mms/1080046038",
+        "http://id.who.int/icd/release/11/2024-01/mms/632885142",
+        "http://id.who.int/icd/release/11/2024-01/mms/848390998"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Unintentional abandonment"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unintentional abandonment"
+      }
+    }
+  ]
+}

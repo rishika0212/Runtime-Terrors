@@ -1,0 +1,95 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/13549609",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/460401849"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/833290117",
+    "http://id.who.int/icd/release/11/2024-01/mms/1537795472",
+    "http://id.who.int/icd/release/11/2024-01/mms/91307469",
+    "http://id.who.int/icd/release/11/2024-01/mms/1659650734",
+    "http://id.who.int/icd/release/11/2024-01/mms/1252523367",
+    "http://id.who.int/icd/release/11/2024-01/mms/1352083884",
+    "http://id.who.int/icd/release/11/2024-01/mms/837518665",
+    "http://id.who.int/icd/release/11/2024-01/mms/306614918",
+    "http://id.who.int/icd/release/11/2024-01/mms/1865972700",
+    "http://id.who.int/icd/release/11/2024-01/mms/173087261",
+    "http://id.who.int/icd/release/11/2024-01/mms/524413192",
+    "http://id.who.int/icd/release/11/2024-01/mms/710175193",
+    "http://id.who.int/icd/release/11/2024-01/mms/620459604",
+    "http://id.who.int/icd/release/11/2024-01/mms/572171732",
+    "http://id.who.int/icd/release/11/2024-01/mms/2111578657",
+    "http://id.who.int/icd/release/11/2024-01/mms/396292097"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#13549609",
+  "code": "PK81",
+  "source": "http://id.who.int/icd/entity/13549609",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Skin complications of BCG immunisation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1401435771",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1401435771"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/13549609/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1435254666",
+        "http://id.who.int/icd/release/11/2024-01/mms/1766440644",
+        "http://id.who.int/icd/release/11/2024-01/mms/1954798891",
+        "http://id.who.int/icd/release/11/2024-01/mms/21500692",
+        "http://id.who.int/icd/release/11/2024-01/mms/334423054",
+        "http://id.who.int/icd/release/11/2024-01/mms/274880002",
+        "http://id.who.int/icd/release/11/2024-01/mms/1296093776",
+        "http://id.who.int/icd/release/11/2024-01/mms/868865918",
+        "http://id.who.int/icd/release/11/2024-01/mms/1218729044",
+        "http://id.who.int/icd/release/11/2024-01/mms/426429380",
+        "http://id.who.int/icd/release/11/2024-01/mms/197934298",
+        "http://id.who.int/icd/release/11/2024-01/mms/1256772020",
+        "http://id.who.int/icd/release/11/2024-01/mms/1639304259",
+        "http://id.who.int/icd/release/11/2024-01/mms/1473673350",
+        "http://id.who.int/icd/release/11/2024-01/mms/30659757",
+        "http://id.who.int/icd/release/11/2024-01/mms/714000734",
+        "http://id.who.int/icd/release/11/2024-01/mms/1306203631",
+        "http://id.who.int/icd/release/11/2024-01/mms/1843895818",
+        "http://id.who.int/icd/release/11/2024-01/mms/435227771",
+        "http://id.who.int/icd/release/11/2024-01/mms/1162198017"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Certain medical procedures associated with injury or harm in therapeutic use"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Circumstances associated with a surgical or other medical procedure influencing the episode of care, without injury or harm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/558062861",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/558062861"
+    }
+  ],
+  "codingNote": {
+    "@language": "en",
+    "@value": "Code first the injury or harm associated with the procedure. Code also the mode or mechanism that explains the main way the cause leads to injury or harm."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Certain medical procedures associated with injury or harm in therapeutic use"
+      }
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/73523461",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1093888988"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#73523461",
+  "code": "BB91.0",
+  "source": "http://id.who.int/icd/entity/73523461",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/73523461/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/562478860",
+        "http://id.who.int/icd/release/11/2024-01/mms/1663264387",
+        "http://id.who.int/icd/release/11/2024-01/mms/1201187093"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/73523461/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Rheumatic pulmonary valve insufficiency"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is a rheumatic condition where the pulmonary valve is not strong enough to prevent backflow to the right ventricle."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1380872553"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Rheumatic pulmonary valve insufficiency"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "rheumatic pulmonary valve incompetence"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "rheumatic pulmonary valve regurgitation"
+      }
+    }
+  ]
+}

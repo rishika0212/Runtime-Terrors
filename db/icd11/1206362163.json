@@ -1,0 +1,193 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1206362163",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1327469665"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1206362163",
+  "code": "DA20.1",
+  "source": "http://id.who.int/icd/entity/1206362163",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1206362163/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/72252748"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1206362163/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Diverticulum of oesophagus, acquired"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Diverticulum of oesophagus is a disorder having out-pouchings from the oesophageal wall."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Oesophageal pouch, acquired"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Rokitansky diverticulum"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital diverticulum of oesophagus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/42183618",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/42183618"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Diverticulum of oesophagus, acquired"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acquired oesophageal diverticulum"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Rokitansky diverticulum"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acquired diverticulum of oesophagus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acquired epiphrenic diverticulum of oesophagus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acquired oesophagus diverticulum"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acquired traction diverticulum of oesophagus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "diverticulum of cardia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acquired pulsion diverticulum of oesophagus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "traction diverticulum"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Oesophageal pouch, acquired"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Diverticulum of oesophagus, acquired, with complication"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1647392132"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Diverticulum of oesophagus, acquired without complication"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1527581553"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired pharyngo-oesophageal diverticulum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1884416826"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acquired pharyngoesophageal diverticulum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1884416826"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Zenker diverticulum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/19517675"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Zenker diverticula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/19517675"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hypopharyngeal diverticulum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/19517675"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pharyngeal pouch, acquired"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/19517675"
+    }
+  ]
+}

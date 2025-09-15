@@ -1,0 +1,51 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/161015452",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1981248479"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#161015452",
+  "code": "3A71.0",
+  "source": "http://id.who.int/icd/entity/161015452",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/161015452/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/879154182",
+        "http://id.who.int/icd/release/11/2024-01/mms/944754984",
+        "http://id.who.int/icd/release/11/2024-01/mms/2009008947",
+        "http://id.who.int/icd/release/11/2024-01/mms/531713107",
+        "http://id.who.int/icd/release/11/2024-01/mms/1167133946",
+        "http://id.who.int/icd/release/11/2024-01/mms/1158485193",
+        "http://id.who.int/icd/release/11/2024-01/mms/1844086508",
+        "http://id.who.int/icd/release/11/2024-01/mms/264268169"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Anaemia in neoplastic disease"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease caused by chronic neoplastic diseases. This disease is characterised by inflammatory responses targeted at red blood cell leading to low levels of red blood cells in the body. This disease may present with pallor, fatigue, or shortness of breath. Confirmation is by identification of low levels of red blood cells in a blood sample"
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1426960900"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1148519290"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Anaemia in neoplastic disease"
+      }
+    }
+  ]
+}

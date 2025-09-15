@@ -1,0 +1,93 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/810545508",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/489508344"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#810545508",
+  "code": "EH70",
+  "source": "http://id.who.int/icd/entity/810545508",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Non-melanin pigmentation due to drug"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1950677208",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/609177862/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/810545508/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/223243926",
+        "http://id.who.int/icd/release/11/2024-01/mms/947150833",
+        "http://id.who.int/icd/release/11/2024-01/mms/1810600222"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/810545508/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1583926619",
+        "http://id.who.int/icd/release/11/2024-01/mms/1323892810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Pigmentary abnormalities of skin due to drug"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Disturbances of skin colour due to an ingested or injected drug. These may result from a number of different mechanisms including the colour of the drug itself, disturbed melanisation of the skin or deposition of pigments by drug breakdown products."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pigmentary abnormalities of skin due to drug"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "drug application site discolouration"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "discolouration of skin due to drug"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced hypermelanosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1818632208"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced hypomelanosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1913292067"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "medicament-induced hypomelanosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1913292067"
+    }
+  ]
+}

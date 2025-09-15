@@ -1,0 +1,59 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/344162786/other",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/344162786"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#344162786/other",
+  "code": "1A03.Y",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/344162786/other/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1088044739"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/344162786/other/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/916407020"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Intestinal infections due to other specified Escherichia coli"
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/911707612"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Intestinal infections due to other specified Escherichia coli"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Enteroaggregative Escherichia coli infection"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/950749043"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "EAEC - [Enteroaggregative Escherichia coli] infection"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/950749043"
+    }
+  ]
+}

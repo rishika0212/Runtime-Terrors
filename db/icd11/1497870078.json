@@ -1,0 +1,90 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1497870078",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1742998538"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1497870078",
+  "code": "DB32.20",
+  "source": "http://id.who.int/icd/entity/1497870078",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1497870078/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1497870078/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1497870078/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/765321840",
+        "http://id.who.int/icd/release/11/2024-01/mms/784669405"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Toxic megacolon"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Toxic megacolon is an acute form of colonic distension characterised by a very dilated colon, accompanied by abdominal distension (bloating), and sometimes fever, abdominal pain, or shock. \"Toxic\" means that this complication occurs with inflammation. Toxic megacolon is a rare, life-threatening widening of the large intestine that occurs within a few days, occurring as a complication of inflammatory bowel disease, such as ulcerative colitis and Crohn disease."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Toxic megacolon"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "toxic dilatation of colon"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "toxic functional megacolon"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Toxic megacolon due to Crohn disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/994401306"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Toxic megacolon due to ulcerative colitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/766466445"
+    }
+  ]
+}

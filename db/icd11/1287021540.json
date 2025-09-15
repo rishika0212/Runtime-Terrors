@@ -1,0 +1,89 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1287021540",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2064398473"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1287021540",
+  "code": "1C12.0",
+  "source": "http://id.who.int/icd/entity/1287021540",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1287021540/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1323682030"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Whooping cough due to Bordetella pertussis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease of the upper respiratory tract, caused by an infection of the gram-negative bacteria Bordetella pertussis. This disease typically presents with paroxysmal cough, inspiratory whoop, and fainting or vomiting after coughing. Transmission is by inhalation of infected respiratory secretions. Confirmation is by identification of Bordetella pertussis from nasopharyngeal samples or sputum, or detection of antibodies against Bordetella pertussis."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1935107489"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Whooping cough due to Bordetella pertussis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bordetella pertussis infection"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pneumonia due to whooping cough due to Bordetella pertussis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/821284594"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pneumonia in pertussis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/821284594"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pneumonia in whooping cough"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/821284594"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pneumonia with pertussis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/821284594"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pneumonia with whooping cough"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/821284594"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pneumonia due to whooping cough"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/821284594"
+    }
+  ]
+}

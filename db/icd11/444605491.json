@@ -1,0 +1,113 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/444605491",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/766129123"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#444605491",
+  "code": "MF50.20",
+  "source": "http://id.who.int/icd/entity/444605491",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/444605491/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1118102209"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Stress incontinence"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Urinary incontinence due to diminished urethral pressure in straining or coughing."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stress incontinence associated with pelvic organ prolapse"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1737968024",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1737968024"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stress incontinence"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "genuine stress incontinence"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "incontinence when straining"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "stress bladder incontinence"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "stress urinary incontinence"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "SI - [stress incontinence]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary stress incontinence"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/285447646"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postoperative stress incontinence"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1644780969"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Post prostatectomy stress incontinence"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1644780969"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Male stress incontinence"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/35369402"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "male urinary stress incontinence"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/35369402"
+    }
+  ]
+}

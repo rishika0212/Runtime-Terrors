@@ -1,0 +1,67 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/879387721",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/634977622"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1198568688",
+    "http://id.who.int/icd/release/11/2024-01/mms/2124047550",
+    "http://id.who.int/icd/release/11/2024-01/mms/1310747211",
+    "http://id.who.int/icd/release/11/2024-01/mms/433190248",
+    "http://id.who.int/icd/release/11/2024-01/mms/368064284",
+    "http://id.who.int/icd/release/11/2024-01/mms/109467922",
+    "http://id.who.int/icd/release/11/2024-01/mms/1514286287",
+    "http://id.who.int/icd/release/11/2024-01/mms/1758246495",
+    "http://id.who.int/icd/release/11/2024-01/mms/879387721/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/879387721/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#879387721",
+  "code": "9B01",
+  "source": "http://id.who.int/icd/entity/879387721",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Horner syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/178756462",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/178756462"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Horner syndrome, acquired"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1159758008",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/178756462"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Horner syndrome, congenital"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2141014809",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/178756462"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/879387721/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Disorders of the efferent pupillary system"
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1976860439",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1952274258"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1976860439",
+  "code": "NE81.1",
+  "source": "http://id.who.int/icd/entity/1976860439",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Disruption of caesarean section wound"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1007212671",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1007212671"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Disruption of perineal obstetric wound"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1497568747",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1497568747"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1976860439/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/223243926",
+        "http://id.who.int/icd/release/11/2024-01/mms/947150833",
+        "http://id.who.int/icd/release/11/2024-01/mms/1810600222"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1976860439/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/460401849",
+        "http://id.who.int/icd/release/11/2024-01/mms/1642025150",
+        "http://id.who.int/icd/release/11/2024-01/mms/1162198017",
+        "http://id.who.int/icd/release/11/2024-01/mms/431804121"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Disruption of operation wound, not elsewhere classified"
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dehiscence of operation wound"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Rupture of operation wound"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postsurgical anastomosis leak"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1688232911",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1302613751"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1007212671",
+    "http://id.who.int/icd/entity/1497568747"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/59436623"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Disruption of operation wound, not elsewhere classified"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "burst stitches or sutures"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dehiscence of operation wound"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "dehiscence of operation wound nos"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "dehiscence of surgical wound"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "disruption of operation wound"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "disruption of operation wound nos"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "evisceration of operation wound"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "postoperative wound breakdown"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Rupture of operation wound"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ruptured operation wound"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "wound breakdown"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dehiscence of surgical wound of skin"
+      }
+    }
+  ]
+}

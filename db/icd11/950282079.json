@@ -1,0 +1,67 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/950282079",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1946973604"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#950282079",
+  "code": "2A81.0",
+  "source": "http://id.who.int/icd/entity/950282079",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/950282079/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/393131222"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/950282079/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Primary mediastinal large B-cell lymphoma"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A large B-cell non-Hodgkin lymphoma arising in the mediastinum. Morphologically it is characterised by a massive diffuse lymphocytic proliferation associated with compartmentalizing fibrosis."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary mediastinal large B-cell lymphoma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mediastinal large B-cell lymphoma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mediastinal diffuse large-cell lymphoma with sclerosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1571332036"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mediastinal thymic large B-cell lymphoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/778119268"
+    }
+  ]
+}

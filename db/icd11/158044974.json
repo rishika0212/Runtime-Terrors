@@ -1,0 +1,215 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/158044974",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1450176443"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#158044974",
+  "code": "PB24",
+  "source": "http://id.who.int/icd/entity/158044974",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/158044974/postcoordinationScale/medication",
+      "axisName": "http://id.who.int/icd/schema/medication",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1135938564",
+        "http://id.who.int/icd/release/11/2024-01/mms/1769423691",
+        "http://id.who.int/icd/release/11/2024-01/mms/706936574",
+        "http://id.who.int/icd/release/11/2024-01/mms/1146813847",
+        "http://id.who.int/icd/release/11/2024-01/mms/1864779620",
+        "http://id.who.int/icd/release/11/2024-01/mms/15834078",
+        "http://id.who.int/icd/release/11/2024-01/mms/372654131"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/158044974/postcoordinationScale/activityWhenInjured",
+      "axisName": "http://id.who.int/icd/schema/activityWhenInjured",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2071638841",
+        "http://id.who.int/icd/release/11/2024-01/mms/1107435129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1428847289",
+        "http://id.who.int/icd/release/11/2024-01/mms/821249273",
+        "http://id.who.int/icd/release/11/2024-01/mms/160164281"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/158044974/postcoordinationScale/placeOfOccurrence",
+      "axisName": "http://id.who.int/icd/schema/placeOfOccurrence",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowedExceptFromSameBlock",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1670965842",
+        "http://id.who.int/icd/release/11/2024-01/mms/1524647698",
+        "http://id.who.int/icd/release/11/2024-01/mms/1304962002",
+        "http://id.who.int/icd/release/11/2024-01/mms/672210322",
+        "http://id.who.int/icd/release/11/2024-01/mms/1060731218",
+        "http://id.who.int/icd/release/11/2024-01/mms/713258542",
+        "http://id.who.int/icd/release/11/2024-01/mms/292139218",
+        "http://id.who.int/icd/release/11/2024-01/mms/839669614",
+        "http://id.who.int/icd/release/11/2024-01/mms/623129518",
+        "http://id.who.int/icd/release/11/2024-01/mms/278563516",
+        "http://id.who.int/icd/release/11/2024-01/mms/1231726668",
+        "http://id.who.int/icd/release/11/2024-01/mms/1581436044",
+        "http://id.who.int/icd/release/11/2024-01/mms/1731879372",
+        "http://id.who.int/icd/release/11/2024-01/mms/391771100",
+        "http://id.who.int/icd/release/11/2024-01/mms/53410898"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Unintentional exposure to or harmful effects of analgesics, antipyretics or nonsteroidal anti-inflammatory drugs"
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "accidental overdose of analgesics, antipyretics or nonsteroidal anti-inflammatory drugs"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Substances associated with injury or harm in therapeutic use"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1583926619",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1583926619"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unintentional exposure to or harmful effects of analgesics, antipyretics or nonsteroidal anti-inflammatory drugs"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "accidental overdose of analgesics, antipyretics or nonsteroidal anti-inflammatory drugs"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "accidental poisoning by analgesics, antipyretics or nonsteroidal anti-inflammatory drugs"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "antipyretics or nonsteroidal anti-inflammatory drugs taken in error"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "accidental overdose of non steroidal antiinflammatory drugs [NSAID]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "accidental overdose of non steroidal antirheumatic drugs [NSAR]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unintentional exposure to or harmful effects of acetylsalicylic acid"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1505229549"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unintentional exposure to or harmful effects of other salicylates"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/646765044"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unintentional exposure to or harmful effects of paracetamol"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1507651811"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "unintentional harmful effect of acetaminophen"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1507651811"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acetaminophen toxicity"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1507651811"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unintentional exposure to or harmful effects of 4-Aminophenol derivatives"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/210962094"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unintentional exposure to or harmful effects of pyrazolone derivatives"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1132345001"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unintentional exposure to or harmful effects of ibuprofen"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1011160502"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unintentional exposure to or harmful effects of other propionic acid derivatives"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/63927984"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unintentional exposure to or harmful effects of indomethacin"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/970361402"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unintentional exposure to or harmful effects of other nonsteroidal anti-inflammatory drugs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1380372973"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Toxic effect of NSAID"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1380372973"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unintentional exposure to or harmful effects of antirheumatics, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/763228916"
+    }
+  ]
+}

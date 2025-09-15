@@ -1,0 +1,62 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/539646260",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1397288146"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1880404123",
+    "http://id.who.int/icd/release/11/2024-01/mms/1878784470",
+    "http://id.who.int/icd/release/11/2024-01/mms/1865892780",
+    "http://id.who.int/icd/release/11/2024-01/mms/804063651",
+    "http://id.who.int/icd/release/11/2024-01/mms/1091709256",
+    "http://id.who.int/icd/release/11/2024-01/mms/1295248180",
+    "http://id.who.int/icd/release/11/2024-01/mms/515072580",
+    "http://id.who.int/icd/release/11/2024-01/mms/311599160",
+    "http://id.who.int/icd/release/11/2024-01/mms/539646260/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/539646260/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#539646260",
+  "code": "8A68",
+  "source": "http://id.who.int/icd/entity/539646260",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/539646260/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2073711696",
+        "http://id.who.int/icd/release/11/2024-01/mms/517052870",
+        "http://id.who.int/icd/release/11/2024-01/mms/1786562875",
+        "http://id.who.int/icd/release/11/2024-01/mms/1376414432"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Types of seizures"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dissociative neurological symptom disorder, with non-epileptic seizures"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1620688958",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1620688958"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neonatal seizures"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2083324835",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2083324835"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/2083324835"
+  ]
+}

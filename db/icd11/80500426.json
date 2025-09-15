@@ -1,0 +1,104 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/80500426",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/37094742"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#80500426",
+  "code": "LB99.7",
+  "source": "http://id.who.int/icd/entity/80500426",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/80500426/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/80500426/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/822750113"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Adactyly of hands"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition caused by failure of the digits on the hand to correctly develop during the antenatal period. This condition is characterised by absence of digits on the hand."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Adactyly of hands"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital absence of finger"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Agenesis of finger"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital absence or hypoplasia of thumb"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1410606584"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital absence or hypoplasia of thumb, unilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1906360376"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital absence or hypoplasia of thumb, bilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2105606732"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital absence or hypoplasia of finger excluding thumb"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1776501968"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital absence or hypoplasia of finger excluding thumb, unilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1707247284"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital absence or hypoplasia of finger excluding thumb, bilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/910299076"
+    }
+  ]
+}

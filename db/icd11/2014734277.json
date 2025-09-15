@@ -1,0 +1,606 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2014734277",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/414849600"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2014734277",
+  "code": "FB83.22",
+  "source": "http://id.who.int/icd/entity/2014734277",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2014734277/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2014734277/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/183512318",
+        "http://id.who.int/icd/release/11/2024-01/mms/1415462031"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2014734277/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1450176443",
+        "http://id.who.int/icd/release/11/2024-01/mms/1676151582",
+        "http://id.who.int/icd/release/11/2024-01/mms/1583926619",
+        "http://id.who.int/icd/release/11/2024-01/mms/1323892810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Drug-induced adult osteomalacia"
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/438200634"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced adult osteomalacia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "drug-induced osteomalacia in adults"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "medicament-induced adult osteomalacia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced adult osteomalacia, multiple sites"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/455633971"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "drug-induced osteomalacia in adults, multiple sites"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/455633971"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced adult osteomalacia, shoulder region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2120458663"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "drug-induced osteomalacia in adults, shoulder region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2120458663"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced adult osteomalacia, clavicle"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/366602615"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "drug-induced osteomalacia in adults, clavicle"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/366602615"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced adult osteomalacia, scapula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/873370363"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "drug-induced osteomalacia in adults, scapula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/873370363"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced adult osteomalacia, acromioclavicular joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2025785083"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "drug-induced osteomalacia in adults, acromioclavicular joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2025785083"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced adult osteomalacia, glenohumeral joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/403885136"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "drug-induced osteomalacia in adults, glenohumeral joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/403885136"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced adult osteomalacia, sternoclavicular joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2029866523"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "drug-induced osteomalacia in adults, sternoclavicular joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2029866523"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced adult osteomalacia, upper arm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/181334360"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "drug-induced osteomalacia in adults, upper arm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/181334360"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced adult osteomalacia, humerus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1718414577"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "drug-induced osteomalacia in adults, humerus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1718414577"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced adult osteomalacia, elbow joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1485491897"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "drug-induced osteomalacia in adults, elbow joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1485491897"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced adult osteomalacia, forearm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1871002830"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "drug-induced osteomalacia in adults, forearm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1871002830"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced adult osteomalacia, radius"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/946162930"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "drug-induced osteomalacia in adults, radius"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/946162930"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced adult osteomalacia, ulna"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/998162070"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "drug-induced osteomalacia in adults, ulna"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/998162070"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced adult osteomalacia, wrist joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1151362331"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "drug-induced osteomalacia in adults, wrist joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1151362331"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced adult osteomalacia, hand"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/476819290"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "drug-induced osteomalacia in adults, hand"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/476819290"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced adult osteomalacia, carpus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/451644922"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "drug-induced osteomalacia in adults, carpus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/451644922"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced adult osteomalacia, fingers"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2078719101"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "drug-induced osteomalacia in adults, fingers"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2078719101"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced adult osteomalacia, metacarpus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/70805490"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "drug-induced osteomalacia in adults, metacarpus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/70805490"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced adult osteomalacia, pelvic region or thigh"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2032165580"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "drug-induced osteomalacia in adults, pelvic region or thigh"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2032165580"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced adult osteomalacia, femur"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2118954017"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "drug-induced osteomalacia in adults, femur"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2118954017"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced adult osteomalacia, pelvis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1084919401"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "drug-induced osteomalacia in adults, pelvis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1084919401"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced adult osteomalacia, hip joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1621050923"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "drug-induced osteomalacia in adults, hip joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1621050923"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced adult osteomalacia, lower leg"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/227357235"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "drug-induced osteomalacia in adults, lower leg"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/227357235"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced adult osteomalacia, fibula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/260768788"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "drug-induced osteomalacia in adults, fibula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/260768788"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced adult osteomalacia, knee joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1050076712"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "drug-induced osteomalacia in adults, knee joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1050076712"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced adult osteomalacia, tibia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/688108421"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "drug-induced osteomalacia in adults, tibia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/688108421"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced adult osteomalacia, ankle or foot"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1757872039"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "drug-induced osteomalacia in adults, ankle or foot"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1757872039"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced adult osteomalacia, metatarsus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1457350668"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "drug-induced osteomalacia in adults, metatarsus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1457350668"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced adult osteomalacia, tarsus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/692190053"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "drug-induced osteomalacia in adults, tarsus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/692190053"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced adult osteomalacia, toes"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1713519102"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "drug-induced osteomalacia in adults, toes"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1713519102"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced adult osteomalacia, ankle joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1208910336"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "drug-induced osteomalacia in adults, ankle joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1208910336"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced adult osteomalacia, other joints in foot"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1775892878"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "drug-induced osteomalacia in adults, other joints in foot"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1775892878"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced adult osteomalacia, head"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/846875091"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "drug-induced osteomalacia in adults, head"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/846875091"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced adult osteomalacia, neck"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1389855608"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "drug-induced osteomalacia in adults, neck"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1389855608"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced adult osteomalacia, ribs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/842531123"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "drug-induced osteomalacia in adults, ribs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/842531123"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced adult osteomalacia, skull"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/749315033"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "drug-induced osteomalacia in adults, skull"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/749315033"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced adult osteomalacia, trunk"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/307200401"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "drug-induced osteomalacia in adults, trunk"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/307200401"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced adult osteomalacia, vertebral column"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1923089370"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "drug-induced osteomalacia in adults, vertebral column"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1923089370"
+    }
+  ]
+}

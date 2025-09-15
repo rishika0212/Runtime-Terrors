@@ -1,0 +1,92 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/559241880",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1121827324"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#559241880",
+  "code": "ND57",
+  "source": "http://id.who.int/icd/entity/559241880",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/559241880/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/223243926",
+        "http://id.who.int/icd/release/11/2024-01/mms/947150833",
+        "http://id.who.int/icd/release/11/2024-01/mms/1810600222"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Secondary effect of trauma"
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "deformity NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "scarring resulting from previous injury"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "old amputation"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Post traumatic stress disorder"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2070699808",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2070699808"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Post traumatic wound infection, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/255971852",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/255971852"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Secondary effect of trauma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "deformity NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "old amputation"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "scarring resulting from previous injury"
+      }
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1015890899",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/224323205"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1015890899",
+  "code": "DB99.2",
+  "source": "http://id.who.int/icd/entity/1015890899",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1015890899/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Hepatorenal syndrome"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hepatorenal syndrome following labour or delivery"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1939261267",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/994777876"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1110228123"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hepatorenal syndrome"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hepatorenal failure"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "HRF - [hepatorenal failure]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hepatorenal degeneration"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hepatic renal syndrome"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hepatic renal failure"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "renal hepatic failure"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "urohepatic syndrome"
+      }
+    }
+  ]
+}

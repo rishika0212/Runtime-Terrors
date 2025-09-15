@@ -1,0 +1,100 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1880920858",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/188684108"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1880920858",
+  "code": "KA65.3",
+  "source": "http://id.who.int/icd/entity/1880920858",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neonatal staphylococcal mastitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/278570125",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/756297560"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neonatal streptococcal mastitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/506837766",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/756297560"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1880920858/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Neonatal infectious mastitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease of the breasts in neonates, may be caused by a maternal infection with a bacterial source. This disease is characterised by swelling, erythema, warmth, tenderness, induration of the breast, or purulent discharge from the nipple. It is usually unilateral. This disease may also present with breast abscesses."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Pyogenic infection of the breasts of neonates, whose breast tissue may be enlarged as a result of transplacentally transmitted maternal oestrogens. It is twice as common in female as in male infants; most cases are unilateral. It is most commonly caused by Staphylococcus aureus."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Breast engorgement of newborn"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1356667157",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1356667157"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "noninfective mastitis of newborn"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1356667157",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1356667157"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neonatal infectious mastitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "infective mastitis of newborn"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "newborn breast abscess"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "neonatal breast abscess"
+      }
+    }
+  ]
+}

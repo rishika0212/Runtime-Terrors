@@ -1,0 +1,92 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2139588434",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1003660192"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2139588434",
+  "code": "QA1C",
+  "source": "http://id.who.int/icd/entity/2139588434",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2139588434/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/243015485"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Person with feared complaint in whom no diagnosis is made"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Medical observation or evaluation for suspected diseases or conditions, ruled out"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/461464819",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/461464819"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Person with feared complaint in whom no diagnosis is made"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "feared condition not demonstrated"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "person with feared health condition in whom no diagnosis is made"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "feared complaint unfounded"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "no diagnosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "problem of feared complaint and no disease found"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "problem was normal state"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "condition not demonstrated after medical counselling"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "medical counselling for feared complaint and no disease found"
+      }
+    }
+  ]
+}

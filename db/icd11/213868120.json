@@ -1,0 +1,90 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/213868120",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1859139099"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#213868120",
+  "code": "DD30.2",
+  "source": "http://id.who.int/icd/entity/213868120",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/213868120/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1928625572",
+        "http://id.who.int/icd/release/11/2024-01/mms/1741413713"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/213868120/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acute mesenteric venous occlusion"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Acute mesenteric venous occlusion is an ischemic disorder of sudden interruption of mesenteric venous flow because of venous thrombosis."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute mesenteric venous occlusion"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute mesenteric venous thrombosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "intestinal venous embolism"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "mesenteric venous embolism"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "mesenteric venous thrombosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "thrombosis mesenteric vessel"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "thrombosis of mesenteric vein"
+      }
+    }
+  ]
+}

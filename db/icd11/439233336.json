@@ -1,0 +1,93 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/439233336",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1517885800"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#439233336",
+  "code": "5B5E",
+  "source": "http://id.who.int/icd/entity/439233336",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/439233336/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/868851323",
+        "http://id.who.int/icd/release/11/2024-01/mms/1567256935",
+        "http://id.who.int/icd/release/11/2024-01/mms/1340134114",
+        "http://id.who.int/icd/release/11/2024-01/mms/96676503/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/1411910384/other"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Folate deficiency"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Nutritional deficiency of folate is common in people consuming a limited diet. This can be exacerbated by malabsorption conditions, including coeliac disease and tropical sprue. Pregnant women are at risk for folate deficiency because pregnancy significantly increases the folate requirement, especially during periods of rapid fetal growth (i.e. in the second and third trimester). During lactation, losses of folate in milk also increase the folate requirement. During pregnancy, there is an increased risk of fetal neural tube defects (NTDs), with risk increasing 10-fold as folate status goes from adequate to poor. Between days 21 and 27 post-conception, the neural plate closes to form what will eventually be the spinal cord and cranium. Spina bifida, anencephaly, and other similar conditions are collectively called NTDs. They result from improper closure of the spinal cord and cranium, respectively, and are the most common congenital abnormalities associated with folate deficiency."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "There is moderately strong evidence of an association with a gene variant, which affects folate metabolism and would increase the risk of NTDs. However, there are likely other genotypes that are at special risk for adverse birth outcomes which may respond positively to folic acid supplementation. Some evidence exists to support an association between folate status and the risk of other birth defects such as orofacial clefts and heart defects.\n\nEnsuring sufficient levels of folate in women prior to conception can reduce NTDs by up to 50%. Supplementations of women 15-49 years with folic acid and fortification of foods such as wheat flour with folic acid, are effective interventions for the reduction of birth defects, morbidity, and mortality in newborns."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1867773640"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/517413026"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Folate deficiency"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "folic acid deficiency"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Peripheral neuropathy due to folate deficiency"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1407701809"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dementia due to folate deficiency"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1543028500"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myelopathy due to folate deficiency"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1129841333"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Optic neuropathy due to folate deficiency"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1287733994"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Encephalopathy due to folate deficiency"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/39910258"
+    }
+  ]
+}

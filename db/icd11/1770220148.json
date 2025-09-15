@@ -1,0 +1,76 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1770220148",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/996997454"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1770220148",
+  "code": "AA91.0",
+  "source": "http://id.who.int/icd/entity/1770220148",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1770220148/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1770220148/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/194676178"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Chronic tubotympanic suppurative otitis media"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Having a tympanic membrane perforation for at least three months, chronic suppurative otitis media has traditionally been classified into safe and unsafe type. Chronic tubotympanic suppurative otitis media is considered \"safe\" (meaning it is unlikely to become a worse problem for the patient) if it involves a central perforation of the pars tensa with the inflammatory process affecting the mucosa of the middle ear cleft."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Benign chronic suppurative otitis media"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic tubotympanic disease"
+      }
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic tubotympanic suppurative otitis media"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic tubotympanic disease"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Benign chronic suppurative otitis media"
+      }
+    }
+  ]
+}

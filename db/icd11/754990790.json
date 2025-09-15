@@ -1,0 +1,109 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/754990790",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1842783299"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#754990790",
+  "code": "ND56.1",
+  "source": "http://id.who.int/icd/entity/754990790",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/754990790/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/980862652",
+        "http://id.who.int/icd/release/11/2024-01/mms/851395624",
+        "http://id.who.int/icd/release/11/2024-01/mms/73322695",
+        "http://id.who.int/icd/release/11/2024-01/mms/128104623",
+        "http://id.who.int/icd/release/11/2024-01/mms/1491356379",
+        "http://id.who.int/icd/release/11/2024-01/mms/491063206",
+        "http://id.who.int/icd/release/11/2024-01/mms/185842968",
+        "http://id.who.int/icd/release/11/2024-01/mms/2143219175",
+        "http://id.who.int/icd/release/11/2024-01/mms/558785723",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Open wound of unspecified body region"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Traumatic amputations involving multiple body regions"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1599611342",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1599611342"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Open wounds involving multiple body regions"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1478222501",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1478222501"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "traumatic amputation NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1000693956",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1000693956"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Open wound of unspecified body region"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cut NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Open wound NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "penetrating wound NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Puncture wound with foreign body unspecified body region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1439024397"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Laceration of extremity, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/987420829"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "laceration of extremities NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/987420829"
+    }
+  ]
+}

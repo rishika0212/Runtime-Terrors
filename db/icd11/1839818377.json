@@ -1,0 +1,85 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1839818377",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/979278646"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1798822437",
+    "http://id.who.int/icd/release/11/2024-01/mms/882647079",
+    "http://id.who.int/icd/release/11/2024-01/mms/1723965278",
+    "http://id.who.int/icd/release/11/2024-01/mms/625446129",
+    "http://id.who.int/icd/release/11/2024-01/mms/1642291965",
+    "http://id.who.int/icd/release/11/2024-01/mms/1839818377/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1839818377/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1839818377",
+  "code": "1B21",
+  "source": "http://id.who.int/icd/entity/1839818377",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1839818377/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1811629557",
+        "http://id.who.int/icd/release/11/2024-01/mms/1419042429",
+        "http://id.who.int/icd/release/11/2024-01/mms/1520758575",
+        "http://id.who.int/icd/release/11/2024-01/mms/24942658",
+        "http://id.who.int/icd/release/11/2024-01/mms/246291168",
+        "http://id.who.int/icd/release/11/2024-01/mms/1956714047",
+        "http://id.who.int/icd/release/11/2024-01/mms/1271827895",
+        "http://id.who.int/icd/release/11/2024-01/mms/1871342005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1526993921",
+        "http://id.who.int/icd/release/11/2024-01/mms/2069550669",
+        "http://id.who.int/icd/release/11/2024-01/mms/390674113"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1839818377/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/236924369",
+        "http://id.who.int/icd/release/11/2024-01/mms/771273482",
+        "http://id.who.int/icd/release/11/2024-01/mms/1508081745"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Infections due to non-tuberculous mycobacteria"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Any condition caused by an infection with Mycobacteria excluding infections due to Mycobacterium tuberculosis complex and Mycobacterium leprae. These conditions commonly present with lung disease; however, symptoms are dependent on the site of infection. Transmission is by direct contact with non-tuberculous Mycobacteria in the environment. Confirmation is by identification of non-tuberculous Mycobacteria from the affected site(s)."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Acid-fast mycobacteria other than M. Tuberculosis and M. leprae are ubiquitous and can cause a range of diseases in humans. They are known collectively as non-tuberculous or atypical mycobacteria. Disseminated infection is usually a consequence of profound immunosuppression such as that due to AIDS. The commonest presentation, however, is with localized or regional cutaneous infection. A wide variety of other presentations may be seen, amongst which lymphadenitis and pulmonary disease are prominent."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Leprosy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/149072669",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/149072669"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2072728114",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2072728114"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/911707612"
+  ]
+}

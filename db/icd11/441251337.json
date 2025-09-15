@@ -1,0 +1,115 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/441251337",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1453089907"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#441251337",
+  "code": "ND51.0",
+  "source": "http://id.who.int/icd/entity/441251337",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fracture, dislocation or subluxation of spine due to birth injury"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/689092517",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/689092517"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/441251337/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482",
+        "http://id.who.int/icd/release/11/2024-01/mms/755612283"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Dislocation or strain or sprain of unspecified joint or ligament of trunk"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dislocation or strain or sprain of unspecified joint or ligament of trunk"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Back dislocation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/49356187"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Back sprain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1555756408"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Back strain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1035453693"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dislocation of vertebra, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1114185588"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "vertebral dislocation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1114185588"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spinal dislocation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1386448582"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spinal sprain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1716927556"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spinal strain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/941479073"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sequelae of dislocation of trunk"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/704179849"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "late effect of dislocation of trunk"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/704179849"
+    }
+  ]
+}

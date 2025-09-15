@@ -1,0 +1,56 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1122828822",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/706550431"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1322041450",
+    "http://id.who.int/icd/release/11/2024-01/mms/1629251056",
+    "http://id.who.int/icd/release/11/2024-01/mms/1122828822/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1122828822/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1122828822",
+  "code": "DB33.1",
+  "source": "http://id.who.int/icd/entity/1122828822",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1122828822/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1777850685",
+        "http://id.who.int/icd/release/11/2024-01/mms/328294343",
+        "http://id.who.int/icd/release/11/2024-01/mms/2128592381",
+        "http://id.who.int/icd/release/11/2024-01/mms/204400509",
+        "http://id.who.int/icd/release/11/2024-01/mms/453411773",
+        "http://id.who.int/icd/release/11/2024-01/mms/894847549",
+        "http://id.who.int/icd/release/11/2024-01/mms/720455085",
+        "http://id.who.int/icd/release/11/2024-01/mms/1614204137",
+        "http://id.who.int/icd/release/11/2024-01/mms/1431962259"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1122828822/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Microscopic colitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition of inflammation of the colon that is only detectable when the colon's lining is examined under a microscope. The endoscopic appearance of the inner colon lining is normal. There are two types of microscopic colitis: lymphocytic colitis and collagenous colitis."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ]
+}

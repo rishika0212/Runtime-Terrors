@@ -1,0 +1,123 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2113860626",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1981846"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2113860626",
+  "code": "1C33",
+  "source": "http://id.who.int/icd/entity/2113860626",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2113860626/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/512128824"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Q fever"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease caused by an infection with the gram-negative bacteria Coxiella burnetti. This disease is characterised by fever, or may be asymptomatic. Transmission is by inhalation of the bacteria, contact with contaminated milk, urine, faeces, vaginal mucus, or semen of infected animals, or through the bite of an infected tick."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "An acute febrile disease; onset may be sudden with chills, retrobulbar headache, weakness, malaise and severe sweats. There is considerable variation in severity and duration; infection may be inapparent or present as a nonspecific fever of unknown origin."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nine Mile fever"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infection due to Coxiella burnetii"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Quadrilateral fever"
+      }
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1935107489"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Q fever"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nine Mile fever"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Australian Q fever"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infection due to Coxiella burnetii"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Quadrilateral fever"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Balkan grippe"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pneumonia in Q fever"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1958529348"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Q fever pneumonia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1958529348"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cardiac Q fever"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/494575983"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Q fever endocarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/597459751"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2116214427",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1784240230"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1003389114",
+    "http://id.who.int/icd/release/11/2024-01/mms/1210061614",
+    "http://id.who.int/icd/release/11/2024-01/mms/1642018758",
+    "http://id.who.int/icd/release/11/2024-01/mms/866276949",
+    "http://id.who.int/icd/release/11/2024-01/mms/121618859",
+    "http://id.who.int/icd/release/11/2024-01/mms/1300118676",
+    "http://id.who.int/icd/release/11/2024-01/mms/762044088",
+    "http://id.who.int/icd/release/11/2024-01/mms/1506184775",
+    "http://id.who.int/icd/release/11/2024-01/mms/1950717792",
+    "http://id.who.int/icd/release/11/2024-01/mms/968066670",
+    "http://id.who.int/icd/release/11/2024-01/mms/1374778016",
+    "http://id.who.int/icd/release/11/2024-01/mms/470645313",
+    "http://id.who.int/icd/release/11/2024-01/mms/2116214427/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/2116214427/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2116214427",
+  "code": "DB98",
+  "source": "http://id.who.int/icd/entity/2116214427",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hereditary haemorrhagic telangiectasia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/714406192",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/714406192"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital portosystemic shunt"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/682625970",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/682625970"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2116214427/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Vascular disorders of the liver"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Vascular disorders of the liver are conditions where the hepatic blood flow is deranged due to damage, malformation and obstruction of hepatic artery, portal vein and hepatic vein."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ]
+}

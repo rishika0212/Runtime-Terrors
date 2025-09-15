@@ -1,0 +1,132 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/728568723",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/320939116"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#728568723",
+  "code": "DB30.1",
+  "source": "http://id.who.int/icd/entity/728568723",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/728568723/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1741413713"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/728568723/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/728568723/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Volvulus of large intestine"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A volvulus is an abnormal twisting of the intestine around the axis of its own mesentery, resulting in obstruction of the more proximal bowel. Twisting of the mesentery may involve the mesenteric vessels and so make the involved loop particularly susceptible to strangulation and gangrene, with resulting perforation, peritonitis, and sepsis. The classical sites of large intestinal volvulus are the caecum and the sigmoid colon, although there are reports of volvulus of the transverse colon and the splenic flexure."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Volvulus of large intestine"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bowel volvulus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "colon volvulus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "knotting of intestine, bowel, or colon"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "strangulation of intestine, bowel, or colon"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "torsion of intestine, bowel, or colon"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "twist of intestine, bowel, or colon"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bowel loop"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "colon loop"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Caecal volvulus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/776008666"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "caecal torsion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/776008666"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sigmoid volvulus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/555516892"
+    }
+  ]
+}

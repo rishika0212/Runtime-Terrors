@@ -1,0 +1,65 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2010821949",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1851131352"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2010821949",
+  "code": "EE13.3",
+  "source": "http://id.who.int/icd/entity/2010821949",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2010821949/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/215767047",
+        "http://id.who.int/icd/release/11/2024-01/mms/2048594962"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Nail disorder associated with specified dermatosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Abnormality of the nail plate attributable to other specified skin disease."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Lichen planus of the nails"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2032142067",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2032142067"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nail psoriasis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/471390889",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/471390889"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Alopecia areata of the nails"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1872310725",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/65720611"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nail disorder associated with specified dermatosis"
+      }
+    }
+  ]
+}

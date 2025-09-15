@@ -1,0 +1,91 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1632503092",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1060873089"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1632503092",
+  "code": "DC14.2",
+  "source": "http://id.who.int/icd/entity/1632503092",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1632503092/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Dyskinesia of sphincter of Oddi"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is a movement disorder which consists of adverse effects including diminished voluntary movements and the presence of involuntary movements in the muscular valve that controls the flow of digestive juices (bile and pancreatic juice) through the ampulla of Vater into the second part of the duodenum."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dysfunction of sphincter of Oddi"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malfunctioning of sphincter of Oddi"
+      }
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dyskinesia of sphincter of Oddi"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malfunctioning of sphincter of Oddi"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dysfunction of sphincter of Oddi"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spasm of sphincter of Oddi"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/955035352"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ampulla of vater spasm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/955035352"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "sphincter of Oddi spasm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/955035352"
+    }
+  ]
+}

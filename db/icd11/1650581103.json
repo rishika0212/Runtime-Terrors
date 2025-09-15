@@ -1,0 +1,86 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1650581103",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1651102476"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1650581103",
+  "code": "2B52.3",
+  "source": "http://id.who.int/icd/entity/1650581103",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1650581103/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1999532114",
+        "http://id.who.int/icd/release/11/2024-01/mms/1255262643",
+        "http://id.who.int/icd/release/11/2024-01/mms/1070187421",
+        "http://id.who.int/icd/release/11/2024-01/mms/956779537",
+        "http://id.who.int/icd/release/11/2024-01/mms/1399556983",
+        "http://id.who.int/icd/release/11/2024-01/mms/475546725",
+        "http://id.who.int/icd/release/11/2024-01/mms/1145498957",
+        "http://id.who.int/icd/release/11/2024-01/mms/1399753101",
+        "http://id.who.int/icd/release/11/2024-01/mms/223243926",
+        "http://id.who.int/icd/release/11/2024-01/mms/947150833",
+        "http://id.who.int/icd/release/11/2024-01/mms/1810600222"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1650581103/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1650581103/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1409966790",
+        "http://id.who.int/icd/release/11/2024-01/mms/896293199"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1650581103/postcoordinationScale/hasAlternativeSeverity2",
+      "axisName": "http://id.who.int/icd/schema/hasAlternativeSeverity2",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1863636238",
+        "http://id.who.int/icd/release/11/2024-01/mms/885826145",
+        "http://id.who.int/icd/release/11/2024-01/mms/1746207012",
+        "http://id.who.int/icd/release/11/2024-01/mms/303697349"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Ewing sarcoma of soft tissue"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A rare malignant neoplasm of the soft tissues. It is typically a disease of children and young adults. It is characterised by t(11:22) (q24: q12) resulting in the expression of EWS/FLI-1 chimeric transcript. Most commonly occurs in the paravertebral region, chest wall, pelvis and lower extremities."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ewing sarcoma of soft tissue"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant peripheral neuroectodermal tumour of cervix uteri"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1496131761"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1781385141",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/237422666"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1781385141",
+  "code": "1D93",
+  "source": "http://id.who.int/icd/entity/1781385141",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital parvovirus syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/648536096",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/648536096"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1781385141/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/622600769",
+        "http://id.who.int/icd/release/11/2024-01/mms/1683090852"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Parvovirus infection of unspecified site"
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/738030718"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/648536096"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Parvovirus infection of unspecified site"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "parvovirus infection"
+      }
+    }
+  ]
+}

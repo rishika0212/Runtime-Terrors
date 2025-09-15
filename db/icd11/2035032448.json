@@ -1,0 +1,68 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2035032448",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1642025150"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1015069866",
+    "http://id.who.int/icd/release/11/2024-01/mms/1506505024",
+    "http://id.who.int/icd/release/11/2024-01/mms/761668033",
+    "http://id.who.int/icd/release/11/2024-01/mms/1210969173",
+    "http://id.who.int/icd/release/11/2024-01/mms/839334524",
+    "http://id.who.int/icd/release/11/2024-01/mms/2035032448/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/2035032448/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2035032448",
+  "code": "PK99",
+  "source": "http://id.who.int/icd/entity/2035032448",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2035032448/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1435254666",
+        "http://id.who.int/icd/release/11/2024-01/mms/1766440644",
+        "http://id.who.int/icd/release/11/2024-01/mms/1954798891",
+        "http://id.who.int/icd/release/11/2024-01/mms/21500692",
+        "http://id.who.int/icd/release/11/2024-01/mms/334423054",
+        "http://id.who.int/icd/release/11/2024-01/mms/274880002",
+        "http://id.who.int/icd/release/11/2024-01/mms/1296093776",
+        "http://id.who.int/icd/release/11/2024-01/mms/868865918",
+        "http://id.who.int/icd/release/11/2024-01/mms/1218729044",
+        "http://id.who.int/icd/release/11/2024-01/mms/426429380",
+        "http://id.who.int/icd/release/11/2024-01/mms/197934298",
+        "http://id.who.int/icd/release/11/2024-01/mms/1256772020",
+        "http://id.who.int/icd/release/11/2024-01/mms/1639304259",
+        "http://id.who.int/icd/release/11/2024-01/mms/1473673350",
+        "http://id.who.int/icd/release/11/2024-01/mms/30659757",
+        "http://id.who.int/icd/release/11/2024-01/mms/714000734",
+        "http://id.who.int/icd/release/11/2024-01/mms/1306203631",
+        "http://id.who.int/icd/release/11/2024-01/mms/1843895818",
+        "http://id.who.int/icd/release/11/2024-01/mms/435227771",
+        "http://id.who.int/icd/release/11/2024-01/mms/431804121"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Orthopaedic devices, implants or grafts associated with injury or harm"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Circumstances associated with a surgical or other medical device influencing the episode of care without injury or harm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1628956058",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1628956058"
+    }
+  ],
+  "codingNote": {
+    "@language": "en",
+    "@value": "Code first the injury or harm associated with the device. Code also the mode or mechanism that explains the main way the cause leads to injury or harm."
+  }
+}

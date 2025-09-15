@@ -1,0 +1,98 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/256917143",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2073711696"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#256917143",
+  "code": "8A60.4",
+  "source": "http://id.who.int/icd/entity/256917143",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/256917143/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/539646260"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/256917143/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1104303944",
+        "http://id.who.int/icd/release/11/2024-01/mms/1585949804"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Epilepsy due to central nervous system infections or infestations"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Epilepsy with onset in a patient with a documented CNS infection or infestation after the acute phase of the disease."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Epilepsy due to parasitic diseases"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/599539200"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/564191997"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/2083324835"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Epilepsy due to central nervous system infections or infestations"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Epilepsy due to infectious meningitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/952311785"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Epilepsy due to infectious encephalitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/270831052"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Epilepsy due to bacterial endocarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/573397453"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Epilepsy due to parasitic diseases"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/599539200"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Epilepsy due to other central nervous system infections or infestations"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/377576504"
+    }
+  ]
+}

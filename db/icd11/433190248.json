@@ -1,0 +1,62 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/433190248",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/879387721"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#433190248",
+  "code": "9B01.3",
+  "source": "http://id.who.int/icd/entity/433190248",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/433190248/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Iris sphincter disorders"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This refers to disorders of the muscle in the part of the eye called the iris. It encircles the pupil of the iris, appropriate to its function as a constrictor of the pupil."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Iris sphincter disorders"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital mydriasis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1670811828"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spastic miosis of iris sphincter"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/693566616"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aberrant regeneration of iris sphincter"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/628571884"
+    }
+  ]
+}

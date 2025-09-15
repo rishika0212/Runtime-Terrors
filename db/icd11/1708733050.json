@@ -1,0 +1,68 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1708733050",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/962023213"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/473284654",
+    "http://id.who.int/icd/release/11/2024-01/mms/1225154856",
+    "http://id.who.int/icd/release/11/2024-01/mms/1708733050/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1708733050/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1708733050",
+  "code": "5A50",
+  "source": "http://id.who.int/icd/entity/1708733050",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Transitory neonatal hypoparathyroidism"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1120566859",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1120566859"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1708733050/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/545773433/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/1468891747"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Hypoparathyroidism"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Hypoparathyroidism is a condition with insufficient biological actions of parathyroid hormone due to impaired secretion of parathyroid hormone or refractoriness of target tissues to parathyroid hormone."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postprocedural hypoparathyroidism"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/196410302",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/196410302"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "tetany NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1468891747",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1468891747"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1120566859"
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/730323782",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1450176443"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#730323782",
+  "code": "PB21",
+  "source": "http://id.who.int/icd/entity/730323782",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/730323782/postcoordinationScale/medication",
+      "axisName": "http://id.who.int/icd/schema/medication",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1880792884",
+        "http://id.who.int/icd/release/11/2024-01/mms/881358505",
+        "http://id.who.int/icd/release/11/2024-01/mms/315390786"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/730323782/postcoordinationScale/activityWhenInjured",
+      "axisName": "http://id.who.int/icd/schema/activityWhenInjured",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2071638841",
+        "http://id.who.int/icd/release/11/2024-01/mms/1107435129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1428847289",
+        "http://id.who.int/icd/release/11/2024-01/mms/821249273",
+        "http://id.who.int/icd/release/11/2024-01/mms/160164281"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/730323782/postcoordinationScale/placeOfOccurrence",
+      "axisName": "http://id.who.int/icd/schema/placeOfOccurrence",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowedExceptFromSameBlock",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1670965842",
+        "http://id.who.int/icd/release/11/2024-01/mms/1524647698",
+        "http://id.who.int/icd/release/11/2024-01/mms/1304962002",
+        "http://id.who.int/icd/release/11/2024-01/mms/672210322",
+        "http://id.who.int/icd/release/11/2024-01/mms/1060731218",
+        "http://id.who.int/icd/release/11/2024-01/mms/713258542",
+        "http://id.who.int/icd/release/11/2024-01/mms/292139218",
+        "http://id.who.int/icd/release/11/2024-01/mms/839669614",
+        "http://id.who.int/icd/release/11/2024-01/mms/623129518",
+        "http://id.who.int/icd/release/11/2024-01/mms/278563516",
+        "http://id.who.int/icd/release/11/2024-01/mms/1231726668",
+        "http://id.who.int/icd/release/11/2024-01/mms/1581436044",
+        "http://id.who.int/icd/release/11/2024-01/mms/1731879372",
+        "http://id.who.int/icd/release/11/2024-01/mms/391771100",
+        "http://id.who.int/icd/release/11/2024-01/mms/53410898"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Unintentional exposure to or harmful effects of sedative hypnotic drugs or other CNS depressants"
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "accidental overdose by sedative hypnotic drugs or other CNS depressants"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Substances associated with injury or harm in therapeutic use"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1583926619",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1583926619"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unintentional exposure to or harmful effects of sedative hypnotic drugs or other CNS depressants"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "accidental poisoning by sedative hypnotic drugs or other CNS depressants"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "accidental overdose by sedative hypnotic drugs or other CNS depressants"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "sedative hypnotic drugs or other CNS depressants taken in error"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unintentional exposure to or harmful effects of sedative-hypnotic drugs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/295577556"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unintentional exposure to or harmful effects of barbiturates"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1858997955"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unintentional exposure to or harmful effects of benzodiazepines"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/301280732"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unintentional exposure to or harmful effects of cloral derivatives"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/780095174"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unintentional exposure to or harmful effects of paraldehyde"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/190311318"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unintentional exposure to or harmful effects of bromine compounds"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/886933648"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unintentional exposure to or harmful effects of mixed sedatives or hypnotics, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1273408401"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unintentional exposure to or harmful effects of anaesthetics or therapeutic gases"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/456835666"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unintentional exposure to or harmful effects of nitrous oxide"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/226306189"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unintentional exposure to or harmful effects of other inhaled anaesthetics"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/855067541"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unintentional exposure to or harmful effects of intravenous anaesthetics"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1305241738"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unintentional exposure to or harmful effects of unspecified general anaesthetics"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/35739791"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unintentional exposure to or harmful effects of gamma hydroxybutyrate"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1466871488"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unintentional exposure to or harmful effects of GHB"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1466871488"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unintentional exposure to or harmful effects of ketamine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/129156865"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unintentional exposure to or harmful effects of other specified general anaesthetic"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2022302750"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unintentional exposure to or harmful effects of local anaesthetics"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/131714319"
+    }
+  ]
+}

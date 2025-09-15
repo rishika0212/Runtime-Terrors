@@ -1,0 +1,45 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2007777621",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1066048766"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/240337869",
+    "http://id.who.int/icd/release/11/2024-01/mms/751866280",
+    "http://id.who.int/icd/release/11/2024-01/mms/2007777621/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2007777621",
+  "code": "EH92.0",
+  "source": "http://id.who.int/icd/entity/2007777621",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupational callosities"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/968909491",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1223380074/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2007777621/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1896004518"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Corns or callosities"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Callosities are areas of focal hyperkeratosis due to repeated friction and pressure. A corn is a sharply demarcated callosity occurring over a bony prominence, usually on the foot, and is painful."
+  }
+}

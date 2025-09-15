@@ -1,0 +1,213 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/756899519",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1482533991"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#756899519",
+  "code": "GA30.6",
+  "source": "http://id.who.int/icd/entity/756899519",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary amenorrhoea"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1154119206",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1154119206"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Secondary amenorrhoea"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/562150320",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/562150320"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/756899519/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Premature ovarian failure"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Menopause occurring spontaneously before 40 years of age, generally resulting in secondary amenorrhea although some women may exhibit intermittent ovarian function and ovulation, with a minority conceiving and delivering a pregnancy. POF/POI occurs mostly without a known cause, but can be caused by the following conditions: numerical and structural chromosomal abnormalities, Fragile X (FMR1) premutations, autoimmune disorders, radiation therapy, chemotherapy, galactosemia, and other rare enzyme defects or mutations. To be subdivided in 4 categories according to cause: congenital, acquired, iatrogenic and unknown"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Isolated gonadotropin deficiency"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/768216194",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/768216194"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postprocedural ovarian failure"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/487695808",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/487695808"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Premature ovarian failure"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "female hypergonadotropic hypogonadism"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hypergonadotrophic ovarian failure"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "primary female hypogonadism"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "POF - [premature ovarian failure]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "premature ovarian insufficiency"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "primary ovarian insufficiency"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ovarian failure"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ovarian secretion suppression"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ovary hyposecretion"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ovary secretion deficiency"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "premature menopause NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired premature ovarian failure"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/863933055"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Iatrogenic premature ovarian failure"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1043195294"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Premature ovarian failure of unknown origin"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/223773700"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "primary ovarian failure NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/223773700"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital Premature ovarian failure"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1253329904"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Decreased oestrogen"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1112753806"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Female hypogonadism syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1518744562"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ovarian hypogonadism"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1518744562"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hypofunction of ovary"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2142148258"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Insufficiency of ovary"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1618622452"
+    }
+  ]
+}

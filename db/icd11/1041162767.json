@@ -1,0 +1,89 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1041162767",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1914646281"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1041162767",
+  "code": "CA0H.3",
+  "source": "http://id.who.int/icd/entity/1041162767",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1041162767/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/382193093",
+        "http://id.who.int/icd/release/11/2024-01/mms/823988307",
+        "http://id.who.int/icd/release/11/2024-01/mms/140885267",
+        "http://id.who.int/icd/release/11/2024-01/mms/525195731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Oedema of larynx"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Laryngeal oedema is oedema (accumulation of fluid) which may occur for example in asaryepiglottic folds, epiglottis, the arytenoid region or submucosal of the subglottic region. It may occur due to anaphylaxis, angioneurotic oedema, larynx infection, foreign body or substance, or injury."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "oedematous laryngitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1180710837",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1180710837"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "laryngitis: acute obstructive [croup]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1519976244",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1519976244"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/923122941"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Oedema of larynx"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "laryngeal oedema"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Glottic oedema"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/755476418"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Subglottic oedema"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/769810258"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Supraglottic oedema"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1199602293"
+    }
+  ]
+}

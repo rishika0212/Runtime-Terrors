@@ -1,0 +1,350 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/679352876",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1326332835"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#679352876",
+  "code": "MG30.00",
+  "source": "http://id.who.int/icd/entity/679352876",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Penoscrotodynia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/297640720",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/297640720"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Vulvodynia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1539507119",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1539507119"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Irritable bowel syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1158238623",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1158238623"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Functional gallbladder disorder"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1875187597",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1875187597"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Functional sphincter of Oddi disorder"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1759174491",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1759174491"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Functional abdominal pain in children"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/936650163",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/994179294/other"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Functional biliary sphincter of Oddi disorder"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1719541898",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1759174491"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Functional pancreatic sphincter of Oddi disorder"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/359983357",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1759174491"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Abdominal pain-related functional GI disorders in children"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1136360987",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/994179294/other"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Vulval dysaesthesia syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1070591773",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1539507119"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/679352876/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1311573163",
+        "http://id.who.int/icd/release/11/2024-01/mms/1061004251",
+        "http://id.who.int/icd/release/11/2024-01/mms/657169140"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/679352876/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1007332872",
+        "http://id.who.int/icd/release/11/2024-01/mms/597444540"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/679352876/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/501504598",
+        "http://id.who.int/icd/release/11/2024-01/mms/932220680",
+        "http://id.who.int/icd/release/11/2024-01/mms/671508148",
+        "http://id.who.int/icd/release/11/2024-01/mms/579584480"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/679352876/postcoordinationScale/hasAlternativeSeverity1",
+      "axisName": "http://id.who.int/icd/schema/hasAlternativeSeverity1",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/137604848",
+        "http://id.who.int/icd/release/11/2024-01/mms/1926847105",
+        "http://id.who.int/icd/release/11/2024-01/mms/489218088",
+        "http://id.who.int/icd/release/11/2024-01/mms/2029211037"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/679352876/postcoordinationScale/hasAlternativeSeverity2",
+      "axisName": "http://id.who.int/icd/schema/hasAlternativeSeverity2",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/145592658",
+        "http://id.who.int/icd/release/11/2024-01/mms/1824378311",
+        "http://id.who.int/icd/release/11/2024-01/mms/1714449067",
+        "http://id.who.int/icd/release/11/2024-01/mms/1721227995"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/679352876/postcoordinationScale/temporalPatternAndOnset",
+      "axisName": "http://id.who.int/icd/schema/temporalPatternAndOnset",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1281193286",
+        "http://id.who.int/icd/release/11/2024-01/mms/1313511357",
+        "http://id.who.int/icd/release/11/2024-01/mms/47514516"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Chronic primary visceral pain"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Chronic primary visceral pain is chronic pain localized in the thoracic, abdominal or pelvic region, and is associated with significant emotional distress or functional disability. The distinct anatomical location is compatible with typical referral pain patterns from specific internal organs. The symptoms are not better explained by a diagnosis of chronic secondary visceral pain. Chronic primary visceral pain is multifactorial: biological, psychological and social factors contribute to the pain syndrome. The diagnosis is appropriate independently of identified biological or psychological contributors unless another diagnosis would better account for the presenting symptoms."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Chronic primary visceral pain is chronic pain localized in the thoracic, abdominal or pelvic region, and that is associated with significant emotional distress or functional disability. The distinct anatomical location is compatible with typical referral pain patterns from specific internal organs. The symptoms are not better explained by a diagnosis of chronic secondary visceral pain. Chronic primary visceral pain is multifactorial: biological, psychological and social factors contribute to the pain syndrome. The diagnosis is appropriate independently of identified biological or psychological contributors unless another diagnosis would better account for the presenting symptoms. Chronic primary visceral pain includes pain in the head/neck viscera of the digestive system (e.g., burning mouth syndrome); in the thoracic region (e.g., Achalasia, non-cardiac chest pain, jackhammer pain, diffuse oesophageal spasm); in the abdominal region arising from the abdominal viscera of the digestive system (e.g., epigastric pain syndrome, irritable bowel syndrome, functional abdominal pain, biliary dyskinesia) and in the pelvic region due to involvement of the pelvic viscera of the digestive, urinary and genital systems (e.g., interstitial cystitis, anal spasm, chronic pelvic pain, chronic testicular pain)[1-7].\n\nDiagnostic Criteria:\n\nConditions A to C are fulfilled:\n\nA. Chronic pain (persistent or recurrent for longer than 3 months) is present and its distinct anatomical location is compatible\n\nwith typical referral pain patterns from specific internal organs.\n\nB. The pain is associated with at least one of the following:\n\nB.1 Emotional distress due to pain is present.\n\nB.2 The pain interferes with daily life activities and social participation.\n\nC. The pain is not better accounted for by a diagnosis of chronic secondary visceral pain."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic primary chest pain syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/128474405"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic primary epigastric pain syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1983908934"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic primary bladder pain syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2093682836"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic primary pelvic pain syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1663013388"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic primary abdominal pain syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/709631177"
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic abdominal pain NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/166022696",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/166022696"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic primary visceral pain"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Prostatodynia syndrome (deprecated)"
+      },
+      "deprecated": true
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic primary chest pain syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/128474405"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic noncardiac chest pain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/128474405"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "functional chest pain (deprecated)"
+      },
+      "deprecated": true,
+      "foundationReference": "http://id.who.int/icd/entity/128474405"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic primary epigastric pain syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1983908934"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "EPS - [epigastric pain syndrome]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1983908934"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic primary bladder pain syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2093682836"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "painful bladder syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2093682836"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "PBS/IC - [painful bladder syndrome/interstitial cystitis]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2093682836"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "BPS/IC - [bladder pain syndrome/Interstitial cystitis]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2093682836"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic interstitial cystitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2093682836"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic primary pelvic pain syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1663013388"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic pelvic pain syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1663013388"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "CP/CPPS - [Chronic prostatitis/chronic pelvic pain syndrome]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1663013388"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic pelvic pain in males"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1893947906"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic pelvic pain in females"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/255689103"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic primary abdominal pain syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/709631177"
+    }
+  ]
+}

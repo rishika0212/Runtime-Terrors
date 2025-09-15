@@ -1,0 +1,66 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1276513691",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1614179699"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1276513691",
+  "code": "5C90.2",
+  "source": "http://id.who.int/icd/entity/1276513691",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Disorders of tyrosine metabolism"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1842978338",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1842978338"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Citrullinaemia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/640937125",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/640937125"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1276513691/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Liver diseases due to disorders of amino acid metabolism"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is liver disease due to the disorder of the various biochemical processes responsible for the synthesis of proteins and amino acids, and the breakdown of proteins (and other large molecules, too) by catabolism."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1154068795"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Liver diseases due to disorders of amino acid metabolism"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Other liver diseases due to disorders of amino acid metabolism"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1434538354"
+    }
+  ]
+}

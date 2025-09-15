@@ -1,0 +1,94 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/280853107",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/75447191"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#280853107",
+  "code": "BD41.0",
+  "source": "http://id.who.int/icd/entity/280853107",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/280853107/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/852143287",
+        "http://id.who.int/icd/release/11/2024-01/mms/1885434231",
+        "http://id.who.int/icd/release/11/2024-01/mms/553603158",
+        "http://id.who.int/icd/release/11/2024-01/mms/1421585111",
+        "http://id.who.int/icd/release/11/2024-01/mms/1316314647",
+        "http://id.who.int/icd/release/11/2024-01/mms/1508677205"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/280853107/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1331849426"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Arterial fibromuscular dysplasia"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Fibromuscular dysplasia, formerly called fibromuscular fibroplasia, is a group of nonatherosclerotic, noninflammatory arterial diseases that most commonly involve the renal and carotid arteries."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1380872553"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Arterial fibromuscular dysplasia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "fibromuscular dysplasia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "fibromuscular hyperplasia of artery"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "FMD - [fibromuscular dysplasia]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cervico-cranial arterial fibromuscular dysplasia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1908137978"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Renal artery fibromuscular dysplasia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1177091716"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fibromuscular dysplasia of renal artery"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1177091716"
+    }
+  ]
+}

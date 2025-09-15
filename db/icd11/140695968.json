@@ -1,0 +1,59 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/140695968",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/389818276"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1420834102",
+    "http://id.who.int/icd/release/11/2024-01/mms/1663243336",
+    "http://id.who.int/icd/release/11/2024-01/mms/1101055533",
+    "http://id.who.int/icd/release/11/2024-01/mms/1861692734",
+    "http://id.who.int/icd/release/11/2024-01/mms/1644780109",
+    "http://id.who.int/icd/release/11/2024-01/mms/140695968/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/140695968/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#140695968",
+  "code": "NB91.1",
+  "source": "http://id.who.int/icd/entity/140695968",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Birth injury to liver"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/522954490",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/522954490"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/140695968/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/328366540"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/140695968/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482",
+        "http://id.who.int/icd/release/11/2024-01/mms/755612283"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Injury of liver"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Damage inflicted on the liver as the direct or indirect result of an external force, with or without disruption of structural continuity."
+  }
+}

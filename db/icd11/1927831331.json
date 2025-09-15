@@ -1,0 +1,128 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1927831331",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/655574575"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1927831331",
+  "code": "2C00.2",
+  "source": "http://id.who.int/icd/entity/1927831331",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1927831331/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1211030054",
+        "http://id.who.int/icd/release/11/2024-01/mms/1594277606",
+        "http://id.who.int/icd/release/11/2024-01/mms/1212282357"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1927831331/postcoordinationScale/histopathology",
+      "axisName": "http://id.who.int/icd/schema/histopathology",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/477527598",
+        "http://id.who.int/icd/release/11/2024-01/mms/1509102037",
+        "http://id.who.int/icd/release/11/2024-01/mms/1609609938",
+        "http://id.who.int/icd/release/11/2024-01/mms/311089140",
+        "http://id.who.int/icd/release/11/2024-01/mms/1275963293",
+        "http://id.who.int/icd/release/11/2024-01/mms/1704819468"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1927831331/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1927831331/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1409966790",
+        "http://id.who.int/icd/release/11/2024-01/mms/896293199",
+        "http://id.who.int/icd/release/11/2024-01/mms/1094217460",
+        "http://id.who.int/icd/release/11/2024-01/mms/238069351"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1927831331/postcoordinationScale/hasAlternativeSeverity2",
+      "axisName": "http://id.who.int/icd/schema/hasAlternativeSeverity2",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1863636238",
+        "http://id.who.int/icd/release/11/2024-01/mms/885826145",
+        "http://id.who.int/icd/release/11/2024-01/mms/1746207012",
+        "http://id.who.int/icd/release/11/2024-01/mms/303697349"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Neuroendocrine neoplasm of anus or anal canal"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Neoplasms that arise from the cells of the neuroendocrine system lining the anus and anal canal."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neuroendocrine neoplasm of anus or anal canal"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "NEC [neuroendocrine carcinoma] of anus or anal canal"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neuroendocrine tumour of anus or anal canal"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1920193598"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "NET- [neuroendocrine tumour] of anus and anal canal"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1920193598"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Anal endocrine tumour"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1961674648"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Anal neuroendocrine tumour"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1961674648"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Other specified neuroendocrine neoplasms of anus or anal canal"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1221965225"
+    }
+  ]
+}

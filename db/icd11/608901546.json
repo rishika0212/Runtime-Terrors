@@ -1,0 +1,172 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/608901546",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1614716959"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#608901546",
+  "code": "8B11.51",
+  "source": "http://id.who.int/icd/entity/608901546",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/608901546/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/608901546/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/868053242",
+        "http://id.who.int/icd/release/11/2024-01/mms/1179720336"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/608901546/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1173205716"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Cerebral ischaemic stroke due to unspecified occlusion or stenosis of intracranial large artery"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is a sudden loss of brain function due to a lack of adequate blood flow of the large intracranial arteries."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cerebral ischaemic stroke due to intracranial large artery atherosclerosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1371457",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1371457"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cerebral ischaemic stroke due to embolic occlusion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/158815303",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/158815303"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cerebral ischaemic stroke due to other known cause"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1444066580",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1444066580"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/564191997"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1526436336"
+  ],
+  "codingNote": {
+    "@language": "en",
+    "@value": "If an additional code is used for anatomy, the artery affected by the stroke should be selected."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cerebral ischaemic stroke due to unspecified occlusion or stenosis of intracranial large artery"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cerebral ischaemic stroke due to unspecified occlusion or stenosis of large cerebral artery"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cerebral ischaemic stroke due to unspecified occlusion or stenosis of carotid siphon"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1211014953"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cerebral ischaemic stroke due to unspecified occlusion or stenosis of middle cerebral artery"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/679695748"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "MCA - [middle cerebral artery] infarction"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/679695748"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cerebral ischaemic stroke due to unspecified occlusion or stenosis of MCA - [middle cerebral artery]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/679695748"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "MCA - [middle cerebral artery] stroke"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/679695748"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cerebral ischaemic stroke due to unspecified occlusion or stenosis of vertebral artery"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1754637813"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cerebral ischaemic stroke due to unspecified occlusion or stenosis of basilar artery"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1657042395"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cerebral ischaemic stroke due to unspecified occlusion or stenosis of anterior cerebral artery"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/521815999"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cerebral ischaemic stroke due to unspecified occlusion or stenosis of posterior cerebral artery"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1281720072"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cerebral ischaemic stroke due to thrombus of intracranial large artery"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/602080754"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1331537078",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/537826614"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1331537078",
+  "code": "DB35.3",
+  "source": "http://id.who.int/icd/entity/1331537078",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1331537078/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1741413713"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1331537078/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Hamartomatous polyp"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "The hamartomatous polyp is a non-neoplastic, benign tumour-like malformation resulting from an abnormal formation of normal tissue. It contains mesenchymal elements of excess vascular and/or fibrous stroma and glandular proliferation with cystic dilatation."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "PTEN Hamartoma tumour syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/892873372",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1427672516"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hamartomatous polyp"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Solitary juvenile polyp of large intestine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1148922670"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Solitary Peutz-Jegher polyp of large intestine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2146135674"
+    }
+  ]
+}

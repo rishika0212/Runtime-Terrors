@@ -1,0 +1,60 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1381491944",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1058231555"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1381491944",
+  "code": "8E4A.2",
+  "source": "http://id.who.int/icd/entity/1381491944",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Lambert-Eaton syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/796417193",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/796417193"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myasthenia gravis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1270100227",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1270100227"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1381491944/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1630407678",
+        "http://id.who.int/icd/release/11/2024-01/mms/1954798891"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Paraneoplastic or autoimmune neuromuscular transmission disorders"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "NMT disorders are defined by a variable disturbance of the function of the neuromuscular transmission, resulting in fluctuating muscle weakness and fatigue. These are usually classified into pre- and postsynaptic disorders.\n\nPresynaptic disorders, mainly the Lambert Eaton Myasthenic Syndrome (LEMS) is associated with antibodies targeting the voltage gated calcium channels (PQ and N type). LEMS is associated with malignancy (pulmonary or extra-pulmonary small cell carcinoma) in about 50% of cases. In the context of LEMS the detection of SOX 1 (anti glial nuclear) antibodies is highly predictive of cancer.\n\nPostsynaptically, myasthenia gravis is mostly (> 90%) associated with antibodies targeting the muscle acetylcholine receptor (AChR) or rarely other proteins (including muscle -specific kinase -MuSK). Myasthenia is usually not considered a paraneoplastic disease, with the exception of thymoma in about 10% cases."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/564191997"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paraneoplastic or autoimmune neuromuscular transmission disorders"
+      }
+    }
+  ]
+}

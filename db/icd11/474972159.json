@@ -1,0 +1,252 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/474972159",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1510618119"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#474972159",
+  "code": "2B33.5",
+  "source": "http://id.who.int/icd/entity/474972159",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Enteropathy associated T-cell lymphoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/958629729",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/958629729"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/474972159/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1644747126",
+        "http://id.who.int/icd/release/11/2024-01/mms/687250607",
+        "http://id.who.int/icd/release/11/2024-01/mms/1509166126"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/474972159/postcoordinationScale/histopathology",
+      "axisName": "http://id.who.int/icd/schema/histopathology",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/834236067",
+        "http://id.who.int/icd/release/11/2024-01/mms/1985075397",
+        "http://id.who.int/icd/release/11/2024-01/mms/1901891842"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/474972159/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/474972159/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1863636238",
+        "http://id.who.int/icd/release/11/2024-01/mms/885826145",
+        "http://id.who.int/icd/release/11/2024-01/mms/1746207012",
+        "http://id.who.int/icd/release/11/2024-01/mms/303697349"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Malignant lymphoma, not elsewhere classified"
+  },
+  "codingNote": {
+    "@language": "en",
+    "@value": "Only to be designated in cases with incomplete diagnostics."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant lymphoma, not elsewhere classified"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Lymphoma NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "NHL - [non-Hodgkin lymphoma]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "non-Hodgkin lymphoma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Non-Hodgkin lymphoma, NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "non-Hodgkin malignant lymphoma NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant lymphoma of liver"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/800145761"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant Lymphoma of Lacrimal Gland"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1930242681"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary intraocular lymphoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/959217874"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary intraocular lymphoma, vitreoretinal"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/247439788"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary intraocular lymphoma, uveal tract"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/742159305"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Lymphoma of oesophagus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/223819380"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Lymphoma of duodenum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/371372567"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Lymphoma of the appendix"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1666837877"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant Lymphoma of colon"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1891056274"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Lymphoma of anus or anal canal"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/297433552"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Thyroid lymphoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/571063415"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Lymphoma of central nervous system"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1000099724"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary oculocerebral lymphoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/446504143"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant lymphoma of small intestine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/102579169"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "B cell lymphoma of small intestine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1059221074"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Diffuse large B-cell lymphoma of small intestine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1578565768"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Other specified B-cell lymphoma of small intestine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/145837872"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "T-cell lymphoma of small intestine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1448725643"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Other specified T-cell lymphoma of small intestine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/988895516"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gastric malignant lymphoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/40790611"
+    }
+  ]
+}

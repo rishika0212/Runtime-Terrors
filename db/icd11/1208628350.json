@@ -1,0 +1,85 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1208628350",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1574794059"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1208628350",
+  "code": "JA84.2",
+  "source": "http://id.who.int/icd/entity/1208628350",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1208628350/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1989312196"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Maternal care due to uterine scar from previous surgery"
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Maternal care for scar from prior uterine surgery"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Vaginal delivery following previous caesarean section"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1989312196",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1989312196"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Maternal care due to uterine scar from previous surgery"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Maternal care for scar from prior uterine surgery"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "uterine scar in pregnancy or childbirth"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Maternal care for scar from previous caesarean section"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1507278767"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "previous caesarean section delivery"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1507278767"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pregnancy management affected by previous caesarean section"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1507278767"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1335192255",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1802542189"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1335192255",
+  "code": "8B93.8",
+  "source": "http://id.who.int/icd/entity/1335192255",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1335192255/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/559293431",
+        "http://id.who.int/icd/release/11/2024-01/mms/914245431",
+        "http://id.who.int/icd/release/11/2024-01/mms/1403484535",
+        "http://id.who.int/icd/release/11/2024-01/mms/1495611560"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1335192255/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/425464783"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Radiculopathy due to spondylosis"
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/564191997"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Radiculopathy due to spondylosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "radiculopathy in spondylosis"
+      }
+    }
+  ]
+}

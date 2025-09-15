@@ -1,0 +1,110 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1374778016",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2116214427"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1374778016",
+  "code": "DB98.A",
+  "source": "http://id.who.int/icd/entity/1374778016",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neonatal hepatic haemorrhage"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1766027598",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1766027598"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1374778016/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1374778016/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Hepatic haemorrhage"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Traumatic or nontraumatic spontaneous bleeding in the liver. The most common cause of the latter is the rupture of liver tumours."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hepatic haemorrhage due to hepatocellular carcinoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1294035808",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1294035808"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1766027598"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hepatic haemorrhage"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "haemorrhage of liver"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hepatic bleeding"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hepatorrhagia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "liver haemorrhage"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "nontraumatic liver hematoma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "subcapsular liver hematoma"
+      }
+    }
+  ]
+}

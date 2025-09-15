@@ -1,0 +1,56 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1658448496",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/37207998"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1735009745",
+    "http://id.who.int/icd/release/11/2024-01/mms/426734182",
+    "http://id.who.int/icd/release/11/2024-01/mms/336704235",
+    "http://id.who.int/icd/release/11/2024-01/mms/1901756287",
+    "http://id.who.int/icd/release/11/2024-01/mms/818364947",
+    "http://id.who.int/icd/release/11/2024-01/mms/987446104",
+    "http://id.who.int/icd/release/11/2024-01/mms/1658448496/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1658448496/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1658448496",
+  "code": "2A20",
+  "source": "http://id.who.int/icd/entity/1658448496",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired thrombocytosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1744773503",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1744773503"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1658448496/postcoordinationScale/histopathology",
+      "axisName": "http://id.who.int/icd/schema/histopathology",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1024952760",
+        "http://id.who.int/icd/release/11/2024-01/mms/2065413738"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1658448496/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Non mast cell myeloproliferative neoplasms"
+  }
+}

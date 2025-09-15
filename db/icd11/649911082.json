@@ -1,0 +1,96 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/649911082",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/894625870"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#649911082",
+  "code": "LB9B",
+  "source": "http://id.who.int/icd/entity/649911082",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/649911082/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/649911082/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/986233688",
+        "http://id.who.int/icd/release/11/2024-01/mms/2093217246"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Reduction defects of upper and lower limbs"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Reduction defects of upper and lower limbs"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tetraamelia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1245444478"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Total amelia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1245444478"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Split hand - split foot"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2025809175"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acheiropodia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1093077598"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acheiropody"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1093077598"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Absence of hands and feet"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1093077598"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Total phocomelia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1889306123"
+    }
+  ]
+}

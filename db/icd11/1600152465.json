@@ -1,0 +1,75 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1600152465",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1614179699"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1600152465",
+  "code": "5C90.3",
+  "source": "http://id.who.int/icd/entity/1600152465",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gaucher disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1923566939",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1875237176/other"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Niemann-Pick disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/398872780",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1875237176/other"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Wolman disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/520367511",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1875237176/other"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cholesteryl ester storage disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/894336362",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1875237176/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1600152465/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Liver disease due to disorders of lysosomal storage"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is liver disease due to a group of approximately 50 rare inherited metabolic disorders that result from defects in lysosomal function."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1154068795"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Liver disease due to disorders of lysosomal storage"
+      }
+    }
+  ]
+}

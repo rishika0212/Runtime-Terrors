@@ -1,0 +1,210 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1651053999",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/465177735"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1651053999",
+  "code": "5A10",
+  "source": "http://id.who.int/icd/entity/1651053999",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pre-existing type 1 diabetes mellitus in pregnancy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1240893990",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1240893990"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1651053999/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1304552818",
+        "http://id.who.int/icd/release/11/2024-01/mms/1837670870",
+        "http://id.who.int/icd/release/11/2024-01/mms/1866592137",
+        "http://id.who.int/icd/release/11/2024-01/mms/1129679469",
+        "http://id.who.int/icd/release/11/2024-01/mms/340836242",
+        "http://id.who.int/icd/release/11/2024-01/mms/1006882070",
+        "http://id.who.int/icd/release/11/2024-01/mms/426429380",
+        "http://id.who.int/icd/release/11/2024-01/mms/1256772020",
+        "http://id.who.int/icd/release/11/2024-01/mms/913893315",
+        "http://id.who.int/icd/release/11/2024-01/mms/1473673350",
+        "http://id.who.int/icd/release/11/2024-01/mms/1605714008",
+        "http://id.who.int/icd/release/11/2024-01/mms/1492550461",
+        "http://id.who.int/icd/release/11/2024-01/mms/412389819",
+        "http://id.who.int/icd/release/11/2024-01/mms/188156827"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Type 1 diabetes mellitus"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Diabetes mellitus type 1 (type 1 diabetes, T1DM, formerly insulin dependent or juvenile diabetes) is a form of diabetes mellitus that results from destruction of insulin-producing beta cells, mostly by autoimmune mechanisms. The subsequent lack of insulin leads to increased blood and urine glucose."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Type 2 diabetes mellitus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/119724091",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/119724091"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Diabetes mellitus, other specified type"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/381961554",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/381961554"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Diabetes mellitus in pregnancy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/169360210",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/169360210"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1240893990"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1217915084"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Type 1 diabetes mellitus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "T1DM - [type 1 diabetes mellitus]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "type 1 diabetes"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "IDDM - [insulin dependent diabetes mellitus]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "type 1 IDDM"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "juvenile diabetes mellitus without complications"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "idiopathic insulin-dependent diabetes mellitus without complications"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "juvenile-onset diabetes mellitus without complications"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ketosis-prone diabetes mellitus without complications"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "juvenile-onset-type diabetes mellitus without complications"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Idiopathic Type 1 diabetes mellitus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/702044482"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fulminant type 1 diabetes mellitus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1237768242"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Immune-related Type 1 diabetes mellitus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1727622794"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Juvenile onset diabetes mellitus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1727622794"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Immune-mediated Type 1 diabetes mellitus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1727622794"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Latent autoimmune diabetes in adults"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1918279014"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "LADA - [Latent autoimmune diabetes in adults]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1918279014"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "slowly progressive insulin-dependent diabetes mellitus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1918279014"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "SPIDDM - [Slowly progressive insulin-dependent diabetes mellitus]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1918279014"
+    }
+  ]
+}

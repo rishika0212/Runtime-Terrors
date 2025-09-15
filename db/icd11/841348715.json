@@ -1,0 +1,280 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/841348715",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/111658096"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#841348715",
+  "code": "CB01",
+  "source": "http://id.who.int/icd/entity/841348715",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/841348715/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/841348715/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Pulmonary oedema"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Pulmonary oedema is a condition caused by excess fluid in the lungs. This fluid collects in the numerous air sacs in the lungs, making it difficult to breathe."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute pulmonary oedema"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1212576561"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic pulmonary oedema"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/786106058"
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pulmonary oedema due to chemicals, gases, fumes or vapours"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/208945925",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/208945925"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pulmonary oedema with mention of heart disease NOS or heart failure"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/437702716",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/437702716"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/923122941"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pulmonary oedema"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "oedema lung"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pulmonary oedema NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "lung anasarca"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "lung congestion"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "lung engorgement"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "oedematous lung"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "passive pulmonary hypostasis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pulmonary congestion"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "terminal lung oedema"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "terminal oedematous lung"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "passive pulmonary congestion"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pulmonary engorgement"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pulmonary hyperaemia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pulmonary stasis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "lung hyperaemia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hypostatic lung congestion"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "congestive chest"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chest congestion"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute pulmonary oedema"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1212576561"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute lung hyperaemia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1212576561"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute lung oedema"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1212576561"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute oedema of lung"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1212576561"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute pulmonary hyperaemia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1212576561"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute oedematous lung"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1212576561"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute pulmonary oedema NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1212576561"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute terminal lung oedema"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1212576561"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute terminal oedematous lung"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1212576561"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic pulmonary oedema"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/786106058"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic lung oedema"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/786106058"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic oedematous lung"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/786106058"
+    }
+  ]
+}

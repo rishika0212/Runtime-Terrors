@@ -1,0 +1,113 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/262463613",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1112214727"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#262463613",
+  "code": "ME24.A4",
+  "source": "http://id.who.int/icd/entity/262463613",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/262463613/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Melaena"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "It is bloody stools that indicate bleeding from vascular system in the digestive tract. It is also described as black, tarry, and foul-smelling stools or red/maroon-coloured stools that contain degraded blood."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "occult blood in faeces"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/95152591",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1511651595"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1136386749",
+    "http://id.who.int/icd/entity/924234306"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Melaena"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "altered blood in stool"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "altered blood passed per rectum"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "tarry stools"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "black tarry stool"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "melaena due to gastrointestinal haemorrhage"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "blood in faeces"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "blood in stool"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bloody stool"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "faeces bloodstained"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "passage of bloody stools"
+      }
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2136808878",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1458683894"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2136808878",
+  "code": "BD10",
+  "source": "http://id.who.int/icd/entity/2136808878",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2136808878/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/206731332",
+        "http://id.who.int/icd/release/11/2024-01/mms/1232119755",
+        "http://id.who.int/icd/release/11/2024-01/mms/537685513",
+        "http://id.who.int/icd/release/11/2024-01/mms/175684441"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2136808878/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2136808878/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/465177735",
+        "http://id.who.int/icd/release/11/2024-01/mms/1492142148",
+        "http://id.who.int/icd/release/11/2024-01/mms/1210166201",
+        "http://id.who.int/icd/release/11/2024-01/mms/1015872326",
+        "http://id.who.int/icd/release/11/2024-01/mms/1280712786",
+        "http://id.who.int/icd/release/11/2024-01/mms/1121431779",
+        "http://id.who.int/icd/release/11/2024-01/mms/2135151223",
+        "http://id.who.int/icd/release/11/2024-01/mms/197934298"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Congestive heart failure"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A clinical syndrome characterised by abnormalities of ventricular function and neurohormonal regulation which are accompanied by effort intolerance and fluid retention."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congestive heart disease"
+      }
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1380872553"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1611051049"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congestive heart failure"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congestive heart disease"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "CCF - [congestive cardiac failure]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "CHF - [congestive heart failure]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "congestive cardiac diseases"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "congested heart failure"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "congestive cardiac failure"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cardiac anasarca"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cardiac oedema"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cardiac stasis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cardiovascular oedema"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cardiac hydrops"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "congestive failure"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "heart congestion"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "heart fluid"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "oedematous heart"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Decompensated congestive cardiac failure"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2011334376"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Decompensated congestive heart failure"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2011334376"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congestive heart failure NYHA Class I"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1703792511"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "congestive heart failure NYHA Class I - Slight limitation of physical activity. Comfortable at rest. Ordinary physical activity results in fatigue, palpitation, dyspnoea (shortness of breath"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1703792511"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congestive heart failure NYHA Class II"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/457135520"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "congestive heart failure NYHA Class II - Slight limitation of physical activity. Comfortable at rest. Ordinary physical activity results in fatigue, palpitation, dyspnoea (shortness of breath)"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/457135520"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congestive heart failure NYHA Class III"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1068960732"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "congestive heart failure NYHA Class III - Marked limitation of physical activity. Comfortable at rest. Less than ordinary activity causes fatigue, palpitation or dyspnoea."
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1068960732"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congestive heart failure NYHA Class IV"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1435985435"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "congestive heart failure NYHA Class IV - Unable to carry on any physical activity without discomfort. Symptoms of heart failure at rest. If any physical activity is undertaken, discomfort increases"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1435985435"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute congestive heart failure"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1981559937"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic congestive heart failure"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/58978844"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/842877470",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/108076065"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/52782345",
+    "http://id.who.int/icd/release/11/2024-01/mms/73836130",
+    "http://id.who.int/icd/release/11/2024-01/mms/1630366712",
+    "http://id.who.int/icd/release/11/2024-01/mms/314832996",
+    "http://id.who.int/icd/release/11/2024-01/mms/842877470/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/842877470/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#842877470",
+  "code": "LA21",
+  "source": "http://id.who.int/icd/entity/842877470",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/842877470/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/842877470/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2030796271"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Minor anomalies of pinnae"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Any condition caused by failure of the pinna to correctly develop during the antenatal period. These conditions are characterised by asymptomatic abnormalities of the visible part of the ear."
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2072552498",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/597627283"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2072552498",
+  "code": "DB52",
+  "source": "http://id.who.int/icd/entity/2072552498",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced anal ulceration"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1377705785",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1044091662/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2072552498/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2072552498/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Ulcer of anus"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Ulcer of anus is tissue defect located in the anal regions, extending beyond the submucosa into the muscularis mucosa."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ulcer of anus and rectum"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Solitary ulcer of anus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stercoral ulcer of anus"
+      }
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ulcer of anus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ulcer of anus and rectum"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Solitary ulcer of anus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stercoral ulcer of anus"
+      }
+    }
+  ]
+}

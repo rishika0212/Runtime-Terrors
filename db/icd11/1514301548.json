@@ -1,0 +1,51 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1514301548",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/733496698"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/110246821",
+    "http://id.who.int/icd/release/11/2024-01/mms/179567065",
+    "http://id.who.int/icd/release/11/2024-01/mms/1226574342",
+    "http://id.who.int/icd/release/11/2024-01/mms/692231715",
+    "http://id.who.int/icd/release/11/2024-01/mms/1514301548/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1514301548/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1514301548",
+  "code": "9B75.0",
+  "source": "http://id.who.int/icd/entity/1514301548",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Small drusen of the macula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/928230143",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/928230143"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1514301548/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Age-related macular degeneration"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Age-related macular degeneration (ARMD) is defined as an ocular disease leading to loss of central vision in the elderly, and characterised by primary and secondary damage of macular retinal pigment epithelial (RPE) cells, resulting in formation of drusen (deposits lying beneath the RPE), choroidal neovascularization (CNV), and atrophy of photoreceptors and choriocapillaris layer of the choroidea."
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/702067523",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/750435296"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1342802999",
+    "http://id.who.int/icd/release/11/2024-01/mms/614784200",
+    "http://id.who.int/icd/release/11/2024-01/mms/1106186590",
+    "http://id.who.int/icd/release/11/2024-01/mms/893534627",
+    "http://id.who.int/icd/release/11/2024-01/mms/702067523/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/702067523/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#702067523",
+  "code": "LA10",
+  "source": "http://id.who.int/icd/entity/702067523",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/702067523/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/702067523/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/662741980"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Structural developmental anomalies of ocular globes"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Any condition caused by failure of the ocular globes to correctly develop during the antenatal period."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Holoprosencephaly with cyclopia or synophthalmia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2022329252",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1712699129"
+    }
+  ]
+}

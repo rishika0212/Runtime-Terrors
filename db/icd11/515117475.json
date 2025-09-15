@@ -1,0 +1,52 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/515117475",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/135352227"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1520312138",
+    "http://id.who.int/icd/release/11/2024-01/mms/515117475/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/515117475/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#515117475",
+  "code": "1A09",
+  "source": "http://id.who.int/icd/entity/515117475",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/515117475/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/684930313",
+        "http://id.who.int/icd/release/11/2024-01/mms/293771399",
+        "http://id.who.int/icd/release/11/2024-01/mms/1323682030",
+        "http://id.who.int/icd/release/11/2024-01/mms/216184590",
+        "http://id.who.int/icd/release/11/2024-01/mms/2058491071",
+        "http://id.who.int/icd/release/11/2024-01/mms/1210263011"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/515117475/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1837021781"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Infections due to other Salmonella"
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/911707612"
+  ],
+  "codingNote": {
+    "@language": "en",
+    "@value": "Infection or foodborne intoxication due to any Salmonella species other than S. typhi and S. paratyphi"
+  }
+}

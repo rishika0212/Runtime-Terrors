@@ -1,0 +1,84 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1802307036",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1939815950"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1380450203",
+    "http://id.who.int/icd/release/11/2024-01/mms/1731433055",
+    "http://id.who.int/icd/release/11/2024-01/mms/1993674550",
+    "http://id.who.int/icd/release/11/2024-01/mms/350028235",
+    "http://id.who.int/icd/release/11/2024-01/mms/1449494917",
+    "http://id.who.int/icd/release/11/2024-01/mms/2003167397",
+    "http://id.who.int/icd/release/11/2024-01/mms/1802307036/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1802307036/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1802307036",
+  "code": "1F28",
+  "source": "http://id.who.int/icd/entity/1802307036",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1802307036/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/223243926",
+        "http://id.who.int/icd/release/11/2024-01/mms/947150833",
+        "http://id.who.int/icd/release/11/2024-01/mms/1810600222"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1802307036/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1175903901"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Dermatophytosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Dermatophytosis (tinea, ringworm) is a superficial infection of the skin, hair or nails by dermatophyte fungi of the genera Trichophyton, Epidermophyton or Microsporum. These fungi normally invade only the outer keratinous layer of the epidermis (stratum corneum), the hair shaft and the nail. They count amongst the commonest infections in man. Some species (e.g. Trichophyton rubrum) are essentially anthropophilic and infect only man whereas others are zoophilic (e.g. Trichophyton verrucosum) but may cause human infection from contact with infected animals."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Dermatophytosis (tinea, ringworm) is a superficial infection of the skin, hair or nails. These fungi normally invade only the outer keratinous layer of the epidermis (stratum corneum), the hair shaft and the nail. They count amongst the commonest infections in man. Some species (e.g. Trichophyton rubrum) are essentially anthropophilic and infect only man whereas others are zoophilic (e.g. Trichophyton verrucosum) but may cause human infection from contact with infected animals."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infections due to species of Epidermophyton, Microsporum and Trichophyton"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tinea nigra"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1723085409",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1723085409"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tinea versicolor"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/67108853",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/67108853"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/528118622"
+  ]
+}

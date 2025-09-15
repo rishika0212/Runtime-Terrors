@@ -1,0 +1,63 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/96676503",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1119245712"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1340134114",
+    "http://id.who.int/icd/release/11/2024-01/mms/2053072995",
+    "http://id.who.int/icd/release/11/2024-01/mms/2120094266",
+    "http://id.who.int/icd/release/11/2024-01/mms/392405182",
+    "http://id.who.int/icd/release/11/2024-01/mms/96676503/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/96676503/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#96676503",
+  "code": "8D40",
+  "source": "http://id.who.int/icd/entity/96676503",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dementia due to pellagra"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/868851323",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/868851323"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "White matter disorders due to nutritional deficiency"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/509209399",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/509209399"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dementia due to nutritional deficiency"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/595317445",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1468768235/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/96676503/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1517885800",
+        "http://id.who.int/icd/release/11/2024-01/mms/1492142148",
+        "http://id.who.int/icd/release/11/2024-01/mms/1671987290/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/1671987290/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Neurological disorders due to nutrient deficiency"
+  }
+}

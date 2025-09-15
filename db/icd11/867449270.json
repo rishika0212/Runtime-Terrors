@@ -1,0 +1,202 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/867449270",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1210263011"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#867449270",
+  "code": "GB52",
+  "source": "http://id.who.int/icd/entity/867449270",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/867449270/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/867449270/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/476391827",
+        "http://id.who.int/icd/release/11/2024-01/mms/1583926619"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/867449270/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1663360295",
+        "http://id.who.int/icd/release/11/2024-01/mms/1164983645"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acute tubular necrosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Any condition of the kidney, caused by hypotension, hypoperfusion, ischaemia, hypoxia, or use of nephrotoxic drugs. These conditions are characterised by death of tubular epithelial cells and acute kidney injury. Confirmation is by identification of \"muddy brown casts\" of epithelial cells in a urine sample."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute tubular necrosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute renal tubular necrosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute tubular nephrosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute tubule necrosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ischaemic acute tubular necrosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ischaemic tubular necrosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "kidney tubular necrosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "lower nephron nephrosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "necrotising renal oedema"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "renal tubular necrosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "toxic tubular necrosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "tubular kidney necrosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "tubular necrosis NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "tubular nephrosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute tubular necrosis due to tubular toxins"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/729423534"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute tubular necrosis due to tubular toxins produced internally"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1216192046"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute tubular necrosis due to drugs, biological agents or environmental toxins"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/648947672"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute tubular necrosis due to ischaemia or hypotension or other causes classified elsewhere"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1077105185"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute tubular necrosis due to mixed ischaemic and toxic causes"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/636488122"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute renal failure with tubular necrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/662976055"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute kidney insufficiency with tubular necrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/662976055"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute renal insufficiency with tubular necrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/662976055"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "renal failure with tubular necrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/662976055"
+    }
+  ]
+}

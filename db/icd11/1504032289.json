@@ -1,0 +1,70 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1504032289",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/931401247"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1504032289",
+  "code": "ED50.0",
+  "source": "http://id.who.int/icd/entity/1504032289",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paraneoplastic acquired ichthyosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/824116071",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2037463157"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1504032289/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1630407678",
+        "http://id.who.int/icd/release/11/2024-01/mms/746448055",
+        "http://id.who.int/icd/release/11/2024-01/mms/248569732",
+        "http://id.who.int/icd/release/11/2024-01/mms/817370856",
+        "http://id.who.int/icd/release/11/2024-01/mms/1583926619",
+        "http://id.who.int/icd/release/11/2024-01/mms/1323892810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acquired ichthyosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Acquired ichthyosis resembles autosomal dominant ichthyosis vulgaris but develops in adult life in individuals without a previous history of ichthyosis. It may be caused by certain drugs but when associated with underlying malignancy (i.e. paraneoplastic) it is strongly associated with Hodgkin lymphoma and may be the presenting sign of that disease. It may less commonly be associated with other lymphoid neoplasms or solid tumours."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hereditary ichthyosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/923829051",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1223911519"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired ichthyosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced ichthyosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1167696989"
+    }
+  ]
+}

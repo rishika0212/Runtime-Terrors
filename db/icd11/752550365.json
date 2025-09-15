@@ -1,0 +1,67 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/752550365",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/706550431"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2093072437",
+    "http://id.who.int/icd/release/11/2024-01/mms/752550365/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/752550365/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#752550365",
+  "code": "DB33.2",
+  "source": "http://id.who.int/icd/entity/752550365",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/752550365/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1777850685",
+        "http://id.who.int/icd/release/11/2024-01/mms/328294343",
+        "http://id.who.int/icd/release/11/2024-01/mms/2128592381",
+        "http://id.who.int/icd/release/11/2024-01/mms/204400509",
+        "http://id.who.int/icd/release/11/2024-01/mms/453411773",
+        "http://id.who.int/icd/release/11/2024-01/mms/894847549",
+        "http://id.who.int/icd/release/11/2024-01/mms/720455085",
+        "http://id.who.int/icd/release/11/2024-01/mms/1614204137",
+        "http://id.who.int/icd/release/11/2024-01/mms/1431962259",
+        "http://id.who.int/icd/release/11/2024-01/mms/771220582"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/752550365/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/752550365/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/976029909",
+        "http://id.who.int/icd/release/11/2024-01/mms/148971835",
+        "http://id.who.int/icd/release/11/2024-01/mms/1497482390"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Allergic or dietetic colitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Colitis and proctitis due to allergic disorders including food allergy. This category includes both immediate-type (IgE mediated) and non-igE-mediated colonic hypersensitivity, and eosinophilic disorders of large intestine. Food protein-induced proctitis/colitis of infants is also included here."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ]
+}

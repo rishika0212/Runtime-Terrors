@@ -1,0 +1,78 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1944845279",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1310497511"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1944845279",
+  "code": "8A61.10",
+  "source": "http://id.who.int/icd/entity/1944845279",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1944845279/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/539646260"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Benign familial infantile epilepsy"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Epilepsy characterised by the occurrence of repeated seizures in healthy infants with no prior medical history during the first year of life. The seizures manifest with motor arrest, impairment of consciousness, staring, eye and head deviation, and mild unilateral clonic convulsions. A family history of the same epilepsy is a constant finding. The pattern of inheritance is most probably autosomal dominant."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/564191997"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/2083324835"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Benign familial infantile epilepsy"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Watanabe-Vigevano syndrome"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infantile convulsions or choreoathetosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1514333880"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infantile convulsions and paroxysmal choreoathetosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1514333880"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ICCA - [Infantile convulsions and choreoathetosis] syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1514333880"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Benign infantile focal epilepsy with midline spikes and waves during sleep"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1231731968"
+    }
+  ]
+}

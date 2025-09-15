@@ -1,0 +1,79 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/684422352",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/719281988"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#684422352",
+  "code": "FB54.4",
+  "source": "http://id.who.int/icd/entity/684422352",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/684422352/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Metatarsalgia"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is a condition characterised by pain and inflammation in the ball of your foot or at the metatarsal heads."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Morton metatarsalgia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/58858191",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1180456993"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic primary musculoskeletal pain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1236923870",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1236923870"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic secondary musculoskeletal pain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1968541653",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1968541653"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Metatarsalgia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "metatarsalgia, unspecified foot"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "metatarsalgia NOS"
+      }
+    }
+  ]
+}

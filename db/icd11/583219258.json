@@ -1,0 +1,53 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/583219258",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2022303330"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#583219258",
+  "code": "2B31.6",
+  "source": "http://id.who.int/icd/entity/583219258",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/583219258/postcoordinationScale/histopathology",
+      "axisName": "http://id.who.int/icd/schema/histopathology",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/120963710"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/583219258/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Indeterminate cell histiocytosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A very rare dendritic cell tumour composed of spindle to ovoid cells with a phenotype that is similar to the Langerhans cells. Patients usually present with cutaneous papules, nodules, and plaques. Systemic symptoms are usually absent. The clinical course is variable."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Indeterminate cell histiocytosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Indeterminate dendritic cell tumour"
+      }
+    }
+  ]
+}

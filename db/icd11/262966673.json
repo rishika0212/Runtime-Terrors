@@ -1,0 +1,80 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/262966673",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/631153919"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#262966673",
+  "code": "8E40.0",
+  "source": "http://id.who.int/icd/entity/262966673",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/262966673/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1979147242",
+        "http://id.who.int/icd/release/11/2024-01/mms/1284492970"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/262966673/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/879154182",
+        "http://id.who.int/icd/release/11/2024-01/mms/944754984",
+        "http://id.who.int/icd/release/11/2024-01/mms/1643222460"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Neoplastic meningitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Inflammation of the meninges due to malignant infiltration from carcinomas, leukaemias and lymphomas. The syndrome is clinically characterised by headache, neck stiffness, fever and photophobia with potential progression to stupor and coma. The presentation may be acute, subacute or chronic. Diagnosis may be aided by neuroimaging and spinal fluid analysis which may reveal a lymphocytic pleocytosis, raised protein and the presence of malignant cells on cytology."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/564191997"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neoplastic meningitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant meningitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Carcinomatous meningitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1408272267"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Leukemic meningitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1283692207"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Lymphomatous meningitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1470687525"
+    }
+  ]
+}

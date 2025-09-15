@@ -1,0 +1,108 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/577724120",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2138913203"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#577724120",
+  "code": "CA23.32",
+  "source": "http://id.who.int/icd/entity/577724120",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/577724120/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/562478860",
+        "http://id.who.int/icd/release/11/2024-01/mms/1663264387",
+        "http://id.who.int/icd/release/11/2024-01/mms/1201187093"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Unspecified asthma, uncomplicated"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute severe asthma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1480952049",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1480952049"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/923122941"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/607453719"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unspecified asthma, uncomplicated"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "asthmatic"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "asthma NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hypoxic asthma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "asthma, unspecified, without stated status asthmaticus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bronchial asthma NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "asthmatic bronchitis NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "asthmatic dyspnoea"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Croup asthma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/839068094"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Late onset asthma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1238922114"
+    }
+  ]
+}

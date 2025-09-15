@@ -1,0 +1,81 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1399661582",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/537826614"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1399661582",
+  "code": "DB35.1",
+  "source": "http://id.who.int/icd/entity/1399661582",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1399661582/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1741413713"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1399661582/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Inflammatory polyp of large intestine"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Inflammatory polyps occur as a result of the chronic inflammation that takes place in the colon and rectum."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Crohn disease of large intestine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/765321840",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/765321840"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Inflammatory polyp of large intestine"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pseudopolyposis of colon"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "inflammatory polyps of colon NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "colitis polyposa"
+      }
+    }
+  ]
+}

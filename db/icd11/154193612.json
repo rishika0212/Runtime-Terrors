@@ -1,0 +1,48 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/154193612",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/645263329"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#154193612",
+  "code": "8A04.2",
+  "source": "http://id.who.int/icd/entity/154193612",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/154193612/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2019368323"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Rest tremor"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Resting tremors happen while the patient is sitting or lying down and relaxed. People who have a resting tremor can usually stop the tremor by deliberately moving the affected body part. It usually occurs in the setting of Parkinsonism."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/564191997"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Rest tremor"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Rest tremor in Parkinsonism"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/864977452"
+    }
+  ]
+}

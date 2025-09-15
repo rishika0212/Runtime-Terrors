@@ -1,0 +1,101 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/854762584",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1104303944"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#854762584",
+  "code": "1C82",
+  "source": "http://id.who.int/icd/entity/854762584",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/854762584/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/956664712"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Rabies"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease caused by infection with the rabies virus. This disease is characterised by fever, and headache, followed by neurological symptoms dominated by a furious or paralytic form."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/911707612"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Rabies"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hydrophobia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "lyssa"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "St Hubert disease"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Suspected rabies"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/704396991"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Probable rabies"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/376855975"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Confirmed rabies"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/315345817"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Encephalitis due to classical rabies virus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/525698119"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sylvatic rabies"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/632355134"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Urban rabies"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1090204844"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1326332835",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1581976053"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/679352876",
+    "http://id.who.int/icd/release/11/2024-01/mms/849253504",
+    "http://id.who.int/icd/release/11/2024-01/mms/1236923870",
+    "http://id.who.int/icd/release/11/2024-01/mms/2104869000",
+    "http://id.who.int/icd/release/11/2024-01/mms/1834504950",
+    "http://id.who.int/icd/release/11/2024-01/mms/1326332835/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1326332835/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1326332835",
+  "code": "MG30.0",
+  "source": "http://id.who.int/icd/entity/1326332835",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Painful bruising syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/347603209",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/347603209"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1326332835/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1007332872",
+        "http://id.who.int/icd/release/11/2024-01/mms/597444540"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1326332835/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/501504598",
+        "http://id.who.int/icd/release/11/2024-01/mms/932220680",
+        "http://id.who.int/icd/release/11/2024-01/mms/671508148",
+        "http://id.who.int/icd/release/11/2024-01/mms/579584480"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1326332835/postcoordinationScale/hasAlternativeSeverity1",
+      "axisName": "http://id.who.int/icd/schema/hasAlternativeSeverity1",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/137604848",
+        "http://id.who.int/icd/release/11/2024-01/mms/1926847105",
+        "http://id.who.int/icd/release/11/2024-01/mms/489218088",
+        "http://id.who.int/icd/release/11/2024-01/mms/2029211037"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1326332835/postcoordinationScale/hasAlternativeSeverity2",
+      "axisName": "http://id.who.int/icd/schema/hasAlternativeSeverity2",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/145592658",
+        "http://id.who.int/icd/release/11/2024-01/mms/1824378311",
+        "http://id.who.int/icd/release/11/2024-01/mms/1714449067",
+        "http://id.who.int/icd/release/11/2024-01/mms/1721227995"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1326332835/postcoordinationScale/temporalPatternAndOnset",
+      "axisName": "http://id.who.int/icd/schema/temporalPatternAndOnset",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1281193286",
+        "http://id.who.int/icd/release/11/2024-01/mms/1313511357",
+        "http://id.who.int/icd/release/11/2024-01/mms/47514516"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Chronic primary pain"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Chronic primary pain is chronic pain in one or more anatomical regions that is characterised by significant emotional distress (anxiety, anger/frustration or depressed mood) or functional disability (interference in daily life activities and reduced participation in social roles). Chronic primary pain is multifactorial: biological, psychological and social factors contribute to the pain syndrome. The diagnosis is appropriate independently of identified biological or psychological contributors unless another diagnosis would better account for the presenting symptoms."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Chronic primary pain is chronic pain in one or more anatomical regions that is characterized by significant emotional distress (anxiety, anger/frustration or depressed mood) or functional disability (interference in daily life activities and reduced participation in social roles). Chronic primary pain is multifactorial: biological psychological and social factors contribute to the pain syndrome. The diagnosis is appropriate independently of identified biological or psychological contributors unless another diagnosis would better account for the presenting symptoms. Other chronic pain diagnoses to be considered are chronic cancer-related pain, chronic postsurgical or posttraumatic pain, chronic neuropathic pain, chronic secondary headache or orofacial pain, chronic secondary visceral pain and chronic secondary musculoskeletal pain. Patients with chronic primary pain often report increased depressed [1] and anxious [2] mood, as well as anger [3] and frustration [4]. In addition, the pain significantly interferes with daily life activities and participation in social roles [5]. Chronic primary pain is a frequent condition, and treatment should be geared towards the reduction of pain-related distress and disability [e.g. 6].\n\nDiagnostic Criteria\n\nConditions A to C are fulfilled:\n\nA. Chronic pain (persistent or recurrent for longer than 3 months) is present\n\nB. The pain is associated with at least one of the following:\n\nB.1 Emotional distress due to pain is present.\n\nB.2 The pain interferes with daily life activities and social participation.\n\nC. The pain is not better accounted for by another chronic pain condition.\n\nComments\n\nThe presence of pain and emotional distress or interference in daily activities due to pain should be established based on a thorough assessment procedure using standardized measures."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute pain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1404135736",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1404135736"
+    }
+  ],
+  "codingNote": {
+    "@language": "en",
+    "@value": "Other chronic pain diagnoses to be considered are chronic cancer-related pain, chronic postsurgical or posttraumatic pain, chronic neuropathic pain, chronic secondary headache or orofacial pain, chronic secondary visceral pain and chronic secondary musculoskeletal pain."
+  }
+}

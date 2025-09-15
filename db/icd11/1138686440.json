@@ -1,0 +1,80 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1138686440",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1029792395"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1897263039",
+    "http://id.who.int/icd/release/11/2024-01/mms/1788336779",
+    "http://id.who.int/icd/release/11/2024-01/mms/1901758750",
+    "http://id.who.int/icd/release/11/2024-01/mms/1138686440/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1138686440/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1138686440",
+  "code": "9C84.5",
+  "source": "http://id.who.int/icd/entity/1138686440",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spasmus nutans"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1868433558",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/645263329/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1138686440/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1138686440/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1297080916",
+        "http://id.who.int/icd/release/11/2024-01/mms/946652467",
+        "http://id.who.int/icd/release/11/2024-01/mms/65880823",
+        "http://id.who.int/icd/release/11/2024-01/mms/2000687626",
+        "http://id.who.int/icd/release/11/2024-01/mms/503601360",
+        "http://id.who.int/icd/release/11/2024-01/mms/696932440",
+        "http://id.who.int/icd/release/11/2024-01/mms/551713432",
+        "http://id.who.int/icd/release/11/2024-01/mms/1058803681",
+        "http://id.who.int/icd/release/11/2024-01/mms/1979741228",
+        "http://id.who.int/icd/release/11/2024-01/mms/973190159",
+        "http://id.who.int/icd/release/11/2024-01/mms/792902371",
+        "http://id.who.int/icd/release/11/2024-01/mms/870769757",
+        "http://id.who.int/icd/release/11/2024-01/mms/1060046426/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/1266833063",
+        "http://id.who.int/icd/release/11/2024-01/mms/868865918/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/1743180897",
+        "http://id.who.int/icd/release/11/2024-01/mms/1804006919",
+        "http://id.who.int/icd/release/11/2024-01/mms/1665042685",
+        "http://id.who.int/icd/release/11/2024-01/mms/1611601779",
+        "http://id.who.int/icd/release/11/2024-01/mms/30317704",
+        "http://id.who.int/icd/release/11/2024-01/mms/566574133",
+        "http://id.who.int/icd/release/11/2024-01/mms/201567715",
+        "http://id.who.int/icd/release/11/2024-01/mms/1189424097",
+        "http://id.who.int/icd/release/11/2024-01/mms/969612493",
+        "http://id.who.int/icd/release/11/2024-01/mms/1513405703",
+        "http://id.who.int/icd/release/11/2024-01/mms/2071994109"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Nystagmus occurring in visual system disorders"
+  }
+}

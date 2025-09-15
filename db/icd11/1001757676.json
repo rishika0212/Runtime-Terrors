@@ -1,0 +1,64 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1001757676",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1437411258"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1935939643",
+    "http://id.who.int/icd/release/11/2024-01/mms/101688410",
+    "http://id.who.int/icd/release/11/2024-01/mms/1486914773",
+    "http://id.who.int/icd/release/11/2024-01/mms/2040783046",
+    "http://id.who.int/icd/release/11/2024-01/mms/1001757676/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1001757676/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1001757676",
+  "code": "DA60.6",
+  "source": "http://id.who.int/icd/entity/1001757676",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1001757676/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1493524587"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1001757676/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/294460566",
+        "http://id.who.int/icd/release/11/2024-01/mms/985094335",
+        "http://id.who.int/icd/release/11/2024-01/mms/1794059753",
+        "http://id.who.int/icd/release/11/2024-01/mms/1472717853",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1001757676/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Gastric ulcer due to external causes"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Gastric ulcer caused by external substances, such as alcohol, radiation, chemical agent and by other external causes."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ]
+}

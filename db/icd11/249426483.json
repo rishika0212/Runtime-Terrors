@@ -1,0 +1,59 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/249426483",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1594247995"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#249426483",
+  "code": "GA91.0",
+  "source": "http://id.who.int/icd/entity/249426483",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/249426483/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1290701352"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Chronic prostatitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition caused by obstruction of the prostate glands. This condition is characterised by inflammation of the prostate gland, dysuria, pollakiuria, urinary urgency, genital pain, lower back pain, abdominal pain, and repeated bladder infections that last for at least three months."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic prostatitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fibrous prostatitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1418140694"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hypertrophic prostatitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1164151828"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Subacute prostatitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/247322807"
+    }
+  ]
+}

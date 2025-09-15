@@ -1,0 +1,148 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2097802831",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1402642515"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2097802831",
+  "code": "9B51",
+  "source": "http://id.who.int/icd/entity/2097802831",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Zoster scleritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/641390589",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2105678631"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2097802831/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2097802831/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Scleritis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Inflammation of the white, opaque, fibrous, outer tunic of the eyeball. Can be associated with uveitis."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Scleritis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Anterior scleritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/728494077"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Brawny scleritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1606860546"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Posterior scleritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/982348440"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Scleritis with corneal involvement"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1231282436"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Scleromalacia perforans"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/740830358"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "scleromalacia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/740830358"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Scleral abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/229544966"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Scleral ulcer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/283992183"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Scleroconjunctivitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/772489791"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sclerotenonitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1323614324"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Necrotising scleritis without inflammation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1946889582"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "scleral necrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1946889582"
+    }
+  ]
+}

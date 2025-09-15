@@ -1,0 +1,72 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1420272543",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/6464079"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1420272543",
+  "code": "9A06.71",
+  "source": "http://id.who.int/icd/entity/1420272543",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1420272543/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1420272543/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1142633691"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Seborrhoeic dermatitis of eyelids"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Seborrhoeic dermatitis of eyelids (seborrhoeic blepharitis) is common. It is characterised by redness and scaling on the skin of the eyelids with variable involvement of the eyelid margins."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Seborrhoea"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/351100904",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/351100904"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Seborrhoeic dermatitis of eyelids"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Seborrhoeic blepharitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "blepharitis in seborrhoeic eczema"
+      }
+    }
+  ]
+}

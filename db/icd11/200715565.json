@@ -1,0 +1,95 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/200715565",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1365585570"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#200715565",
+  "code": "1F53.3",
+  "source": "http://id.who.int/icd/entity/200715565",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/200715565/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1337584902",
+        "http://id.who.int/icd/release/11/2024-01/mms/1515005003",
+        "http://id.who.int/icd/release/11/2024-01/mms/899820155",
+        "http://id.who.int/icd/release/11/2024-01/mms/1651798887",
+        "http://id.who.int/icd/release/11/2024-01/mms/616736219",
+        "http://id.who.int/icd/release/11/2024-01/mms/532265365",
+        "http://id.who.int/icd/release/11/2024-01/mms/1924631190"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/200715565/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/636464846",
+        "http://id.who.int/icd/release/11/2024-01/mms/581725607/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/1742998538"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Chagas disease with digestive system involvement"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease caused by an infection with the protozoan parasite Trypanosoma cruzi. This disease is characterised by severe malaise or digestive system involvement (such as megaoesophagus or megacolon). Transmission is by direct contact with faeces from an infected triatomine bug, vertical transmission, iatrogenic transmission, or ingestion of contaminated food or water. Confirmation is by identification of Trypanosoma cruzi in a blood sample."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1599087747"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1945127438"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chagas disease with digestive system involvement"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic Chagas disease with digestive system involvement"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Megaoesophagus in Chagas disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1549577177"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chagasic megaoesophagus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1549577177"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Achalasia in Chagas disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1328238426"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Megacolon in Chagas disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/324806908"
+    }
+  ]
+}

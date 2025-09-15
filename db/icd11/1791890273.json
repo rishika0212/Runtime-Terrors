@@ -1,0 +1,100 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1791890273",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1971756453"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1868957860",
+    "http://id.who.int/icd/release/11/2024-01/mms/1758486982",
+    "http://id.who.int/icd/release/11/2024-01/mms/1791890273/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1791890273/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1791890273",
+  "code": "CA02",
+  "source": "http://id.who.int/icd/entity/1791890273",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Streptococcal pharyngitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1642172022",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1642172022"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Meningococcal pharyngitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/49404528",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1664016479/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1791890273/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acute pharyngitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Acute pharyngitis is defined as an infection or irritation of the pharynx and/or tonsils and is a part of the common cold symptoms. The etiology is usually infectious, with most cases being of viral origin.  Although virus infection is the primary cause, it is also caused by bacterial infection. The discomfort of a throat, a throat pain and swallowing pain often occur. Headache, general fatigueness, radiating pain to the ear and a cervical lymphadenitis also occur. Local finding demonstrates hyperaemic palatine tonsils and swelling of lymphoid follicles of posterior wall of pharynx. Patients with acute pharyngitis present most commonly with a sore throat. Other various symptoms can rise in these patients depending on their causing organisms."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute sore throat"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute laryngopharyngitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1528782604",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1528782604"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Peritonsillar abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1782446047",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1782446047"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic pharyngitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1101977204",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1101977204"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Retropharyngeal or parapharyngeal abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/632678885",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/632678885"
+    }
+  ]
+}

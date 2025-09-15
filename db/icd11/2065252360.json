@@ -1,0 +1,105 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2065252360",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/831696556"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2065252360",
+  "code": "9A60.1",
+  "source": "http://id.who.int/icd/entity/2065252360",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chlamydial conjunctivitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/223956768",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/223956768"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Herpes simplex keratoconjunctivitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1461865277",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1985490330/other"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Zoster keratoconjunctivitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/130546848",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2105678631"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Keratoconjunctivitis due to adenovirus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/612255284",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1094028194"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Keratoconjunctivitis due to Acanthamoeba"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/431179097",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/289875029"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2065252360/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2065252360/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/470130163"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Follicular conjunctivitis"
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/358047372"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Follicular conjunctivitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic follicular conjunctivitis, chlamydial"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1448663971"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic follicular conjunctivitis, toxic"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1640757981"
+    }
+  ]
+}

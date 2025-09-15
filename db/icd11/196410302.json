@@ -1,0 +1,70 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/196410302",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1915134721"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#196410302",
+  "code": "5D42",
+  "source": "http://id.who.int/icd/entity/196410302",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/196410302/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/460401849",
+        "http://id.who.int/icd/release/11/2024-01/mms/1642025150",
+        "http://id.who.int/icd/release/11/2024-01/mms/1162198017",
+        "http://id.who.int/icd/release/11/2024-01/mms/431804121"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Postprocedural hypoparathyroidism"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This refers to a postprocedural decreased function of the parathyroid glands with underproduction of parathyroid hormone. This can lead to low levels of calcium in the blood, often causing cramping and twitching of muscles or tetany (involuntary muscle contraction), and several other symptoms."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Parathyroprival tetany"
+      }
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1156263785"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postprocedural hypoparathyroidism"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "absence of parathyroid gland"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "postoperative tetany"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Parathyroprival tetany"
+      }
+    }
+  ]
+}

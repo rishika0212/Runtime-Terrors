@@ -1,0 +1,68 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/409494931",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/292678072"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#409494931",
+  "code": "KA43.3",
+  "source": "http://id.who.int/icd/entity/409494931",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/409494931/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/968129184"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/409494931/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/128908879",
+        "http://id.who.int/icd/release/11/2024-01/mms/1659188187",
+        "http://id.who.int/icd/release/11/2024-01/mms/373842724",
+        "http://id.who.int/icd/release/11/2024-01/mms/541657990",
+        "http://id.who.int/icd/release/11/2024-01/mms/986673759",
+        "http://id.who.int/icd/release/11/2024-01/mms/1929621170",
+        "http://id.who.int/icd/release/11/2024-01/mms/15547686",
+        "http://id.who.int/icd/release/11/2024-01/mms/437941753",
+        "http://id.who.int/icd/release/11/2024-01/mms/927970860/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Birth injury to face"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Birth injuries to face include injuries sustained to nose (deviations, deformities, and septal damage), ears (abrasions, lacerations, deformities and haematomas)."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Birth injury to face"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Birth injury to skin and soft tissues of face, ears or neck"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Facial congestion due to birth injury"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1058147035"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/673699961",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/327513558"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#673699961",
+  "code": "DD92.0",
+  "source": "http://id.who.int/icd/entity/673699961",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/673699961/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Functional faecal incontinence"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Recurrent uncontrolled passage of faecal material in an individual with a developmental age of at least 4 years and one or more of the following;\n\na. Abnormal functioning of normally innervated and structurally intact muscles\n\nb. Minor abnormalities of sphincter structure and/or innervation\n\nc. Normal or disordered bowel habits\n\nd. Psychological causes"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Encopresis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/313374467",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/313374467"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Encopresis with constipation or overflow incontinence"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/528060023",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/528060023"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Encopresis without constipation or overflow incontinence"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/541725793",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/541725793"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Functional faecal incontinence"
+      }
+    }
+  ]
+}

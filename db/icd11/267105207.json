@@ -1,0 +1,73 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/267105207",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2048203604"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#267105207",
+  "code": "VW16",
+  "source": "http://id.who.int/icd/entity/267105207",
+  "classKind": "category",
+  "title": {
+    "@language": "en",
+    "@value": "Using transportation"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Using transportation to move around as a passenger, such as being driven in a car, bus, rickshaw, jitney, pram or stroller, wheelchair, animal-powered vehicle, private or public taxi, train, tram, subway, boat or aircraft and using humans for transportation."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Driving"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/213067675",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2048203604"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Moving around using equipment"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/40033904",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/40033904"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Using transportation"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Using human-powered vehicles"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/877702958"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Using private motorized transportation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/595119086"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Using public motorized transportation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/436233902"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Using humans for transportation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/220725870"
+    }
+  ]
+}

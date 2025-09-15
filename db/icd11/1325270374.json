@@ -1,0 +1,188 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1325270374",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1008592825"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1325270374",
+  "code": "PE81",
+  "source": "http://id.who.int/icd/entity/1325270374",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1325270374/postcoordinationScale/medication",
+      "axisName": "http://id.who.int/icd/schema/medication",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1880792884",
+        "http://id.who.int/icd/release/11/2024-01/mms/881358505",
+        "http://id.who.int/icd/release/11/2024-01/mms/315390786"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1325270374/postcoordinationScale/activityWhenInjured",
+      "axisName": "http://id.who.int/icd/schema/activityWhenInjured",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2071638841",
+        "http://id.who.int/icd/release/11/2024-01/mms/1107435129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1428847289",
+        "http://id.who.int/icd/release/11/2024-01/mms/821249273",
+        "http://id.who.int/icd/release/11/2024-01/mms/160164281"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1325270374/postcoordinationScale/placeOfOccurrence",
+      "axisName": "http://id.who.int/icd/schema/placeOfOccurrence",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowedExceptFromSameBlock",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1081404635",
+        "http://id.who.int/icd/release/11/2024-01/mms/1786773723"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1325270374/postcoordinationScale/aspectsOfAssaultAndMaltreatment",
+      "axisName": "http://id.who.int/icd/schema/aspectsOfAssaultAndMaltreatment",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowedExceptFromSameBlock",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1115077034",
+        "http://id.who.int/icd/release/11/2024-01/mms/665815018",
+        "http://id.who.int/icd/release/11/2024-01/mms/814211882"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Assault by exposure to or harmful effects of sedative, hypnotic drugs or other CNS depressants"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of sedative, hypnotic drugs or other CNS depressants"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Homicidal poisoning by exposure to or harmful effects of sedative, hypnotic drugs & other CNS depressants"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of sedative-hypnotic drugs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/571123550"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of barbiturates"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/485262614"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of benzodiazepines"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/642959858"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of cloral derivatives"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1450693135"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of paraldehyde"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1680857698"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of bromine compounds"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/903723537"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of mixed sedatives or hypnotics, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1523185706"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of anaesthetics or therapeutic gases"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/60789810"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of nitrous oxide"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1618457806"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of other inhaled anaesthetics"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2131011050"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of intravenous anaesthetics"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2065597348"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of unspecified general anaesthetics"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1781967324"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of gamma hydroxybutyrate"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1967503608"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of ketamine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1341912096"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of other specified general anaesthetic"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/552580647"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of local anaesthetics"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1269013168"
+    }
+  ]
+}

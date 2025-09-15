@@ -1,0 +1,50 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1050919535",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/181365103"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1050919535",
+  "code": "2F32.2",
+  "source": "http://id.who.int/icd/entity/1050919535",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1050919535/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1050919535/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1507624466"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Meigs' syndrome"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Meigs' syndrome is classically defined as the triad of ascites, pleural effusion, and benign ovarian fibroma. A key feature found in patients with Meigs' syndrome is the resolution of symptoms after tumor resection. Meigs' syndrome is a rare condition that can only be diagnosed after ovarian carcinoma is ruled out."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Meigs' syndrome"
+      }
+    }
+  ]
+}

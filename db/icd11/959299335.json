@@ -1,0 +1,71 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/959299335",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1349236312"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#959299335",
+  "code": "KA40.00",
+  "source": "http://id.who.int/icd/entity/959299335",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/959299335/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/927970860",
+        "http://id.who.int/icd/release/11/2024-01/mms/634746760"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Subdural haemorrhage due to birth injury"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Haemorrhage into the subdural space (between the dura and the arachnoid) resulting from traumatic tearing of the bridging veins and venous sinuses due to rotational movement of the brain secondary to a traumatic delivery."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Haemorrhage into the subdural space (between the dura and the arachnoid) resulting from traumatic tearing of the bridging veins and venous sinuses due to rotational movement of the brain secondary to a traumatic delivery. These hematomas may also occur secondary to occipital osteodiastasis. There is often an accompanying skull fracture. The incidence of subdural hemorrhage is 2.9/10,000 live births after spontaneous delivery; 4.1/10,000 after cesarean section without labor; 8.0/10,000 after vacuum delivery; 9.8/10,000 after forceps delivery; 21.3/10,000 after combined vacuum and forceps delivery and 25.7/10,000 after cesarean section following failed instrumental vaginal delivery. The long term outcome depends on the size of the lesion and the presence of intraparenchymal lesions."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "subdural haemorrhage accompanying tentorial tear"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1047428204",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1047428204"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Subdural haemorrhage due to birth injury"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "localised subdural haematoma due to birth injury"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "subdural haematoma in fetus or newborn due to birth injury"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "subdural haemorrhage in fetus or newborn due to birth injury"
+      }
+    }
+  ]
+}

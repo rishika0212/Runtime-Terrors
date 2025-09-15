@@ -1,0 +1,62 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1886317801",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1295356165"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1886317801",
+  "code": "1B20.21",
+  "source": "http://id.who.int/icd/entity/1886317801",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1886317801/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1968541653",
+        "http://id.who.int/icd/release/11/2024-01/mms/1170330671"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Type II leprosy reaction"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This phenomenon, also named downgrading reaction, occurs in borderline leprosy states and is associated with a decrease in cell-mediated immunity with a shift towards the lepromatous end of the clinical spectrum."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/911707612"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Type II leprosy reaction"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Type II downgrading reaction"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Erythema nodosum leprosum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1678551661"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Lucio phenomenon"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2085564053"
+    }
+  ]
+}

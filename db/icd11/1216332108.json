@@ -1,0 +1,100 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1216332108",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/592902578"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/217218732",
+    "http://id.who.int/icd/release/11/2024-01/mms/1773777722",
+    "http://id.who.int/icd/release/11/2024-01/mms/487908295",
+    "http://id.who.int/icd/release/11/2024-01/mms/2132602168",
+    "http://id.who.int/icd/release/11/2024-01/mms/1216332108/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1216332108/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1216332108",
+  "code": "NC35",
+  "source": "http://id.who.int/icd/entity/1216332108",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1216332108/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1216332108/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1460927649",
+        "http://id.who.int/icd/release/11/2024-01/mms/1276139578",
+        "http://id.who.int/icd/release/11/2024-01/mms/1292809823",
+        "http://id.who.int/icd/release/11/2024-01/mms/2095243630",
+        "http://id.who.int/icd/release/11/2024-01/mms/1969812858",
+        "http://id.who.int/icd/release/11/2024-01/mms/1909968722",
+        "http://id.who.int/icd/release/11/2024-01/mms/1648398778",
+        "http://id.who.int/icd/release/11/2024-01/mms/1512493727",
+        "http://id.who.int/icd/release/11/2024-01/mms/1403831945",
+        "http://id.who.int/icd/release/11/2024-01/mms/1728031634",
+        "http://id.who.int/icd/release/11/2024-01/mms/2113670921",
+        "http://id.who.int/icd/release/11/2024-01/mms/1602684626",
+        "http://id.who.int/icd/release/11/2024-01/mms/1077647457",
+        "http://id.who.int/icd/release/11/2024-01/mms/1022904417",
+        "http://id.who.int/icd/release/11/2024-01/mms/2069528568",
+        "http://id.who.int/icd/release/11/2024-01/mms/48112377",
+        "http://id.who.int/icd/release/11/2024-01/mms/1718660768",
+        "http://id.who.int/icd/release/11/2024-01/mms/532087953"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1216332108/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/980862652",
+        "http://id.who.int/icd/release/11/2024-01/mms/851395624",
+        "http://id.who.int/icd/release/11/2024-01/mms/73322695",
+        "http://id.who.int/icd/release/11/2024-01/mms/128104623",
+        "http://id.who.int/icd/release/11/2024-01/mms/1491356379",
+        "http://id.who.int/icd/release/11/2024-01/mms/491063206",
+        "http://id.who.int/icd/release/11/2024-01/mms/185842968",
+        "http://id.who.int/icd/release/11/2024-01/mms/2143219175",
+        "http://id.who.int/icd/release/11/2024-01/mms/558785723",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Injury of blood vessels at forearm level"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury of blood vessels at wrist or hand level"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1339025049",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1339025049"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "injury of brachial vessels"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/219070712",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/219070712"
+    }
+  ]
+}

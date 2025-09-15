@@ -1,0 +1,69 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1041958231",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/643334575"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1041958231",
+  "code": "BD93.10",
+  "source": "http://id.who.int/icd/entity/1041958231",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1041958231/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1031510592",
+        "http://id.who.int/icd/release/11/2024-01/mms/465545679",
+        "http://id.who.int/icd/release/11/2024-01/mms/2122474603",
+        "http://id.who.int/icd/release/11/2024-01/mms/970208182",
+        "http://id.who.int/icd/release/11/2024-01/mms/481430149",
+        "http://id.who.int/icd/release/11/2024-01/mms/276642106",
+        "http://id.who.int/icd/release/11/2024-01/mms/1525493612"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1041958231/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/723430526",
+        "http://id.who.int/icd/release/11/2024-01/mms/2057222152"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Lymphoedema due to venous insufficiency"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Permanent lymphoedema, usually of the lower extremities, resulting from venous hypertension and chronic gravitational oedema."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1380872553"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Lymphoedema due to venous insufficiency"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Phlebolymphoedema"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Lymphoedema secondary to venous insufficiency"
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/292678072",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/624443803"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/248331155",
+    "http://id.who.int/icd/release/11/2024-01/mms/2099488775",
+    "http://id.who.int/icd/release/11/2024-01/mms/160364792",
+    "http://id.who.int/icd/release/11/2024-01/mms/409494931",
+    "http://id.who.int/icd/release/11/2024-01/mms/292678072/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/292678072/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#292678072",
+  "code": "KA43",
+  "source": "http://id.who.int/icd/entity/292678072",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/292678072/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/570444145",
+        "http://id.who.int/icd/release/11/2024-01/mms/956558826",
+        "http://id.who.int/icd/release/11/2024-01/mms/338111831",
+        "http://id.who.int/icd/release/11/2024-01/mms/1476052459",
+        "http://id.who.int/icd/release/11/2024-01/mms/2093217246"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Birth injury to skin or soft tissues"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Superficial injury including abrasions, lacerations and ecchymoses sustained during birth to sites other than scalp face and external genitalia"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Birth injury to scalp"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1099770685",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1099770685"
+    }
+  ]
+}

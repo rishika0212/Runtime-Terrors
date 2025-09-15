@@ -1,0 +1,41 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/845687188",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1195691020"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1450844990",
+    "http://id.who.int/icd/release/11/2024-01/mms/1045031920",
+    "http://id.who.int/icd/release/11/2024-01/mms/2074261372",
+    "http://id.who.int/icd/release/11/2024-01/mms/330547747",
+    "http://id.who.int/icd/release/11/2024-01/mms/845687188/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/845687188/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#845687188",
+  "code": "DA50",
+  "source": "http://id.who.int/icd/entity/845687188",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/845687188/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acquired anatomical alterations of the duodenum"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This group incorporates duodenal disorders principally due to acquired morphological changes of the duodenum."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ]
+}

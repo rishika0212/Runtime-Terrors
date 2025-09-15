@@ -1,0 +1,149 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/142052508",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/915779102"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1323682030",
+    "http://id.who.int/icd/release/11/2024-01/mms/1024154490",
+    "http://id.who.int/icd/release/11/2024-01/mms/1176185297",
+    "http://id.who.int/icd/release/11/2024-01/mms/142052508/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/142052508/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#142052508",
+  "code": "CA40",
+  "source": "http://id.who.int/icd/entity/142052508",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pulmonary toxoplasmosis due to Toxoplasma gondii"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1165131409",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1165131409"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Severe acute respiratory syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/652944603",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/652944603"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital pneumonia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/594985340",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/594985340"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Abscess of lung with pneumonia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1090376918",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1090376918"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/142052508/postcoordinationScale/causality",
+      "axisName": "http://id.who.int/icd/schema/causality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/894194405",
+        "http://id.who.int/icd/release/11/2024-01/mms/1674014893",
+        "http://id.who.int/icd/release/11/2024-01/mms/655959100",
+        "http://id.who.int/icd/release/11/2024-01/mms/56475710",
+        "http://id.who.int/icd/release/11/2024-01/mms/339929010"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/142052508/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/142052508/postcoordinationScale/timeInLife",
+      "axisName": "http://id.who.int/icd/schema/timeInLife",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1588782340",
+        "http://id.who.int/icd/release/11/2024-01/mms/1043777387",
+        "http://id.who.int/icd/release/11/2024-01/mms/1088785230",
+        "http://id.who.int/icd/release/11/2024-01/mms/275453639",
+        "http://id.who.int/icd/release/11/2024-01/mms/184470439",
+        "http://id.who.int/icd/release/11/2024-01/mms/963352150",
+        "http://id.who.int/icd/release/11/2024-01/mms/1733780743",
+        "http://id.who.int/icd/release/11/2024-01/mms/1276541597"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/142052508/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/622600769",
+        "http://id.who.int/icd/release/11/2024-01/mms/1683090852"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/142052508/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1431418585",
+        "http://id.who.int/icd/release/11/2024-01/mms/1800563713",
+        "http://id.who.int/icd/release/11/2024-01/mms/774021157"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Pneumonia"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease of the lungs, frequently but not always caused by an infection with bacteria, virus, fungus, or parasite. This disease is characterised by fever, chills, cough with sputum production, chest pain and shortness of breath. Confirmation is by chest x-ray."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "infectious pneumonia"
+      }
+    }
+  ],
+  "fullySpecifiedName": {
+    "@language": "en",
+    "@value": "Infectious alveolar inflammation"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pneumonitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1324545867",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1324545867"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/594985340"
+  ]
+}

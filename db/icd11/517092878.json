@@ -1,0 +1,55 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/517092878",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2064760868"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#517092878",
+  "code": "9C61.40",
+  "source": "http://id.who.int/icd/entity/517092878",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/517092878/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Primary congenital glaucoma"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Primary Congenital Glaucoma is a condition during early infancy where delayed development and malformation of the trabecular meshwork blocks the outflow routes leading to elevated intraocular pressure that causes enlargement of the eyeball (Buphthalmus), corneal oedema, Descemet tears, myopia, and damage to the optic nerve, often resulting in severe visual impairment or blindness"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary congenital glaucoma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary congenital glaucoma, unilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/852569698"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary congenital glaucoma, bilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/218940177"
+    }
+  ]
+}

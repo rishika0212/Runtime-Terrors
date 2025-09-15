@@ -1,0 +1,55 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1814010997",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1336446723"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1814010997",
+  "code": "EL53",
+  "source": "http://id.who.int/icd/entity/1814010997",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1814010997/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/460401849",
+        "http://id.who.int/icd/release/11/2024-01/mms/1642025150",
+        "http://id.who.int/icd/release/11/2024-01/mms/1162198017",
+        "http://id.who.int/icd/release/11/2024-01/mms/431804121"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Skin graft failure"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Failure of skin graft tissue to engraft as intended"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Skin graft failure"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Split skin graft failure"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/125497870"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Full thickness skin graft failure"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/422046362"
+    }
+  ]
+}

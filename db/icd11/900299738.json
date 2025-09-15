@@ -1,0 +1,108 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/900299738",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2064197173"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#900299738",
+  "code": "5B5K.3",
+  "source": "http://id.who.int/icd/entity/900299738",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Iodine-deficiency-related thyroid disorders or allied conditions"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1357352994",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1357352994"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired hypothyroidism"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1090587977",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1090587977"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital hypothyroidism due to iodine deficiency"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/900488632",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/900488632"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/900299738/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/392405182"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Iodine deficiency"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Iodine deficiency disorders (IDD), caused mainly by a low dietary supply of iodine, refer to all of the consequences of iodine deficiency in a population that can be prevented by ensuring that the population has an adequate intake of iodine. Iodine deficiency is the most frequent cause of preventable brain damage in childhood."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "When iodine intake falls below recommended levels, the thyroid may no longer be able to synthesize sufficient amounts of thyroid hormone. The resulting low level of thyroid hormones in the blood (hypothyroidism) is the principal factor responsible for damage to the developing brain and other harmful effects known collectively as IDD. The adoption of this term emphasizes that the problem extends far beyond simply goitre and cretinism. The clinical manifestations are in all ages: goitre, hypothyroidism, increased susceptibility to nuclear radiation; in fetus: spontaneous abortion, stillbirth, congenital anomalies, and increased perinatal mortality; in neonates: increased infant mortality, neonate endemic cretinism including mental deficiency with a mixture of mutism, spastic diplegia, squint, hypothyroidism and short stature; in children and adolescents: impaired mental function, delayed physical development and iodine-induced hyperthyroidism; and in adults: impaired mental function and iodine-induced hyperthyroidism."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1867773640"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/517413026"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Iodine deficiency"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "iodine deficiency syndrome"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Intellectual developmental disorder due to iodine deficiency"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/114764265"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "sporadic cretinism"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/114764265"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "endemic cretinism NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/114764265"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cretinism"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/114764265"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/744293382",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/724748131"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/73324466",
+    "http://id.who.int/icd/release/11/2024-01/mms/869136080",
+    "http://id.who.int/icd/release/11/2024-01/mms/1921504316",
+    "http://id.who.int/icd/release/11/2024-01/mms/1829846416",
+    "http://id.who.int/icd/release/11/2024-01/mms/1119109040",
+    "http://id.who.int/icd/release/11/2024-01/mms/678566494",
+    "http://id.who.int/icd/release/11/2024-01/mms/744293382/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/744293382/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#744293382",
+  "code": "8A43",
+  "source": "http://id.who.int/icd/entity/744293382",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neuromyelitis optica myelin oligodendrocyte glycoprotein antibody-positive"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/605048789",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/605048789"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/744293382/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Neuromyelitis optica"
+  }
+}

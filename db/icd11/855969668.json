@@ -1,0 +1,63 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/855969668",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/110923694"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#855969668",
+  "code": "2A44",
+  "source": "http://id.who.int/icd/entity/855969668",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/855969668/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Myeloproliferative and myelodysplastic disease, unclassifiable"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This entity includes cases that have clinical, laboratory, and morphologic features that support the diagnosis of both a myelodysplastic syndrome and a myeloproliferative neoplasm, but do not meet the criteria for any of the other entities included in the myelodysplastic/myeloproliferative neoplasm category."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myeloproliferative and myelodysplastic disease, unclassifiable"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myelodysplastic disease, unclassifiable"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myeloproliferative disease, unclassifiable"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myelodysplastic and myeloproliferative disease, not elsewhere classified without mention of remission"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myeloproliferative and myelodysplastic disease, unclassifiable in complete remission"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/676597114"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2016712845",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/923313934"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2016712845",
+  "code": "LB45.2",
+  "source": "http://id.who.int/icd/entity/2016712845",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2016712845/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Developmental ovarian cyst"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition in which an individual is born with a benign, functional cyst, or cysts, on one or more ovaries which result from enlargement of otherwise normal follicles during third trimester or early neonatal period."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Developmental ovarian cyst"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital ovarian cyst"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Developmental ovarian cyst, single"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1815505856"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Developmental ovarian cyst, multiple"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/360725452"
+    }
+  ]
+}

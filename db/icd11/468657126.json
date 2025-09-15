@@ -1,0 +1,105 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/468657126",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/819644414"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#468657126",
+  "code": "2B5B.0",
+  "source": "http://id.who.int/icd/entity/468657126",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/468657126/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1493524587"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/468657126/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/468657126/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1409966790",
+        "http://id.who.int/icd/release/11/2024-01/mms/896293199",
+        "http://id.who.int/icd/release/11/2024-01/mms/1094217460",
+        "http://id.who.int/icd/release/11/2024-01/mms/238069351"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/468657126/postcoordinationScale/hasAlternativeSeverity2",
+      "axisName": "http://id.who.int/icd/schema/hasAlternativeSeverity2",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1863636238",
+        "http://id.who.int/icd/release/11/2024-01/mms/885826145",
+        "http://id.who.int/icd/release/11/2024-01/mms/1746207012",
+        "http://id.who.int/icd/release/11/2024-01/mms/303697349"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Gastrointestinal stromal tumour of stomach"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A gastrointestinal stromal tumour that arises from the stomach. It covers a spectrum of benign to malignant mesenchymal neoplasms and includes most gastric smooth muscle tumours, leiomyoblastomas, and tumours formerly called gastrointestinal autonomic nerve tumours."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gastrointestinal stromal tumour of stomach"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant GIST - [gastrointestinal stromal tumour] of stomach"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gastrointestinal stromal tumour of cardia of stomach"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1923573886"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gastrointestinal stromal tumour of body of stomach"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1820488087"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gastrointestinal stromal tumour of pyloric antrum of stomach"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1308730354"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gastrointestinal stromal tumour involving overlapping sites of stomach"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1554065883"
+    }
+  ]
+}

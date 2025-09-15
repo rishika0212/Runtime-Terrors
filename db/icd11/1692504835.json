@@ -1,0 +1,81 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1692504835",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/549472657"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1692504835",
+  "code": "DB93.21",
+  "source": "http://id.who.int/icd/entity/1692504835",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1692504835/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1692504835/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Idiopathic copper-associated cirrhosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Idiopathic copper-associated cirrhosis is a rare copper-overload liver disease characterised by a rapidly progressive liver cirrhosis from the first few years of life leading to hepatic insufficiency and harbouring a specific pathological aspect: pericellular fibrosis, inflammatory infiltration, hepatocyte necrosis, absence of steatosis, poor regeneration and histochemical copper staining."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Idiopathic copper-associated cirrhosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Non-Wilsonian hepatic copper toxicosis of infancy and childhood"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tyrolean infantile cirrhosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/846753319"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Idiopathic copper toxicosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1938566558"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Indian childhood cirrhosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/650370001"
+    }
+  ]
+}

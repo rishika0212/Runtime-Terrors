@@ -1,0 +1,79 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1742412137",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1084515160"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2054302058",
+    "http://id.who.int/icd/release/11/2024-01/mms/2041404971",
+    "http://id.who.int/icd/release/11/2024-01/mms/1804245653",
+    "http://id.who.int/icd/release/11/2024-01/mms/1742412137/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1742412137/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1742412137",
+  "code": "DA25.3",
+  "source": "http://id.who.int/icd/entity/1742412137",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Thermal oesophageal ulcer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1041272606",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1671611947"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1742412137/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/72252748"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1742412137/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1290701352"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1742412137/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1742412137/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Oesophageal ulcer due to external causes"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Oesophageal ulcer or erosion due to external causes such as ingestion of certain chemical substances or drugs, radiation and thermal injury, or other external causes."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ]
+}

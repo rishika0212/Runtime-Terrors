@@ -1,0 +1,58 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/848543944",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/282225286"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#848543944",
+  "code": "BC43.7",
+  "source": "http://id.who.int/icd/entity/848543944",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/848543944/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1119203708"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/848543944/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1651053999",
+        "http://id.who.int/icd/release/11/2024-01/mms/119724091",
+        "http://id.who.int/icd/release/11/2024-01/mms/1150913605",
+        "http://id.who.int/icd/release/11/2024-01/mms/381961554",
+        "http://id.who.int/icd/release/11/2024-01/mms/1697306310"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Diabetic cardiomyopathy"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Diabetic cardiomyopathy is the presence of myocardial dysfunction in the absence of overt clinical coronary artery disease, valvar disease, and other conventional cardiovascular risk factors, such as hypertension and dyslipidemia. It is initially characterised by myocardial fibrosis, dysfunctional remodeling, and diastolic dysfunction, progressing to systolic dysfunction and heart failure.\n\nAdditional information. The development and progression of diabetic cardiomyopathy has been linked to impaired cardiac insulin metabolic signaling, increases in oxidative stress, reduced nitric oxide bioavailability, collagen-based cardiomyocyte and extracellular matrix stiffness, impaired mitochondrial and cardiomyocyte calcium handling, inflammation, renin–angiotensin–aldosterone system activation, cardiac autonomic neuropathy, endoplasmic reticulum stress, microvascular dysfunction, and a myriad of cardiac metabolic abnormalities."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1218807936"
+  ],
+  "codingNote": {
+    "@language": "en",
+    "@value": "Always assign an additional code for diabetes mellitus."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Diabetic cardiomyopathy"
+      }
+    }
+  ]
+}

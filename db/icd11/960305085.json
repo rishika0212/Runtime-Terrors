@@ -1,0 +1,178 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/960305085",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/208980208"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#960305085",
+  "code": "MD11.5",
+  "source": "http://id.who.int/icd/entity/960305085",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/960305085/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/924915526",
+        "http://id.who.int/icd/release/11/2024-01/mms/1964269418",
+        "http://id.who.int/icd/release/11/2024-01/mms/1059873720",
+        "http://id.who.int/icd/release/11/2024-01/mms/1703442464",
+        "http://id.who.int/icd/release/11/2024-01/mms/1458683894",
+        "http://id.who.int/icd/release/11/2024-01/mms/760239795",
+        "http://id.who.int/icd/release/11/2024-01/mms/1582386590",
+        "http://id.who.int/icd/release/11/2024-01/mms/111658096",
+        "http://id.who.int/icd/release/11/2024-01/mms/370028006"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/960305085/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/2058324694",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Dyspnoea"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Dyspnoea is used to describe perceptions of difficulty or distress related to breathing and is recognised as symptomatic of disease when it occurs under inappropriate circumstances. Dyspnoea is a presenting complaint of patients with a wide variety of medical diseases by multiple mechanisms. \nDyspnoea is considered acute when it lasts from hours up to 3 weeks, subacute from 3 weeks up to 8 weeks, and chronic dyspnoea lasts more than 8 weeks."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Orthopnoea"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1076152687"
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Transient tachypnoea of newborn"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1899462527",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1899462527"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dyspnoea"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "difficulty breathing"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "respiration difficult"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "short of breath"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "winded"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "dyspnoea NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "paroxysmal dyspnoea"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "respiratory distress"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "SOB - [shortness of breath]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "shortness of breath"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "breathlessness"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Orthopnoea"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1076152687"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dyspnoea crisis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1211403257"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dyspnoea hyperventilation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/513485820"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Exertional dyspnoea"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1409318119"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nocturnal dyspnoea"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1625623389"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "paroxysmal nocturnal dyspnoea"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1625623389"
+    }
+  ]
+}

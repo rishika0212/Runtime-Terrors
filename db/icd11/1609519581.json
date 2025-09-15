@@ -1,0 +1,56 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1609519581",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1261565213"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1609519581",
+  "code": "LB96.1",
+  "source": "http://id.who.int/icd/entity/1609519581",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1609519581/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1609519581/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/520825881"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Congenital bowing of tibia"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition caused by failure of the tibia to develop correctly during the antenatal period. This condition is characterised by abnormal angling of the tibia. Confirmation is through observation of the bowed tibia by imaging."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital bowing of tibia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "congenital tibial bowing"
+      }
+    }
+  ]
+}

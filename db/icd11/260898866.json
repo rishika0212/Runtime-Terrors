@@ -1,0 +1,127 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/260898866",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1367461357"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#260898866",
+  "code": "GB07.2",
+  "source": "http://id.who.int/icd/entity/260898866",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/260898866/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Inflammatory disorders of scrotum"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Any disorder of the scrotum, caused by poor hygiene or chafing of the skin. This condition is characterised by superficial inflammation of the tissue."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Streptococcal cellulitis of skin"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/284578658",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/284578658"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Staphylococcal cellulitis of skin"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2033345174",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2033345174"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Inflammatory disorders of scrotum"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "inflammation of scrotum"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "scrotal inflammation"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "scrotal infection NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Noninfective gangrene of scrotum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1226344106"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Abscess of scrotum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2060835178"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "scrotal abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2060835178"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cellulitis of scrotum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1971956076"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gangrene of scrotum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/535530573"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "scrotal gangrene"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/535530573"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Node of scrotum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/800288201"
+    }
+  ]
+}

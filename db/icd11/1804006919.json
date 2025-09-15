@@ -1,0 +1,88 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1804006919",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/624443803"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1804006919",
+  "code": "KA41",
+  "source": "http://id.who.int/icd/entity/1804006919",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1804006919/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1804006919/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/927970860",
+        "http://id.who.int/icd/release/11/2024-01/mms/1679904912"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Birth injury to eye"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Ocular injuries due to birth trauma include lid lacerations, hyphema, rupture of Descemet's membrane of cornea, vitreous haemorrhage, corneal oedema, abrasions and lacerations, orbital haemorrhage and fractures, and intraocular haemorrhages."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Subconjunctival haemorrhage due to birth injury"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1701575971"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Traumatic glaucoma due to birth injury"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/708882509"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Birth injury to eye"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ocular hypertension due to birth injury"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/458130741"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Subconjunctival haemorrhage due to birth injury"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1701575971"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Traumatic glaucoma due to birth injury"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/708882509"
+    }
+  ]
+}

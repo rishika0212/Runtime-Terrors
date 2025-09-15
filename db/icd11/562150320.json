@@ -1,0 +1,63 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/562150320",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1595830028"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#562150320",
+  "code": "GA20.01",
+  "source": "http://id.who.int/icd/entity/562150320",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/562150320/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/21500692",
+        "http://id.who.int/icd/release/11/2024-01/mms/1459455953",
+        "http://id.who.int/icd/release/11/2024-01/mms/306138025",
+        "http://id.who.int/icd/release/11/2024-01/mms/1482533991",
+        "http://id.who.int/icd/release/11/2024-01/mms/1237004558",
+        "http://id.who.int/icd/release/11/2024-01/mms/886187088",
+        "http://id.who.int/icd/release/11/2024-01/mms/753990808",
+        "http://id.who.int/icd/release/11/2024-01/mms/1024877043",
+        "http://id.who.int/icd/release/11/2024-01/mms/792168587",
+        "http://id.who.int/icd/release/11/2024-01/mms/223744320"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Secondary amenorrhoea"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "In women who have menstruated previously, no menses for an interval of time equivalent to a total of at least 3 previous cycles, or 6 months"
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1428077757"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Secondary amenorrhoea"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "secondary physiologic amenorrhoea"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Premature ovarian failure due to autoimmune oophoritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/860373411"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/626856748",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1650807363"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#626856748",
+  "code": "PK95.20",
+  "source": "http://id.who.int/icd/entity/626856748",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/626856748/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/431804121"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Neurological devices associated with injury or harm, ventricular shunt"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Circumstances associated with a surgical or other medical device influencing the episode of care without injury or harm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1628956058",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1628956058"
+    }
+  ],
+  "codingNote": {
+    "@language": "en",
+    "@value": "Code first injury or harm associated with the device."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neurological devices associated with injury or harm, ventricular shunt"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mechanical complication of ventricular intracranial shunt"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/998768278"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mechanical complication of ventricular intracranial communicating shunt"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/998768278"
+    }
+  ]
+}

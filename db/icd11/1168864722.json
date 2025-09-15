@@ -1,0 +1,320 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1168864722",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/536467755"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1168864722",
+  "code": "FB81.2",
+  "source": "http://id.who.int/icd/entity/1168864722",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1168864722/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1168864722/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/183512318",
+        "http://id.who.int/icd/release/11/2024-01/mms/1415462031"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1168864722/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/746448055",
+        "http://id.who.int/icd/release/11/2024-01/mms/817370856",
+        "http://id.who.int/icd/release/11/2024-01/mms/1158914813",
+        "http://id.who.int/icd/release/11/2024-01/mms/1323892810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Drug-induced osteonecrosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Alteration of the normal structure of orofacial tissues resulting from medicinal substances acting locally or systemically."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteonecrosis due to chemical burn of oral mucosa"
+      }
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced osteonecrosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "osteonecrosis due to drugs, site unspecified"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteonecrosis due to chemical burn of oral mucosa"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "medicament-induced osteonecrosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bisphosphonates induced osteonecrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/780938649"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Glucocorticosteroids induced osteonecrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/202375166"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Medication-related osteonecrosis of the jaw"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1143080357"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "MRONJ - [medication-related osteonecrosis of the jaw]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1143080357"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced osteonecrosis, multiple sites"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/551237932"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced osteonecrosis, shoulder region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1167127738"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced osteonecrosis, clavicle"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/959710969"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced osteonecrosis, scapula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1444955328"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced osteonecrosis, upper arm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/826123335"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced osteonecrosis, humerus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2108092258"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced osteonecrosis, forearm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1417046483"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced osteonecrosis, radius"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2112137092"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced osteonecrosis, ulna"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/847734041"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced osteonecrosis, hand"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/664336967"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced osteonecrosis, carpus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1031578987"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced osteonecrosis, fingers"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1808861441"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced osteonecrosis, metacarpus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/192725932"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced osteonecrosis, pelvic region or thigh"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1121138643"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced osteonecrosis, femur"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1273282883"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced osteonecrosis, pelvis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1876681331"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced osteonecrosis, lower leg"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/914253614"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced osteonecrosis, tibia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1313788191"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced osteonecrosis, fibula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/792977564"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced osteonecrosis, ankle or foot"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1396026040"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced osteonecrosis, metatarsus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1672494204"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced osteonecrosis, tarsus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/52295377"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced osteonecrosis, toes"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/589840019"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced osteonecrosis, head"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/777830394"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced osteonecrosis, neck"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/870491941"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced osteonecrosis, ribs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1279032490"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced osteonecrosis, skull"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2099355282"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced osteonecrosis, trunk"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/551673145"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced osteonecrosis, vertebral column"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1597966006"
+    }
+  ]
+}

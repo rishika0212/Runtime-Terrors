@@ -1,0 +1,64 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2128635100",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/826220775"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2061373715",
+    "http://id.who.int/icd/release/11/2024-01/mms/243933420",
+    "http://id.who.int/icd/release/11/2024-01/mms/13704120",
+    "http://id.who.int/icd/release/11/2024-01/mms/2128635100/other"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2128635100",
+  "code": "MG29.0",
+  "source": "http://id.who.int/icd/entity/2128635100",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Swollen tongue"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1292351211",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/430383563"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2128635100/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/223243926",
+        "http://id.who.int/icd/release/11/2024-01/mms/947150833",
+        "http://id.who.int/icd/release/11/2024-01/mms/1810600222"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Localised oedema"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Localised oedema"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "localised oedema NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "traumatic oedema"
+      }
+    }
+  ]
+}

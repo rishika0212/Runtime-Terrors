@@ -1,0 +1,89 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/893534627",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/702067523"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#893534627",
+  "code": "LA10.3",
+  "source": "http://id.who.int/icd/entity/893534627",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/893534627/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Congenital macrophthalmos"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition caused by failure of the eye to develop correctly during the antenatal period. This condition is characterised by enlargement of the globe of the eye."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "macrophthalmos in congenital glaucoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2064760868",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2064760868"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital macrophthalmos"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "macrophthalmia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "megalophthalmia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "megalophthalmos"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "macrophthalmos"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital macrophthalmos, unilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1697808617"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital macrophthalmos, bilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1525640602"
+    }
+  ]
+}

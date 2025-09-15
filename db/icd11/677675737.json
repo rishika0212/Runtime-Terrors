@@ -1,0 +1,89 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/677675737",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/801035247"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#677675737",
+  "code": "DB50.0",
+  "source": "http://id.who.int/icd/entity/677675737",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/677675737/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/677675737/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Anal fissure"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "An anal fissure is a linear break or tear in the mucosa that lines the anal canal. It may occur when hard or large stools are passed after defecation and typically cause pain and bright red anal bleeding."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Anal fissure"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute anal fissure"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2029537975"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute post anus fissure"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2029537975"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute post anal fissure"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2029537975"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute postanal fissure"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2029537975"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic anal fissure"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/498304803"
+    }
+  ]
+}

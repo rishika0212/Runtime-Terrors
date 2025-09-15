@@ -1,0 +1,119 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2125857013",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2051065876"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2125857013",
+  "code": "ME84.1",
+  "source": "http://id.who.int/icd/entity/2125857013",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2125857013/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1435254666",
+        "http://id.who.int/icd/release/11/2024-01/mms/1630407678",
+        "http://id.who.int/icd/release/11/2024-01/mms/1766440644",
+        "http://id.who.int/icd/release/11/2024-01/mms/1954798891",
+        "http://id.who.int/icd/release/11/2024-01/mms/21500692",
+        "http://id.who.int/icd/release/11/2024-01/mms/334423054",
+        "http://id.who.int/icd/release/11/2024-01/mms/274880002",
+        "http://id.who.int/icd/release/11/2024-01/mms/1296093776",
+        "http://id.who.int/icd/release/11/2024-01/mms/868865918",
+        "http://id.who.int/icd/release/11/2024-01/mms/1218729044",
+        "http://id.who.int/icd/release/11/2024-01/mms/426429380",
+        "http://id.who.int/icd/release/11/2024-01/mms/197934298",
+        "http://id.who.int/icd/release/11/2024-01/mms/1256772020",
+        "http://id.who.int/icd/release/11/2024-01/mms/1639304259",
+        "http://id.who.int/icd/release/11/2024-01/mms/1473673350",
+        "http://id.who.int/icd/release/11/2024-01/mms/30659757",
+        "http://id.who.int/icd/release/11/2024-01/mms/577470983",
+        "http://id.who.int/icd/release/11/2024-01/mms/714000734",
+        "http://id.who.int/icd/release/11/2024-01/mms/1306203631",
+        "http://id.who.int/icd/release/11/2024-01/mms/223744320",
+        "http://id.who.int/icd/release/11/2024-01/mms/1843895818",
+        "http://id.who.int/icd/release/11/2024-01/mms/435227771",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482",
+        "http://id.who.int/icd/release/11/2024-01/mms/1249056269",
+        "http://id.who.int/icd/release/11/2024-01/mms/1596590595"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Thoracic spine pain"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is a group of conditions characterised by pain perceived anywhere in the region bounded superiorly by a transverse line through the tip of the spinous process of T1, inferiorly by a transverse line through the tip of the spinous process of T12, and laterally by vertical lines tangential to the most lateral margins of the erector spinae muscles."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "This area can be divided into upper, middle and lower thirds. Pain felt lateral to this area is\ndefined as posterior chest wall pain, and does not constitute thoracic spinal pain."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic primary thoracic pain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/642165115",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1236923870"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic secondary musculoskeletal pain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1968541653",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1968541653"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic neuropathic pain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1170330671",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1170330671"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Thoracic spine pain"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Thoracic pain"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Thoracic pain myofascial"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1691171296"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "thoracic trigger points"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1691171296"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "myofascial pain and dysfunction syndrome, thorax"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1691171296"
+    }
+  ]
+}

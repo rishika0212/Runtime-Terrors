@@ -1,0 +1,69 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/797497023",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2129534948"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#797497023",
+  "code": "LA42.1",
+  "source": "http://id.who.int/icd/entity/797497023",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/797497023/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/797497023/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/172183323",
+        "http://id.who.int/icd/release/11/2024-01/mms/1653169553"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Cleft soft palate"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Cleft velum is a fissure type embryopathy that affects in varying degrees the soft palate."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cleft soft palate"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cleft velum palatinum"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cleft velum"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Soft palate perforation"
+      }
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/601747793",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/339662111"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1457759945",
+    "http://id.who.int/icd/release/11/2024-01/mms/601747793/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/601747793/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#601747793",
+  "code": "DA0E.0",
+  "source": "http://id.who.int/icd/entity/601747793",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/601747793/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/375873857",
+        "http://id.who.int/icd/release/11/2024-01/mms/573235775"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Major anomalies of jaw size"
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ]
+}

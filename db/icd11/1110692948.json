@@ -1,0 +1,55 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1110692948",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2038426249"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1110692948",
+  "code": "DB71.0",
+  "source": "http://id.who.int/icd/entity/1110692948",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1110692948/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1211030054",
+        "http://id.who.int/icd/release/11/2024-01/mms/1594277606",
+        "http://id.who.int/icd/release/11/2024-01/mms/1212282357"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1110692948/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Inflammatory anal polyp"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Inflammatory polyp is an abnormal, mushroom-like growth sticking out from the mucous membrane that lines the anus. This mass is a reaction to some type of chronic inflammation in the anus."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Inflammatory anal polyp"
+      }
+    }
+  ]
+}

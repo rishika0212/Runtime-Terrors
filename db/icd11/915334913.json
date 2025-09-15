@@ -1,0 +1,59 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/915334913",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1719389232"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1728662435",
+    "http://id.who.int/icd/release/11/2024-01/mms/1792897751",
+    "http://id.who.int/icd/release/11/2024-01/mms/1959912502",
+    "http://id.who.int/icd/release/11/2024-01/mms/915334913/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/915334913/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#915334913",
+  "code": "2A00.2",
+  "source": "http://id.who.int/icd/entity/915334913",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/915334913/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/258384733",
+        "http://id.who.int/icd/release/11/2024-01/mms/976604742",
+        "http://id.who.int/icd/release/11/2024-01/mms/407816093",
+        "http://id.who.int/icd/release/11/2024-01/mms/1651949308",
+        "http://id.who.int/icd/release/11/2024-01/mms/282738158",
+        "http://id.who.int/icd/release/11/2024-01/mms/305649277"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/915334913/postcoordinationScale/histopathology",
+      "axisName": "http://id.who.int/icd/schema/histopathology",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2080883653",
+        "http://id.who.int/icd/release/11/2024-01/mms/1926367751",
+        "http://id.who.int/icd/release/11/2024-01/mms/756046628"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/915334913/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1468768235",
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Tumours of neuroepithelial tissue of brain"
+  }
+}

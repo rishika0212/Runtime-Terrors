@@ -1,0 +1,89 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1044658726",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/392841027"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1044658726",
+  "code": "9A60.01",
+  "source": "http://id.who.int/icd/entity/1044658726",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1044658726/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1044658726/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/470130163"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acute atopic conjunctivitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is the allergic inflammation of the conjunctiva (mucous membrane that covers the posterior surface of the eyelids and the anterior pericorneal surface of the eyeball) of the immediate type, due to airborne allergens such as pollens, dusts, spores, and animal hair."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/358047372"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute atopic conjunctivitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "critical allergic conjunctivitis syndrome"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Angelucci's syndrome"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "atopic conjunctivitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "allergic ophthalmia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "spring ophthalmia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "spring catarrh"
+      }
+    }
+  ]
+}

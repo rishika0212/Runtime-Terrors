@@ -1,0 +1,150 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2088326190",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/574051646"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2088326190",
+  "code": "1F6B",
+  "source": "http://id.who.int/icd/entity/2088326190",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2088326190/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/181304776",
+        "http://id.who.int/icd/release/11/2024-01/mms/658360080"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Strongyloidiasis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease caused by the parasitic worm Strongyloides. This disease presents with symptoms depending on the site of infection (gastrointestinal tract, pulmonary system, dermis, or systemic), or may be asymptomatic. Transmission is by direct contact through penetration of the skin (generally the feet) with larvae from faecally contaminated soil, or autoinfection of an established infection. Confirmation is by identification of Strongyloides larvae in faecal samples, duodenal fluid samples, sputum, pleural fluid, or tissue samples."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Trichostrongyliasis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1717604603",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1717604603"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1945127438"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Strongyloidiasis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gastric strongyloides stercoralis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/546473690"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Glomerular disorders in strongyloidiasis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/691519290"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cutaneous strongyloidiasis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1956685210"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Strongyloidal ground itch"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1956685210"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Larva currens"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1956685210"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Disseminated strongyloidiasis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1644559256"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Glomerular disorders in disseminated strongyloidiasis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1886857138"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Strongyloides duodenitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/591351456"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Intestinal strongyloidiasis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/300640268"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "strongyloidiasis dysentery"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/300640268"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "strongyloidiasis diarrhoea"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/300640268"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cochin-china diarrhoea"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/300640268"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Colonic strongyloidiasis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/857289426"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Meningitis due to Strongyloides stercoralis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/676179875"
+    }
+  ]
+}

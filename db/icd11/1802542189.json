@@ -1,0 +1,74 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1802542189",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/63858592"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/453835806",
+    "http://id.who.int/icd/release/11/2024-01/mms/525636274",
+    "http://id.who.int/icd/release/11/2024-01/mms/1048832316",
+    "http://id.who.int/icd/release/11/2024-01/mms/1536491255",
+    "http://id.who.int/icd/release/11/2024-01/mms/290316556",
+    "http://id.who.int/icd/release/11/2024-01/mms/880852176",
+    "http://id.who.int/icd/release/11/2024-01/mms/1421743413",
+    "http://id.who.int/icd/release/11/2024-01/mms/1784166269",
+    "http://id.who.int/icd/release/11/2024-01/mms/1335192255",
+    "http://id.who.int/icd/release/11/2024-01/mms/1802542189/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1802542189/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1802542189",
+  "code": "8B93",
+  "source": "http://id.who.int/icd/entity/1802542189",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1802542189/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/425464783"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1802542189/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1630407678",
+        "http://id.who.int/icd/release/11/2024-01/mms/1671987290",
+        "http://id.who.int/icd/release/11/2024-01/mms/155258022",
+        "http://id.who.int/icd/release/11/2024-01/mms/647013871",
+        "http://id.who.int/icd/release/11/2024-01/mms/980862652",
+        "http://id.who.int/icd/release/11/2024-01/mms/851395624",
+        "http://id.who.int/icd/release/11/2024-01/mms/73322695",
+        "http://id.who.int/icd/release/11/2024-01/mms/128104623",
+        "http://id.who.int/icd/release/11/2024-01/mms/558785723"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Radiculopathy"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neuritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1471564294",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1471564294"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Intervertebral disc degeneration"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1225264916",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1225264916"
+    }
+  ]
+}

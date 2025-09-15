@@ -1,0 +1,73 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/23764250",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/452386362"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/536302905",
+    "http://id.who.int/icd/release/11/2024-01/mms/1081612762",
+    "http://id.who.int/icd/release/11/2024-01/mms/624153676",
+    "http://id.who.int/icd/release/11/2024-01/mms/1369343155",
+    "http://id.who.int/icd/release/11/2024-01/mms/886393127",
+    "http://id.who.int/icd/release/11/2024-01/mms/1195104947",
+    "http://id.who.int/icd/release/11/2024-01/mms/577771303",
+    "http://id.who.int/icd/release/11/2024-01/mms/1457342424",
+    "http://id.who.int/icd/release/11/2024-01/mms/847917667",
+    "http://id.who.int/icd/release/11/2024-01/mms/456919796",
+    "http://id.who.int/icd/release/11/2024-01/mms/865503822",
+    "http://id.who.int/icd/release/11/2024-01/mms/749677450",
+    "http://id.who.int/icd/release/11/2024-01/mms/23764250/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#23764250",
+  "code": "NA04",
+  "source": "http://id.who.int/icd/entity/23764250",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Birth injury to cranial nerves"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/350730164",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/350730164"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/23764250/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2108063439"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/23764250/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/425464783"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/23764250/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482",
+        "http://id.who.int/icd/release/11/2024-01/mms/755612283"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Injury of cranial nerves"
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/350730164"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1434413881",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/966435382"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/926492960",
+    "http://id.who.int/icd/release/11/2024-01/mms/494107103",
+    "http://id.who.int/icd/release/11/2024-01/mms/1434413881/other"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1434413881",
+  "code": "4B00",
+  "source": "http://id.who.int/icd/entity/1434413881",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1434413881/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/236924369",
+        "http://id.who.int/icd/release/11/2024-01/mms/771273482",
+        "http://id.who.int/icd/release/11/2024-01/mms/1508081745"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Disorders of neutrophil number"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Decreased white blood cell count"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1437714107",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1437714107"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Disorders of neutrophil number"
+      }
+    }
+  ]
+}

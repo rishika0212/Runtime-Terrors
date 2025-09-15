@@ -1,0 +1,82 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1965150820",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/566574133"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1965150820",
+  "code": "9D23",
+  "source": "http://id.who.int/icd/entity/1965150820",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1965150820/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1965150820/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/460401849",
+        "http://id.who.int/icd/release/11/2024-01/mms/1642025150",
+        "http://id.who.int/icd/release/11/2024-01/mms/1162198017",
+        "http://id.who.int/icd/release/11/2024-01/mms/431804121"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Conjunctival blebitis after glaucoma surgery"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Conjunctival blebitis after glaucoma surgery"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "postprocedural blebitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "inflammation or infection of postprocedural bleb"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Inflammation or infection of postprocedural bleb, stage 1"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/607044029"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Inflammation or infection of postprocedural bleb, stage 2"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1350799682"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Inflammation or infection of postprocedural bleb, stage 3"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/902323416"
+    }
+  ]
+}

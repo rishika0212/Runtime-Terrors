@@ -1,0 +1,103 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/85581889",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/973190159"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#85581889",
+  "code": "9C82.1",
+  "source": "http://id.who.int/icd/entity/85581889",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital fibrosis of extraocular muscles"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/887449084",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/691350959"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/85581889/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Muscular dystrophy affecting extraocular muscle"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Non-specific term that is used to describe a range of primary myopathies that affect the extraocular muscles."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Secondary myopathies"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1159616108",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1159616108"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Muscular dystrophy affecting extraocular muscle"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Oculopharyngeal muscular dystrophy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1354386293"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "oculopharyngeal dystrophy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1354386293"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "oculopharyngeal myopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1354386293"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Oculopharyngodistal myopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1493269618"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "OPDM - [oculopharygodistal myopathy]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1493269618"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ocular muscular dystrophy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/847954239"
+    }
+  ]
+}

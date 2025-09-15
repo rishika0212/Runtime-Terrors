@@ -1,0 +1,98 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1030700023",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1641958762"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1030700023",
+  "code": "MB53.2",
+  "source": "http://id.who.int/icd/entity/1030700023",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1030700023/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1030700023/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1435254666",
+        "http://id.who.int/icd/release/11/2024-01/mms/1630407678",
+        "http://id.who.int/icd/release/11/2024-01/mms/1766440644",
+        "http://id.who.int/icd/release/11/2024-01/mms/1954798891",
+        "http://id.who.int/icd/release/11/2024-01/mms/21500692",
+        "http://id.who.int/icd/release/11/2024-01/mms/1296093776",
+        "http://id.who.int/icd/release/11/2024-01/mms/426429380",
+        "http://id.who.int/icd/release/11/2024-01/mms/1473673350",
+        "http://id.who.int/icd/release/11/2024-01/mms/223744320",
+        "http://id.who.int/icd/release/11/2024-01/mms/435227771"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Spastic hemiplegia"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is a severe or complete loss of motor function on one side of the body with involuntary contractions."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spastic hemiplegia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "spastic hemiplegia affecting unspecified side"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hypertonic hemiplegia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "spinal hemiplegia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spastic hemiplegia of dominant side"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1803198234"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spastic hemiplegia of non-dominant side"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/238113424"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spastic hemiplegia of unspecified side"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/11981914"
+    }
+  ]
+}

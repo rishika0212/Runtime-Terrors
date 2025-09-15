@@ -1,0 +1,113 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/980660078",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1970232596"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#980660078",
+  "code": "FA31.7",
+  "source": "http://id.who.int/icd/entity/980660078",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/980660078/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/980660078/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/72056752"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acquired clawfoot or clubfoot"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "congenital clubfoot - varus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2122176884",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2122176884"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "congenital clubfoot - valgus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/227756768",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/227756768"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired clawfoot or clubfoot"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired clawfoot"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/163221331"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired clubfoot"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1240348614"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acquired clubfoot deformity"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1240348614"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acquired equinovarus clubfoot"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1240348614"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acquired paralytic clubfoot deformity"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1240348614"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "paralytic clubfoot"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1240348614"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acquired equinovarus deformity"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1240348614"
+    }
+  ]
+}

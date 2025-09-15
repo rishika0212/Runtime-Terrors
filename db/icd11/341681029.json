@@ -1,0 +1,55 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/341681029",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/162683166"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#341681029",
+  "code": "BB41",
+  "source": "http://id.who.int/icd/entity/341681029",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/341681029/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Myoendocarditis"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infectious myocarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/654702340",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/654702340"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1380872553"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myoendocarditis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myoendocarditis acute or subacute"
+      }
+    }
+  ]
+}

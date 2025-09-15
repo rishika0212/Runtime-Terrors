@@ -1,0 +1,89 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/197679619",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1496140949"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1578364807",
+    "http://id.who.int/icd/release/11/2024-01/mms/2136077423",
+    "http://id.who.int/icd/release/11/2024-01/mms/1729261719",
+    "http://id.who.int/icd/release/11/2024-01/mms/1696991249",
+    "http://id.who.int/icd/release/11/2024-01/mms/197679619/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/197679619/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#197679619",
+  "code": "LD24.2",
+  "source": "http://id.who.int/icd/entity/197679619",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteogenesis imperfecta"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1219932551",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1219932551"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Enchondromatosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1341485804",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1748271920/unspecified"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "X-linked cutis laxa"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/921797768",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2024159409"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Maffucci syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/548780091",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1106405864/other"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Inherited bone dysplasia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1059699167",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/236930114/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/197679619/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/197679619/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/183512318",
+        "http://id.who.int/icd/release/11/2024-01/mms/1415462031"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Bone diseases with disorganised development of skeletal components"
+  }
+}

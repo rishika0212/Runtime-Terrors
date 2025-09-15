@@ -1,0 +1,73 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/985510409",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1435254666"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1154736543",
+    "http://id.who.int/icd/release/11/2024-01/mms/1469571641",
+    "http://id.who.int/icd/release/11/2024-01/mms/985510409/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#985510409",
+  "code": "",
+  "source": "http://id.who.int/icd/entity/985510409",
+  "classKind": "block",
+  "blockId": "BlockL1-1E5",
+  "codeRange": "1E50-1E5Z",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Viral hepatitis complicating pregnancy, childbirth or the puerperium"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1320597992",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1320597992"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital viral hepatitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1270001765",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1270001765"
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Viral hepatitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A group of liver diseases caused by infection with one or more of the five hepatitis viruses, hepatitis A virus, hepatitis B virus, hepatitis C virus, hepatitis D virus and hepatitis E viruses. The infection may be recent and present for less than 6 months (acute hepatitis) or present for more than 6 months (chronic hepatitis), in which case progression to cirrhosis and liver cancer can occur. Transmission is by the faecal-oral route including water contamination, sexual transmission, blood and body fluid contamination (parenteral spread) and from mother to baby at the time of birth (vertical transmission). Depending on the virus, diagnosis is confirmed by detection of specific viral antigens, anti-viral antibodies or viral nucleic acids in serum."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Herpes simplex hepatitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/770963397",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/248851702"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Autoimmune hepatitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1235727122",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1235727122"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Non-alcoholic steatohepatitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1884917970",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1884917970"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1270001765"
+  ]
+}

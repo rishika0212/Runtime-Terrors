@@ -1,0 +1,80 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/144309462",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/488336723"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#144309462",
+  "code": "2C30.3",
+  "source": "http://id.who.int/icd/entity/144309462",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/144309462/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/144309462/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/223243926",
+        "http://id.who.int/icd/release/11/2024-01/mms/947150833",
+        "http://id.who.int/icd/release/11/2024-01/mms/1810600222"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/144309462/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/144309462/postcoordinationScale/hasAlternativeSeverity1",
+      "axisName": "http://id.who.int/icd/schema/hasAlternativeSeverity1",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1234750028",
+        "http://id.who.int/icd/release/11/2024-01/mms/1893754636",
+        "http://id.who.int/icd/release/11/2024-01/mms/1741161420",
+        "http://id.who.int/icd/release/11/2024-01/mms/34684300"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acral lentiginous melanoma, primary"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Acral lentiginous malignant melanoma is a distinct and uncommon form of melanoma affecting either palmar and plantar skin or the nail apparatus. It is usually preceded by a slowly progressive in situ phase which may be overlooked. It typically presents either as an enlarging area of macular pigmentation on the palms and soles or as a longitudinal pigmented band within the nail plate. More aggressive tumours present as ulcerated nodules which, when involving the nail apparatus, can destroy the nail plate. Acral lentiginous malignant melanoma accounts for a high proportion of melanomas seen in dark-skinned people."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acral lentiginous melanoma, primary"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Invasive melanoma of the nail apparatus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2119921443"
+    }
+  ]
+}

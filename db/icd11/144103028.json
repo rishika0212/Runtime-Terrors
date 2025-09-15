@@ -1,0 +1,81 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/144103028",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/309217792"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#144103028",
+  "code": "PK80.10",
+  "source": "http://id.who.int/icd/entity/144103028",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/144103028/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1435254666",
+        "http://id.who.int/icd/release/11/2024-01/mms/1766440644",
+        "http://id.who.int/icd/release/11/2024-01/mms/1954798891",
+        "http://id.who.int/icd/release/11/2024-01/mms/21500692",
+        "http://id.who.int/icd/release/11/2024-01/mms/334423054",
+        "http://id.who.int/icd/release/11/2024-01/mms/274880002",
+        "http://id.who.int/icd/release/11/2024-01/mms/1296093776",
+        "http://id.who.int/icd/release/11/2024-01/mms/868865918",
+        "http://id.who.int/icd/release/11/2024-01/mms/1218729044",
+        "http://id.who.int/icd/release/11/2024-01/mms/426429380",
+        "http://id.who.int/icd/release/11/2024-01/mms/197934298",
+        "http://id.who.int/icd/release/11/2024-01/mms/1256772020",
+        "http://id.who.int/icd/release/11/2024-01/mms/1639304259",
+        "http://id.who.int/icd/release/11/2024-01/mms/1473673350",
+        "http://id.who.int/icd/release/11/2024-01/mms/30659757",
+        "http://id.who.int/icd/release/11/2024-01/mms/714000734",
+        "http://id.who.int/icd/release/11/2024-01/mms/1306203631",
+        "http://id.who.int/icd/release/11/2024-01/mms/1843895818",
+        "http://id.who.int/icd/release/11/2024-01/mms/435227771",
+        "http://id.who.int/icd/release/11/2024-01/mms/1162198017"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Cardiac procedure for repair of congenital anomaly associated with injury or harm, open approach"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Circumstances associated with a surgical or other medical procedure influencing the episode of care, without injury or harm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/558062861",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/558062861"
+    }
+  ],
+  "codingNote": {
+    "@language": "en",
+    "@value": "Code first the injury or harm associated with the procedure. Code also the mode or mechanism that explains the main way the cause leads to injury or harm."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cardiac procedure for repair of congenital anomaly associated with injury or harm, open approach"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fontan procedure for repair of congenital anomaly associated with injury or harm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/936382228"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Repair of aortic coarctation associated with injury or harm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/656053926"
+    }
+  ]
+}

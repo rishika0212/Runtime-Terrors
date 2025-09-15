@@ -1,0 +1,120 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/370349933",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1210263011"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#370349933",
+  "code": "GB50",
+  "source": "http://id.who.int/icd/entity/370349933",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/370349933/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/370349933/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acute tubulo-interstitial nephritis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease characterised by acute inflammation of, and damage to, tubules and the interstitium of the kidney, usually accompanied by acute renal failure (acute kidney injury). Histology shows acute inflammatory infiltrate in the interstitium with oedema and tubular cell necrosis, and often prominent eosinophils and plasma cells. Usually due to an allergic or immunological reaction to an identifiable allergen. Usually accompanied by acute renal failure which may be reversible if the allergen is withdrawn expeditiously with or without corticosteroid administration. Can lead to chronic tubulointerstitial nephritis, particularly if the allergen exposure is not short term. May be associated with other signs of an allergic reaction such as rash or fever."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute tubulo-interstitial nephritis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute tubulointerstitial disease"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "AIN - [acute interstitial nephritis]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ATIN - [acute tubulo-interstitial nephritis]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute TIN - [acute tubulointerstitial nephritis]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute tubulo-interstitial nephritis due to drugs, biological agents or toxins"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1097005205"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute tubulo-interstitial nephritis due to infectious agent"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1188200871"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute infectious tubulo-interstitial nephritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1188200871"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute infectious interstitial nephritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1188200871"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute tubulo-interstitial nephritis associated with immunological disorders"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/895420229"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute urate nephropathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1011901523"
+    }
+  ]
+}

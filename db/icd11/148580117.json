@@ -1,0 +1,58 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/148580117",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/805294081"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1619125776",
+    "http://id.who.int/icd/release/11/2024-01/mms/958578618",
+    "http://id.who.int/icd/release/11/2024-01/mms/277101681",
+    "http://id.who.int/icd/release/11/2024-01/mms/1402181248",
+    "http://id.who.int/icd/release/11/2024-01/mms/1570959001",
+    "http://id.who.int/icd/release/11/2024-01/mms/71334904",
+    "http://id.who.int/icd/release/11/2024-01/mms/152243221",
+    "http://id.who.int/icd/release/11/2024-01/mms/148580117/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#148580117",
+  "code": "GC40",
+  "source": "http://id.who.int/icd/entity/148580117",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/148580117/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/344632447"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Pelvic organ prolapse"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "The descent of one or more of the anterior vaginal wall, posterior vaginal wall, the uterus (cervix), or the apex of the vagina (vaginal vault) or cuff scar after hysterectomy."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Obstructed labour due to abnormality of maternal pelvic organs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2003746976",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2003746976"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Maternal care for other abnormalities of gravid uterus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1004840938",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1574794059"
+    }
+  ]
+}

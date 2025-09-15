@@ -1,0 +1,56 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/569977267",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1195691020"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/251876989",
+    "http://id.who.int/icd/release/11/2024-01/mms/569977267/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/569977267/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#569977267",
+  "code": "DA53",
+  "source": "http://id.who.int/icd/entity/569977267",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/569977267/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Duodenal polyp"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Protruding lesion on the duodenal epithelium caused by local overgrowth of duodenal epithelial cells."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gastric heterotopia of duodenum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/707505516",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1446249766"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "adenoma or adenomatous polyp of the duodenum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/748897661",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1748537954"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ]
+}

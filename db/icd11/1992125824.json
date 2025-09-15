@@ -1,0 +1,144 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1992125824",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1458683894"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1992125824",
+  "code": "BD14",
+  "source": "http://id.who.int/icd/entity/1992125824",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1992125824/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/206731332",
+        "http://id.who.int/icd/release/11/2024-01/mms/1232119755",
+        "http://id.who.int/icd/release/11/2024-01/mms/537685513",
+        "http://id.who.int/icd/release/11/2024-01/mms/175684441"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1992125824/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1992125824/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/465177735",
+        "http://id.who.int/icd/release/11/2024-01/mms/1492142148",
+        "http://id.who.int/icd/release/11/2024-01/mms/1210166201",
+        "http://id.who.int/icd/release/11/2024-01/mms/1015872326",
+        "http://id.who.int/icd/release/11/2024-01/mms/1280712786",
+        "http://id.who.int/icd/release/11/2024-01/mms/1121431779",
+        "http://id.who.int/icd/release/11/2024-01/mms/291726710",
+        "http://id.who.int/icd/release/11/2024-01/mms/2135151223",
+        "http://id.who.int/icd/release/11/2024-01/mms/197934298"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Biventricular failure"
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1380872553"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1611051049"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Biventricular failure"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "biventricular congestive heart failure"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "biventricular heart failure, NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "biventricular cardiac failure, NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Biventricular failure NYHA Class I"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/894744637"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "biventricular failure NYHA Class I - No limitation of physical activity. Ordinary physical activity does not cause undue fatigue, palpitation, dyspnoea (shortness of breath)."
+      },
+      "foundationReference": "http://id.who.int/icd/entity/894744637"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Biventricular failure NYHA Class II"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1273373410"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "biventricular failure NYHA Class II -slight limitation of physical activity. Comfortable at rest: Ordinary physical activity results in fatigue, palpitation, dyspnoea (shortness of breath)"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1273373410"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Biventricular failure NYHA Class III"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1869511838"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "biventricular failure NYHA Class III - Marked limitation of physical activity. Comfortable at rest. Less than ordinary activity causes fatigue, palpitation or dyspnoea."
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1869511838"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Biventricular failure NYHA Class IV"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/89002329"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "biventricular failure NYHA Class IV - Unable to carry on any physical activity without discomfort. Symptoms of heart failure at rest. If any physical activity is undertaken, discomfort increases"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/89002329"
+    }
+  ]
+}

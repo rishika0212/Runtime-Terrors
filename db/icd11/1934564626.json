@@ -1,0 +1,60 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1934564626",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/315445782"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1241724628",
+    "http://id.who.int/icd/release/11/2024-01/mms/295732875",
+    "http://id.who.int/icd/release/11/2024-01/mms/1934564626/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1934564626/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1934564626",
+  "code": "2C51.2",
+  "source": "http://id.who.int/icd/entity/1934564626",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1934564626/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1699945558",
+        "http://id.who.int/icd/release/11/2024-01/mms/596428981",
+        "http://id.who.int/icd/release/11/2024-01/mms/64097017",
+        "http://id.who.int/icd/release/11/2024-01/mms/772851774"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1934564626/postcoordinationScale/histopathology",
+      "axisName": "http://id.who.int/icd/schema/histopathology",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/240969828",
+        "http://id.who.int/icd/release/11/2024-01/mms/89716430",
+        "http://id.who.int/icd/release/11/2024-01/mms/1057178298",
+        "http://id.who.int/icd/release/11/2024-01/mms/1414491695"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1934564626/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Mesotheliomas of peritoneum"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A benign or malignant mesothelial neoplasm that arises from the peritoneum."
+  }
+}

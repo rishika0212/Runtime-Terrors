@@ -1,0 +1,96 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/38037245",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2140822372"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#38037245",
+  "code": "MC83.0",
+  "source": "http://id.who.int/icd/entity/38037245",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Benign or innocent cardiac murmurs in newborn"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1567938151",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1567938151"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/38037245/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1912610276"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Benign and innocent cardiac murmurs"
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1567938151"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Benign and innocent cardiac murmurs"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aortic valve murmur"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2135094592"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Benign murmur"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/48420882"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "nonorganic murmur"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/48420882"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Innocent murmur"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2038535587"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Functional cardiac murmur"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1236434473"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "functional heart murmur"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1236434473"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "functional murmur"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1236434473"
+    }
+  ]
+}

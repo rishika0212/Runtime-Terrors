@@ -1,0 +1,66 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1708025148",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/290835130"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1708025148",
+  "code": "CA20.13",
+  "source": "http://id.who.int/icd/entity/1708025148",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1708025148/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1708025148/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1290701352"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1708025148/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/299901355"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Protracted bacterial bronchitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Protracted bacterial bronchitis (PBB) is a disease caused by the chronic infection of the conducting airways. The condition causes a persistent wet cough lasting more than four weeks that responds to antibiotic treatment."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Protracted bacterial bronchitis (PBB) is a disease caused by the chronic infection of the conducting airways. The condition causes a persistent wet cough, sometimes associated with noisy breathing and/or wheezing lasting more than four weeks that responds to 14 days of antibiotic to which the bacteria are sensitive. It is commonly associated with airway malacia. Confirmation requires demonstration of neutrophilia and high colony counts of potentially pathological bacteria from a bronchoalveolar lavage."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/923122941"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/607453719"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Protracted bacterial bronchitis"
+      }
+    }
+  ]
+}

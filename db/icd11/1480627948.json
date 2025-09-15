@@ -1,0 +1,184 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1480627948",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1323682030"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1480627948",
+  "code": "CA40.07",
+  "source": "http://id.who.int/icd/entity/1480627948",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1480627948/postcoordinationScale/causality",
+      "axisName": "http://id.who.int/icd/schema/causality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/894194405",
+        "http://id.who.int/icd/release/11/2024-01/mms/1674014893",
+        "http://id.who.int/icd/release/11/2024-01/mms/655959100",
+        "http://id.who.int/icd/release/11/2024-01/mms/56475710",
+        "http://id.who.int/icd/release/11/2024-01/mms/339929010"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1480627948/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1480627948/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1983574845",
+        "http://id.who.int/icd/release/11/2024-01/mms/922044675",
+        "http://id.who.int/icd/release/11/2024-01/mms/1013784154"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1480627948/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/293771399",
+        "http://id.who.int/icd/release/11/2024-01/mms/2024199586",
+        "http://id.who.int/icd/release/11/2024-01/mms/1765820617",
+        "http://id.who.int/icd/release/11/2024-01/mms/189285942",
+        "http://id.who.int/icd/release/11/2024-01/mms/795057595",
+        "http://id.who.int/icd/release/11/2024-01/mms/1298895686",
+        "http://id.who.int/icd/release/11/2024-01/mms/1552748079"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1480627948/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/40564846"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Pneumonia due to Streptococcus pneumoniae"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease of the pulmonary system, caused by an infection with the gram-positive bacteria Streptococcus pneumoniae. This disease is characterised by an acute onset of fever and chills, or rigors. This disease may also present with chest pain, productive cough, dyspnoea, tachypnoea, hypoxia, or tachycardia. Transmission is by inhalation of infected respiratory secretions, or indirect contact. Confirmation is by identification of Streptococcus pneumoniae in a sputum sample."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bronchopneumonia due to S. pneumoniae"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pneumonia due to other streptococci"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1304502126",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1323682030"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "congenital pneumonia due to S. pneumoniae"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/594985340",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/594985340"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pneumonia due to beta-haemolytic streptococcus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1043303674",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1043303674"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/923122941"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/594985340"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pneumonia due to Streptococcus pneumoniae"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pneumococcal pneumonia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pneumococcus pneumonia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bronchopneumonia due to S. pneumoniae"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pneumococcal lobar pneumonia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "streptococcal pneumoniae pneumonia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "streptococcus pneumoniae lobar pneumonia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pyemic pneumococcal embolism with pneumonia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bronchopneumonia due to streptococcus pneumoniae"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Early-onset pneumonia due to Streptococcus pneumoniae"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/545922797"
+    }
+  ]
+}

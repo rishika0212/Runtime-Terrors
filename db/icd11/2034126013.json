@@ -1,0 +1,93 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2034126013",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/971176543"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2034126013",
+  "code": "1B72.2",
+  "source": "http://id.who.int/icd/entity/2034126013",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2034126013/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/428956900",
+        "http://id.who.int/icd/release/11/2024-01/mms/1997317917"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2034126013/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/588616678",
+        "http://id.who.int/icd/release/11/2024-01/mms/1904876434",
+        "http://id.who.int/icd/release/11/2024-01/mms/979278646",
+        "http://id.who.int/icd/release/11/2024-01/mms/1539889147",
+        "http://id.who.int/icd/release/11/2024-01/mms/2144774073",
+        "http://id.who.int/icd/release/11/2024-01/mms/522973276",
+        "http://id.who.int/icd/release/11/2024-01/mms/337308923",
+        "http://id.who.int/icd/release/11/2024-01/mms/1622653958",
+        "http://id.who.int/icd/release/11/2024-01/mms/46117627",
+        "http://id.who.int/icd/release/11/2024-01/mms/579742959",
+        "http://id.who.int/icd/release/11/2024-01/mms/1935092859",
+        "http://id.who.int/icd/release/11/2024-01/mms/487269828",
+        "http://id.who.int/icd/release/11/2024-01/mms/1000704511",
+        "http://id.who.int/icd/release/11/2024-01/mms/1104303944",
+        "http://id.who.int/icd/release/11/2024-01/mms/1585949804",
+        "http://id.who.int/icd/release/11/2024-01/mms/1959883044",
+        "http://id.who.int/icd/release/11/2024-01/mms/921595235",
+        "http://id.who.int/icd/release/11/2024-01/mms/1251496839",
+        "http://id.who.int/icd/release/11/2024-01/mms/1136802325",
+        "http://id.who.int/icd/release/11/2024-01/mms/145723401",
+        "http://id.who.int/icd/release/11/2024-01/mms/985510409",
+        "http://id.who.int/icd/release/11/2024-01/mms/1646490591",
+        "http://id.who.int/icd/release/11/2024-01/mms/1939815950",
+        "http://id.who.int/icd/release/11/2024-01/mms/255141529",
+        "http://id.who.int/icd/release/11/2024-01/mms/293771399",
+        "http://id.who.int/icd/release/11/2024-01/mms/1435254666/unspecified",
+        "http://id.who.int/icd/release/11/2024-01/mms/1760597414",
+        "http://id.who.int/icd/release/11/2024-01/mms/458687859",
+        "http://id.who.int/icd/release/11/2024-01/mms/1965146397",
+        "http://id.who.int/icd/release/11/2024-01/mms/142052508",
+        "http://id.who.int/icd/release/11/2024-01/mms/911707612"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Secondary impetiginisation of the skin"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Secondary infection of dermatoses such as atopic eczema by streptococci or staphylococci."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/911707612"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Secondary impetiginisation of the skin"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Impetiginized eczema"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Impetiginisation of other dermatoses"
+      }
+    }
+  ]
+}

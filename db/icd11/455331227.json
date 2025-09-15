@@ -1,0 +1,137 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/455331227",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1860070272"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#455331227",
+  "code": "4B22",
+  "source": "http://id.who.int/icd/entity/455331227",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cryoglobulinaemic vasculitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/55133785",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/55133785"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cutaneous microvascular disturbances due to monoclonal cryoglobulins"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1784108251",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/292680542/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/455331227/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/572581721",
+        "http://id.who.int/icd/release/11/2024-01/mms/197934298",
+        "http://id.who.int/icd/release/11/2024-01/mms/1332805370",
+        "http://id.who.int/icd/release/11/2024-01/mms/292680542",
+        "http://id.who.int/icd/release/11/2024-01/mms/1210263011"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Cryoglobulinaemia"
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Simple (monoclonal) cryoglobulinemia or type I cryoglobulinemia refers to the presence in the serum of one isotype or subclass of immunoglobulin (Ig) that precipitates reversibly below 37°C. The prevalence is unknown. This serological disorder is almost invariably associated with well-known hematological disorders, usually B-cell dyscrasias (multiple myeloma, Waldenström macroglobulinemia, or chronic lymphocytic leukemia; see these terms). Type I cryoglobulinemia is frequently asymptomatic per se but patients may develop acrocyanosis, retinal hemorrhage, Raynaud's phenomenon, and arterial thrombosis. These symptoms may be the expression of hyperviscosity syndrome due to high levels of monoclonal cryoglobulins. The cryoprecipitate in type I cryoglobulinemia is usually composed of IgG or IgM, but infrequent cases with IgA and very rarely monoclonal light-chain protein cryoprecipitation have been reported. Type I cryoglobulins lack rheumatoid factor activity (RF) and do not easily activate complement. The pathogenetic processes in simple cryoglobulinemia generally appear to be related to those of the underlying lymphoproliferative diseases. The mechanisms of cryoprecipitation are poorly understood but may be partially related to the structure of the component immunoglobulin heavy and light chains. Diagnosis is based on detection of cryoglobulins through blood sampling, clotting, and serum separation (carried out at 37°C), and cryoglobulin isolation and cryocrit determination (carried out at 4°C). Ig composition is commonly evaluated by simple diffusion on agarose gels or by immunoelectrophoresis (performed at 37°C to avoid precipitation and loss of cryoglobulins during the procedures). The principle differential diagnosis is mixed cryoglobulinemia (MC type II-III; see these terms). Type I cryoglobulinemia and MC type II-III are two distinct clinico-serological entities. In contrast to type I cryoglobulinemia, the cryoprecipitate in MC type II-III is composed of immune complexes containing polyclonal IgGs and mono- (type II) or polyclonal (type III) IgMs. Patients with simple cryoglobulinemia lack the typical vasculitic manifestations and serological findings (RF positivity and low complement C4) that characterize MC patients. Clinical course, treatment, and prognosis of type I cryoglobulinemia largely depend on the underlying disorder. Patients with a benign monoclonal gammopathy of undetermined significance are generally asymptomatic or present with a mild disorder. Plasma exchange treatment, with/without steroids and/or immunosuppressors, is beneficial for simple cryoglobulinemia patients presenting with clinically overt hyperviscosity syndrome. In patients with malignant B-cell neoplasias, the chemotherapy may lead to resolution of this serological manifestation."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cryoglobulinaemia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cryoglobulinaemia Type I"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/317480042"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "monoclonal cryoglobulin"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/317480042"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "monoclonal cryoglobulinaemia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/317480042"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "simple cryoglobulinaemia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/317480042"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cryoglobulinaemia Type II"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/859514852"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "mixed, monoclonal immunoglobulin with antibody activity against immunoglobulin"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/859514852"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cryoglobulinaemia Type III"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1754830779"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "mixed, polyclonal immunoglobulin with antibody activity against immunoglobulin"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1754830779"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Renal tubulo-interstitial disorders in simple cryoglobulinaemia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/749197922"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Respiratory disorders in simple cryoglobulinaemia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1582483457"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cryoglobulinaemic purpura"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1370194914"
+    }
+  ]
+}

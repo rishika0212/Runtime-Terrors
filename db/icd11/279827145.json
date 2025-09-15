@@ -1,0 +1,90 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/279827145",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/21712804"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#279827145",
+  "code": "DB36.11",
+  "source": "http://id.who.int/icd/entity/279827145",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/279827145/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731",
+        "http://id.who.int/icd/release/11/2024-01/mms/1290701352"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/279827145/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Ischiorectal abscess"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition of the rectum, caused by an infection with a bacterial, viral, or fungal source. This condition is characterised by a focal accumulation of purulent material in the ischiorectal space. This condition presents with pain in the perianal region, back pain, swelling, or fever. Confirmation is commonly by advanced imaging."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Abscess of ischiorectal fossa"
+      }
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ischiorectal abscess"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Abscess of ischiorectal fossa"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ischiorectal fistula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/552945689"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ischiorectal fossa fistula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/552945689"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Transsphincteric anal fistula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1621225614"
+    }
+  ]
+}

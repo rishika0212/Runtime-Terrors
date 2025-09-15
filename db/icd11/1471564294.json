@@ -1,0 +1,102 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1471564294",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/266977088"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/353204415",
+    "http://id.who.int/icd/release/11/2024-01/mms/536650343",
+    "http://id.who.int/icd/release/11/2024-01/mms/415195404",
+    "http://id.who.int/icd/release/11/2024-01/mms/2058842099",
+    "http://id.who.int/icd/release/11/2024-01/mms/1800532632",
+    "http://id.who.int/icd/release/11/2024-01/mms/1936927312"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1471564294",
+  "code": "FB56",
+  "source": "http://id.who.int/icd/entity/1471564294",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1471564294/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1471564294/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/223243926",
+        "http://id.who.int/icd/release/11/2024-01/mms/947150833",
+        "http://id.who.int/icd/release/11/2024-01/mms/1810600222"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Specified soft tissue disorders, not elsewhere classified"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is a group of other disorders, which are not classified elsewhere, affecting tissues that connect, support, or surround other structures and organs of the body, not being bone."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "brachial radiculitis NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1802542189",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1802542189"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "lumbosacral radiculitis NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1802542189",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1802542189"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mononeuropathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1866592137",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1866592137"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "radiculitis NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1802542189",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1802542189"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sciatica"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2056651014",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2056651014"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Specified soft tissue disorders, not elsewhere classified"
+      }
+    }
+  ]
+}

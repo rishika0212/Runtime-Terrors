@@ -1,0 +1,262 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/119724091",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/465177735"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#119724091",
+  "code": "5A11",
+  "source": "http://id.who.int/icd/entity/119724091",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pre-existing type 2 diabetes mellitus in pregnancy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/750602160",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/750602160"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/119724091/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1304552818",
+        "http://id.who.int/icd/release/11/2024-01/mms/1736778",
+        "http://id.who.int/icd/release/11/2024-01/mms/1837670870",
+        "http://id.who.int/icd/release/11/2024-01/mms/1866592137",
+        "http://id.who.int/icd/release/11/2024-01/mms/1129679469",
+        "http://id.who.int/icd/release/11/2024-01/mms/340836242",
+        "http://id.who.int/icd/release/11/2024-01/mms/1006882070",
+        "http://id.who.int/icd/release/11/2024-01/mms/426429380",
+        "http://id.who.int/icd/release/11/2024-01/mms/1256772020",
+        "http://id.who.int/icd/release/11/2024-01/mms/913893315",
+        "http://id.who.int/icd/release/11/2024-01/mms/1473673350",
+        "http://id.who.int/icd/release/11/2024-01/mms/1605714008",
+        "http://id.who.int/icd/release/11/2024-01/mms/1492550461",
+        "http://id.who.int/icd/release/11/2024-01/mms/30659757",
+        "http://id.who.int/icd/release/11/2024-01/mms/412389819",
+        "http://id.who.int/icd/release/11/2024-01/mms/188156827"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Type 2 diabetes mellitus"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Diabetes mellitus type 2 (formerly noninsulin-dependent diabetes mellitus (NIDDM) or adult-onset diabetes) is a metabolic disorder that is characterised by high blood glucose in the context of insulin resistance and relative insulin deficiency."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "non-insulin-dependent diabetes of the young"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Diabetes mellitus in pregnancy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/169360210",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/169360210"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Diabetes mellitus, other specified type"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/381961554",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/381961554"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Idiopathic Type 1 diabetes mellitus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/702044482",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1651053999"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/750602160"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1217915084"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Type 2 diabetes mellitus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "adult onset diabetes"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "maturity onset diabetes"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "nonketotic diabetes"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "type 2 diabetes"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "diabetes mellitus Type 2"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "non-insulin dependent diabetes mellitus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "T2DM - [Type 2 diabetes mellitus]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "NIDDM - [non insulin dependent diabetes mellitus]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Type II diabetes mellitus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "type II diabetes"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "DM2"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "DM type II"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Diabetic type 2"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "insulin requiring type 2 diabetes"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "noninsulin dependent diabetes"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "maturity-onset diabetes mellitus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "non-insulin-dependent diabetes mellitus without complications"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "diabetes due to insulin secretory defect"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "diabetes mellitus due to insulin secretory defect"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "non-insulin-dependent diabetes of the young"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "senile diabetes"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "nonketotic hyperglycaemia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "stable diabetes"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ketosis-resistant diabetes mellitus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/618467158"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Insulin resistant diabetes mellitus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1255683285"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "insulin resistant diabetes"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1255683285"
+    }
+  ]
+}

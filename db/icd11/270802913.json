@@ -1,0 +1,139 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/270802913",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/522973276"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#270802913",
+  "code": "1B71.1",
+  "source": "http://id.who.int/icd/entity/270802913",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/270802913/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1678247922",
+        "http://id.who.int/icd/release/11/2024-01/mms/344632447",
+        "http://id.who.int/icd/release/11/2024-01/mms/344934694",
+        "http://id.who.int/icd/release/11/2024-01/mms/402925049"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/270802913/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Polymicrobial necrotising fasciitis"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neonatal necrotising fasciitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1681155693",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1681155693"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/911707612"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Polymicrobial necrotising fasciitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Necrotising fasciitis type 1"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Necrotising fasciitis of the scrotum, penis or perineum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/112774633"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fournier gangrene"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/112774633"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fournier gangrene of the penis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2051080994"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fournier gangrene of the scrotum or perineum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/604695489"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Corbus disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1372039296"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Necrotising fasciitis of the vagina, vulva or perineum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1170570126"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "female Fournier gangrene"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1170570126"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fournier gangrene of the vagina"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1699204738"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fournier gangrene of the vulva or perineum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1537338570"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Progressive bacterial synergistic gangrene"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/94361773"
+    }
+  ]
+}

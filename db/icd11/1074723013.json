@@ -1,0 +1,215 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1074723013",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/746680558"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1074723013",
+  "code": "1B12.1",
+  "source": "http://id.who.int/icd/entity/1074723013",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1074723013/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1074723013/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2055915829"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1074723013/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/657977518",
+        "http://id.who.int/icd/release/11/2024-01/mms/404886274",
+        "http://id.who.int/icd/release/11/2024-01/mms/406987739",
+        "http://id.who.int/icd/release/11/2024-01/mms/1722408748",
+        "http://id.who.int/icd/release/11/2024-01/mms/479438201",
+        "http://id.who.int/icd/release/11/2024-01/mms/1709165622"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1074723013/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/672063490"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Tuberculosis of eye"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Tuberculosis involving the eye. This may manifest in multiple different ways including keratoconjunctivitis, episcleritis, anterior uveitis and posterior uveitis"
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculous episcleritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/706418049"
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "lupus vulgaris of eyelid"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1292667822",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/625292625"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1240824451"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/576751653"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculosis of eye"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ocular tuberculosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "tuberculous eye"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Keratitis or keratoconjunctivitis in tuberculosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/601074779"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "interstitial keratitis and keratoconjunctivitis in tuberculosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/601074779"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "tuberculous phlyctenular keratoconjunctivitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/601074779"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "tuberculous keratoconjunctivitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/601074779"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "tuberculous conjunctivitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/601074779"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "tuberculous keratitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/601074779"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculous episcleritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/706418049"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculous anterior uveitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/804417063"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculous posterior uveitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/27573878"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Involvement of eyelid in tuberculosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1868140502"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mycobacterium tuberculosis dacryoadenitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/992006178"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculous panuveitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1442616444"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic tuberculous iridocyclitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/668145713"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "iridocyclitis in tuberculosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/668145713"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculous chorioretinitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1195154042"
+    }
+  ]
+}

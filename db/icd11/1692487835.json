@@ -1,0 +1,49 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1692487835",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/415035569"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/834369371",
+    "http://id.who.int/icd/release/11/2024-01/mms/1930990330",
+    "http://id.who.int/icd/release/11/2024-01/mms/1692487835/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1692487835/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1692487835",
+  "code": "LD26.4",
+  "source": "http://id.who.int/icd/entity/1692487835",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1692487835/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Arthrogryposis syndromes"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Any syndrome caused by failure of elastic tissue to correctly develop during the antenatal period. These syndromes are characterised by the presence of multiple joint contractures, where elastic tissues are replaced by inelastic tissues, which results in fixation of the joint."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Arthrogryposis due to muscular dystrophy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1464662404",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1464662404"
+    }
+  ]
+}

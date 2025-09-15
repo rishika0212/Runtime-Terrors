@@ -1,0 +1,61 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/745285555",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/418815799"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#745285555",
+  "code": "2A85.2",
+  "source": "http://id.who.int/icd/entity/745285555",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/745285555/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/223243926",
+        "http://id.who.int/icd/release/11/2024-01/mms/947150833",
+        "http://id.who.int/icd/release/11/2024-01/mms/1810600222"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/745285555/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Extranodal marginal zone B-cell lymphoma, primary site skin"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A low-grade, extranodal marginal zone B-cell lymphoma of the mucosa-associated lymphoid tissue that arises from the skin. It usually presents with multifocal papular or nodular lesions in the arms or trunk. It rarely disseminates to internal organs or progresses to high grade lymphoma."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Extranodal marginal zone B-cell lymphoma, primary site skin"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary cutaneous marginal zone B-cell lymphoma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "SALT - [skin associated lymphoid tissue-related B-cell lymphoma]"
+      }
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/534629524",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2051065876"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#534629524",
+  "code": "ME84.0",
+  "source": "http://id.who.int/icd/entity/534629524",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/534629524/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1435254666",
+        "http://id.who.int/icd/release/11/2024-01/mms/1630407678",
+        "http://id.who.int/icd/release/11/2024-01/mms/1766440644",
+        "http://id.who.int/icd/release/11/2024-01/mms/1954798891",
+        "http://id.who.int/icd/release/11/2024-01/mms/21500692",
+        "http://id.who.int/icd/release/11/2024-01/mms/334423054",
+        "http://id.who.int/icd/release/11/2024-01/mms/274880002",
+        "http://id.who.int/icd/release/11/2024-01/mms/1296093776",
+        "http://id.who.int/icd/release/11/2024-01/mms/868865918",
+        "http://id.who.int/icd/release/11/2024-01/mms/1218729044",
+        "http://id.who.int/icd/release/11/2024-01/mms/426429380",
+        "http://id.who.int/icd/release/11/2024-01/mms/197934298",
+        "http://id.who.int/icd/release/11/2024-01/mms/1256772020",
+        "http://id.who.int/icd/release/11/2024-01/mms/1639304259",
+        "http://id.who.int/icd/release/11/2024-01/mms/1473673350",
+        "http://id.who.int/icd/release/11/2024-01/mms/30659757",
+        "http://id.who.int/icd/release/11/2024-01/mms/577470983",
+        "http://id.who.int/icd/release/11/2024-01/mms/714000734",
+        "http://id.who.int/icd/release/11/2024-01/mms/1306203631",
+        "http://id.who.int/icd/release/11/2024-01/mms/223744320",
+        "http://id.who.int/icd/release/11/2024-01/mms/1843895818",
+        "http://id.who.int/icd/release/11/2024-01/mms/435227771",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482",
+        "http://id.who.int/icd/release/11/2024-01/mms/1249056269",
+        "http://id.who.int/icd/release/11/2024-01/mms/1596590595"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Cervical spine pain"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is a condition which is usually characterised by pain or discomfort in the neck region and can be caused by numerous spinal problems. It may be a feature of virtually every disorder and disease that occurs above the shoulder blades."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Neck pain may be a feature of virtually every disorder and disease that occurs above the shoulder\nblades, although it is only rarely a symptom of tumors, infections, and other space-occupying lesions of the head and neck. Neck pain can also be a component of headaches, temporomandibular joint syndrome, disturbances of vision, certain types of stroke, disorders affecting the upper extremities, in?ammatory arthropathies, and ?bromyalgia.\n\nThe Neck Pain Task Force (NPTF) developed a conceptual model of neck pain linking onset, course and care. It identifies 5 components which are relevant to individual experiencing neck pain. These include, factors affecting the onset and course of neck pain (modifiable and non-modifiable), the care complex (no care, self-care, or professional care), the participation complex (continued participation or modify participation), the claim complex (financial compensation or not) and the impact and outcomes of neck pain related to body structures and function, the ability to finish tasks, the involvement of life situations, the subjective well being, and the impact on resource utilization. The NPTF also created a grading system for diagnosis of neck pain (Grades 1 to 4), which is based on more reliable functional indicators rather than less reliable physical examination indicators, such as range of motion or tenderness to palpation . Grade 1 is no signs of major pathology and no or little interference with daily activities. Grade 2 is no signs of major pathology, but interference with daily activities. Grade 3 is neck pain with neurological signs or symptoms. Grade 4 is neck pain with signs or major pathology."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cervicalgia"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cervical disc degeneration"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1225264916",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1225264916"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic primary cervical pain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2014134682",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1236923870"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic secondary musculoskeletal pain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1968541653",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1968541653"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic neuropathic pain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1170330671",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1170330671"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cervical spine pain"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cervical pain"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "neck ache"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "nonspecific pain in the neck region"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cervicalgia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pain in neck"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "painful neck"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "neck pain"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neck pain myofascial"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1685805562"
+    }
+  ]
+}

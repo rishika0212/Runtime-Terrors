@@ -1,0 +1,63 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1594247995",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/138951634"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/249426483",
+    "http://id.who.int/icd/release/11/2024-01/mms/2054202062",
+    "http://id.who.int/icd/release/11/2024-01/mms/523988824",
+    "http://id.who.int/icd/release/11/2024-01/mms/1779539865",
+    "http://id.who.int/icd/release/11/2024-01/mms/257577485",
+    "http://id.who.int/icd/release/11/2024-01/mms/2079785714",
+    "http://id.who.int/icd/release/11/2024-01/mms/515690344",
+    "http://id.who.int/icd/release/11/2024-01/mms/1594247995/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1594247995/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1594247995",
+  "code": "GA91",
+  "source": "http://id.who.int/icd/entity/1594247995",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gonococcal prostatitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1032655599",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1977691885/other"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Prostatitis due to Trichomonas vaginalis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/450965304",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1220564554"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1594247995/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Inflammatory and other diseases of prostate"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Any disease caused by obstruction of the prostate gland. These diseases are characterised by a build-up of secretions and inflammation of the prostate."
+  }
+}

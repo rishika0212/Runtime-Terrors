@@ -1,0 +1,57 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1969888129",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2000854880"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1969888129",
+  "code": "9B71.5",
+  "source": "http://id.who.int/icd/entity/1969888129",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1969888129/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1969888129/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1443317238",
+        "http://id.who.int/icd/release/11/2024-01/mms/464294586",
+        "http://id.who.int/icd/release/11/2024-01/mms/1084365812",
+        "http://id.who.int/icd/release/11/2024-01/mms/636081762",
+        "http://id.who.int/icd/release/11/2024-01/mms/572581721",
+        "http://id.who.int/icd/release/11/2024-01/mms/1173370808",
+        "http://id.who.int/icd/release/11/2024-01/mms/1008515027/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/1008515027/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Autoimmune retinopathy"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Autoimmune retinopathies are immune-mediated inflammatory disorders of the retina that differ from paraneoplastic retinopathies in the lack of association with cancer. Patients present with progressive visual loss and dysfunction of rods (impaired dark adaption and peripheral vision problems) and cones (visual acuity, colour dysfunction, photosensitivity and glare) may occur. The symptoms are often worse than the clinical signs on fundoscopy. Multiple anti-retinal autoantibodies (e.g. anti-recoverin antibodies) are described although their significance is uncertain. Autoimmune retinopathy is a diagnosis of exclusion and other causes of retinopathy need to be ruled out, while the potential role of immunotherapy remains uncertain. \nAssociated neural autoantibodies include:\nanti-recoverin autoantibodies; alpha-enolase autoantibodies; anti-transducin autoantibodies."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Autoimmune retinopathy"
+      }
+    }
+  ]
+}

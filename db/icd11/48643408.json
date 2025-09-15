@@ -1,0 +1,62 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/48643408",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/389168514"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#48643408",
+  "code": "GB70.00",
+  "source": "http://id.who.int/icd/entity/48643408",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/48643408/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/48643408/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/720032908"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Staghorn calculus"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition of the kidney, characterised by large, branched, struvite or calcium carbonate apatite calculi within the renal pelvis and extending into one or more caliceal extensions, and fever, haematuria, or flank pain, leading to renal failure and life-threatening sepsis. This condition may be associated with urinary tract infection. Confirmation is by imaging of the abdominal region."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Staghorn calculus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "staghorn calculi"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "staghorn kidney calculus"
+      }
+    }
+  ]
+}

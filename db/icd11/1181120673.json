@@ -1,0 +1,100 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1181120673",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/4407978"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1938116176",
+    "http://id.who.int/icd/release/11/2024-01/mms/1460844182",
+    "http://id.who.int/icd/release/11/2024-01/mms/420883370",
+    "http://id.who.int/icd/release/11/2024-01/mms/1650709285",
+    "http://id.who.int/icd/release/11/2024-01/mms/1181120673/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1181120673/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1181120673",
+  "code": "GC00",
+  "source": "http://id.who.int/icd/entity/1181120673",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infections of bladder in pregnancy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/398735090",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/398735090"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1181120673/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/157646292"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1181120673/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1181120673/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1290701352"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1181120673/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1583926619",
+        "http://id.who.int/icd/release/11/2024-01/mms/1323892810"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1181120673/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Cystitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition of the bladder, caused by infection, reaction to pharmacological agents, exposure to radiation therapy, or potential irritants. This condition is characterised by inflammation of the urinary bladder, dysuria, pollakiuria, fever, or flank pain."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Prostatocystitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/523988824",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/523988824"
+    }
+  ]
+}

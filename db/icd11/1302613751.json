@@ -1,0 +1,136 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1302613751",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1952274258"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1302613751",
+  "code": "NE81.3",
+  "source": "http://id.who.int/icd/entity/1302613751",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1302613751/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1644747126",
+        "http://id.who.int/icd/release/11/2024-01/mms/687250607",
+        "http://id.who.int/icd/release/11/2024-01/mms/1509166126"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1302613751/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/460401849",
+        "http://id.who.int/icd/release/11/2024-01/mms/1162198017"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Postsurgical leak"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malfunction or complication of external stoma of digestive organs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/921630501",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/921630501"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tracheostomy malfunction"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/900479603",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/900479603"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/59436623"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postsurgical leak"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "postoperative leak"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postsurgical air leak"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/264572344"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "postoperative air leak"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/264572344"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postsurgical bile leak"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1858616371"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "postoperative bile leak"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1858616371"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Insufficiency of anastomosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/998754942"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postsurgical anastomosis leak"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1688232911"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "gastrostomy leakage"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1688232911"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "postoperative anastomosis leak"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1688232911"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "anastomotic leak"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1688232911"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/66996647",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1875237176"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#66996647",
+  "code": "5C56.01",
+  "source": "http://id.who.int/icd/entity/66996647",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Glomerular disease associated with Fabry disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1112030394",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/658360080/unspecified"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/66996647/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/425464783"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Fabry disease"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Fabry disease (FD) is a progressive, inherited, multisystemic lysosomal storage disease characterised by specific neurological, cutaneous, renal, cardiovascular, cochleo-vestibular and cerebrovascular manifestations."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Fabry disease (FD) is a progressive, inherited, multisystemic disorder of glycosphingolipid metabolism that classically affects hemizygous males with no residual alpha-galactosidase A activity and is characterized by neurological (pain), cutaneous (angiokeratoma), renal (proteinuria and kidney failure), cardiovascular (cardiomyopathy and arrhythmia), cochleovestibular and cerebrovascular (strokes) symptoms. FD is pan-ethnic and the reported prevalence varies between 1 and 5 in 100,000 but the true prevalence may be underestimated. Clinical symptoms (acute and chronic pain, characterized by burning, tingling and paresthesias of the extremities) usually arise in childhood, typically between the ages of 4 and 10 years. Diarrhea, nausea, vomiting, hypohidrosis, skin lesions and corneal changes are common. With increasing age, cardiac (hypertrophic cardiomyopathy, arrhythmias and impaired heart rate variability) and cerebrovascular abnormalities (stroke and transient ischemic attacks), together with a gradual deterioration of renal function, are very frequent. Heterozygous females are frequently symptomatic but the severity of the symptoms varies, ranging from very mild to severe. In some patients, FD can have an ``atypical'' or late-onset presentation with predominantly cardiac or renal manifestations. FD is caused by mutations in the GLA gene (chromosome Xq22) and is transmitted in an X-linked manner. Demonstration of alpha-galactosidase A deficiency is the definitive method for diagnosis of hemizygous males. Enzymatic detection of heterozygotes is often inconclusive and genetic testing is necessary for females. In childhood, the differential diagnosis should include other possible causes of pain (rheumatoid arthritis (see this term) and `growing pains'). In adulthood, multiple sclerosis (see this term) is sometimes considered. Prenatal diagnosis, feasible by determination of enzyme activity or DNA testing in chorionic villi or cultured amniotic cells is, for ethical reasons, usually only considered in male fetuses. In addition, the existence of atypical variants complicates genetic counseling. A disease-specific therapeutic option (enzyme replacement therapy using recombinant human alpha-galactosidase A) has been recently introduced but its long term safety and efficacy are still being investigated. Conventional management consists of pain relief with analgesic drugs, nephroprotection (ACE inhibitors and angiotensin receptor blockers) and antiarrhythmic agents, whereas dialysis or renal transplantation are available for patients experiencing end-stage renal failure. With age, and in the absence of treatment, progressive damage to vital organ systems (end-stage renal disease and life-threatening cardiovascular or cerebrovascular complications) develops in both genders, leading to a significantly impaired quality of life and diminished life-expectancy."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1154068795"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fabry disease"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Anderson-Fabry disease"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ceramide trihexosidase deficiency"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Alpha-galactosidase A deficiency"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fabry disease X-linked"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "X-linked dominant Fabry disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1550656851"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "X-linked recessive Fabry disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/160117042"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Angiokeratoma corporis diffusum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/558012563"
+    }
+  ]
+}

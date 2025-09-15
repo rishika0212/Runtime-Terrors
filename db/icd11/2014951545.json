@@ -1,0 +1,75 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2014951545",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1521910549"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2014951545",
+  "code": "8D88.2",
+  "source": "http://id.who.int/icd/entity/2014951545",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2014951545/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/587326822",
+        "http://id.who.int/icd/release/11/2024-01/mms/609223181",
+        "http://id.who.int/icd/release/11/2024-01/mms/1008515027",
+        "http://id.who.int/icd/release/11/2024-01/mms/2115467890",
+        "http://id.who.int/icd/release/11/2024-01/mms/642618805",
+        "http://id.who.int/icd/release/11/2024-01/mms/966435382",
+        "http://id.who.int/icd/release/11/2024-01/mms/1860070272",
+        "http://id.who.int/icd/release/11/2024-01/mms/603645706",
+        "http://id.who.int/icd/release/11/2024-01/mms/183978472",
+        "http://id.who.int/icd/release/11/2024-01/mms/1954798891/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/1954798891/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Immune mediated autonomic neuropathy"
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/564191997"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Immune mediated autonomic neuropathy"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Autonomic neuropathy due to Guillain-Barre Syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1664272371"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postinfectious autonomic neuropathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/851486594"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Autonomic neuropathy due to certain specified autoimmune diseases"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1122352255"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Autoimmune ganglionopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2019291289"
+    }
+  ]
+}

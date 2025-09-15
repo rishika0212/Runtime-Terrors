@@ -1,0 +1,244 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/699504167",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1058351226"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#699504167",
+  "code": "9A78.4",
+  "source": "http://id.who.int/icd/entity/699504167",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Vitamin A deficiency with corneal xerosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1307433024",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1307433024"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Vitamin A deficiency with corneal ulceration or keratomalacia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/681973206",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/681973206"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Vitamin A deficiency with xerophthalmic scars of cornea or blindness"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1252924203",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1252924203"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/699504167/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/699504167/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/985771522"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Corneal degeneration"
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Arcus senilis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2142011301"
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mooren ulcer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/470174149",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2089700977"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Corneal degeneration"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "degenerative corneal opacity"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pellucid marginal degeneration"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1662005062"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Arcus senilis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2142011301"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "gerontoxon"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2142011301"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "arcus of cornea"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2142011301"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "corneal arcus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2142011301"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "linea corneae senilis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2142011301"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Calcareous corneal degeneration"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1850401488"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Band keratopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/184627034"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "BK - [band keratopathy]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/184627034"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "band-shaped keratopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/184627034"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Keratomalacia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/497316188"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nodular corneal degeneration"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2028977358"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Salzmann nodular degeneration of cornea"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2100955950"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Salzmann dystrophy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2100955950"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Salzmann nodular degeneration"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2100955950"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Salzmann nodular dystrophy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2100955950"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Peripheral corneal degeneration"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/205712433"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Circulus senilis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2122729784"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cornea guttata"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/550347227"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Senile corneal degeneration"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1313888804"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Corneal necrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/367208257"
+    }
+  ]
+}

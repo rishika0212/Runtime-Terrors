@@ -1,0 +1,171 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1366882206",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1517885800"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1366882206",
+  "code": "5B5F",
+  "source": "http://id.who.int/icd/entity/1366882206",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Vitamin B12 deficiency anaemia due to low intake"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1213151459",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1213151459"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Vitamin B12 deficiency anaemia due to intrinsic factor deficiency"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1045857957",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1045857957"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Vitamin B12 deficiency anaemia due to intestinal disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1470734867",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1470734867"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced vitamin B12 deficiency anaemia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1697800121",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1697800121"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired vitamin B12 deficiency anaemia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1614924129",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/623613402/unspecified"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dementia due to vitamin B12 deficiency"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1796074797",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1468768235/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1366882206/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1567256935",
+        "http://id.who.int/icd/release/11/2024-01/mms/1340134114",
+        "http://id.who.int/icd/release/11/2024-01/mms/96676503/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/1411910384/other"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Vitamin B12 deficiency"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Vegetarianism and poverty-imposed near-vegetarianism are the most common causes of nutritional cobalamin insufficiency worldwide in all age groups. In such populations, low maternal cobalamin status is associated with adverse pregnancy outcomes (preterm birth, intrauterine growth retardation, early recurrent miscarriage), neural tube defects, reduced neurocognitive performance in children, accelerated bone turnover, and low bone mineral density with fractures. Insufficient cobalamin intake is also seen in breast-fed infants of mothers with pernicious anaemia."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cobalamin deficiency"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cyanocobalamin deficiency"
+      }
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1867773640"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/517413026"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Vitamin B12 deficiency"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cobalamin deficiency"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cyanocobalamin deficiency"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "deficiency of vitamin b12"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Peripheral neuropathy due to vitamin B12 deficiency"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1208622375"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Peripheral neuropathy due to cobalamin deficiency"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1208622375"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myelopathy due to vitamin B12 deficiency"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1097319579"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "myelopathy due to cobalamin deficiency"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1097319579"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Encephalopathy due to vitamin B12 deficiency"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/855744861"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Optic neuropathy due to vitamin B12 deficiency"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2068997012"
+    }
+  ]
+}

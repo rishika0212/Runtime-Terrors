@@ -1,0 +1,57 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/913303272",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1882771459"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#913303272",
+  "code": "MB52",
+  "source": "http://id.who.int/icd/entity/913303272",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/913303272/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1435254666",
+        "http://id.who.int/icd/release/11/2024-01/mms/1630407678",
+        "http://id.who.int/icd/release/11/2024-01/mms/1766440644",
+        "http://id.who.int/icd/release/11/2024-01/mms/1954798891",
+        "http://id.who.int/icd/release/11/2024-01/mms/21500692",
+        "http://id.who.int/icd/release/11/2024-01/mms/1296093776",
+        "http://id.who.int/icd/release/11/2024-01/mms/426429380",
+        "http://id.who.int/icd/release/11/2024-01/mms/1473673350",
+        "http://id.who.int/icd/release/11/2024-01/mms/223744320",
+        "http://id.who.int/icd/release/11/2024-01/mms/435227771"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Diplegia of lower extremities"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Diplegia of lower extremities"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Flaccid diplegia of lower extremities"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/652687296"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spastic diplegia of lower extremities"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/576364928"
+    }
+  ]
+}

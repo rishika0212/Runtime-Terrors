@@ -1,0 +1,143 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/657977518",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/980864631"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#657977518",
+  "code": "9A71",
+  "source": "http://id.who.int/icd/entity/657977518",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Herpes simplex keratitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1188755650",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1188755650"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/657977518/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/657977518/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/657977518/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/455894495",
+        "http://id.who.int/icd/release/11/2024-01/mms/80976093",
+        "http://id.who.int/icd/release/11/2024-01/mms/1188755650",
+        "http://id.who.int/icd/release/11/2024-01/mms/1826431497",
+        "http://id.who.int/icd/release/11/2024-01/mms/289875029",
+        "http://id.who.int/icd/release/11/2024-01/mms/125842620"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Infectious keratitis"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infectious keratitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "corneal inflammation"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bacterial keratitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/86743950"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fungal keratitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/712798367"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "fungal infection of cornea"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/712798367"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "keratomycosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/712798367"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "mycotic keratitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/712798367"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Viral keratitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1474601064"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Parasitic keratitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1618444570"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Secondary keratitis or keratoconjunctivitis in other infectious diseases"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/602669222"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Keratitis and keratoconjunctivitis in other infectious and parasitic diseases classified elsewhere"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/602669222"
+    }
+  ]
+}

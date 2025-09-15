@@ -1,0 +1,48 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/145841876",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/383104340"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/135357495",
+    "http://id.who.int/icd/release/11/2024-01/mms/714258004",
+    "http://id.who.int/icd/release/11/2024-01/mms/1472181647",
+    "http://id.who.int/icd/release/11/2024-01/mms/1508150995",
+    "http://id.who.int/icd/release/11/2024-01/mms/145841876/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/145841876/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#145841876",
+  "code": "NE82",
+  "source": "http://id.who.int/icd/entity/145841876",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pacemaker or implantable cardioverter defibrillator battery at end of battery life"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1136528654",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1136528654"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/145841876/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/741790660",
+        "http://id.who.int/icd/release/11/2024-01/mms/431804121"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Dysfunction or complication of pacemaker, pacemaker lead or implantable cardioverter defibrillator, not elsewhere classified"
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/59436623"
+  ]
+}

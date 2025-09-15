@@ -1,0 +1,86 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1261139312",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/306138025"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1236221356",
+    "http://id.who.int/icd/release/11/2024-01/mms/753201214",
+    "http://id.who.int/icd/release/11/2024-01/mms/522815984",
+    "http://id.who.int/icd/release/11/2024-01/mms/969233892",
+    "http://id.who.int/icd/release/11/2024-01/mms/732377941",
+    "http://id.who.int/icd/release/11/2024-01/mms/1481220289",
+    "http://id.who.int/icd/release/11/2024-01/mms/1023569237",
+    "http://id.who.int/icd/release/11/2024-01/mms/1261139312/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1261139312/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1261139312",
+  "code": "GA18",
+  "source": "http://id.who.int/icd/entity/1261139312",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Polycystic ovary"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/751558883",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/751558883"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cystic teratoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/882254343",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/882254343"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ovarian fibroma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/871413134",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/871413134"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Meigs' syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1050919535",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1050919535"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Serous ovarian cystadenoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2059232755",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2059232755"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1261139312/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acquired abnormalities of ovary"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Any condition of the ovary, caused by determinants arising after birth. These conditions are characterised by a malfunction, malformation, or another anomaly of the ovary."
+  }
+}

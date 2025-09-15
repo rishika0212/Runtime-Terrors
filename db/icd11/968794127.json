@@ -1,0 +1,60 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/968794127",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1225264916"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#968794127",
+  "code": "FA80.9",
+  "source": "http://id.who.int/icd/entity/968794127",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/968794127/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1971155025"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/968794127/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1569734721",
+        "http://id.who.int/icd/release/11/2024-01/mms/1170330671"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Intervertebral disc degeneration of lumbar spine with prolapsed disc"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Intervertebral disc degeneration of lumbar spine with nervous system involvement"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/662538041",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/662538041"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Intervertebral disc degeneration of lumbar spine with prolapsed disc"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "lumbar disc prolapse NOS"
+      }
+    }
+  ]
+}

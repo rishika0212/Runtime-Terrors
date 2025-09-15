@@ -1,0 +1,174 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/386434514",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2135151223"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#386434514",
+  "code": "BC46",
+  "source": "http://id.who.int/icd/entity/386434514",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/386434514/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1196650747"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/386434514/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2136808878",
+        "http://id.who.int/icd/release/11/2024-01/mms/437702716",
+        "http://id.who.int/icd/release/11/2024-01/mms/1754821737",
+        "http://id.who.int/icd/release/11/2024-01/mms/1594578199",
+        "http://id.who.int/icd/release/11/2024-01/mms/1992125824",
+        "http://id.who.int/icd/release/11/2024-01/mms/1458683894/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/1458683894/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Intracardiac thrombosis"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute myocardial infarction, without specification of ST elevation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2016376826",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1334938734"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1380872553"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Intracardiac thrombosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Left atrial mural thrombosis, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1790113826"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postprocedural left atrial mural thrombosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1030455670"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Left ventricular mural thrombosis, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/187251436"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postprocedural left ventricular mural thrombosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1455576433"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Right atrial mural thrombosis, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1211181639"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postprocedural right atrial mural thrombosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1475108033"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Right ventricular mural thrombosis, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1172640563"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postprocedural right ventricular mural thrombosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1745696215"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Apical thrombosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/547592474"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "old apical thrombosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/547592474"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Atrial thrombosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1803406783"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "old atrial thrombosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1803406783"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Auricular thrombosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/724137256"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "old auricular thrombosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/724137256"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ventricular thrombosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1975856571"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "old ventricular thrombosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1975856571"
+    }
+  ]
+}

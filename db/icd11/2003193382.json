@@ -1,0 +1,54 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2003193382",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1946559257"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2003193382",
+  "code": "CB21.1",
+  "source": "http://id.who.int/icd/entity/2003193382",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2003193382/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Other spontaneous pneumothorax"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Spontaneous pneumothorax that is not tension pneumothorax is included in this classification.\n\nThey include primary spontaneous pneumothorax without tension and secondary spontaneous pneumothorax without tension. Primary spontaneous pneumothorax occurs in patients without underlying pulmonary disease, classically in tall, thin young men in their teens and 20s. It is thought to be due to spontaneous rupture of subpleural apical blebs or bullae that result from smoking or that are inherited. It generally occurs at rest, although some cases occur during activities involving reaching or stretching. Primary spontaneous pneumothorax also occurs during diving and high-altitude flying because of unequally transmitted pressure changes in the lung. Secondary spontaneous pneumothorax occurs in patients with underlying pulmonary disease. It most often results from rupture of a bleb or bulla in patients with severe COPD, HIV-related Pneumocystis jirovecii infection, cystic fibrosis, or any underlying pulmonary parenchymal disease. Secondary spontaneous pneumothorax is more serious than primary spontaneous pneumothorax because it occurs in patients whose underlying lung disease decreases their pulmonary reserve."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/923122941"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1246629439"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Other spontaneous pneumothorax"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Familial spontaneous pneumothorax"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/319022944"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1922038628",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2046208198"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1922038628",
+  "code": "JA62.0",
+  "source": "http://id.who.int/icd/entity/1922038628",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1922038628/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Infections of kidney in pregnancy"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Kidney infections occurring during pregnancy"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infections of kidney in pregnancy"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "infection of kidney, complicating pregnancy"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Abscess of kidney, complicating pregnancy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1728803692"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pyelitis complicating pregnancy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1463326952"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pyelonephritis complicating pregnancy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/384145841"
+    }
+  ]
+}

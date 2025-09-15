@@ -1,0 +1,209 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/474954105",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/469481605"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#474954105",
+  "code": "DB94.3",
+  "source": "http://id.who.int/icd/entity/474954105",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/474954105/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/474954105/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Alcoholic cirrhosis of liver without hepatitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Alcoholic cirrhosis is an advanced pathological stage of alcoholic liver disease characterised by diffuse fibrosis that links portal tracts and central veins, distortion of the hepatic architecture and the formation of regenerative nodules. It often occurs with alcoholic hepatitis."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Alcoholic hepatitis with cirrhosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/104340874",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/104340874"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Alcoholic cirrhosis of liver without hepatitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "alcohol cirrhosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "alcoholic cirrhosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "alcoholic liver cirrhosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "alcoholic Laennec cirrhosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Alcoholic cirrhosis NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ETOH cirrhosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "alcohol hepatic cirrhosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "alcohol liver cirrhosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Laennec cirrhosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Alcoholic cirrhosis of liver with complications"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1471219610"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Alcoholic cirrhosis of liver without complications"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1416523993"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Alcohol macronodular cirrhosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1144389153"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "alcoholic macronodular cirrhosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1144389153"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Alcohol micronodular cirrhosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/529901926"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "alcoholic micronodular cirrhosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/529901926"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Alcohol portal cirrhosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1255825195"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "alcoholic portal cirrhosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1255825195"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Alcohol postnecrotic cirrhosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/368965274"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "alcoholic postnecrotic cirrhosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/368965274"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Alcoholic nodular cirrhosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2146752945"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ETOH nodular cirrhosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2146752945"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nutritional alcoholic cirrhosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/982798040"
+    }
+  ]
+}

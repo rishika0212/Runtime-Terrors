@@ -1,0 +1,102 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/261293318",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1256072522"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#261293318",
+  "code": "2C77.1",
+  "source": "http://id.who.int/icd/entity/261293318",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/261293318/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/417824333",
+        "http://id.who.int/icd/release/11/2024-01/mms/477289013",
+        "http://id.who.int/icd/release/11/2024-01/mms/1399753101"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/261293318/postcoordinationScale/histopathology",
+      "axisName": "http://id.who.int/icd/schema/histopathology",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1936976727",
+        "http://id.who.int/icd/release/11/2024-01/mms/585251528",
+        "http://id.who.int/icd/release/11/2024-01/mms/529352875",
+        "http://id.who.int/icd/release/11/2024-01/mms/1991494025",
+        "http://id.who.int/icd/release/11/2024-01/mms/465106786",
+        "http://id.who.int/icd/release/11/2024-01/mms/749040565"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/261293318/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/261293318/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1409966790",
+        "http://id.who.int/icd/release/11/2024-01/mms/896293199",
+        "http://id.who.int/icd/release/11/2024-01/mms/1094217460",
+        "http://id.who.int/icd/release/11/2024-01/mms/238069351"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/261293318/postcoordinationScale/hasAlternativeSeverity1",
+      "axisName": "http://id.who.int/icd/schema/hasAlternativeSeverity1",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2023608436",
+        "http://id.who.int/icd/release/11/2024-01/mms/2001687278",
+        "http://id.who.int/icd/release/11/2024-01/mms/222322191",
+        "http://id.who.int/icd/release/11/2024-01/mms/841991559",
+        "http://id.who.int/icd/release/11/2024-01/mms/697502435"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Adenocarcinoma of cervix uteri"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "An adenocarcinoma arising from the cervical epithelium. It accounts for approximately 15% of invasive cervical carcinomas. Increased numbers of sexual partners and human papillomavirus (HPV) infection are risk factors. Grossly, advanced cervical adenocarcinoma may present as an exophytic mass, an ulcerated lesion, or diffuse cervical enlargement. Microscopically, the majority of cervical adenocarcinomas are of the endocervical (mucinous) type."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Adenocarcinoma of cervix uteri"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Adenoid basal carcinoma of cervix uteri"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/255284408"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Adenoid cystic carcinoma of cervix uteri"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/109863869"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1914297331",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/854539401"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1435131505",
+    "http://id.who.int/icd/release/11/2024-01/mms/779747216",
+    "http://id.who.int/icd/release/11/2024-01/mms/1794368190",
+    "http://id.who.int/icd/release/11/2024-01/mms/1914297331/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1914297331/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1914297331",
+  "code": "GB80",
+  "source": "http://id.who.int/icd/entity/1914297331",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Medullary sponge kidney"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1723148250",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1723148250"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Multicystic renal dysplasia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1178642763",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1178642763"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1914297331/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1914297331/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/720032908"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Nonfamilial nongenetic cystic kidney disease"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Diseases where there are developmental anatomical or pathological changes in the renal substance not occurring in a familial distribution and not known to have a mono-genetic cause."
+  }
+}

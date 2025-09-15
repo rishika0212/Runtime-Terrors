@@ -1,0 +1,61 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/466575235",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1200365909"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#466575235",
+  "code": "9A03.41",
+  "source": "http://id.who.int/icd/entity/466575235",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/466575235/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/466575235/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/844452979",
+        "http://id.who.int/icd/release/11/2024-01/mms/1468820019"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Mechanical lagophthalmos"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mechanical lagophthalmos"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mechanical lagophthalmos upper eyelid"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/264072605"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mechanical lagophthalmos lower eyelid"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2064661860"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/168069453",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1658346518"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#168069453",
+  "code": "DA90.2",
+  "source": "http://id.who.int/icd/entity/168069453",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Megacystis - microcolon - intestinal hypoperistalsis - hydronephrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1679999275",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1106405864/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/168069453/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/18598211",
+        "http://id.who.int/icd/release/11/2024-01/mms/1708923236"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/168069453/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731",
+        "http://id.who.int/icd/release/11/2024-01/mms/1507624466"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Congenital intestinal motility disorders"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is a congenital disorder of the small intestinal intestine that presents severe impairment or change of bowel movement often associated with malabsorption of nutrients in young children."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital intestinal motility disorders"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic idiopathic intestinal pseudo-obstruction"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1977250518"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myopathic intestinal pseudoobstruction"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1007742014"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neuronal intestinal pseudoobstruction"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1631550149"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unclassified intestinal pseudoobstruction"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1070570365"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Familial visceral myopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1838806574"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Intestinal Congenital motility disorders due to mitochondrial disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/232339526"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Oculogastrointestinal muscular dystrophy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1205053137"
+    }
+  ]
+}

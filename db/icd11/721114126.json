@@ -1,0 +1,500 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/721114126",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1710329660"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#721114126",
+  "code": "PA05",
+  "source": "http://id.who.int/icd/entity/721114126",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/721114126/postcoordinationScale/activityWhenInjured",
+      "axisName": "http://id.who.int/icd/schema/activityWhenInjured",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2071638841",
+        "http://id.who.int/icd/release/11/2024-01/mms/1107435129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1428847289",
+        "http://id.who.int/icd/release/11/2024-01/mms/821249273",
+        "http://id.who.int/icd/release/11/2024-01/mms/160164281"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/721114126/postcoordinationScale/placeOfOccurrence",
+      "axisName": "http://id.who.int/icd/schema/placeOfOccurrence",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowedExceptFromSameBlock",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/713258542"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/721114126/postcoordinationScale/transportEventDescriptor",
+      "axisName": "http://id.who.int/icd/schema/transportEventDescriptor",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowedExceptFromSameBlock",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1075090949",
+        "http://id.who.int/icd/release/11/2024-01/mms/1463612101"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/721114126/postcoordinationScale/alcoholUseInInjury",
+      "axisName": "http://id.who.int/icd/schema/alcoholUseInInjury",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowedExceptFromSameBlock",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1993515327",
+        "http://id.who.int/icd/release/11/2024-01/mms/1336544383",
+        "http://id.who.int/icd/release/11/2024-01/mms/1484941503",
+        "http://id.who.int/icd/release/11/2024-01/mms/1029396223",
+        "http://id.who.int/icd/release/11/2024-01/mms/712192575"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/721114126/postcoordinationScale/psychoactiveDrugUseInInjury",
+      "axisName": "http://id.who.int/icd/schema/psychoactiveDrugUseInInjury",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowedExceptFromSameBlock",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1848703062",
+        "http://id.who.int/icd/release/11/2024-01/mms/1464358166",
+        "http://id.who.int/icd/release/11/2024-01/mms/1080046038",
+        "http://id.who.int/icd/release/11/2024-01/mms/632885142",
+        "http://id.who.int/icd/release/11/2024-01/mms/848390998"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Unintentional land transport traffic event injuring an occupant of a bus or coach"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unintentional land transport traffic event injuring an occupant of a bus or coach"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bus occupant injured in transport accident"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bus collision NOS, traffic"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bus accident NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bus occupant injured in collision with pedestrian or animal"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1543813506"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bus occupant injured in collision with pedestrian or animal : person injured while boarding or alighting"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/572594601"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bus occupant injured in collision with pedestrian or animal : driver injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1198183485"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bus occupant injured in collision with pedestrian or animal : passenger injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/868713666"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bus occupant injured in collision with pedestrian or animal : person on outside of vehicle injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1452034392"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bus occupant injured in collision with pedestrian or animal : unspecified bus occupant injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1320063360"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bus occupant injured in collision with pedal cycle"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/961508372"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bus occupant injured in collision with pedal cycle : person injured while boarding or alighting"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1054462248"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bus occupant injured in collision with pedal cycle : driver injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1536302270"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bus occupant injured in collision with pedal cycle : passenger injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/792677443"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bus occupant injured in collision with pedal cycle : person on outside of vehicle injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1249149399"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bus occupant injured in collision with pedal cycle : unspecified bus occupant injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1381390593"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bus occupant injured in collision with two- or three-wheeled motor vehicle"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1306666219"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bus occupant injured in collision with two- or three-wheeled motor vehicle : person injured while boarding or alighting"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1063153944"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bus occupant injured in collision with two- or three-wheeled motor vehicle : driver injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1511373954"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bus occupant injured in collision with two- or three-wheeled motor vehicle : passenger injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/783871101"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bus occupant injured in collision with two- or three-wheeled motor vehicle : person on outside of vehicle injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1274225129"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bus occupant injured in collision with two- or three-wheeled motor vehicle : unspecified bus occupant injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1406269759"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bus occupant injured in collision with car, pick-up truck or van"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/682223999"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bus occupant injured in collision with car, pick-up truck or van : person injured while boarding or alighting"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/598129047"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bus occupant injured in collision with car, pick-up truck or van : driver injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1189966851"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bus occupant injured in collision with car, pick-up truck or van : passenger injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/843064574"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bus occupant injured in collision with car, pick-up truck or van : person on outside of vehicle injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1460398440"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bus occupant injured in collision with car, pick-up truck or van : unspecified bus occupant injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1328099776"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bus occupant injured in collision with heavy transport vehicle or bus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1531411179"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bus occupant injured in collision with heavy transport vehicle or bus : person injured while boarding or alighting"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/417319127"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bus occupant injured in collision with heavy transport vehicle or bus : driver injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2106852675"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bus occupant injured in collision with heavy transport vehicle or bus : passenger injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/154752444"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bus occupant injured in collision with heavy transport vehicle or bus : person on outside of vehicle injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1819449386"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bus occupant injured in collision with heavy transport vehicle or bus : unspecified bus occupant injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1951416574"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bus occupant injured in collision with railway train or railway vehicle"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1041020799"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bus occupant injured in collision with railway train or railway vehicle : person injured while boarding or alighting"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/69664854"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bus occupant injured in collision with railway train or railway vehicle : driver injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1634520516"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bus occupant injured in collision with railway train or railway vehicle : passenger injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/365010237"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bus occupant injured in collision with railway train or railway vehicle : person on outside of vehicle injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1888112809"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bus occupant injured in collision with railway train or railway vehicle : unspecified bus occupant injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1755875455"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bus occupant injured in collision with other nonmotor vehicle"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1252124544"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bus occupant injured in collision with other nonmotor vehicle : person injured while boarding or alighting"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/94412906"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bus occupant injured in collision with other nonmotor vehicle : driver injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1626041852"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bus occupant injured in collision with other nonmotor vehicle : passenger injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/340147459"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bus occupant injured in collision with other nonmotor vehicle : person on outside of vehicle injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1896738967"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bus occupant injured in collision with other nonmotor vehicle : unspecified bus occupant injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1764698177"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bus occupant injured in collision with fixed or stationary object"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/803875350"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bus occupant injured in collision with fixed or stationary object : person injured while boarding or alighting"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/425224425"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bus occupant injured in collision with fixed or stationary object : driver injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2081662333"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bus occupant injured in collision with fixed or stationary object : passenger injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/146732420"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bus occupant injured in collision with fixed or stationary object : person on outside of vehicle injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1844787222"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bus occupant injured in collision with fixed or stationary object : unspecified bus occupant injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1977082050"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bus occupant injured in noncollision transport accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1384333144"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bus occupant injured in noncollision transport accident : person injured while boarding or alighting"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1474083669"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bus occupant injured in noncollision transport accident : driver injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/848787137"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bus occupant injured in noncollision transport accident : passenger injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1178215998"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bus occupant injured in noncollision transport accident : passenger injured in traffic accident by fall in bus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1189887297"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bus occupant injured in noncollision transport accident : person on outside of vehicle injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/594668460"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bus occupant injured in noncollision transport accident : unspecified bus occupant injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/995308412"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bus occupant injured in other and unspecified transport accidents"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/935916226"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bus occupant injured trapped by door or other part of bus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/252536757"
+    }
+  ]
+}

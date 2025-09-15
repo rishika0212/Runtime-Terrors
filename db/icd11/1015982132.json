@@ -1,0 +1,70 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1015982132",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/773281372"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1015982132",
+  "code": "2E64.2",
+  "source": "http://id.who.int/icd/entity/1015982132",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1015982132/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1211030054",
+        "http://id.who.int/icd/release/11/2024-01/mms/1594277606",
+        "http://id.who.int/icd/release/11/2024-01/mms/1212282357",
+        "http://id.who.int/icd/release/11/2024-01/mms/402925049"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1015982132/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Carcinoma in situ of anal margin or perianal skin"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Carcinoma in situ of anal margin or perianal skin is most commonly squamous and related to oncogenic HPV strains, HIV infection or both. It may present as warty pigmented patches (Bowenoid papulosis)."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Carcinoma in situ of anal margin or perianal skin"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Perianal intraepithelial neoplasia, high grade"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bowenoid papulosis of perianal skin"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1024815010"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "High grade squamous intraepithelial lesion of anal margin or perianal skin"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/330770116"
+    }
+  ]
+}

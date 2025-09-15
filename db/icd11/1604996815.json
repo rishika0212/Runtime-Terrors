@@ -1,0 +1,62 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1604996815",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/576290514"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1604996815",
+  "code": "EH61.1",
+  "source": "http://id.who.int/icd/entity/1604996815",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1604996815/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1450176443",
+        "http://id.who.int/icd/release/11/2024-01/mms/1098540500",
+        "http://id.who.int/icd/release/11/2024-01/mms/1676151582",
+        "http://id.who.int/icd/release/11/2024-01/mms/1583926619",
+        "http://id.who.int/icd/release/11/2024-01/mms/1323892810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Drug-induced angioedema"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Non-allergic angioedema due to drugs, in particular angiotensin converting enzyme inhibitors and nonsteroidal anti-inflammatory drugs."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced angioedema"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "medicament-induced angioedema"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Angioedema due to angiotensin converting enzyme inhibitors"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/729242810"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Angioedema due to ACE inhibitors"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/729242810"
+    }
+  ]
+}

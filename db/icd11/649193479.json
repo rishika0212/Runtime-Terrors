@@ -1,0 +1,88 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/649193479",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1057142191"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1502437359",
+    "http://id.who.int/icd/release/11/2024-01/mms/649193479/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/649193479/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#649193479",
+  "code": "DB96.1",
+  "source": "http://id.who.int/icd/entity/649193479",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/649193479/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1954798891",
+        "http://id.who.int/icd/release/11/2024-01/mms/1781315693",
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/649193479/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Primary biliary cholangitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Primary biliary cholangitis is characterised by progressive destruction and disappearance of the intralobular bile duct epithelial cells leading to cholestasis (high alkaline phosphatase and GGT {gamma glutamyl transferase}) and eventually liver cirrhosis and liver failure, generally associated with the presence of circulating antimitochondrial antibodies and an increase of serum IgM levels."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Primary biliary cirrhosis (PBC) is a chronic and slowly progressive cholestatic liver disease of autoimmune etiology characterized by injury of the intrahepatic bile ducts that may eventually lead to liver failure. Affected individuals are usually in their fifth to seventh decades of life at time of diagnosis, and 90% are women. Annual incidence is estimated at between 1/1,430,000 and 1/20,400 inhabitants and prevalence at between 1/150,000 and 1/1,063 inhabitants (depending on age and sex). The majority of patients are asymptomatic at diagnosis, however, some patients present with symptoms of fatigue and/or pruritus. Patients may even present with ascites, hepatic encephalopathy and/or esophageal variceal hemorrhage. PBC is associated with other autoimmune diseases such as Sjogren's syndrome, scleroderma, Raynaud's phenomenon and CREST syndrome (see these terms) and is regarded as an organ specific autoimmune disease. Genetic susceptibility as a predisposing factor for PBC has been suggested. Environmental factors may have a potential causative role (infection, chemicals, smoking). Diagnosis is based on the combination of clinical features, an abnormal liver biochemical pattern in a cholestatic picture persisting for more than six months, and presence of detectable antimitochondrial antibodies (AMA) in serum. All AMA negative patients with cholestatic liver disease should be carefully evaluated by cholangiography and liver biopsy.Ursodeoxycholic acid (UDCA) is the only currently known medication that can slow thedisease progression. Patients have a good prognosis, particularly those who start UDCA treatment during the early stages of disease and who respond in terms of improvement of the liver biochemistry. Liver transplantation is usually an option for patients with liver failure and its outcome is 70% survival at 7 years. Recently, animal models have been discovered that may provide a new insight into the pathogenesis of this disease and facilitate appreciation for novel treatment in PBC."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic nonsuppurative destructive cholangitis"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hepatic fibrosis or cirrhosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/481852400",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/481852400"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Alcoholic cirrhosis of liver without hepatitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/474954105",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/474954105"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary sclerosing cholangitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/857962451",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/857962451"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ]
+}

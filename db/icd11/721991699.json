@@ -1,0 +1,101 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/721991699",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/877352786"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#721991699",
+  "code": "JA03",
+  "source": "http://id.who.int/icd/entity/721991699",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/721991699/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1403588899",
+        "http://id.who.int/icd/release/11/2024-01/mms/920837303"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Missed abortion"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition caused by genetic abnormality, abnormal cell division, or poor quality ovum or sperm. This condition is characterised by a failed pregnancy, immature fetal or embryonic death that is not expelled from the uterus for at least 8 weeks, and diminished uterine size. This condition may also present with maternal infection, blood clotting, fetal calcification, and resorption of conception products. Confirmation is by imaging."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Early fetal death with retention of dead fetus"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Blighted ovum or nonhydatidiform mole"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1313043847",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1313043847"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Molar pregnancy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/946166369",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/946166369"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Missed abortion"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "missed miscarriage"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "silent miscarriage"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "MA - [missed abortion]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "early dead fetus retained"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "early fetal death with retention"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Early fetal death with retention of dead fetus"
+      }
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/472025101",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1203447657"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#472025101",
+  "code": "2C32.0",
+  "source": "http://id.who.int/icd/entity/472025101",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/472025101/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/472025101/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/223243926",
+        "http://id.who.int/icd/release/11/2024-01/mms/947150833",
+        "http://id.who.int/icd/release/11/2024-01/mms/1810600222"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/472025101/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/472025101/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/630328761",
+        "http://id.who.int/icd/release/11/2024-01/mms/1707521326",
+        "http://id.who.int/icd/release/11/2024-01/mms/2137289572"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Nodular basal cell carcinoma of skin"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is the most common form of basal cell carcinoma and is typically located on the head or neck. It starts as a small translucent nodule which will frequently necrose and ulcerate as it enlarges. Telangiectatic blood vessels can often be detected just under the tumour surface. A minority may be pigmented and give rise to difficulty in distinguishing them from melanoma."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nodular basal cell carcinoma of skin"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Circumscribed solid basal cell carcinoma of skin"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pigmented basal cell carcinoma of skin"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/485214842"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Noduloulcerative basal cell carcinoma of skin"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/673083648"
+    }
+  ]
+}

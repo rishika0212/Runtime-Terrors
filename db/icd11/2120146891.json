@@ -1,0 +1,158 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2120146891",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/547578362"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2120146891",
+  "code": "2B6B.1",
+  "source": "http://id.who.int/icd/entity/2120146891",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2120146891/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1761851771"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2120146891/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2120146891/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1409966790",
+        "http://id.who.int/icd/release/11/2024-01/mms/896293199",
+        "http://id.who.int/icd/release/11/2024-01/mms/1094217460",
+        "http://id.who.int/icd/release/11/2024-01/mms/238069351"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2120146891/postcoordinationScale/hasAlternativeSeverity2",
+      "axisName": "http://id.who.int/icd/schema/hasAlternativeSeverity2",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1863636238",
+        "http://id.who.int/icd/release/11/2024-01/mms/885826145",
+        "http://id.who.int/icd/release/11/2024-01/mms/1746207012",
+        "http://id.who.int/icd/release/11/2024-01/mms/303697349"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Malignant epithelial neoplasms of nasopharynx, unspecified type"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant epithelial neoplasms of nasopharynx, unspecified type"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant epithelial neoplasms of superior wall of nasopharynx, unspecified type"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1948831951"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "carcinoma of superior wall of nasopharynx"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1948831951"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant epithelial neoplasms of posterior wall of nasopharynx, unspecified type"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/893338802"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "carcinoma of posterior wall of nasopharynx"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/893338802"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant epithelial neoplasms of lateral wall of nasopharynx, unspecified type"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/201554503"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "carcinoma of lateral wall of nasopharynx"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/201554503"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant epithelial neoplasms of anterior wall of nasopharynx, unspecified type"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/780183588"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "carcinoma of anterior wall of nasopharynx"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/780183588"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant epithelial neoplasms involving overlapping sites of nasopharynx, unspecified type"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/420710750"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "carcinoma of overlapping sites of nasopharynx"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/420710750"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "carcinoma involving overlapping sites of nasopharynx"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/420710750"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nasopharyngeal carcinoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1883313543"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Metastatic nasopharyngeal carcinoma [primary nasopharyngeal carcinoma spreading elsewhere]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/186800184"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1818388016",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/637470326"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1818388016",
+  "code": "BB61.0",
+  "source": "http://id.who.int/icd/entity/1818388016",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1818388016/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/562478860",
+        "http://id.who.int/icd/release/11/2024-01/mms/1663264387",
+        "http://id.who.int/icd/release/11/2024-01/mms/1201187093"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1818388016/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Rheumatic mitral valve insufficiency"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Mitral insufficiency can be caused by conditions such as rheumatic fever.\nMitral insufficiency is leakage of blood from the left ventricle into the left atrium during systole."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Active or acute endocarditis of mitral valve"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1165542120",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1453111118"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1380872553"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Rheumatic mitral valve insufficiency"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "rheumatic mitral valve incompetence"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "rheumatic mitral valve regurgitation"
+      }
+    }
+  ]
+}

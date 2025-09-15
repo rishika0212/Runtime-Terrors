@@ -1,0 +1,94 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1131758138",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/73229602"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2051636429",
+    "http://id.who.int/icd/release/11/2024-01/mms/210416501",
+    "http://id.who.int/icd/release/11/2024-01/mms/1131758138/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1131758138/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1131758138",
+  "code": "9A00",
+  "source": "http://id.who.int/icd/entity/1131758138",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital entropion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1290880184",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1290880184"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital ectropion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/945558601",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/945558601"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital ptosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1561844189",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1561844189"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hypotelorism"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/18792049",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/18792049"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hypertelorism"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/179017711",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/179017711"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Epiblepharon"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1757021264",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/541009954/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1131758138/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1131758138/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1142633691"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Congenital malposition of eyelids"
+  }
+}

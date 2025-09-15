@@ -1,0 +1,46 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/113838600",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/916346088"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#113838600",
+  "code": "PD26",
+  "source": "http://id.who.int/icd/entity/113838600",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/113838600/postcoordinationScale/placeOfOccurrence",
+      "axisName": "http://id.who.int/icd/schema/placeOfOccurrence",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowedExceptFromSameBlock",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1081404635",
+        "http://id.who.int/icd/release/11/2024-01/mms/1786773723"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/113838600/postcoordinationScale/aspectsOfIntentionalSelfHarm",
+      "axisName": "http://id.who.int/icd/schema/aspectsOfIntentionalSelfHarm",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowedExceptFromSameBlock",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1814458410",
+        "http://id.who.int/icd/release/11/2024-01/mms/1432280426",
+        "http://id.who.int/icd/release/11/2024-01/mms/1754695847"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Intentional self-harm by physical overexertion"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Intentional self-harm by physical overexertion"
+      }
+    }
+  ]
+}

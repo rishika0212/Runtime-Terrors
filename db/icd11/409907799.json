@@ -1,0 +1,47 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/409907799",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/460488781"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#409907799",
+  "code": "QA46.1",
+  "source": "http://id.who.int/icd/entity/409907799",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/409907799/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1902649856",
+        "http://id.who.int/icd/release/11/2024-01/mms/337899414",
+        "http://id.who.int/icd/release/11/2024-01/mms/1619967851",
+        "http://id.who.int/icd/release/11/2024-01/mms/96826111"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Single stillbirth"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Stillbirth is the complete expulsion or extraction from a woman of a fetus, following its death prior to the complete expulsion or extraction, at 22 or more completed weeks of gestation.\nStillbirths are distinct from cases of induced abortion.\nWhen information on gestational age is unavailable use birthweight 500 grams and more as the criteria."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Single stillbirth"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "outcome of delivery of single stillborn"
+      }
+    }
+  ]
+}

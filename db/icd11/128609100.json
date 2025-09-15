@@ -1,0 +1,54 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/128609100",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/923546127"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#128609100",
+  "code": "EH62",
+  "source": "http://id.who.int/icd/entity/128609100",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced oral lichenoid reaction"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/917471346",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/561406981/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/128609100/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1450176443",
+        "http://id.who.int/icd/release/11/2024-01/mms/1098540500",
+        "http://id.who.int/icd/release/11/2024-01/mms/1676151582",
+        "http://id.who.int/icd/release/11/2024-01/mms/1583926619",
+        "http://id.who.int/icd/release/11/2024-01/mms/1323892810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Lichenoid drug eruption"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Lichenoid drug eruption"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced lichenoid eruption"
+      }
+    }
+  ]
+}

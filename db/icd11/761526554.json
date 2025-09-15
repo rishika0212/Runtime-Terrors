@@ -1,0 +1,57 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/761526554",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1932345217"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/476391827",
+    "http://id.who.int/icd/release/11/2024-01/mms/412389819",
+    "http://id.who.int/icd/release/11/2024-01/mms/761526554/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#761526554",
+  "code": "",
+  "source": "http://id.who.int/icd/entity/761526554",
+  "classKind": "block",
+  "blockId": "BlockL2-GB6",
+  "codeRange": "GB60-GB6Z",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Renal failure following abortion, ectopic or molar pregnancy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/562199727",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/562199727"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital renal failure"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1635967154",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1635967154"
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Kidney failure"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Inability of the kidneys to adequately filter the blood of waste products, with a lower than normal glomerular filtration rate (GFR). Can be abrupt and potentially reversible (acute kidney injury) or persistent due to irreversible kidney damage (chronic kidney disease)."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hypertensive renal disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1015872326",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1015872326"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1635967154"
+  ]
+}

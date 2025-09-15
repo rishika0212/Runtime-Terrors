@@ -1,0 +1,48 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/973190159",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1060046426"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1698427219",
+    "http://id.who.int/icd/release/11/2024-01/mms/85581889",
+    "http://id.who.int/icd/release/11/2024-01/mms/691350959",
+    "http://id.who.int/icd/release/11/2024-01/mms/1291786130",
+    "http://id.who.int/icd/release/11/2024-01/mms/855225863",
+    "http://id.who.int/icd/release/11/2024-01/mms/973190159/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/973190159/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#973190159",
+  "code": "9C82",
+  "source": "http://id.who.int/icd/entity/973190159",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Certain paralytic strabismus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1828697328",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1979741228/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/973190159/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Disorders of extraocular muscles"
+  }
+}

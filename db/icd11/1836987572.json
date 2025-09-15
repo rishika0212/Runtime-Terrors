@@ -1,0 +1,82 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1836987572",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1971756453"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/330367715",
+    "http://id.who.int/icd/release/11/2024-01/mms/1836987572/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1836987572/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1836987572",
+  "code": "CA0A",
+  "source": "http://id.who.int/icd/entity/1836987572",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1836987572/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1836987572/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1969150524",
+        "http://id.who.int/icd/release/11/2024-01/mms/1091787076",
+        "http://id.who.int/icd/release/11/2024-01/mms/1446722948",
+        "http://id.who.int/icd/release/11/2024-01/mms/1851621027"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1836987572/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1836987572/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1027961521"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Chronic rhinosinusitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Sinusitis is an inflammation of the mucosal lining of the paranasal sinuses secondary to both infectious and allergic mechanisms. The retention of sinus secretions is the most important event in the development of sinusitis. This creates a favourable milieu for the growth of infection agents and may be caused by the obstruction or narrowing of sinus ostia, mucociliary dysfunction and changes in mucus composition. 90% of sinus infections involve the maxillary sinus. Chronic sinusitis refers to symptom duration lasting 3 months or more. Diagnosis of sinusitis is based on past history and physical examination findings. The CT scan is the most sensitive technique in evaluating sinus disease. The goals of management of chronic sinusitis are to eradicate infection, to relieve ostiomeatal obstruction, to normalize mucociliary clearance, and to prevent complications. When pharmaceutical treatment does not have any remarkable improvement or when a surgical approach can be chosen as patient's complication, surgical intervention should be aimed to establish an effective sinus drainage from the ostium. Functional endoscopic sinus surgery (FESS) describes endoscopic techniques that have revolutionized the approach to sinus disease. The procedure is aimed at restoring the functional physiology of sinus aeration and drainage via the expanded ostiomeatal complex while minimizing surgical alteration of the normal anatomic pathways."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute sinusitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/509821856",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/509821856"
+    }
+  ]
+}

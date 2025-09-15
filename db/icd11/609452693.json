@@ -1,0 +1,104 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/609452693",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2055653544"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#609452693",
+  "code": "NA00.01",
+  "source": "http://id.who.int/icd/entity/609452693",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bruising of scalp due to birth injury"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1358923591",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1358923591"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/609452693/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/570444145"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/609452693/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/980862652",
+        "http://id.who.int/icd/release/11/2024-01/mms/851395624",
+        "http://id.who.int/icd/release/11/2024-01/mms/73322695",
+        "http://id.who.int/icd/release/11/2024-01/mms/128104623",
+        "http://id.who.int/icd/release/11/2024-01/mms/1491356379",
+        "http://id.who.int/icd/release/11/2024-01/mms/491063206",
+        "http://id.who.int/icd/release/11/2024-01/mms/185842968",
+        "http://id.who.int/icd/release/11/2024-01/mms/2143219175",
+        "http://id.who.int/icd/release/11/2024-01/mms/558785723",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Contusion of scalp"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Contusion of scalp"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bruise of scalp"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Contusion of occipital region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1290845313"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Contusion of parietal region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1469680619"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Contusion of temporal region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/429136267"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "temple contusion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/429136267"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "contusion of temple"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/429136267"
+    }
+  ]
+}

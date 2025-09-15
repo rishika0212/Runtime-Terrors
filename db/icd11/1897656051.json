@@ -1,0 +1,93 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1897656051",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/248851702"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1518322360",
+    "http://id.who.int/icd/release/11/2024-01/mms/1720001875",
+    "http://id.who.int/icd/release/11/2024-01/mms/1086416908",
+    "http://id.who.int/icd/release/11/2024-01/mms/549327141",
+    "http://id.who.int/icd/release/11/2024-01/mms/1897656051/other"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1897656051",
+  "code": "1F00.0",
+  "source": "http://id.who.int/icd/entity/1897656051",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Anogenital herpes simplex infection"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/616315615",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/616315615"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1897656051/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1644747126",
+        "http://id.who.int/icd/release/11/2024-01/mms/687250607",
+        "http://id.who.int/icd/release/11/2024-01/mms/1509166126"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1897656051/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1435254666",
+        "http://id.who.int/icd/release/11/2024-01/mms/1630407678",
+        "http://id.who.int/icd/release/11/2024-01/mms/1766440644",
+        "http://id.who.int/icd/release/11/2024-01/mms/1954798891",
+        "http://id.who.int/icd/release/11/2024-01/mms/21500692",
+        "http://id.who.int/icd/release/11/2024-01/mms/334423054",
+        "http://id.who.int/icd/release/11/2024-01/mms/274880002",
+        "http://id.who.int/icd/release/11/2024-01/mms/1296093776",
+        "http://id.who.int/icd/release/11/2024-01/mms/868865918",
+        "http://id.who.int/icd/release/11/2024-01/mms/1218729044",
+        "http://id.who.int/icd/release/11/2024-01/mms/426429380",
+        "http://id.who.int/icd/release/11/2024-01/mms/197934298",
+        "http://id.who.int/icd/release/11/2024-01/mms/1256772020",
+        "http://id.who.int/icd/release/11/2024-01/mms/1639304259",
+        "http://id.who.int/icd/release/11/2024-01/mms/1473673350",
+        "http://id.who.int/icd/release/11/2024-01/mms/30659757",
+        "http://id.who.int/icd/release/11/2024-01/mms/577470983",
+        "http://id.who.int/icd/release/11/2024-01/mms/714000734",
+        "http://id.who.int/icd/release/11/2024-01/mms/1306203631",
+        "http://id.who.int/icd/release/11/2024-01/mms/223744320",
+        "http://id.who.int/icd/release/11/2024-01/mms/1843895818",
+        "http://id.who.int/icd/release/11/2024-01/mms/435227771",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482",
+        "http://id.who.int/icd/release/11/2024-01/mms/1249056269",
+        "http://id.who.int/icd/release/11/2024-01/mms/1596590595"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Herpes simplex infection of skin or mucous membrane"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease of the skin and mucous membranes, caused by an infection with herpes simplex virus type 1 or 2. This disease is characterised by vesicles, or may be asymptomatic. Transmission is by direct contact. Confirmation is by identification of herpes simplex virus type 1 or 2."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/788102641"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Herpes simplex infection of skin or mucous membrane"
+      }
+    }
+  ]
+}

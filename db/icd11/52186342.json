@@ -1,0 +1,153 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/52186342",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/850824593"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#52186342",
+  "code": "CB40.2",
+  "source": "http://id.who.int/icd/entity/52186342",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/52186342/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Pulmonary collapse"
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Atelectasis"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary atelectasis of newborn"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2097051816",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2097051816"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "atelectasis (of): tuberculous (not confirmed)"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1311939281",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1311939281"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "atelectasis (of): tuberculous (confirmed)"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/983550510",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/983550510"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/923122941"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1516285992"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pulmonary collapse"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Atelectasis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "lung collapse"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pulmonary atelectasis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pulmonary collapse with atelectasis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "collapse of lung NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "massive lung collapse"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "massive atelectasis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "lung atelectasis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Upper lobe collapse"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/654455441"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Middle lobe lung syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/479360967"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "middle lobe syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/479360967"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Brock syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/479360967"
+    }
+  ]
+}

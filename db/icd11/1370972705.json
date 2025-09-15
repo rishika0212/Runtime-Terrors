@@ -1,0 +1,99 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1370972705",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/471986432"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2043168717",
+    "http://id.who.int/icd/release/11/2024-01/mms/1747901096",
+    "http://id.who.int/icd/release/11/2024-01/mms/594689864",
+    "http://id.who.int/icd/release/11/2024-01/mms/1370972705/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1370972705/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1370972705",
+  "code": "FA11",
+  "source": "http://id.who.int/icd/entity/1370972705",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Arthritis mutilans"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/981832614",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/868183264/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1370972705/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1370972705/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1363003152",
+        "http://id.who.int/icd/release/11/2024-01/mms/1959335168",
+        "http://id.who.int/icd/release/11/2024-01/mms/192726145",
+        "http://id.who.int/icd/release/11/2024-01/mms/223741850",
+        "http://id.who.int/icd/release/11/2024-01/mms/319259361"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1370972705/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1267652425",
+        "http://id.who.int/icd/release/11/2024-01/mms/784669405"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Reactive arthropathies"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease of the joints, caused by an infection in another part of the body, auto-immune disease, or post-vaccination. This disease is characterised by a secondary inflammation of the joints in reaction to infection, auto-immune disease, or vaccination. Common previous sites of infection are the enteric or genitourinary system."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "In 1999, during the Fourth International Workshop on Reactive Arthritis in Berlin, a consensus was reached to use the term reactive arthritis only if the clinical picture and the triggering pathogens are \"typical.\" The typical pathogen and most common cause of genital infections is Chlamydia trachomatis; 4% of infected patients develop reactive arthritis. Typical microbes in the gastrointestinal tract include Yersinia, Salmonella, Shigella, Campylobacter, and less frequently, Clostridium difficile. Besides these classic pathogens, there is a growing list of other alleged candidates, such as arthritis developing after vaccination and exposure to environmental factors, such as silica."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute rheumatic fever"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/871612151",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/871612151"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Behçet disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1668927157",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1668927157"
+    }
+  ],
+  "codingNote": {
+    "@language": "en",
+    "@value": "Code also the underlying disease or aetiology."
+  }
+}

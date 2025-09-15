@@ -1,0 +1,105 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1598536988",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/831696556"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1598536988",
+  "code": "9A60.2",
+  "source": "http://id.who.int/icd/entity/1598536988",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1598536988/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1598536988/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/470130163"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Cicatrizing conjunctivitis"
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/358047372"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cicatrizing conjunctivitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute cicatrizing conjunctivitis, Stevens-Johnson's"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1880118795"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute cicatrizing conjunctivitis, toxic"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1492632616"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute cicatrizing conjunctivitis, drug-associated"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1868883286"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic cicatrizing conjunctivitis, Stevens-Johnson's"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2052136656"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic cicatrizing conjunctivitis, ocular cicatricial pemphigoid"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1490209973"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic cicatrizing conjunctivitis, toxic"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1866591691"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic cicatrizing conjunctivitis, drug associated"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1190647132"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute toxic conjunctivitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/728510406"
+    }
+  ]
+}

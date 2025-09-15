@@ -1,0 +1,120 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1973223737",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1784240230"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1057235839",
+    "http://id.who.int/icd/release/11/2024-01/mms/788304002",
+    "http://id.who.int/icd/release/11/2024-01/mms/1973223737/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1973223737",
+  "code": "DB91",
+  "source": "http://id.who.int/icd/entity/1973223737",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1973223737/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acute or subacute hepatic failure"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Acute and subacute liver failure is characterised by onset of coagulopathy and/or hepatic encephalopathy within 8 weeks of onset of symptoms in a patient without previously known liver diseases."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic viral hepatitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1469571641",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1469571641"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Alcoholic hepatitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/229221394",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/229221394"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Alcoholic cirrhosis of liver with hepatic encephalopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1471219610",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/474954105"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hepatic failure complicating abortion, ectopic or molar pregnancy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/877352786",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/877352786"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Icterus of fetus and newborn"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/628615515",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/628615515"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Non-alcoholic fatty liver disease with hepatic encephalopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1912806631",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1912806631"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic hepatic failure due to portosystemic shunt"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/985153043",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2116214427"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced or toxic liver disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2125493521",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2125493521"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hepatic encephalopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2046015098",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2046015098"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Liver disorders in pregnancy, childbirth or the puerperium"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1110228123",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1110228123"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ]
+}

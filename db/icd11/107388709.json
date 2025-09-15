@@ -1,0 +1,59 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/107388709",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2035326404"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#107388709",
+  "code": "AA03",
+  "source": "http://id.who.int/icd/entity/107388709",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aspergillus otomycosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/942630604",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/942630604"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Candida otomycosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1064943355",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1064943355"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/107388709/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Otomycosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Fungal infection of the ear. Otomycosis is due to Aspergillus spp., especially A. niger, in 75% or more of cases and Candida in most of the remainder."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Otomycosis"
+      }
+    }
+  ]
+}

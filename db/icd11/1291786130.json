@@ -1,0 +1,95 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1291786130",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/973190159"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1291786130",
+  "code": "9C82.3",
+  "source": "http://id.who.int/icd/entity/1291786130",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1291786130/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1291786130/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/713028385"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Restrictive ophthalmopathy"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Restrictive ophthalmopathy"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Thyroid ophthalmopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1162092695"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Graves’ ophthalmopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1162092695"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Thyroid orbitopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1162092695"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Basedow’s ophthalmopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1162092695"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infiltrative extraocular myopathies"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/196542410"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Vascular extraocular myopathies"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1009114804"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Extraocular myositis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/655497311"
+    }
+  ]
+}

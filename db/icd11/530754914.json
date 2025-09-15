@@ -1,0 +1,83 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/530754914",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/252518591"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/867439648",
+    "http://id.who.int/icd/release/11/2024-01/mms/1459607946",
+    "http://id.who.int/icd/release/11/2024-01/mms/575834485",
+    "http://id.who.int/icd/release/11/2024-01/mms/1079674764",
+    "http://id.who.int/icd/release/11/2024-01/mms/530754914/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/530754914/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#530754914",
+  "code": "ND16",
+  "source": "http://id.who.int/icd/entity/530754914",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/530754914/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/530754914/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2075008960",
+        "http://id.who.int/icd/release/11/2024-01/mms/1820752768",
+        "http://id.who.int/icd/release/11/2024-01/mms/162211192",
+        "http://id.who.int/icd/release/11/2024-01/mms/944206409",
+        "http://id.who.int/icd/release/11/2024-01/mms/1541301688",
+        "http://id.who.int/icd/release/11/2024-01/mms/747563897",
+        "http://id.who.int/icd/release/11/2024-01/mms/1585426937",
+        "http://id.who.int/icd/release/11/2024-01/mms/1469905297",
+        "http://id.who.int/icd/release/11/2024-01/mms/1085578577"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/530754914/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/980862652",
+        "http://id.who.int/icd/release/11/2024-01/mms/851395624",
+        "http://id.who.int/icd/release/11/2024-01/mms/73322695",
+        "http://id.who.int/icd/release/11/2024-01/mms/128104623",
+        "http://id.who.int/icd/release/11/2024-01/mms/1491356379",
+        "http://id.who.int/icd/release/11/2024-01/mms/491063206",
+        "http://id.who.int/icd/release/11/2024-01/mms/185842968",
+        "http://id.who.int/icd/release/11/2024-01/mms/2143219175",
+        "http://id.who.int/icd/release/11/2024-01/mms/558785723",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Injury of blood vessels at ankle or foot level"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury of posterior tibial artery"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2113093547",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2113093547"
+    }
+  ]
+}

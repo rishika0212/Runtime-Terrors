@@ -1,0 +1,86 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1694252775",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1280712786"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1694252775",
+  "code": "BA52.2",
+  "source": "http://id.who.int/icd/entity/1694252775",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1694252775/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1458683894",
+        "http://id.who.int/icd/release/11/2024-01/mms/1507624466",
+        "http://id.who.int/icd/release/11/2024-01/mms/1119203708"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1694252775/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/718946808",
+        "http://id.who.int/icd/release/11/2024-01/mms/1334938734",
+        "http://id.who.int/icd/release/11/2024-01/mms/993844371",
+        "http://id.who.int/icd/release/11/2024-01/mms/904209735",
+        "http://id.who.int/icd/release/11/2024-01/mms/1829545371/unspecified"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1694252775/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1998406536",
+        "http://id.who.int/icd/release/11/2024-01/mms/2106647780"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Coronary atherosclerosis of non-autologous bypass graft"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Atherosclerotic lesions, or atherosclerotic plaques of non-autologous bypass graft."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Coronary atherosclerosis without significant ischaemia of non-autologous bypass graft"
+      }
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1380872553"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Coronary atherosclerosis of non-autologous bypass graft"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Coronary atherosclerosis without significant ischaemia of non-autologous bypass graft"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Atherosclerotic heart disease, of nonautologous bypass graft"
+      }
+    }
+  ]
+}

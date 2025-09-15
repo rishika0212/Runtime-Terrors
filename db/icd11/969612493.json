@@ -1,0 +1,168 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/969612493",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1679904912"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#969612493",
+  "code": "NA06.9",
+  "source": "http://id.who.int/icd/entity/969612493",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/969612493/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/969612493/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/662741980",
+        "http://id.who.int/icd/release/11/2024-01/mms/822296309"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/969612493/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/980862652",
+        "http://id.who.int/icd/release/11/2024-01/mms/851395624",
+        "http://id.who.int/icd/release/11/2024-01/mms/73322695",
+        "http://id.who.int/icd/release/11/2024-01/mms/128104623",
+        "http://id.who.int/icd/release/11/2024-01/mms/1491356379",
+        "http://id.who.int/icd/release/11/2024-01/mms/491063206",
+        "http://id.who.int/icd/release/11/2024-01/mms/185842968",
+        "http://id.who.int/icd/release/11/2024-01/mms/2143219175",
+        "http://id.who.int/icd/release/11/2024-01/mms/558785723",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Contusion of eyeball or orbital tissues"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Injuries to the eyeball and surrounding tissue resulting in haemorrhage, usually manifested in the skin."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "black eye"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/533529906",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/533529906"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Contusion of eyelid or periocular area"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/533529906",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/533529906"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1804006919"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Contusion of eyeball or orbital tissues"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Contusion of eyeball"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/183623585"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "contusion of globe of eye"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/183623585"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Traumatic hyphaema"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2137921854"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Contusion of iris"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1862480122"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Contusion of lens"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/517232117"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Contusion of sclera"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/980765031"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Contusion of cornea"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/463614699"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Contusion of orbital tissues"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1780375018"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "contusion of orbit"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1780375018"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "contusion of orbital region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1780375018"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ecchymosis of eye"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1780375018"
+    }
+  ]
+}

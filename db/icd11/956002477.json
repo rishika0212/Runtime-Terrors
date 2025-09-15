@@ -1,0 +1,106 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/956002477",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1221742343"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#956002477",
+  "code": "BA50",
+  "source": "http://id.who.int/icd/entity/956002477",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/956002477/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1750488832"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Old myocardial infarction"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Past myocardial infarction diagnosed by electrocardiogram (ECG) or other special investigation, but currently presenting no symptoms."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "healed myocardial infarction"
+      }
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1380872553"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Old myocardial infarction"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "past myocardial infarction"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "healed myocardial infarction"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "myocardial scar"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "myocardial scarring"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "previous myocardial infarction"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "old MI - [myocardial infarction]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Old myocardial infarction, dated back 29 days but less than 1 year from onset"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/161240953"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Old myocardial infarction dated back 29 days but less than 4 months from onset"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1830644489"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Old myocardial infarction dated back 1 year or more from onset"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2096887396"
+    }
+  ]
+}

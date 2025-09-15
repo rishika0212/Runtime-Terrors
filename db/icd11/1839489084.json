@@ -1,0 +1,62 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1839489084",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1836788232"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1839489084",
+  "code": "GB23.1",
+  "source": "http://id.who.int/icd/entity/1839489084",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1839489084/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Fissure or fistula of nipple"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition characterised by the formation of a deep furrow or crack-like lesion on the nipple and an abnormal passage between the nipple and adjacent tissues or surfaces."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fissure or fistula of nipple"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fissure of nipple"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1338613633"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fistula of nipple"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1328310033"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cracked nipple"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1243105519"
+    }
+  ]
+}

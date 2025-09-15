@@ -1,0 +1,84 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1404966610",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/911859018"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1605020868",
+    "http://id.who.int/icd/release/11/2024-01/mms/1938186540"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1404966610",
+  "code": "2C12",
+  "source": "http://id.who.int/icd/entity/1404966610",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1404966610/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1404966610/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1409966790",
+        "http://id.who.int/icd/release/11/2024-01/mms/896293199",
+        "http://id.who.int/icd/release/11/2024-01/mms/1094217460",
+        "http://id.who.int/icd/release/11/2024-01/mms/238069351"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1404966610/postcoordinationScale/hasAlternativeSeverity2",
+      "axisName": "http://id.who.int/icd/schema/hasAlternativeSeverity2",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1863636238",
+        "http://id.who.int/icd/release/11/2024-01/mms/885826145",
+        "http://id.who.int/icd/release/11/2024-01/mms/1746207012",
+        "http://id.who.int/icd/release/11/2024-01/mms/303697349"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Malignant neoplasms of liver or intrahepatic bile ducts"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "The most frequent and important hepatic neoplasm is the primary hepatocellular carcinoma (HCC). In many parts of the world, in particular Africa and Asia, it poses a significant disease burden. In these high incidence regions, chronic infection with hepatitis B virus (HBV) is the principal underlying cause, with the exception of Japan which has a high prevalence of hepatitis C infection. HBV vaccination has become a powerful tool in reducing cirrhosis and HCC, but implementation is still suboptimal in several high risk regions. In Western countries, chronic alcohol abuse is a major aetiological factor. Hepatic cholangiocarcinoma has a different geographical distribution, with peak incidences in Northern Thailand. Here, it is caused by chronic infection with the liver fluke, Opisthorchis viverrini, which is ingested through infected raw fish."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Secondary malignant neoplasm of liver"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/104832322",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/104832322"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant neoplasm of biliary tract NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1159416016",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1159416016"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant neoplasms of liver or intrahepatic bile ducts"
+      }
+    }
+  ]
+}

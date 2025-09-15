@@ -1,0 +1,109 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1884917970",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1912806631"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1884917970",
+  "code": "DB92.1",
+  "source": "http://id.who.int/icd/entity/1884917970",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1884917970/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1377614074",
+        "http://id.who.int/icd/release/11/2024-01/mms/1781315693"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1884917970/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Non-alcoholic steatohepatitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Non-alcoholic steatohepatitis (NASH) is a histological form of Non-alcoholic fatty liver disease (NAFLD) in which the key features are histological evidence of hepatocyte injury (such as ballooning or Mallory hyaline) and substantial lobular inflammation. NASH is often associated with fibrosis in pericentral and perisinusoidal distribution (a portal fibrosis pattern also exists, particularly in children). NASH is the clinically progressive form of NAFLD with clinical outcomes including cardiovascular events, and cirrhosis or hepatocellular carcinoma. While novel biomarkers for NASH have been reported, histology remains the gold standard for diagnosis."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Non-alcoholic steatohepatitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "NASH - [non-alcoholic steatohepatitis]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "non-alcoholic steatohepatosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Non-alcoholic steatohepatitis with cirrhosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/446165311"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "NASH with cirrhosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/446165311"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Non-alcoholic steatohepatitis with fibrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/755290177"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "NASH without cirrhosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/755290177"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Non-alcoholic steatohepatitis without cirrhosis or fibrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/260506148"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "NASH without mention of cirrhosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/260506148"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/938154534",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1838213761"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#938154534",
+  "code": "GA10.J",
+  "source": "http://id.who.int/icd/entity/938154534",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/938154534/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/344632447"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/938154534/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1507624466",
+        "http://id.who.int/icd/release/11/2024-01/mms/1290701352"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/938154534/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/519560591",
+        "http://id.who.int/icd/release/11/2024-01/mms/836513071",
+        "http://id.who.int/icd/release/11/2024-01/mms/995199555"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Endometriosis-related adhesions"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Endometriosis-related adhesions"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Endometriosis-related adnexal adhesions"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/398787575"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Endometriosis-related adnexal dense adhesions"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1194900432"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Endometriosis-related adnexal filmy adhesions"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/902269107"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Endometriosis-related cul-de-sac adhesions"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/446067734"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Endometriosis-related cul-de-sac dense adhesions"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/949288784"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Endometriosis-related cul-de-sac filmy adhesions"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/380740064"
+    }
+  ]
+}

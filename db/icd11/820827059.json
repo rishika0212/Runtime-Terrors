@@ -1,0 +1,64 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/820827059",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/330792642"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#820827059",
+  "code": "4B20.0",
+  "source": "http://id.who.int/icd/entity/820827059",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/820827059/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/820827059/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1338477196"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Sarcoidosis of lung"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sarcoidosis of lung"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "lung sarcoid"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pulmonary sarcoidosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "sarcoidosis in lung"
+      }
+    }
+  ]
+}

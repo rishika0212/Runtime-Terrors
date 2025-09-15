@@ -1,0 +1,62 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1248470145",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1504678744"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1248470145",
+  "code": "9A02.1",
+  "source": "http://id.who.int/icd/entity/1248470145",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1248470145/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1248470145/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1142633691"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Posterior blepharitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Posterior blepharitis is inflammation of the eyelids secondary to dysfunction of the meibomian glands. Like anterior blepharitis it is a bilateral chronic condition and manifested by a broad spectrum of symptoms involving the lids including inflammation and plugging of the meibomian orifices and production of abnormal secretion upon pressure over the glands. It may be associated with skin rosacea."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Posterior blepharitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "rosacea-associated blepharitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "rosacea posterior blepharitis"
+      }
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1073319713",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1726554290"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1374503629",
+    "http://id.who.int/icd/release/11/2024-01/mms/883330905",
+    "http://id.who.int/icd/release/11/2024-01/mms/1073319713/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1073319713/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1073319713",
+  "code": "DC30",
+  "source": "http://id.who.int/icd/entity/1073319713",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1073319713/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/532265365"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1073319713/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Cystic diseases of the pancreas"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is a closed sac, having a distinct membrane and division compared to the nearby tissue, which may contain air, fluids, or semi-solid material, of the pancreas."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ]
+}

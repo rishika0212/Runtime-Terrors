@@ -1,0 +1,92 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/331115338",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1528863768"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#331115338",
+  "code": "2B30.0",
+  "source": "http://id.who.int/icd/entity/331115338",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/331115338/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/331115338/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1409966790",
+        "http://id.who.int/icd/release/11/2024-01/mms/896293199",
+        "http://id.who.int/icd/release/11/2024-01/mms/1094217460",
+        "http://id.who.int/icd/release/11/2024-01/mms/238069351"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/331115338/postcoordinationScale/hasAlternativeSeverity2",
+      "axisName": "http://id.who.int/icd/schema/hasAlternativeSeverity2",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1863636238",
+        "http://id.who.int/icd/release/11/2024-01/mms/885826145",
+        "http://id.who.int/icd/release/11/2024-01/mms/1746207012",
+        "http://id.who.int/icd/release/11/2024-01/mms/303697349"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Nodular lymphocyte predominant Hodgkin lymphoma"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Nodular lymphocyte predominant Hodgkin lymphoma (NLPHL) is characterised by a nodular, or a nodular and diffuse proliferation of scattered large neoplastic cells known as popcorn or lymphocyte predominant cells (LP cells) —formerly called L&H cells for lymphocytic and/or histiocytic Reed-Sternberg cell variants. At present an overlap between NLPHL and T-cell-rich large B-cell lymphoma cannot be excluded."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nodular lymphocyte predominant Hodgkin lymphoma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hodgkin disease with lymphocytic-histiocytic predominance"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "lymphocyte-rich Hodgkin lymphoma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hodgkin disease with lymphocytic predominance"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hodgkin disease with nodular lymphocytic predominance"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hodgkin disease with diffuse lymphocytic predominance"
+      }
+    }
+  ]
+}

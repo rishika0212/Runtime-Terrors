@@ -1,0 +1,47 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2051636429",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1131758138"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2051636429",
+  "code": "9A00.0",
+  "source": "http://id.who.int/icd/entity/2051636429",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Waardenburg syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/304883627",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/143807416/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2051636429/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Dystopia canthorum"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dystopia canthorum"
+      }
+    }
+  ]
+}

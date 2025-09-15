@@ -1,0 +1,48 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1214746472",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/250196878"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1214746472",
+  "code": "9C61.36",
+  "source": "http://id.who.int/icd/entity/1214746472",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1214746472/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Secondary angle closure glaucoma due to other anterior displacement of the lens-iris diaphragm"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Iris and ciliary body cysts, intraocular tumours, posterior scleritis, uveal effusion, or Silicon Oil or gas in the vitreous cavity can cause IOP elevation by angle closure."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Secondary angle closure glaucoma due to other anterior displacement of the lens-iris diaphragm"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Silicon oil or gas in the vitreous cavity causing IOP elevation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1473273457"
+    }
+  ]
+}

@@ -1,0 +1,688 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/496011112",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1058231555"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#496011112",
+  "code": "8E4A.0",
+  "source": "http://id.who.int/icd/entity/496011112",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paraneoplastic retinopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1216073790",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1216073790"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Autoimmune retinopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1969888129",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1969888129"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Opsoclonus-myoclonus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/936930510",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/735574384"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/496011112/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1885288190"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/496011112/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1585949804",
+        "http://id.who.int/icd/release/11/2024-01/mms/1630407678",
+        "http://id.who.int/icd/release/11/2024-01/mms/1479285656",
+        "http://id.who.int/icd/release/11/2024-01/mms/1069443471",
+        "http://id.who.int/icd/release/11/2024-01/mms/384289569",
+        "http://id.who.int/icd/release/11/2024-01/mms/1719545571",
+        "http://id.who.int/icd/release/11/2024-01/mms/724748131",
+        "http://id.who.int/icd/release/11/2024-01/mms/1397288146",
+        "http://id.who.int/icd/release/11/2024-01/mms/28995849",
+        "http://id.who.int/icd/release/11/2024-01/mms/843843448",
+        "http://id.who.int/icd/release/11/2024-01/mms/2021326314",
+        "http://id.who.int/icd/release/11/2024-01/mms/1861279867",
+        "http://id.who.int/icd/release/11/2024-01/mms/1730644960",
+        "http://id.who.int/icd/release/11/2024-01/mms/1297080916",
+        "http://id.who.int/icd/release/11/2024-01/mms/76906748",
+        "http://id.who.int/icd/release/11/2024-01/mms/1119245712",
+        "http://id.who.int/icd/release/11/2024-01/mms/23958598",
+        "http://id.who.int/icd/release/11/2024-01/mms/1743839677",
+        "http://id.who.int/icd/release/11/2024-01/mms/1397803237",
+        "http://id.who.int/icd/release/11/2024-01/mms/1965146397",
+        "http://id.who.int/icd/release/11/2024-01/mms/81068077",
+        "http://id.who.int/icd/release/11/2024-01/mms/631153919",
+        "http://id.who.int/icd/release/11/2024-01/mms/592562777",
+        "http://id.who.int/icd/release/11/2024-01/mms/931843870",
+        "http://id.who.int/icd/release/11/2024-01/mms/292232825",
+        "http://id.who.int/icd/release/11/2024-01/mms/1054910242",
+        "http://id.who.int/icd/release/11/2024-01/mms/17562655",
+        "http://id.who.int/icd/release/11/2024-01/mms/649014905",
+        "http://id.who.int/icd/release/11/2024-01/mms/988657115/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/1375895174",
+        "http://id.who.int/icd/release/11/2024-01/mms/1993680150",
+        "http://id.who.int/icd/release/11/2024-01/mms/569175314",
+        "http://id.who.int/icd/release/11/2024-01/mms/1510094736",
+        "http://id.who.int/icd/release/11/2024-01/mms/564191997",
+        "http://id.who.int/icd/release/11/2024-01/mms/215057274",
+        "http://id.who.int/icd/release/11/2024-01/mms/1800958996",
+        "http://id.who.int/icd/release/11/2024-01/mms/1088544686",
+        "http://id.who.int/icd/release/11/2024-01/mms/1882771459",
+        "http://id.who.int/icd/release/11/2024-01/mms/1228918777"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Paraneoplastic or autoimmune disorders of the central nervous system, brain or spinal cord"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Paraneoplastic and autoimmune disorders of the central nervous system, brain and spinal cord nervous system result from a targeted immune attack on neurons or glial cells in the central (e.g. encephalopathy, ataxia, myelopathy, myelitis) nervous system. In the paraneoplastic context, this attack is a consequence of a potentially effective tumour immune response initiated by onco-neural antigens derived from a systemic cancer. In the non-paraneoplastic context termed ‘autoimmune’ the etiology remains elusive though increasing evidence indicates a preceding infectious trigger in at least some cases. These disorders are commonly multifocal causing injury and symptoms arising from involvement at many levels of the central nervous system. A personal or family history of autoimmunity is often found. Accompanying neural and non-organ specific (thyroid peroxidase [TPO] antibodies) autoantibodies may be found. The neural autoantibody profile may be predictive of a specific cancer type and may be associated with a particular neurological phenotype. Exclusion of alternative etiologies (e.g. infections) is important. Response to immunotherapy may support the diagnosis."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/564191997"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paraneoplastic or autoimmune disorders of the central nervous system, brain or spinal cord"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paraneoplastic encephalitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/704882202"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paraneoplastic encephalitis, neural autoantibody positive"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/62234255"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paraneoplastic encephalitis, neural autoantibody negative"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/834423432"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Autoimmune encephalitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/241281019"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hashimoto encephalitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/241281019"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "non-vasculitic autoimmune meningoencephalitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/241281019"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Autoimmune encephalitis, neural autoantibody positive"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/972195461"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Autoimmune encephalitis, neural autoantibody negative"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1986232955"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paraneoplastic encephalopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1385914006"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Autoimmune encephalopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1445382314"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hashimoto’s encephalopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1445382314"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "immunotherapy responsive encephalopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1445382314"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "autoimmune dementia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1445382314"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "SREAT - [steroid-responsive-encephalopathy-associated with autoimmune thyroiditis]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1445382314"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paraneoplastic limbic encephalitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1147819644"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paraneoplastic limbic encephalitis, neural autoantibody positive"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1607842542"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paraneoplastic limbic encephalitis, neural autoantibody negative"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1749457812"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Autoimmune limbic encephalitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1254443511"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Autoimmune limbic encephalitis, Neural autoantibody positive"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1704108774"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Autoimmune limbic encephalitis, Neural autoantibody negative"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1299525829"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paraneoplastic brainstem encephalitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2061898171"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paraneoplastic rhomboencephalitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2061898171"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "paraneoplastic brain stem syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2061898171"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paraneoplastic brainstem encephalitis, neural autoantibody positive"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1483064286"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paraneoplastic brainstem encephalitis, neural autoantibody negative"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1633287467"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Autoimmune brainstem encephalitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1138372432"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "autoimmune rhomboencephalitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1138372432"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Autoimmune brainstem encephalitis, neural autoantibody positive"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1950944818"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Autoimmune brainstem encephalitis, neural autoantibody negative"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1268048707"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paraneoplastic cerebellar degeneration"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1087616692"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "paraneoplastic ataxia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1087616692"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paraneoplastic cerebellar degeneration, neural autoantibody positive"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/351394127"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paraneoplastic cerebellar degeneration, neural autoantibody negative"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/768468924"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Autoimmune cerebellar degeneration or cerebellitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1649435857"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "autoimmune ataxia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1649435857"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Autoimmune cerebellar degeneration or cerebellitis, neural autoantibody positive"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/256783839"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Autoimmune cerebellar degeneration or cerebellitis, neural autoantibody negative"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/954012833"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paraneoplastic encephalomyelitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1438860719"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paraneoplastic encephalomyelitis, neural autoantibody positive"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/117504468"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paraneoplastic encephalomyelitis, neural autoantibody negative"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1064136083"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paraneoplastic movement disorder"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1859516177"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paraneoplastic movement disorder, autoantibody positive"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/502185974"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paraneoplastic movement disorder, autoantibody negative"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/712875656"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paraneoplastic chorea"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/420288465"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paraneoplastic dyskinesia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1838520850"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Autoimmune movement disorder"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1557930774"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "paediatric autoimmune neuropsychiatric disorders associated with streptococcal infections [PANDAS]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1557930774"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Autoimmune movement disorder, autoantibody positive"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/63677983"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Autoimmune movement disorder, autoantibody negative"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/834826778"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Autoimmune chorea"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/272429739"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Autoimmune dyskinesia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/526418601"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Autoimmune dystonia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1963108240"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Autoimmune myoclonus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1163544076"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paraneoplastic myelopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1123629823"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paraneoplastic myelitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1123629823"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paraneoplastic myelopathy, neural autoantibody positive"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/236953451"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paraneoplastic myelopathy, neural autoantibody negative"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/965525013"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Autoimmune myelopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1618667674"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "autoimmune myelitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1618667674"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Autoimmune myelopathy, neural autoantibody positive"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/222408969"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Autoimmune myelopathy, neural autoantibody negative"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1061709070"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stiff person syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/771780430"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "stiff man syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/771780430"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Moersch-Woltman syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/771780430"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stiff person syndrome classic form"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1106367973"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stiff person syndrome classic form, glutamic acid decarboxylase-autoantibody positive"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/65973890"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stiff person syndrome classic form, other neural autoantibody negative"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/750339475"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stiff person syndrome classic form, other neural autoantibody positive"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/662101077"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paraneoplastic stiff person syndrome classic form"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1291767616"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stiff person syndrome variant form"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/288209958"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stiff person syndrome variant form, glutamic acid decarboxylase autoantibody positive"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2095899608"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stiff person syndrome variant form, other neural antibody positive"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/385768857"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stiff person syndrome variant form, neural antibody negative"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/560823527"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paraneoplastic stiff person syndrome variant form"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/233304469"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neuromyelitis optica spectrum disorder"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/290333867"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Certain specified neurological disorder aquaporin-4 antibody positive"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/31533652"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic lymphocytic inflammation with pontine perivascular enhancement responsive to steroids"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/913443626"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "CLIPPERS - [Chronic lymphocytic inflammation with pontine perivascular enhancement responsive to steroids]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/913443626"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Anti-NMDA receptor encephalitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1568915618"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Post infectious encephalitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/385351156"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute demyelinating encephalomyelopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/385351156"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paraneoplastic dystonia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1656347465"
+    }
+  ]
+}

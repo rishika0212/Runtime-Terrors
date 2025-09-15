@@ -1,0 +1,50 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/532698403",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1939815950"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/67108853",
+    "http://id.who.int/icd/release/11/2024-01/mms/12958750",
+    "http://id.who.int/icd/release/11/2024-01/mms/303653536",
+    "http://id.who.int/icd/release/11/2024-01/mms/1990974193",
+    "http://id.who.int/icd/release/11/2024-01/mms/1723085409",
+    "http://id.who.int/icd/release/11/2024-01/mms/1414602212",
+    "http://id.who.int/icd/release/11/2024-01/mms/532698403/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/532698403/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#532698403",
+  "code": "1F2D",
+  "source": "http://id.who.int/icd/entity/532698403",
+  "classKind": "category",
+  "title": {
+    "@language": "en",
+    "@value": "Non-dermatophyte superficial dermatomycoses"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Any condition of the skin and mucous membranes, caused by an infection with fungi other than Candida and dermatophytes."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Candidosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2055968951",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2055968951"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dermatophytosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1802307036",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1802307036"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/528118622"
+  ]
+}

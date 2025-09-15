@@ -1,0 +1,121 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1500376898",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/747924236"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1500376898",
+  "code": "FA91",
+  "source": "http://id.who.int/icd/entity/1500376898",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1500376898/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1761166931"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1500376898/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Infection of intervertebral disc"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition of the intervertebral discs, caused by an infection with a bacterial, viral, fungal, or parasitic source. This condition commonly presents with fever, chills, headache, stiffness of the neck, or tingling sensations in the arms or legs. Confirmation is by identification of the infectious agent in a blood sample, or radiographic tests."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infection of intervertebral disc"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infection of intervertebral disc with no determinant"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1931984831"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "primary infection of intervertebral disc"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1931984831"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infection of intervertebral disc with determinant"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1740814254"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "secondary infection of intervertebral disc"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1740814254"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bacterial infection of disc"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/843606518"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fungal infection of disc"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/469651811"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mycobacterial infection of disc"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/704087396"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Parasitic infection of disc"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/157211466"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Viral infection of disc"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/316749788"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Other specified infection of disc"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/565791081"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1247650801",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1719389232"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1247650801",
+  "code": "2A00.3",
+  "source": "http://id.who.int/icd/entity/1247650801",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1247650801/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1247650801/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/258384733",
+        "http://id.who.int/icd/release/11/2024-01/mms/976604742",
+        "http://id.who.int/icd/release/11/2024-01/mms/407816093",
+        "http://id.who.int/icd/release/11/2024-01/mms/1651949308",
+        "http://id.who.int/icd/release/11/2024-01/mms/282738158",
+        "http://id.who.int/icd/release/11/2024-01/mms/305649277"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1247650801/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Central neurocytoma of brain"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Central neurocytoma is a very rare brain tumour of young adults. It is typically found in the lateral ventricles and occasionally in the third ventricle. Symptoms are those of increased intracranial pressure."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Central neurocytoma of brain"
+      }
+    }
+  ]
+}

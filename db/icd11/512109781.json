@@ -1,0 +1,85 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/512109781",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1644587915"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/152776804",
+    "http://id.who.int/icd/release/11/2024-01/mms/807866001",
+    "http://id.who.int/icd/release/11/2024-01/mms/231914102",
+    "http://id.who.int/icd/release/11/2024-01/mms/512109781/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/512109781/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#512109781",
+  "code": "DB31",
+  "source": "http://id.who.int/icd/entity/512109781",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Perforation of large intestine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/291026076",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/291026076"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Endometriosis of large intestine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1689497455",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/706777963"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/512109781/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1741413713"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/512109781/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Other acquired anatomical alterations of large intestine"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This group incorporates acquired large intestinal disorders principally due to morphological changes of the colon and rectum. Diverticular diseases and obstruction of large intestine are classified in GB a GD, respectively."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Obstruction of large intestine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/320939116",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/320939116"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Diverticular disease of large intestine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1964968944",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1964968944"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ]
+}

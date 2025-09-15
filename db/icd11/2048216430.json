@@ -1,0 +1,81 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2048216430",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1219149360"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2048216430",
+  "code": "2A83.4",
+  "source": "http://id.who.int/icd/entity/2048216430",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2048216430/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2048216430/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1863636238",
+        "http://id.who.int/icd/release/11/2024-01/mms/885826145",
+        "http://id.who.int/icd/release/11/2024-01/mms/1746207012",
+        "http://id.who.int/icd/release/11/2024-01/mms/303697349"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Plasma cell leukaemia"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "An aggressive plasma cell neoplasm. It is characterised by the presence of neoplastic plasma cells in the peripheral blood (PB). The neoplastic plasma cells comprise more than 20% of the white cells in the PB or the number of clonal plasma cells in the PB exceeds 2x10⁹/L."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Plasma cell leukaemia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "plasma cell leukaemia, NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "leukemic plasma cell"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "plasma cell leukaemia without mention of remission"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "plasmacytic leukaemia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Plasma cell leukaemia in complete remission"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1712340153"
+    }
+  ]
+}

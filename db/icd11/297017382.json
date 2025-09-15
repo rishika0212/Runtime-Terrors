@@ -1,0 +1,66 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/297017382",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1496140949"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#297017382",
+  "code": "LD24.F",
+  "source": "http://id.who.int/icd/entity/297017382",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Progressive osseous heteroplasia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1107209347",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1107209347"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fibrodysplasia ossificans progressiva"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2102976705",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2102976705"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/297017382/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/297017382/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/223243926",
+        "http://id.who.int/icd/release/11/2024-01/mms/947150833",
+        "http://id.who.int/icd/release/11/2024-01/mms/1810600222"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Progressive ossification of skin, skeletal muscle, fascia, tendons or ligaments"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Progressive ossification of skin, skeletal muscle, fascia, tendons or ligaments"
+      }
+    }
+  ]
+}

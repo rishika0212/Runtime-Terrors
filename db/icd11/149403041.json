@@ -1,0 +1,56 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/149403041",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1668932342"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1890900469",
+    "http://id.who.int/icd/release/11/2024-01/mms/787436589",
+    "http://id.who.int/icd/release/11/2024-01/mms/149403041/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/149403041/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#149403041",
+  "code": "5B81",
+  "source": "http://id.who.int/icd/entity/149403041",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Obesity hypoventilation syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1514276050",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1514276050"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Syndromes with obesity as a major feature"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/525044219",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/525044219"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/149403041/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1745374833",
+        "http://id.who.int/icd/release/11/2024-01/mms/2088714745",
+        "http://id.who.int/icd/release/11/2024-01/mms/430238798"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Obesity"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Obesity is a chronic complex disease defined by excessive adiposity that can impair health. It is in most cases a multifactorial disease due to obesogenic environments, psycho-social factors and genetic variants. In a subgroup of patients, single major etiological factors can be identified (medications, diseases, immobilization, iatrogenic procedures, monogenic disease/genetic syndrome).\n\nBody mass index (BMI) is a surrogate marker of adiposity calculated as weight (kg)/height² (m²). The BMI categories for defining obesity vary by age and gender in infants, children and adolescents. For adults, obesity is defined by a BMI greater than or equal to 30.00 kg/m² and there are three levels of severity in recognition of different management options."
+  }
+}

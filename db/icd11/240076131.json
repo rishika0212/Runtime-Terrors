@@ -1,0 +1,114 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/240076131",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1008592825"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#240076131",
+  "code": "PE83",
+  "source": "http://id.who.int/icd/entity/240076131",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/240076131/postcoordinationScale/medication",
+      "axisName": "http://id.who.int/icd/schema/medication",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/433531147",
+        "http://id.who.int/icd/release/11/2024-01/mms/661865379",
+        "http://id.who.int/icd/release/11/2024-01/mms/1421083259",
+        "http://id.who.int/icd/release/11/2024-01/mms/1599759772",
+        "http://id.who.int/icd/release/11/2024-01/mms/765357538",
+        "http://id.who.int/icd/release/11/2024-01/mms/1918647489"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/240076131/postcoordinationScale/activityWhenInjured",
+      "axisName": "http://id.who.int/icd/schema/activityWhenInjured",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2071638841",
+        "http://id.who.int/icd/release/11/2024-01/mms/1107435129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1428847289",
+        "http://id.who.int/icd/release/11/2024-01/mms/821249273",
+        "http://id.who.int/icd/release/11/2024-01/mms/160164281"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/240076131/postcoordinationScale/placeOfOccurrence",
+      "axisName": "http://id.who.int/icd/schema/placeOfOccurrence",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowedExceptFromSameBlock",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1081404635",
+        "http://id.who.int/icd/release/11/2024-01/mms/1786773723"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/240076131/postcoordinationScale/aspectsOfAssaultAndMaltreatment",
+      "axisName": "http://id.who.int/icd/schema/aspectsOfAssaultAndMaltreatment",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowedExceptFromSameBlock",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1115077034",
+        "http://id.who.int/icd/release/11/2024-01/mms/665815018",
+        "http://id.who.int/icd/release/11/2024-01/mms/814211882"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Assault by exposure to or harmful effects of cannabinoids or hallucinogens"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of cannabinoids or hallucinogens"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "homicidal poisoning by exposure to or harmful effects of cannabinoids or hallucinogens"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of cannabis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/727504327"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of synthetic cannabinoids"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1534709308"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of lysergide"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1933442623"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of unspecified psychodysleptics or hallucinogens"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/584031824"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of other psychodysleptics or hallucinogens"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1306254455"
+    }
+  ]
+}

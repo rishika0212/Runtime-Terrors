@@ -1,0 +1,61 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1833083626",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1749762534"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1833083626",
+  "code": "LA75.6",
+  "source": "http://id.who.int/icd/entity/1833083626",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1833083626/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Congenital sequestration of lung"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A medical condition wherein a piece of tissue that ultimately develops into lung tissue is not attached to the pulmonary arterial blood supply, as is the case in normally developing lung. As a result, this sequestered tissue is not connected to the normal bronchial airway. With intralobar sequestration, the lung tissue lies within the same visceral pleura as the lobe in which it occurs With extralobar sequestrations, an accessory lung is contained within its own pleura"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital sequestration of lung"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital pulmonary sequestration"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Intralobar sequestration of lung"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/500637990"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Extralobar sequestration of lung"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2043116979"
+    }
+  ]
+}

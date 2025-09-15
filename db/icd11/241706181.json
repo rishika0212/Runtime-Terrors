@@ -1,0 +1,60 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/241706181",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1824134974"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/812836214",
+    "http://id.who.int/icd/release/11/2024-01/mms/241706181/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#241706181",
+  "code": "DC80.0",
+  "source": "http://id.who.int/icd/entity/241706181",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/241706181/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1741413713"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/241706181/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/293771399",
+        "http://id.who.int/icd/release/11/2024-01/mms/1035286886",
+        "http://id.who.int/icd/release/11/2024-01/mms/2044414353",
+        "http://id.who.int/icd/release/11/2024-01/mms/1112214727",
+        "http://id.who.int/icd/release/11/2024-01/mms/1810113484"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/241706181/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Diverticulitis of large intestine with complication"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This develops from diverticulosis, which involves the formation of pouches (diverticula) on the outside of the colon and results if one or some of these diverticula becomes inflamed, of the large intestine with complication."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ]
+}

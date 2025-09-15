@@ -1,0 +1,96 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/510369115",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1367461357"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#510369115",
+  "code": "GB07.0",
+  "source": "http://id.who.int/icd/entity/510369115",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculosis of seminal vesicle"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1527592153",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1196243886"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/510369115/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Inflammatory disorders of seminal vesicle"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Any disorder of the seminal vesicle, characterised by pathological changes and inflammation of the tissue."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Inflammatory disorders of seminal vesicle"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "inflammation of seminal vesicle"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "spermatocystitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "seminal vesiculitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Vesiculitis NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "perivesiculitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Abscess of seminal vesicle"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1172165889"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Seminal vesicular infection"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/563069302"
+    }
+  ]
+}

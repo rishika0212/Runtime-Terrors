@@ -1,0 +1,98 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/785363034",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1581976053"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/322466810",
+    "http://id.who.int/icd/release/11/2024-01/mms/1640181609",
+    "http://id.who.int/icd/release/11/2024-01/mms/785363034/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/785363034/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#785363034",
+  "code": "MG30.1",
+  "source": "http://id.who.int/icd/entity/785363034",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/785363034/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1007332872",
+        "http://id.who.int/icd/release/11/2024-01/mms/597444540"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/785363034/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/501504598",
+        "http://id.who.int/icd/release/11/2024-01/mms/932220680",
+        "http://id.who.int/icd/release/11/2024-01/mms/671508148",
+        "http://id.who.int/icd/release/11/2024-01/mms/579584480"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/785363034/postcoordinationScale/hasAlternativeSeverity1",
+      "axisName": "http://id.who.int/icd/schema/hasAlternativeSeverity1",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/137604848",
+        "http://id.who.int/icd/release/11/2024-01/mms/1926847105",
+        "http://id.who.int/icd/release/11/2024-01/mms/489218088",
+        "http://id.who.int/icd/release/11/2024-01/mms/2029211037"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/785363034/postcoordinationScale/hasAlternativeSeverity2",
+      "axisName": "http://id.who.int/icd/schema/hasAlternativeSeverity2",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/145592658",
+        "http://id.who.int/icd/release/11/2024-01/mms/1824378311",
+        "http://id.who.int/icd/release/11/2024-01/mms/1714449067",
+        "http://id.who.int/icd/release/11/2024-01/mms/1721227995"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/785363034/postcoordinationScale/temporalPatternAndOnset",
+      "axisName": "http://id.who.int/icd/schema/temporalPatternAndOnset",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1281193286",
+        "http://id.who.int/icd/release/11/2024-01/mms/1313511357",
+        "http://id.who.int/icd/release/11/2024-01/mms/47514516"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/785363034/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1630407678",
+        "http://id.who.int/icd/release/11/2024-01/mms/1296093776"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Chronic cancer related pain"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Chronic cancer-related pain is pain caused by the primary cancer itself or metastases (chronic cancer pain) or its treatment (chronic post-cancer treatment pain). It is distinct from pain caused by co-morbid disease [1-3]. It should be highly probable that the pain is due to cancer or its treatment; if its genesis is vague, consider using codes in the section of Primary pain."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Chronic cancer-related pain is pain caused by the primary cancer itself or metastases (chronic cancer pain) or its treatment (chronic post-cancer treatment pain). It is distinct from pain caused by co-morbid disease [1-3]. It should be highly probable that the pain is due to cancer or its treatment; if its genesis is vague, consider using codes in the section of Primary pain.\n\nOn average, each cancer patient will identify two distinct pains [1]. In many patients, careful assessment is therefore required to distinguish pain caused by cancer from pain caused by cancer treatment or co-morbid conditions. In particular, it is common for these pains to overlap, for example, thoracic surgery for a lung cancer might cause post-surgical pain, which can be exacerbated by cancer recurrence in the same area. In these situations, the clinician must decide the predominant cause of pain and base treatment on this.\n\nDiagnostic Criteria:\n\nConditions A to C are fulfilled:\n\nA. Chronic pain (persistent or recurrent for longer than 3 months) is present.\n\nB. At least one of the following is fulfilled:\n\nB1. The pain is caused by an active tumor (including metastases).\n\nB2. The pain is caused by the cancer treatment (including but not limited to surgery, chemotherapy, radiotherapy).\n\nC. The pain is not better accounted for by another diagnosis of chronic pain"
+  }
+}

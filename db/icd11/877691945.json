@@ -1,0 +1,90 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/877691945",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/895890688"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#877691945",
+  "code": "CA43.2",
+  "source": "http://id.who.int/icd/entity/877691945",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/877691945/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/877691945/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Abscess of lung without pneumonia"
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/923122941"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Abscess of lung without pneumonia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "apical lung abscess"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "abscess of lung"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "abscess of lung NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pulmonary abscess"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "multiple abscess of lung"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Miliary lung abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/431943246"
+    }
+  ]
+}

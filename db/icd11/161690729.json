@@ -1,0 +1,53 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/161690729",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1501519274"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/536502490",
+    "http://id.who.int/icd/release/11/2024-01/mms/161690729/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/161690729/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#161690729",
+  "code": "2A02.0",
+  "source": "http://id.who.int/icd/entity/161690729",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/161690729/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1150229943",
+        "http://id.who.int/icd/release/11/2024-01/mms/2108063439"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/161690729/postcoordinationScale/histopathology",
+      "axisName": "http://id.who.int/icd/schema/histopathology",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/776593826",
+        "http://id.who.int/icd/release/11/2024-01/mms/1590381103",
+        "http://id.who.int/icd/release/11/2024-01/mms/464248136",
+        "http://id.who.int/icd/release/11/2024-01/mms/1877382372"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/161690729/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Gliomas of spinal cord, cranial nerves or other parts of the central nervous system"
+  }
+}

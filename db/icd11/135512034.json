@@ -1,0 +1,62 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/135512034",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1352310002"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#135512034",
+  "code": "2A02.11",
+  "source": "http://id.who.int/icd/entity/135512034",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/135512034/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/135512034/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Paraspinal neuroblastoma"
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Neuroblastomas are malignant tumours that form in certain types of the nerve tissue. It most often begins in the adrenal gland. About 1 out of 3 neuroblastomas start in the adrenal glands and about 1 out of 4 begin in sympathetic nerve ganglia in the abdomen. Most of the rest start in sympathetic ganglia near the spine in the chest or neck, or in the pelvis. Neuroblastomas most often occur in children under 5 years of age."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paraspinal neuroblastoma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "neuroblastoma of sympathetic nervous system"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "paraspinous neuroblastoma"
+      }
+    }
+  ]
+}

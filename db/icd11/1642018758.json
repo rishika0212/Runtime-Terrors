@@ -1,0 +1,58 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1642018758",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2116214427"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1642018758",
+  "code": "DB98.2",
+  "source": "http://id.who.int/icd/entity/1642018758",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1642018758/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1642018758/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Nodular regenerative hyperplasia of liver"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Nodular regenerative hyperplasia of the liver is a rare disorder characterised by diffuse micronodular transformation of the hepatic parenchyma without fibrous septa between the nodules."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Nodular regenerative hyperplasia of the liver (NRHL) is a rare disorder characterized by diffuse micronodular transformation of the hepatic parenchyma without fibrous septa between the nodules. The disease is diagnosed in 0.52% of liver biopsies and 0.72% of autopsies. Clinically, it is usually asymptomatic, although many patients have mildly abnormal liver function test results with progressive symptoms and signs of portal hypertension. It has been described in association with a variety of conditions; most of which are systemic autoimmune diseases or hematological disorders. Pathogenesis is unknown but seems to be related to abnormalities of hepatic blood flow. The diagnosis of NRHL requires histological evaluation and treatment should be focus on the underlying condition."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nodular regenerative hyperplasia of liver"
+      }
+    }
+  ]
+}

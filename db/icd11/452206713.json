@@ -1,0 +1,105 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/452206713",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1050026394"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#452206713",
+  "code": "BD30.21",
+  "source": "http://id.who.int/icd/entity/452206713",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/452206713/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/452206713/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1508677205"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acute thrombotic lower limb arterial occlusion"
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1380872553"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute thrombotic lower limb arterial occlusion"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute thrombotic common femoral artery occlusion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2065522098"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Common femoral artery thrombosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2065522098"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute thrombotic superficial femoral artery occlusion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1408946065"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Superficial femoral artery thrombosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1408946065"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute thrombotic popliteal artery occlusion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1684664047"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Popliteal artery thrombosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1684664047"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute thrombotic crural artery occlusion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1189756042"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Crural artery thrombosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1189756042"
+    }
+  ]
+}

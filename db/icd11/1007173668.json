@@ -1,0 +1,79 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1007173668",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2073711696"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1007173668",
+  "code": "8A60.5",
+  "source": "http://id.who.int/icd/entity/1007173668",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1007173668/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/539646260"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1007173668/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/103374449/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/1667404773/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/399491868/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/23764250/unspecified",
+        "http://id.who.int/icd/release/11/2024-01/mms/237828591/unspecified",
+        "http://id.who.int/icd/release/11/2024-01/mms/277610609",
+        "http://id.who.int/icd/release/11/2024-01/mms/1976028645/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/452386362/unspecified",
+        "http://id.who.int/icd/release/11/2024-01/mms/755612283"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Epilepsy due to injuries to the head"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Epilepsy occurring in relation to a traumatic brain injury. Onset is more than 1 week following the trauma, with risk increasing with the severity of brain injury."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/564191997"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/2083324835"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Epilepsy due to injuries to the head"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Post traumatic epilepsy"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Traumatic epilepsy"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "traumatic epileptic"
+      }
+    }
+  ]
+}

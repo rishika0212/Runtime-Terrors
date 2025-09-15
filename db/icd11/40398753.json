@@ -1,0 +1,53 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/40398753",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1881255733"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/527065560",
+    "http://id.who.int/icd/release/11/2024-01/mms/2049027138",
+    "http://id.who.int/icd/release/11/2024-01/mms/752235"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#40398753",
+  "code": "DB10.0",
+  "source": "http://id.who.int/icd/entity/40398753",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/40398753/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/293771399",
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acute appendicitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Acute inflammation and enlargement of the vermiform appendix. It has been recognised as one of the most common causes of severe acute abdominal pain worldwide. Most cases require appropriate medical treatment or removal of the inflamed appendix. If untreated, mortality is high, mainly because of the risk of rupture leading to peritonitis and shock. In this category acute appendicitis only due to common bacterial infection is included, and appendicitis due to specific organisms is ruled out from here, and described elsewhere."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute appendicitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute appendix inflammation"
+      }
+    }
+  ]
+}

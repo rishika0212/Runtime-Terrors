@@ -1,0 +1,47 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/631681528",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1769556904"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#631681528",
+  "code": "AB71",
+  "source": "http://id.who.int/icd/entity/631681528",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/631681528/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Degenerative or vascular disorders of ear"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Presbycusis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1569854675",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1569854675"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Degenerative or vascular disorders of ear"
+      }
+    }
+  ]
+}

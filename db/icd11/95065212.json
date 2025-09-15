@@ -1,0 +1,48 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/95065212",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2086488820"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1868011045",
+    "http://id.who.int/icd/release/11/2024-01/mms/95065212/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/95065212/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#95065212",
+  "code": "DA93",
+  "source": "http://id.who.int/icd/entity/95065212",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/95065212/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/18598211",
+        "http://id.who.int/icd/release/11/2024-01/mms/1708923236"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/95065212/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Motility disorders of small intestine"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Disorders of small intestinal motility due to abnormal contractions, such as weak contractions and disorganised (unsynchronized) contractions. The loss of ability to coordinate motor activity may cause a variety of disorders including small intestinal distention and bacterial overgrowth."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1047415764",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2129534948"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1047415764",
+  "code": "LA42.0",
+  "source": "http://id.who.int/icd/entity/1047415764",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1047415764/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1047415764/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/172183323",
+        "http://id.who.int/icd/release/11/2024-01/mms/1653169553"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Cleft hard palate"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition caused by failure of the palate to correctly develop during the antenatal period. This condition is characterised by a fissure extending across the palate, including the bony portion of the palate. This condition may present with disruption of sucking or swallowing in neonates."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cleft hard palate"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hard palate perforation"
+      }
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/906379260",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/150210507"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1527322574",
+    "http://id.who.int/icd/release/11/2024-01/mms/1135366344",
+    "http://id.who.int/icd/release/11/2024-01/mms/1975721108",
+    "http://id.who.int/icd/release/11/2024-01/mms/906379260/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/906379260/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#906379260",
+  "code": "2B80",
+  "source": "http://id.who.int/icd/entity/906379260",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Enteropathy associated T-cell lymphoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/958629729",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/958629729"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gastrointestinal stromal tumour of small intestine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/319870485",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/319870485"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant lymphoma of small intestine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/102579169",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/474972159"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant neoplasm of jejunum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1044568664",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1135366344/unspecified"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant neoplasm of ileum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1257212583",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1135366344/unspecified"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Small intestinal leiomyosarcoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/389419378",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2055720774/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/906379260/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/906379260/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1409966790",
+        "http://id.who.int/icd/release/11/2024-01/mms/896293199",
+        "http://id.who.int/icd/release/11/2024-01/mms/1094217460",
+        "http://id.who.int/icd/release/11/2024-01/mms/238069351"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/906379260/postcoordinationScale/hasAlternativeSeverity2",
+      "axisName": "http://id.who.int/icd/schema/hasAlternativeSeverity2",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1863636238",
+        "http://id.who.int/icd/release/11/2024-01/mms/885826145",
+        "http://id.who.int/icd/release/11/2024-01/mms/1746207012",
+        "http://id.who.int/icd/release/11/2024-01/mms/303697349"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Malignant neoplasms of small intestine"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A primary malignant neoplasm involving the small intestine."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant mesenchymal neoplasms"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1965082709",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1965082709"
+    }
+  ]
+}

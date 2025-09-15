@@ -1,0 +1,65 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2108355318",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1585949804"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1726978545",
+    "http://id.who.int/icd/release/11/2024-01/mms/629126866",
+    "http://id.who.int/icd/release/11/2024-01/mms/2017227771",
+    "http://id.who.int/icd/release/11/2024-01/mms/1761012301",
+    "http://id.who.int/icd/release/11/2024-01/mms/1543721163",
+    "http://id.who.int/icd/release/11/2024-01/mms/923328437",
+    "http://id.who.int/icd/release/11/2024-01/mms/2108355318/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/2108355318/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2108355318",
+  "code": "1D04",
+  "source": "http://id.who.int/icd/entity/2108355318",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculous granuloma of brain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1199221405",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1199221405"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2108355318/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/974549086",
+        "http://id.who.int/icd/release/11/2024-01/mms/589510570",
+        "http://id.who.int/icd/release/11/2024-01/mms/1074640675",
+        "http://id.who.int/icd/release/11/2024-01/mms/1462096867"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2108355318/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Infectious granulomas of the central nervous system"
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/911707612"
+  ]
+}

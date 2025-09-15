@@ -1,0 +1,51 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/954227754",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1482297027"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#954227754",
+  "code": "EL50.2",
+  "source": "http://id.who.int/icd/entity/954227754",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/954227754/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/460401849",
+        "http://id.who.int/icd/release/11/2024-01/mms/1642025150",
+        "http://id.who.int/icd/release/11/2024-01/mms/1162198017",
+        "http://id.who.int/icd/release/11/2024-01/mms/431804121"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Atrophic surgical scar"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A surgical scar in which there is thinning of the skin giving it a wrinkled appearance."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postinflammatory atrophic scarring of the skin"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/394913994",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/464005814"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Atrophic surgical scar"
+      }
+    }
+  ]
+}

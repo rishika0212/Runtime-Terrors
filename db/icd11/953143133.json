@@ -1,0 +1,57 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/953143133",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1923044320"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#953143133",
+  "code": "4A43.21",
+  "source": "http://id.who.int/icd/entity/953143133",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/953143133/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/390684604"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/953143133/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/587326822",
+        "http://id.who.int/icd/release/11/2024-01/mms/609223181",
+        "http://id.who.int/icd/release/11/2024-01/mms/749596428",
+        "http://id.who.int/icd/release/11/2024-01/mms/1084365812",
+        "http://id.who.int/icd/release/11/2024-01/mms/183978472",
+        "http://id.who.int/icd/release/11/2024-01/mms/2115467890",
+        "http://id.who.int/icd/release/11/2024-01/mms/642618805",
+        "http://id.who.int/icd/release/11/2024-01/mms/966435382",
+        "http://id.who.int/icd/release/11/2024-01/mms/1860070272",
+        "http://id.who.int/icd/release/11/2024-01/mms/603645706",
+        "http://id.who.int/icd/release/11/2024-01/mms/1473673350"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Secondary Sjögren syndrome"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Secondary Sjögren syndrome is a progressive inflammatory autoimmune disease affecting the exocrine glands in the presence of other systemic autoimmune diseases, such as rheumatoid arthritis, systemic lupus erythematosus, and systemic sclerosis. Lymphocytic infiltrates replace functional epithelium, leading to oral and ocular dryness."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Secondary Sjögren syndrome"
+      }
+    }
+  ]
+}

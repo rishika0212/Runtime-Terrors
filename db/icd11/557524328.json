@@ -1,0 +1,83 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/557524328",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1947902215"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#557524328",
+  "code": "DB95.20",
+  "source": "http://id.who.int/icd/entity/557524328",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/557524328/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731",
+        "http://id.who.int/icd/release/11/2024-01/mms/746448055",
+        "http://id.who.int/icd/release/11/2024-01/mms/248569732",
+        "http://id.who.int/icd/release/11/2024-01/mms/817370856",
+        "http://id.who.int/icd/release/11/2024-01/mms/1583926619"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Chronic drug-induced or toxic liver disease with cholestasis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is a chronic cholestasis defined by persistence of drug-induced cholestatic liver injury for more than 3 months."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic drug-induced or toxic liver disease with cholestasis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic drug-induced or toxic liver disease with cholestasis, with cirrhosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/219670664"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic drug-induced or toxic liver disease with cholestasis, with cirrhosis, with complications of cirrhosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/673465297"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic drug-induced or toxic liver disease with cholestasis, with cirrhosis, without complications of cirrhosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/532112047"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic drug-induced or toxic liver disease with cholestasis, without cirrhosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/798243555"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic drug-induced or toxic liver disease with cholestasis, without mention of cirrhosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/12833266"
+    }
+  ]
+}

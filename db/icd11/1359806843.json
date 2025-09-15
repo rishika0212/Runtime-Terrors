@@ -1,0 +1,79 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1359806843",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1144812971"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1359806843",
+  "code": "2A21.00",
+  "source": "http://id.who.int/icd/entity/1359806843",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1359806843/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1359806843/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1863636238",
+        "http://id.who.int/icd/release/11/2024-01/mms/885826145",
+        "http://id.who.int/icd/release/11/2024-01/mms/1746207012",
+        "http://id.who.int/icd/release/11/2024-01/mms/303697349"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Mast cell leukaemia"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mast cell leukaemia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "mast cell leukaemia NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "mast cell leukaemia without mention of remission"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aleukaemic mast cell leukaemia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1688839734"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Classic mast cell leukaemia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1829933363"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mast cell leukaemia in complete remission"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1407924105"
+    }
+  ]
+}

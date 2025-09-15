@@ -1,0 +1,85 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/350028235",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1802307036"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#350028235",
+  "code": "1F28.3",
+  "source": "http://id.who.int/icd/entity/350028235",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/350028235/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1175903901"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Genitocrural dermatophytosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Dermatophyte infection of the inguinocrural folds and adjacent external genitalia (tinea cruris). It presents as erythema and inflammation of affected skin with an advancing scaly edge. It is typically itchy and affects adult men much more commonly than women or children. Dermatophyte infection of the toe clefts commonly co-exists."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tinea cruris"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ringworm of groin"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dermatophytosis of groin"
+      }
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/528118622"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Genitocrural dermatophytosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tinea cruris"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Jock itch"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ringworm of groin"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dermatophytosis of groin"
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1762507906",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1803005915"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1954828817",
+    "http://id.who.int/icd/release/11/2024-01/mms/2044143090",
+    "http://id.who.int/icd/release/11/2024-01/mms/1762507906/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1762507906/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1762507906",
+  "code": "DD50.2",
+  "source": "http://id.who.int/icd/entity/1762507906",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1762507906/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Intra-abdominal hernia"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A hernia occurs intra-abdominally through the opening covered by peritoneum."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ]
+}

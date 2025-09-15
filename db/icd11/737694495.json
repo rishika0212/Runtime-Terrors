@@ -1,0 +1,100 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/737694495",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/587793334"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#737694495",
+  "code": "5A03.0",
+  "source": "http://id.who.int/icd/entity/737694495",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/737694495/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acute thyroiditis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Acute thyroiditis is a rare form of thyroiditis directly caused by an infection, frequently bacterial."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1577113218"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute thyroiditis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "infectious thyroiditis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute thyroiditis due to bacterial infection"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1838793096"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute thyroiditis due to fungal infection"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/419340259"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Abscess of thyroid"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/347282868"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "thyroid gland abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/347282868"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute suppurative thyroiditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1420160451"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "suppurative thyroiditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1420160451"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pyogenic thyroiditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1493057396"
+    }
+  ]
+}

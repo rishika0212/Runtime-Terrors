@@ -1,0 +1,103 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1219540808",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1559145231"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1219540808",
+  "code": "PE94",
+  "source": "http://id.who.int/icd/entity/1219540808",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1219540808/postcoordinationScale/chemicalAgent",
+      "axisName": "http://id.who.int/icd/schema/chemicalAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/243971381",
+        "http://id.who.int/icd/release/11/2024-01/mms/904906191",
+        "http://id.who.int/icd/release/11/2024-01/mms/307869398"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1219540808/postcoordinationScale/mechanismOfInjury",
+      "axisName": "http://id.who.int/icd/schema/mechanismOfInjury",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/864114369"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1219540808/postcoordinationScale/aspectsOfAssaultAndMaltreatment",
+      "axisName": "http://id.who.int/icd/schema/aspectsOfAssaultAndMaltreatment",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowedExceptFromSameBlock",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1115077034",
+        "http://id.who.int/icd/release/11/2024-01/mms/665815018",
+        "http://id.who.int/icd/release/11/2024-01/mms/814211882"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Assault by exposure to or harmful effects of corrosive substances"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of corrosive substances"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "assault by corrosive substance"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "assault by vitriol"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of phenol or phenol homologues"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1393616626"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of other corrosive organic compounds"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/741066223"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of corrosive acids or acid-like substances"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/329361143"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of sodium hydroxide"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/914949029"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of chlorine bleach or related preparations"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/151216317"
+    }
+  ]
+}

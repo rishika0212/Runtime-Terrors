@@ -1,0 +1,64 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/913387730",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1522140835"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1913185137",
+    "http://id.who.int/icd/release/11/2024-01/mms/214973733",
+    "http://id.who.int/icd/release/11/2024-01/mms/482153699"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#913387730",
+  "code": "2E67.1",
+  "source": "http://id.who.int/icd/entity/913387730",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/913387730/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/475546725"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/913387730/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Carcinoma in situ of vulva"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Low grade squamous intraepithelial lesion of vulva"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/748678746",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/748678746"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Carcinoma in situ of vulva"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "vulvar carcinoma in situ"
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/874478433",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1136802325"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1485671112",
+    "http://id.who.int/icd/release/11/2024-01/mms/51885381",
+    "http://id.who.int/icd/release/11/2024-01/mms/326802563",
+    "http://id.who.int/icd/release/11/2024-01/mms/233520745",
+    "http://id.who.int/icd/release/11/2024-01/mms/856497185",
+    "http://id.who.int/icd/release/11/2024-01/mms/874478433/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/874478433/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#874478433",
+  "code": "1D85",
+  "source": "http://id.who.int/icd/entity/874478433",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/874478433/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Viral carditis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease of the heart, caused by an infection with a viral source. This disease is characterised by fatigue, dyspnoea, palpitations, malaise, or atypical chest discomfort. This disease may also present with sinus tachycardia, cardiomyopathy, idiopathic ventricular arrhythmias, or cardiovascular collapse. Transmission is by endogenous spread or iatrogenic transmission. Confirmation is identification of the viral source in advanced imaging or cardiac biopsy."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Influenzal myocarditis, other influenza virus identified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2005009412",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/753780243"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/2071159826"
+  ]
+}

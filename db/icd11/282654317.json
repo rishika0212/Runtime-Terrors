@@ -1,0 +1,102 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/282654317",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1324115669"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#282654317",
+  "code": "5C50.3",
+  "source": "http://id.who.int/icd/entity/282654317",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/282654317/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1375895174"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Disorders of tryptophan metabolism"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hartnup disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/871897464",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1631611896"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1154068795"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Disorders of tryptophan metabolism"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Disturbance of tryptophan metabolism"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hypertryptophanaemia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1215141359"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tryptophanuria"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1215141359"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hypertryptophanemia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1215141359"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Encephalopathy due to hydroxykynureninuria"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1145853843"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Kynureninase deficiency"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1145853843"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Xanthurenic aciduria"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1145853843"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pellagra-like skin rash - neurological manifestations"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/927375336"
+    }
+  ]
+}

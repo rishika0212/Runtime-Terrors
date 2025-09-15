@@ -1,0 +1,73 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/456529122",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2122176884"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#456529122",
+  "code": "LB98.02",
+  "source": "http://id.who.int/icd/entity/456529122",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/456529122/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Metatarsus varus"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition characterised by medial rotation of the cuneiform bones at the midtarsal joint, with associated medial deviation of the metatarsal, resulting in adduction and supination of the forefoot."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Metatarsus varus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "congenital metatarsus varus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "primus varus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "congenital metatarsus primus varus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Metatarsus varus, unilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1056916093"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Metatarsus varus, bilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/217486970"
+    }
+  ]
+}

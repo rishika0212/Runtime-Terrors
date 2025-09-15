@@ -1,0 +1,77 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1078773185",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/723430526"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2004938222",
+    "http://id.who.int/icd/release/11/2024-01/mms/315302008",
+    "http://id.who.int/icd/release/11/2024-01/mms/53329171",
+    "http://id.who.int/icd/release/11/2024-01/mms/1717989511",
+    "http://id.who.int/icd/release/11/2024-01/mms/1078773185/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1078773185/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1078773185",
+  "code": "BD75",
+  "source": "http://id.who.int/icd/entity/1078773185",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gastric varices"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1891839623",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1891839623"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Oesophageal varices"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/933570887",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/933570887"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1078773185/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/143777109",
+        "http://id.who.int/icd/release/11/2024-01/mms/185288147",
+        "http://id.who.int/icd/release/11/2024-01/mms/641037459",
+        "http://id.who.int/icd/release/11/2024-01/mms/899820155",
+        "http://id.who.int/icd/release/11/2024-01/mms/720032908",
+        "http://id.who.int/icd/release/11/2024-01/mms/223243926",
+        "http://id.who.int/icd/release/11/2024-01/mms/947150833",
+        "http://id.who.int/icd/release/11/2024-01/mms/986233688"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Venous varicosities of sites other than lower extremity"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "retinal varices"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1564321837",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1564321837"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Duodenal varices"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/621016812",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/621016812"
+    }
+  ]
+}

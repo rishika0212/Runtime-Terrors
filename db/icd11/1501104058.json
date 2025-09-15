@@ -1,0 +1,54 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1501104058",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1125547814"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1501104058",
+  "code": "9C20.0",
+  "source": "http://id.who.int/icd/entity/1501104058",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Multifocal choroiditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1197219411",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2140734738"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1501104058/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Noninfectious panuveitis"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Noninfectious panuveitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sarcoid related panuveitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1892630317"
+    }
+  ]
+}

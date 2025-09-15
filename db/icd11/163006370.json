@@ -1,0 +1,73 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/163006370",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/842838910"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1215327979",
+    "http://id.who.int/icd/release/11/2024-01/mms/254630809",
+    "http://id.who.int/icd/release/11/2024-01/mms/239147721",
+    "http://id.who.int/icd/release/11/2024-01/mms/856383808",
+    "http://id.who.int/icd/release/11/2024-01/mms/1447079126",
+    "http://id.who.int/icd/release/11/2024-01/mms/632176450",
+    "http://id.who.int/icd/release/11/2024-01/mms/163006370/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/163006370/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#163006370",
+  "code": "FB40",
+  "source": "http://id.who.int/icd/entity/163006370",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/163006370/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/163006370/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1126217939",
+        "http://id.who.int/icd/release/11/2024-01/mms/687054421",
+        "http://id.who.int/icd/release/11/2024-01/mms/1234541117",
+        "http://id.who.int/icd/release/11/2024-01/mms/1170102886",
+        "http://id.who.int/icd/release/11/2024-01/mms/1089203821",
+        "http://id.who.int/icd/release/11/2024-01/mms/1477031686",
+        "http://id.who.int/icd/release/11/2024-01/mms/1321950693",
+        "http://id.who.int/icd/release/11/2024-01/mms/2001178851"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Tenosynovitis"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "soft tissue disorders related to use, overuse and pressure"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/443957299",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/443957299"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "current injury - see injury of ligament or tendon by body region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/435227771",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/435227771"
+    }
+  ]
+}

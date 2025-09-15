@@ -1,0 +1,71 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2139722381",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/706550431"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2479635",
+    "http://id.who.int/icd/release/11/2024-01/mms/1915478117",
+    "http://id.who.int/icd/release/11/2024-01/mms/177305885",
+    "http://id.who.int/icd/release/11/2024-01/mms/102113205",
+    "http://id.who.int/icd/release/11/2024-01/mms/2139722381/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/2139722381/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2139722381",
+  "code": "DB33.4",
+  "source": "http://id.who.int/icd/entity/2139722381",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2139722381/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1777850685",
+        "http://id.who.int/icd/release/11/2024-01/mms/328294343",
+        "http://id.who.int/icd/release/11/2024-01/mms/2128592381",
+        "http://id.who.int/icd/release/11/2024-01/mms/204400509",
+        "http://id.who.int/icd/release/11/2024-01/mms/453411773",
+        "http://id.who.int/icd/release/11/2024-01/mms/894847549",
+        "http://id.who.int/icd/release/11/2024-01/mms/720455085",
+        "http://id.who.int/icd/release/11/2024-01/mms/720455085",
+        "http://id.who.int/icd/release/11/2024-01/mms/1614204137",
+        "http://id.who.int/icd/release/11/2024-01/mms/1431962259",
+        "http://id.who.int/icd/release/11/2024-01/mms/771220582"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2139722381/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Colitis or proctitis due to external causes"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Colitis and proctitis induced by external causes, such as chemical and toxic substances, foreign body, radiation, trauma, and other external causes."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gastroenteritis or colitis of infectious origin"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/588616678",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/588616678"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ]
+}

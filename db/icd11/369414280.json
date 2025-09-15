@@ -1,0 +1,143 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/369414280",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/855261561"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#369414280",
+  "code": "2C26.0",
+  "source": "http://id.who.int/icd/entity/369414280",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/369414280/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/369414280/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/805568052"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/369414280/postcoordinationScale/histopathology",
+      "axisName": "http://id.who.int/icd/schema/histopathology",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/240969828",
+        "http://id.who.int/icd/release/11/2024-01/mms/89716430",
+        "http://id.who.int/icd/release/11/2024-01/mms/1057178298",
+        "http://id.who.int/icd/release/11/2024-01/mms/1414491695"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/369414280/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/369414280/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1409966790",
+        "http://id.who.int/icd/release/11/2024-01/mms/896293199",
+        "http://id.who.int/icd/release/11/2024-01/mms/1094217460",
+        "http://id.who.int/icd/release/11/2024-01/mms/238069351"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/369414280/postcoordinationScale/hasAlternativeSeverity2",
+      "axisName": "http://id.who.int/icd/schema/hasAlternativeSeverity2",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1863636238",
+        "http://id.who.int/icd/release/11/2024-01/mms/885826145",
+        "http://id.who.int/icd/release/11/2024-01/mms/1746207012",
+        "http://id.who.int/icd/release/11/2024-01/mms/303697349"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Mesothelioma of pleura"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Malignant mesothelioma is a fatal asbestos-associated malignancy arising in the lining cells (mesothelium) of the pleural and peritoneal cavities, as well as in the pericardium and the tunica vaginalis."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mesothelioma of pleura"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pleural malignant mesothelioma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Biphasic mesothelioma of pleura"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/252701792"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Desmoplastic mesothelioma of pleura"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/764165691"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Epithelioid malignant mesothelioma of pleura"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/534500818"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sarcomatoid malignant mesothelioma of pleura"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/768737749"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "spindled mesothelioma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/768737749"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Well differentiated papillary mesothelioma of pleura"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/438247237"
+    }
+  ]
+}

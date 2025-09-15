@@ -1,0 +1,75 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/762044088",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2116214427"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#762044088",
+  "code": "DB98.6",
+  "source": "http://id.who.int/icd/entity/762044088",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/762044088/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Hepatic veno-occlusive disease"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Hepatic veno-occlusive disease (hepatic VOD) is a liver disease resulting from toxic injury to the hepatic sinusoidal capillaries that leads to obstruction of the small hepatic veins. The clinical picture is characterised by painful hepatomegaly, jaundice, oedemas, and ascites."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Budd-Chiari syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1300118676",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1300118676"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hepatic veno-occlusive disease - immunodeficiency syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/712514250",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/712514250"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hepatic veno-occlusive disease"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "veno-occlusive disease of the liver"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sinusoidal obstruction syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/901464792"
+    }
+  ]
+}

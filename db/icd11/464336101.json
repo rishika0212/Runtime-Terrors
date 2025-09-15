@@ -1,0 +1,54 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/464336101",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1272195263"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#464336101",
+  "code": "EL60",
+  "source": "http://id.who.int/icd/entity/464336101",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/464336101/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/460401849",
+        "http://id.who.int/icd/release/11/2024-01/mms/1642025150",
+        "http://id.who.int/icd/release/11/2024-01/mms/1162198017",
+        "http://id.who.int/icd/release/11/2024-01/mms/431804121"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acute radiodermatitis following radiotherapy"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "The reaction of the skin, and in particular the epidermis, to acute exposure to ionising radiation directed at the skin for therapeutic purposes. It manifests as inflammation, erosion and crusting."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute radiodermatitis following radiotherapy"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute cutaneous radiation reaction"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute radiodermatitis, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/620905633"
+    }
+  ]
+}

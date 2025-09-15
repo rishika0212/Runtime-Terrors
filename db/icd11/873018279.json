@@ -1,0 +1,217 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/873018279",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1327469665"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#873018279",
+  "code": "DA20.0",
+  "source": "http://id.who.int/icd/entity/873018279",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/873018279/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/72252748"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/873018279/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Oesophageal obstruction"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Hindrance of the passage of luminal contents in the oesophagus. Obstruction of oesophagus can be partial or complete, and caused by intrinsic or extrinsic factors."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital stenosis or stricture of oesophagus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1619764541",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1619764541"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Anatomical alteration due to gastro-oesophageal reflux disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1391387859",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1391387859"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neoplasms of the oesophagus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1503334455",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1503334455"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Foreign body in oesophagus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1644383560",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1644383560"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Oesophageal obstruction"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "obstruction of oesophagus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "oesophageal narrowing"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "obstructed oesophagus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stricture of oesophagus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/741009038"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cardia stricture"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/741009038"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cardiac orifice stomach stricture"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/741009038"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cardiac orifice stricture"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/741009038"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "oesophageal stricture"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/741009038"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stenosis of oesophagus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/143391264"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cardia stenosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/143391264"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "stomach cardia stenosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/143391264"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Compression of oesophagus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1507731999"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "oesophageal compression"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1507731999"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Constriction of oesophagus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1684319314"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "oesophageal constriction"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1684319314"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired Schatzki oesophageal ring"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/520610275"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "lower oesophageal muscular ring"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/520610275"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "lower oesophageal ring"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/520610275"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "oesophageal ring"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/520610275"
+    }
+  ]
+}

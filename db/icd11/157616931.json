@@ -1,0 +1,58 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/157616931",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1136802325"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1094028194",
+    "http://id.who.int/icd/release/11/2024-01/mms/1356011211",
+    "http://id.who.int/icd/release/11/2024-01/mms/157616931/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/157616931/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#157616931",
+  "code": "1D84",
+  "source": "http://id.who.int/icd/entity/157616931",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/157616931/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2105678631",
+        "http://id.who.int/icd/release/11/2024-01/mms/1985490330"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Viral conjunctivitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Inflammation, often mild, of the conjunctiva caused by a variety of viral agents. Conjunctival involvement may be part of a systemic infection."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ocular disease herpesviral [herpes simplex]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1985490330",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1985490330"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ophthalmic zoster"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2105678631",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2105678631"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/2071159826"
+  ]
+}

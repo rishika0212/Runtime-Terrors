@@ -1,0 +1,56 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/617572888",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1442844496"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1966785477",
+    "http://id.who.int/icd/release/11/2024-01/mms/439255548",
+    "http://id.who.int/icd/release/11/2024-01/mms/1272766861",
+    "http://id.who.int/icd/release/11/2024-01/mms/617572888/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/617572888/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#617572888",
+  "code": "NA41",
+  "source": "http://id.who.int/icd/entity/617572888",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Brachial plexus palsy in newborn"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/985611997",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/985611997"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/617572888/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/980862652",
+        "http://id.who.int/icd/release/11/2024-01/mms/851395624",
+        "http://id.who.int/icd/release/11/2024-01/mms/73322695",
+        "http://id.who.int/icd/release/11/2024-01/mms/128104623",
+        "http://id.who.int/icd/release/11/2024-01/mms/1491356379",
+        "http://id.who.int/icd/release/11/2024-01/mms/491063206",
+        "http://id.who.int/icd/release/11/2024-01/mms/185842968",
+        "http://id.who.int/icd/release/11/2024-01/mms/2143219175",
+        "http://id.who.int/icd/release/11/2024-01/mms/558785723",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Injury of brachial plexus"
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/985611997"
+  ]
+}

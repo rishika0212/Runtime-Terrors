@@ -1,0 +1,138 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/755612283",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/856028269"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#755612283",
+  "code": "QC50",
+  "source": "http://id.who.int/icd/entity/755612283",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sequelae of complication of pregnancy, childbirth or the puerperium"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/569289074",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/569289074"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sequelae of tuberculosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1968623900",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1968623900"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sequelae of poliomyelitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/270343310",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/270343310"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sequelae of leprosy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1689275505",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1689275505"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sequelae of diphtheria"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/456774323",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/456774323"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sequelae of trachoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1100625760",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1100625760"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sequelae of viral encephalitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/617741002",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/617741002"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/755612283/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1435254666",
+        "http://id.who.int/icd/release/11/2024-01/mms/1630407678",
+        "http://id.who.int/icd/release/11/2024-01/mms/21500692",
+        "http://id.who.int/icd/release/11/2024-01/mms/1296093776",
+        "http://id.who.int/icd/release/11/2024-01/mms/868865918",
+        "http://id.who.int/icd/release/11/2024-01/mms/426429380",
+        "http://id.who.int/icd/release/11/2024-01/mms/197934298",
+        "http://id.who.int/icd/release/11/2024-01/mms/1256772020",
+        "http://id.who.int/icd/release/11/2024-01/mms/1639304259",
+        "http://id.who.int/icd/release/11/2024-01/mms/1473673350",
+        "http://id.who.int/icd/release/11/2024-01/mms/30659757",
+        "http://id.who.int/icd/release/11/2024-01/mms/435227771"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/755612283/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/21500692",
+        "http://id.who.int/icd/release/11/2024-01/mms/1296093776",
+        "http://id.who.int/icd/release/11/2024-01/mms/30659757",
+        "http://id.who.int/icd/release/11/2024-01/mms/435227771"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Late effect of prior health problem, not elsewhere classified"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Code used to indicate that a prior health problem is now associated with a late effect causing current symptoms or conditions. This concept excludes prior health problems that are NOT causing a current symptom or condition."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Personal history of health problems"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2142880493",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2142880493"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/569289074"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Late effect of prior health problem, not elsewhere classified"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "sequelae of prior health problem, not elsewhere classified"
+      }
+    }
+  ]
+}

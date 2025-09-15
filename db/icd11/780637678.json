@@ -1,0 +1,131 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/780637678",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1526938195"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#780637678",
+  "code": "DA96.04",
+  "source": "http://id.who.int/icd/entity/780637678",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Short bowel syndrome in neonate"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1871609188",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1871609188"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/780637678/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/125745435",
+        "http://id.who.int/icd/release/11/2024-01/mms/1162198017"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Short bowel syndrome"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Having less than 200 cm of residual small bowel with or without colon in an adult and for children (< 18 yrs), less than 25% of the normal length of intestine for their respective age."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital short bowel"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1672462112",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1672462112"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1871609188"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Short bowel syndrome"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Secondary short bowel syndrome"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "short gut syndrome"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "short bowel NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "SBS - [short bowel syndrome]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Short bowel syndrome with colon-in-continuity"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1964331707"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Short bowel syndrome with colon in continuity"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1964331707"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "SBS - [short bowel syndrome] with colon-in-continuity"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1964331707"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Short bowel syndrome with no colon-in-continuity"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1978706475"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Short bowel syndrome with no colon in continuity"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1978706475"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "SBS - [short bowel syndrome] with no colon-in-continuity"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1978706475"
+    }
+  ]
+}

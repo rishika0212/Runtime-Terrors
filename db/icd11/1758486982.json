@@ -1,0 +1,41 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1758486982",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1791890273"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1956341906",
+    "http://id.who.int/icd/release/11/2024-01/mms/1758486982/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1758486982/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1758486982",
+  "code": "CA02.1",
+  "source": "http://id.who.int/icd/entity/1758486982",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Enteroviral vesicular pharyngitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/61181798",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/61181798"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1758486982/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acute viral pharyngitis"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2047598004",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/17912993"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2047598004",
+  "code": "MD81.12",
+  "source": "http://id.who.int/icd/entity/2047598004",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2047598004/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2047598004/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1983193090"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Pain localised to other parts of lower abdomen"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Pain, an unpleasant distress sensation, which is localised to other part of lower abdomen than the pelvic or perineal region."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pelvic or perineal pain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/524292134",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/524292134"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic primary visceral pain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/679352876",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/679352876"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic secondary visceral pain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/446969214",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/446969214"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pain localised to other parts of lower abdomen"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "lower abdominal pain"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Rectal or anal pain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/509995006"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pain in caecum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/117520712"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Iliac fossa pain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1306011315"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Groin pain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/121860522"
+    }
+  ]
+}

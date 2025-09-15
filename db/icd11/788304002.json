@@ -1,0 +1,79 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/788304002",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1973223737"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#788304002",
+  "code": "DB91.1",
+  "source": "http://id.who.int/icd/entity/788304002",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/788304002/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Other acute or subacute hepatic failure"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Other causes of acute and subacute hepatic failure are drugs, toxic agents, metabolic diseases (particularly Wilson’s disease), ischemic diseases, autoimmune hepatitis, and unknown diseases."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Other acute or subacute hepatic failure"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute hypoxic liver failure"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1251111869"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute ischaemic liver failure"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/364239376"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute metastatic liver failure"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1253781843"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute and subacute hepatic failure due to autoimmune hepatitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/188003800"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute and subacute hepatic failure due to drug or toxic agent"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1256830095"
+    }
+  ]
+}

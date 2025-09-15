@@ -1,0 +1,50 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/725439990",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/215057274"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/66705662",
+    "http://id.who.int/icd/release/11/2024-01/mms/2070601288",
+    "http://id.who.int/icd/release/11/2024-01/mms/1787577133",
+    "http://id.who.int/icd/release/11/2024-01/mms/465198086",
+    "http://id.who.int/icd/release/11/2024-01/mms/1383121646",
+    "http://id.who.int/icd/release/11/2024-01/mms/725439990/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/725439990/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#725439990",
+  "code": "LA07",
+  "source": "http://id.who.int/icd/entity/725439990",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occult spinal dysraphism"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/449489594",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/449489594"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/725439990/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1150229943",
+        "http://id.who.int/icd/release/11/2024-01/mms/405704375"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Structural developmental anomalies of the neurenteric canal, spinal cord or vertebral column"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Any condition caused by failure of the neurenteric canal, spinal cord and vertebral column to correctly develop during the antenatal period."
+  }
+}

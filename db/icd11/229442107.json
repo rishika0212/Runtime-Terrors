@@ -1,0 +1,134 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/229442107",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1294458332"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#229442107",
+  "code": "DD53",
+  "source": "http://id.who.int/icd/entity/229442107",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/229442107/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/229442107/postcoordinationScale/temporalPatternAndOnset",
+      "axisName": "http://id.who.int/icd/schema/temporalPatternAndOnset",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1721353160"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Umbilical hernia"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A hernia occurs when part of an internal organ bulges through a weak area of muscle. An umbilical hernia is a protrusion of the peritoneum and fluid, omentum, or a portion of abdominal organ(s) through the umbilical ring. The umbilical ring is the fibrous and muscle tissue around the navel (belly-button). Small hernias usually close spontaneously without treatment by age 1 or 2. Umbilical hernias are usually painless and are common in infants."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Omphalocele"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1168696429",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1168696429"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Urachal cyst"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1125432593",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/283910751"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Umbilical hernia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Umbilical hernia with obstruction, without gangrene"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1169384556"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "incarcerated umbilical hernia without gangrene"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1169384556"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "irreducible umbilical hernia without gangrene"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1169384556"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Umbilical hernia causing obstruction without gangrene"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1169384556"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "strangulated umbilical hernia without gangrene"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1169384556"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Umbilical hernia with gangrene"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/553167358"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gangrenous umbilical hernia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/553167358"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Umbilical hernia without obstruction or gangrene"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/780087080"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Umbilical hernia NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/780087080"
+    }
+  ]
+}

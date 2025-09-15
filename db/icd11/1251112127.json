@@ -1,0 +1,74 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1251112127",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1435390252"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1251112127",
+  "code": "9A01.4",
+  "source": "http://id.who.int/icd/entity/1251112127",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Parasitic infestation of eyelid in leishmaniasis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/992763477",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1082373067/unspecified"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1251112127/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1251112127/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/844452979",
+        "http://id.who.int/icd/release/11/2024-01/mms/1468820019",
+        "http://id.who.int/icd/release/11/2024-01/mms/2044502963",
+        "http://id.who.int/icd/release/11/2024-01/mms/1861535603",
+        "http://id.who.int/icd/release/11/2024-01/mms/1042501052"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1251112127/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/124737785",
+        "http://id.who.int/icd/release/11/2024-01/mms/709184369",
+        "http://id.who.int/icd/release/11/2024-01/mms/106136071",
+        "http://id.who.int/icd/release/11/2024-01/mms/793136270",
+        "http://id.who.int/icd/release/11/2024-01/mms/970296337",
+        "http://id.who.int/icd/release/11/2024-01/mms/1473144548"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Infestation of eyelid"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infestation of eyelid"
+      }
+    }
+  ]
+}

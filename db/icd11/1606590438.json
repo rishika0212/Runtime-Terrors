@@ -1,0 +1,71 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1606590438",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/462903049"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1606590438",
+  "code": "BE14.8",
+  "source": "http://id.who.int/icd/entity/1606590438",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1606590438/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/460401849",
+        "http://id.who.int/icd/release/11/2024-01/mms/1642025150",
+        "http://id.who.int/icd/release/11/2024-01/mms/1162198017",
+        "http://id.who.int/icd/release/11/2024-01/mms/431804121"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Postprocedural ventricular septal defect disorder"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "An event or occurrence affecting a ventricular septal defect that is associated with a healthcare intervention, is a departure from the desired course of events, and may cause, or be associated with, a suboptimal outcome."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1380872553"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postprocedural ventricular septal defect disorder"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "postprocedural ventricular septal defect complication"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postprocedural residual or recurrent ventricular septal defect"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/534015891"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Procedure-related residual or recurrent interventricular communication"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/534015891"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postprocedural systemic ventricular to right atrial shunt"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1863159149"
+    }
+  ]
+}

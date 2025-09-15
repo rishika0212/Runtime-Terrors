@@ -1,0 +1,99 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/387174738",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1162198017"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#387174738",
+  "code": "PL11.1",
+  "source": "http://id.who.int/icd/entity/387174738",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/387174738/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/163532889",
+        "http://id.who.int/icd/release/11/2024-01/mms/460401849"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Burn arising during procedure, as mode of injury or harm"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A burn occurs when tissue is damaged by heat, electricity or fire. It can occur, for example, as the direct result of cautery equipment, warming efforts, or because of a fire."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Damage to tissues resulting from heat, electricity or fire. Heat can be intended but excessive. For example, if a warming blanket malfunctions. Electrical burns occur when equipment malfunctions or it is used inappropriately. Fire can occur when combustible material ignites."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Burn from ionising radiation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1223737282",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/136660883"
+    }
+  ],
+  "codingNote": {
+    "@language": "en",
+    "@value": "Code first the injury or harm associated with the procedure or intervention. Code also the cause of harm which identifies the procedure or intervention."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Burn arising during procedure, as mode of injury or harm"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "burn complicating procedure"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "accidental burn during medical or surgical care"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "accidental burn during intervention"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "scald during medical or surgical care"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "scald during medical or surgical procedure"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "scorching during medical or surgical care"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "burn during radiation therapy"
+      }
+    }
+  ]
+}

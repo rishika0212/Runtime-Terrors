@@ -1,0 +1,67 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1561844189",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/541009954"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1561844189",
+  "code": "LA14.04",
+  "source": "http://id.who.int/icd/entity/1561844189",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1561844189/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Congenital ptosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Congenital ptosis is characterised by superior eyelid drop present at birth."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital ptosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital blepharoptosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "congenital eyelid ptosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital ptosis, unilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1136579166"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital ptosis, bilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1631387707"
+    }
+  ]
+}

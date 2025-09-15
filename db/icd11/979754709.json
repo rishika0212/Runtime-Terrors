@@ -1,0 +1,150 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/979754709",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1965082709"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#979754709",
+  "code": "2B5E",
+  "source": "http://id.who.int/icd/entity/979754709",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/979754709/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/759043230",
+        "http://id.who.int/icd/release/11/2024-01/mms/591377318"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/979754709/postcoordinationScale/histopathology",
+      "axisName": "http://id.who.int/icd/schema/histopathology",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1196147098",
+        "http://id.who.int/icd/release/11/2024-01/mms/648231110",
+        "http://id.who.int/icd/release/11/2024-01/mms/413196830",
+        "http://id.who.int/icd/release/11/2024-01/mms/1822416815",
+        "http://id.who.int/icd/release/11/2024-01/mms/861769358",
+        "http://id.who.int/icd/release/11/2024-01/mms/498974533",
+        "http://id.who.int/icd/release/11/2024-01/mms/1993924981",
+        "http://id.who.int/icd/release/11/2024-01/mms/867726878"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/979754709/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/979754709/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1409966790",
+        "http://id.who.int/icd/release/11/2024-01/mms/896293199",
+        "http://id.who.int/icd/release/11/2024-01/mms/1094217460",
+        "http://id.who.int/icd/release/11/2024-01/mms/238069351"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/979754709/postcoordinationScale/hasAlternativeSeverity2",
+      "axisName": "http://id.who.int/icd/schema/hasAlternativeSeverity2",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1863636238",
+        "http://id.who.int/icd/release/11/2024-01/mms/885826145",
+        "http://id.who.int/icd/release/11/2024-01/mms/1746207012",
+        "http://id.who.int/icd/release/11/2024-01/mms/303697349"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Malignant nerve sheath tumour of peripheral nerves or autonomic nervous system, primary site"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant peripheral nerve sheath tumour of cranial or paraspinal nerves"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/71413945",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/71413945"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant nerve sheath tumour of peripheral nerves or autonomic nervous system, primary site"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant triton tumour of peripheral nerves or autonomic nervous system"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/869437895"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant nerve sheath tumour of peripheral nerves of head, face or neck"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1083430649"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant nerve sheath tumour of peripheral nerves of upper limb, including shoulder"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/845601720"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant nerve sheath tumours of peripheral nerves of lower limb, including hip"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/283445725"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant nerve sheath tumour of peripheral nerves of thorax"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/702101290"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant nerve sheath tumour of peripheral nerves of abdomen"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/190506317"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant nerve sheath tumour of peripheral nerves of pelvis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1019855923"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant nerve sheath tumour involving overlapping sites of peripheral nerves or autonomic nervous system"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/997833985"
+    }
+  ]
+}

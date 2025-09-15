@@ -1,0 +1,100 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/878910257",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1044091662"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#878910257",
+  "code": "EH76.2",
+  "source": "http://id.who.int/icd/entity/878910257",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Corticosteroid-induced skin atrophy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/531901221",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/531901221"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Corticosteroid-modified dermatophytosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1042823388",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1802307036/other"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Perioral dermatitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/929263065",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1815308480"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Corticosteroid-induced stretch marks"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/205851576",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2031932143/other"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Corticosteroid-induced purpura"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2017333244",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1454196772"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/878910257/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1583926619",
+        "http://id.who.int/icd/release/11/2024-01/mms/1323892810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Dermatoses attributable to corticosteroid therapy"
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Corticosteroid-induced acne"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1694366853"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dermatoses attributable to corticosteroid therapy"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Corticosteroid-induced acne"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1694366853"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Steroid-induced acne"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1694366853"
+    }
+  ]
+}

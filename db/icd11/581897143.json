@@ -1,0 +1,70 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/581897143",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/843843448"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1946814909",
+    "http://id.who.int/icd/release/11/2024-01/mms/1655658429",
+    "http://id.who.int/icd/release/11/2024-01/mms/1975306533",
+    "http://id.who.int/icd/release/11/2024-01/mms/1502610635",
+    "http://id.who.int/icd/release/11/2024-01/mms/445125730",
+    "http://id.who.int/icd/release/11/2024-01/mms/289522729",
+    "http://id.who.int/icd/release/11/2024-01/mms/59881644",
+    "http://id.who.int/icd/release/11/2024-01/mms/132422185",
+    "http://id.who.int/icd/release/11/2024-01/mms/1934215896",
+    "http://id.who.int/icd/release/11/2024-01/mms/2064897712",
+    "http://id.who.int/icd/release/11/2024-01/mms/2123391417",
+    "http://id.who.int/icd/release/11/2024-01/mms/1746892088",
+    "http://id.who.int/icd/release/11/2024-01/mms/133909731",
+    "http://id.who.int/icd/release/11/2024-01/mms/581897143/other"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#581897143",
+  "code": "8B22",
+  "source": "http://id.who.int/icd/entity/581897143",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/581897143/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2078467774"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Certain specified cerebrovascular diseases"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Specified other abnormalities of intracranial or extracranial arteries or veins. Entities in this section may be used in combination with other diagnostic codes in this block. Several of the entities may each cause different types of cerebrovascular disease such as TIA, cerebral ischemic stroke or intracerebral haemorrhage; may be associated with other clinical syndromes; or may be asymptomatic (not having caused acute focal dysfunction of the brain).\n\nSection on Intracranial vascular malformations has been much revised compared to ICD-10 based on major scientific progress in this field.\n\nCerebral vasoconstriction syndromes and Posterior reversible encephalopathy are considered to be separate entities (as vasoconstriction is not always present in the latter).\n\n”Progressive vascular leukoencephalopathy (Binswanger’s disease)” has been removed as a separate entity."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Late effects of cerebrovascular disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/982373217",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/982373217"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Certain specified cerebrovascular diseases"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "other cerebrovascular diseases"
+      }
+    }
+  ]
+}

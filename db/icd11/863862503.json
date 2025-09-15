@@ -1,0 +1,78 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/863862503",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/527743894"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#863862503",
+  "code": "8A01.14",
+  "source": "http://id.who.int/icd/entity/863862503",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/863862503/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/863862503/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1435254666",
+        "http://id.who.int/icd/release/11/2024-01/mms/512128824",
+        "http://id.who.int/icd/release/11/2024-01/mms/153725862",
+        "http://id.who.int/icd/release/11/2024-01/mms/1818388016",
+        "http://id.who.int/icd/release/11/2024-01/mms/1665071312",
+        "http://id.who.int/icd/release/11/2024-01/mms/416233167",
+        "http://id.who.int/icd/release/11/2024-01/mms/145623962",
+        "http://id.who.int/icd/release/11/2024-01/mms/1843774992",
+        "http://id.who.int/icd/release/11/2024-01/mms/424187633",
+        "http://id.who.int/icd/release/11/2024-01/mms/341230363",
+        "http://id.who.int/icd/release/11/2024-01/mms/1897729679",
+        "http://id.who.int/icd/release/11/2024-01/mms/95444592",
+        "http://id.who.int/icd/release/11/2024-01/mms/769120660",
+        "http://id.who.int/icd/release/11/2024-01/mms/73523461",
+        "http://id.who.int/icd/release/11/2024-01/mms/162912369"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Chorea due to infectious or para-infectious causes"
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/564191997"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chorea due to infectious or para-infectious causes"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chorea due to encephalitic or postencephalitic disorders"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2144138444"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Other infectious choreas"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/172048404"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1072810807",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/531713107"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/983703484",
+    "http://id.who.int/icd/release/11/2024-01/mms/1072810807/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1072810807/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1072810807",
+  "code": "2E66",
+  "source": "http://id.who.int/icd/entity/1072810807",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1072810807/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1399753101"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1072810807/postcoordinationScale/histopathology",
+      "axisName": "http://id.who.int/icd/schema/histopathology",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1395468571",
+        "http://id.who.int/icd/release/11/2024-01/mms/522986416",
+        "http://id.who.int/icd/release/11/2024-01/mms/1324810543",
+        "http://id.who.int/icd/release/11/2024-01/mms/1370766919",
+        "http://id.who.int/icd/release/11/2024-01/mms/710558848",
+        "http://id.who.int/icd/release/11/2024-01/mms/1494848434",
+        "http://id.who.int/icd/release/11/2024-01/mms/682879579",
+        "http://id.who.int/icd/release/11/2024-01/mms/602786424",
+        "http://id.who.int/icd/release/11/2024-01/mms/136153868"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1072810807/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Carcinoma in situ of cervix uteri"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "melanoma in situ of cervix"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1576650184",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1576650184"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Low grade squamous intraepithelial lesion of cervix uteri"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/511605013",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/511605013"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1305335252",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/73229602"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1361674069",
+    "http://id.who.int/icd/release/11/2024-01/mms/1516023078",
+    "http://id.who.int/icd/release/11/2024-01/mms/857829804",
+    "http://id.who.int/icd/release/11/2024-01/mms/45050905",
+    "http://id.who.int/icd/release/11/2024-01/mms/1200365909",
+    "http://id.who.int/icd/release/11/2024-01/mms/45565998",
+    "http://id.who.int/icd/release/11/2024-01/mms/1305335252/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1305335252/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1305335252",
+  "code": "9A03",
+  "source": "http://id.who.int/icd/entity/1305335252",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1305335252/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1305335252/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1142633691"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acquired malposition of eyelid"
+  }
+}

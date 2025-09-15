@@ -1,0 +1,42 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/6555116",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/487269828"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/101604109",
+    "http://id.who.int/icd/release/11/2024-01/mms/1665504921",
+    "http://id.who.int/icd/release/11/2024-01/mms/6555116/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/6555116/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#6555116",
+  "code": "1C1B",
+  "source": "http://id.who.int/icd/entity/6555116",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/6555116/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/168432503",
+        "http://id.who.int/icd/release/11/2024-01/mms/684930313",
+        "http://id.who.int/icd/release/11/2024-01/mms/1323682030",
+        "http://id.who.int/icd/release/11/2024-01/mms/486786563"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Nocardiosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease caused by an infection with the gram-positive bacteria Nocardia. This disease presents with symptoms depending on the site of infection (commonly lung, brain, or skin). Transmission is by inhalation of Nocardia from soil or water, or by direct cutaneous contact. Confirmation is by identification of Nocardia in samples from affected sites."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1935107489"
+  ]
+}

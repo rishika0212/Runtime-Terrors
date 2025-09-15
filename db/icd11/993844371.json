@@ -1,0 +1,59 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/993844371",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1829545371"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1401866267",
+    "http://id.who.int/icd/release/11/2024-01/mms/2070501946",
+    "http://id.who.int/icd/release/11/2024-01/mms/993844371/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#993844371",
+  "code": "BA42",
+  "source": "http://id.who.int/icd/entity/993844371",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/993844371/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1750488832"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Subsequent myocardial infarction"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Infarction of any myocardial site, occurring within 4 weeks (28 days) from onset of a previous infarction"
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "extension of myocardial infarction"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "recurrent myocardial infarction"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "specified as chronic or with a stated duration of more than 4 weeks (more than 28 days) from onset"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/956002477",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/956002477"
+    }
+  ]
+}

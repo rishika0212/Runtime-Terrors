@@ -1,0 +1,58 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/504779294",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1103667651"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#504779294",
+  "code": "9D90.7",
+  "source": "http://id.who.int/icd/entity/504779294",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/504779294/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/504779294/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2110791639",
+        "http://id.who.int/icd/release/11/2024-01/mms/112415334",
+        "http://id.who.int/icd/release/11/2024-01/mms/914405870"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Near vision impairment"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Near vision refers to the ability to perform tasks that require detailed vision at a close distance. It should be measured with both eyes open at the subject’s preferred viewing distance and with the subject’s habitual near vision correction (if any). Near vision impairment is characterised by a presenting near visual acuity worse than N6."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Near vision impairment"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "near vision deficits"
+      }
+    }
+  ]
+}

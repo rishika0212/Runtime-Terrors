@@ -1,0 +1,106 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/405257730",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1426309905"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/674464254",
+    "http://id.who.int/icd/release/11/2024-01/mms/1394687071",
+    "http://id.who.int/icd/release/11/2024-01/mms/102709764",
+    "http://id.who.int/icd/release/11/2024-01/mms/1376183765",
+    "http://id.who.int/icd/release/11/2024-01/mms/1936492387",
+    "http://id.who.int/icd/release/11/2024-01/mms/405257730/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/405257730/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#405257730",
+  "code": "4A85.0",
+  "source": "http://id.who.int/icd/entity/405257730",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug eruptions"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/923546127",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/923546127"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced bronchospasm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/667435406",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/667435406"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced aplastic anaemia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1907114935",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1907114935"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aspirin-induced asthma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1030818265",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1030818265"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Samter syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/330367715",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/330367715"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Photoallergic drug reaction"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/305500682",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/374142503"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pseudolymphomatous drug hypersensitivity syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1697708659",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/923546127/other"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Anaphylaxis due to radiocontrast media"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1143499549",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/778830229"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/405257730/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1583926619",
+        "http://id.who.int/icd/release/11/2024-01/mms/1323892810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Drug or pharmacological agents hypersensitivity"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Drug hypersensitivity reactions are the adverse effects of pharmaceutical formulations (including active drugs and excipients) that clinically resemble allergy. It belongs to type B adverse drug reactions, which are defined by the World Health Organization as the dose-independent, unpredictable, noxious, and unintended response to a drug taken at a dose normally used in humans. It covers many different clinical phenotypes with variable onset and severity."
+  }
+}

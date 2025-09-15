@@ -1,0 +1,55 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/932302401",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1105991600"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#932302401",
+  "code": "9A04.1",
+  "source": "http://id.who.int/icd/entity/932302401",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/932302401/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Madarosis of eyelid or periocular area"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Partial or complete loss of eyelashes and/or eyebrow hairs. Alopecia areata and chronic cutaneous lupus erythematosus are well recognised causes. If the underlying cause is known this should be coded as well."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Madarosis of eyelid or periocular area"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Superciliary madarosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1358355874"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ciliary madarosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1920274373"
+    }
+  ]
+}

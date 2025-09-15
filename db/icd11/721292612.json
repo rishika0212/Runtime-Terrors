@@ -1,0 +1,74 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/721292612",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/643334575"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#721292612",
+  "code": "BD93.11",
+  "source": "http://id.who.int/icd/entity/721292612",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/721292612/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1031510592",
+        "http://id.who.int/icd/release/11/2024-01/mms/465545679",
+        "http://id.who.int/icd/release/11/2024-01/mms/2122474603",
+        "http://id.who.int/icd/release/11/2024-01/mms/970208182",
+        "http://id.who.int/icd/release/11/2024-01/mms/481430149",
+        "http://id.who.int/icd/release/11/2024-01/mms/276642106",
+        "http://id.who.int/icd/release/11/2024-01/mms/1525493612"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/721292612/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1832508820"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Lymphoedema due to dependency and immobility"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Lymphoedema occurring in immobile individuals with reduced muscle pump activity as a result of paralysis or infirmity. It is particularly liable to develop in those who are unable to sleep recumbent."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1380872553"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Lymphoedema due to dependency and immobility"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Armchair legs"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Wheelchair legs"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Lymphoedema secondary to dependency and immobility"
+      }
+    }
+  ]
+}

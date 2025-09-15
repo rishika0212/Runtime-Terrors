@@ -1,0 +1,93 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1001776219",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1281102481"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1001776219",
+  "code": "PD00",
+  "source": "http://id.who.int/icd/entity/1001776219",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1001776219/postcoordinationScale/placeOfOccurrence",
+      "axisName": "http://id.who.int/icd/schema/placeOfOccurrence",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowedExceptFromSameBlock",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1081404635",
+        "http://id.who.int/icd/release/11/2024-01/mms/1786773723"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1001776219/postcoordinationScale/aspectsOfIntentionalSelfHarm",
+      "axisName": "http://id.who.int/icd/schema/aspectsOfIntentionalSelfHarm",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowedExceptFromSameBlock",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1814458410",
+        "http://id.who.int/icd/release/11/2024-01/mms/1432280426",
+        "http://id.who.int/icd/release/11/2024-01/mms/1754695847"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Intentional self-harm by exposure to or harmful effects of alcohols"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Intentional self-harm by exposure to or harmful effects of alcohols"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "intentional self-poisoning by and exposure to alcohol"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Intentional overdose of alcohols"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Intentional self-harm by exposure to or harmful effects of ethanol"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1202780338"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Intentional self-harm by exposure to or harmful effects of methanol"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/948689837"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "methyl alcohol or methanol"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/948689837"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Intentional self-harm by exposure to or harmful effects of fusel oil"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/573119975"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Intentional self-harm by exposure to or harmful effects of 2-Propanol"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2003233706"
+    }
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1800966096",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1450176443"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1800966096",
+  "code": "PB23",
+  "source": "http://id.who.int/icd/entity/1800966096",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1800966096/postcoordinationScale/medication",
+      "axisName": "http://id.who.int/icd/schema/medication",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/433531147",
+        "http://id.who.int/icd/release/11/2024-01/mms/661865379",
+        "http://id.who.int/icd/release/11/2024-01/mms/1421083259",
+        "http://id.who.int/icd/release/11/2024-01/mms/1599759772",
+        "http://id.who.int/icd/release/11/2024-01/mms/765357538",
+        "http://id.who.int/icd/release/11/2024-01/mms/1918647489"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1800966096/postcoordinationScale/activityWhenInjured",
+      "axisName": "http://id.who.int/icd/schema/activityWhenInjured",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2071638841",
+        "http://id.who.int/icd/release/11/2024-01/mms/1107435129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1428847289",
+        "http://id.who.int/icd/release/11/2024-01/mms/821249273",
+        "http://id.who.int/icd/release/11/2024-01/mms/160164281"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1800966096/postcoordinationScale/placeOfOccurrence",
+      "axisName": "http://id.who.int/icd/schema/placeOfOccurrence",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowedExceptFromSameBlock",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1081404635",
+        "http://id.who.int/icd/release/11/2024-01/mms/1786773723"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Unintentional exposure to or harmful effects of cannabinoids or hallucinogens"
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "accidental overdose of cannabinoids or hallucinogens"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Substances associated with injury or harm in therapeutic use"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1583926619",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1583926619"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unintentional exposure to or harmful effects of cannabinoids or hallucinogens"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "accidental overdose of cannabinoids or hallucinogens"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "accidental poisoning by cannabinoids or hallucinogens"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cannabinoids or hallucinogens taken in error"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unintentional exposure to or harmful effects of cannabis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/615890891"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "harmful effect of natural cannabis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/615890891"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "harmful effect of phytocannabinoids"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/615890891"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unintentional exposure to or harmful effects of synthetic cannabinoids"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1912228230"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unintentional exposure to or harmful effects of lysergide"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/556146757"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "unintentional harmful effect of LSD"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/556146757"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unintentional exposure to or harmful effects of unspecified psychodysleptics"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1578959708"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unintentional harmful effect of hallucinogens"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1578959708"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unintentional exposure to or harmful effects of other psychodysleptics"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/898455695"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Accidental poisoning by and exposure to narcotics and psychodysleptics or hallucinogens, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/405673987"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Accidental cannabis poisoning"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2146262353"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "accidental overdose of cannabis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2146262353"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Accidental cocaine poisoning"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/76419298"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "accidental overdose of cocaine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/76419298"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Accidental mescaline poisoning"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/961945551"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "accidental overdose of mescaline"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/961945551"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Accidental nabilone poisoning"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1607538303"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "accidental overdose of nabilone"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1607538303"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Accidental psilocybin poisoning"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/350120298"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "accidental overdose of psilocybin"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/350120298"
+    }
+  ]
+}

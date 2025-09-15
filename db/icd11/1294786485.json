@@ -1,0 +1,134 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1294786485",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1854675041"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1294786485",
+  "code": "CB05.1",
+  "source": "http://id.who.int/icd/entity/1294786485",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Respiratory disorders in juvenile dermatomyositis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1520015308",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/850824593/other"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Respiratory disorders in other dermatomyositis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/350449688",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/850824593/other"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Respiratory disorders in polymyositis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1713128299",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/850824593/other"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Respiratory disorders in Sjögren syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1612885211",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/850824593/other"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Respiratory disorders in systemic lupus erythematosus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/884346149",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/850824593/other"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Respiratory disorders in systemic sclerosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1024277026",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/850824593/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1294786485/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1525792972",
+        "http://id.who.int/icd/release/11/2024-01/mms/1989556002",
+        "http://id.who.int/icd/release/11/2024-01/mms/789630210",
+        "http://id.who.int/icd/release/11/2024-01/mms/1523445293",
+        "http://id.who.int/icd/release/11/2024-01/mms/1507462233",
+        "http://id.who.int/icd/release/11/2024-01/mms/762797224",
+        "http://id.who.int/icd/release/11/2024-01/mms/252326937",
+        "http://id.who.int/icd/release/11/2024-01/mms/1473673350/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/1473673350/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Interstitial lung diseases associated with connective tissue diseases"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Interstitial lung diseases associated with connective tissue diseases refers to a group of lung diseases affecting the interstitium (the tissue and space around the air sacs of the lungs) associated with connective tissue diseases."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/923122941"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Interstitial lung diseases associated with connective tissue diseases"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Respiratory disorders in idiopathic inflammatory myopathies"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1376126404"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Respiratory disorders in juvenile idiopathic arthritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1843128503"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Respiratory disorders in mixed connective tissue disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1438022904"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Respiratory disorders in rheumatoid arthritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2000006803"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "rheumatoid lung disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2000006803"
+    }
+  ]
+}

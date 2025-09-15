@@ -1,0 +1,69 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1194562592",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/234446094"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1376448576",
+    "http://id.who.int/icd/release/11/2024-01/mms/927022506",
+    "http://id.who.int/icd/release/11/2024-01/mms/1139567957",
+    "http://id.who.int/icd/release/11/2024-01/mms/1552774890",
+    "http://id.who.int/icd/release/11/2024-01/mms/648519873",
+    "http://id.who.int/icd/release/11/2024-01/mms/1131395957",
+    "http://id.who.int/icd/release/11/2024-01/mms/1194562592/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1194562592",
+  "code": "1F86",
+  "source": "http://id.who.int/icd/entity/1194562592",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1194562592/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1269730048",
+        "http://id.who.int/icd/release/11/2024-01/mms/342012360",
+        "http://id.who.int/icd/release/11/2024-01/mms/1726978545",
+        "http://id.who.int/icd/release/11/2024-01/mms/197440403",
+        "http://id.who.int/icd/release/11/2024-01/mms/1328350091",
+        "http://id.who.int/icd/release/11/2024-01/mms/658360080"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1194562592/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Schistosomiasis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "An infestation caused by helminths of the genus Schistosoma. The clinical features vary according to the species involved but the principal organs affected are the gastrointestinal tract and bladder."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "A blood fluke (trematode) infection with adult male and female worms living within mesenteric or vesical veins of the host over a life span of many years. Eggs produce minute granulomata and scars in organs where they lodge or are deposited."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "snail fever"
+      }
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1945127438"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/757531089",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/916346088"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#757531089",
+  "code": "PD27",
+  "source": "http://id.who.int/icd/entity/757531089",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/757531089/postcoordinationScale/objectOrSubstanceProducingInjury",
+      "axisName": "http://id.who.int/icd/schema/objectOrSubstanceProducingInjury",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1842194031"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/757531089/postcoordinationScale/placeOfOccurrence",
+      "axisName": "http://id.who.int/icd/schema/placeOfOccurrence",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowedExceptFromSameBlock",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1081404635",
+        "http://id.who.int/icd/release/11/2024-01/mms/1786773723"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/757531089/postcoordinationScale/aspectsOfIntentionalSelfHarm",
+      "axisName": "http://id.who.int/icd/schema/aspectsOfIntentionalSelfHarm",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowedExceptFromSameBlock",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1814458410",
+        "http://id.who.int/icd/release/11/2024-01/mms/1432280426",
+        "http://id.who.int/icd/release/11/2024-01/mms/1754695847"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Intentional self-harm by lack of food"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Intentional self-harm by lack of food"
+      }
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/408185629",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/344162786"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#408185629",
+  "code": "1A03.1",
+  "source": "http://id.who.int/icd/entity/408185629",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/408185629/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/916407020"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Enterotoxigenic Escherichia coli infection"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition of the gastrointestinal system, caused by an infection with the gram-negative bacteria Escherichia coli. This condition is characterised by acute, watery diarrhoea due to toxins released from the bacteria. Transmission is by the faecal-oral route from ingestion of contaminated food, water, or fomites. Confirmation is by identification of the Escherichia coli in faecal sample."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Escherichia coli infection caused by Enterotoxigenic E coli (ETEC) strains which produce special toxins which stimulate the lining of the intestines causing them to secrete excessive fluid, thus producing diarrhea. ETEC strains remain a major cause of infantile diarrhoea in developing countries and of travellers’ diarrhoeas in visitors to these countries."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/911707612"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Enterotoxigenic Escherichia coli infection"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ETEC - [Enterotoxigenic Escherichia coli] infection"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "enterotoxic Escherichia coli infection"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Enteritis in enterotoxigenic Escherichia coli infection"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/389125444"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Colitis in enterotoxigenic Escherichia coli infection"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/862390848"
+    }
+  ]
+}

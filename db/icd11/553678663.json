@@ -1,0 +1,67 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/553678663",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/379518314"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/677808164",
+    "http://id.who.int/icd/release/11/2024-01/mms/1358822175",
+    "http://id.who.int/icd/release/11/2024-01/mms/1859513700",
+    "http://id.who.int/icd/release/11/2024-01/mms/2144907019",
+    "http://id.who.int/icd/release/11/2024-01/mms/1582490772",
+    "http://id.who.int/icd/release/11/2024-01/mms/220699766",
+    "http://id.who.int/icd/release/11/2024-01/mms/2099564025",
+    "http://id.who.int/icd/release/11/2024-01/mms/553678663/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/553678663/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#553678663",
+  "code": "DA63",
+  "source": "http://id.who.int/icd/entity/553678663",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/553678663/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/294460566",
+        "http://id.who.int/icd/release/11/2024-01/mms/985094335",
+        "http://id.who.int/icd/release/11/2024-01/mms/1794059753",
+        "http://id.who.int/icd/release/11/2024-01/mms/1472717853"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/553678663/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Duodenal ulcer"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Duodenal ulcer is defined as a distinct breach in the mucosa of the duodenum as a result of caustic effects of acid and pepsin in the lumen. Histologically, duodenal ulcer is identified as necrosis of the mucosa extending through the muscularis mucosae into the submucosa. In the endoscopic or radiological view, there is an appreciable depth of the lesion. When the break of epithelial lining is confined to the mucosa without penetrating through the muscularis mucosae, the superficial lesion is called ‘erosion’."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Anastomotic ulcer"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/958574481",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/958574481"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ]
+}

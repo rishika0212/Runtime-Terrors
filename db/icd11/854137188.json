@@ -1,0 +1,54 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/854137188",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/921595235"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#854137188",
+  "code": "1D44",
+  "source": "http://id.who.int/icd/entity/854137188",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/854137188/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/956664712"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Rift Valley fever"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease caused by an infection with Rift Valley fever virus. This disease is commonly asymptomatic. This disease may also present with fever, liver abnormalities, weakness, back pain, or dizziness. Transmission is through the bite of an infected mosquito. Confirmation is commonly by detection of Rift Valley fever virus specific IgM or IgG antibodies in a blood sample."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/911707612"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Rift Valley fever"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "RFV – [Rift Valley fever]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Encephalitis due to Rift valley virus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/39587017"
+    }
+  ]
+}

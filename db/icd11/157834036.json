@@ -1,0 +1,55 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/157834036",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/103374449"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#157834036",
+  "code": "NA00.5",
+  "source": "http://id.who.int/icd/entity/157834036",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/157834036/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/588039752"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/157834036/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2055653544",
+        "http://id.who.int/icd/release/11/2024-01/mms/672745559",
+        "http://id.who.int/icd/release/11/2024-01/mms/2110065613",
+        "http://id.who.int/icd/release/11/2024-01/mms/237738073",
+        "http://id.who.int/icd/release/11/2024-01/mms/412010073",
+        "http://id.who.int/icd/release/11/2024-01/mms/103374449/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/864320047",
+        "http://id.who.int/icd/release/11/2024-01/mms/1797984458",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Multiple superficial injuries of head"
+  },
+  "codingNote": {
+    "@language": "en",
+    "@value": "Each injury should be coded separately. This code should be used alone only when the detail of the specific injuries is unknown, or it is not possible to code each injury. This code may also be used in postcoordination to identify cases of complex trauma."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Multiple superficial injuries of head"
+      }
+    }
+  ]
+}

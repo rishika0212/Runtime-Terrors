@@ -1,0 +1,124 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/42183618",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1999264345"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#42183618",
+  "code": "LB12.4",
+  "source": "http://id.who.int/icd/entity/42183618",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/42183618/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/72252748"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Congenital diverticulum of oesophagus"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A very rare congenital diverticulum which is typically located just above the cricopharyngeal junction. It is usually asymptomatic unless complicated by an inflammatory process. If the diverticulum compresses the trachea or is associated with oesophageal stenosis or fistula, the symptoms of stridor, progressive dysphagia, respiratory distress, severe choking, and regurgitation may be present from birth."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital oesophageal pouch"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "oesophageal pouch"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Diverticulum of oesophagus, acquired"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1206362163",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1206362163"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital diverticulum of oesophagus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "congenital oesophageal diverticulum"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital oesophageal pouch"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "diverticulum of oesophagus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "oesophageal pouch"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "oesophageal pseudodiverticulum"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "oesophageal diverticula"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "oesophageal diverticulum"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "oesophageal diverticulosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pharyngoesophageal diverticulum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1575833279"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pharyngoesophageal diverticula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1575833279"
+    }
+  ]
+}

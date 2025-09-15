@@ -1,0 +1,41 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/714258004",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/145841876"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1658934068",
+    "http://id.who.int/icd/release/11/2024-01/mms/1570444519",
+    "http://id.who.int/icd/release/11/2024-01/mms/1198871235",
+    "http://id.who.int/icd/release/11/2024-01/mms/714258004/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/714258004/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#714258004",
+  "code": "NE82.1",
+  "source": "http://id.who.int/icd/entity/714258004",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/714258004/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/741790660",
+        "http://id.who.int/icd/release/11/2024-01/mms/431804121"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Pacemaker or implantable cardioverter defibrillator dysfunction"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Any abnormality of pacemaker or implantable cardioverter defibrillator (ICD) device function."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/59436623"
+  ]
+}

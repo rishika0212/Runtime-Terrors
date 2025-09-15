@@ -1,0 +1,65 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1434611572",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/486643502"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1434611572",
+  "code": "BC63.3",
+  "source": "http://id.who.int/icd/entity/1434611572",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1434611572/postcoordinationScale/distribution",
+      "axisName": "http://id.who.int/icd/schema/distribution",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1957947885",
+        "http://id.who.int/icd/release/11/2024-01/mms/167867186"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Right bundle branch block"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Disorder of the atrioventricular conduction system characterised by prolonged QRS duration (greater than or equal to 120 ms in adults, greater than 100 ms in children ages 4 to 16 years, and greater than 90 ms in children less than 4 years of age), rsr, rsR, or rSR in leads V1 or V2, S wave of greater duration than R wave (or greater than 40 ms in leads I and V6 in adults)"
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Incomplete right bundle branch block"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/334722731"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1380872553"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Right bundle branch block"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Complete right bundle branch block"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/156402062"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Incomplete right bundle branch block"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/334722731"
+    }
+  ]
+}

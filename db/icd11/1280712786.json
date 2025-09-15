@@ -1,0 +1,96 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1280712786",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1221742343"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1911344636",
+    "http://id.who.int/icd/release/11/2024-01/mms/1399791513",
+    "http://id.who.int/icd/release/11/2024-01/mms/1694252775",
+    "http://id.who.int/icd/release/11/2024-01/mms/1280712786/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1280712786",
+  "code": "BA52",
+  "source": "http://id.who.int/icd/entity/1280712786",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1280712786/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1458683894",
+        "http://id.who.int/icd/release/11/2024-01/mms/1507624466",
+        "http://id.who.int/icd/release/11/2024-01/mms/1119203708"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1280712786/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/718946808",
+        "http://id.who.int/icd/release/11/2024-01/mms/1334938734",
+        "http://id.who.int/icd/release/11/2024-01/mms/993844371",
+        "http://id.who.int/icd/release/11/2024-01/mms/904209735",
+        "http://id.who.int/icd/release/11/2024-01/mms/1829545371/unspecified"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1280712786/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1998406536",
+        "http://id.who.int/icd/release/11/2024-01/mms/2106647780"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1280712786/postcoordinationScale/temporalPatternAndOnset",
+      "axisName": "http://id.who.int/icd/schema/temporalPatternAndOnset",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1512990933"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Coronary atherosclerosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Atherosclerosis is the build up inside the coronary arteries of cholesterol, fatty acids, calcium, fibrous connective tissue and cells (mostly macrophages), referred to as plaque. The effect of this is to reduce the blood flow through the coronary arteries to heart muscle and when marked results in heart damage often with symptoms such as chest pain."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Coronary artery atherosclerosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Coronary artery atheroma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Coronary artery sclerosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "coronary artery ostial stenosis due to atherosclerosis"
+      }
+    }
+  ]
+}

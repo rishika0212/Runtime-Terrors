@@ -1,0 +1,198 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/33759817",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1162198017"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#33759817",
+  "code": "PL11.3",
+  "source": "http://id.who.int/icd/entity/33759817",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/33759817/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1435254666",
+        "http://id.who.int/icd/release/11/2024-01/mms/1766440644",
+        "http://id.who.int/icd/release/11/2024-01/mms/1954798891",
+        "http://id.who.int/icd/release/11/2024-01/mms/21500692",
+        "http://id.who.int/icd/release/11/2024-01/mms/334423054",
+        "http://id.who.int/icd/release/11/2024-01/mms/274880002",
+        "http://id.who.int/icd/release/11/2024-01/mms/1296093776",
+        "http://id.who.int/icd/release/11/2024-01/mms/868865918",
+        "http://id.who.int/icd/release/11/2024-01/mms/1218729044",
+        "http://id.who.int/icd/release/11/2024-01/mms/426429380",
+        "http://id.who.int/icd/release/11/2024-01/mms/197934298",
+        "http://id.who.int/icd/release/11/2024-01/mms/1256772020",
+        "http://id.who.int/icd/release/11/2024-01/mms/1639304259",
+        "http://id.who.int/icd/release/11/2024-01/mms/1473673350",
+        "http://id.who.int/icd/release/11/2024-01/mms/30659757",
+        "http://id.who.int/icd/release/11/2024-01/mms/714000734",
+        "http://id.who.int/icd/release/11/2024-01/mms/1306203631",
+        "http://id.who.int/icd/release/11/2024-01/mms/1843895818",
+        "http://id.who.int/icd/release/11/2024-01/mms/435227771",
+        "http://id.who.int/icd/release/11/2024-01/mms/460401849"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Foreign body accidentally left in body, as mode of injury or harm"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A foreign body is any solid material not normally found in the human body. It is accidentally left in the body if there was no specific intention to keep it in the body, either because it was indicated for medical purposes or because it was unsafe to retrieve."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Foreign bodies may consist of medical and surgical devices which enter the body during a procedure. Foreign bodies might also consist of other material which enters the body traumatically or through accidental ingestion. Foreign bodies represent a risk to patients and therefore should be removed, if possible. Sometimes surgical devices are left intentionally - for example sutures, staples, and prostheses. These would not meet the definition of being left accidentally. Sometimes material which entered the body during trauma is left in the body intentionally, as it would cause damage to remove it. In either situation, the foreign body must not be left intentionally for it to be considered."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Foreign body accidentally left in body without injury or harm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/814512039",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/814512039"
+    }
+  ],
+  "codingNote": {
+    "@language": "en",
+    "@value": "Code first the injury or harm associated with the procedure or intervention. Code also the cause of harm which identifies the procedure or intervention."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Foreign body accidentally left in body, as mode of injury or harm"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "foreign body accidentally left in body during procedure"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "foreign body accidentally left in body during intervention"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "foreign body accidentally left in body during surgical operation"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "sponge accidentally left in body during surgical and medical care"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "surgical instrument accidentally left in body during surgical and medical care"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "retained sponge during procedure"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "retained needle during procedure as mode of injury or harm"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "retained towel during procedure"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "retained whole instrument during surgical operation"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "retained fragment of instrument during medical or surgical procedure"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Foreign object accidentally left in body during surgical and medical care"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/537849777"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Foreign object accidentally left in body during surgical operation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1499938151"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Foreign object accidentally left in body during infusion or transfusion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1009578227"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Foreign object accidentally left in body during kidney dialysis or other perfusion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1216454670"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Foreign object accidentally left in body during injection or immunization"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/768241048"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Foreign object accidentally left in body during endoscopic examination"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1579482636"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Foreign object accidentally left in body during heart catheterization"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/997143450"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Foreign body accidentally left in body during aspiration, puncture and other catheterization"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1338139495"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Foreign object accidentally left in body during removal of catheter or packing"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/713666291"
+    }
+  ]
+}

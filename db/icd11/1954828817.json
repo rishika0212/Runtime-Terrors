@@ -1,0 +1,132 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1954828817",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1762507906"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1954828817",
+  "code": "DD50.20",
+  "source": "http://id.who.int/icd/entity/1954828817",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1954828817/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1954828817/postcoordinationScale/temporalPatternAndOnset",
+      "axisName": "http://id.who.int/icd/schema/temporalPatternAndOnset",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1721353160"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Primary intra-abdominal hernia"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A hernia occurs intra-abdominally and primarily through the opening covered by peritoneum without surgery and trauma."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "congenital malpositioning of the intestine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2018477801",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2018477801"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary intra-abdominal hernia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paraduodenal hernia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Transmesenteric hernia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Foramen of Winslow hernia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Intersigmoid hernia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Transomental hernia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Supravesical hernia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Paracaecal hernia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Falciform ligament hernia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary intra-abdominal hernia with obstruction without gangrene"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1735750286"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary intra-abdominal hernia with gangrene"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1780876655"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary intra-abdominal hernia without obstruction or gangrene"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/890412877"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1766840660",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1935203065"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1766840660",
+  "code": "GB55.1",
+  "source": "http://id.who.int/icd/entity/1766840660",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1766840660/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1766840660/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/678821627",
+        "http://id.who.int/icd/release/11/2024-01/mms/1281102481",
+        "http://id.who.int/icd/release/11/2024-01/mms/1559145231",
+        "http://id.who.int/icd/release/11/2024-01/mms/131278066",
+        "http://id.who.int/icd/release/11/2024-01/mms/1583926619"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Nephropathy induced by heavy metals"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease of the kidney, caused by exposure to heavy, nephrotoxic metals such as cadmium, lead, copper, and mercury. This disease is characterised by tubular damage, renal insufficiency, interstitial fibrosis, necrosis, or renal dysfunction. This disease may also present with hypertension, proteinuria, hyperuricaemia, aminoaciduria, or other symptoms characteristic of chronic kidney disease."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nephropathy induced by heavy metals"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "heavy metal nephropathy"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "toxic nephropathy from heavy metals"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Lead nephropathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2041416123"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "lead nephritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2041416123"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Saturnine nephropathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/328066172"
+    }
+  ]
+}

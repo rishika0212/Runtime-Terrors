@@ -1,0 +1,67 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/990540639",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1324545867"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1975993872",
+    "http://id.who.int/icd/release/11/2024-01/mms/277646214",
+    "http://id.who.int/icd/release/11/2024-01/mms/1358554843",
+    "http://id.who.int/icd/release/11/2024-01/mms/1525086490",
+    "http://id.who.int/icd/release/11/2024-01/mms/990540639/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/990540639/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#990540639",
+  "code": "CA71",
+  "source": "http://id.who.int/icd/entity/990540639",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/990540639/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/622600769",
+        "http://id.who.int/icd/release/11/2024-01/mms/1683090852"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/990540639/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1681680901",
+        "http://id.who.int/icd/release/11/2024-01/mms/1949195114",
+        "http://id.who.int/icd/release/11/2024-01/mms/2095569394",
+        "http://id.who.int/icd/release/11/2024-01/mms/1241926931",
+        "http://id.who.int/icd/release/11/2024-01/mms/1316747223",
+        "http://id.who.int/icd/release/11/2024-01/mms/1241130363",
+        "http://id.who.int/icd/release/11/2024-01/mms/724580931",
+        "http://id.who.int/icd/release/11/2024-01/mms/277953276",
+        "http://id.who.int/icd/release/11/2024-01/mms/1977284462",
+        "http://id.who.int/icd/release/11/2024-01/mms/1546589464/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/1546589464/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Pneumonitis due to solids and liquids"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neonatal aspiration syndromes"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1352159976",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1352159976"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/428090833"
+  ]
+}

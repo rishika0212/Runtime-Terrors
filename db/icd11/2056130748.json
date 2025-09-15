@@ -1,0 +1,77 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2056130748",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2031646451"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2056130748",
+  "code": "DE13",
+  "source": "http://id.who.int/icd/entity/2056130748",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2056130748/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/125745435",
+        "http://id.who.int/icd/release/11/2024-01/mms/1162198017"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Postsurgical malabsorption, not elsewhere classified"
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postsurgical blind loop syndrome"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis due to malabsorption"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/844980278",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/844980278"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postsurgical malabsorption, not elsewhere classified"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "postsurgical malabsorption syndrome"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postsurgical blind loop syndrome"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "postsurgical malabsorption NOS"
+      }
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1697630330",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/487269828"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/452367246",
+    "http://id.who.int/icd/release/11/2024-01/mms/2143116824",
+    "http://id.who.int/icd/release/11/2024-01/mms/185601767",
+    "http://id.who.int/icd/release/11/2024-01/mms/413315344",
+    "http://id.who.int/icd/release/11/2024-01/mms/1697630330/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1697630330/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1697630330",
+  "code": "1C10",
+  "source": "http://id.who.int/icd/entity/1697630330",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1697630330/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1656157931",
+        "http://id.who.int/icd/release/11/2024-01/mms/684930313",
+        "http://id.who.int/icd/release/11/2024-01/mms/373833091",
+        "http://id.who.int/icd/release/11/2024-01/mms/622600769",
+        "http://id.who.int/icd/release/11/2024-01/mms/1683090852",
+        "http://id.who.int/icd/release/11/2024-01/mms/678655279"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Actinomycosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease commonly caused by an infection with the gram-positive bacteria Actinomyces. This disease is characterised by painful abscesses in the mouth, lungs, and gastrointestinal tract. Actinomycosis is an endogenous infection whose causative bacteria originate from the patient's oral and pharyngeal flora. It can spread by continuity and hematogenously. Confirmation is by identification of Actinomyces in infected tissue or fluid samples."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "A chronic infective disease, most frequently localized in the jaw, thorax or abdomen in which fermentative actinomycetes of the genera Actinomyces (especially A. israelii and A. gerencseriae), Propionibacterium and Bifidobacterium act as the principal pathogens."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Actinomycetoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/168432503",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/168432503"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1935107489"
+  ]
+}

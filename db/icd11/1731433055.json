@@ -1,0 +1,163 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1731433055",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1802307036"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1731433055",
+  "code": "1F28.1",
+  "source": "http://id.who.int/icd/entity/1731433055",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1731433055/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1175903901"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Dermatophytosis of nail"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Fungal infection of the nail plate due to dermatophyte fungi (tinea unguium). Infection results in a range of clinical signs including white or yellow discolouration, detachment of the plate from the nail bed (onycholysis), keratinous thickening under the nail plate (subungual hyperkeratosis) and fragility and fragmentation of the abnormal nail plate."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Fungal infection of the nail plate due to dermatophyte fungi (tinea unguium). Chronic infection of toenails is very common and is frequently associated with dermatophytosis of the interdigital clefts and/or sole of the foot. Dermatophytosis of the fingernails is much less common. Infection results in a range of clinical signs including white or yellow discolouration, detachment of the plate from the nail bed (onycholysis), keratinous thickening under the nail plate (subungual hyperkeratosis) and fragility and fragmentation of the abnormal nail plate."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Onychomycosis due to dermatophyte"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tinea unguium"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ringworm of nails"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Onychomycosis due to non-dermatophyte mould"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1414602212",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1414602212"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Candida onychomycosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/908531876",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/828693449"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/528118622"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dermatophytosis of nail"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ringworm of nails"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tinea unguium"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Onychomycosis due to dermatophyte"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tinea of nail"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dermatophytosis of fingernail"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/113850922"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tinea of fingernail"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/113850922"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Onychomycosis of fingernail due to dermatophyte"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/113850922"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tinea unguium of fingers"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/113850922"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dermatophytosis of toenail"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/827988824"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Onychomycosis of toenail due to dermatophyte"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/827988824"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tinea of toenail"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/827988824"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tinea unguium of toes"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/827988824"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/590084641",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2087406945"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#590084641",
+  "code": "CA05.1",
+  "source": "http://id.who.int/icd/entity/590084641",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neonatal tracheitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2040953952",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2040953952"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/590084641/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acute tracheitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This condition refers to the acute inflammation of the trachea."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic tracheitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/290835130",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/290835130"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/923122941"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/2040953952"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute tracheitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute tracheitis NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "tracheitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "tracheitis NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "tracheal inflammation"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute catarrhal tracheitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1883280793"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "catarrhal tracheitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1883280793"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute pneumococcal tracheitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1889889545"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pneumococcal tracheitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1889889545"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute viral tracheitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/449267760"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "viral tracheitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/449267760"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1325365261",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1496140949"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1219932551",
+    "http://id.who.int/icd/release/11/2024-01/mms/1325365261/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1325365261/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1325365261",
+  "code": "LD24.K",
+  "source": "http://id.who.int/icd/entity/1325365261",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ehlers-Danlos-osteogenesis imperfecta syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/370611021",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1122707206/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1325365261/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Genetic bone diseases with decreased bone density"
+  }
+}

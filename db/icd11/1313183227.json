@@ -1,0 +1,87 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1313183227",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1264360394"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1313183227",
+  "code": "2E65.0",
+  "source": "http://id.who.int/icd/entity/1313183227",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1313183227/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1313183227/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/831985561"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1313183227/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Lobular carcinoma in situ of breast"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Lobular carcinoma in situ of breast"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "noninfiltrating lobular carcinoma unspecified site"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "noninfiltrating lobular carcinoma of breast"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "lobular carcinoma in situ unspecified site"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Lobular carcinoma in situ of left breast"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1389644558"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Lobular carcinoma in situ of right breast"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/407837717"
+    }
+  ]
+}

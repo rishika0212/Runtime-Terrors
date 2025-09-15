@@ -1,0 +1,77 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1327769104",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2016483996"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1937092392",
+    "http://id.who.int/icd/release/11/2024-01/mms/1259879273",
+    "http://id.who.int/icd/release/11/2024-01/mms/1771825422",
+    "http://id.who.int/icd/release/11/2024-01/mms/1577633908",
+    "http://id.who.int/icd/release/11/2024-01/mms/2009002213",
+    "http://id.who.int/icd/release/11/2024-01/mms/1790866885",
+    "http://id.who.int/icd/release/11/2024-01/mms/1327769104/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1327769104/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1327769104",
+  "code": "NC91",
+  "source": "http://id.who.int/icd/entity/1327769104",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1327769104/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1327769104/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1670056745",
+        "http://id.who.int/icd/release/11/2024-01/mms/106050921"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1327769104/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482",
+        "http://id.who.int/icd/release/11/2024-01/mms/755612283"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Open wound of knee or lower leg"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Traumatic amputation of lower leg"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/619212116",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/619212116"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Open wound of ankle or foot"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/417426953",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/417426953"
+    }
+  ]
+}

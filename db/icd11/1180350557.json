@@ -1,0 +1,71 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1180350557",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1922613180"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1180350557",
+  "code": "EB01.3",
+  "source": "http://id.who.int/icd/entity/1180350557",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Allergic contact urticaria"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1674422101",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1674422101"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1180350557/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/630328761",
+        "http://id.who.int/icd/release/11/2024-01/mms/1707521326",
+        "http://id.who.int/icd/release/11/2024-01/mms/2137289572"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Contact urticaria"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Urticaria resulting from skin or mucosal contact with a substance or substances capable of inducing wealing either by immunological or by non-immunological means."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Contact urticaria"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Non-allergic contact urticaria"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1764772868"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupational non-allergic contact urticaria"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1571484802"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Urticaria due to plants"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/710629746"
+    }
+  ]
+}

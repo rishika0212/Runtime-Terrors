@@ -1,0 +1,121 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2044143090",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1762507906"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2044143090",
+  "code": "DD50.21",
+  "source": "http://id.who.int/icd/entity/2044143090",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2044143090/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2044143090/postcoordinationScale/temporalPatternAndOnset",
+      "axisName": "http://id.who.int/icd/schema/temporalPatternAndOnset",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1721353160"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2044143090/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1435254666",
+        "http://id.who.int/icd/release/11/2024-01/mms/1630407678",
+        "http://id.who.int/icd/release/11/2024-01/mms/1766440644",
+        "http://id.who.int/icd/release/11/2024-01/mms/1954798891",
+        "http://id.who.int/icd/release/11/2024-01/mms/21500692",
+        "http://id.who.int/icd/release/11/2024-01/mms/1296093776",
+        "http://id.who.int/icd/release/11/2024-01/mms/426429380",
+        "http://id.who.int/icd/release/11/2024-01/mms/197934298",
+        "http://id.who.int/icd/release/11/2024-01/mms/1167594753",
+        "http://id.who.int/icd/release/11/2024-01/mms/1594312948",
+        "http://id.who.int/icd/release/11/2024-01/mms/914520008",
+        "http://id.who.int/icd/release/11/2024-01/mms/2086488820",
+        "http://id.who.int/icd/release/11/2024-01/mms/1980672892",
+        "http://id.who.int/icd/release/11/2024-01/mms/1644587915",
+        "http://id.who.int/icd/release/11/2024-01/mms/1305923085",
+        "http://id.who.int/icd/release/11/2024-01/mms/1784240230",
+        "http://id.who.int/icd/release/11/2024-01/mms/587365414",
+        "http://id.who.int/icd/release/11/2024-01/mms/1726554290",
+        "http://id.who.int/icd/release/11/2024-01/mms/851941810",
+        "http://id.who.int/icd/release/11/2024-01/mms/1265113635",
+        "http://id.who.int/icd/release/11/2024-01/mms/696703416",
+        "http://id.who.int/icd/release/11/2024-01/mms/453532731",
+        "http://id.who.int/icd/release/11/2024-01/mms/108749166",
+        "http://id.who.int/icd/release/11/2024-01/mms/598093212",
+        "http://id.who.int/icd/release/11/2024-01/mms/132592466",
+        "http://id.who.int/icd/release/11/2024-01/mms/2031646451",
+        "http://id.who.int/icd/release/11/2024-01/mms/1639304259",
+        "http://id.who.int/icd/release/11/2024-01/mms/1473673350",
+        "http://id.who.int/icd/release/11/2024-01/mms/30659757",
+        "http://id.who.int/icd/release/11/2024-01/mms/1135143938",
+        "http://id.who.int/icd/release/11/2024-01/mms/494951911",
+        "http://id.who.int/icd/release/11/2024-01/mms/1057832531",
+        "http://id.who.int/icd/release/11/2024-01/mms/14576949"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Secondary intra-abdominal hernia"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A hernia occurs intra-abdominally and secondarily through the opening covered by peritoneum after abdominal surgery and trauma."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Secondary intra-abdominal hernia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Peterson hernia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Secondary intra-abdominal hernia with obstruction without gangrene"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/943843504"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Secondary intra-abdominal hernia with gangrene"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2086620978"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Secondary intra-abdominal hernia without obstruction or gangrene"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/93689533"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/373491363",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/193063276"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#373491363",
+  "code": "DB36.0",
+  "source": "http://id.who.int/icd/entity/373491363",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/373491363/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1777850685",
+        "http://id.who.int/icd/release/11/2024-01/mms/328294343",
+        "http://id.who.int/icd/release/11/2024-01/mms/2128592381",
+        "http://id.who.int/icd/release/11/2024-01/mms/204400509",
+        "http://id.who.int/icd/release/11/2024-01/mms/453411773",
+        "http://id.who.int/icd/release/11/2024-01/mms/894847549",
+        "http://id.who.int/icd/release/11/2024-01/mms/720455085",
+        "http://id.who.int/icd/release/11/2024-01/mms/1614204137",
+        "http://id.who.int/icd/release/11/2024-01/mms/1431962259"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/373491363/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Colonic abscess"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition of the colon, caused by an infection with a bacterial, viral, or fungal source. This condition is characterised by focal accumulation of purulent material in colonic tissue. This disease may present with back pain, abdominal pain, fever, rectal bleeding, or diarrhoea. Confirmation is commonly by advanced imaging."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Colonic abscess"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "paracolic abscess"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pericolic abscess"
+      }
+    }
+  ]
+}

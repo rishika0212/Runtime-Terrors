@@ -1,0 +1,55 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/20014644",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/923546127"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#20014644",
+  "code": "EH66",
+  "source": "http://id.who.int/icd/entity/20014644",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/20014644/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1450176443",
+        "http://id.who.int/icd/release/11/2024-01/mms/1676151582",
+        "http://id.who.int/icd/release/11/2024-01/mms/1583926619",
+        "http://id.who.int/icd/release/11/2024-01/mms/1323892810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Fixed drug eruption"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "The term fixed drug eruption describes the development of one or more annular or oval inflamed erythematous patches on the skin as a result of systemic exposure to a drug. The patches may develop into bullae. The inflamed patches normally resolve with post-inflammatory hyperpigmentation but typically recur at the same site(s), often with progressively more involved sites, following each reexposure to the drug. In extreme cases (generalised bullous fixed drug eruption) the clinical picture may mimic toxic epidermal necrolysis. A large number of drugs have been implicated as triggers."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fixed drug eruption"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Limited fixed drug eruption"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/464467615"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Generalised bullous fixed drug eruption"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/959243514"
+    }
+  ]
+}

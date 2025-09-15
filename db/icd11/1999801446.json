@@ -1,0 +1,91 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1999801446",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1644587915"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2134289266",
+    "http://id.who.int/icd/release/11/2024-01/mms/315623565",
+    "http://id.who.int/icd/release/11/2024-01/mms/61447835",
+    "http://id.who.int/icd/release/11/2024-01/mms/551148682",
+    "http://id.who.int/icd/release/11/2024-01/mms/876401817",
+    "http://id.who.int/icd/release/11/2024-01/mms/1999801446/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1999801446/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1999801446",
+  "code": "DB34",
+  "source": "http://id.who.int/icd/entity/1999801446",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ischaemic colitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/53001072",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/53001072"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Vascular disorders of large intestine due to injury or trauma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1935954685",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1670477659/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1999801446/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/326645548",
+        "http://id.who.int/icd/release/11/2024-01/mms/1777850685",
+        "http://id.who.int/icd/release/11/2024-01/mms/328294343",
+        "http://id.who.int/icd/release/11/2024-01/mms/2128592381",
+        "http://id.who.int/icd/release/11/2024-01/mms/204400509",
+        "http://id.who.int/icd/release/11/2024-01/mms/453411773",
+        "http://id.who.int/icd/release/11/2024-01/mms/894847549",
+        "http://id.who.int/icd/release/11/2024-01/mms/720455085",
+        "http://id.who.int/icd/release/11/2024-01/mms/1614204137",
+        "http://id.who.int/icd/release/11/2024-01/mms/1431962259",
+        "http://id.who.int/icd/release/11/2024-01/mms/771220582",
+        "http://id.who.int/icd/release/11/2024-01/mms/1211030054",
+        "http://id.who.int/icd/release/11/2024-01/mms/1212282357"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1999801446/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Certain vascular disorders of large intestine"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "The whole large intestine receives its blood supply from colonic branches of the superior mesenteric artery and the inferior mesenteric artery, and the venous drainage is through the portal system via the superior and inferior mesenteric vein. Vascular disorders includes lesions in these vessels and capillary."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ischaemic vascular disorders of intestine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/696703416",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/696703416"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ]
+}

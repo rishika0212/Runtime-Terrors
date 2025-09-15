@@ -1,0 +1,52 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1724920772",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1122707206"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1724920772",
+  "code": "LD28.10",
+  "source": "http://id.who.int/icd/entity/1724920772",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1724920772/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1569734721"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Ehlers-Danlos syndrome, classical type"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Ehlers-Danlos syndrome, classic type is a type of Ehlers-Danlos syndromes (EDS), a heterogeneous group of hereditary connective tissue diseases characterised by joint hyperlaxity, cutaneous hyperelasticity and tissue fragility, and is characterised by the following major clinical diagnostic criteria: hyperextensible skin, atrophic cutaneous scars due to tissue fragility and joint hyperlaxity."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ehlers-Danlos syndrome, classical type"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ehlers-Danlos syndrome type 1"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1999142975"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ehlers-Danlos syndrome type 2"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1973837258"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1553463690",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1965146397"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1553463690",
+  "code": "8E00",
+  "source": "http://id.who.int/icd/entity/1553463690",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1553463690/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1206955889"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Sporadic Creutzfeldt-Jakob Disease"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease of the brain, that is associated with a mutation of normal prion protein genes or spontaneous transformation of prion proteins. This disease is characterised by a long incubation period, progressive dementia, neurological deficits, and is fatal. Transmission may be by direct contact with infected nervous tissue or blood. Confirmation is by pathological examination of the brain."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/564191997"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sporadic Creutzfeldt-Jakob Disease"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "sCJD - [Sporadic Creutzfeldt-Jakob Disease]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "idiopathic Creutzfeldt-Jakob disease"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Creutzfeld-Jakob disease NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Classical sporadic Creutzfeldt-Jakob Disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1855860109"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Thalamic sporadic Creutzfeldt-Jakob Disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1363394816"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cortical sporadic Creutzfeldt-Jakob Disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1724965250"
+    }
+  ]
+}

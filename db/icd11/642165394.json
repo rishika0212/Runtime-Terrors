@@ -1,0 +1,58 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/642165394",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/299840850"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/428090833",
+    "http://id.who.int/icd/release/11/2024-01/mms/2094000197",
+    "http://id.who.int/icd/release/11/2024-01/mms/140687546",
+    "http://id.who.int/icd/release/11/2024-01/mms/1831433520",
+    "http://id.who.int/icd/release/11/2024-01/mms/516417212",
+    "http://id.who.int/icd/release/11/2024-01/mms/2072783662",
+    "http://id.who.int/icd/release/11/2024-01/mms/253852625",
+    "http://id.who.int/icd/release/11/2024-01/mms/1785378373",
+    "http://id.who.int/icd/release/11/2024-01/mms/1357248582",
+    "http://id.who.int/icd/release/11/2024-01/mms/642165394/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/642165394/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#642165394",
+  "code": "JB0C",
+  "source": "http://id.who.int/icd/entity/642165394",
+  "classKind": "category",
+  "title": {
+    "@language": "en",
+    "@value": "Complications of anaesthesia during labour or delivery"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Any complication caused by or subsequent to any anaesthetic intervention used during labour and delivery."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "maternal complications arising from the administration of a general or local anaesthetic, analgesic or other sedation during labour and delivery"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Complications of anaesthesia during pregnancy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1721217915",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1721217915"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Complications of anaesthesia during the puerperium"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/446982468",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/446982468"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/246113667",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/996549477"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#246113667",
+  "code": "EB90.20",
+  "source": "http://id.who.int/icd/entity/246113667",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Xanthelasma of eyelid"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1087365696",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1087365696"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/246113667/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2023062398"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Plane xanthoma"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Plane (planar) xanthomata are flat cutaneous xanthomata and contrast with eruptive and tuberous xanthomata which present as papules and nodules. They are often completely macular but may develop into elevated plaques. The commonest type is the xanthelasma of the eyelid but also included is the palmar xanthoma and a less common widespread form, diffuse plane xanthoma, which may be mimicked by a clinically similar disorder associated with paraproteinaemia, diffuse normolipidaemic plane xanthomatosis."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/710405171"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Plane xanthoma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Planar xanthoma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Palmar xanthoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1952724584"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Diffuse dyslipidaemic plane xanthoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1095226438"
+    }
+  ]
+}

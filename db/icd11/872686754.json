@@ -1,0 +1,68 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/872686754",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1363031430"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#872686754",
+  "code": "DA97.1",
+  "source": "http://id.who.int/icd/entity/872686754",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/872686754/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/18598211",
+        "http://id.who.int/icd/release/11/2024-01/mms/1708923236"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/872686754/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Arteriovenous malformation of small intestine"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Vascular malformations of small intestine that result from a localised maldevelopment of part of the primitive vascular plexus and consist of abnormal arteriovenous communications without intervening capillaries. They vary in size, ranging from massive lesions that are fed by multiple vessels to lesions so small that they are hard to identify at arteriography, surgery, or autopsy, but relatively larger than angiodysplasia."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Arteriovenous malformation of small intestine"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dieulafoy lesion of small intestine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1097363910"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Other arteriovenous malformation of small intestine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/376571735"
+    }
+  ]
+}

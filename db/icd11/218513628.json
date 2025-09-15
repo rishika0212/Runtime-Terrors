@@ -1,0 +1,97 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/218513628",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2000854880"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#218513628",
+  "code": "9B71.1",
+  "source": "http://id.who.int/icd/entity/218513628",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/218513628/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/218513628/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1234750028",
+        "http://id.who.int/icd/release/11/2024-01/mms/1893754636",
+        "http://id.who.int/icd/release/11/2024-01/mms/1741161420",
+        "http://id.who.int/icd/release/11/2024-01/mms/34684300"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/218513628/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/761947693",
+        "http://id.who.int/icd/release/11/2024-01/mms/1210166201",
+        "http://id.who.int/icd/release/11/2024-01/mms/1015872326",
+        "http://id.who.int/icd/release/11/2024-01/mms/1002963291",
+        "http://id.who.int/icd/release/11/2024-01/mms/1331849426"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Hypertensive retinopathy"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hypertensive retinopathy"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hypertensive Retinopathy, Stage 0"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/539475309"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hypertensive Retinopathy, Stage 1, mild arteriolar narrowing, broadening of arteriolar light reflex"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/615324153"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hypertensive Retinopathy, Stage 2, focal arteriolar narrowing, marked generalised arteriolar narrowing, arteriovenous nicking, opacity, “copper wiring” of arteriolar wall, or a combination of these signs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/764502123"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hypertensive Retinopathy, Stage 3, Haemorrhage, blot, dot, or flame-shaped, microaneurysm, cotton-wool spot, hard exudate, or combination of these signs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1647311915"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hypertensive Retinopathy, Stage 4, Signs of stage 3 retinopathy plus swelling of the optic disk"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1846427223"
+    }
+  ]
+}

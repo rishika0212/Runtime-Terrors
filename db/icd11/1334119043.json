@@ -1,0 +1,72 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1334119043",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/623613402"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1334119043",
+  "code": "3A01.1",
+  "source": "http://id.who.int/icd/entity/1334119043",
+  "classKind": "category",
+  "title": {
+    "@language": "en",
+    "@value": "Neonatal vitamin B12 deficiency anaemia"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease caused by a lack of vitamin B12 in the mother, which is passed onto the fetus in the antenatal period or to the neonate during breast feeding. This disease is characterised by decreased levels of vitamin B12. This disease may present with increased risk of birth defects or preterm delivery, anaemia, irritability, failure to thrive or apathy. Confirmation is by identification of low levels of vitamin B12 in a blood sample."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital nutritional vitamin B12 deficiency due to maternal vitamin B12 deficiency"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/572096578"
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hereditary vitamin B12 deficiency anaemia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1463520192",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1463520192"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1426960900"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1148519290"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neonatal vitamin B12 deficiency anaemia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Megaloblastic anaemia due to congenital non-hereditary vitamin B12 deficiency"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital nutritional vitamin B12 deficiency due to maternal vitamin B12 deficiency"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/572096578"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nutritional vitamin B12 deficiency due to maternal vitamin B12 deficiency in breast-fed infants"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/881304628"
+    }
+  ]
+}

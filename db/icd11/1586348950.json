@@ -1,0 +1,124 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1586348950",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1838213761"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1586348950",
+  "code": "GA10.H",
+  "source": "http://id.who.int/icd/entity/1586348950",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1586348950/postcoordinationScale/relational",
+      "axisName": "http://id.who.int/icd/schema/relational",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1013312453",
+        "http://id.who.int/icd/release/11/2024-01/mms/423444880"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1586348950/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1330482498",
+        "http://id.who.int/icd/release/11/2024-01/mms/119571850",
+        "http://id.who.int/icd/release/11/2024-01/mms/1457022514",
+        "http://id.who.int/icd/release/11/2024-01/mms/402925049"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1586348950/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1507624466",
+        "http://id.who.int/icd/release/11/2024-01/mms/1290701352"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1586348950/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1207480854",
+        "http://id.who.int/icd/release/11/2024-01/mms/843986533",
+        "http://id.who.int/icd/release/11/2024-01/mms/1820203444",
+        "http://id.who.int/icd/release/11/2024-01/mms/279160930"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Endometriosis in cutaneous scar"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Endometriosis in cutaneous scar"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "endometriosis in scar of skin"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Endometriosis of skin"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/544627354"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cutaneous endometriosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/544627354"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Endometriosis in episiotomy scar"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1365285475"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Endometriosis in caesarean scar"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1854010229"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Endometriosis in the uterine scar after cesarean section"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1854010229"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Post-cesarean scar endometriosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1854010229"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Endometriosis of abdominal incision scar"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1616132791"
+    }
+  ]
+}

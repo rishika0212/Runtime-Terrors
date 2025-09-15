@@ -1,0 +1,146 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/705971711",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1539889147"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#705971711",
+  "code": "1B53",
+  "source": "http://id.who.int/icd/entity/705971711",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/705971711/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1979147242",
+        "http://id.who.int/icd/release/11/2024-01/mms/1284492970"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/705971711/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1997317917"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/705971711/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/622600769",
+        "http://id.who.int/icd/release/11/2024-01/mms/1683090852"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/705971711/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1839638766"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Meningitis due to Streptococcus"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease of the meninges, caused by an infection with the gram-positive bacteria genus Streptococcus. This disease commonly presents with nausea, vomiting, photophobia, and confusion. Transmission is through haematogenous spread to the meninges after inhalation of infected respiratory secretions. Confirmation is by identification of Streptococcus in the cerebrospinal fluid."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Streptococcal meningitis"
+      }
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/911707612"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Meningitis due to Streptococcus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Streptococcal meningitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute streptococcal meningitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Meningitis due to Streptococcus pneumoniae"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/879178398"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pneumococcal meningitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/879178398"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pneumococcal encephalomeningitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/879178398"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pneumococcal meningoencephalitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/879178398"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Streptococcal spinal meningitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1696453174"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute streptococcal spinal meningitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1696453174"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Beta haemolytic streptococcal bacterial meningitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2018414894"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Meningitis due to Streptococcus agalactiae"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2131706649"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/408677370",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1676151582"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#408677370",
+  "code": "PH45",
+  "source": "http://id.who.int/icd/entity/408677370",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/408677370/postcoordinationScale/medication",
+      "axisName": "http://id.who.int/icd/schema/medication",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/677082440",
+        "http://id.who.int/icd/release/11/2024-01/mms/923858885",
+        "http://id.who.int/icd/release/11/2024-01/mms/1825079466",
+        "http://id.who.int/icd/release/11/2024-01/mms/1378788066",
+        "http://id.who.int/icd/release/11/2024-01/mms/278359861",
+        "http://id.who.int/icd/release/11/2024-01/mms/973488885"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/408677370/postcoordinationScale/activityWhenInjured",
+      "axisName": "http://id.who.int/icd/schema/activityWhenInjured",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2071638841",
+        "http://id.who.int/icd/release/11/2024-01/mms/1107435129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1428847289",
+        "http://id.who.int/icd/release/11/2024-01/mms/821249273",
+        "http://id.who.int/icd/release/11/2024-01/mms/160164281"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/408677370/postcoordinationScale/placeOfOccurrence",
+      "axisName": "http://id.who.int/icd/schema/placeOfOccurrence",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowedExceptFromSameBlock",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1081404635",
+        "http://id.who.int/icd/release/11/2024-01/mms/1786773723"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Exposure to or harmful effects of undetermined intent of antidepressants"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Exposure to or harmful effects of undetermined intent of antidepressants"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Harmful effects of or exposure to noxious substances, drugs, medicaments or biological substances, antidepressants, tricyclic antidepressants, undetermined intent"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/776978654"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Harmful effects of or exposure to noxious substances, drugs, medicaments or biological substances, antidepressants, tetracyclic antidepressants, undetermined intent"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1096516325"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Harmful effects of or exposure to noxious substances, drugs, medicaments or biological substances, antidepressants, monoamine-oxidase-inhibitor antidepressants, undetermined intent"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2078658051"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Harmful effects of or exposure to noxious substances, drugs, medicaments or biological substances, antidepressants, selective serotonin or norepinephrine reuptake inhibitors, undetermined intent"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1687609127"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Harmful effects of or exposure to noxious substances, drugs, medicaments or biological substances, antidepressants, selective serotonin reuptake inhibitors, undetermined intent"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1619851625"
+    }
+  ]
+}

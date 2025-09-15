@@ -1,0 +1,94 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/288303327",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1462185542"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#288303327",
+  "code": "PJ70",
+  "source": "http://id.who.int/icd/entity/288303327",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/288303327/postcoordinationScale/objectOrSubstanceProducingInjury",
+      "axisName": "http://id.who.int/icd/schema/objectOrSubstanceProducingInjury",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/683304281",
+        "http://id.who.int/icd/release/11/2024-01/mms/1750768110"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/288303327/postcoordinationScale/aspectsOfArmedConflict",
+      "axisName": "http://id.who.int/icd/schema/aspectsOfArmedConflict",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowedExceptFromSameBlock",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/64892918",
+        "http://id.who.int/icd/release/11/2024-01/mms/517417642"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Attack on or destruction of aircraft during armed conflict due to enemy fire or explosives"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Attack on or destruction of aircraft during armed conflict due to enemy fire or explosives"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Attack on or destruction of aircraft during armed conflict due to enemy fire or explosives, military personnel"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1589778652"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Attack on or destruction of aircraft during armed conflict due to enemy fire or explosives, civilian"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/569981893"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Operations of war or armed conflict involving destruction of aircraft due to air to air missile"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1188777074"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Operations of war or armed conflict involving destruction of aircraft due to explosive placed on aircraft"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/436004289"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Operations of war or armed conflict involving destruction of aircraft due to rocket propelled grenade [RPG]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1190268572"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Operations of war or armed conflict involving destruction of aircraft due to small arms fire"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1137058146"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Operations of war or armed conflict involving destruction of aircraft due to surface to air missile"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1285181792"
+    }
+  ]
+}

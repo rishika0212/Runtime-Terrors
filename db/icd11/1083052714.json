@@ -1,0 +1,79 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1083052714",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1765737830"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1083052714",
+  "code": "MD30.0",
+  "source": "http://id.who.int/icd/entity/1083052714",
+  "classKind": "category",
+  "title": {
+    "@language": "en",
+    "@value": "Chest pain on breathing"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Pleuritic chest pain is a type of pain that is caused by problems with the thin layers of tissue that surround the lungs (called the “pleura”). This type of pain feels like a sharp, stabbing chest pain, and it gets worse when you breathe in. Pleuritic chest pain can be caused by the following problems: pneumothorax, pleural effusion, pleuritis, empyema, pericarditis."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Painful respiration"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pleurisy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/317852053",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/317852053"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic primary visceral pain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/679352876",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/679352876"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic secondary visceral pain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/446969214",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/446969214"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chest pain on breathing"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Painful respiration"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "breathing painful"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "respiratory pain"
+      }
+    }
+  ]
+}

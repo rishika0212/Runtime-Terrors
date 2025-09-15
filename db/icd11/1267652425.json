@@ -1,0 +1,95 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1267652425",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/598093212"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/469864646",
+    "http://id.who.int/icd/release/11/2024-01/mms/1221996518",
+    "http://id.who.int/icd/release/11/2024-01/mms/1979896624",
+    "http://id.who.int/icd/release/11/2024-01/mms/765321840",
+    "http://id.who.int/icd/release/11/2024-01/mms/464644598",
+    "http://id.who.int/icd/release/11/2024-01/mms/395324298",
+    "http://id.who.int/icd/release/11/2024-01/mms/943754764",
+    "http://id.who.int/icd/release/11/2024-01/mms/1267652425/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1267652425/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1267652425",
+  "code": "DD70",
+  "source": "http://id.who.int/icd/entity/1267652425",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cutaneous or mucocutaneous Crohn disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1491018344",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/647260534/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1267652425/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1651798887"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1267652425/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731",
+        "http://id.who.int/icd/release/11/2024-01/mms/1507624466",
+        "http://id.who.int/icd/release/11/2024-01/mms/1290701352"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Crohn disease"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Crohn’s disease is characterised by chronic and relapsing transmural inflammation extending through all layers of the small and/or large intestinal walls and has potential to involve the patient’s entire gastrointestinal tract."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Granulomatous enteritis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Regional enteritis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Intestinal ulcer and erosion due to Crohn disease"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ulcerative colitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/784669405",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/784669405"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ]
+}

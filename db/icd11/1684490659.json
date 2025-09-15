@@ -1,0 +1,510 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1684490659",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1710329660"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1684490659",
+  "code": "PA09",
+  "source": "http://id.who.int/icd/entity/1684490659",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1684490659/postcoordinationScale/activityWhenInjured",
+      "axisName": "http://id.who.int/icd/schema/activityWhenInjured",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2071638841",
+        "http://id.who.int/icd/release/11/2024-01/mms/1107435129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1428847289",
+        "http://id.who.int/icd/release/11/2024-01/mms/821249273",
+        "http://id.who.int/icd/release/11/2024-01/mms/160164281"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1684490659/postcoordinationScale/placeOfOccurrence",
+      "axisName": "http://id.who.int/icd/schema/placeOfOccurrence",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowedExceptFromSameBlock",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/713258542"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1684490659/postcoordinationScale/transportEventDescriptor",
+      "axisName": "http://id.who.int/icd/schema/transportEventDescriptor",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowedExceptFromSameBlock",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/931060771",
+        "http://id.who.int/icd/release/11/2024-01/mms/1075090949",
+        "http://id.who.int/icd/release/11/2024-01/mms/1463612101"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1684490659/postcoordinationScale/alcoholUseInInjury",
+      "axisName": "http://id.who.int/icd/schema/alcoholUseInInjury",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowedExceptFromSameBlock",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1993515327",
+        "http://id.who.int/icd/release/11/2024-01/mms/1336544383",
+        "http://id.who.int/icd/release/11/2024-01/mms/1484941503",
+        "http://id.who.int/icd/release/11/2024-01/mms/1029396223",
+        "http://id.who.int/icd/release/11/2024-01/mms/712192575"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1684490659/postcoordinationScale/psychoactiveDrugUseInInjury",
+      "axisName": "http://id.who.int/icd/schema/psychoactiveDrugUseInInjury",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowedExceptFromSameBlock",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1848703062",
+        "http://id.who.int/icd/release/11/2024-01/mms/1464358166",
+        "http://id.who.int/icd/release/11/2024-01/mms/1080046038",
+        "http://id.who.int/icd/release/11/2024-01/mms/632885142",
+        "http://id.who.int/icd/release/11/2024-01/mms/848390998"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Unintentional land transport traffic event injuring an occupant of a low powered passenger vehicle"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unintentional land transport traffic event injuring an occupant of a low powered passenger vehicle"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of three-wheeled motor vehicle injured in transport accident"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of three-wheeled motor vehicle injured in collision with pedestrian or animal"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/664756315"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of three-wheeled motor vehicle injured in collision with pedestrian or animal : person injured while boarding or alighting"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1648989549"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of three-wheeled motor vehicle injured in collision with pedestrian or animal : driver injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/117594361"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of three-wheeled motor vehicle injured in collision with pedestrian or animal : passenger injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1940850694"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of three-wheeled motor vehicle injured in collision with pedestrian or animal : person on outside of vehicle injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/384091540"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of three-wheeled motor vehicle injured in collision with pedestrian or animal : unspecified occupant of three-wheeled motor vehicle injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/247864644"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of three-wheeled motor vehicle injured in collision with pedal cycle"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1121234383"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of three-wheeled motor vehicle injured in collision with pedal cycle : person injured while boarding or alighting"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2125553132"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of three-wheeled motor vehicle injured in collision with pedal cycle : driver injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/469405818"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of three-wheeled motor vehicle injured in collision with pedal cycle : passenger injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1868021895"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of three-wheeled motor vehicle injured in collision with pedal cycle : person on outside of vehicle injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/169610515"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of three-wheeled motor vehicle injured in collision with pedal cycle : unspecified occupant of three-wheeled motor vehicle injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/306107845"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of three-wheeled motor vehicle injured in collision with two- or three-wheeled motor vehicle"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/913964338"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of three-wheeled motor vehicle injured in collision with two- or three-wheeled motor vehicle : person injured while boarding or alighting"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2134310356"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of three-wheeled motor vehicle injured in collision with two- or three-wheeled motor vehicle : driver injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/444411974"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of three-wheeled motor vehicle injured in collision with two- or three-wheeled motor vehicle : passenger injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1859150009"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of three-wheeled motor vehicle injured in collision with two- or three-wheeled motor vehicle : person on outside of vehicle injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/194751789"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of three-wheeled motor vehicle injured in collision with two- or three-wheeled motor vehicle : unspecified occupant of three-wheeled motor vehicle injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/330921467"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of three-wheeled motor vehicle injured in collision with car, pick-up truck or van"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1395798180"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of three-wheeled motor vehicle injured in collision with car, pick-up truck or van : person injured while boarding or alighting"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1674458451"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of three-wheeled motor vehicle injured in collision with car, pick-up truck or van : driver injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/109443271"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of three-wheeled motor vehicle injured in collision with car, pick-up truck or van : passenger injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1915267130"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of three-wheeled motor vehicle injured in collision with car, pick-up truck or van : person on outside of vehicle injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/392390060"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of three-wheeled motor vehicle injured in collision with car, pick-up truck or van : unspecified occupant of three-wheeled motor vehicle injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/255966588"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of three-wheeled motor vehicle injured in collision with heavy transport vehicle or bus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/551330608"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of three-wheeled motor vehicle injured in collision with heavy transport vehicle or bus : person injured while boarding or alighting"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1488405523"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of three-wheeled motor vehicle injured in collision with heavy transport vehicle or bus : driver injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1039960455"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of three-wheeled motor vehicle injured in collision with heavy transport vehicle or bus : passenger injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1230100856"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of three-wheeled motor vehicle injured in collision with heavy transport vehicle or bus : person on outside of vehicle injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/739906798"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of three-wheeled motor vehicle injured in collision with heavy transport vehicle or bus : unspecified occupant of three-wheeled motor vehicle injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/876137530"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of three-wheeled motor vehicle injured in collision with railway train or railway vehicle"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1167552166"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of three-wheeled motor vehicle injured in collision with railway train or railway vehicle : person injured while boarding or alighting"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1146064018"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of three-wheeled motor vehicle injured in collision with railway train or railway vehicle : driver injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/553926920"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of three-wheeled motor vehicle injured in collision with railway train or railway vehicle : passenger injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1437143545"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of three-wheeled motor vehicle injured in collision with railway train or railway vehicle : person on outside of vehicle injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/820173933"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of three-wheeled motor vehicle injured in collision with railway train or railway vehicle : unspecified occupant of three-wheeled motor vehicle injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/683672763"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of three-wheeled motor vehicle injured in collision with other nonmotor vehicle"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/825900635"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of three-wheeled motor vehicle injured in collision with other nonmotor vehicle : person injured while boarding or alighting"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1170746542"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of three-wheeled motor vehicle injured in collision with other nonmotor vehicle : driver injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/545513784"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of three-wheeled motor vehicle injured in collision with other nonmotor vehicle : passenger injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1412346311"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of three-wheeled motor vehicle injured in collision with other nonmotor vehicle : person on outside of vehicle injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/828734547"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of three-wheeled motor vehicle injured in collision with other nonmotor vehicle : unspecified occupant of three-wheeled motor vehicle injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/692561029"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of three-wheeled motor vehicle injured in collision with fixed or stationary object"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1416754127"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of three-wheeled motor vehicle injured in collision with fixed or stationary object : person injured while boarding or alighting"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1496376365"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of three-wheeled motor vehicle injured in collision with fixed or stationary object : driver injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1014704569"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of three-wheeled motor vehicle injured in collision with fixed or stationary object : passenger injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1222015304"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of three-wheeled motor vehicle injured in collision with fixed or stationary object : person on outside of vehicle injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/765310162"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of three-wheeled motor vehicle injured in collision with fixed or stationary object : unspecified occupant of three-wheeled motor vehicle injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/901737478"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of three-wheeled motor vehicle injured in noncollision transport accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/689497741"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of three-wheeled motor vehicle injured in noncollision transport accident : person injured while boarding or alighting"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/397686673"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of three-wheeled motor vehicle injured in noncollision transport accident : driver injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1929378309"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of three-wheeled motor vehicle injured in noncollision transport accident : passenger injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/106081018"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of three-wheeled motor vehicle injured in noncollision transport accident : person on outside of vehicle injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1662609264"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of three-wheeled motor vehicle injured in noncollision transport accident : unspecified occupant of three-wheeled motor vehicle injured in traffic accident"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2067513272"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fall or thrown from three-wheeled motor vehicle overturning, not otherwise specified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/536225591"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fall or thrown from three-wheeled motor vehicle overturning without collision"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/998144331"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of three-wheeled motor vehicle injured in other and unspecified transport accidents"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1280518937"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Collision NOS involving three-wheeled motor vehicle, traffic"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1280518937"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Accident NOS involving three-wheeled motor vehicle"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1280518937"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupant of three-wheeled motor vehicle trapped by door or other part of three-wheeled motor vehicle"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1070790595"
+    }
+  ]
+}

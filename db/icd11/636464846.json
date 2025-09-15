@@ -1,0 +1,175 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/636464846",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/581725607"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#636464846",
+  "code": "DA21.0",
+  "source": "http://id.who.int/icd/entity/636464846",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Achalasia in Chagas disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1328238426",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/200715565"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/636464846/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1008515027",
+        "http://id.who.int/icd/release/11/2024-01/mms/461716838",
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Achalasia"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Achalasia is an oesophageal smooth muscle motility disorder characterised by a loss of peristalsis in the distal oesophagus and a failure of lower oesophageal sphincter (LES) relaxation. Basic mechanism is the degeneration of neurons (ganglion cells) in the myenteric plexuses in the oesophageal wall, but the cause is still unclear."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cardiospasm"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "congenital cardiospasm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/398153442",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1999264345"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Achalasia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "aperistalsis of the oesophagus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cardiospasm"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "achalasia of cardia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "achalasia of oesophagus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "oesophageal achalasia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "achalasia NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cardia spasm"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cardia achalasia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "oesophageal cardiospasm"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "oesophagus achalasia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "reflex cardiospasm"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary achalasia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/396058084"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Idiopathic achalasia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/396058084"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Non-Chagas achalasia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/396058084"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Familial primary achalasia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/265869596"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sporadic primary achalasia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/505440999"
+    }
+  ]
+}

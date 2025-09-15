@@ -1,0 +1,90 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1796725162",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1416283029"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/493878691",
+    "http://id.who.int/icd/release/11/2024-01/mms/2015637559",
+    "http://id.who.int/icd/release/11/2024-01/mms/210329800",
+    "http://id.who.int/icd/release/11/2024-01/mms/1774366046",
+    "http://id.who.int/icd/release/11/2024-01/mms/1853976119",
+    "http://id.who.int/icd/release/11/2024-01/mms/1895932929",
+    "http://id.who.int/icd/release/11/2024-01/mms/1796725162/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1796725162/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1796725162",
+  "code": "NC16",
+  "source": "http://id.who.int/icd/entity/1796725162",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1796725162/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1796725162/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1625682921",
+        "http://id.who.int/icd/release/11/2024-01/mms/2009962281",
+        "http://id.who.int/icd/release/11/2024-01/mms/1420325015",
+        "http://id.who.int/icd/release/11/2024-01/mms/2078693232",
+        "http://id.who.int/icd/release/11/2024-01/mms/2117001025",
+        "http://id.who.int/icd/release/11/2024-01/mms/1762048897",
+        "http://id.who.int/icd/release/11/2024-01/mms/469229825",
+        "http://id.who.int/icd/release/11/2024-01/mms/965535960",
+        "http://id.who.int/icd/release/11/2024-01/mms/782535704",
+        "http://id.who.int/icd/release/11/2024-01/mms/1036497592",
+        "http://id.who.int/icd/release/11/2024-01/mms/355731773",
+        "http://id.who.int/icd/release/11/2024-01/mms/254362563",
+        "http://id.who.int/icd/release/11/2024-01/mms/543646758",
+        "http://id.who.int/icd/release/11/2024-01/mms/927924454",
+        "http://id.who.int/icd/release/11/2024-01/mms/238529958",
+        "http://id.who.int/icd/release/11/2024-01/mms/507580094",
+        "http://id.who.int/icd/release/11/2024-01/mms/157903486",
+        "http://id.who.int/icd/release/11/2024-01/mms/658088958",
+        "http://id.who.int/icd/release/11/2024-01/mms/1122016702",
+        "http://id.who.int/icd/release/11/2024-01/mms/383120589",
+        "http://id.who.int/icd/release/11/2024-01/mms/820356986",
+        "http://id.who.int/icd/release/11/2024-01/mms/1108671994",
+        "http://id.who.int/icd/release/11/2024-01/mms/1327616966"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1796725162/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482",
+        "http://id.who.int/icd/release/11/2024-01/mms/755612283"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Injury of muscle, fascia, tendon or bursa at shoulder or upper arm level"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "injury of muscle and tendon at or below elbow"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1020432819",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1020432819"
+    }
+  ]
+}

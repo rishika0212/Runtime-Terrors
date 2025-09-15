@@ -1,0 +1,150 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1833082125",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1008592825"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1833082125",
+  "code": "PE84",
+  "source": "http://id.who.int/icd/entity/1833082125",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1833082125/postcoordinationScale/medication",
+      "axisName": "http://id.who.int/icd/schema/medication",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1135938564",
+        "http://id.who.int/icd/release/11/2024-01/mms/1769423691",
+        "http://id.who.int/icd/release/11/2024-01/mms/706936574",
+        "http://id.who.int/icd/release/11/2024-01/mms/1146813847",
+        "http://id.who.int/icd/release/11/2024-01/mms/1864779620",
+        "http://id.who.int/icd/release/11/2024-01/mms/15834078",
+        "http://id.who.int/icd/release/11/2024-01/mms/372654131"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1833082125/postcoordinationScale/activityWhenInjured",
+      "axisName": "http://id.who.int/icd/schema/activityWhenInjured",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2071638841",
+        "http://id.who.int/icd/release/11/2024-01/mms/1107435129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1428847289",
+        "http://id.who.int/icd/release/11/2024-01/mms/821249273",
+        "http://id.who.int/icd/release/11/2024-01/mms/160164281"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1833082125/postcoordinationScale/placeOfOccurrence",
+      "axisName": "http://id.who.int/icd/schema/placeOfOccurrence",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowedExceptFromSameBlock",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1081404635",
+        "http://id.who.int/icd/release/11/2024-01/mms/1786773723"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1833082125/postcoordinationScale/aspectsOfAssaultAndMaltreatment",
+      "axisName": "http://id.who.int/icd/schema/aspectsOfAssaultAndMaltreatment",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowedExceptFromSameBlock",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1115077034",
+        "http://id.who.int/icd/release/11/2024-01/mms/665815018",
+        "http://id.who.int/icd/release/11/2024-01/mms/814211882"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Assault by exposure to or harmful effects of analgesics, antipyretics or nonsteroidal anti-inflammatory drugs"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of analgesics, antipyretics or nonsteroidal anti-inflammatory drugs"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "homicidal poisoning by exposure to or harmful effects of analgesics, antipyretics or nonsteroidal anti-inflammatory drugs"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of aspirin"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/972648458"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of other salicylates"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/55000302"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of paracetamol"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1559128001"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of 4-Aminophenol derivatives"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/933382998"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of pyrazolone derivatives"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/372734010"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of ibuprofen"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/155478302"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of other propionic acid derivatives"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/872031738"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of indomethacin"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1138703877"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of other nonsteroidal anti-inflammatory drugs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2089364063"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of antirheumatics, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/763054638"
+    }
+  ]
+}

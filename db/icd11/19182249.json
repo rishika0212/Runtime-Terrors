@@ -1,0 +1,76 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/19182249",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1871672644"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/556031133",
+    "http://id.who.int/icd/release/11/2024-01/mms/1097625254",
+    "http://id.who.int/icd/release/11/2024-01/mms/19182249/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/19182249/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#19182249",
+  "code": "DA42.4",
+  "source": "http://id.who.int/icd/entity/19182249",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/19182249/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1290701352"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/19182249/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/19182249/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Allergic gastritis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Gastritis due to allergic disorders, principally meaning acute gastritis that occurs secondary to food allergy. But this also includes allergic gastritis due to non-food substances and allergic gastritis due to non-IgE-mediated hypersensitivity. This includes gastroduodenitis and gastroenteritis."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Allergic eosinophilic gastritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1944772274",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1944772274"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Food-induced eosinophilic gastroenteritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/837067101",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/837067101"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ]
+}

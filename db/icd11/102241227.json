@@ -1,0 +1,74 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/102241227",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1845275831"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#102241227",
+  "code": "9D00.1",
+  "source": "http://id.who.int/icd/entity/102241227",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/102241227/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/102241227/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1027961521"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Hypermetropia"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A refractive error in which rays of light entering the eye parallel to the optic axis are brought to a focus behind the retina, as a result of the eyeball being too short from front to back. It is also called farsightedness because the near point is more distant than it is in emmetropia with an equal amplitude of accommodation."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hypermetropia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "far-sightedness"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "farsighted"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "farsightedness"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hyperopia"
+      }
+    }
+  ]
+}

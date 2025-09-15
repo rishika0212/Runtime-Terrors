@@ -1,0 +1,244 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1159629836",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/775356003"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1159629836",
+  "code": "DC50.2",
+  "source": "http://id.who.int/icd/entity/1159629836",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1159629836/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1924631190"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1159629836/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1159629836/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1159629836/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Peritoneal abscess"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A confined collection of inflammatory exudate in peritonitis."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1237785289"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Peritoneal abscess"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pelvic peritoneal abscess"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "abscess of peritoneum"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pelvic abscess NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "intraperitoneal abscess"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "male pelvic peritoneal abscess"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "male peritoneal pelvic abscess"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "extraperitoneal abscess"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Abdominal abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1317471947"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "abdominal cavity abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1317471947"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "abdominopelvic abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1317471947"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "intra-abdominal abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1317471947"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Omental abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1352160959"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "abscess of omentum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1352160959"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Perforated peritoneal abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1001150976"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ruptured peritoneal abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1001150976"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Prevertebral abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/561501211"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Retrocaecal abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/531298020"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Retroperitoneal abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1690942291"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "retroperitoneum abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1690942291"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Suprapelvic abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1712252105"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Subdiaphragmatic abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1854449217"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "diaphragmatic abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1854449217"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Subhepatic abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/833556468"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Subphrenic abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/196539238"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mesenteric abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/803290434"
+    }
+  ]
+}

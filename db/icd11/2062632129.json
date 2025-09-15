@@ -1,0 +1,88 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2062632129",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1416283029"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1086750",
+    "http://id.who.int/icd/release/11/2024-01/mms/1700485256",
+    "http://id.who.int/icd/release/11/2024-01/mms/301336695",
+    "http://id.who.int/icd/release/11/2024-01/mms/1958594019",
+    "http://id.who.int/icd/release/11/2024-01/mms/122902135",
+    "http://id.who.int/icd/release/11/2024-01/mms/1645779939",
+    "http://id.who.int/icd/release/11/2024-01/mms/1946027658",
+    "http://id.who.int/icd/release/11/2024-01/mms/2062632129/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/2062632129/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2062632129",
+  "code": "NC14",
+  "source": "http://id.who.int/icd/entity/2062632129",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2062632129/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2062632129/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1465458373",
+        "http://id.who.int/icd/release/11/2024-01/mms/1303393405",
+        "http://id.who.int/icd/release/11/2024-01/mms/166985238",
+        "http://id.who.int/icd/release/11/2024-01/mms/1115294166",
+        "http://id.who.int/icd/release/11/2024-01/mms/1374508862",
+        "http://id.who.int/icd/release/11/2024-01/mms/58516504",
+        "http://id.who.int/icd/release/11/2024-01/mms/363765077",
+        "http://id.who.int/icd/release/11/2024-01/mms/1902726514",
+        "http://id.who.int/icd/release/11/2024-01/mms/246233550",
+        "http://id.who.int/icd/release/11/2024-01/mms/1935818403",
+        "http://id.who.int/icd/release/11/2024-01/mms/223134782"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2062632129/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/425464783"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2062632129/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482",
+        "http://id.who.int/icd/release/11/2024-01/mms/755612283"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Injury of nerves at shoulder or upper arm level"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury of brachial plexus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/617572888",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/617572888"
+    }
+  ]
+}

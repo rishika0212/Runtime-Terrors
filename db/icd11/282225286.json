@@ -1,0 +1,102 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/282225286",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2135151223"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1916294688",
+    "http://id.who.int/icd/release/11/2024-01/mms/1830681485",
+    "http://id.who.int/icd/release/11/2024-01/mms/316495940",
+    "http://id.who.int/icd/release/11/2024-01/mms/1971033419",
+    "http://id.who.int/icd/release/11/2024-01/mms/30852532",
+    "http://id.who.int/icd/release/11/2024-01/mms/478139552",
+    "http://id.who.int/icd/release/11/2024-01/mms/702771512",
+    "http://id.who.int/icd/release/11/2024-01/mms/848543944",
+    "http://id.who.int/icd/release/11/2024-01/mms/282225286/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/282225286/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#282225286",
+  "code": "BC43",
+  "source": "http://id.who.int/icd/entity/282225286",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ischaemic cardiomyopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1259725625",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1259725625"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pacing-induced cardiomyopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/334355127",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/334355127"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cardiomyopathy in the puerperium"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1218807936",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1218807936"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/282225286/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1008515027",
+        "http://id.who.int/icd/release/11/2024-01/mms/1671987290",
+        "http://id.who.int/icd/release/11/2024-01/mms/155258022",
+        "http://id.who.int/icd/release/11/2024-01/mms/1296093776",
+        "http://id.who.int/icd/release/11/2024-01/mms/1458683894",
+        "http://id.who.int/icd/release/11/2024-01/mms/1119203708"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/282225286/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/480150735",
+        "http://id.who.int/icd/release/11/2024-01/mms/2092499426",
+        "http://id.who.int/icd/release/11/2024-01/mms/1916700472"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Cardiomyopathy"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "These are myocardial disorders in which the heart muscle is structurally and functionally abnormal, in the absence of coronary artery disease, hypertension, valvular disease and congenital heart disease sufficient to cause the observed myocardial abnormality."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Inflammatory cardiomyopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1018829714",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1018829714"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myocarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1018829714",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1018829714"
+    }
+  ]
+}

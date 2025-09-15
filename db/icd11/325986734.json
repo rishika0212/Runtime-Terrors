@@ -1,0 +1,77 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/325986734",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/146528463"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#325986734",
+  "code": "9B63",
+  "source": "http://id.who.int/icd/entity/325986734",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Choroidal rupture"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/798303833",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/798303833"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/325986734/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Choroidal haemorrhage or rupture"
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Expulsive choroidal haemorrhage"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1530427046"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Choroidal haemorrhage or rupture"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Expulsive choroidal haemorrhage"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1530427046"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "expulsive haemorrhage"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1530427046"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Choroidal haemorrhage, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1031641503"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/761947693",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/924915526"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1917449952",
+    "http://id.who.int/icd/release/11/2024-01/mms/1461918574",
+    "http://id.who.int/icd/release/11/2024-01/mms/1788452129",
+    "http://id.who.int/icd/release/11/2024-01/mms/761947693/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/761947693/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#761947693",
+  "code": "BA00",
+  "source": "http://id.who.int/icd/entity/761947693",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pre-existing essential hypertension complicating pregnancy, childbirth or the puerperium"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1126579721",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1126579721"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/761947693/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1002963291"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Essential hypertension"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Essential (primary) hypertension, accounting for 95% of all cases of hypertension, is defined as high blood pressure for which a secondary cause cannot be found."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Defined through the measurement of the blood pressure using cuff method with a sitting systolic blood pressure above 140mmHg or a sitting diastolic blood pressure above 90mmHg in three consequent measurements. No specific medical cause can be found."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "high blood pressure"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cerebrovascular diseases"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/843843448",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/843843448"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Background retinopathy and retinal vascular changes"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1564321837",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1564321837"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1910517058"
+  ]
+}

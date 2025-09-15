@@ -1,0 +1,129 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/777924269",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1059873720"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/464855259",
+    "http://id.who.int/icd/release/11/2024-01/mms/2104517003",
+    "http://id.who.int/icd/release/11/2024-01/mms/933854832"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#777924269",
+  "code": "BA81",
+  "source": "http://id.who.int/icd/entity/777924269",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/777924269/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1642334362",
+        "http://id.who.int/icd/release/11/2024-01/mms/787267597"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/777924269/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/718946808",
+        "http://id.who.int/icd/release/11/2024-01/mms/1334938734",
+        "http://id.who.int/icd/release/11/2024-01/mms/993844371",
+        "http://id.who.int/icd/release/11/2024-01/mms/904209735",
+        "http://id.who.int/icd/release/11/2024-01/mms/1829545371/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Coronary artery aneurysm"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Coronary dilatation which exceeds the diameter of normal adjacent segments or the diameter of the patient's largest coronary vessel by 1.5 times."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital coronary arterial aneurysm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1376805686",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/902783759"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mucocutaneous lymph node syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/540285662",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/540285662"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Coronary artery aneurysm"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "aneurysm of coronary vessels"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "aneurysmal lesion of coronary artery"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "arteriovenous aneurysm of coronary vessels"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "coronary aneurysm"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "atherosclerotic coronary artery aneurysm"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "arteriosclerotic coronary aneurysm"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "giant coronary artery aneurysm"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "arteriosclerotic coronary artery aneurysm"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "coronary artery ectasia"
+      }
+    }
+  ]
+}

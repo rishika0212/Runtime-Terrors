@@ -1,0 +1,100 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1861887729",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1468065226"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1861887729",
+  "code": "GC01.2",
+  "source": "http://id.who.int/icd/entity/1861887729",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1861887729/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/157646292"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Diverticulum of bladder"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition of the bladder, caused by congenital or acquired obstruction to the bladder outlet, a bladder dysfunction following a nerve injury, or a prior bladder surgery. This condition is characterised by balloon-like protrusions on the bladder lining, leading to an area of weakness in the bladder wall. This condition may be asymptomatic, or present with recurrent bladder infections, difficulty urinating, or abdominal fullness. Confirmation is by contrast radiography or cystoscopy."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "A condition characterized by balloon-like growths on the bladder commonly associated with a chronic outflow obstruction usually found in pairs on opposite sides of the bladder that may lead to infection, rupture, or even cancer."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital diverticulum of urinary bladder"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/17481526",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/17481526"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Urachal diverticulum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1816352256",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/283910751"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hutch-diverticulum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/17481526",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/17481526"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Diverticulum of bladder"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bladder diverticula"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "vesical diverticulum"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bladder sacculation"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bladder diverticulosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2003603933"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Diverticulitis of bladder"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1984075885"
+    }
+  ]
+}

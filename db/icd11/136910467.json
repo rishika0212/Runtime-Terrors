@@ -1,0 +1,55 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/136910467",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1611601779"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#136910467",
+  "code": "9D43",
+  "source": "http://id.who.int/icd/entity/136910467",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/136910467/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Impairment of contrast vision"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Contrast sensitivity refers to the ability to distinguish small differences in brightness between adjacent surfaces.\n\nPeak Contrast sensitivity refers to the smallest differences that are discernible for large stimuli.\n\nFor smaller objects, such as those involved in many Activities of Daily Living, contrast sensitivity interacts with visual acuity and visual field. Better contrast makes smaller details visible. The visual field is larger for stronger stimuli."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Impairment of contrast vision"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Moderate Impairment of Contrast vision"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2118304475"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Profound Impairment of Contrast vision"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2096453244"
+    }
+  ]
+}

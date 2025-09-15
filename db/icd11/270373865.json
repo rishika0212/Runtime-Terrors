@@ -1,0 +1,65 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/270373865",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/522973276"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#270373865",
+  "code": "1B71.0",
+  "source": "http://id.who.int/icd/entity/270373865",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neonatal streptococcal necrotising fasciitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/773251916",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1681155693"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/270373865/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/223243926",
+        "http://id.who.int/icd/release/11/2024-01/mms/947150833",
+        "http://id.who.int/icd/release/11/2024-01/mms/1810600222"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Streptococcal necrotising fasciitis"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neonatal necrotising fasciitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1681155693",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1681155693"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/911707612"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Streptococcal necrotising fasciitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Necrotising fasciitis type 2"
+      }
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1867966588",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2046015098"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1867966588",
+  "code": "DB97.2",
+  "source": "http://id.who.int/icd/entity/1867966588",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1867966588/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Chronic hepatitis, not elsewhere classified"
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic hepatitis, unspecified"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Other specified chronic hepatitis"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hepatitis (chronic): granulomatous NEC"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/977870982",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/977870982"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced or toxic liver disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2125493521",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2125493521"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hepatitis (chronic): viral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/985510409",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/985510409"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hepatitis (chronic): alcoholic"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/229221394",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/229221394"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic hepatitis, not elsewhere classified"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic hepatitis, unspecified"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic active hepatitis NEC"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Other specified chronic hepatitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic persistent hepatitis NEC"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic lobular hepatitis NEC"
+      }
+    }
+  ]
+}

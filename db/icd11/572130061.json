@@ -1,0 +1,160 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/572130061",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/437702716"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#572130061",
+  "code": "BD11.1",
+  "source": "http://id.who.int/icd/entity/572130061",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/572130061/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/206731332",
+        "http://id.who.int/icd/release/11/2024-01/mms/1232119755",
+        "http://id.who.int/icd/release/11/2024-01/mms/537685513",
+        "http://id.who.int/icd/release/11/2024-01/mms/175684441"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/572130061/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1651053999",
+        "http://id.who.int/icd/release/11/2024-01/mms/119724091",
+        "http://id.who.int/icd/release/11/2024-01/mms/1150913605",
+        "http://id.who.int/icd/release/11/2024-01/mms/381961554",
+        "http://id.who.int/icd/release/11/2024-01/mms/1697306310",
+        "http://id.who.int/icd/release/11/2024-01/mms/1492142148",
+        "http://id.who.int/icd/release/11/2024-01/mms/1210166201",
+        "http://id.who.int/icd/release/11/2024-01/mms/1015872326",
+        "http://id.who.int/icd/release/11/2024-01/mms/1280712786",
+        "http://id.who.int/icd/release/11/2024-01/mms/1121431779",
+        "http://id.who.int/icd/release/11/2024-01/mms/2135151223",
+        "http://id.who.int/icd/release/11/2024-01/mms/197934298"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Left ventricular failure with mid range ejection fraction"
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1380872553"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1611051049"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Left ventricular failure with mid range ejection fraction"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "HFmEF - [heart failure with mid range ejection fraction]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Left ventricular failure with mid range ejection fraction due to cardiomyopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/151164685"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Left ventricular failure with mid range ejection fraction due to coronary artery disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/751815375"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Left ventricular failure with mid range ejection fraction due to myocarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2004662188"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Left ventricular failure with mid range ejection fraction due to other disorders"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1234867684"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Left ventricular failure with mid range ejection fraction due to valvular heart disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1817692200"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Left ventricular failure with mid range ejection fraction NYHA Class I"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/187475415"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Left ventricular failure with mid range ejection fraction NYHA Class I - no limitation of physical activity. Ordinary physical activity does not cause undue fatigue, palpitation , dyspnoea (shortness of breath)"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/187475415"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Left ventricular failure with mid range ejection fraction NYHA Class II"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1257350274"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Left ventricular failure with mid range ejection fraction NYHA Class II - slight limitation of physical activity. Comfortable at rest. Ordinary physical activity results in fatigue, palpitation, dyspnoea (shortness of breath)"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1257350274"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Left ventricular failure with mid range ejection fraction NYHA Class III"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1272950066"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Left ventricular failure with mid range ejection fraction NYHA Class III - marked limitation of physical activity. Comfortable at rest. Less than ordinary activity causes fatigue, palpitation or dyspnoea (shortness of breath)"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1272950066"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Left ventricular failure with mid range ejection fraction NYHA Class IV"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1199865735"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Left ventricular failure with mid range ejection fraction NYHA Class IV - unable to carry on any physical activity without discomfort. Symptoms of heart failure at rest. If any physical activity is undertaken, discomfort increases."
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1199865735"
+    }
+  ]
+}

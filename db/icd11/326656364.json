@@ -1,0 +1,42 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/326656364",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1596449540"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#326656364",
+  "code": "1B93.3",
+  "source": "http://id.who.int/icd/entity/326656364",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/326656364/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/622600769",
+        "http://id.who.int/icd/release/11/2024-01/mms/1683090852"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Plague meningitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Plague meningitis is a zoonotic disease caused by Yersinia pestis (formerly known as Pasteurella pestis) that involves the central nervous system."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/911707612"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Plague meningitis"
+      }
+    }
+  ]
+}

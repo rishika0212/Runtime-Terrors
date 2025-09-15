@@ -1,0 +1,129 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/229491232",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1450176443"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#229491232",
+  "code": "PB26",
+  "source": "http://id.who.int/icd/entity/229491232",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/229491232/postcoordinationScale/medication",
+      "axisName": "http://id.who.int/icd/schema/medication",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1725563933",
+        "http://id.who.int/icd/release/11/2024-01/mms/1288265027",
+        "http://id.who.int/icd/release/11/2024-01/mms/245438847",
+        "http://id.who.int/icd/release/11/2024-01/mms/70041107",
+        "http://id.who.int/icd/release/11/2024-01/mms/831310359",
+        "http://id.who.int/icd/release/11/2024-01/mms/1864062392",
+        "http://id.who.int/icd/release/11/2024-01/mms/15396639",
+        "http://id.who.int/icd/release/11/2024-01/mms/32860566",
+        "http://id.who.int/icd/release/11/2024-01/mms/699744392"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/229491232/postcoordinationScale/activityWhenInjured",
+      "axisName": "http://id.who.int/icd/schema/activityWhenInjured",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2071638841",
+        "http://id.who.int/icd/release/11/2024-01/mms/1107435129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1428847289",
+        "http://id.who.int/icd/release/11/2024-01/mms/821249273",
+        "http://id.who.int/icd/release/11/2024-01/mms/160164281"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/229491232/postcoordinationScale/placeOfOccurrence",
+      "axisName": "http://id.who.int/icd/schema/placeOfOccurrence",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowedExceptFromSameBlock",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1081404635",
+        "http://id.who.int/icd/release/11/2024-01/mms/1786773723"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Unintentional exposure to or harmful effects of antipsychotics"
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "accidental overdose of antipsychotics"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Substances associated with injury or harm in therapeutic use"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1583926619",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1583926619"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unintentional exposure to or harmful effects of antipsychotics"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "accidental overdose of antipsychotics"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "accidental poisoning by antipsychotics"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "antipsychotics taken in error"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unintentional exposure to or harmful effects of phenothiazine antipsychotics or neuroleptics"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1922490687"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unintentional exposure to or harmful effects of butyrophenone or thiothixene neuroleptics"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1031524668"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unintentional exposure to or harmful effects of typical, second-generation antipsychotics"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1748248437"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unintentional exposure to or harmful effects of lithium carbonate"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/954748596"
+    }
+  ]
+}

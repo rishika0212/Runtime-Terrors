@@ -1,0 +1,56 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1574794059",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1864248550"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1508682005",
+    "http://id.who.int/icd/release/11/2024-01/mms/1017603201",
+    "http://id.who.int/icd/release/11/2024-01/mms/1208628350",
+    "http://id.who.int/icd/release/11/2024-01/mms/759298540",
+    "http://id.who.int/icd/release/11/2024-01/mms/1330247445",
+    "http://id.who.int/icd/release/11/2024-01/mms/704789121",
+    "http://id.who.int/icd/release/11/2024-01/mms/1574794059/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1574794059/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1574794059",
+  "code": "JA84",
+  "source": "http://id.who.int/icd/entity/1574794059",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1574794059/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1256072522",
+        "http://id.who.int/icd/release/11/2024-01/mms/1072810807",
+        "http://id.who.int/icd/release/11/2024-01/mms/1870963963",
+        "http://id.who.int/icd/release/11/2024-01/mms/551370781",
+        "http://id.who.int/icd/release/11/2024-01/mms/1539689118",
+        "http://id.who.int/icd/release/11/2024-01/mms/1261139312",
+        "http://id.who.int/icd/release/11/2024-01/mms/148580117"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Maternal care for known or suspected abnormality of pelvic organs"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition characterised by the provision of health interventions to the mother due to some abnormality that is either suspected or known to be present in one or more of her pelvic organs."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Obstructed labour due to maternal pelvic abnormality"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/348663581",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/348663581"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1425921467",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/911859018"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/396516864",
+    "http://id.who.int/icd/release/11/2024-01/mms/45264155",
+    "http://id.who.int/icd/release/11/2024-01/mms/770000396",
+    "http://id.who.int/icd/release/11/2024-01/mms/1425921467/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1425921467",
+  "code": "2C11",
+  "source": "http://id.who.int/icd/entity/1425921467",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1425921467/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1337584902",
+        "http://id.who.int/icd/release/11/2024-01/mms/1515005003",
+        "http://id.who.int/icd/release/11/2024-01/mms/899820155",
+        "http://id.who.int/icd/release/11/2024-01/mms/1651798887",
+        "http://id.who.int/icd/release/11/2024-01/mms/616736219",
+        "http://id.who.int/icd/release/11/2024-01/mms/532265365",
+        "http://id.who.int/icd/release/11/2024-01/mms/1924631190"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1425921467/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1425921467/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1409966790",
+        "http://id.who.int/icd/release/11/2024-01/mms/896293199",
+        "http://id.who.int/icd/release/11/2024-01/mms/1094217460",
+        "http://id.who.int/icd/release/11/2024-01/mms/238069351"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1425921467/postcoordinationScale/hasAlternativeSeverity2",
+      "axisName": "http://id.who.int/icd/schema/hasAlternativeSeverity2",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1863636238",
+        "http://id.who.int/icd/release/11/2024-01/mms/885826145",
+        "http://id.who.int/icd/release/11/2024-01/mms/1746207012",
+        "http://id.who.int/icd/release/11/2024-01/mms/303697349"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Malignant neoplasms of other or ill-defined digestive organs"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A primary malignant tumour involving a digestive organ or organs not coded elsewhere (including intestinal tract [part unspecified], overlapping lesions of the digestive tract and other ill-defined sites within the digestive system)"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant neoplasms of retroperitoneum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1731312506",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1731312506"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant neoplasms of peritoneum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/315445782",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/315445782"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant mesenchymal neoplasms"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1965082709",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1965082709"
+    }
+  ]
+}

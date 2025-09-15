@@ -1,0 +1,92 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2044833589",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/794095161"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/342470657",
+    "http://id.who.int/icd/release/11/2024-01/mms/603623807",
+    "http://id.who.int/icd/release/11/2024-01/mms/2044833589/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2044833589",
+  "code": "2B69",
+  "source": "http://id.who.int/icd/entity/2044833589",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant neoplasms of pharyngeal tonsil"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1582541971",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1582541971"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant neoplasms of lingual tonsil"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1784082025",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1784082025"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2044833589/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1210705113"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2044833589/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2044833589/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1409966790",
+        "http://id.who.int/icd/release/11/2024-01/mms/896293199",
+        "http://id.who.int/icd/release/11/2024-01/mms/1094217460",
+        "http://id.who.int/icd/release/11/2024-01/mms/238069351"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2044833589/postcoordinationScale/hasAlternativeSeverity2",
+      "axisName": "http://id.who.int/icd/schema/hasAlternativeSeverity2",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1863636238",
+        "http://id.who.int/icd/release/11/2024-01/mms/885826145",
+        "http://id.who.int/icd/release/11/2024-01/mms/1746207012",
+        "http://id.who.int/icd/release/11/2024-01/mms/303697349"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Malignant neoplasms of tonsil"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant mesenchymal neoplasms"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1965082709",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1965082709"
+    }
+  ]
+}

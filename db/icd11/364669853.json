@@ -1,0 +1,50 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/364669853",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/730479772"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/352332054",
+    "http://id.who.int/icd/release/11/2024-01/mms/654966035",
+    "http://id.who.int/icd/release/11/2024-01/mms/364669853/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/364669853/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#364669853",
+  "code": "EB12",
+  "source": "http://id.who.int/icd/entity/364669853",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/364669853/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Erythema multiforme"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Erythema multiforme is a self‐limiting reactive inflammatory dermatosis triggered by cell‐mediated hypersensitivity, most commonly to drugs or infection, particularly Herpes simplex. It is characterised by an eruption of macules, papules, nodules, vesicles and/or bullae affecting preferentially the dorsal aspects of the hands and forearms. It may also involve oral and genital mucous membranes."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stevens-Johnson syndrome or toxic epidermal necrolysis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/195467267",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/195467267"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/2142927078"
+  ]
+}

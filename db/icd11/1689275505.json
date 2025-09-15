@@ -1,0 +1,50 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1689275505",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/458687859"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1689275505",
+  "code": "1G82",
+  "source": "http://id.who.int/icd/entity/1689275505",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1689275505/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1296093776",
+        "http://id.who.int/icd/release/11/2024-01/mms/1473673350",
+        "http://id.who.int/icd/release/11/2024-01/mms/30659757",
+        "http://id.who.int/icd/release/11/2024-01/mms/425464783"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Sequelae of leprosy"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This refers to a pathological condition resulting from a chronic disease caused by the bacteria Mycobacterium leprae and Mycobacterium lepromatosis."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/911707612"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sequelae of leprosy"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "late effect of leprosy"
+      }
+    }
+  ]
+}

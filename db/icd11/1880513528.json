@@ -1,0 +1,80 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1880513528",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/192916160"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/228855241",
+    "http://id.who.int/icd/release/11/2024-01/mms/1760542813",
+    "http://id.who.int/icd/release/11/2024-01/mms/648205140",
+    "http://id.who.int/icd/release/11/2024-01/mms/1880513528/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1880513528/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1880513528",
+  "code": "2E81",
+  "source": "http://id.who.int/icd/entity/1880513528",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Lobular capillary haemangioma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/440675859",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/440675859"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1880513528/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1048482858",
+        "http://id.who.int/icd/release/11/2024-01/mms/2055915829",
+        "http://id.who.int/icd/release/11/2024-01/mms/1144556225",
+        "http://id.who.int/icd/release/11/2024-01/mms/2033392163",
+        "http://id.who.int/icd/release/11/2024-01/mms/1651798887",
+        "http://id.who.int/icd/release/11/2024-01/mms/72252748",
+        "http://id.who.int/icd/release/11/2024-01/mms/328366540",
+        "http://id.who.int/icd/release/11/2024-01/mms/1202131133",
+        "http://id.who.int/icd/release/11/2024-01/mms/687250607"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1880513528/postcoordinationScale/histopathology",
+      "axisName": "http://id.who.int/icd/schema/histopathology",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/595063081",
+        "http://id.who.int/icd/release/11/2024-01/mms/1524303895",
+        "http://id.who.int/icd/release/11/2024-01/mms/1406565436"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Benign vascular neoplasms"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Blue naevus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/289450031",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1757898640"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pigmented naevus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1757898640",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1757898640"
+    }
+  ]
+}

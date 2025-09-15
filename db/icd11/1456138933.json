@@ -1,0 +1,92 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1456138933",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/445309625"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1456138933",
+  "code": "EB41.1",
+  "source": "http://id.who.int/icd/entity/1456138933",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mucous membrane pemphigoid with ocular involvement"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/953963439",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/953963439"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1456138933/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1421494687",
+        "http://id.who.int/icd/release/11/2024-01/mms/72252748",
+        "http://id.who.int/icd/release/11/2024-01/mms/435785772",
+        "http://id.who.int/icd/release/11/2024-01/mms/475546725"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Mucous membrane pemphigoid"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Mucous membrane pemphigoid (MMP) encompasses a heterogeneous group of mucous membrane-dominated autoimmune diseases in which autoantibodies to antigens of the basement membrane zone (BMZ) of mucous membranes and the skin result in subepithelial blistering. MMP may be limited to the conjunctivae (ocular pemphigoid) or to the oral cavity (oral pemphigoid). When the skin is involved, it is generally less extensive and less migratory than in bullous pemphigoid. MMP follows a chronic course and may lead to severe scarring with the attendant risks of loss of vision and oesophageal strictures."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Mucous membrane pemphigoid (MMP) encompasses a heterogeneous group of mucous membrane-dominated autoimmune diseases in which autoantibodies to antigens of the basement membrane zone (BMZ) of mucous membranes and the skin result in subepithelial blistering. Various autoantigens of the BMZ are targeted by IgG and/or IgA autoantibodies or C3; this interaction will be visible as a linear band at the BMZ on immunofluorescence investigation. \n\n\nThe exact mechanisms responsible for MMP are not fully understood. MMP may be limited to the conjunctivae (ocular pemphigoid) or to the oral cavity (oral pemphigoid). When the skin is involved, it is generally less extensive and less migratory than in bullous pemphigoid. MMP of the vulva or penis is less common and may present diagnostic difficulties. MMP follows a chronic course and may lead to severe scarring with the attendant risks of loss of vision and oesophageal strictures."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1405755890"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mucous membrane pemphigoid"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cicatricial pemphigoid"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mucous membrane pemphigoid with oral or oesophageal involvement"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1564989811"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cicatricial pemphigoid of oral mucous membranes"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1564989811"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mucous membrane pemphigoid of vulval mucosa"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1678135834"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mucous membrane pemphigoid of penile mucosa"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/538506632"
+    }
+  ]
+}

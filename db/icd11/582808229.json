@@ -1,0 +1,175 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/582808229",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1423532858"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#582808229",
+  "code": "9A61.6",
+  "source": "http://id.who.int/icd/entity/582808229",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Vitamin A deficiency with conjunctival xerosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1544242475",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1544242475"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Vitamin A deficiency with conjunctival xerosis and Bitot's spots"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/960530623",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/960530623"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/582808229/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/582808229/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/470130163"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Conjunctival or subconjunctival degenerations or deposits"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "These are the conjunctival/subconjunctival accumulation of some materials and gradual deterioration with impairment or loss of function, caused by injury, disease, or aging."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Conjunctival concretions"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1215003615"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Conjunctival cysts or argyrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1526219006"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Conjunctival pigmentations"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/757118539"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Conjunctival xerosis, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1590568415"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Conjunctival or subconjunctival degenerations or deposits"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Conjunctival concretions"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1215003615"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "conjunctival concretion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1215003615"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "conjunctival calculus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1215003615"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "conjunctival calcification"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1215003615"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Conjunctival cysts or argyrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1526219006"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Conjunctival argyrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1138076170"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Conjunctival pigmentations"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/757118539"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Conjunctival melanosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/151827953"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Conjunctival xerosis, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1590568415"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Conjunctival degeneration"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/763685773"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Conjunctival deposits"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1019620128"
+    }
+  ]
+}

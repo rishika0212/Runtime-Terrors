@@ -1,0 +1,77 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1448882621",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/805284915"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2076848369",
+    "http://id.who.int/icd/release/11/2024-01/mms/1521651398",
+    "http://id.who.int/icd/release/11/2024-01/mms/1073300304",
+    "http://id.who.int/icd/release/11/2024-01/mms/773840443",
+    "http://id.who.int/icd/release/11/2024-01/mms/1576095151",
+    "http://id.who.int/icd/release/11/2024-01/mms/1328498507",
+    "http://id.who.int/icd/release/11/2024-01/mms/1263801263",
+    "http://id.who.int/icd/release/11/2024-01/mms/693902674",
+    "http://id.who.int/icd/release/11/2024-01/mms/1448882621/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1448882621/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1448882621",
+  "code": "NA80",
+  "source": "http://id.who.int/icd/entity/1448882621",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sequelae of superficial injury or open wound of neck or trunk"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/291704025",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/435227771/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1448882621/postcoordinationScale/typeOfInjury",
+      "axisName": "http://id.who.int/icd/schema/typeOfInjury",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/377475788",
+        "http://id.who.int/icd/release/11/2024-01/mms/1306914119",
+        "http://id.who.int/icd/release/11/2024-01/mms/2040998541",
+        "http://id.who.int/icd/release/11/2024-01/mms/1442982067",
+        "http://id.who.int/icd/release/11/2024-01/mms/1704055292",
+        "http://id.who.int/icd/release/11/2024-01/mms/2010469183",
+        "http://id.who.int/icd/release/11/2024-01/mms/1124176890"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1448882621/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/17625777"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1448882621/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482",
+        "http://id.who.int/icd/release/11/2024-01/mms/755612283"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Superficial injury of thorax"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Damage inflicted on the surface or shallow tissues of the thorax as the direct or indirect result of an external force, with or without disruption of structural continuity."
+  }
+}

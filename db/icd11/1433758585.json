@@ -1,0 +1,150 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1433758585",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1656637330"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1433758585",
+  "code": "GB56.5",
+  "source": "http://id.who.int/icd/entity/1433758585",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1433758585/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1433758585/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1507624466"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Hydronephrosis and reflux nephropathy with vesicoureteral or vesico-uretero-renal reflux"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Distention of the pelvis and calices of the kidney with urine as a result of obstruction of the ureter not caused by strictures or stenoses of the ureter or by ureteral stones."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital vesico-uretero-renal reflux"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1136708449",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1136708449"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital hydronephrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/808343797",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/808343797"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hydronephrosis and reflux nephropathy with vesicoureteral or vesico-uretero-renal reflux"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "vesicoureteral-reflux-associated uropathy"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "vesicoureteral uropathy"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hydronephrosis and reflux nephropathy with vesicoureteral or vesico-uretero-renal reflux, acquired"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1228034530"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hydronephrosis and reflux nephropathy with vesicoureteral or vesico-uretero-renal reflux, acquired, due to cause classified elsewhere"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1018011636"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hydronephrosis and reflux nephropathy with vesicoureteral or vesico-uretero-renal reflux, congenital"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1327503640"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ureter reflux"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1150998900"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ureteric reflux"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1150998900"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Vesicoureteral reflux"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2142055506"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Vesicoureteral reflux NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2142055506"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "VUR - [vesicoureteric reflux]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2142055506"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Vesicoureteral reflux with scarring"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/607589343"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Vesicoureteral regurgitation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2001872523"
+    }
+  ]
+}

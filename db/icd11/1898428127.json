@@ -1,0 +1,101 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1898428127",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/727252860"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1898428127",
+  "code": "GA00.0",
+  "source": "http://id.who.int/icd/entity/1898428127",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1898428127/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/475546725"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acute vulvitis"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Streptococcal cellulitis of skin"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/284578658",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/284578658"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Staphylococcal cellulitis of skin"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2033345174",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2033345174"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute vulvitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Allergic vulvitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/73178555"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Atrophic vulvitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1896866136"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Inflammation of labium"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1859862542"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Labial infection"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/21098667"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Radiodermatitis of the vulva"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/610883065"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Vulval cellulitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/536416431"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Vulval infection"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1475678865"
+    }
+  ]
+}

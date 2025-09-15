@@ -1,0 +1,480 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/707709463",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/840155638"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#707709463",
+  "code": "1A72.0",
+  "source": "http://id.who.int/icd/entity/707709463",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/707709463/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/657365008",
+        "http://id.who.int/icd/release/11/2024-01/mms/461235915",
+        "http://id.who.int/icd/release/11/2024-01/mms/711315902",
+        "http://id.who.int/icd/release/11/2024-01/mms/1448567552",
+        "http://id.who.int/icd/release/11/2024-01/mms/1617949731",
+        "http://id.who.int/icd/release/11/2024-01/mms/1312767395"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/707709463/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/216184590",
+        "http://id.who.int/icd/release/11/2024-01/mms/942670067",
+        "http://id.who.int/icd/release/11/2024-01/mms/2058491071"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/707709463/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/312500700"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Gonococcal infection of musculoskeletal system"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is a species of Gram-negative coffee bean-shaped diplococci bacteria responsible for the sexually transmitted infection gonorrhoea. This diagnosis is of the musculoskeletal system."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gonococcal arthritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/488918209"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gonococcal bursitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/360081115"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gonococcal osteomyelitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/212461049"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gonococcal synovitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/491869700"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gonococcal tenosynovitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/534744051"
+    }
+  ],
+  "fullySpecifiedName": {
+    "@language": "en",
+    "@value": "Infection of the musculoskeletal system due to Neisseria gonorrhoeae"
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1477699562"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/911707612"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gonococcal infection of musculoskeletal system"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infection of the musculoskeletal system due to Neisseria gonorrhoeae"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gonococcal infection of joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1787713905"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "gonococcal infection of joint NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1787713905"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gonococcal arthritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/488918209"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute gonococcal arthritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/183445924"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Blennorrhagic arthritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/438677522"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gonococcal bursitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/360081115"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "gonococcal bursitis, site unspecified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/360081115"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gonococcal bursitis, multiple sites"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1200746980"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gonococcal bursitis, shoulder region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/584727666"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gonococcal bursitis, clavicle"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2026437397"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gonococcal bursitis, scapula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2013544811"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gonococcal bursitis, acromioclavicular joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/642754952"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gonococcal bursitis, glenohumeral joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/413764544"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gonococcal bursitis, sternoclavicular joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/744239430"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gonococcal bursitis, upper arm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1450667151"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gonococcal bursitis, humerus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1016506608"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gonococcal bursitis, elbow joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1128821631"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gonococcal bursitis, forearm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/859611419"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gonococcal bursitis, radius"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1918210373"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gonococcal bursitis, ulna"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2081335833"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gonococcal bursitis, wrist joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/63992216"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gonococcal bursitis, hand"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1087517327"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gonococcal bursitis, carpus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2085413625"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gonococcal bursitis, fingers"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/821917433"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gonococcal bursitis, metacarpus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/517065991"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gonococcal bursitis, pelvic region or thigh"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/630849307"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gonococcal bursitis, buttock"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1885697040"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gonococcal bursitis, femur"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/281591483"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gonococcal bursitis, pelvis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1881619698"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gonococcal bursitis, hip joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1035845571"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gonococcal bursitis, sacroiliac joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/56335755"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gonococcal bursitis, lower leg"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1362407398"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gonococcal bursitis, fibula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1672748994"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gonococcal bursitis, knee joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/866438271"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gonococcal bursitis, tibia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1283069938"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gonococcal bursitis, ankle or foot"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/880763504"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gonococcal bursitis, metatarsus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/305266451"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gonococcal bursitis, tarsus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1744616532"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gonococcal bursitis, toes"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/404907997"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gonococcal bursitis, ankle joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/149487211"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gonococcal bursitis, other joints in foot"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/685585961"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gonococcal bursitis, head"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1226209074"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gonococcal bursitis, neck"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1989598922"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gonococcal bursitis, ribs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1215364226"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gonococcal bursitis, skull"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1904958001"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gonococcal bursitis, trunk"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1631699847"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gonococcal bursitis, vertebral column"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/513742856"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gonococcal osteomyelitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/212461049"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gonococcal synovitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/491869700"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gonococcal tenosynovitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/534744051"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gonococcal rheumatism"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/885371282"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gonococcal spondylitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1439203351"
+    }
+  ]
+}

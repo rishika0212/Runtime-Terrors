@@ -1,0 +1,201 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/134353249",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/716675709"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#134353249",
+  "code": "NF0A.7",
+  "source": "http://id.who.int/icd/entity/134353249",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/134353249/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/134353249/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1338477196",
+        "http://id.who.int/icd/release/11/2024-01/mms/687250607",
+        "http://id.who.int/icd/release/11/2024-01/mms/393131222"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/134353249/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/980862652",
+        "http://id.who.int/icd/release/11/2024-01/mms/851395624",
+        "http://id.who.int/icd/release/11/2024-01/mms/73322695",
+        "http://id.who.int/icd/release/11/2024-01/mms/128104623",
+        "http://id.who.int/icd/release/11/2024-01/mms/1491356379",
+        "http://id.who.int/icd/release/11/2024-01/mms/491063206",
+        "http://id.who.int/icd/release/11/2024-01/mms/185842968",
+        "http://id.who.int/icd/release/11/2024-01/mms/2143219175",
+        "http://id.who.int/icd/release/11/2024-01/mms/558785723",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Traumatic subcutaneous emphysema, not elsewhere classified"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "emphysema (subcutaneous) resulting from a procedure"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1952274258",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1952274258"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Traumatic subcutaneous emphysema, not elsewhere classified"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "subcutaneous emphysema"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cutaneous emphysema"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cellular tissue emphysema"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "connective tissue emphysema"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "laminated tissue emphysema"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "traumatic atrophic emphysema"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "traumatic connective tissue emphysema"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "traumatic cellular tissue emphysema"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "traumatic emphysema"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic traumatic emphysema"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1365124619"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Traumatic obstructive pulmonary emphysema"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1085978125"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic traumatic obstructive pulmonary emphysema"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1085978125"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "traumatic obstructive emphysema"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1085978125"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Traumatic eyelid emphysema"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/269501452"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Traumatic lung emphysema"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2049976779"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "traumatic interlobular emphysema"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2049976779"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "traumatic pulmonary emphysema"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2049976779"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Traumatic pneumomediastinum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/777115190"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Traumatic senile emphysema"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/353184028"
+    }
+  ]
+}

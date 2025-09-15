@@ -1,0 +1,76 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1060873089",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/587365414"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1573783249",
+    "http://id.who.int/icd/release/11/2024-01/mms/157319976",
+    "http://id.who.int/icd/release/11/2024-01/mms/1632503092",
+    "http://id.who.int/icd/release/11/2024-01/mms/2033223745",
+    "http://id.who.int/icd/release/11/2024-01/mms/1060873089/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1060873089/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1060873089",
+  "code": "DC14",
+  "source": "http://id.who.int/icd/entity/1060873089",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1060873089/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1202131133"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1060873089/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Certain specified biliary diseases"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is a group of conditions characterised as being in or associated with the biliary tract, the passageway for bile, which are not classified elsewhere."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant neoplasms of hepatobiliary system"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/51765751",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/911859018"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Carcinoma in situ of gallbladder, biliary tract or ampulla of Vater"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2079528867",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2079528867"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Benign neoplasm of gallbladder, extrahepatic bile ducts or ampulla of Vater"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/467010038",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/467010038"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ]
+}

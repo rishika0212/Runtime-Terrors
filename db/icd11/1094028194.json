@@ -1,0 +1,136 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1094028194",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/157616931"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1094028194",
+  "code": "1D84.0",
+  "source": "http://id.who.int/icd/entity/1094028194",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1094028194/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1094028194/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1075681120"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Conjunctivitis due to adenovirus"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition of the conjunctiva, caused by an infection with adenovirus. This condition is characterised by itchy eyes, tearing, redness, discharge, or photophobia (with corneal involvement). Transmission is by direct contact, indirect contact, or droplet transmission."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute adenoviral follicular conjunctivitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Swimming-pool conjunctivitis"
+      }
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/738030718"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/2071159826"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Conjunctivitis due to adenovirus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "adenoviral conjunctivitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute adenoviral follicular conjunctivitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "inclusion conjunctivitis of the adult"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Swimming-pool conjunctivitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Keratoconjunctivitis due to adenovirus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/612255284"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "infectious keratoconjunctivitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/612255284"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "virus keratoconjunctivitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/612255284"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Shipyard eye"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/612255284"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Epidemic keratoconjunctivitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/972253332"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "EKC - [epidemic keratoconjunctivitis]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/972253332"
+    }
+  ]
+}

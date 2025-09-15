@@ -1,0 +1,80 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/536359334",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/21712804"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#536359334",
+  "code": "DB36.10",
+  "source": "http://id.who.int/icd/entity/536359334",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/536359334/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731",
+        "http://id.who.int/icd/release/11/2024-01/mms/1290701352"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/536359334/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Perirectal abscess"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition of the perirectal region, caused by an infection with a bacterial, viral, or fungal source. This condition is characterised by focal accumulation of purulent material within the perirectal region. This condition may present with perirectal pain and swelling, fever, chills, or constipation. Confirmation is commonly by advanced imaging."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Streptococcal cellulitis of skin"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/284578658",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/284578658"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Staphylococcal cellulitis of skin"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2033345174",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2033345174"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Perirectal abscess"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Perirectal cellulitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/417698978"
+    }
+  ]
+}

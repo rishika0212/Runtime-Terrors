@@ -1,0 +1,104 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1180919325",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1332995100"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/994284974",
+    "http://id.who.int/icd/release/11/2024-01/mms/1577605176",
+    "http://id.who.int/icd/release/11/2024-01/mms/715458759",
+    "http://id.who.int/icd/release/11/2024-01/mms/1180919325/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1180919325/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1180919325",
+  "code": "CA80",
+  "source": "http://id.who.int/icd/entity/1180919325",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1180919325/postcoordinationScale/causality",
+      "axisName": "http://id.who.int/icd/schema/causality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/894194405",
+        "http://id.who.int/icd/release/11/2024-01/mms/655959100",
+        "http://id.who.int/icd/release/11/2024-01/mms/56475710"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1180919325/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1180919325/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/980862652",
+        "http://id.who.int/icd/release/11/2024-01/mms/851395624",
+        "http://id.who.int/icd/release/11/2024-01/mms/73322695",
+        "http://id.who.int/icd/release/11/2024-01/mms/128104623",
+        "http://id.who.int/icd/release/11/2024-01/mms/1491356379",
+        "http://id.who.int/icd/release/11/2024-01/mms/491063206",
+        "http://id.who.int/icd/release/11/2024-01/mms/185842968",
+        "http://id.who.int/icd/release/11/2024-01/mms/2143219175",
+        "http://id.who.int/icd/release/11/2024-01/mms/558785723",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Airway disease due to specific organic dust"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Airway disease due to specific organic dust includes airway diseases due to cotton dust or dusts from other vegetable fibres such as flax, cannabis, hemp, or sisal."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Farmer lung"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/666590509",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/666590509"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "reactive airways dysfunction syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/496164464",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1581366987"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hypersensitivity pneumonitis due to organic dust"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/589867913",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/589867913"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bagassosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1123061945",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1123061945"
+    }
+  ]
+}

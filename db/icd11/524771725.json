@@ -1,0 +1,59 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/524771725",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1540965840"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/210807649",
+    "http://id.who.int/icd/release/11/2024-01/mms/11626781",
+    "http://id.who.int/icd/release/11/2024-01/mms/1657035780",
+    "http://id.who.int/icd/release/11/2024-01/mms/524771725/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#524771725",
+  "code": "DA24.2",
+  "source": "http://id.who.int/icd/entity/524771725",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Thermal injury of oesophagus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/860092671",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1671611947"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/524771725/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/72252748"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/524771725/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Oesophagitis due to external causes"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Inflammation of the oesophagus due to external cause such as radiation, ingestion of the alkali and acid, and swallowed pills or food failing to traverse entire oesophagus."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/2140459587"
+  ]
+}

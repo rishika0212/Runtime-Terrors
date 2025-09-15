@@ -1,0 +1,104 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1268315693",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1693512470"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1268315693",
+  "code": "9B78.5",
+  "source": "http://id.who.int/icd/entity/1268315693",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1268315693/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Retinal haemorrhage"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Traumatic retinal haemorrhage"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1868804956",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1868804956"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Retinal haemorrhage"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "intraretinal haemorrhage"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "retinal haemorrhage, unspecified eye"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "retinal haemorrhages"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "preretinal haemorrhage"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "subretinal haemorrhage"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "submembranous retinal haemorrhage"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Haemorrhage of fundus of eye"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/617149286"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Retrohyaloid haemorrhage"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/731153256"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Subhyaloid haemorrhage"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1106683457"
+    }
+  ]
+}

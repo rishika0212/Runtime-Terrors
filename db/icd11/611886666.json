@@ -1,0 +1,62 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/611886666",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1146446025"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/769120660",
+    "http://id.who.int/icd/release/11/2024-01/mms/611886666/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/611886666/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#611886666",
+  "code": "BB90",
+  "source": "http://id.who.int/icd/entity/611886666",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postprocedural pulmonary valve stenosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/617135915",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/617135915"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/611886666/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2136808878",
+        "http://id.who.int/icd/release/11/2024-01/mms/437702716",
+        "http://id.who.int/icd/release/11/2024-01/mms/1754821737",
+        "http://id.who.int/icd/release/11/2024-01/mms/1594578199",
+        "http://id.who.int/icd/release/11/2024-01/mms/1992125824",
+        "http://id.who.int/icd/release/11/2024-01/mms/1458683894/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/1458683894/unspecified"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/611886666/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/562478860",
+        "http://id.who.int/icd/release/11/2024-01/mms/1663264387",
+        "http://id.who.int/icd/release/11/2024-01/mms/1201187093"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Pulmonary valve stenosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Pulmonary valve stenosis is an obstruction at the level of pulmonary valve which impedes the outflow of blood from right ventricle to pulmonary artery."
+  }
+}

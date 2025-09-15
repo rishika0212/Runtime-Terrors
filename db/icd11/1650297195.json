@@ -1,0 +1,66 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1650297195",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1472181647"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1650297195",
+  "code": "NE82.20",
+  "source": "http://id.who.int/icd/entity/1650297195",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1650297195/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/741790660",
+        "http://id.who.int/icd/release/11/2024-01/mms/431804121"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Pacemaker or implantable cardioverter defibrillator lead fracture"
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/59436623"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pacemaker or implantable cardioverter defibrillator lead fracture"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pacemaker or implantable cardioverter defibrillator atrial lead fracture"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1683762407"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pacemaker ventricular lead fracture"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/838214202"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Implantable cardioverter defibrillator ventricular lead fracture"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1228242254"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pacemaker or implantable cardioverter defibrillator coronary sinus lead fracture"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1298994146"
+    }
+  ]
+}

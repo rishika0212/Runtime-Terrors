@@ -1,0 +1,77 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1623925689",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/733496698"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1623925689",
+  "code": "9B75.2",
+  "source": "http://id.who.int/icd/entity/1623925689",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1623925689/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1623925689/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Central serous chorioretinopathy"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is an eye disease which causes visual impairment, often temporary, usually in one eye. When the disorder is active it is characterised by leakage of fluid under the retina that has a propensity to accumulate under the central macula."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Central serous chorioretinopathy"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "central serous retinopathy"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "central serous choroidoretinopathy"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute Central Serous Chorioretinopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1805579540"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic Central Serous Chorioretinopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2138832129"
+    }
+  ]
+}

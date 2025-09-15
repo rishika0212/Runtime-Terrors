@@ -1,0 +1,81 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/710893141",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1314810340"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#710893141",
+  "code": "1F20.00",
+  "source": "http://id.who.int/icd/entity/710893141",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/710893141/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/828922344"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Invasive aspergillosis of the digestive tract"
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Enterocolitis due to aspergillosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/117054880"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hepatic or hepatosplenic aspergillosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/396906584"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Oesophageal aspergillosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1938512147"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1791817517"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Invasive aspergillosis of the digestive tract"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Enterocolitis due to aspergillosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/117054880"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hepatic or hepatosplenic aspergillosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/396906584"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Oesophageal aspergillosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1938512147"
+    }
+  ]
+}

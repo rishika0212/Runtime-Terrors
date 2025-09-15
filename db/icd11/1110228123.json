@@ -1,0 +1,135 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1110228123",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/469673529"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1110228123",
+  "code": "JA65.0",
+  "source": "http://id.who.int/icd/entity/1110228123",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "HELLP syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1748922908",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1748922908"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1110228123/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/760322910",
+        "http://id.who.int/icd/release/11/2024-01/mms/1973223737",
+        "http://id.who.int/icd/release/11/2024-01/mms/1912806631",
+        "http://id.who.int/icd/release/11/2024-01/mms/481852400",
+        "http://id.who.int/icd/release/11/2024-01/mms/469481605",
+        "http://id.who.int/icd/release/11/2024-01/mms/2125493521",
+        "http://id.who.int/icd/release/11/2024-01/mms/1057142191",
+        "http://id.who.int/icd/release/11/2024-01/mms/2046015098",
+        "http://id.who.int/icd/release/11/2024-01/mms/2116214427",
+        "http://id.who.int/icd/release/11/2024-01/mms/224323205",
+        "http://id.who.int/icd/release/11/2024-01/mms/276179448",
+        "http://id.who.int/icd/release/11/2024-01/mms/1784240230/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Liver disorders in pregnancy, childbirth or the puerperium"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Any disorder affecting females, characterised by pathological changes to the liver that occur during pregnancy, childbirth, and the puerperium."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute fatty liver of pregnancy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1226221530"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Intrahepatic cholestasis of pregnancy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1576251337"
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hepatorenal syndrome following labour or delivery"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1939261267",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/994777876"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Viral hepatitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/985510409",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/985510409"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Liver disorders in pregnancy, childbirth or the puerperium"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute fatty liver of pregnancy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1226221530"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "AFLP - [Acute fatty liver of pregnancy]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1226221530"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Intrahepatic cholestasis of pregnancy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1576251337"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Obstetric cholestasis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1576251337"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cholestatic pruritus of pregnancy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/45206262"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Necrosis of liver complicating pregnancy, childbirth or puerperium"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1574185895"
+    }
+  ]
+}

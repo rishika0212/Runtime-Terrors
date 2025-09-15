@@ -1,0 +1,122 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/633330307",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1157134196"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#633330307",
+  "code": "4A41.10",
+  "source": "http://id.who.int/icd/entity/633330307",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/633330307/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/390684604"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Juvenile polymyositis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Juvenile polymyositis is a rare childhood idiopathic inflammatory myopathy. It is frequently misdiagnosed, as it lacks a unique clinical phenotype. Traditionally, it presents with weakness of the proximal muscles that evolves over weeks to months. The primary histologic features are fibre size variability, scattered necrotic and regenerating fibres, and perivascular and endomysial cellular infiltrates."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Systemic sclerosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1084365812",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1084365812"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Overlap or undifferentiated nonorgan specific systemic autoimmune disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/636081762",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/636081762"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Antiphospholipid syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1173370808",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1173370808"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Vasculitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/572581721",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/572581721"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Lupus erythematosus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1443317238",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1443317238"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Juvenile polymyositis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Juvenile polymyositis, necrotising"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1627905326"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Juvenile polymyositis, paraneoplastic"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/251029381"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Juvenile polymyositis with anti-synthetase auto-antibody"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1799798848"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Juvenile polymyositis with interstitial lung disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/347167071"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Juvenile polymyositis with overlap to non-organ specific systemic autoimmune disorder"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/787148073"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Juvenile polymyositis with PM-Scl auto-antibody"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/999991807"
+    }
+  ]
+}

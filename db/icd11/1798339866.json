@@ -1,0 +1,55 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1798339866",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1429730271"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1798339866",
+  "code": "LB90.0",
+  "source": "http://id.who.int/icd/entity/1798339866",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1798339866/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Humero-radio-ulnar synostosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition caused by failure of the arm bones to correctly develop during the antenatal period. This condition is characterised by direct fusion of the humerus to the ulnar and radial bones of the arm, and consequent inability to straighten the elbow joint. This condition may be associated with thalidomide embryopathy. Confirmation is through observation of humero-radio-ulnar fusion by imaging."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Humero-radio-ulnar synostosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Humero-radio-ulnar synostosis, unilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/322904301"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Humero-radio-ulnar synostosis, bilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/557249772"
+    }
+  ]
+}

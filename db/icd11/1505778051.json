@@ -1,0 +1,123 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1505778051",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/840155638"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1505778051",
+  "code": "1A72.4",
+  "source": "http://id.who.int/icd/entity/1505778051",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neonatal conjunctivitis or dacryocystitis due to Neisseria gonorrhoeae"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1255177601",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/358047372"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1505778051/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/831696556",
+        "http://id.who.int/icd/release/11/2024-01/mms/657977518",
+        "http://id.who.int/icd/release/11/2024-01/mms/404886274"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1505778051/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/312500700"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Gonococcal infection of eye"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is a species of Gram-negative coffee bean-shaped diplococci bacteria responsible for the sexually transmitted infection gonorrhoea. This diagnosis is of the eye."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gonococcal anterior uveitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/949004545"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gonococcal conjunctivitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/884042621"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1477699562"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/911707612"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gonococcal infection of eye"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gonococcal anterior uveitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/949004545"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gonococcal iridocyclitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/949004545"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gonococcal conjunctivitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/884042621"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gonococcal conjunctivitis neonatorum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/775287300"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gonococcal keratitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/200847304"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Keratitis blennorrhagica"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/516596722"
+    }
+  ]
+}

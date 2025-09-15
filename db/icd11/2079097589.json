@@ -1,0 +1,115 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2079097589",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/716675709"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2079097589",
+  "code": "NF0A.0",
+  "source": "http://id.who.int/icd/entity/2079097589",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2079097589/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1933239759",
+        "http://id.who.int/icd/release/11/2024-01/mms/832846369",
+        "http://id.who.int/icd/release/11/2024-01/mms/1206540937"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2079097589/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/980862652",
+        "http://id.who.int/icd/release/11/2024-01/mms/851395624",
+        "http://id.who.int/icd/release/11/2024-01/mms/73322695",
+        "http://id.who.int/icd/release/11/2024-01/mms/128104623",
+        "http://id.who.int/icd/release/11/2024-01/mms/1491356379",
+        "http://id.who.int/icd/release/11/2024-01/mms/491063206",
+        "http://id.who.int/icd/release/11/2024-01/mms/185842968",
+        "http://id.who.int/icd/release/11/2024-01/mms/2143219175",
+        "http://id.who.int/icd/release/11/2024-01/mms/558785723",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Air embolism, traumatic, not elsewhere classified"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "air embolism complicating abortion or ectopic or molar pregnancy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/925311663",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/925311663"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "air embolism complicating pregnancy, childbirth and the puerperium"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1508858290",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1508858290"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Air embolism, traumatic, not elsewhere classified"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pulmonary air embolism"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "air embolism"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "arterial air embolism"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "arterial air embolus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "arterial gas embolism"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cerebral air embolism"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pneumatosis arterialis"
+      }
+    }
+  ]
+}

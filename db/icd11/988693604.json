@@ -1,0 +1,103 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/988693604",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2108852140"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#988693604",
+  "code": "NC10.1",
+  "source": "http://id.who.int/icd/entity/988693604",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/988693604/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/988693604/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/533192217",
+        "http://id.who.int/icd/release/11/2024-01/mms/2127070735",
+        "http://id.who.int/icd/release/11/2024-01/mms/1494375321",
+        "http://id.who.int/icd/release/11/2024-01/mms/312192089"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/988693604/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/980862652",
+        "http://id.who.int/icd/release/11/2024-01/mms/851395624",
+        "http://id.who.int/icd/release/11/2024-01/mms/73322695",
+        "http://id.who.int/icd/release/11/2024-01/mms/128104623",
+        "http://id.who.int/icd/release/11/2024-01/mms/1491356379",
+        "http://id.who.int/icd/release/11/2024-01/mms/491063206",
+        "http://id.who.int/icd/release/11/2024-01/mms/185842968",
+        "http://id.who.int/icd/release/11/2024-01/mms/2143219175",
+        "http://id.who.int/icd/release/11/2024-01/mms/558785723",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Contusion of shoulder or upper arm"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Contusion of shoulder or upper arm"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Contusion of axilla"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/205697664"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "axillary contusion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/205697664"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Contusion of scapular region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/697298756"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Contusion of shoulder"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1911473338"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Contusion of upper arm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1325983474"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/406818835",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/542527938"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#406818835",
+  "code": "8E02.1",
+  "source": "http://id.who.int/icd/entity/406818835",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/406818835/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1206955889"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Gerstmann-Straussler-Scheinker syndrome"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease caused by inheritance of mutation(s) in normal prion protein genes. This disease is characterised by cerebellar ataxia, decreased coordination, dysmetria, or dysarthria, and is fatal. Confirmation is by pathological examination of the brain and genetic testing."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Gerstmann-Straussler-Scheinker syndrome was initially described as an autosomal dominant neurodegenerative disease with slowly progressive cerebellar ataxia and kuru-like plaques in the cerebellum, and later found to be caused by P102L (proline to leucine at codon 102) mutation of PRNP. There are now many mutations known to cause this phenotype of prion disease."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gerstmann syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1121787098",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1121787098"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/564191997"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gerstmann-Straussler-Scheinker syndrome"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gerstmann Straussler syndrome"
+      }
+    }
+  ]
+}

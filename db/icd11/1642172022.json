@@ -1,0 +1,138 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1642172022",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1539889147"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1642172022",
+  "code": "1B51",
+  "source": "http://id.who.int/icd/entity/1642172022",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1642172022/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1839638766"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Streptococcal pharyngitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease of the pharynx, caused by an infection with the gram-positive bacteria Streptococcus pyogenes. This disease is characterised by fever, sore throat, tonsillar exudates, or large cervical lymph nodes. Transmission is commonly by inhalation of infected respiratory secretions, or indirect contact. Confirmation is by identification of Streptococcus pyogenes from a throat swab."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "This is a type of pharyngitis caused by a group A streptococcal infection. Common signs and symptoms of streptococcal pharyngitis include sore throat, temperature greater than 100.4°F (38°C), tonsillar exudates, and cervical adenopathy. Cough, coryza, and diarrhea are more common with viral pharyngitis. Group A streptococcal (GAS) is the most common bacterial cause of acute pharyngitis, responsible for 5%–15% of sore throat visits in adults and 20%–30% in children. Streptococcal pharyngitis can lead to the nonsuppurative postinfectious disorders of acute rheumatic fever with and without carditis, as well as to poststreptococcal glomerulonephritis. Accurate diagnosis of streptococcal pharyngitis followed by appropriate antimicrobial therapy is important for the prevention of acute rheumatic fever; for the prevention of suppurative complications (eg, peritonsillar abscess, cervical lymphadenitis, mastoiditis, and, possibly, other invasive infections); to improve clinical symptoms and signst."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Streptococcal sore throat"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Scarlet fever"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/107294155",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/107294155"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/911707612"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Streptococcal pharyngitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Streptococcal sore throat"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "septic pharyngitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "septic sore throat"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "septic sore throat due to streptococcal infection"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "strep throat"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "streptococcal angina"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "streptococcal septic sore throat"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "streptococcal ulcerated sore throat"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "septic angina"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute streptococcal pharyngitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/793848899"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute streptococcal sore throat"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/793848899"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute streptococcal ulcerated sore throat"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/793848899"
+    }
+  ]
+}

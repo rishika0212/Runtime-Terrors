@@ -1,0 +1,40 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1310497511",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/517052870"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1944845279",
+    "http://id.who.int/icd/release/11/2024-01/mms/1255654700",
+    "http://id.who.int/icd/release/11/2024-01/mms/1727727812",
+    "http://id.who.int/icd/release/11/2024-01/mms/1310497511/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1310497511/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1310497511",
+  "code": "8A61.1",
+  "source": "http://id.who.int/icd/entity/1310497511",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1310497511/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/539646260"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Genetic epileptic syndromes with onset in infancy"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Include a vast spectrum of phenotypes having in common a genetic background and the onset in infancy. They range from benign self-remitting to severe drug resistant syndromes. Family history of epilepsy is common in some syndromic entities and exceptional in others."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/2083324835"
+  ]
+}

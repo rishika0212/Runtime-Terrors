@@ -1,0 +1,101 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1361740083",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1025169562"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1361740083",
+  "code": "DB99.10",
+  "source": "http://id.who.int/icd/entity/1361740083",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1361740083/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1361740083/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Polycystic liver disease"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Polycystic liver disease is a genetic disorder characterised by the appearance of numerous cysts spread throughout the liver."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Polycystic liver disease (PCLD) is a genetic disorder characterized by the appearance of numerous cysts spread throughout the liver. The exact prevalence in the general population is unknown. Women are predominantly affected and have larger number of cysts than affected males. Cysts are undetectable early in life and usually appear after the age of 40 years. Their number and size increase with age. Symptoms depend on the mass (compression effect) and include abdominal distension, early satiety, dyspnea and back pain due to hepatomegaly. Other complications (intracystic hemorrhage or rupture of cysts) can cause acute abdominal pain. Liver function is usually normal. There is no portal hypertension. Extrahepatic manifestations are very rare and may include intracranial aneurysms (usually small sized and at a low risk of rupture) and mitral leaflet abnormalities. Liver cysts result from overgrowth of biliary epithelium or from dilatation of peribiliary glands. Some cases occurred sporadically, but most were inherited as an autosomal dominant trait. Multiple liver cysts are found in association with autosomal dominant polycystic kidney disease (ADPKD) but PCLD is genetically distinct from ADPKD with liver cysts. Ultrasound, computed tomography (CT) or magnetic resonance imaging (MRI) are used for diagnosis. Among patients at risk (belonging to a family known to be affected), diagnostic criteria include more than one cyst in patients below the age of 40 years, and more than three cysts in those over 40. For patients with no known affected relatives, the usual criterion is more than 20 cysts. Management depends on the extent, distribution, and anatomy of the cysts and may include percutaneous cyst aspiration, alcohol sclerosis, cyst fenestration, partial hepatectomy, and even liver transplantation (in rare cases where the massively enlarged liver considerably alters the quality of life). Most patients with PCLD have good prognosis and do not require treatment."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1110228123"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Polycystic liver disease"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "multiple cysts of liver"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "PLD - [polycystic liver disease]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "polycystic liver disorder"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "polycystic liver"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "congenital polycystic disease of liver"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "congenital polycystic liver disease"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Autosomal dominant polycystic liver disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/423904268"
+    }
+  ]
+}

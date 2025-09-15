@@ -1,0 +1,162 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1903453820",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1008592825"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1903453820",
+  "code": "PE82",
+  "source": "http://id.who.int/icd/entity/1903453820",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1903453820/postcoordinationScale/medication",
+      "axisName": "http://id.who.int/icd/schema/medication",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/290579631",
+        "http://id.who.int/icd/release/11/2024-01/mms/981846737",
+        "http://id.who.int/icd/release/11/2024-01/mms/824599565",
+        "http://id.who.int/icd/release/11/2024-01/mms/173375068",
+        "http://id.who.int/icd/release/11/2024-01/mms/1960919828"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1903453820/postcoordinationScale/activityWhenInjured",
+      "axisName": "http://id.who.int/icd/schema/activityWhenInjured",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2071638841",
+        "http://id.who.int/icd/release/11/2024-01/mms/1107435129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1428847289",
+        "http://id.who.int/icd/release/11/2024-01/mms/821249273",
+        "http://id.who.int/icd/release/11/2024-01/mms/160164281"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1903453820/postcoordinationScale/placeOfOccurrence",
+      "axisName": "http://id.who.int/icd/schema/placeOfOccurrence",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowedExceptFromSameBlock",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1081404635",
+        "http://id.who.int/icd/release/11/2024-01/mms/1786773723"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1903453820/postcoordinationScale/aspectsOfAssaultAndMaltreatment",
+      "axisName": "http://id.who.int/icd/schema/aspectsOfAssaultAndMaltreatment",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowedExceptFromSameBlock",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1115077034",
+        "http://id.who.int/icd/release/11/2024-01/mms/665815018",
+        "http://id.who.int/icd/release/11/2024-01/mms/814211882"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Assault by exposure to or harmful effects of psychostimulants"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of psychostimulants"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "homicidal poisoning by exposure to or harmful effects of psychostimulants"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of central nervous system stimulants, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1963454490"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of analeptics"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1047452145"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of opioid receptor antagonists"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/80778519"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of caffeine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/463701043"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of amphetamine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/8977337"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of methylamphetamine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1366989768"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of methylenedioxy methamphetamine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/559906869"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of other specified amphetamines"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/467782867"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of cocaine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1145608190"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of methylphenidate"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/788839273"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of cathinone"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/244418565"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of cathinone derivatives"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/300063009"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/930895737",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1948684645"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2144070055",
+    "http://id.who.int/icd/release/11/2024-01/mms/696187905",
+    "http://id.who.int/icd/release/11/2024-01/mms/930895737/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/930895737/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#930895737",
+  "code": "MF96",
+  "source": "http://id.who.int/icd/entity/930895737",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gestational proteinuria without hypertension"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/991075106",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/991075106"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gestational oedema with proteinuria without hypertension"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1337969629",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1337969629"
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Proteinuria"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Excessive serum proteins in the urine, such as in renal disease when albumin is the main protein, but also may be due to other proteins such as immunoglobulin light chains in plasma cell dyscrasia such as multiple myeloma."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Persistent proteinuria or albuminuria"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1467154806",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1467154806"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/958574481",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/379518314"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1417349585",
+    "http://id.who.int/icd/release/11/2024-01/mms/1614241774",
+    "http://id.who.int/icd/release/11/2024-01/mms/1835280399",
+    "http://id.who.int/icd/release/11/2024-01/mms/1495825970",
+    "http://id.who.int/icd/release/11/2024-01/mms/958574481/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/958574481/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#958574481",
+  "code": "DA62",
+  "source": "http://id.who.int/icd/entity/958574481",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/958574481/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1493524587",
+        "http://id.who.int/icd/release/11/2024-01/mms/1928625572"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/958574481/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/294460566",
+        "http://id.who.int/icd/release/11/2024-01/mms/985094335",
+        "http://id.who.int/icd/release/11/2024-01/mms/1794059753",
+        "http://id.who.int/icd/release/11/2024-01/mms/1472717853"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/958574481/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Anastomotic ulcer"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Anastomotic ulcer develops following gastric resection or other procedures, such as gastroenterostomy, that involve the anastomosis of the stomach to some other portion of the gastrointestinal tract. In such cases an ulcer develops near the stoma; it is almost invariably in the efferent limb of the intestine, not in the stomach."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary ulcer of small intestine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/234431289",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/234431289"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ]
+}

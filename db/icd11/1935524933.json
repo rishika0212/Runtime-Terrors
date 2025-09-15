@@ -1,0 +1,117 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1935524933",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1582386590"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1935524933",
+  "code": "CA24",
+  "source": "http://id.who.int/icd/entity/1935524933",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1935524933/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1290701352"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Bronchiectasis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Bronchiectasis is an abnormal widening of one or more airways. Normally, tiny glands in the lining of the airways make a small amount of mucus. Mucus keeps the airways moist and traps any dust and dirt in the inhaled air. Because bronchiectasis creates an abnormal widening of the airways, extra mucus tends to form and pool in parts of the widened airways. Widened airways with extra mucus are prone to infection."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "tuberculous bronchiectasis, confirmed"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/983550510",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/983550510"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Respiratory tuberculosis, not confirmed"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1311939281",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1311939281"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/923122941"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/607453719"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bronchiectasis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bronchiectasis NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bronchiectasis with airway obstruction"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/424101391"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dilatation of bronchus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1646529472"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bronchial dilatation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1646529472"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bronchiolectasis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1027730157"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cylindrical bronchiectasis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1277293232"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fusiform bronchiectasis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1379836634"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Saccular bronchiectasis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1747410508"
+    }
+  ]
+}

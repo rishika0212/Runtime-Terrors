@@ -1,0 +1,38 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/704382402",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/856558301"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1908905075",
+    "http://id.who.int/icd/release/11/2024-01/mms/704382402/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/704382402/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#704382402",
+  "code": "QC02",
+  "source": "http://id.who.int/icd/entity/704382402",
+  "classKind": "category",
+  "title": {
+    "@language": "en",
+    "@value": "Need for immunization against certain specified single infectious diseases"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Need for immunization against combinations of infectious diseases"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1287112788",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1287112788"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Immunization not carried out"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/836689174",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/836689174"
+    }
+  ]
+}

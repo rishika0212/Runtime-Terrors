@@ -1,0 +1,73 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1980319000",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/330792642"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1980319000",
+  "code": "4B20.4",
+  "source": "http://id.who.int/icd/entity/1980319000",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Uveoparotid fever"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2079034902",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/330792642/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1980319000/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2055915829",
+        "http://id.who.int/icd/release/11/2024-01/mms/28784496",
+        "http://id.who.int/icd/release/11/2024-01/mms/822296309"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1980319000/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2096289196"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Ocular sarcoidosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is a syndrome involving abnormal collections of chronic inflammatory cells (granulomas) that can form as nodules in multiple organs."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ocular sarcoidosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sarcoid associated anterior uveitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/58596440"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Iridocyclitis in sarcoidosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/58596440"
+    }
+  ]
+}

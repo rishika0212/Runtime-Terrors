@@ -1,0 +1,59 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/868183264",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/396939646"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1311294297",
+    "http://id.who.int/icd/release/11/2024-01/mms/868183264/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/868183264/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#868183264",
+  "code": "FA21",
+  "source": "http://id.who.int/icd/entity/868183264",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/868183264/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1363003152",
+        "http://id.who.int/icd/release/11/2024-01/mms/1959335168",
+        "http://id.who.int/icd/release/11/2024-01/mms/192726145",
+        "http://id.who.int/icd/release/11/2024-01/mms/223741850",
+        "http://id.who.int/icd/release/11/2024-01/mms/319259361",
+        "http://id.who.int/icd/release/11/2024-01/mms/223046766"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/868183264/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/390684604"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Psoriatic arthritis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Psoriatic arthritis, a member of the spondyloarthritis family, is defined as an inflammatory arthropathy associated with psoriasis that is usually rheumatic factor negative. It is characterised by various clinical manifestations, including symmetric polyarthritis, asymmetric oligoarthritis or polyarthritis, spinal inflammation similar to ankylosing spondylitis, peripheral enthesitis, anterior chest wall involvement, distal interphalangeal arthritis of the hands and feet, dactylitis (sausage digit or toe), arthritis mutilans and onycho-pachydermo-periostitis. The CASPAR has high sensitivity and specificity."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Juvenile psoriatic arthritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1473955563",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1473955563"
+    }
+  ]
+}

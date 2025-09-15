@@ -1,0 +1,75 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/257553418",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/252518591"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#257553418",
+  "code": "ND1A",
+  "source": "http://id.who.int/icd/entity/257553418",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/257553418/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/257553418/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2077117325",
+        "http://id.who.int/icd/release/11/2024-01/mms/2108335005",
+        "http://id.who.int/icd/release/11/2024-01/mms/417426953",
+        "http://id.who.int/icd/release/11/2024-01/mms/1816936182",
+        "http://id.who.int/icd/release/11/2024-01/mms/151516004",
+        "http://id.who.int/icd/release/11/2024-01/mms/2062115064",
+        "http://id.who.int/icd/release/11/2024-01/mms/530754914",
+        "http://id.who.int/icd/release/11/2024-01/mms/1796210077",
+        "http://id.who.int/icd/release/11/2024-01/mms/239349769",
+        "http://id.who.int/icd/release/11/2024-01/mms/1932338507",
+        "http://id.who.int/icd/release/11/2024-01/mms/252518591/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Multiple injuries of ankle or foot"
+  },
+  "codingNote": {
+    "@language": "en",
+    "@value": "Each injury should be coded separately. This code should be used alone only when the detail of the specific injuries is unknown, or it is not possible to code each injury. This code may also be used in postcoordination to identify cases of complex trauma."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Multiple injuries of ankle or foot"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury of multiple sites of ankle"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1162974787"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury of multiple sites of foot"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/264946010"
+    }
+  ]
+}

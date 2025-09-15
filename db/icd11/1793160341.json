@@ -1,0 +1,75 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1793160341",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1147802348"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1793160341",
+  "code": "2A33",
+  "source": "http://id.who.int/icd/entity/1793160341",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1793160341/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Refractory anaemia with ring sideroblasts"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A myelodysplastic syndrome characterised by an anaemia in which 15% or more of the erythroid precursors are ringed sideroblasts. The ring sideroblast is an erythroid precursor in which one third or more of the nucleus is encircled by granules which are positive for iron stain."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Refractory anaemia with ring sideroblasts"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "refractory anaemia with sideroblasts"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acquired idiopathic sideroblastic anaemia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "RARS - [refractory anaemia with ringed sideroblasts]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "primary acquired sideroblastic anaemia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "refractory sideroblastic anaemia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Refractory anaemia with hemochromatosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/360869821"
+    }
+  ]
+}

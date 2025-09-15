@@ -1,0 +1,82 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/674623750",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/708418764"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#674623750",
+  "code": "BD70.2",
+  "source": "http://id.who.int/icd/entity/674623750",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/674623750/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/674623750/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/821283472",
+        "http://id.who.int/icd/release/11/2024-01/mms/1832356831",
+        "http://id.who.int/icd/release/11/2024-01/mms/389580608",
+        "http://id.who.int/icd/release/11/2024-01/mms/929449332",
+        "http://id.who.int/icd/release/11/2024-01/mms/1725328867",
+        "http://id.who.int/icd/release/11/2024-01/mms/1381503063"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/674623750/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/879154182",
+        "http://id.who.int/icd/release/11/2024-01/mms/944754984",
+        "http://id.who.int/icd/release/11/2024-01/mms/2009008947",
+        "http://id.who.int/icd/release/11/2024-01/mms/531713107",
+        "http://id.who.int/icd/release/11/2024-01/mms/1167133946",
+        "http://id.who.int/icd/release/11/2024-01/mms/1158485193",
+        "http://id.who.int/icd/release/11/2024-01/mms/1844086508",
+        "http://id.who.int/icd/release/11/2024-01/mms/264268169"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Thrombophlebitis migrans"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Thrombophlebitis migrans is characterised by the development of recurrent and migratory superficial thrombophlebitis. It is an acquired coagulopathy that is strongly associated with malignancy, especially solid tumours of the adenocarcinoma type."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/2140253838",
+    "http://id.who.int/icd/entity/392923664"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Thrombophlebitis migrans"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Recurrent idiopathic thrombophlebitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/774990902"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1707520902",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1066261769"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1652912367",
+    "http://id.who.int/icd/release/11/2024-01/mms/1707520902/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1707520902/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1707520902",
+  "code": "FA36",
+  "source": "http://id.who.int/icd/entity/1707520902",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1707520902/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1363003152",
+        "http://id.who.int/icd/release/11/2024-01/mms/1959335168",
+        "http://id.who.int/icd/release/11/2024-01/mms/192726145",
+        "http://id.who.int/icd/release/11/2024-01/mms/223741850",
+        "http://id.who.int/icd/release/11/2024-01/mms/319259361"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Effusion of joint"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Increased intra-articular fluid secondary to trauma and/or other acquired conditions not detailed in other codes."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hydrarthrosis"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hydrarthrosis of yaws"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/406586413",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/406586413"
+    }
+  ]
+}

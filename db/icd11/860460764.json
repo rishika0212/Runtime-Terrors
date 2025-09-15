@@ -1,0 +1,297 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/860460764",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1164983645"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#860460764",
+  "code": "BD55",
+  "source": "http://id.who.int/icd/entity/860460764",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/860460764/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/860460764/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/34787577",
+        "http://id.who.int/icd/release/11/2024-01/mms/868053242",
+        "http://id.who.int/icd/release/11/2024-01/mms/1179720336"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Asymptomatic stenosis of intracranial or extracranial artery"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Stenosis of intracranial or extracranial artery that has not caused TIA or cerebral ischemic stroke."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "This section includes cerebrovascular disease/abnormalities/vascular or neuroimaging findings that has not caused acute cerebral symptoms. Such findings should not be regarded as simply incidental findings; asymptomatic stenosis or occlusion of the intracranial or extracranial arteries to the brain are associated with an increased risk of future cardiovascular events that may be prevented from risk factor management and in selected cases surgical or endovascular procedures (1) “Precerebral” have been changed to “extracranial” as the latter term is the one generally used in the literature. Arteries to the brain are divided into intracranial and extracranial. The carotid siphon is included in the “intracranial” part of the carotid artery as the major part of the carotid siphon is located distal to the dural passage of the artery."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "narrowing of basilar, carotid or vertebral arteries, not resulting in cerebral infarction"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Transient ischaemic attack"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/826335789",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/826335789"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cerebral ischaemic stroke"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/636274910",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/636274910"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1380872553"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Asymptomatic stenosis of intracranial or extracranial artery"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "stenosis of carotid artery NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "stenosis of internal carotid artery NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "stenosis of precerebral arteries, not resulting in cerebral infarction"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "narrowing of basilar, carotid or vertebral arteries, not resulting in cerebral infarction"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "partial obstruction of basilar, carotid or vertebral arteries, not resulting in cerebral infarction"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Asymptomatic stenosis of extracranial carotid artery"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2022964329"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Atherosclerosis of extracranial portion of carotid artery"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1257498137"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Asymptomatic stenosis of intracranial carotid artery"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/330508029"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Atherosclerosis of intracranial portion of carotid artery"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1791372891"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Asymptomatic stenosis of extracranial vertebral artery"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1769300228"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Atheroma of extracranial portion of vertebral artery"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/998454120"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Arteriosclerotic disease of extracranial portion of vertebral artery"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2065379727"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Asymptomatic stenosis of intracranial vertebral artery"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1965970180"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Atheroma of intracranial portion of vertebral artery"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/876707016"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Arteriosclerotic disease of intracranial portion of vertebral artery"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1845193508"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Asymptomatic stenosis of basilar artery"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/205434006"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Asymptomatic stenosis of anterior cerebral artery"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/230231210"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Asymptomatic stenosis of middle cerebral artery"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1760739644"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Asymptomatic stenosis of posterior cerebral artery"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2031377495"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Asymptomatic stenosis of certain specified intracranial or extracranial artery"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1743972310"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "internal auditory artery embolism"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1685989277"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cerebral atherosclerosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1710003414"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "arteriosclerotic cerebrovascular disorder"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1710003414"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cerebrovascular atherosclerosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1710003414"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "arteriosclerotic cerebral ischaemia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1710003414"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "arteriosclerotic brain disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1710003414"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "atherosclerotic brain disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1710003414"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cerebral arteriosclerosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1710003414"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cerebrovascular atheromatous disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1710003414"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "atherosclerotic cerebrovascular disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1710003414"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Vertebral arterial arteriosclerotic disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1328727186"
+    }
+  ]
+}

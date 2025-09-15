@@ -1,0 +1,60 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1520576126",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/172183323"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1520576126",
+  "code": "LA40.1",
+  "source": "http://id.who.int/icd/entity/1520576126",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1520576126/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2129534948"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Cleft lip, bilateral"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition caused by failure of the upper lip to correctly develop during the antenatal period. This condition is characterised by two fissures in the upper lip and a collapsed and stretched nose through one side of the upper lip. This condition may present with disruption of sucking or swallowing in neonates."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cleft lip and alveolus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1653169553",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1653169553"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cleft lip, bilateral"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cleft lip without cleft palate, bilateral"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Isolated cleft lip, bilateral"
+      }
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/985186256",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1581976053"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1034914433",
+    "http://id.who.int/icd/release/11/2024-01/mms/302680255",
+    "http://id.who.int/icd/release/11/2024-01/mms/985186256/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/985186256/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#985186256",
+  "code": "MG30.2",
+  "source": "http://id.who.int/icd/entity/985186256",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Complex regional pain syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1834504950",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1834504950"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/985186256/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1007332872",
+        "http://id.who.int/icd/release/11/2024-01/mms/597444540"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/985186256/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/501504598",
+        "http://id.who.int/icd/release/11/2024-01/mms/932220680",
+        "http://id.who.int/icd/release/11/2024-01/mms/671508148",
+        "http://id.who.int/icd/release/11/2024-01/mms/579584480"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/985186256/postcoordinationScale/hasAlternativeSeverity1",
+      "axisName": "http://id.who.int/icd/schema/hasAlternativeSeverity1",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/137604848",
+        "http://id.who.int/icd/release/11/2024-01/mms/1926847105",
+        "http://id.who.int/icd/release/11/2024-01/mms/489218088",
+        "http://id.who.int/icd/release/11/2024-01/mms/2029211037"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/985186256/postcoordinationScale/hasAlternativeSeverity2",
+      "axisName": "http://id.who.int/icd/schema/hasAlternativeSeverity2",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/145592658",
+        "http://id.who.int/icd/release/11/2024-01/mms/1824378311",
+        "http://id.who.int/icd/release/11/2024-01/mms/1714449067",
+        "http://id.who.int/icd/release/11/2024-01/mms/1721227995"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/985186256/postcoordinationScale/temporalPatternAndOnset",
+      "axisName": "http://id.who.int/icd/schema/temporalPatternAndOnset",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1281193286",
+        "http://id.who.int/icd/release/11/2024-01/mms/1313511357",
+        "http://id.who.int/icd/release/11/2024-01/mms/47514516"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/985186256/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1296093776",
+        "http://id.who.int/icd/release/11/2024-01/mms/868865918",
+        "http://id.who.int/icd/release/11/2024-01/mms/426429380",
+        "http://id.who.int/icd/release/11/2024-01/mms/197934298",
+        "http://id.who.int/icd/release/11/2024-01/mms/1256772020",
+        "http://id.who.int/icd/release/11/2024-01/mms/1639304259",
+        "http://id.who.int/icd/release/11/2024-01/mms/1473673350",
+        "http://id.who.int/icd/release/11/2024-01/mms/30659757",
+        "http://id.who.int/icd/release/11/2024-01/mms/435227771",
+        "http://id.who.int/icd/release/11/2024-01/mms/1249056269"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Chronic postsurgical or post traumatic pain"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Chronic postsurgical or post traumatic pain is pain developing or increasing in intensity after a surgical procedure or a tissue injury (involving any trauma including burns) and persisting beyond the healing process, i.e. at least 3 months after surgery or tissue trauma. The pain is either localized to the surgical field or area of injury, projected to the innervation territory of a nerve situated in this area, or referred to a dermatome (after surgery/injury to deep somatic or visceral tissues). Other causes of pain including infection, malignancy etc. need to be excluded as well as pain continuing from a pre-existing pain problem."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Chronic postsurgical or post traumatic pain is pain developing or increasing in intensity after a surgical procedure or a tissue injury (involving any trauma including burns) and persisting beyond the healing process, i.e. at least 3 months after surgery or tissue trauma. The pain is either localized to the surgical field or area of injury, projected to the innervation territory of a nerve situated in this area, or referred to a dermatome (after surgery/injury to deep somatic or visceral tissues). Other causes of pain including infection, malignancy etc. need to be excluded as well pain as continuing from a per-existing pain problem. Dependent on type of surgery, chronic postsurgical or posttraumatic pain often may be neuropathic pain. Even if neuropathic mechanisms are crucial, the type of pain should be diagnosed here. The postsurgical or posttraumatic aetiology of the pain should be highly probable; if it is vague, consider using codes in the section of chronic primary pain.\n\nThe most frequent surgical procedures causing chronic postsurgical pain are breast surgery (including mastectomy with or without axillary node dissection, cosmetic surgery), herniotomy (open or laparoscopic surgery), thoracic surgery (including minimally invasive procedures like thoracoscopic surgery) and the amputation of a limb or other organ. Dependent on the type of surgery, chronic postsurgical pain often may be neuropathic pain; on average chronic postsurgical pain is in 30% of cases of neuropathic origin (range 6 to 54% and more).\n\nChronic pain can also develop after trauma; the incidence is reported in the range of 46 to 85% after multitrauma. Typical examples include post traumatic osteoarthritis after joint injuries, chronic pain after acute back injury, whiplash injury and burns injury.\n\nEven if neuropathic mechanisms are crucial, this type of pain should be diagnosed here.\n\nDiagnostic Criteria:\n\nConditions A to E are fulfilled:\n\nA. Chronic pain (persistent or recurrent for longer than 3 months) is present.\n\nB. The pain began or increased in intensity after surgery or a tissue trauma.\n\nC. The pain is in an area of preceding surgery or tissue trauma.\n\nD. The pain persisted for at least 3 months after the initiating event.\n\nE. The pain is not better accounted for by an infection, a malignancy, a pre-existing pain condition or any other alternative"
+  },
+  "codingNote": {
+    "@language": "en",
+    "@value": "The postsurgical or posttraumatic aetiology of the pain should be highly probable; if it is vague, consider using codes in the section of chronic primary pain."
+  }
+}

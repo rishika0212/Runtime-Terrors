@@ -1,0 +1,70 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2144340154",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/46690802"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2144340154",
+  "code": "9C61.29",
+  "source": "http://id.who.int/icd/entity/2144340154",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2144340154/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2144340154/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1679904912"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Glaucoma due to eye trauma"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Glaucoma due to eye trauma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "traumatic glaucoma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "glaucoma with concussion of globe"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "glaucoma due to ocular trauma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "glaucoma associated with ocular trauma"
+      }
+    }
+  ]
+}

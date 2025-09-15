@@ -1,0 +1,47 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1128128276",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/982373217"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1128128276",
+  "code": "8B25.1",
+  "source": "http://id.who.int/icd/entity/1128128276",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1128128276/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1297540670"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Late effects of intracerebral haemorrhage"
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/564191997"
+  ],
+  "codingNote": {
+    "@language": "en",
+    "@value": "Use of the code ”Late effects of cerebrovascular disease” requires that there are residual (still persisting) symptoms or signs after a previous cerebrovascular event. Codes for neurological symptoms may be added. Code first, the specific residual condition(s) resulting from a previous cerebrovascular event. \n\nCodes for acute stroke should be exclusively used for the acute stroke and immediately related hospitalisation episodes."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Late effects of intracerebral haemorrhage"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "sequelae of intracerebral haemorrhage"
+      }
+    }
+  ]
+}

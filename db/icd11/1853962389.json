@@ -1,0 +1,111 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1853962389",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1961426220"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1853962389",
+  "code": "GB71.1",
+  "source": "http://id.who.int/icd/entity/1853962389",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1853962389/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/921977085"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1853962389/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1507624466"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Calculus in urethra"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition caused by dehydration, decreased urine volume or fluid flow rates, or increased excretion of minerals such as calcium, oxalate, magnesium, cystine, and phosphate. This condition is characterised by urinary calculi located in the urethra, where it may lead to renal colic. This condition may also present with haematuria, dysuria, or pain in the flank, lower abdomen, groin, thighs, or genitalia. Confirmation is by abdominal radiography to determine the presence and location of calculi."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Calculus of bowel segments for urinary diversion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/88962007",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/88962007"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Calculus in urethra"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "urethral calculus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "urethral stone"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "urethrolithiasis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "urethra calculi impaction"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "urethra calculus impaction"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "urethra stone"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "calculous urethritis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "urethral calculi impaction"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "urethral calculus impaction"
+      }
+    }
+  ]
+}

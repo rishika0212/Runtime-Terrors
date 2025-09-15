@@ -1,0 +1,50 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2089878635",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1614179699"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2089878635",
+  "code": "5C90.5",
+  "source": "http://id.who.int/icd/entity/2089878635",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2089878635/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2089878635/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1833416892"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Liver diseases due to disorders of mineral metabolism"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is a liver disease due to a disorder of the organic compound required by an organism as a vital nutrient in limited amounts."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1154068795"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Liver diseases due to disorders of mineral metabolism"
+      }
+    }
+  ]
+}

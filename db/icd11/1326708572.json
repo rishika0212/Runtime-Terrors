@@ -1,0 +1,82 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1326708572",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1510094736"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1677166437",
+    "http://id.who.int/icd/release/11/2024-01/mms/173980297",
+    "http://id.who.int/icd/release/11/2024-01/mms/1326708572/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1326708572",
+  "code": "8E61",
+  "source": "http://id.who.int/icd/entity/1326708572",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Post radiation lumbosacral plexopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/329611650",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/329611650"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Post radiation polyneuropathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1067183755",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1067183755"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Post radiation brachial plexopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/605374423",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1367254559/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1326708572/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/974549086",
+        "http://id.who.int/icd/release/11/2024-01/mms/759043230",
+        "http://id.who.int/icd/release/11/2024-01/mms/591377318",
+        "http://id.who.int/icd/release/11/2024-01/mms/519578830"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1326708572/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1640181609"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1326708572/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/136660883",
+        "http://id.who.int/icd/release/11/2024-01/mms/460401849",
+        "http://id.who.int/icd/release/11/2024-01/mms/1642025150",
+        "http://id.who.int/icd/release/11/2024-01/mms/1162198017",
+        "http://id.who.int/icd/release/11/2024-01/mms/431804121"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Post radiation injury of the nervous system"
+  }
+}

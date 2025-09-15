@@ -1,0 +1,101 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/967695084",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/235504456"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#967695084",
+  "code": "3A72.1",
+  "source": "http://id.who.int/icd/entity/967695084",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Refractory anaemia with ring sideroblasts"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1793160341",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1793160341"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/967695084/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/746448055",
+        "http://id.who.int/icd/release/11/2024-01/mms/248569732",
+        "http://id.who.int/icd/release/11/2024-01/mms/1530721759",
+        "http://id.who.int/icd/release/11/2024-01/mms/817370856",
+        "http://id.who.int/icd/release/11/2024-01/mms/1583926619",
+        "http://id.who.int/icd/release/11/2024-01/mms/1323892810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acquired sideroblastic anaemias"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease caused by determinants arising after birth such as myelodysplastic syndromes, antimicrobials, pyridoxine deficiency, lead poisoning, or copper deficiency. Zinc can indirectly cause sideroblastic anaemia by decreasing absorption and increasing excretion of copper. This disease is characterised by the inability to incorporate haemoglobin, which red blood cells need to transport oxygen efficiently. This disease may present with pallor, fatigue, dizziness, and enlarged spleen and liver, heart disease, liver damage, or kidney failure."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1426960900"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1148519290"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired sideroblastic anaemias"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Secondary sideroblastic anaemia due to drugs or toxins"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/587664055"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Secondary sideroblastic anaemia due to another disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1470782024"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pyridoxine-responsive sideroblastic anaemia, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/438340906"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "vitamin b6-responsive sideroblastic anaemia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/438340906"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "vitamin b6-responsive anemia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/438340906"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hypochromic pyridoxine-responsive anaemia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/438340906"
+    }
+  ]
+}

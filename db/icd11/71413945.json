@@ -1,0 +1,75 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/71413945",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1352310002"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#71413945",
+  "code": "2A02.10",
+  "source": "http://id.who.int/icd/entity/71413945",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/71413945/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/71413945/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/71413945/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/337970533"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Malignant peripheral nerve sheath tumour of cranial or paraspinal nerves"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Malignant schwannoma is a tumour of the peripheral nervous system that arises in the nerve sheath."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant nerve sheath tumour of peripheral nerves or autonomic nervous system, primary site"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/979754709",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/979754709"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant peripheral nerve sheath tumour of cranial or paraspinal nerves"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "neurofibrosarcoma"
+      }
+    }
+  ]
+}

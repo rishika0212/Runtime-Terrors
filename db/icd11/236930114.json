@@ -1,0 +1,83 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/236930114",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1523445293"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1704766818",
+    "http://id.who.int/icd/release/11/2024-01/mms/1269698463",
+    "http://id.who.int/icd/release/11/2024-01/mms/1228046340",
+    "http://id.who.int/icd/release/11/2024-01/mms/746147218",
+    "http://id.who.int/icd/release/11/2024-01/mms/2061303143",
+    "http://id.who.int/icd/release/11/2024-01/mms/987501456",
+    "http://id.who.int/icd/release/11/2024-01/mms/1603788294",
+    "http://id.who.int/icd/release/11/2024-01/mms/560404604",
+    "http://id.who.int/icd/release/11/2024-01/mms/1143789038",
+    "http://id.who.int/icd/release/11/2024-01/mms/813794577",
+    "http://id.who.int/icd/release/11/2024-01/mms/1439320197",
+    "http://id.who.int/icd/release/11/2024-01/mms/639949585",
+    "http://id.who.int/icd/release/11/2024-01/mms/236930114/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/236930114/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#236930114",
+  "code": "FB80",
+  "source": "http://id.who.int/icd/entity/236930114",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteogenesis imperfecta"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1219932551",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1219932551"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/236930114/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/236930114/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/183512318",
+        "http://id.who.int/icd/release/11/2024-01/mms/1415462031"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Certain specified disorders of bone density or structure"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteopoikilosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/801926378",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/801926378"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteopetrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1498426606",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1498426606"
+    }
+  ]
+}

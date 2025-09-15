@@ -1,0 +1,110 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1852308037",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2025976730"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1852308037",
+  "code": "LB73.25",
+  "source": "http://id.who.int/icd/entity/1852308037",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1852308037/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1170330671"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Congenital scoliosis due to congenital bony malformation"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition caused by malformation of the ribs or spine. This condition is characterised by abnormal curving of the spine."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "congenital scoliosis NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1105234587",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2025976730"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital scoliosis due to congenital bony malformation"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "congenital scoliosis due to anomalies of vertebra"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital scoliosis with failure of hemivertebra segmentation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1645080806"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "congenital scoliosis with failure of segmentation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1645080806"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "failure of hemivertebra segmentation with scoliosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1645080806"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hemivertebra fusion or failure of segmentation with scoliosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1333653277"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital scoliosis with hemivertebra fusion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1783974479"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hemivertebra fusion with scoliosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1783974479"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Single hemivertebra with congenital scoliosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1639700967"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital scoliosis due to absence of vertebra"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2060643981"
+    }
+  ]
+}

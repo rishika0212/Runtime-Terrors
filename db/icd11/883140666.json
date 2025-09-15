@@ -1,0 +1,127 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/883140666",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/746680558"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#883140666",
+  "code": "1B12.2",
+  "source": "http://id.who.int/icd/entity/883140666",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/883140666/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/883140666/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1393618433",
+        "http://id.who.int/icd/release/11/2024-01/mms/1902897114"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/883140666/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/672063490"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Tuberculosis of ear"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is a common, and in many cases lethal, infectious disease caused by various strains of mycobacteria, usually Mycobacterium tuberculosis. This diagnosis is of the ear."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculous otitis media"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/999303331"
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "tuberculosis of skin of external ear"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/625292625",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/625292625"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculous mastoiditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1753457875",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/570881596"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1240824451"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/576751653"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculosis of ear"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "tuberculous ear"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculous otitis media"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/999303331"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "otitis media in tuberculosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/999303331"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "tuberculosis of middle ear"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/999303331"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculosis of inner ear"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1831890690"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1432745083",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/270831750"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1432745083",
+  "code": "FA30.1",
+  "source": "http://id.who.int/icd/entity/1432745083",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1432745083/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1432745083/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/827418604",
+        "http://id.who.int/icd/release/11/2024-01/mms/576319925",
+        "http://id.who.int/icd/release/11/2024-01/mms/395622227"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Hallux rigidus"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hallux rigidus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hallux rigidus - acquired"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "HL - [hallux limitus]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "HR - [hallux rigidus]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "rigidity of 1st metatarsophalangeal joint"
+      }
+    }
+  ]
+}

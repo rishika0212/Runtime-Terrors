@@ -1,0 +1,84 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1658346518",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2086488820"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1470910753",
+    "http://id.who.int/icd/release/11/2024-01/mms/671778206",
+    "http://id.who.int/icd/release/11/2024-01/mms/168069453",
+    "http://id.who.int/icd/release/11/2024-01/mms/1658346518/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1658346518/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1658346518",
+  "code": "DA90",
+  "source": "http://id.who.int/icd/entity/1658346518",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Maltase-glucoamylase deficiency"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2084206046",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2084206046"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital sucrase-isomaltase deficiency"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1817406536",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1817406536"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Alpha, alpha trehalase deficiency"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2025219157",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2025219157"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital lactase deficiency"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2109252471",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2109252471"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1658346518/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/18598211",
+        "http://id.who.int/icd/release/11/2024-01/mms/1708923236"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1658346518/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Nonstructural developmental anomalies of small intestine"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Any congenital defect of small intestine that results from interference with the normal growth and differentiation of the fetus. Such defects can arise at any stage of embryonic development, vary greatly in type and severity, and are caused by a wide variety of determining factors, including genetic mutations, chromosomal aberrations, teratogenic agents, and environmental factors. Most developmental defects are apparent at birth, especially any structural malformation, but some becomes evident later."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1164935152",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/469673529"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1164935152",
+  "code": "JA65.4",
+  "source": "http://id.who.int/icd/entity/1164935152",
+  "classKind": "category",
+  "title": {
+    "@language": "en",
+    "@value": "Pregnancy care of habitual aborter"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Any reason for encounter to assess (or care for) a mother who has a history of habitual aborting."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "habitual aborter with current abortion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/877352786",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/877352786"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "habitual aborter without current pregnancy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/753990808",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/753990808"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pregnancy care of habitual aborter"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "care of habitual or recurrent aborter in current pregnancy"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "management of pregnancy affected by previous habitual abortion"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "maternal care habitual aborter"
+      }
+    }
+  ]
+}

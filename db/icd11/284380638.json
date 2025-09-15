@@ -1,0 +1,66 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/284380638",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2055968951"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1806329739",
+    "http://id.who.int/icd/release/11/2024-01/mms/407172127",
+    "http://id.who.int/icd/release/11/2024-01/mms/357498950",
+    "http://id.who.int/icd/release/11/2024-01/mms/828693449",
+    "http://id.who.int/icd/release/11/2024-01/mms/2120780687",
+    "http://id.who.int/icd/release/11/2024-01/mms/92452740",
+    "http://id.who.int/icd/release/11/2024-01/mms/1064943355",
+    "http://id.who.int/icd/release/11/2024-01/mms/284380638/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/284380638/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#284380638",
+  "code": "1F23.1",
+  "source": "http://id.who.int/icd/entity/284380638",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neonatal mucocutaneous candidosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1912359477",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/679424253"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/284380638/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/223243926",
+        "http://id.who.int/icd/release/11/2024-01/mms/947150833",
+        "http://id.who.int/icd/release/11/2024-01/mms/1810600222"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/284380638/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/622600769",
+        "http://id.who.int/icd/release/11/2024-01/mms/1683090852"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Candidosis of skin or mucous membranes"
+  },
+  "fullySpecifiedName": {
+    "@language": "en",
+    "@value": "Candidosis of skin and mucous membranes"
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1080592090"
+  ]
+}

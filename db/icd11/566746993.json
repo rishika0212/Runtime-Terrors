@@ -1,0 +1,70 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/566746993",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2020673786"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#566746993",
+  "code": "EK00.8",
+  "source": "http://id.who.int/icd/entity/566746993",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/566746993/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/223243926",
+        "http://id.who.int/icd/release/11/2024-01/mms/947150833",
+        "http://id.who.int/icd/release/11/2024-01/mms/1810600222"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/566746993/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/56475710",
+        "http://id.who.int/icd/release/11/2024-01/mms/1991139272"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Allergic contact dermatitis due to plastics, glues or resin systems"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Allergic contact dermatitis due to exposure to chemicals used in plastics and resin systems. It is normally the uncured chemicals (e.g. uncured epoxy resin or methacrylates) which are responsible."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Allergic contact dermatitis due to plastics, glues or resin systems"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Allergic contact eczema due to plastics or resin systems"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occupational allergic contact dermatitis due to plastics, glues or resin systems"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/500232033"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nonoccupational allergic contact dermatitis due to plastics, glues or resin systems"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1541286868"
+    }
+  ]
+}

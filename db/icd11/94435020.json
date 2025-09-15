@@ -1,0 +1,322 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/94435020",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1432273670"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#94435020",
+  "code": "DA04.2",
+  "source": "http://id.who.int/icd/entity/94435020",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/94435020/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1515005003"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/94435020/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Sialoadenitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Sialoadenitis (or Sialadenitis) is an inflammation of the salivary gland. It is often associated with pain, tenderness, redness, and gradual localised swelling of the affected area."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "epidemic parotitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2082214683",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2082214683"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Uveoparotid fever"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2079034902",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/330792642"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sialoadenitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "salivary gland adenitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "sialadenitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "sialitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "inflammation of salivary gland"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "inflammation of salivary duct or gland"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "salivary glandular adenitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "sialoangiitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "sialoangitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "sialodochitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic sialadenitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2084213250"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic sialoadenitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2084213250"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic nonspecific sialadenitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2084213250"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infection of salivary duct or gland"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1402966078"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute bacterial sialadenitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/590641501"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute suppurative parotitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1755866392"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "purulent parotitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1755866392"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "suppurative parotitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1755866392"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Parotid gland adenitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1033655397"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "parotid glandular adenitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1033655397"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "parotiditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1033655397"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "parotitis nos"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1033655397"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Parotid gland infection"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/851453031"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "parotid glandular infection"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/851453031"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute bacterial parotitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/637556387"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic parotiditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/688825213"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic parotitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/688825213"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Inflammation of Wharton duct"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/645632401"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "submandibular adenitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/645632401"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "submandibular gland adenitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/645632401"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Wharton's duct adenitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/645632401"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Septic parotitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/946127333"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sublingual gland adenitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/671737891"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "adenitis gl.sublingualis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/671737891"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Submaxillary gland adenitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1577464005"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Submandibular lymphadenitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/727010342"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Suppurative sialadenitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/731510360"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Suppuration of salivary duct or gland"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/731510360"
+    }
+  ]
+}

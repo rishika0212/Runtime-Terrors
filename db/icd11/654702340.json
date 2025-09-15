@@ -1,0 +1,340 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/654702340",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1018829714"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#654702340",
+  "code": "BC42.1",
+  "source": "http://id.who.int/icd/entity/654702340",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/654702340/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/654702340/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/654702340/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/609214049",
+        "http://id.who.int/icd/release/11/2024-01/mms/271545608",
+        "http://id.who.int/icd/release/11/2024-01/mms/508032285",
+        "http://id.who.int/icd/release/11/2024-01/mms/1664016479",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208294714",
+        "http://id.who.int/icd/release/11/2024-01/mms/145723401",
+        "http://id.who.int/icd/release/11/2024-01/mms/1314810340/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/1365585570",
+        "http://id.who.int/icd/release/11/2024-01/mms/738999268"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Infectious myocarditis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Infectious myocarditis (infectious inflammatory cardiomyopathy) is inflammation of the heart muscle generally in the presence of a dilated cardiomyopathy that results from exposure to discrete infectious external antigens such as a virus, bacteria or parasite."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute rheumatic myocarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/573695921",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/573695921"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myoendocarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/341681029",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/341681029"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute or subacute infectious endocarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/512128824",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/512128824"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1380872553"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Infectious myocarditis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "infectious inflammatory dilated cardiomyopathy"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "infection myocarditis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "infectious inflammatory cardiomyopathy"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bacterial myocarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/900037931"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bacterial interstitial myocarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/900037931"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "myocarditis due to infectious agent"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/900037931"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bacterial old myocarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/900037931"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bacterial fibroid myocarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/900037931"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bacterial inflammatory cardiomyopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/900037931"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute bacterial myocarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1320015677"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic bacterial myocarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1268381891"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fungal myocarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/388411214"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "fungal inflammatory cardiomyopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/388411214"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aspergillus myocarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1977572219"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Aspergillus inflammatory cardiomyopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1977572219"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Parasitic myocarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/990536354"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "parasitic dilated-hypokinetic cardiomyopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/990536354"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "parasitic inflammatory cardiomyopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/990536354"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Helminthic myocarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1408610777"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "helminthic inflammatory cardiomyopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1408610777"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Protozoal myocarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/151238311"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "protozoal dilated-hypokinetic cardiomyopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/151238311"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "protozoal inflammatory cardiomyopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/151238311"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Rickettsial myocarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/81235923"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "rickettsial dilated-hypokinetic cardiomyopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/81235923"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "rickettsial inflammatory cardiomyopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/81235923"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spirochaetal myocarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/548769328"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "spirochetal dilated-hypokinetic cardiomyopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/548769328"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "spirochetal inflammatory cardiomyopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/548769328"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Viral myocarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/231270764"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "viral dilated-hypokinetic cardiomyopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/231270764"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "viral inflammatory cardiomyopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/231270764"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Septic myocarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1803907695"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myocardial abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1748578425"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "heart abscess NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1748578425"
+    }
+  ]
+}

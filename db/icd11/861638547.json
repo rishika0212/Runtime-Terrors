@@ -1,0 +1,40 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/861638547",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2072728114"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1056849595",
+    "http://id.who.int/icd/release/11/2024-01/mms/1538650927",
+    "http://id.who.int/icd/release/11/2024-01/mms/1690351031",
+    "http://id.who.int/icd/release/11/2024-01/mms/861638547/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/861638547/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#861638547",
+  "code": "1B13",
+  "source": "http://id.who.int/icd/entity/861638547",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/861638547/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/672063490"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Miliary tuberculosis"
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Miliary tuberculosis is the widespread dissemination of Mycobacterium tuberculosis via hematogenous spread. Classic miliary tuberculosis is defined as milletlike (mean, 2 mm; range, 1-5 mm) seeding of M. tuberculosis bacilli in the lung, as evidenced on chest radiography."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/576751653"
+  ]
+}

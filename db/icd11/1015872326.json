@@ -1,0 +1,352 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1015872326",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/924915526"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1015872326",
+  "code": "BA02",
+  "source": "http://id.who.int/icd/entity/1015872326",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pre-existing hypertensive renal disease complicating pregnancy, childbirth or the puerperium"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1388356450",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1388356450"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pre-existing hypertensive heart and renal disease complicating pregnancy, childbirth or the puerperium"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/931884792",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/931884792"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1015872326/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1002963291",
+        "http://id.who.int/icd/release/11/2024-01/mms/761526554"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Hypertensive renal disease"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Hypertensive renal disease is a medical condition referring to damage to the kidney due to chronic high blood pressure."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hypertensive nephropathy"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Secondary hypertension"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1331849426",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1331849426"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1388356450",
+    "http://id.who.int/icd/entity/931884792"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1910517058"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hypertensive renal disease"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hypertension with renal disease"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hypertension with nephropathy"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hypertensive nephropathy"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hypertensive renal disease with renal failure"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/575338965"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hypertensive chronic renal insufficiency"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/575338965"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "renal insufficiency with hypertension"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/575338965"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "kidney hypertension with renal failure"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/575338965"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hypertensive renal sclerosis with renal failure"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/575338965"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hypertensive renal failure"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/575338965"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hypertensive uraemia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1704023753"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hypertensive renal disease without renal failure"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1233564311"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hypertensive renal disease NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1233564311"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "arteriosclerotic kidney"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1233564311"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "arteriosclerotic kidney disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1233564311"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "renal arteriosclerosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1233564311"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "renal arteriosclerotic disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1233564311"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "renal sclerosis, unspecified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1233564311"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "renal vascular insufficiency"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1233564311"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "renovascular disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1233564311"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "sclerosis of kidney"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1233564311"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "sclerotic kidney"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1233564311"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Arteriolar nephrosclerosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1771347021"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "arterionephrosclerosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1771347021"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "arteriosclerotic nephrosclerosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1771347021"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic nephrosclerosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1771347021"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hyaline arteriolar nephrosclerosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1771347021"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Arteriosclerotic Bright disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1035414356"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "arteriolar nephritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1035414356"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "arteriosclerotic nephritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1035414356"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "interstitial arteriosclerotic nephritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1035414356"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Arteriolar sclerosis of renal arterioles"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/423589168"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "arteriosclerosis of renal arterioles"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/423589168"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "renal arterioles arteriosclerosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/423589168"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "renal arterioles arteriosclerotic disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/423589168"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic arteriosclerotic nephritis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1608753233"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic kidney disease due to hypertension"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/902024598"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Glomerular diseases due to hypertension"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/772622990"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nephrosclerosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1878591797"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Unspecified contracted kidney due to hypertension"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1621457207"
+    }
+  ]
+}

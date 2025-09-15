@@ -1,0 +1,81 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/452367246",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1697630330"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#452367246",
+  "code": "1C10.0",
+  "source": "http://id.who.int/icd/entity/452367246",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/452367246/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1983574845",
+        "http://id.who.int/icd/release/11/2024-01/mms/922044675",
+        "http://id.who.int/icd/release/11/2024-01/mms/1013784154"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/452367246/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2024199586",
+        "http://id.who.int/icd/release/11/2024-01/mms/1765820617",
+        "http://id.who.int/icd/release/11/2024-01/mms/189285942",
+        "http://id.who.int/icd/release/11/2024-01/mms/795057595",
+        "http://id.who.int/icd/release/11/2024-01/mms/1298895686",
+        "http://id.who.int/icd/release/11/2024-01/mms/1552748079"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Pulmonary actinomycosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is a pulmonary infectious bacterial disease caused by Actinomyces species such as Actinomyces israelii or A. gerencseriae. It can also be caused by Propionibacterium propionicus, and the condition is likely to be polymicrobial aerobic-anaerobic infection."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1935107489"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pulmonary actinomycosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pulmonary actinomycotic infection"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "thoracic actinomycosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "actinomycotic pneumonia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pneumonia due to actinomycosis"
+      }
+    }
+  ]
+}

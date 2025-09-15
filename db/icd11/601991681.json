@@ -1,0 +1,50 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/601991681",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1594312948"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/933570887",
+    "http://id.who.int/icd/release/11/2024-01/mms/801138813",
+    "http://id.who.int/icd/release/11/2024-01/mms/1799533558",
+    "http://id.who.int/icd/release/11/2024-01/mms/860549324",
+    "http://id.who.int/icd/release/11/2024-01/mms/601991681/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/601991681/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#601991681",
+  "code": "DA26",
+  "source": "http://id.who.int/icd/entity/601991681",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/601991681/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/72252748"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/601991681/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Vascular disorders of the oesophagus"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This group incorporates vascular disorders principally affecting the blood vessels of the oesophagus. They include vascular disorders of arteries, veins and capillaries that carry blood to and from the oesophagus."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ]
+}

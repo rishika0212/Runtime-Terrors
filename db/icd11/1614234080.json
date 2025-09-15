@@ -1,0 +1,52 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1614234080",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1920461362"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1728683015",
+    "http://id.who.int/icd/release/11/2024-01/mms/1352318329",
+    "http://id.who.int/icd/release/11/2024-01/mms/1614234080/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1614234080/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1614234080",
+  "code": "NB92.2",
+  "source": "http://id.who.int/icd/entity/1614234080",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1614234080/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/157646292"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1614234080/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482",
+        "http://id.who.int/icd/release/11/2024-01/mms/755612283"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Injury of bladder"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Obstetric injury to bladder"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1569338065",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1569338065"
+    }
+  ]
+}

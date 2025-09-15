@@ -1,0 +1,155 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/146824338",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1530443809"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#146824338",
+  "code": "2C70.2",
+  "source": "http://id.who.int/icd/entity/146824338",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Verrucous squamous cell carcinoma of vulva"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/423161711",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1049028857"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/146824338/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/475546725"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/146824338/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/871564532"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/146824338/postcoordinationScale/histopathology",
+      "axisName": "http://id.who.int/icd/schema/histopathology",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1738201981",
+        "http://id.who.int/icd/release/11/2024-01/mms/801349004",
+        "http://id.who.int/icd/release/11/2024-01/mms/665703097",
+        "http://id.who.int/icd/release/11/2024-01/mms/402491490",
+        "http://id.who.int/icd/release/11/2024-01/mms/1919184181",
+        "http://id.who.int/icd/release/11/2024-01/mms/1575678579",
+        "http://id.who.int/icd/release/11/2024-01/mms/334871684",
+        "http://id.who.int/icd/release/11/2024-01/mms/1572957963",
+        "http://id.who.int/icd/release/11/2024-01/mms/1545112705",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038806115",
+        "http://id.who.int/icd/release/11/2024-01/mms/1181505860",
+        "http://id.who.int/icd/release/11/2024-01/mms/180517430",
+        "http://id.who.int/icd/release/11/2024-01/mms/1720681097",
+        "http://id.who.int/icd/release/11/2024-01/mms/2041452145",
+        "http://id.who.int/icd/release/11/2024-01/mms/1455780263",
+        "http://id.who.int/icd/release/11/2024-01/mms/121049560",
+        "http://id.who.int/icd/release/11/2024-01/mms/572503172",
+        "http://id.who.int/icd/release/11/2024-01/mms/218610836",
+        "http://id.who.int/icd/release/11/2024-01/mms/1684085490",
+        "http://id.who.int/icd/release/11/2024-01/mms/878218147",
+        "http://id.who.int/icd/release/11/2024-01/mms/1065393097",
+        "http://id.who.int/icd/release/11/2024-01/mms/768467940",
+        "http://id.who.int/icd/release/11/2024-01/mms/1072073638"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/146824338/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/146824338/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1409966790",
+        "http://id.who.int/icd/release/11/2024-01/mms/896293199",
+        "http://id.who.int/icd/release/11/2024-01/mms/1094217460",
+        "http://id.who.int/icd/release/11/2024-01/mms/238069351"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/146824338/postcoordinationScale/hasAlternativeSeverity1",
+      "axisName": "http://id.who.int/icd/schema/hasAlternativeSeverity1",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2023608436",
+        "http://id.who.int/icd/release/11/2024-01/mms/2001687278",
+        "http://id.who.int/icd/release/11/2024-01/mms/222322191",
+        "http://id.who.int/icd/release/11/2024-01/mms/841991559",
+        "http://id.who.int/icd/release/11/2024-01/mms/697502435"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/146824338/postcoordinationScale/hasAlternativeSeverity2",
+      "axisName": "http://id.who.int/icd/schema/hasAlternativeSeverity2",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1863636238",
+        "http://id.who.int/icd/release/11/2024-01/mms/885826145",
+        "http://id.who.int/icd/release/11/2024-01/mms/1746207012",
+        "http://id.who.int/icd/release/11/2024-01/mms/303697349"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Squamous cell carcinoma of vulva"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "An invasive squamous cell carcinoma arising from the vulva. Risk factors include the human papilloma virus and cigarette smoking. Precursor lesions include the vulvar intraepithelial neoplasia, lichen sclerosus with associated squamous cell hyperplasia, and chronic granulomatous vulvar disease such as granuloma inguinale. Symptoms include vulvar pruritus or irritation, discharge, bleeding, and pain. The following morphologic variants have been identified: keratinizing, non-keratinizing, basaloid, warty, verrucous, keratoacanthoma-like, and squamous cell carcinoma with tumour giant cells. Risk factors for recurrence include advanced stage, tumour diameter greater than 2.5 cm, multifocality, capillary-like space involvement, associated vulvar intraepithelial neoplasia grades 2 or 3, and margins of resection involved by tumour."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Squamous cell carcinoma of vulva"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Squamous cell carcinoma of vulva, HPV associated"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1806999551"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Squamous cell carcinoma of vulva, HPV independent"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/711564968"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Squamous cell carcinoma of vulva, not otherwise specified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1805507857"
+    }
+  ]
+}

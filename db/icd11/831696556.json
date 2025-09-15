@@ -1,0 +1,111 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/831696556",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1471747216"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/392841027",
+    "http://id.who.int/icd/release/11/2024-01/mms/2065252360",
+    "http://id.who.int/icd/release/11/2024-01/mms/1598536988",
+    "http://id.who.int/icd/release/11/2024-01/mms/1527773104",
+    "http://id.who.int/icd/release/11/2024-01/mms/956823887",
+    "http://id.who.int/icd/release/11/2024-01/mms/670300288",
+    "http://id.who.int/icd/release/11/2024-01/mms/982168239",
+    "http://id.who.int/icd/release/11/2024-01/mms/831696556/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/831696556/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#831696556",
+  "code": "9A60",
+  "source": "http://id.who.int/icd/entity/831696556",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Trachoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/372424530",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/372424530"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Viral conjunctivitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/157616931",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/157616931"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neonatal conjunctivitis or dacryocystitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/358047372",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/358047372"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/831696556/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/831696556/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/470130163"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/831696556/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/831696556/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Conjunctivitis"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "keratoconjunctivitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/741260397",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/980864631"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/358047372"
+  ]
+}

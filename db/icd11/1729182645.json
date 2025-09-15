@@ -1,0 +1,118 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1729182645",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1616050398"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1729182645",
+  "code": "2B30.13",
+  "source": "http://id.who.int/icd/entity/1729182645",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1729182645/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1729182645/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1409966790",
+        "http://id.who.int/icd/release/11/2024-01/mms/896293199",
+        "http://id.who.int/icd/release/11/2024-01/mms/1094217460",
+        "http://id.who.int/icd/release/11/2024-01/mms/238069351"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1729182645/postcoordinationScale/hasAlternativeSeverity2",
+      "axisName": "http://id.who.int/icd/schema/hasAlternativeSeverity2",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1863636238",
+        "http://id.who.int/icd/release/11/2024-01/mms/885826145",
+        "http://id.who.int/icd/release/11/2024-01/mms/1746207012",
+        "http://id.who.int/icd/release/11/2024-01/mms/303697349"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Lymphocyte depleted classical Hodgkin lymphoma"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Lymphocyte depleted classical Hodgkin lymphoma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hodgkin disease, lymphocytic depletion"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hodgkin lymphoma, lymphocyte depletion"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hodgkin lymphocytic depletion"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Classical Hodgkin lymphoma, lymphocyte depletion, diffuse fibrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1593769549"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hodgkin disease, lymphocytic depletion, diffuse fibrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1593769549"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hodgkin lymphoma, lymphocyte depletion, diffuse fibrosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1593769549"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Classical Hodgkin lymphoma, lymphocyte depletion, reticular"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1369607759"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hodgkin lymphoma, lymphocyte depletion, reticular"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1369607759"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hodgkin disease, lymphocytic depletion, reticular type"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1369607759"
+    }
+  ]
+}

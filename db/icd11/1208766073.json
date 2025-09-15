@@ -1,0 +1,64 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1208766073",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1056151394"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1208766073",
+  "code": "GA01.11",
+  "source": "http://id.who.int/icd/entity/1208766073",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1208766073/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/265230989",
+        "http://id.who.int/icd/release/11/2024-01/mms/1779836109",
+        "http://id.who.int/icd/release/11/2024-01/mms/2101231629",
+        "http://id.who.int/icd/release/11/2024-01/mms/39079517"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1208766073/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1290701352"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Chronic inflammatory disease of uterus with pyometra"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic inflammatory disease of uterus with pyometra"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic inflammatory disease of uterus with uterine abscess"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic purulent endometritis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic septic endometritis"
+      }
+    }
+  ]
+}

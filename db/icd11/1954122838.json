@@ -1,0 +1,92 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1954122838",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2083995737"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1954122838",
+  "code": "8D43.1",
+  "source": "http://id.who.int/icd/entity/1954122838",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dementia due to exposure to heavy metals and other toxins"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/710305644",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/710305644"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dementia due to carbon monoxide poisoning"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/861189091",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1710319105/other"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Post radiation dementia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1642281415",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1710319105/other"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dementia or parkinsonism due to manganese toxicity"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1855441520",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1710319105/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1954122838/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/980862652",
+        "http://id.who.int/icd/release/11/2024-01/mms/851395624",
+        "http://id.who.int/icd/release/11/2024-01/mms/73322695",
+        "http://id.who.int/icd/release/11/2024-01/mms/128104623",
+        "http://id.who.int/icd/release/11/2024-01/mms/1491356379",
+        "http://id.who.int/icd/release/11/2024-01/mms/491063206",
+        "http://id.who.int/icd/release/11/2024-01/mms/185842968",
+        "http://id.who.int/icd/release/11/2024-01/mms/2143219175",
+        "http://id.who.int/icd/release/11/2024-01/mms/558785723",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Cognitive impairment due to toxicity"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "These are conditions of impaired cognition due to the toxicity of substances."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/564191997"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cognitive impairment due to toxicity"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cognitive impairment due to lead toxicity"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1276385301"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/940432208",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1444354573"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#940432208",
+  "code": "LB15.5",
+  "source": "http://id.who.int/icd/entity/940432208",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/940432208/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1928625572"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Congenital diverticulum of small intestine"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This refers to a morphological condition in which there is single small congenital pouch in the lining of the small intestine, bulging outward through a weak spot."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital diverticulum of small intestine"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital diverticulum of small intestine, with complication"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/11947707"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital diverticulum of small intestine, without complication"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/233126232"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/588322003",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1099770685"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#588322003",
+  "code": "KA42.3",
+  "source": "http://id.who.int/icd/entity/588322003",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/588322003/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/570444145"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/588322003/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/128908879",
+        "http://id.who.int/icd/release/11/2024-01/mms/1659188187",
+        "http://id.who.int/icd/release/11/2024-01/mms/373842724",
+        "http://id.who.int/icd/release/11/2024-01/mms/541657990",
+        "http://id.who.int/icd/release/11/2024-01/mms/986673759",
+        "http://id.who.int/icd/release/11/2024-01/mms/1929621170",
+        "http://id.who.int/icd/release/11/2024-01/mms/15547686",
+        "http://id.who.int/icd/release/11/2024-01/mms/437941753",
+        "http://id.who.int/icd/release/11/2024-01/mms/927970860/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Monitoring injury of scalp of newborn"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Injuries to the scalp from use of intrapartum fetal monitoring devices including injury following fetal blood sampling."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Injuries to the scalp from use of intrapartum fetal monitoring devices including injury following fetal blood sampling. Superficial abrasions, lacerations, hematomas and abscesses of the scalp can occur. Scalp changes can be classified into four grades of severity."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Monitoring injury of scalp of newborn"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury to scalp of newborn due to sampling incision"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/920734319"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sampling incision of scalp of newborn"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/920734319"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury to scalp of newborn due to scalp clip or electrode"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1001536908"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "fetal scalp electrode injury"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1001536908"
+    }
+  ]
+}

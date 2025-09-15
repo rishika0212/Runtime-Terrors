@@ -1,0 +1,83 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1321046831",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1611601779"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1321046831",
+  "code": "9D41",
+  "source": "http://id.who.int/icd/entity/1321046831",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1321046831/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Impairment of visual field"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Ranges of visual field impairment refer to the extent of peripheral vision outside fixation. The extent should be measured for each eye separately."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Impairment of visual field"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mild Impairment of Visual Field"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/758019299"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Moderate Impairment of Visual Field"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1443852722"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Severe Impairment of Visual Field"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/694114467"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Profound Impairment of Visual Field"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1185866252"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Near-total Impairment of Visual Field"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1558830290"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Total Impairment of Visual Field"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1132410214"
+    }
+  ]
+}

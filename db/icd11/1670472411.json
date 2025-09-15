@@ -1,0 +1,49 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1670472411",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/309221988"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1670472411",
+  "code": "QA88",
+  "source": "http://id.who.int/icd/entity/1670472411",
+  "classKind": "category",
+  "title": {
+    "@language": "en",
+    "@value": "Problem with clinical software without injury or harm"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Software malfunction causing interruption in processing of patient orders, laboratory or other diagnostic results, data entry, electronic communication, or data output, but without documented injury or harm."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Problem associated with clinical software"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1260776611",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1260776611"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Problem with clinical software without injury or harm"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "interruption of processing of patient orders without documentation of injury or harm"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "interruption of processing or receipt of laboratory or other diagnostic results without documented injury or harm"
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/827275803",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/4407978"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#827275803",
+  "code": "GC07",
+  "source": "http://id.who.int/icd/entity/827275803",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/827275803/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1507624466"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Urethral caruncle"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition characterised by small, focal, benign, pink or red polypoid masses of the distal urethral mucosa, which may become painful, bloody, and deep red in colour. This condition may be associated with urogenital atrophy due to estrogen deficiency, and may be aggravated by chronic irritation of urethral mucosa exposure. This condition typically affects postmenopausal women."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Urethral caruncle"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Urethral polyp"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/518438149"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "polyp of urethra"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/518438149"
+    }
+  ]
+}

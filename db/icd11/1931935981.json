@@ -1,0 +1,46 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1931935981",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/160690465"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/361151087",
+    "http://id.who.int/icd/release/11/2024-01/mms/504383539",
+    "http://id.who.int/icd/release/11/2024-01/mms/1931935981/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1931935981/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1931935981",
+  "code": "HA03",
+  "source": "http://id.who.int/icd/entity/1931935981",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Retrograde ejaculation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/988651013",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/988651013"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1931935981/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1099536224"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Ejaculatory dysfunctions"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Ejaculatory dysfunctions refer to difficulties with ejaculation in men, including ejaculatory latencies that are experienced as too short (Male early ejaculation) or too long (Male delayed ejaculation)."
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/727572936",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/915779102"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1296842178",
+    "http://id.who.int/icd/release/11/2024-01/mms/1242562217",
+    "http://id.who.int/icd/release/11/2024-01/mms/1050848854",
+    "http://id.who.int/icd/release/11/2024-01/mms/1542022084",
+    "http://id.who.int/icd/release/11/2024-01/mms/971074877",
+    "http://id.who.int/icd/release/11/2024-01/mms/671608920",
+    "http://id.who.int/icd/release/11/2024-01/mms/727572936/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/727572936/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#727572936",
+  "code": "CA42",
+  "source": "http://id.who.int/icd/entity/727572936",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/727572936/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/727572936/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acute bronchitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "An acute disease of the bronchi, commonly caused by an infection with a bacterial or viral source. This disease is characterised by inflammation of the bronchi. This disease presents with cough, wheezing, chest pain or discomfort, fever, or dyspnoea. Transmission is by inhalation of infected respiratory secretions. Confirmation is by identification of the infectious agent in a sputum sample."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Rapid onset inflammation of the large airways in the lung, including any part of the bronchi. It is often viral in origin, e.g. myxovirus (i.e. influenza A,B,C, parainfluenza, HRS virus), adenovirus, and picoma viruses (e.g. rhinoviruses), mycoplasma and bacteria."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "tracheobronchitis: chronic obstructive"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/133207228",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/133207228"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "tracheobronchitis: chronic"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/133207228",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/133207228"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tracheobronchitis, NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1889351414",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1889351414"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bronchitis, chronic: obstructive"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/143605159",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/143605159"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Simple chronic bronchitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/537830030",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/537830030"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic bronchitis, NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/290835130",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/290835130"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mucopurulent chronic bronchitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1162178332",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1162178332"
+    }
+  ]
+}

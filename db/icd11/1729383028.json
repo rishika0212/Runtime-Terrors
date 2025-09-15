@@ -1,0 +1,89 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1729383028",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1868068711"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1729383028",
+  "code": "4A84.0",
+  "source": "http://id.who.int/icd/entity/1729383028",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1729383028/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/502820569",
+        "http://id.who.int/icd/release/11/2024-01/mms/1206642838",
+        "http://id.who.int/icd/release/11/2024-01/mms/1839152580",
+        "http://id.who.int/icd/release/11/2024-01/mms/683532877"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Anaphylaxis due to allergic reaction to food"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Rapidly progressive, multi-system and potentially life-threatening reaction to exposure to a food allergen to which the affected individual has previously been sensitized."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "obstruction from food aspiration"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/427553982",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/427553982"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "food intolerance"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1892910653",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2016472924"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Anaphylaxis due to allergic reaction to food"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "anaphylactic reaction to food"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "food-induced anaphylaxis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Anaphylaxis due to food proteins"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Food allergen-induced anaphylaxis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Anaphylactic shock due to allergic food reaction"
+      }
+    }
+  ]
+}

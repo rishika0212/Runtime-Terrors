@@ -1,0 +1,57 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1492550461",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/282555450"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1165099558",
+    "http://id.who.int/icd/release/11/2024-01/mms/1492550461/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1492550461/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1492550461",
+  "code": "FA38.1",
+  "source": "http://id.who.int/icd/entity/1492550461",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1492550461/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/864772028",
+        "http://id.who.int/icd/release/11/2024-01/mms/2085220884",
+        "http://id.who.int/icd/release/11/2024-01/mms/625587547",
+        "http://id.who.int/icd/release/11/2024-01/mms/1753246500",
+        "http://id.who.int/icd/release/11/2024-01/mms/8274514",
+        "http://id.who.int/icd/release/11/2024-01/mms/1041587014",
+        "http://id.who.int/icd/release/11/2024-01/mms/223046766",
+        "http://id.who.int/icd/release/11/2024-01/mms/570772363"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1492550461/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/455894495",
+        "http://id.who.int/icd/release/11/2024-01/mms/149072669",
+        "http://id.who.int/icd/release/11/2024-01/mms/1580466198"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Neuropathic arthropathy"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Neuropathic arthropathy is a progressive destructive arthritis associated with loss of pain sensation, proprioception, or both. Normal muscular reflexes that modulate joint movement are decreased. Without these protective mechanisms, joints are subjected to repeated trauma, resulting in progressive cartilage and bone damage. Additional symptoms include skin changes, such as erythema, swelling, hyperpigmentation, or purpura and soft tissue ulcers over the affected area, as well as joint loosening or instability and joint deformities."
+  },
+  "codingNote": {
+    "@language": "en",
+    "@value": "Use additional code, if desired, to identify neuropathy."
+  }
+}

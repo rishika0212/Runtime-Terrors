@@ -1,0 +1,69 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/752235",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/40398753"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#752235",
+  "code": "DB10.02",
+  "source": "http://id.who.int/icd/entity/752235",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/752235/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/293771399",
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acute appendicitis without localised or generalised peritonitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This condition is characterised by acute inflammation of the veriform appendix in that there is no mention about the extent of the peritonitis. Acute appendicitis without peritonitis is included here. Acute appendicitis with no perforation or abscess, and simply phlegmonous or suppurative appendicitis, these can usually be treated conservatively, are also included here."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute appendicitis without localised or generalised peritonitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute appendicitis NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute appendicitis with no perforation or abscess and no visible pus"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute appendicitis with no specification if perforated or not"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute appendicitis with phlegmone"
+      }
+    }
+  ]
+}

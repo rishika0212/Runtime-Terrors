@@ -1,0 +1,69 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/62015785",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/962422537"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/599449730",
+    "http://id.who.int/icd/release/11/2024-01/mms/669158958",
+    "http://id.who.int/icd/release/11/2024-01/mms/62015785/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#62015785",
+  "code": "PD60",
+  "source": "http://id.who.int/icd/entity/62015785",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/62015785/postcoordinationScale/activityWhenInjured",
+      "axisName": "http://id.who.int/icd/schema/activityWhenInjured",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2071638841",
+        "http://id.who.int/icd/release/11/2024-01/mms/1107435129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1428847289",
+        "http://id.who.int/icd/release/11/2024-01/mms/821249273",
+        "http://id.who.int/icd/release/11/2024-01/mms/160164281"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/62015785/postcoordinationScale/objectOrSubstanceProducingInjury",
+      "axisName": "http://id.who.int/icd/schema/objectOrSubstanceProducingInjury",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1133651079",
+        "http://id.who.int/icd/release/11/2024-01/mms/2062191047",
+        "http://id.who.int/icd/release/11/2024-01/mms/1841491207"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/62015785/postcoordinationScale/placeOfOccurrence",
+      "axisName": "http://id.who.int/icd/schema/placeOfOccurrence",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowedExceptFromSameBlock",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1081404635",
+        "http://id.who.int/icd/release/11/2024-01/mms/1786773723"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/62015785/postcoordinationScale/transportEventDescriptor",
+      "axisName": "http://id.who.int/icd/schema/transportEventDescriptor",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowedExceptFromSameBlock",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1594880101",
+        "http://id.who.int/icd/release/11/2024-01/mms/1210553509",
+        "http://id.who.int/icd/release/11/2024-01/mms/771664613",
+        "http://id.who.int/icd/release/11/2024-01/mms/987156005",
+        "http://id.who.int/icd/release/11/2024-01/mms/428328911"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Assault by water transport injury event with water vessel damaged, disabled or destroyed"
+  }
+}

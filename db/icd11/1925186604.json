@@ -1,0 +1,56 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1925186604",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/23958598"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1218010255",
+    "http://id.who.int/icd/release/11/2024-01/mms/1644720463",
+    "http://id.who.int/icd/release/11/2024-01/mms/500607680",
+    "http://id.who.int/icd/release/11/2024-01/mms/1925186604/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1925186604/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1925186604",
+  "code": "8D66",
+  "source": "http://id.who.int/icd/entity/1925186604",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1925186604/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1150229943"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1925186604/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1297540670"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Syringomyelia or syringobulbia"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "In syringomyelia, there is fluid-filled tubular cavitation (syrinx formation) within the central spinal cord. The syrinx can elongate, enlarge and expand into the grey and white matter and, as it does so, it compresses the nervous tissue of the corticospinal and spinothalamic tracts and the anterior horn cells. This leads to the various neurological symptoms and signs. If the syrinx extends into the brainstem, syringobulbia results."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital hydromyelia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1842315334",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/465198086"
+    }
+  ]
+}

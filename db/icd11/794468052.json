@@ -1,0 +1,53 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/794468052",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1111681557"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1394072237",
+    "http://id.who.int/icd/release/11/2024-01/mms/1550756489",
+    "http://id.who.int/icd/release/11/2024-01/mms/794468052/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/794468052/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#794468052",
+  "code": "AB34",
+  "source": "http://id.who.int/icd/entity/794468052",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/794468052/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Disorders of vestibular function"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "vertigo: NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1398634694",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1398634694"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "vertigo: epidemic"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/679083753",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1104303944"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/189059931",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/431804121"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#189059931",
+  "code": "PL12.2",
+  "source": "http://id.who.int/icd/entity/189059931",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/189059931/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1435254666",
+        "http://id.who.int/icd/release/11/2024-01/mms/1766440644",
+        "http://id.who.int/icd/release/11/2024-01/mms/1954798891",
+        "http://id.who.int/icd/release/11/2024-01/mms/21500692",
+        "http://id.who.int/icd/release/11/2024-01/mms/334423054",
+        "http://id.who.int/icd/release/11/2024-01/mms/274880002",
+        "http://id.who.int/icd/release/11/2024-01/mms/1296093776",
+        "http://id.who.int/icd/release/11/2024-01/mms/868865918",
+        "http://id.who.int/icd/release/11/2024-01/mms/1218729044",
+        "http://id.who.int/icd/release/11/2024-01/mms/426429380",
+        "http://id.who.int/icd/release/11/2024-01/mms/197934298",
+        "http://id.who.int/icd/release/11/2024-01/mms/1256772020",
+        "http://id.who.int/icd/release/11/2024-01/mms/1639304259",
+        "http://id.who.int/icd/release/11/2024-01/mms/1473673350",
+        "http://id.who.int/icd/release/11/2024-01/mms/30659757",
+        "http://id.who.int/icd/release/11/2024-01/mms/714000734",
+        "http://id.who.int/icd/release/11/2024-01/mms/1306203631",
+        "http://id.who.int/icd/release/11/2024-01/mms/1843895818",
+        "http://id.who.int/icd/release/11/2024-01/mms/435227771",
+        "http://id.who.int/icd/release/11/2024-01/mms/1642025150"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Perforation or protrusion by device, as mode of injury or harm"
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ocular Implant Extrusion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1660985620"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ocular Implant Exposure"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1558006887"
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cut, puncture or tear, as mode of injury or harm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/279160930",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/279160930"
+    }
+  ],
+  "codingNote": {
+    "@language": "en",
+    "@value": "Code first the injury or harm associated with the device. Code also the cause of harm which identifies the type of device."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Perforation or protrusion by device, as mode of injury or harm"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "protruding device"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pierced by device"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ocular Implant Extrusion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1660985620"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ocular Implant Exposure"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1558006887"
+    }
+  ]
+}

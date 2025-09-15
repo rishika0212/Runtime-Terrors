@@ -1,0 +1,69 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/786248807",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2142880493"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#786248807",
+  "code": "QC41",
+  "source": "http://id.who.int/icd/entity/786248807",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/786248807/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/879154182",
+        "http://id.who.int/icd/release/11/2024-01/mms/1167133946"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Personal history of non-malignant neoplasms"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Personal history of malignant neoplasm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/560107272",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/560107272"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Personal history of non-malignant neoplasms"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "history of benign neoplasm"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "history of neoplasm in-situ"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "personal history of benign neoplasm"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "personal history of in-situ neoplasm"
+      }
+    }
+  ]
+}

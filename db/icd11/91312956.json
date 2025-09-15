@@ -1,0 +1,91 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/91312956",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/489508344"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#91312956",
+  "code": "EH77",
+  "source": "http://id.who.int/icd/entity/91312956",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Allergic contact dermatitis due to topical medicaments"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1435762443",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1435762443"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Allergic contact dermatitis due to systemic medicaments"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/320934595",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/320934595"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Localised lipoatrophy due to injected drug"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1420628456",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1290704160"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Insulin-induced localised fat hypertrophy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1425631631",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/302826287"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Superficial thrombophlebitis resulting from infusion or injection of drug"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1853528679",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/115152826"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/91312956/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1583926619",
+        "http://id.who.int/icd/release/11/2024-01/mms/1323892810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Localised adverse cutaneous reactions to administration of drug"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Localised adverse cutaneous reactions to administration of drug"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Necrosis or ulceration due to extravasation of drug into the skin"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1204593394"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Extravasation reaction"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1204593394"
+    }
+  ]
+}

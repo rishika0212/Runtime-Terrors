@@ -1,0 +1,69 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2113831613",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/49589409"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2113831613",
+  "code": "7A87",
+  "source": "http://id.who.int/icd/entity/2113831613",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2113831613/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1435254666",
+        "http://id.who.int/icd/release/11/2024-01/mms/1630407678",
+        "http://id.who.int/icd/release/11/2024-01/mms/1766440644",
+        "http://id.who.int/icd/release/11/2024-01/mms/1954798891",
+        "http://id.who.int/icd/release/11/2024-01/mms/21500692",
+        "http://id.who.int/icd/release/11/2024-01/mms/1296093776",
+        "http://id.who.int/icd/release/11/2024-01/mms/426429380",
+        "http://id.who.int/icd/release/11/2024-01/mms/1256772020",
+        "http://id.who.int/icd/release/11/2024-01/mms/1639304259",
+        "http://id.who.int/icd/release/11/2024-01/mms/1473673350",
+        "http://id.who.int/icd/release/11/2024-01/mms/30659757"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Sleep-related movement disorder due to a medical condition"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Sleep-related movement disorder due to a medical condition is characterised by sleep-related movement abnormalities that are directly attributable to an underlying neurological or medical condition. Many medical conditions, particularly diseases of the nervous system, may be associated with movement abnormalities that are evident in wake and sleep. In some cases, the nocturnal manifestations of the movement abnormalities may be apparent before establishment of a firm neurological diagnosis. Once the presence of a medical or neurological condition is clearly established, this diagnosis should only be assigned if the sleep-related aspects of the movement abnormality or its sequelae are the focus of independent clinical attention."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sleep-related movement disorder due to a medical condition"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Restless leg syndrome in uraemia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1096304945"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Restless leg syndrome in iron deficiency"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1414052394"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Restless leg syndrome in pregnancy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1675336532"
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1931148955",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1496633964"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1931148955",
+  "code": "BB01.0",
+  "source": "http://id.who.int/icd/entity/1931148955",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1931148955/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1000704511",
+        "http://id.who.int/icd/release/11/2024-01/mms/1194562592",
+        "http://id.who.int/icd/release/11/2024-01/mms/1008515027",
+        "http://id.who.int/icd/release/11/2024-01/mms/1506184775",
+        "http://id.who.int/icd/release/11/2024-01/mms/2004408087"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1931148955/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/562478860",
+        "http://id.who.int/icd/release/11/2024-01/mms/1663264387",
+        "http://id.who.int/icd/release/11/2024-01/mms/1201187093"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Pulmonary arterial hypertension"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Pulmonary arterial hypertension is a clinical condition characterised by the presence of pre-capillary pulmonary hypertension in the absence of other causes of pre-capillary pulmonary hypertension, such as due to lung diseases, chronic thromboembolic pulmonary hypertension, or other rare diseases. It includes different forms that share a similar clinical picture and virtually identical pathological changes of the lung microcirculation."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "primary pulmonary hypertension"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Idiopathic pulmonary arterial hypertension"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/265520344"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1380872553"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/346808536"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pulmonary arterial hypertension"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "primary pulmonary hypertension"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "PAH - [pulmonary arterial hypertension]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Arrillaga Ayerza syndrome"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Idiopathic pulmonary arterial hypertension"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/265520344"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Familial pulmonary arterial hypertension"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/943760810"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "heritable pulmonary arterial hypertension"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/943760810"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Familial pulmonary arterial hypertension due to BMPR2 mutations"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/301374783"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Familial pulmonary arterial hypertension due to ALK1 or endoglin mutations"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/603932984"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Familial pulmonary arterial hypertension of unknown origin"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/472032331"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pulmonary arterial hypertension induced by drugs or toxins"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/733054261"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pulmonary arterial hypertension associated with other conditions"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/55973654"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "APAH - [Associated pulmonary arterial hypertension]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/55973654"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pulmonary arterial hypertension associated with connective tissue diseases"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/828359441"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pulmonary arterial hypertension associated with HIV infection"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/417987464"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pulmonary arterial hypertension associated with portal hypertension"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/796580602"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pulmonary arterial hypertension associated with congenital heart disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/234424477"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Eisenmenger syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/581886860"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pulmonary arterial hypertension associated with congenital systemic-to-pulmonary shunt"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/180484824"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pulmonary arterial hypertension associated with schistosomiasis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1597387637"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pulmonary arterial hypertension associated with other aetiologies"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1244053614"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pulmonary veno-occlusive disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1368993024"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pulmonary capillary haemangiomatosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1507320051"
+    }
+  ]
+}

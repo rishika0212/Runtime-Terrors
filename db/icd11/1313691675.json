@@ -1,0 +1,341 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1313691675",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/152692065"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1313691675",
+  "code": "NE40",
+  "source": "http://id.who.int/icd/entity/1313691675",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1313691675/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/223243926",
+        "http://id.who.int/icd/release/11/2024-01/mms/947150833",
+        "http://id.who.int/icd/release/11/2024-01/mms/1810600222"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1313691675/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482",
+        "http://id.who.int/icd/release/11/2024-01/mms/755612283"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Superficial frostbite"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Frostbite in which injury is confined to the skin, where there may be epidermal blistering and sloughing but no significant tissue necrosis."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Superficial frostbite is a blistering, surface tissue injury following transient exposure to below freezing temperatures. Damage occurs due to ice crystals directly injuring epidermal cell membranes, and intense vasoconstriction leading to inadequate skin perfusion. Injury can be increased if affected tissue is gradually, rather than rapidly, rewarmed. Blistering, contains clear fluid and skin will generally heal over several weeks with paresthesias and sometimes arthritis. Skin grafting and amputations are not needed, and unlike thermal injuries, there is no denatured protein, so these patients do not form hypertrophic scars."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "frostbite with partial-thickness skin loss"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Superficial frostbite involving multiple body regions"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1955036595",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1491600923"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Superficial frostbite"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "First degree frostbite"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "frostbite with partial-thickness skin loss"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Frostnip"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Second degree frostbite"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Superficial frostbite of head"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1392952436"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sequelae of superficial frostbite of head"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1275770759"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Superficial frostbite of face"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/858471892"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Superficial frostbite of neck"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/911018470"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sequelae of superficial frostbite of neck"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1843252235"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Superficial frostbite of thorax"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1121999129"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sequelae of superficial frostbite of thorax"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1948495428"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Superficial frostbite of abdominal wall, lower back or pelvis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/665556109"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sequelae of superficial frostbite of abdominal wall, lower back and pelvis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1410754056"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Superficial frostbite of abdominal wall"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1291183709"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Superficial frostbite of pelvis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2112357479"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Superficial frostbite of arm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1413809945"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "superficial frostbite of upper limb"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1413809945"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sequelae of superficial frostbite of arm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/519377205"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Superficial frostbite of wrist or hand"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/823052941"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sequelae of superficial frostbite of wrist or hand"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/993545463"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Superficial frostbite of fingers"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1941126971"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Superficial frostbite of hand"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/208528564"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Superficial frostbite of wrist"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1945204699"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Superficial frostbite of hip or thigh"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1168349810"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sequelae of superficial frostbite of hip or thigh"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2129635026"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Superficial frostbite of hip"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/676513668"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Superficial frostbite of knee or lower leg"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/552097768"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sequelae of superficial frostbite of knee or lower leg"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1597562208"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Superficial frostbite of knee"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/108952698"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Superficial frostbite of lower leg"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/665389048"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Superficial frostbite of ankle or foot"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1568752294"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sequelae of superficial frostbite of ankle or foot"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1354964268"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Superficial frostbite of ankle"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1758119277"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Superficial frostbite of foot"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/140971976"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Superficial frostbite of toes"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1753779597"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Superficial frostbite of leg, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/483253540"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "superficial frostbite of lower limb NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/483253540"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Superficial frostbite of trunk, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/862510876"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "superficial frostbite of trunk NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/862510876"
+    }
+  ]
+}

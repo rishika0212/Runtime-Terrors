@@ -1,0 +1,104 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1863674681",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1496633964"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1863674681",
+  "code": "BB01.2",
+  "source": "http://id.who.int/icd/entity/1863674681",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1863674681/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/877557231",
+        "http://id.who.int/icd/release/11/2024-01/mms/761789312",
+        "http://id.who.int/icd/release/11/2024-01/mms/133207228",
+        "http://id.who.int/icd/release/11/2024-01/mms/111658096"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1863674681/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1736723450",
+        "http://id.who.int/icd/release/11/2024-01/mms/1334106743",
+        "http://id.who.int/icd/release/11/2024-01/mms/1856184032",
+        "http://id.who.int/icd/release/11/2024-01/mms/2071814495"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Pulmonary hypertension due to lung disease or hypoxia"
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1380872553"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/346808536"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pulmonary hypertension due to lung disease or hypoxia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pulmonary hypertension due to chronic obstructive pulmonary disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1355318860"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pulmonary hypertension due to interstitial lung disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1734059830"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pulmonary hypertension due to other pulmonary diseases with mixed restrictive and obstructive patterns"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2090267809"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pulmonary hypertension due to sleep-disordered breathing"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1319051430"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pulmonary hypertension due to alveolar hypoventilation disorders"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1730746417"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pulmonary hypertension due to chronic exposure to high altitude"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1354381647"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pulmonary hypertension due to developmental abnormalities"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1916398378"
+    }
+  ]
+}

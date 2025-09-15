@@ -1,0 +1,62 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/655149009",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1686749305"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/817941292",
+    "http://id.who.int/icd/release/11/2024-01/mms/655149009/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/655149009/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#655149009",
+  "code": "FA33.4",
+  "source": "http://id.who.int/icd/entity/655149009",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/655149009/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/655149009/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/391521938"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/655149009/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1569734721"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Chronic instability of knee"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Recurrent instability of patella"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1509687727",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1509687727"
+    }
+  ]
+}

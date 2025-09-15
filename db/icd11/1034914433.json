@@ -1,0 +1,214 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1034914433",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/985186256"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1034914433",
+  "code": "MG30.20",
+  "source": "http://id.who.int/icd/entity/1034914433",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic central neuropathic pain associated with spinal cord injury"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/869493945",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1297540670"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic central neuropathic pain associated with brain injury"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/334893123",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1297540670"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic neuropathic pain after peripheral nerve injury"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1934323282",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/425464783"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Complex regional pain syndrome type II"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1415867395",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1834504950"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1034914433/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1007332872",
+        "http://id.who.int/icd/release/11/2024-01/mms/597444540"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1034914433/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/501504598",
+        "http://id.who.int/icd/release/11/2024-01/mms/932220680",
+        "http://id.who.int/icd/release/11/2024-01/mms/671508148",
+        "http://id.who.int/icd/release/11/2024-01/mms/579584480"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1034914433/postcoordinationScale/hasAlternativeSeverity1",
+      "axisName": "http://id.who.int/icd/schema/hasAlternativeSeverity1",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/137604848",
+        "http://id.who.int/icd/release/11/2024-01/mms/1926847105",
+        "http://id.who.int/icd/release/11/2024-01/mms/489218088",
+        "http://id.who.int/icd/release/11/2024-01/mms/2029211037"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1034914433/postcoordinationScale/hasAlternativeSeverity2",
+      "axisName": "http://id.who.int/icd/schema/hasAlternativeSeverity2",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/145592658",
+        "http://id.who.int/icd/release/11/2024-01/mms/1824378311",
+        "http://id.who.int/icd/release/11/2024-01/mms/1714449067",
+        "http://id.who.int/icd/release/11/2024-01/mms/1721227995"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1034914433/postcoordinationScale/temporalPatternAndOnset",
+      "axisName": "http://id.who.int/icd/schema/temporalPatternAndOnset",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1281193286",
+        "http://id.who.int/icd/release/11/2024-01/mms/1313511357",
+        "http://id.who.int/icd/release/11/2024-01/mms/47514516"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1034914433/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1296093776",
+        "http://id.who.int/icd/release/11/2024-01/mms/868865918",
+        "http://id.who.int/icd/release/11/2024-01/mms/1256772020",
+        "http://id.who.int/icd/release/11/2024-01/mms/1639304259",
+        "http://id.who.int/icd/release/11/2024-01/mms/1473673350",
+        "http://id.who.int/icd/release/11/2024-01/mms/30659757",
+        "http://id.who.int/icd/release/11/2024-01/mms/435227771"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Chronic post traumatic pain"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Chronic post traumatic pain is pain developing or increasing in intensity after a tissue injury (involving any trauma including burns) and persisting beyond the healing process, i.e. at least 3 months after the tissue trauma. The pain is either localized to the area of injury, projected to the innervation territory of a nerve situated in this area, or referred to a dermatome (after surgery/injury to deep somatic or visceral tissues). Other causes of pain including infection, malignancy etc. need to be excluded as well as pain continuing from a pre-existing pain problem."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Chronic post traumatic pain is pain developing or increasing in intensity after a tissue injury (involving any trauma including burns) and persisting beyond the healing process, i.e. at least 3 months after the tissue trauma. The pain is either localized to the area of injury, projected to the innervation territory of a nerve situated in this area, or referred to a dermatome (after surgery/injury to deep somatic or visceral tissues). Other causes of pain including infection, malignancy etc. need to be excluded as well pain as continuing from a pre-existing pain problem. Chronic post traumatic pain often may be neuropathic pain. Even if neuropathic mechanisms are crucial, this type of pain should be diagnosed here. The posttraumatic etiology of the pain should be highly probable; if it is vague, consider using codes in the section of chronic primary pain.\n\nThe incidence of chronic post traumatic pain is reported in the range of 46 to 85% after multitrauma. Typical examples of chronic post traumatic pain include posttraumatic osteoarthritis after joint injuries, chronic pain after acute back injury, whiplash injury and after burns injury.\n\nDiagnostic Criteria:\n\nConditions A to E are fulfilled:\n\nA. Chronic pain (persistent or recurrent for longer than 3 months) is present.\n\nB. The pain began or increased in intensity after a tissue trauma.\n\nC. The pain is in an area of preceding tissue trauma.\n\nD. The pain persisted for at least 3 months after the initiating event.\n\nE. The pain is not better accounted for by an infection, a malignancy, a pre-existing pain condition or any other alternative cause."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic pain after burns injury"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/883268554"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic whiplash injury associated pain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/134684950"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic pain after musculoskeletal injury"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1627253733"
+    }
+  ],
+  "codingNote": {
+    "@language": "en",
+    "@value": "The posttraumatic aetiology of the pain should be highly probable; if it is vague, consider using codes in the section of chronic primary pain."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic post traumatic pain"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "posttraumatic pain"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic pain after burns injury"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/883268554"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic post burn pain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/883268554"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "persistent post burn pain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/883268554"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic whiplash injury associated pain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/134684950"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "chronic whiplash syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/134684950"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic pain after musculoskeletal injury"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1627253733"
+    }
+  ]
+}

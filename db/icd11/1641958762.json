@@ -1,0 +1,75 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1641958762",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1882771459"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/774373615",
+    "http://id.who.int/icd/release/11/2024-01/mms/1478817379",
+    "http://id.who.int/icd/release/11/2024-01/mms/1030700023",
+    "http://id.who.int/icd/release/11/2024-01/mms/1641958762/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1641958762",
+  "code": "MB53",
+  "source": "http://id.who.int/icd/entity/1641958762",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1641958762/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1641958762/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1435254666",
+        "http://id.who.int/icd/release/11/2024-01/mms/1630407678",
+        "http://id.who.int/icd/release/11/2024-01/mms/1766440644",
+        "http://id.who.int/icd/release/11/2024-01/mms/1954798891",
+        "http://id.who.int/icd/release/11/2024-01/mms/21500692",
+        "http://id.who.int/icd/release/11/2024-01/mms/1296093776",
+        "http://id.who.int/icd/release/11/2024-01/mms/426429380",
+        "http://id.who.int/icd/release/11/2024-01/mms/1473673350",
+        "http://id.who.int/icd/release/11/2024-01/mms/223744320",
+        "http://id.who.int/icd/release/11/2024-01/mms/435227771"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Hemiplegia"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is a severe or complete loss of motor function on one side of the body."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "congenital cerebral palsy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/76906748",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/76906748"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "spastic hemiplegic cerebral palsy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1429906313",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1429906313"
+    }
+  ]
+}

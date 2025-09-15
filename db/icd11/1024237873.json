@@ -1,0 +1,89 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1024237873",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1041697133"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1024237873",
+  "code": "PG63",
+  "source": "http://id.who.int/icd/entity/1024237873",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1024237873/postcoordinationScale/activityWhenInjured",
+      "axisName": "http://id.who.int/icd/schema/activityWhenInjured",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2071638841",
+        "http://id.who.int/icd/release/11/2024-01/mms/1107435129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1428847289",
+        "http://id.who.int/icd/release/11/2024-01/mms/821249273",
+        "http://id.who.int/icd/release/11/2024-01/mms/160164281"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1024237873/postcoordinationScale/objectOrSubstanceProducingInjury",
+      "axisName": "http://id.who.int/icd/schema/objectOrSubstanceProducingInjury",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1517361661",
+        "http://id.who.int/icd/release/11/2024-01/mms/1297710397",
+        "http://id.who.int/icd/release/11/2024-01/mms/679494525",
+        "http://id.who.int/icd/release/11/2024-01/mms/1067984829",
+        "http://id.who.int/icd/release/11/2024-01/mms/114330365"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1024237873/postcoordinationScale/placeOfOccurrence",
+      "axisName": "http://id.who.int/icd/schema/placeOfOccurrence",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowedExceptFromSameBlock",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1081404635",
+        "http://id.who.int/icd/release/11/2024-01/mms/1786773723"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Stepped on or crushed with undetermined intent by animal"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stepped on or crushed with undetermined intent by animal"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stepped on or crushed with undetermined intent by land mammal"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1722833737"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stepped on or crushed with undetermined intent by marine animal"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/340748340"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stepped on or crushed with undetermined intent by reptile or amphibian"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/30987706"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Stepped on or crushed with undetermined intent by insect or bird"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/926499161"
+    }
+  ]
+}

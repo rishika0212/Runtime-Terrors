@@ -1,0 +1,83 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2082014966",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1838213761"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2082014966",
+  "code": "GA10.E",
+  "source": "http://id.who.int/icd/entity/2082014966",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2082014966/postcoordinationScale/relational",
+      "axisName": "http://id.who.int/icd/schema/relational",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1013312453",
+        "http://id.who.int/icd/release/11/2024-01/mms/423444880"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2082014966/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1788617479",
+        "http://id.who.int/icd/release/11/2024-01/mms/194670149"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2082014966/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/304055010",
+        "http://id.who.int/icd/release/11/2024-01/mms/2002014072"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Endometriosis of the circulatory system"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Endometriosis of the circulatory system"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Endometriosis of the heart"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/365689898"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Endometriosis of pericardium"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2111801709"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pericardial nodules"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2111801709"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pericardial endometriosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2111801709"
+    }
+  ]
+}

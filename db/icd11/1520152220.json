@@ -1,0 +1,72 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1520152220",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/851941810"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/768846885",
+    "http://id.who.int/icd/release/11/2024-01/mms/1601827704",
+    "http://id.who.int/icd/release/11/2024-01/mms/976371426",
+    "http://id.who.int/icd/release/11/2024-01/mms/1520152220/other"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1520152220",
+  "code": "DC51",
+  "source": "http://id.who.int/icd/entity/1520152220",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pneumoperitoneum, originating in the perinatal period, due to primary pulmonary air leak syndromes"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1541970629",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1541970629"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1520152220/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1924631190"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1520152220/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Certain specified disorders of peritoneum or retroperitoneum"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ascites"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1133729855",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1133729855"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Certain specified disorders of peritoneum or retroperitoneum"
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/56575149",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1959883044"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#56575149",
+  "code": "1D22",
+  "source": "http://id.who.int/icd/entity/56575149",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/56575149/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/956664712"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Severe dengue"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Clinical signs include: 1. Severe plasma leakage leading to shock (dengue shock syndrome - DSS) and/or fluid accumulation with respiratory distress; 2. severe bleeding as evaluated by clinician, 3. severe organ involvement: Liver AST or ALT ≥ 1000, CNS: impaired consciousness, involvement of other organs, as myocarditis or nephritis."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/911707612"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Severe dengue"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Severe dengue haemorrhagic fever"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Severe dengue fever"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "dengue shock syndrome"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Encephalitis due to Dengue fever"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1414852473"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myelitis due to Dengue virus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/615530292"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1457759945",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/601747793"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1457759945",
+  "code": "DA0E.00",
+  "source": "http://id.who.int/icd/entity/1457759945",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1457759945/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/968811028"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Micrognathia"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Apparently reduced length and width of the mandible when viewed from the front but not from the side. This is a bundled term comprising shortening and narrowing of the mandible and chin."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pierre Robin syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/136361299",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/136361299"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Micrognathia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital micrognathia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1880384890"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "congenital micrognathism"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1880384890"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acquired micrognathia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2001619053"
+    }
+  ]
+}

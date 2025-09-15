@@ -1,0 +1,128 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1532363988",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1251935150"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1532363988",
+  "code": "2B5D.1",
+  "source": "http://id.who.int/icd/entity/1532363988",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1532363988/postcoordinationScale/histopathology",
+      "axisName": "http://id.who.int/icd/schema/histopathology",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/878041544",
+        "http://id.who.int/icd/release/11/2024-01/mms/1909503537"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1532363988/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1532363988/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1409966790",
+        "http://id.who.int/icd/release/11/2024-01/mms/896293199",
+        "http://id.who.int/icd/release/11/2024-01/mms/1094217460",
+        "http://id.who.int/icd/release/11/2024-01/mms/238069351"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1532363988/postcoordinationScale/hasAlternativeSeverity2",
+      "axisName": "http://id.who.int/icd/schema/hasAlternativeSeverity2",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1863636238",
+        "http://id.who.int/icd/release/11/2024-01/mms/885826145",
+        "http://id.who.int/icd/release/11/2024-01/mms/1746207012",
+        "http://id.who.int/icd/release/11/2024-01/mms/303697349"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Malignant mixed epithelial and mesenchymal tumour of corpus uteri"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A primary malignant neoplasm of the uterine corpus characterised by the presence of an epithelial and a mesenchymal component. This category includes carcinosarcoma, carcinofibroma, and adenosarcoma."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant mixed epithelial and mesenchymal tumour of corpus uteri"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Adenosarcoma of corpus uteri"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1391277009"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Carcinofibroma of corpus uteri"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1125482540"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant mixed Mullerian tumour of corpus uteri"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1475381311"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "mixed Müllerian tumour of unspecified site"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1475381311"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Complex mixed and stromal malignant neoplasms of corpus uteri, isthmus uteri"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1343608426"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Complex mixed and stromal malignant neoplasms of corpus uteri, endometrium"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1922434061"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Complex mixed and stromal malignant neoplasms of corpus uteri, myometrium"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1572990748"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Complex mixed and stromal malignant neoplasms of corpus uteri, fundus uteri"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1762451456"
+    }
+  ]
+}

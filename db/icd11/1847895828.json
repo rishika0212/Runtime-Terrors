@@ -1,0 +1,103 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1847895828",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/647013871"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1847895828",
+  "code": "FA82",
+  "source": "http://id.who.int/icd/entity/1847895828",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1847895828/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/405704375"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1847895828/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1296093776",
+        "http://id.who.int/icd/release/11/2024-01/mms/1170330671"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Spinal stenosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is a condition characterised by narrowing of the spinal canal."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spinal stenosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "spinal canal stenosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spinal stenosis with no determinant"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/915522706"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "primary spinal stenosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/915522706"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spinal stenosis with determinant"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/984614638"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "secondary spinal stenosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/984614638"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Degenerative spinal stenosis with determinant"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1236979353"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Developmental spinal stenosis with determinant"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/521861888"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spinal stenosis with determinant, otherwise specified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/249710845"
+    }
+  ]
+}

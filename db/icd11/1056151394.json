@@ -1,0 +1,47 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1056151394",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1488350448"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/440849195",
+    "http://id.who.int/icd/release/11/2024-01/mms/1208766073",
+    "http://id.who.int/icd/release/11/2024-01/mms/1056151394/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1056151394",
+  "code": "GA01.1",
+  "source": "http://id.who.int/icd/entity/1056151394",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1056151394/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/265230989",
+        "http://id.who.int/icd/release/11/2024-01/mms/1779836109",
+        "http://id.who.int/icd/release/11/2024-01/mms/2101231629",
+        "http://id.who.int/icd/release/11/2024-01/mms/39079517"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1056151394/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1290701352"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Chronic inflammatory disease of uterus"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition characterised by inflammation of the uterus which lasts for more than 3 months."
+  }
+}

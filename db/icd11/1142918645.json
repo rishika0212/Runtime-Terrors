@@ -1,0 +1,88 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1142918645",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/770439884"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1142918645",
+  "code": "LD22",
+  "source": "http://id.who.int/icd/entity/1142918645",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Amelogenesis imperfecta"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1923123066",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1923123066"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dentine dysplasia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1262020657",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1262020657"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dentinogenesis imperfecta"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2090257992",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2090257992"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1142918645/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1492238572"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Syndromes with dental anomalies as a major feature"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Syndromes with dental anomalies as a major feature"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Selective X-linked tooth agenesis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/991575522"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hypodontia or oligodontia, X-linked"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/152300005"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hereditary dentine defects"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/451070328"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ekman-Westborg-Julin syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/822919841"
+    }
+  ]
+}

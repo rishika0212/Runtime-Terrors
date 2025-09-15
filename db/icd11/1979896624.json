@@ -1,0 +1,46 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1979896624",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1267652425"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1979896624",
+  "code": "DD70.2",
+  "source": "http://id.who.int/icd/entity/1979896624",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1979896624/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731",
+        "http://id.who.int/icd/release/11/2024-01/mms/1507624466",
+        "http://id.who.int/icd/release/11/2024-01/mms/1290701352"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Crohn disease of appendix"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Crohn disease, which is characterised by chronic and relapsing transmural inflammation, may affect any part of the digestive tract. This refers to Crohn disease involving the appendix."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Crohn disease of appendix"
+      }
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1084365812",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1008515027"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2338375",
+    "http://id.who.int/icd/release/11/2024-01/mms/1852283743",
+    "http://id.who.int/icd/release/11/2024-01/mms/187455179",
+    "http://id.who.int/icd/release/11/2024-01/mms/1084365812/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1084365812",
+  "code": "4A42",
+  "source": "http://id.who.int/icd/entity/1084365812",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1084365812/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/384984571",
+        "http://id.who.int/icd/release/11/2024-01/mms/533054712",
+        "http://id.who.int/icd/release/11/2024-01/mms/237197715",
+        "http://id.who.int/icd/release/11/2024-01/mms/106304476",
+        "http://id.who.int/icd/release/11/2024-01/mms/157326074",
+        "http://id.who.int/icd/release/11/2024-01/mms/1569145337",
+        "http://id.who.int/icd/release/11/2024-01/mms/602989108",
+        "http://id.who.int/icd/release/11/2024-01/mms/1803768976",
+        "http://id.who.int/icd/release/11/2024-01/mms/489508344",
+        "http://id.who.int/icd/release/11/2024-01/mms/1223380074",
+        "http://id.who.int/icd/release/11/2024-01/mms/1397253045",
+        "http://id.who.int/icd/release/11/2024-01/mms/1173690756",
+        "http://id.who.int/icd/release/11/2024-01/mms/141396655",
+        "http://id.who.int/icd/release/11/2024-01/mms/1336446723",
+        "http://id.who.int/icd/release/11/2024-01/mms/1365615047",
+        "http://id.who.int/icd/release/11/2024-01/mms/1639304259/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/1639304259/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Systemic sclerosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Systemic sclerosis is a systemic disorder of the connective tissue; manifested by hardening and thickening of the skin, by abnormalities involving the microvasculature and larger vessels, and by fibrotic degenerative changes in various body organs including the heart, lungs, kidneys, and gastrointestinal tract. (Arthritis Rheum 1980;23:581-590)"
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Systemic scleroderma"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Circumscribed scleroderma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1430740369",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1430740369"
+    }
+  ]
+}

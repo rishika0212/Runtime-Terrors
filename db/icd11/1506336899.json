@@ -1,0 +1,57 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1506336899",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1561359275"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/265559153",
+    "http://id.who.int/icd/release/11/2024-01/mms/456201314",
+    "http://id.who.int/icd/release/11/2024-01/mms/1042391072",
+    "http://id.who.int/icd/release/11/2024-01/mms/1506336899/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1506336899/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1506336899",
+  "code": "5C73",
+  "source": "http://id.who.int/icd/entity/1506336899",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Late metabolic acidosis of newborn"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1670358239",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1670358239"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Kussmaul respiration"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1790830112",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2144077558/other"
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Acidosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Acidosis is an abnormally acidic state of the blood and tissues."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "diabetic acidosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/465177735",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/465177735"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1670358239"
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/171433417",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/706550431"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#171433417",
+  "code": "DB33.0",
+  "source": "http://id.who.int/icd/entity/171433417",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/171433417/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1777850685",
+        "http://id.who.int/icd/release/11/2024-01/mms/328294343",
+        "http://id.who.int/icd/release/11/2024-01/mms/2128592381",
+        "http://id.who.int/icd/release/11/2024-01/mms/204400509",
+        "http://id.who.int/icd/release/11/2024-01/mms/453411773",
+        "http://id.who.int/icd/release/11/2024-01/mms/894847549",
+        "http://id.who.int/icd/release/11/2024-01/mms/720455085",
+        "http://id.who.int/icd/release/11/2024-01/mms/1614204137",
+        "http://id.who.int/icd/release/11/2024-01/mms/1431962259",
+        "http://id.who.int/icd/release/11/2024-01/mms/771220582"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/171433417/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/171433417/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Primary ulcer of colon"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition with single or multiple ulcers (mucosal defect) develops in the rectum or colon. Ulcers of the colon can cause bleeding with straining in people with chronic constipation."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Simple ulcer of colon"
+      }
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary ulcer of colon"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Simple ulcer of colon"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Rectal ulcer, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/149154243"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "rectal ulcer NEC"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/149154243"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Solitary rectal ulcer syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1677843970"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ulcer in Behcet disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/939401750"
+    }
+  ]
+}

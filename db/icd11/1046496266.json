@@ -1,0 +1,59 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1046496266",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1998421548"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1972636482",
+    "http://id.who.int/icd/release/11/2024-01/mms/1791207220"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1046496266",
+  "code": "2B03",
+  "source": "http://id.who.int/icd/entity/1046496266",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1046496266/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/223243926",
+        "http://id.who.int/icd/release/11/2024-01/mms/947150833",
+        "http://id.who.int/icd/release/11/2024-01/mms/1810600222"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1046496266/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Primary cutaneous CD30-positive T-cell lymphoproliferative disorders"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Primary skin disorders characterised immunohistologically by infiltration by neoplastic CD30+ lymphocytes."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary cutaneous CD30-positive T-cell lymphoproliferative disorders"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "primary cutaneous CD30+ T-cell proliferations"
+      }
+    }
+  ]
+}

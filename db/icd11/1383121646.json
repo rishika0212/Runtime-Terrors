@@ -1,0 +1,60 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1383121646",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/725439990"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1383121646",
+  "code": "LA07.4",
+  "source": "http://id.who.int/icd/entity/1383121646",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1383121646/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1644720463"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Arnold-Chiari malformation type I"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition caused by failure of the cerebellum to correctly develop during the antenatal period. This condition is characterised by extension of the cerebellar tonsils into the foramen magnum, without involving the brain stem. This condition may present as asymptomatic. Confirmation is through observation of the cerebellar tonsil extension by imaging."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Arnold-Chiari malformation type II"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1987349422",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1987349422"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Arnold-Chiari malformation type I"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chiari malformation type I"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Arnold-Chiari obstruction type I"
+      }
+    }
+  ]
+}

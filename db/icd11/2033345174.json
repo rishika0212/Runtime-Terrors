@@ -1,0 +1,123 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/2033345174",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2144774073"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#2033345174",
+  "code": "1B70.2",
+  "source": "http://id.who.int/icd/entity/2033345174",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2033345174/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/223243926",
+        "http://id.who.int/icd/release/11/2024-01/mms/947150833",
+        "http://id.who.int/icd/release/11/2024-01/mms/1810600222"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2033345174/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/428956900"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/2033345174/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1446152257"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Staphylococcal cellulitis of skin"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Orbital cellulitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1330743591",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1330743591"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cellulitis of external ear"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1308808115",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1308808115"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "anal cellulitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1677754934",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1677754934"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "vulvar cellulitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1898428127",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1898428127"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cellulitis of penis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1844907311",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/885653625"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Inflammatory disorders of scrotum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/260898866",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/260898866"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "perirectal cellulitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/536359334",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/536359334"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Superficial incisional site infection"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/75951638",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/75951638"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/911707612"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Staphylococcal cellulitis of skin"
+      }
+    }
+  ]
+}

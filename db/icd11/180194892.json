@@ -1,0 +1,51 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/180194892",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2125493521"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1913869640",
+    "http://id.who.int/icd/release/11/2024-01/mms/1166046262",
+    "http://id.who.int/icd/release/11/2024-01/mms/180194892/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/180194892/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#180194892",
+  "code": "DB95.1",
+  "source": "http://id.who.int/icd/entity/180194892",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/180194892/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/180194892/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/746448055",
+        "http://id.who.int/icd/release/11/2024-01/mms/248569732",
+        "http://id.who.int/icd/release/11/2024-01/mms/817370856",
+        "http://id.who.int/icd/release/11/2024-01/mms/1583926619"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Drug-induced or toxic liver disease with chronic hepatitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is the chronic form of drug-induced liver injury that almost always depends on continued exposure to the agent, and is characterised by interface hepatitis, bridging necrosis, and fibrosis."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ]
+}

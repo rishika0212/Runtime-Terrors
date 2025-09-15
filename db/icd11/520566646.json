@@ -1,0 +1,223 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/520566646",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2055968951"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#520566646",
+  "code": "1F23.0",
+  "source": "http://id.who.int/icd/entity/520566646",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/520566646/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/622600769",
+        "http://id.who.int/icd/release/11/2024-01/mms/1683090852"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/520566646/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/236924369",
+        "http://id.who.int/icd/release/11/2024-01/mms/771273482",
+        "http://id.who.int/icd/release/11/2024-01/mms/1508081745"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Candidosis of lips or oral mucous membranes"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease of the lips and oral mucous membranes, caused by an infection with the fungi Candida. This disease commonly presents with white patches or plaques on the oral mucous membranes, angular cheilitis, or dysphagia. Transmission is by opportunistic transmission. Confirmation is by identification of Candida in an oral or skin sample."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neonatal candidosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1080592090",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1080592090"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1080592090"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Candidosis of lips or oral mucous membranes"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Candida of mouth"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Candida stomatitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Candidal stomatitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mouth candidiasis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "oral candidiasis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "oropharyngeal candidiasis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "throat candidiasis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "oral yeast infection"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Angular cheilitis due to candidosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/825229427"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Perlèche"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/825229427"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "candida of lips"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/825229427"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "candidal cheilitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/825229427"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute erythematous oral candidosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/400350311"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute atrophic oral candidosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/400350311"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Antibiotic sore mouth"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/400350311"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute pseudomembranous oral candidosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/695436427"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Oral thrush"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/695436427"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic erythematous oral candidosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/626149111"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Denture sore mouth"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/626149111"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Denture stomatitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/626149111"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic hyperplastic oral candidosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1024573967"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic plaque oral candidosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1024573967"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Candida leukoplakia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1024573967"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic multifocal oral candidosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/469573147"
+    }
+  ]
+}

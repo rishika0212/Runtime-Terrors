@@ -1,0 +1,45 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/826335789",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1427441570"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/691084626",
+    "http://id.who.int/icd/release/11/2024-01/mms/826335789/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/826335789/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#826335789",
+  "code": "8B10",
+  "source": "http://id.who.int/icd/entity/826335789",
+  "classKind": "category",
+  "title": {
+    "@language": "en",
+    "@value": "Transient ischaemic attack"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Transient episode of focal neurological dysfunction caused by focal brain ischemia without acute infarction in the clinically relevant area of the brain or transient monocular visual loss due to retinal ischemia. Symptoms should resolve completely within 24 hours."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neonatal cerebral ischaemia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1526436336",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1526436336"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Transient global amnesia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1524600518",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1524600518"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1526436336"
+  ]
+}

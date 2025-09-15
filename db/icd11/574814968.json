@@ -1,0 +1,162 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/574814968",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1614179699"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#574814968",
+  "code": "5C90.1",
+  "source": "http://id.who.int/icd/entity/574814968",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Porphyria cutanea tarda"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/370983230",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/370983230"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Variegate porphyria"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1227474618",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1227474618"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Crigler-Najjar syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/291439191",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/291439191"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gilbert syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1947520963",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1947520963"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dubin-Johnson syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1691610999",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1691610999"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Rotor syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1965776012",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1297666279/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/574814968/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Liver diseases due to disorders of porphyrin or bilirubin metabolism or transport"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "These are liver diseases due to disorders of porphyrin and bilirubin metabolism and transport"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Defects of catalase and peroxidase"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/434825283",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/434825283"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1154068795"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Liver diseases due to disorders of porphyrin or bilirubin metabolism or transport"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "disease of bilirubin metabolism"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "disorder of bilirubin metabolism"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Liver diseases due to porphyria"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/554074681"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Other disorders of bilirubin metabolism or excretion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1710379690"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "other disorders of bilirubin metabolism"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1710379690"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bilirubin excretion disorder"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1653119116"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "disorders of bilirubin excretion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1653119116"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Constitutional hyperbilirubinaemia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/149601707"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Familial conjugated hyperbilirubinaemia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/401778305"
+    }
+  ]
+}

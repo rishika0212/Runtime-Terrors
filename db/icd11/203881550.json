@@ -1,0 +1,78 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/203881550",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1397803237"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#203881550",
+  "code": "8D85",
+  "source": "http://id.who.int/icd/entity/203881550",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neuroleptic malignant syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/498240876",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/384289569/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/203881550/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/746448055",
+        "http://id.who.int/icd/release/11/2024-01/mms/248569732",
+        "http://id.who.int/icd/release/11/2024-01/mms/817370856",
+        "http://id.who.int/icd/release/11/2024-01/mms/1583926619"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Autonomic nervous system disorder due to substances"
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/564191997"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Autonomic nervous system disorder due to substances"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Serotonin syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/678764364"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Seritonergic syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/678764364"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Autonomic disorder due to stimulant intoxication"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/915976362"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Autonomic disorder due to Wernicke-Korsakoff syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/703308174"
+    }
+  ]
+}

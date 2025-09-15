@@ -1,0 +1,73 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1544926445",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/204637746"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1544926445",
+  "code": "AB70.0",
+  "source": "http://id.who.int/icd/entity/1544926445",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1544926445/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Otorrhoea"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "leakage of cerebrospinal fluid through ear"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/396857647",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/396857647"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Otorrhagia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/683205650",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/683205650"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Otorrhoea"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "discharge from ear"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "drainage from external ear canal"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ear discharge present"
+      }
+    }
+  ]
+}

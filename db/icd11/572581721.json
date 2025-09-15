@@ -1,0 +1,71 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/572581721",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1008515027"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1248176279",
+    "http://id.who.int/icd/release/11/2024-01/mms/1327645131",
+    "http://id.who.int/icd/release/11/2024-01/mms/1929970386",
+    "http://id.who.int/icd/release/11/2024-01/mms/1314272220",
+    "http://id.who.int/icd/release/11/2024-01/mms/1419332129",
+    "http://id.who.int/icd/release/11/2024-01/mms/540285662",
+    "http://id.who.int/icd/release/11/2024-01/mms/1474816492",
+    "http://id.who.int/icd/release/11/2024-01/mms/2130738127",
+    "http://id.who.int/icd/release/11/2024-01/mms/1000683110",
+    "http://id.who.int/icd/release/11/2024-01/mms/548938147",
+    "http://id.who.int/icd/release/11/2024-01/mms/1404622826",
+    "http://id.who.int/icd/release/11/2024-01/mms/748282847",
+    "http://id.who.int/icd/release/11/2024-01/mms/572581721/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/572581721/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#572581721",
+  "code": "4A44",
+  "source": "http://id.who.int/icd/entity/572581721",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Behçet disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1668927157",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1668927157"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Thrombotic microangiopathy, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/757747508",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/757747508"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/572581721/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/352087872",
+        "http://id.who.int/icd/release/11/2024-01/mms/1615937473",
+        "http://id.who.int/icd/release/11/2024-01/mms/944754984",
+        "http://id.who.int/icd/release/11/2024-01/mms/1443317238",
+        "http://id.who.int/icd/release/11/2024-01/mms/895101139/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/576319925",
+        "http://id.who.int/icd/release/11/2024-01/mms/1322678686",
+        "http://id.who.int/icd/release/11/2024-01/mms/1868408442"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Vasculitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Vasculitides represent a heterogenous group of diseases of multifactorial aetiology characterised by inflammatory lesions of vessels. These lesions consist of fibrinoid necrosis (necrotizing arteritis), giant cell infiltration without necrosis, immunoglobulins deposit or leukocytoclastic infiltration. The spectrum and severity of the systemic vaculitides is broad, from life or sight threatening fulminant disease to relatively minor skin disease."
+  }
+}

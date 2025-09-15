@@ -1,0 +1,44 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/159919934",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/460488781"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#159919934",
+  "code": "QA46.3",
+  "source": "http://id.who.int/icd/entity/159919934",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/159919934/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1982587243"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Twins, one liveborn and one stillborn"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Live birth is the complete expulsion or extraction from a woman of a fetus, irrespective of the duration of the pregnancy, which, after such separation, shows signs of life.\n\nStillbirth is the complete expulsion or extraction from a woman of a fetus, following its death prior to the complete expulsion or extraction, at 22 or more completed weeks of gestation.\nStillbirths are distinct from cases of induced abortion.\nWhen information on gestational age is unavailable use birthweight 500 grams and more as the criteria."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Twins, one liveborn and one stillborn"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "outcome of delivery of twins, one liveborn and one stillborn"
+      }
+    }
+  ]
+}

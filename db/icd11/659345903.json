@@ -1,0 +1,70 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/659345903",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/320939116"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#659345903",
+  "code": "DB30.0",
+  "source": "http://id.who.int/icd/entity/659345903",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/659345903/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1741413713"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/659345903/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/659345903/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Intussusception of the large intestine"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Intussusception occurs when a segment of bowel invaginatetes, or telescopeds, into adjacent distal bowel, leading to obstruction and possibly ischemic injury. Colonic intussusception is a relatively uncommon condition that is most frequent in the early years of life. There are three main varieties: caecocolic, colocolic and sigmoidrectal."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Intussusception of the large intestine"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Caecal intussusception"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/729078824"
+    }
+  ]
+}

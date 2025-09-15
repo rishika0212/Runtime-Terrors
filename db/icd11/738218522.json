@@ -1,0 +1,60 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/738218522",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1496633964"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#738218522",
+  "code": "BB01.5",
+  "source": "http://id.who.int/icd/entity/738218522",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/738218522/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/738218522/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1931148955",
+        "http://id.who.int/icd/release/11/2024-01/mms/1639609522",
+        "http://id.who.int/icd/release/11/2024-01/mms/1863674681",
+        "http://id.who.int/icd/release/11/2024-01/mms/1567490107",
+        "http://id.who.int/icd/release/11/2024-01/mms/1971950106",
+        "http://id.who.int/icd/release/11/2024-01/mms/1496633964/unspecified",
+        "http://id.who.int/icd/release/11/2024-01/mms/346808536"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Cor pulmonale"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Cor pulmonale refers to the altered structure and/or impaired function of the right ventricle that results from pulmonary hypertension associated with diseases of the lung, upper airway, or chest wall."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1380872553"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/346808536"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cor pulmonale"
+      }
+    }
+  ]
+}

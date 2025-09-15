@@ -1,0 +1,83 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/448754119",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2078467774"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#448754119",
+  "code": "5D00.3",
+  "source": "http://id.who.int/icd/entity/448754119",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/448754119/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1048482858",
+        "http://id.who.int/icd/release/11/2024-01/mms/1196650747",
+        "http://id.who.int/icd/release/11/2024-01/mms/1338477196",
+        "http://id.who.int/icd/release/11/2024-01/mms/720032908",
+        "http://id.who.int/icd/release/11/2024-01/mms/687250607"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Dialysis-associated amyloidosis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Dialysis-related amyloidosis develops when proteins in blood are deposited in joints and tendons — causing pain, stiffness and fluid in the joints, as well as carpal tunnel syndrome. This type generally affects people on long-term dialysis."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1154068795"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dialysis-associated amyloidosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "beta-2-microglobulin amyloidosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Haemodialysis-associated amyloidosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Dialysis-related amyloidosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ABeta2M amyloidosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Wild type ABeta2M amyloidosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/499046814"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Variant ABeta2M amyloidosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1466418791"
+    }
+  ]
+}

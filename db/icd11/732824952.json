@@ -1,0 +1,151 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/732824952",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1323682030"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#732824952",
+  "code": "CA40.02",
+  "source": "http://id.who.int/icd/entity/732824952",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/732824952/postcoordinationScale/causality",
+      "axisName": "http://id.who.int/icd/schema/causality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/894194405",
+        "http://id.who.int/icd/release/11/2024-01/mms/1674014893",
+        "http://id.who.int/icd/release/11/2024-01/mms/655959100",
+        "http://id.who.int/icd/release/11/2024-01/mms/56475710",
+        "http://id.who.int/icd/release/11/2024-01/mms/339929010"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/732824952/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/732824952/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1983574845",
+        "http://id.who.int/icd/release/11/2024-01/mms/922044675",
+        "http://id.who.int/icd/release/11/2024-01/mms/1013784154"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/732824952/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/84990681",
+        "http://id.who.int/icd/release/11/2024-01/mms/734892846"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/732824952/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/293771399",
+        "http://id.who.int/icd/release/11/2024-01/mms/2024199586",
+        "http://id.who.int/icd/release/11/2024-01/mms/1765820617",
+        "http://id.who.int/icd/release/11/2024-01/mms/189285942",
+        "http://id.who.int/icd/release/11/2024-01/mms/795057595",
+        "http://id.who.int/icd/release/11/2024-01/mms/1298895686",
+        "http://id.who.int/icd/release/11/2024-01/mms/1552748079"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Pneumonia due to Haemophilus influenzae"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A disease of the pulmonary system, caused by an infection with the gram-negative bacteria Haemophilus influenzae. This disease is characterised by cough, shortness of breath, fever, chills, muscle aches, and chest pain. Transmission is by inhalation of infected respiratory secretions or direct contact. Confirmation is by identification of Haemophilus influenzae in blood or other typically sterile body fluid."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bronchopneumonia due to H. influenzae"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital pneumonia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/594985340",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/594985340"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/923122941"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/594985340"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pneumonia due to Haemophilus influenzae"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pneumonia due to H. influenzae"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pneumonia due to hemophilus influenzae"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bronchopneumonia due to H. influenzae"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "haemophilus influenzae lobar pneumonia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bronchopneumonia due to hemophilus influenzae"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Early-onset pneumonia due to Haemophilus influenzae"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/594966149"
+    }
+  ]
+}

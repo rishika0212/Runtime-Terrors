@@ -1,0 +1,211 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1428007510",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/437702716"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1428007510",
+  "code": "BD11.0",
+  "source": "http://id.who.int/icd/entity/1428007510",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1428007510/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/206731332",
+        "http://id.who.int/icd/release/11/2024-01/mms/1232119755",
+        "http://id.who.int/icd/release/11/2024-01/mms/537685513",
+        "http://id.who.int/icd/release/11/2024-01/mms/175684441"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1428007510/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1651053999",
+        "http://id.who.int/icd/release/11/2024-01/mms/119724091",
+        "http://id.who.int/icd/release/11/2024-01/mms/1150913605",
+        "http://id.who.int/icd/release/11/2024-01/mms/381961554",
+        "http://id.who.int/icd/release/11/2024-01/mms/1697306310",
+        "http://id.who.int/icd/release/11/2024-01/mms/1492142148",
+        "http://id.who.int/icd/release/11/2024-01/mms/1210166201",
+        "http://id.who.int/icd/release/11/2024-01/mms/1015872326",
+        "http://id.who.int/icd/release/11/2024-01/mms/1280712786",
+        "http://id.who.int/icd/release/11/2024-01/mms/1280712786",
+        "http://id.who.int/icd/release/11/2024-01/mms/1121431779",
+        "http://id.who.int/icd/release/11/2024-01/mms/2135151223"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Left ventricular failure with preserved ejection fraction"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A syndrome of left ventricular dysfunction occurring with normal or relatively preserved ejection fraction"
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1380872553"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/1611051049"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Left ventricular failure with preserved ejection fraction"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Left ventricular failure with preserved systolic ejection fraction"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "HFpEF - [heart failure with preserved ejection fraction]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "diastolic ejection fraction"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Left ventricular failure with preserved ejection fraction due to cardiomyopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1868214878"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Left ventricular failure with preserved ejection fraction secondary to cardiomyopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1868214878"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Left ventricular failure with preserved ejection fraction due to coronary artery disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1074616655"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Left ventricular failure with preserved ejection fraction secondary to coronary artery disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1074616655"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Left ventricular failure with preserved ejection fraction due to myocarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1203576957"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Left ventricular failure with preserved ejection fraction secondary to myocarditis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1203576957"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Secondary left ventricular failure with preserved ejection fraction"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1387123558"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Left ventricular failure with preserved ejection fraction due to valvular heart disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1882063107"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Left ventricular failure with preserved ejection fraction secondary to valvular heart disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1882063107"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Left ventricular failure with preserved ejection fraction NYHA Class I"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/979616305"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Left ventricular failure with preserved ejection fraction NYHA class I - no limitation of physical activity. Ordinary physical activity does not cause undue fatigue, palpitation, dyspnoea (shortness of breath)"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/979616305"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Left ventricular failure with preserved ejection fraction NYHA Class II"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/993397939"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Left ventricular failure with preserved ejection fraction NYHA Class II - slight limitation of physical activity. Comfortable at rest. Ordinary physical activity results in fatigue, palpitation, dyspnoea (shortness of breath)"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/993397939"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Left ventricular failure with preserved ejection fraction NYHA Class III"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/529993761"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Left ventricular failure with preserved ejection fraction NYHA Class III - Marked limitation of physical activity. Comfortable at rest. Less than ordinary activity causes fatigue, palpitation or dyspnoea (shortness of breath)"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/529993761"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Left ventricular failure with preserved ejection fraction NYHA Class IV"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2076509268"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Left ventricular failure with preserved ejection fraction NYHA Class IV - Unable to carry on any physical activity without discomfort. Symptoms of heart failure at rest. If any physical activity is undertaken, discomfort increases."
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2076509268"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic diastolic congestive heart failure"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1970105132"
+    }
+  ]
+}

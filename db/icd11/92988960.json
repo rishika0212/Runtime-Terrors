@@ -1,0 +1,76 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/92988960",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/290861382"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#92988960",
+  "code": "GA02.2",
+  "source": "http://id.who.int/icd/entity/92988960",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/92988960/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1290701352"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/92988960/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2058324694",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Subacute or chronic vaginitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Chronic vulvovaginal candidiasis, marked by chronic irritative symptoms of vestibule, vulva and vagina, with burning replacing itching as the prominent symptom. Differential diagnosis with chronic atopic dermatitis or atrophic vulvovaginitis."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Subacute or chronic vaginitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic vaginitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/102002538"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Subacute vaginitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2104959707"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Subacute vulvovaginitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1938532855"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic vulvovaginitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/140908248"
+    }
+  ]
+}

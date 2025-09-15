@@ -1,0 +1,101 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1264360394",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/531713107"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1313183227",
+    "http://id.who.int/icd/release/11/2024-01/mms/16712398",
+    "http://id.who.int/icd/release/11/2024-01/mms/722360431",
+    "http://id.who.int/icd/release/11/2024-01/mms/929833904",
+    "http://id.who.int/icd/release/11/2024-01/mms/368046549",
+    "http://id.who.int/icd/release/11/2024-01/mms/1295910447",
+    "http://id.who.int/icd/release/11/2024-01/mms/1264360394/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1264360394/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1264360394",
+  "code": "2E65",
+  "source": "http://id.who.int/icd/entity/1264360394",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1264360394/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1264360394/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/831985561"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1264360394/postcoordinationScale/histopathology",
+      "axisName": "http://id.who.int/icd/schema/histopathology",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1395468571",
+        "http://id.who.int/icd/release/11/2024-01/mms/522986416",
+        "http://id.who.int/icd/release/11/2024-01/mms/1324810543",
+        "http://id.who.int/icd/release/11/2024-01/mms/1370766919",
+        "http://id.who.int/icd/release/11/2024-01/mms/710558848",
+        "http://id.who.int/icd/release/11/2024-01/mms/1494848434",
+        "http://id.who.int/icd/release/11/2024-01/mms/682879579",
+        "http://id.who.int/icd/release/11/2024-01/mms/602786424",
+        "http://id.who.int/icd/release/11/2024-01/mms/136153868"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1264360394/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1264360394/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1588637324"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Carcinoma in situ of breast"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "carcinoma in situ of skin of breast"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/773281372",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/773281372"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "melanoma in situ of breast (skin)"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1576650184",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1576650184"
+    }
+  ]
+}

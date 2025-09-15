@@ -1,0 +1,90 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/816000251",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1887882424"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#816000251",
+  "code": "EA82",
+  "source": "http://id.who.int/icd/entity/816000251",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nummular dermatitis of hands"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1787425249",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1601642892/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/816000251/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/223243926",
+        "http://id.who.int/icd/release/11/2024-01/mms/947150833",
+        "http://id.who.int/icd/release/11/2024-01/mms/1810600222"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Nummular dermatitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Cutaneous eruption otherwise known as discoid eczema characterised by discoid or coin-shaped plaques of eczema. The lesions usually occur on the extensor surfaces of the extremities, but the face and trunk may also be involved. The cause is unknown."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nummular dermatitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Discoid eczema"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nummular eczema"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nummular dermatitis, exudative type"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/134821230"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Discoid eczema, exudative type"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/134821230"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nummular dermatitis, dry type"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1428595607"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Discoid eczema, dry type"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1428595607"
+    }
+  ]
+}

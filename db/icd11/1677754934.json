@@ -1,0 +1,127 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1677754934",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/695549192"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1677754934",
+  "code": "DB70.00",
+  "source": "http://id.who.int/icd/entity/1677754934",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1677754934/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1208497819",
+        "http://id.who.int/icd/release/11/2024-01/mms/1184377859",
+        "http://id.who.int/icd/release/11/2024-01/mms/674202049",
+        "http://id.who.int/icd/release/11/2024-01/mms/1063008297"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1677754934/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731",
+        "http://id.who.int/icd/release/11/2024-01/mms/1290701352"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1677754934/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Anal abscess"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition of the anus, caused by an infection with a bacterial, viral, or fungal source. This condition is characterised by a focal accumulation of purulent material in the perianal crypts or glands. This condition may present with pain and swelling in the perianal region, or fever. Confirmation is commonly by rectal examination."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Perianal abscess"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Intrasphincteric abscess"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1665352029",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1665352029"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Streptococcal cellulitis of skin"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/284578658",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/284578658"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Staphylococcal cellulitis of skin"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2033345174",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2033345174"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Anal abscess"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "anus abscess"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "marginal anus abscess"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Perianal abscess"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Anal cellulitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/478429046"
+    }
+  ]
+}

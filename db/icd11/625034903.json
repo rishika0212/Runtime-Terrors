@@ -1,0 +1,48 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/625034903",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1842013215"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1796950953",
+    "http://id.who.int/icd/release/11/2024-01/mms/240158269",
+    "http://id.who.int/icd/release/11/2024-01/mms/2063455940",
+    "http://id.who.int/icd/release/11/2024-01/mms/532028246",
+    "http://id.who.int/icd/release/11/2024-01/mms/1817741506",
+    "http://id.who.int/icd/release/11/2024-01/mms/152257880",
+    "http://id.who.int/icd/release/11/2024-01/mms/625034903/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/625034903/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#625034903",
+  "code": "NA23",
+  "source": "http://id.who.int/icd/entity/625034903",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/625034903/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/53291568",
+        "http://id.who.int/icd/release/11/2024-01/mms/1761166931",
+        "http://id.who.int/icd/release/11/2024-01/mms/864772028"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/625034903/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482",
+        "http://id.who.int/icd/release/11/2024-01/mms/755612283"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Dislocation or strain or sprain of joints or ligaments at neck level"
+  }
+}

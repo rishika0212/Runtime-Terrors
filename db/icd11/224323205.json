@@ -1,0 +1,135 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/224323205",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1784240230"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/738694757",
+    "http://id.who.int/icd/release/11/2024-01/mms/1025169562",
+    "http://id.who.int/icd/release/11/2024-01/mms/1015890899",
+    "http://id.who.int/icd/release/11/2024-01/mms/1065786072",
+    "http://id.who.int/icd/release/11/2024-01/mms/866605228",
+    "http://id.who.int/icd/release/11/2024-01/mms/1769383160",
+    "http://id.who.int/icd/release/11/2024-01/mms/2092047168",
+    "http://id.who.int/icd/release/11/2024-01/mms/508643963",
+    "http://id.who.int/icd/release/11/2024-01/mms/282512557",
+    "http://id.who.int/icd/release/11/2024-01/mms/224323205/other"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#224323205",
+  "code": "DB99",
+  "source": "http://id.who.int/icd/entity/224323205",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Liver disorders in pregnancy, childbirth or the puerperium"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1110228123",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1110228123"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cirrhotic cardiomyopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1268082489",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/282225286/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/224323205/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Certain specified diseases of liver"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is a group of conditions characterised as being in or associated with the liver that are not classified elsewhere."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cystic disease of liver (congenital)"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/557775192",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/557775192"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hepatic vein thrombosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2131410813",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/925320484"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "toxic liver disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2125493521",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2125493521"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "hepatomegaly NOS"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/690435214",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/690435214"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "portal vein thrombosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/866276949",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/866276949"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "amyloid degeneration of liver"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1376966206",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1061366491"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "alcoholic liver disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/469481605",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/469481605"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Certain specified diseases of liver"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "liver damage NOS"
+      }
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/857589016",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1467154806"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#857589016",
+  "code": "GB42.1",
+  "source": "http://id.who.int/icd/entity/857589016",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/857589016/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/465177735",
+        "http://id.who.int/icd/release/11/2024-01/mms/412389819"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Albuminuria, Grade A3"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Presence of excessive albumin in the urine, indicating abnormal permeability glomerular filtration. Can be quantitated by either timed collections or spot urine samples with the concentration adjusted to the urine creatinine concentration to correct for variations in overall urine concentration. When persistent and of moderate or greater severity usually indicates overt glomerular disease such as caused by diabetic glomerulosclerosis, glomerulonephritis or amyloid."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Albuminuria, Grade A3"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "albuminuria >30 mg/mmol creatinine"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "macroalbuminuria"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "overt albuminuria"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "overt nephropathy"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "overt proteinuria"
+      }
+    }
+  ]
+}

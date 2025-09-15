@@ -1,0 +1,77 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1376528378",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/696932440"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1376528378",
+  "code": "9C42",
+  "source": "http://id.who.int/icd/entity/1376528378",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1376528378/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1376528378/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1103667651",
+        "http://id.who.int/icd/release/11/2024-01/mms/2128966315",
+        "http://id.who.int/icd/release/11/2024-01/mms/1688358001",
+        "http://id.who.int/icd/release/11/2024-01/mms/2110791639",
+        "http://id.who.int/icd/release/11/2024-01/mms/112415334",
+        "http://id.who.int/icd/release/11/2024-01/mms/914405870",
+        "http://id.who.int/icd/release/11/2024-01/mms/30317704/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/30317704/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Disorder of post chiasmal visual pathways"
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Disorders of optic tracts, geniculate nuclei and optic radiations"
+      }
+    }
+  ],
+  "codingNote": {
+    "@language": "en",
+    "@value": "Use additional code, if desired, to identify underlying condition."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Disorder of post chiasmal visual pathways"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Disorders of other visual pathways"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Disorders of optic tracts, geniculate nuclei and optic radiations"
+      }
+    }
+  ]
+}

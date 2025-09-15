@@ -1,0 +1,104 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1374503629",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1073319713"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1374503629",
+  "code": "DC30.0",
+  "source": "http://id.who.int/icd/entity/1374503629",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital pancreatic cyst"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/981856956",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/703933743/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1374503629/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/532265365"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1374503629/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Cyst of pancreas"
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cyst of pancreas"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pancreas cyst"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pancreatic cyst"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "true pancreas cyst"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cystic pancreatic mass"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Retention cyst of pancreas"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2011145659"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Haemorrhagic pancreas cyst"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1567968131"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "pancreatic haemorrhagic cyst"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1567968131"
+    }
+  ]
+}

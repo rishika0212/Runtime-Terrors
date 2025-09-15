@@ -1,0 +1,106 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1476452079",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1736296640"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1476452079",
+  "code": "LB79.1",
+  "source": "http://id.who.int/icd/entity/1476452079",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1476452079/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1476452079/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/452671086",
+        "http://id.who.int/icd/release/11/2024-01/mms/15105170",
+        "http://id.who.int/icd/release/11/2024-01/mms/806667718",
+        "http://id.who.int/icd/release/11/2024-01/mms/1823823558",
+        "http://id.who.int/icd/release/11/2024-01/mms/1621005983"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Webbed fingers"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition caused by failure of the longitudinal interdigital necrosis that normally separates the fingers to during the antenatal period. This condition is characterised by the presence of two or more fingers that are fused together."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Simple syndactyly of fingers without synostosis"
+      }
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Webbed fingers"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "syndactyly of fingers without fusion of bone"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "webbing of fingers"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Simple syndactyly of fingers without synostosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "membranous connection of fingers"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "congenital webbed fingers"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Webbed fingers, unilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1733588172"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Webbed fingers, bilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1337190127"
+    }
+  ]
+}

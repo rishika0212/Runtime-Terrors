@@ -1,0 +1,65 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1401395930",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/533054712"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/192274757",
+    "http://id.who.int/icd/release/11/2024-01/mms/1849568465",
+    "http://id.who.int/icd/release/11/2024-01/mms/1401395930/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1401395930",
+  "code": "",
+  "source": "http://id.who.int/icd/entity/1401395930",
+  "classKind": "block",
+  "blockId": "BlockL2-EB5",
+  "codeRange": "EB50-EB5Z",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Systemic lupus erythematosus with skin involvement"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/757048800",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/757048800"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Neonatal lupus erythematosus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/213855225",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/213855225"
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Cutaneous lupus erythematosus"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Lupus erythematosus involving the skin. This ranges from acute cutaneous lupus as may accompany a flare of systemic lupus erythematosus to a variety of chronic forms which are in the majority of cases limited to the skin."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Systemic lupus erythematosus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/749596428",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/749596428"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Lupus vulgaris"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1292667822",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/625292625"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/213855225"
+  ]
+}

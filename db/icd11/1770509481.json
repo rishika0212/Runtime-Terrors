@@ -1,0 +1,76 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1770509481",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/63858592"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1770509481",
+  "code": "8B95",
+  "source": "http://id.who.int/icd/entity/1770509481",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1770509481/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1630407678",
+        "http://id.who.int/icd/release/11/2024-01/mms/572581721",
+        "http://id.who.int/icd/release/11/2024-01/mms/465177735",
+        "http://id.who.int/icd/release/11/2024-01/mms/1719029386",
+        "http://id.who.int/icd/release/11/2024-01/mms/435227771"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Secondary brachial plexus lesion due to certain specified disorders"
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/564191997"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Secondary brachial plexus lesion due to certain specified disorders"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Diabetic brachial plexus lesion"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1655054999"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Brachial plexus lesion due to inflammatory neuropathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1854398699"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Brachial plexus neuropathy due to neoplasm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/199687546"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Brachial plexus lesion due to vasculitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/974340373"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Brachial plexus lesion due to traumatic injury"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/748800274"
+    }
+  ]
+}

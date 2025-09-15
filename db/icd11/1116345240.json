@@ -1,0 +1,85 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1116345240",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1006882070"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1116345240",
+  "code": "9B71.02",
+  "source": "http://id.who.int/icd/entity/1116345240",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1116345240/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1116345240/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1651053999",
+        "http://id.who.int/icd/release/11/2024-01/mms/119724091",
+        "http://id.who.int/icd/release/11/2024-01/mms/1150913605",
+        "http://id.who.int/icd/release/11/2024-01/mms/381961554",
+        "http://id.who.int/icd/release/11/2024-01/mms/1697306310"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Diabetic macular oedema"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Diabetic macular oedema"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Diabetic macular oedema apparently absent"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/684055088"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Diabetic macular oedema apparently present"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/960326099"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Mild diabetic macular oedema, Some retinal thickening or hard exudates in posterior pole but distant from the centre of the macula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1001632806"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Moderate diabetic macular oedema, Retinal thickening or hard exudates approaching the centre of the macula but not involving the centre"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/301589723"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Severe diabetic macular oedema, Retinal thickening or hard exudates involving the centre of the macula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/407032800"
+    }
+  ]
+}

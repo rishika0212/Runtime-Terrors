@@ -1,0 +1,158 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1027961521",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2116703819"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1027961521",
+  "code": "MG30.62",
+  "source": "http://id.who.int/icd/entity/1027961521",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tolosa-Hunt syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/969826782",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1099694795"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Other cranial neuralgia or other centrally mediated facial pain"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1847715549",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1099694795"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Combined hyperactive dysfunction syndrome of the cranial nerves"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/457686735",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1099694795"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Supraorbital neuralgia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2067202674",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1099694795"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Occipital neuralgia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2116729248",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1099694795"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postzoster glossopharyngeal neuralgia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/749632072",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/321057933"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Postzoster trigeminal neuralgia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/888012464",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/321057933"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1027961521/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1007332872",
+        "http://id.who.int/icd/release/11/2024-01/mms/597444540"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1027961521/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/501504598",
+        "http://id.who.int/icd/release/11/2024-01/mms/932220680",
+        "http://id.who.int/icd/release/11/2024-01/mms/671508148",
+        "http://id.who.int/icd/release/11/2024-01/mms/579584480"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1027961521/postcoordinationScale/hasAlternativeSeverity1",
+      "axisName": "http://id.who.int/icd/schema/hasAlternativeSeverity1",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/137604848",
+        "http://id.who.int/icd/release/11/2024-01/mms/1926847105",
+        "http://id.who.int/icd/release/11/2024-01/mms/489218088",
+        "http://id.who.int/icd/release/11/2024-01/mms/2029211037"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1027961521/postcoordinationScale/hasAlternativeSeverity2",
+      "axisName": "http://id.who.int/icd/schema/hasAlternativeSeverity2",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/145592658",
+        "http://id.who.int/icd/release/11/2024-01/mms/1824378311",
+        "http://id.who.int/icd/release/11/2024-01/mms/1714449067",
+        "http://id.who.int/icd/release/11/2024-01/mms/1721227995"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1027961521/postcoordinationScale/temporalPatternAndOnset",
+      "axisName": "http://id.who.int/icd/schema/temporalPatternAndOnset",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1281193286",
+        "http://id.who.int/icd/release/11/2024-01/mms/1313511357",
+        "http://id.who.int/icd/release/11/2024-01/mms/47514516"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1027961521/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/359348642",
+        "http://id.who.int/icd/release/11/2024-01/mms/23764250"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Chronic neuropathic orofacial pain"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Chronic neuropathic orofacial pain is chronic pain in the orofacial region that is caused by a lesion or disease of the peripheral somatosensory nervous system. It occurs for two hours or more per day (or several shorter attacks per day occur) on at least 50% of the days during at least three months. The diagnosis of chronic neuropathic orofacial pain requires a history of peripheral nervous system injury or disease and a neuroanatomically plausible distribution of the pain. Negative and positive sensory symptoms or signs must be compatible with the innervation territory of the affected nervous structure."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "Chronic neuropathic orofacial pain is chronic pain in the orofacial region that is caused by a lesion or disease of the peripheral somatosensory nervous system. It occurs for two hours or more per day (or several shorter attacks per day occur) on at least 50% of the days during at least three months. The pain may be spontaneous or evoked, as an increased response to a painful stimulus (hyperalgesia) or a painful response to a normally nonpainful stimulus (allodynia). The diagnosis of chronic neuropathic orofacial pain requires a history of peripheral nervous system injury or disease and a neuroanatomically plausible distribution of the pain. Negative (e.g., decreased or loss of sensation) and positive sensory symptoms or signs (e.g., allodynia or hyperalgesia) indicating the involvement of the peripheral somatosensory nervous system must be compatible with the innervation territory of the affected nervous structure. If the etiology is vague, consider using codes in the section of chronic primary pain.\n\nThe duration of pain varies from seconds to days or can be persistent in some cases. The causes of chronic neuropathic orofacial pain include trigeminal neuralgia, trigeminal neuropathy, glossopharyngeal neuralgia, nervus intermedius (facial nerve) neuralgia, occipital neuralgia, and persistent idiopathic neuropathic pain.\n\nDemonstration of the lesion or disease involving the peripheral nervous system, e.g., by imaging techniques, neurophysiological or laboratory tests, confirms the diagnosis of definite peripheral neuropathic pain.\n\nConditions A to F are fulfilled:\n\nA. Chronic orofacial pain (persistent or recurrent for longer than 3 months) on ≥15 days per month\n\nB. The pain is characterised by both of the following:\n\nB.1 History of relevant neurological lesion or disease\n\nB.2 Pain distribution neuroanatomically plausible\n\nC. Pain is associated with sensory signs in the same neuroanatomically plausible distribution\n\nD. Disorder of the somatosensory nervous system scientifically documented to be able to cause orofacial pain has been diagnosed and confirmed by a diagnostic test\n\nE. Evidence of causation demonstrated by at least two of the following:\n\nE.1 Chronic neuropathic orofacial pain has developed in temporal relation to the disorder of the neuropathic pain.\n\nE.2 One or both of the following is fulfilled:\n\na) Chronic neuropathic orofacial pain has significantly worsened in parallel with worsening of the disorder of the neuropathic pain.\n\nb) Chronic neuropathic orofacial pain has significantly improved in parallel with improvement of the disorder of neuropathic pain.\n\nE.3. Chronic neuropathic orofacial pain has characteristics typical for the disorder of the neuropathic pain.\n\nE.4. Other evidence exists of causation\n\nF. The pain is not better accounted for by another diagnosis.\n\nComments\n\nNegative or positive sensory signs consistent with the distribution of the pain may be sufficient to indicate the presence of a lesion or disease of the peripheral somatosensory nervous system. The clinical examination may be supplemented by laboratory tests, e.g., quantitative sensory testing.\n\nTests that reveal the relevant lesion or disease affecting the somatosensory system may, e.g., consist of surgical or radiological confirmation of nerve compression, nerve conduction study, laser-evoked potentials, blink reflex, or skin biopsy confirmation of reduced nerve fibre terminals. Positive findings in these investigations may provide important diagnostic hints at the source of pain. However, all clinical and diagnostic aspects of the pain need to be considered before assuming causality. If clinical examination or diagnostic testing are performed, and the results are negative, neuropathic pain is unlikely (or less likely). Consider using another chronic pain diagnosis."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Chronic neuropathic orofacial pain"
+      }
+    }
+  ]
+}

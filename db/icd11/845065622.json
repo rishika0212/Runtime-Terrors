@@ -1,0 +1,67 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/845065622",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2144774073"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#845065622",
+  "code": "1B70.3",
+  "source": "http://id.who.int/icd/entity/845065622",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/845065622/postcoordinationScale/infectiousAgent",
+      "axisName": "http://id.who.int/icd/schema/infectiousAgent",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/83217129"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Ascending bacterial lymphangitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A complication of a focal acute pyogenic bacterial infection in which the draining lymphatics become red, inflamed and tender as the result of ascending infection. It is most commonly caused by Streptococcus pyogenes."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/911707612"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ascending bacterial lymphangitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute lymphangitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "acute bacterial lymphangitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ascending bacterial lymphangitis due to Streptococcus pyogenes"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1320244338"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ascending bacterial lymphangitis due to Staphylococcus aureus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/469672509"
+    }
+  ]
+}

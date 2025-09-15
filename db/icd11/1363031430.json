@@ -1,0 +1,86 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1363031430",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2086488820"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/543580710",
+    "http://id.who.int/icd/release/11/2024-01/mms/872686754",
+    "http://id.who.int/icd/release/11/2024-01/mms/1296675770",
+    "http://id.who.int/icd/release/11/2024-01/mms/144895790",
+    "http://id.who.int/icd/release/11/2024-01/mms/1363031430/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1363031430",
+  "code": "DA97",
+  "source": "http://id.who.int/icd/entity/1363031430",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Non-occlusive mesenteric ischaemia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/283208662",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/283208662"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Segmental arterial mediolysis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1160127418",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1160127418"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Vascular abnormality of small intestine due to injury or trauma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/942008030",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1670477659/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1363031430/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/18598211",
+        "http://id.who.int/icd/release/11/2024-01/mms/1708923236"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1363031430/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Certain vascular disorders of small intestine"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "The whole small intestine receives its blood supply from the superior mesenteric artery and the venous drainage is through the portal system via the superior mesenteric vein. Vascular disorders includes lesions in these vessels and capillary."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Ischaemic vascular disorders of intestine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/696703416",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/696703416"
+    }
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ]
+}

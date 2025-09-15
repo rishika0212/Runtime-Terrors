@@ -1,0 +1,485 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/740682437",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2021326314"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#740682437",
+  "code": "8B42",
+  "source": "http://id.who.int/icd/entity/740682437",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myelopathy due to nutritional deficiency"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1343568028",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/96676503/other"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/740682437/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1150229943"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/740682437/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1297540670"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/740682437/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1630407678",
+        "http://id.who.int/icd/release/11/2024-01/mms/1671987290",
+        "http://id.who.int/icd/release/11/2024-01/mms/155258022",
+        "http://id.who.int/icd/release/11/2024-01/mms/647013871",
+        "http://id.who.int/icd/release/11/2024-01/mms/746448055",
+        "http://id.who.int/icd/release/11/2024-01/mms/248569732",
+        "http://id.who.int/icd/release/11/2024-01/mms/1530721759",
+        "http://id.who.int/icd/release/11/2024-01/mms/817370856"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Myelopathy"
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/564191997"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myelopathy"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myelopathy due to compression"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/219469285"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "spinal cord compression"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/219469285"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "spondylogenic compression of spinal cord"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/219469285"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "spondylogenic myelopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/219469285"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cervical spinal cord compression"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1387442767"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "spondylogenic compression of cervical spinal cord"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1387442767"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cervical spondylitic cord compression"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/329451878"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "spondylytic cervical myelopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/329451878"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Spondylogenic compression of thoracic spinal cord"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/532321073"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myelopathy due to metabolic disorders"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/137450202"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myelopathy due to liver disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1949020167"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myelopathy secondary to liver disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1949020167"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myelopathy due to renal disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1863791908"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myelopathy secondary to renal disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1863791908"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myelopathy due to lathyrism"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/925836811"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myelopathy secondary to lathyrism"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/925836811"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myelopathy due to konzo"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/12322677"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myelopathy secondary to konzo"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/12322677"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myelopathy due to electric shock or lightning"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/323823594"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myelopathy secondary to electric shock or lightning"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/323823594"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myelopathy due to radiation injury"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/688537570"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Radiation myelopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/688537570"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myelopathy secondary to radiation injury"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/688537570"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myelopathy due to delayed radiation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/618530456"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myelopathy due to early radiation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/453241829"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myelopathy due to toxicity"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1742289417"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myelopathy due to intrathecal chemotherapy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/161702348"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myelopathy secondary to intrathecal chemotherapy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/161702348"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myelopathy due to drugs or medications"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/538270043"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myelopathy secondary to drugs or medications"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/538270043"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myelopathy due to venomous injury"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1001043403"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myelopathy secondary to venomous injury"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1001043403"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myelopathy due to snake bite"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1453875810"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myelopathy secondary to snake bite"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1453875810"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myelopathy due to spider bite"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1631273756"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myelopathy secondary to spider bite"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1631273756"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myelopathy due to fluorosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1657614809"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myelopathy due to other specified toxins"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/994897912"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myelopathy due to food toxicity"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/58323931"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myelopathy in intervertebral disc disorders"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1064801872"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Lumbar and other intervertebral disc disorders with myelopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/675104776"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myelopathy in neoplastic disease"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/981102492"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myelopathy in spondylosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2130942812"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "spondylitic myelopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2130942812"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "spondylosis of unspecified site with myelopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2130942812"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cervical spondylosis with myelopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1174996921"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Thoracic spondylosis with myelopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1712688405"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "spondylosis with myelopathy, thoracic region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1712688405"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Thoracic spondylosis with cord compression"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1973092088"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Anterior spinal and vertebral artery compression syndromes"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/531026680"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Anterior spinal artery compression syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/441741361"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "anterior spinal arterial compression syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/441741361"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "anterior spinal artery compression syndromes"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/441741361"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "anterior spine arterial compression syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/441741361"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "anterior spine artery compression syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/441741361"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Vertebral artery compression syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1485755347"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "vertebral artery compression syndromes"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1485755347"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "vertebral artery compression syndromes, site unspecified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1485755347"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cervical disc disorder with myelopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/885358727"
+    }
+  ]
+}

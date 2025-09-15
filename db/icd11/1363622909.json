@@ -1,0 +1,126 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1363622909",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1669303982"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1363622909",
+  "code": "PL14.E",
+  "source": "http://id.who.int/icd/entity/1363622909",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1363622909/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/435227771",
+        "http://id.who.int/icd/release/11/2024-01/mms/2024436666"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1363622909/postcoordinationScale/objectOrSubstanceProducingInjury",
+      "axisName": "http://id.who.int/icd/schema/objectOrSubstanceProducingInjury",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1177430729",
+        "http://id.who.int/icd/release/11/2024-01/mms/2136377225",
+        "http://id.who.int/icd/release/11/2024-01/mms/1753146185"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Fall in health care"
+  },
+  "codingNote": {
+    "@language": "en",
+    "@value": "Code first the injury or harm associated with other health care. Code also the cause of harm (i.e. PL10 Other health care related causes of injury or harm)"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fall in health care"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "fall in hospital"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fall from chair in health care or hospital"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/885918513"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fall from stretcher in health care or hospital"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1635908992"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fall from hospital bed"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1006610887"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fall from operating room table"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1313418676"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "fall from operating table"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1313418676"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "fall from surgical table"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1313418676"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "fall from operation table"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1313418676"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fall from orthopaedic surgical table"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1634711970"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "fall from trauma table"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1634711970"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fall from examination table"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/189781093"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/188243757",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1785386847"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#188243757",
+  "code": "NB91.70",
+  "source": "http://id.who.int/icd/entity/188243757",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/188243757/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/18598211",
+        "http://id.who.int/icd/release/11/2024-01/mms/1708923236"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/188243757/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/980862652",
+        "http://id.who.int/icd/release/11/2024-01/mms/851395624",
+        "http://id.who.int/icd/release/11/2024-01/mms/73322695",
+        "http://id.who.int/icd/release/11/2024-01/mms/128104623",
+        "http://id.who.int/icd/release/11/2024-01/mms/1491356379",
+        "http://id.who.int/icd/release/11/2024-01/mms/491063206",
+        "http://id.who.int/icd/release/11/2024-01/mms/185842968",
+        "http://id.who.int/icd/release/11/2024-01/mms/2143219175",
+        "http://id.who.int/icd/release/11/2024-01/mms/558785723",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Contusion of small intestine"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "An injury to small intestine resulting from a blow in which the subsurface tissue is injured and often internally bled but the skin is not broken."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Contusion of duodenum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/794451664",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/794451664"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Contusion of small intestine"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Bruise of small intestine"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Contusion of ilium"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1502204455"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Contusion of jejunum"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1229147025"
+    }
+  ]
+}

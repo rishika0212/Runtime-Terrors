@@ -1,0 +1,67 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/258345505",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/237422666"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#258345505",
+  "code": "1D92",
+  "source": "http://id.who.int/icd/entity/258345505",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/258345505/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/622600769",
+        "http://id.who.int/icd/release/11/2024-01/mms/1683090852"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Coronavirus infection, unspecified site"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Severe acute respiratory syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/652944603",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/652944603"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "COVID-19, virus not identified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/563410356",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/563410356"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "COVID-19, virus identified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1790791774",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1790791774"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/738030718"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/2071159826"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Coronavirus infection, unspecified site"
+      }
+    }
+  ]
+}

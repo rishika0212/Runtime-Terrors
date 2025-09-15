@@ -1,0 +1,93 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1543957744",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1914646281"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1543957744",
+  "code": "CA0H.1",
+  "source": "http://id.who.int/icd/entity/1543957744",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1543957744/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1422142995"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Polyp of vocal cord or larynx"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A polyp is an abnormal growth of tissue projecting from a mucous membrane, in this condition it is of the vocal cord and larynx."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "adenomatous polyps"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/669823967",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2043813445"
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/923122941"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Polyp of vocal cord or larynx"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Polyp of larynx"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1624502782"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "laryngeal polyp"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1624502782"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "larynx polyp"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1624502782"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Polyp of vocal cord"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1351291002"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "vocal cord polyp"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1351291002"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "vocal fold polyp"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1351291002"
+    }
+  ]
+}

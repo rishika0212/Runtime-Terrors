@@ -1,0 +1,81 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1085750085",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1483611415"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1230048344",
+    "http://id.who.int/icd/release/11/2024-01/mms/1472245426",
+    "http://id.who.int/icd/release/11/2024-01/mms/1764134138",
+    "http://id.who.int/icd/release/11/2024-01/mms/1085750085/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1085750085/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1085750085",
+  "code": "BD90.2",
+  "source": "http://id.who.int/icd/entity/1085750085",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1085750085/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1031510592",
+        "http://id.who.int/icd/release/11/2024-01/mms/465545679",
+        "http://id.who.int/icd/release/11/2024-01/mms/2122474603",
+        "http://id.who.int/icd/release/11/2024-01/mms/970208182",
+        "http://id.who.int/icd/release/11/2024-01/mms/481430149",
+        "http://id.who.int/icd/release/11/2024-01/mms/276642106",
+        "http://id.who.int/icd/release/11/2024-01/mms/1525493612"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Chronic lymphadenitis"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Enlarged lymph nodes"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1564691570",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1564691570"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Nonspecific mesenteric lymphadenitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/637335249",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/637335249"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculosis of intrathoracic lymph nodes, confirmed bacteriologically or histologically"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1992199762",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/983550510"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculosis of intrathoracic lymph nodes, without mention of bacteriological or histological confirmation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/81247738",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/882244568"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Tuberculous peripheral lymphadenopathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/870345553",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/870345553"
+    }
+  ]
+}

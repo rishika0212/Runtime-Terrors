@@ -1,0 +1,446 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/526287100",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1219149360"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#526287100",
+  "code": "2A83.1",
+  "source": "http://id.who.int/icd/entity/526287100",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/526287100/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/526287100/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1863636238",
+        "http://id.who.int/icd/release/11/2024-01/mms/885826145",
+        "http://id.who.int/icd/release/11/2024-01/mms/1746207012",
+        "http://id.who.int/icd/release/11/2024-01/mms/303697349"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Plasma cell myeloma"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A bone marrow-based plasma cell neoplasm usually characterised by presence of a serum monoclonal protein and/or urinary light chains. ”CRAB” criteria (calcium elevation (hypercalcaemia), renal failure, anaemia and bone lesions) separate symptomatic plasma cell myeloma from asymptomatic (smoldering) myeloma."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Kahler disease"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myelomatosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Medullary plasmacytoma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "multiple myeloma"
+      }
+    }
+  ],
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Solitary plasmacytoma"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1811140613",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1811140613"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Plasma cell myeloma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Kahler disease"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myelomatosis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "myeloma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "plasmacytic myeloma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "multiple myeloma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "multiple myelomata"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "multiple myeloma NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "multiple myeloma without mention of remission"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Medullary plasmacytoma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "monostotic plasma cell myeloma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "MM - [multiple myeloma]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis in multiple myelomatosis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/115777979"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis in multiple myelomatosis, multiple sites"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/661446336"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis in multiple myelomatosis, shoulder region"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1109857110"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis in multiple myelomatosis, acromioclavicular joints"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1721186724"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis in multiple myelomatosis, clavicle"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/104526601"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis in multiple myelomatosis, glenohumeral joints"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1725264194"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis in multiple myelomatosis, sternoclavicular joints"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2017776552"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis in multiple myelomatosis, scapula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1185083872"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis in multiple myelomatosis, upper arm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/915030955"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis in multiple myelomatosis, elbow joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/642610091"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis in multiple myelomatosis, humerus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1654510288"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis in multiple myelomatosis, forearm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1405193791"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis in multiple myelomatosis, radius"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/490932575"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis in multiple myelomatosis, ulna"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1124655548"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis in multiple myelomatosis, wrist joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/570806329"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis in multiple myelomatosis, hand"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/539958699"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis in multiple myelomatosis, carpus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1574636472"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis in multiple myelomatosis, fingers"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1292997122"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis in multiple myelomatosis, metacarpus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/715250770"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis in multiple myelomatosis, pelvic region or thigh"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1164234815"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis in multiple myelomatosis, femur"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/340262426"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis in multiple myelomatosis, hip joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/879900250"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis in multiple myelomatosis, pelvis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/616083436"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis in multiple myelomatosis, sacroiliac joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1533441123"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis in multiple myelomatosis, lower leg"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/835289282"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis in multiple myelomatosis, tibia"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1786484313"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis in multiple myelomatosis, fibula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1893785537"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis in multiple myelomatosis, knee joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/255722574"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis in multiple myelomatosis, ankle or foot"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1417825620"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis in multiple myelomatosis, ankle joint"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1889703713"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis in multiple myelomatosis, metatarsus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1069635004"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis in multiple myelomatosis, other joints in foot"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/300805702"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis in multiple myelomatosis, tarsus"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/809145800"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis in multiple myelomatosis, toes"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2089484746"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis in multiple myelomatosis, head"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/703289366"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis in multiple myelomatosis, neck"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/472304483"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis in multiple myelomatosis, ribs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2093566248"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis in multiple myelomatosis, skull"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1649994690"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis in multiple myelomatosis, trunk"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1556007306"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Osteoporosis in multiple myelomatosis, vertebral column"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1011960769"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Plasma cell myeloma in complete remission"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1648906775"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "multiple myeloma in complete remission"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1648906775"
+    }
+  ]
+}

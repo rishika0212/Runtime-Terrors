@@ -1,0 +1,73 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1723148250",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1012897702"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1723148250",
+  "code": "LB30.8",
+  "source": "http://id.who.int/icd/entity/1723148250",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1723148250/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Medullary sponge kidney"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition characterised by cystic or saccular dilatations of the medullary collecting ducts seen with radiocontrast filling. A predisposition to stones and associated often with renal tubular acidosis. There is no clear genetic predisposition."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Medullary sponge kidney"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Cacchi-Ricci disease"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "MSK - [medullary sponge kidney]"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "sponge kidney NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Medullary sponge kidney, unilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/804548805"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Medullary sponge kidney, bilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/225944224"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1086796982",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1361749283"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1086796982",
+  "code": "9B02.0",
+  "source": "http://id.who.int/icd/entity/1086796982",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1086796982/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1086796982/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1873247529"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Argyll Robertson pupil"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "These are bilateral small pupils that constrict when the patient focuses on a near object but do not constrict when exposed to bright light (they do not “react” to light)."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Argyll Robertson pupil"
+      }
+    }
+  ]
+}

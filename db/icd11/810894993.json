@@ -1,0 +1,67 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/810894993",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/37094742"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#810894993",
+  "code": "LB99.5",
+  "source": "http://id.who.int/icd/entity/810894993",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/810894993/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Congenital absence of both forearm and hand"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition caused by the failure of the forearm and hand to develop during the antenatal period."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital absence of both forearm and hand"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "congenital absence of both forearm and hand, unspecified side"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "congenital absence of forearm and hand"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital absence of both forearm and hand, unilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2019491585"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital absence of both forearm and hand, bilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1524444518"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/882244568",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2072728114"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/983550510",
+    "http://id.who.int/icd/release/11/2024-01/mms/1311939281",
+    "http://id.who.int/icd/release/11/2024-01/mms/882244568/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#882244568",
+  "code": "1B10",
+  "source": "http://id.who.int/icd/entity/882244568",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/882244568/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2033392163",
+        "http://id.who.int/icd/release/11/2024-01/mms/909890232"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/882244568/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/672063490"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Tuberculosis of the respiratory system"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is a progressive or chronic disease resulting from infection with the bacterium Mycobacterium tuberculosis or other bacteria in the M. tuberculosis complex: M. bovis, M. africanum, M. canetti, M. microti and M. pinnipedii. The infection is limited to the respiratory system."
+  },
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/576751653"
+  ]
+}

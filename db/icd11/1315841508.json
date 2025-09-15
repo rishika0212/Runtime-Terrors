@@ -1,0 +1,61 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1315841508",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2073711696"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1315841508",
+  "code": "8A60.3",
+  "source": "http://id.who.int/icd/entity/1315841508",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1315841508/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/539646260"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1315841508/postcoordinationScale/hasCausingCondition",
+      "axisName": "http://id.who.int/icd/schema/hasCausingCondition",
+      "requiredPostcoordination": "true",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/795022044",
+        "http://id.who.int/icd/release/11/2024-01/mms/1365258270",
+        "http://id.who.int/icd/release/11/2024-01/mms/1777436789",
+        "http://id.who.int/icd/release/11/2024-01/mms/831337417",
+        "http://id.who.int/icd/release/11/2024-01/mms/1710319105",
+        "http://id.who.int/icd/release/11/2024-01/mms/1468768235",
+        "http://id.who.int/icd/release/11/2024-01/mms/148241182",
+        "http://id.who.int/icd/release/11/2024-01/mms/546689346/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/546689346/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Epilepsy due to dementias"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Epilepsy with onset in a patient with established diagnosis of dementia. Seizures may occur at any time after the disease onset. Focal onset seizures are the prevailing type in Alzheimer’s disease while seizures with bilateral convulsive activity predominate in other dementing disorders. Myoclonus is another common finding in patients with Alzheimer’s disease."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/564191997"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/2083324835"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Epilepsy due to dementias"
+      }
+    }
+  ]
+}

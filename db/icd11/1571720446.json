@@ -1,0 +1,87 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1571720446",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/220699766"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1571720446",
+  "code": "DA63.50",
+  "source": "http://id.who.int/icd/entity/1571720446",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1571720446/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2044414353",
+        "http://id.who.int/icd/release/11/2024-01/mms/1112214727",
+        "http://id.who.int/icd/release/11/2024-01/mms/1472717853",
+        "http://id.who.int/icd/release/11/2024-01/mms/1450176443",
+        "http://id.who.int/icd/release/11/2024-01/mms/1098540500",
+        "http://id.who.int/icd/release/11/2024-01/mms/1676151582",
+        "http://id.who.int/icd/release/11/2024-01/mms/1583926619"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1571720446/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Drug-induced duodenal ulcer"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Medications such as NSAIDs can cause duodenal ulcer. Other drugs that may increase the risk of ulceration include potassium chloride, concomitant use of steroids with NSAIDs, bisphosphonates, and mycophenolate mofetil."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Toxic duodenal ulcer"
+      }
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Drug-induced duodenal ulcer"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "medicament-induced duodenal ulcer"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Toxic duodenal ulcer"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Duodenal ulcer due to NSAID - [non-steroidal anti-inflammatory drug]"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/371582185"
+    }
+  ]
+}

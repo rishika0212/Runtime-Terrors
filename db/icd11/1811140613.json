@@ -1,0 +1,103 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1811140613",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1219149360"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1811140613",
+  "code": "2A83.2",
+  "source": "http://id.who.int/icd/entity/1811140613",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1811140613/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1811140613/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1863636238",
+        "http://id.who.int/icd/release/11/2024-01/mms/885826145",
+        "http://id.who.int/icd/release/11/2024-01/mms/1746207012",
+        "http://id.who.int/icd/release/11/2024-01/mms/303697349"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Solitary plasmacytoma"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A single focus of clonal (malignant) plasma cells either in the bone or in another anatomic site without peripheral blood involvement."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Solitary myeloma"
+      }
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Solitary plasmacytoma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "solitary plasmacytoma without mention of remission"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Solitary myeloma"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Localised malignant plasma cell tumour NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Plasmacytoma NOS"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Solitary plasmacytoma of bone"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1163480196"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Primary plasmacytoma of bone"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1163480196"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Solitary plasmacytoma in complete remission"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/888975405"
+    }
+  ]
+}

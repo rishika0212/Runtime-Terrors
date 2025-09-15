@@ -1,0 +1,55 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/807528854",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1361674069"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#807528854",
+  "code": "9A03.02",
+  "source": "http://id.who.int/icd/entity/807528854",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/807528854/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Myogenic ptosis of eyelid"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This refers to a contraction initiated by the myocyte cell itself instead of an outside occurrence or stimulus such as nerve innervation, causing drooping or falling of the eyelid. The drooping may be worse after being awake longer, when the individual's muscles are tired."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myogenic ptosis of eyelid"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myogenic ptosis of upper eyelid"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/675075166"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Myogenic ptosis of lower eyelid"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1553040547"
+    }
+  ]
+}

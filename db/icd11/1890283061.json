@@ -1,0 +1,101 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1890283061",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/224267797"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1890283061",
+  "code": "7A42.5",
+  "source": "http://id.who.int/icd/entity/1890283061",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1890283061/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/384289569",
+        "http://id.who.int/icd/release/11/2024-01/mms/1719545571",
+        "http://id.who.int/icd/release/11/2024-01/mms/724748131",
+        "http://id.who.int/icd/release/11/2024-01/mms/1397288146",
+        "http://id.who.int/icd/release/11/2024-01/mms/28995849",
+        "http://id.who.int/icd/release/11/2024-01/mms/843843448",
+        "http://id.who.int/icd/release/11/2024-01/mms/2021326314",
+        "http://id.who.int/icd/release/11/2024-01/mms/1861279867",
+        "http://id.who.int/icd/release/11/2024-01/mms/1730644960",
+        "http://id.who.int/icd/release/11/2024-01/mms/1297080916",
+        "http://id.who.int/icd/release/11/2024-01/mms/76906748",
+        "http://id.who.int/icd/release/11/2024-01/mms/1119245712",
+        "http://id.who.int/icd/release/11/2024-01/mms/23958598",
+        "http://id.who.int/icd/release/11/2024-01/mms/1397803237",
+        "http://id.who.int/icd/release/11/2024-01/mms/1965146397",
+        "http://id.who.int/icd/release/11/2024-01/mms/81068077",
+        "http://id.who.int/icd/release/11/2024-01/mms/988657115",
+        "http://id.who.int/icd/release/11/2024-01/mms/1510094736",
+        "http://id.who.int/icd/release/11/2024-01/mms/1743839677",
+        "http://id.who.int/icd/release/11/2024-01/mms/1125774661",
+        "http://id.who.int/icd/release/11/2024-01/mms/1296093776/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/1296093776/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Sleep-related hypoventilation due to medical condition"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Sleep-related hypoventilation due to medical condition is characterised by sleep-related hypoventilation due to lung airway or parenchymal disease, chest wall disorders, pulmonary hypertension, or neurologic and neuromuscular disorders. Daytime hypercapnia may also be present. Sleep related hypoxemia may be severe. Patients can either be asymptomatic or present with complaints of dyspnea, chest tightness, or fatigue.\n\nNote: A definitive diagnosis requires objective evidence based on polysomnography with carbon dioxide (CO2) monitoring (by arterial, end-tidal or transcutaneous measures) in the presence of a medical condition that is judged to be causing the symptoms."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Obesity hypoventilation syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1514276050",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1514276050"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital central alveolar sleep-related hypoventilation"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1750742010",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1750742010"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Sleep-related hypoventilation due to medical condition"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "alveolar hypoventilation"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "nonapnoeic alveolar hypoventilation"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "secondary alveolar hypoventilation"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "sleep related hypoventilation"
+      }
+    }
+  ]
+}

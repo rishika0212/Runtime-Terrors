@@ -1,0 +1,52 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/621016812",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1679740428"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#621016812",
+  "code": "DA52.0",
+  "source": "http://id.who.int/icd/entity/621016812",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/621016812/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731",
+        "http://id.who.int/icd/release/11/2024-01/mms/1119203708"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Duodenal varices"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Abnormally dilated veins developed as portosystemic shunts in the lining of duodenum in patients with portal hypertension. Once duodenal varices develop, they continue to grow, and bleeding from duodenal varices can be fatal."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Duodenal varices"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Duodenal varices with bleeding"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1309129494"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/652419480",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1298211163"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#652419480",
+  "code": "JB64.7",
+  "source": "http://id.who.int/icd/entity/652419480",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/652419480/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/384984571",
+        "http://id.who.int/icd/release/11/2024-01/mms/533054712",
+        "http://id.who.int/icd/release/11/2024-01/mms/237197715",
+        "http://id.who.int/icd/release/11/2024-01/mms/106304476",
+        "http://id.who.int/icd/release/11/2024-01/mms/157326074",
+        "http://id.who.int/icd/release/11/2024-01/mms/1569145337",
+        "http://id.who.int/icd/release/11/2024-01/mms/602989108",
+        "http://id.who.int/icd/release/11/2024-01/mms/1803768976",
+        "http://id.who.int/icd/release/11/2024-01/mms/489508344",
+        "http://id.who.int/icd/release/11/2024-01/mms/1223380074",
+        "http://id.who.int/icd/release/11/2024-01/mms/1397253045",
+        "http://id.who.int/icd/release/11/2024-01/mms/1173690756",
+        "http://id.who.int/icd/release/11/2024-01/mms/141396655",
+        "http://id.who.int/icd/release/11/2024-01/mms/1336446723",
+        "http://id.who.int/icd/release/11/2024-01/mms/1365615047",
+        "http://id.who.int/icd/release/11/2024-01/mms/1639304259/other",
+        "http://id.who.int/icd/release/11/2024-01/mms/1639304259/unspecified"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Diseases of the skin complicating pregnancy, childbirth or the puerperium"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Diseases of the skin or subcutaneous tissue not specifically related to pregnancy but which contribute to increased morbidity during pregnancy, childbirth or the puerperium, for example genetic blistering disorders or lichen sclerosus."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Herpes gestationis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1405755890",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1405755890"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gestational pemphigoid"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1405755890",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1405755890"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Polymorphic eruption of pregnancy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/968694549",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/968694549"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pregnancy dermatoses"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/522040577",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/522040577"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Pruritus of pregnancy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1401753686",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1401753686"
+    }
+  ],
+  "codingNote": {
+    "@language": "en",
+    "@value": "This category includes conditions which complicate the pregnant state, are aggravated by the pregnancy or are a main reason for obstetric care but no specific category exists in this chapter."
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Diseases of the skin complicating pregnancy, childbirth or the puerperium"
+      }
+    }
+  ]
+}

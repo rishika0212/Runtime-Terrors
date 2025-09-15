@@ -1,0 +1,83 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/494884121",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/923313934"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#494884121",
+  "code": "LB45.0",
+  "source": "http://id.who.int/icd/entity/494884121",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/494884121/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Congenital absence of ovary"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition of the ovary, caused by determinants arising during the antenatal period. This condition is characterised by a female born with fewer than two ovaries."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Turner syndrome"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1987089698",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1987089698"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital absence of ovary"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ovarian agenesis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "agenesis of ovary"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ovarian aplasia"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital absence of ovary, unilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1767237452"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital absence of ovary, bilateral"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2100797896"
+    }
+  ]
+}

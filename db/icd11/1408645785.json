@@ -1,0 +1,1281 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1408645785",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1008592825"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1408645785",
+  "code": "PE88",
+  "source": "http://id.who.int/icd/entity/1408645785",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1408645785/postcoordinationScale/medication",
+      "axisName": "http://id.who.int/icd/schema/medication",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/24680257",
+        "http://id.who.int/icd/release/11/2024-01/mms/412602138",
+        "http://id.who.int/icd/release/11/2024-01/mms/164949870",
+        "http://id.who.int/icd/release/11/2024-01/mms/2017927415"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1408645785/postcoordinationScale/activityWhenInjured",
+      "axisName": "http://id.who.int/icd/schema/activityWhenInjured",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2071638841",
+        "http://id.who.int/icd/release/11/2024-01/mms/1107435129",
+        "http://id.who.int/icd/release/11/2024-01/mms/1428847289",
+        "http://id.who.int/icd/release/11/2024-01/mms/821249273",
+        "http://id.who.int/icd/release/11/2024-01/mms/160164281"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1408645785/postcoordinationScale/placeOfOccurrence",
+      "axisName": "http://id.who.int/icd/schema/placeOfOccurrence",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowedExceptFromSameBlock",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1081404635",
+        "http://id.who.int/icd/release/11/2024-01/mms/1786773723"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1408645785/postcoordinationScale/aspectsOfAssaultAndMaltreatment",
+      "axisName": "http://id.who.int/icd/schema/aspectsOfAssaultAndMaltreatment",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowedExceptFromSameBlock",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1115077034",
+        "http://id.who.int/icd/release/11/2024-01/mms/665815018",
+        "http://id.who.int/icd/release/11/2024-01/mms/814211882"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Assault by exposure to or harmful effects of other or unspecified drug, medicament or biological substance"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of other or unspecified drug, medicament or biological substance"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "homicidal poisoning by exposure to or harmful effects of other or unspecified drug, medicament or biological substance"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of systemic antibiotics"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1586703522"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of penicillins"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2003144849"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of cephalosporins or other beta-lactam antibiotics"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1746305461"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of chloramphenicol group"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1812768763"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of macrolides"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2099547523"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of tetracyclines"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1649908903"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of aminoglycosides"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1491718209"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of rifampicin"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/939364986"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of antifungal antibiotics, systemically used"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1555152623"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of other systemic anti-infectives or antiparasitics"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1388903957"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of sulfonamides"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1645597767"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of antimycobacterial drugs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/650652112"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of antimalarials or drugs acting on other blood protozoa"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/477521192"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of other antiprotozoal drugs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/50689036"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of anthelminthics"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/405670792"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of antiviral drugs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1239182327"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of hormones or their synthetic substitutes or antagonists, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1476858265"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of glucocorticoids or synthetic analogues"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/71988523"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of thyroid hormones or substitutes"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1056192973"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of antithyroid drugs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1322328624"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of insulin or oral hypoglycaemic drugs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1904686698"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of antidiabetic drugs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1904686698"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of oral contraceptives"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/544560667"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of other estrogens or progestogens"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1331762210"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of antigonadotrophins, antiestrogens, antiandrogens, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1977571526"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of androgens or anabolic congeners"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1789676002"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of unspecified hormones or synthetic substitutes"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1857449904"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of anterior pituitary hormones"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2141079000"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of adenohypophyseal hormones"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2141079000"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of other hormones or synthetic substitutes"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1626166516"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of unspecified hormone antagonists"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1515395092"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of other hormone antagonists"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/893868589"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of drugs primarily affecting the autonomic nervous system"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/658256520"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of anticholinesterase agents"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1577809596"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of other parasympathomimetics"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1622088722"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of cholinergics"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/899922475"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of ganglionic blocking drugs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1020531110"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of other parasympatholytics or spasmolytics"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/107633986"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of anticholinergics or antimuscarinics"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/107633986"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of predominantly alpha-adrenoreceptor agonists"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/421088358"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of predominantly beta-adrenoreceptor agonists"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/36844526"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of alpha-adrenoreceptor antagonists"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1405113245"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of beta-adrenoreceptor antagonists"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/602228832"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of centrally-acting or adrenergic-neuron-blocking agents"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/425395336"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of agents primarily affecting blood constituents"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1483479959"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of diphenhydramine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1190289323"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of other H1-receptor antagonists"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/767456060"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of antiallergic or antiemetic drugs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/204161104"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of antineoplastic antimetabolites"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/324555124"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of antineoplastic natural products"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/702946708"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of other antineoplastic drugs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1505953391"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of immunosuppressive agents"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/559825192"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of vitamin B12, folic acid or other anti-megaloblastic-anaemia preparations"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1890328921"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of enzymes"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/532177760"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of iron or its compounds"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/621162376"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of anticoagulants"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/980762276"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of antithrombotic drugs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1047468270"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of platelet aggregation inhibitors"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1047468270"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of thrombolytic drug"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/793195158"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of anticoagulant antagonists, vitamin K or other coagulants"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/808723378"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of other fibrinolysis-affecting drugs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/176844630"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of natural blood or blood products"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1704865135"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of acidifying or alkalising agents"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/248644090"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of other primarily systemic agents, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/813067088"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of plasma substitutes"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2065646265"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of agents primarily affecting the cardiovascular system"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/220458458"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of cardiac-stimulant glycosides or drugs of similar action"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1101074015"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of calcium-channel blockers"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1590828923"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of other antidysrhythmic drugs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1173971185"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of nitroglycerin, nitroglycerol, medicinal"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/336265346"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of other coronary vasodilators"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1680743293"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of angiotensin-converting-enzyme inhibitors"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1586517915"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of other antihypertensive drugs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/20516024"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of antihyperlipidemic or antiarteriosclerotic drugs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1786060833"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of peripheral vasodilators"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1272976205"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of antivaricose drugs, including sclerosing agents"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1418920553"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of agents primarily affecting the gastrointestinal system"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1120853469"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of histamine H2-receptor blockers"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1848462991"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of other antacids or anti-gastric-secretion drugs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/503862642"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of stimulant laxatives"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/743464221"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of saline or osmotic laxatives"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2107784556"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of other laxatives"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/313950037"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of digestants"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/671626163"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of antidiarrhoeal drugs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/930816663"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of emetics"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/861996249"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of agents primarily acting on smooth or skeletal muscles or the respiratory system"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1039531714"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of oxytocic drugs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/575221409"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of skeletal muscle relaxants"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1027227525"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of neuromuscular blocking agents"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1027227525"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of unspecified drugs acting on muscles"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/126120803"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of other drugs acting on muscles"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1754280282"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of antitussives"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/64757197"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of expectorants"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1031305061"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of other anti-common-cold drugs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1980849806"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of salbutamol"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1286541930"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of aminophylline, theophylline"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1406927694"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of terbutaline"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1224178886"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of antiasthmatics, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/419765429"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of topical agents primarily affecting skin or mucous membrane or ophthalmological, otorhinolaryngological or dental drugs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/41917916"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of topical corticosteroid preparations"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1763706696"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of iodine, antiseptic"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1402882992"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of silver nitrate"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/204935299"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of other local antifungal, anti-infective or anti-inflammatory drugs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1736129556"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of antipruritics"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1190006648"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of methyl salicylate"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1503469148"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of other local astringents or local detergents"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1663259324"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of emollients, demulcents or protectants"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/319179079"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of podophyllin"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/994212162"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of keratolytics, keratoplastics, or other hair treatment drugs or preparations"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1789925683"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of ophthalmological drugs or preparations"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/94657290"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of otorhinolaryngological drugs or preparations"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1058674670"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of fluoride preparations"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/543753930"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of other dental drugs, topically applied"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/611524744"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of camphor"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/895159040"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of agents primarily affecting water-balance or mineral or uric acid metabolism"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/946233678"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of mineralocorticoids"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/707271644"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of mineralocorticoids antagonists"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/278288188"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of loop diuretics"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2139231493"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of high-ceiling diuretics"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2139231493"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of carbonic-anhydrase inhibitors"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/349059476"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of benzothiadiazine derivatives"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/711611194"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of thiazides"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/711611194"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of other diuretics"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1647833121"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of electrolytic, caloric or water-balance agents"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1485421767"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of mineral salts, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1207610851"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of drugs affecting uric acid metabolism"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1557254761"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of vitamin D or derivatives"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/220443160"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of bisphosphonates"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2097588709"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of appetite depressants"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1203299587"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of antidotes or chelating agents, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/403815982"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of disulfiram"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1935512249"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of alcohol deterrents, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1388880341"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of X-ray contrast media"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1304146161"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of MRI contrast agents"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1996880919"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of agents used for other scanning techniques"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/119597036"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of other diagnostic agents"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/947319730"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by exposure to or harmful effects of lipotropic drugs"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1770296257"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by or harmful exposure to harmful effects of vitamins or pharmaceutical excipients, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/110154234"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by or harmful exposure to herbal preparations or formulas"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1009687838"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by or harmful exposure to dietary supplements, vitamins or minerals"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/593333306"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by or harmful exposure to complementary or traditional medicines, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/659008116"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by or harmful exposure to complementary or traditional medicines, unspecified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/913276940"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by or harmful exposure to vaccines, immunoglobulins or other biological substances"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/689738024"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by or harmful exposure to BCG vaccine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/329440720"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by or harmful exposure to typhoid or paratyphoid vaccine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2092343287"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by or harmful exposure to cholera vaccine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/402305888"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by or harmful exposure to plague vaccine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/694081994"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by or harmful exposure to tetanus vaccine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1866066964"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by or harmful exposure to diphtheria vaccine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1434951924"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by or harmful exposure to haemophilus influenzae type B vaccines"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1257550296"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by or harmful exposure to pertussis vaccine, including combinations with a pertussis component"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1373621852"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by or harmful exposure to mixed bacterial vaccines without a pertussis component"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2993709"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by or harmful exposure to other or unspecified bacterial vaccines"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1879619026"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by or harmful exposure to smallpox vaccines"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1253505334"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by or harmful exposure to measles vaccines"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/354394651"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by or harmful exposure to mumps vaccines"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2119405198"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by or harmful exposure to rubella vaccines"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1606860258"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by or harmful exposure to polio vaccines"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1085648070"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by or harmful exposure to yellow fever vaccines"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2047598626"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by or harmful exposure to hepatitis A vaccines"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/170851295"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by or harmful exposure to hepatitis B vaccines"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/897118085"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by or harmful exposure to influenza vaccines"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1686802422"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by or harmful exposure to rotavirus vaccines"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/194956749"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by or harmful exposure to human papillomavirus vaccines"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/824213803"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by or harmful exposure to other viral vaccines"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/777228303"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by or harmful exposure to rickettsial vaccines"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/709473857"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by or harmful exposure to protozoal vaccines"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/996252729"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by or harmful exposure to hepatitis B immune globulin"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/605195549"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by or harmful exposure to antivenin or antivenom"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/514638331"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by or harmful exposure to immunoglobulin, not elsewhere classified"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1907917764"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by or harmful exposure to other specified vaccines"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/452243285"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Assault by or harmful exposure to unspecified vaccines"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/609273341"
+    }
+  ]
+}

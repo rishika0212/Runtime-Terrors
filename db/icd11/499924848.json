@@ -1,0 +1,57 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/499924848",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/551713432"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1849071057",
+    "http://id.who.int/icd/release/11/2024-01/mms/446416176",
+    "http://id.who.int/icd/release/11/2024-01/mms/46690802",
+    "http://id.who.int/icd/release/11/2024-01/mms/250196878",
+    "http://id.who.int/icd/release/11/2024-01/mms/2064760868",
+    "http://id.who.int/icd/release/11/2024-01/mms/499924848/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#499924848",
+  "code": "9C61",
+  "source": "http://id.who.int/icd/entity/499924848",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Glaucomatous optic neuropathy"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/300924888",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/300924888"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/499924848/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Glaucoma"
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Traumatic glaucoma due to birth injury"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/708882509",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1804006919"
+    }
+  ]
+}

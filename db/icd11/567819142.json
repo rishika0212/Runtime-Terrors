@@ -1,0 +1,57 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/567819142",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1490912126"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#567819142",
+  "code": "GB90.1",
+  "source": "http://id.who.int/icd/entity/567819142",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/567819142/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Hydroureter"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "A condition caused by obstruction, stricture, or stenosis of the ureter, which may be due to prostatic hypertrophy, carcinoma, retroperitoneal or pelvic neoplasms, calculi, or a congenital anomaly. This condition is characterised by distention of the ureter with urine."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Congenital primary megaureter"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/566805920",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/566805920"
+    }
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hydroureter"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "ureterectasis"
+      }
+    }
+  ]
+}

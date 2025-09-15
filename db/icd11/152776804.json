@@ -1,0 +1,127 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/152776804",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/512109781"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#152776804",
+  "code": "DB31.0",
+  "source": "http://id.who.int/icd/entity/152776804",
+  "classKind": "category",
+  "foundationChildElsewhere": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fistula of large intestine to vagina"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/570074580",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/570074580"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Rectovaginal fistula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/396280789",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/396280789"
+    }
+  ],
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/152776804/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1741413713"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/152776804/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Fistula of large intestine"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Fistula of large intestine is defined as an abnormal communication between the large intestine and another epithelialized surface such as the skin, an adjacent organ or an adjacent loop of bowel. Colovesical fistula is the most common, but colovaginal, colocolic, coloileal, colocutaneous, and coloanal fistulae have been described. Fistulas due to Crohn disease are excluded from here."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fistula of large intestine"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Rectal fistula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2142996958"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fistula of rectum to skin"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2142996958"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "perineorectal fistula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2142996958"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "perirectal fistula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2142996958"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "rectum fistula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2142996958"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fistula of sigmoid colon"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/592535707"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "abdominosigmoidal fistula"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/592535707"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Fistula of other specified site of large intestine"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/568311148"
+    }
+  ]
+}

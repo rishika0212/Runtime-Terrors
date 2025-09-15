@@ -1,0 +1,76 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/927250371",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/698285441"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#927250371",
+  "code": "DC31.4",
+  "source": "http://id.who.int/icd/entity/927250371",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/927250371/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/927250371/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/562478860",
+        "http://id.who.int/icd/release/11/2024-01/mms/1663264387",
+        "http://id.who.int/icd/release/11/2024-01/mms/1201187093"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Hereditary acute pancreatitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "This is a recurrent acute inflammation of pancreas characterised by episodes of severe abdominal pain. Several genetic mutations are associated with this pancreatitis. Onset of the disease is generally under 20 years old, but it can be at any age."
+  },
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hereditary acute pancreatitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hereditary acute pancreatitis, with local complication"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1842987794"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hereditary acute pancreatitis, with systemic complication"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/302454943"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Hereditary acute pancreatitis, with local and systemic complication"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1838910448"
+    }
+  ]
+}

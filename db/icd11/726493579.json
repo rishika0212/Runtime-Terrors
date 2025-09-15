@@ -1,0 +1,102 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/726493579",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1893076536"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#726493579",
+  "code": "2C22.2",
+  "source": "http://id.who.int/icd/entity/726493579",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/726493579/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2037717603"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/726493579/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/322466810"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/726493579/postcoordinationScale/hasSeverity",
+      "axisName": "http://id.who.int/icd/schema/hasSeverity",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1409966790",
+        "http://id.who.int/icd/release/11/2024-01/mms/896293199",
+        "http://id.who.int/icd/release/11/2024-01/mms/1094217460",
+        "http://id.who.int/icd/release/11/2024-01/mms/238069351"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/726493579/postcoordinationScale/hasAlternativeSeverity2",
+      "axisName": "http://id.who.int/icd/schema/hasAlternativeSeverity2",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1863636238",
+        "http://id.who.int/icd/release/11/2024-01/mms/885826145",
+        "http://id.who.int/icd/release/11/2024-01/mms/1746207012",
+        "http://id.who.int/icd/release/11/2024-01/mms/303697349"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Malignant epithelial neoplasms of accessory sinuses, unspecified type"
+  },
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant epithelial neoplasms of accessory sinuses, unspecified type"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant epithelial neoplasms of maxillary sinus, unspecified type"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/850845999"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant epithelial neoplasms of ethmoidal sinus, unspecified type"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/271921996"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant epithelial neoplasms of frontal sinus, unspecified type"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/688459199"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant epithelial neoplasms of sphenoidal sinus, unspecified type"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/193650650"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Malignant epithelial neoplasms involving overlapping sites of accessory sinuses, unspecified type"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1008336548"
+    }
+  ]
+}

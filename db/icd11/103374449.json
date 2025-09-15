@@ -1,0 +1,95 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/103374449",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/452386362"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/2055653544",
+    "http://id.who.int/icd/release/11/2024-01/mms/672745559",
+    "http://id.who.int/icd/release/11/2024-01/mms/2110065613",
+    "http://id.who.int/icd/release/11/2024-01/mms/237738073",
+    "http://id.who.int/icd/release/11/2024-01/mms/412010073",
+    "http://id.who.int/icd/release/11/2024-01/mms/157834036",
+    "http://id.who.int/icd/release/11/2024-01/mms/864320047",
+    "http://id.who.int/icd/release/11/2024-01/mms/1797984458",
+    "http://id.who.int/icd/release/11/2024-01/mms/103374449/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/103374449/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#103374449",
+  "code": "NA00",
+  "source": "http://id.who.int/icd/entity/103374449",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/103374449/postcoordinationScale/typeOfInjury",
+      "axisName": "http://id.who.int/icd/schema/typeOfInjury",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/377475788",
+        "http://id.who.int/icd/release/11/2024-01/mms/1306914119",
+        "http://id.who.int/icd/release/11/2024-01/mms/2040998541",
+        "http://id.who.int/icd/release/11/2024-01/mms/1442982067",
+        "http://id.who.int/icd/release/11/2024-01/mms/1704055292",
+        "http://id.who.int/icd/release/11/2024-01/mms/2010469183",
+        "http://id.who.int/icd/release/11/2024-01/mms/1124176890"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/103374449/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1357976561"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/103374449/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/588039752"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/103374449/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/277610609",
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482",
+        "http://id.who.int/icd/release/11/2024-01/mms/755612283"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Superficial injury of head"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Damage inflicted on the surface or shallow tissues of the head as the direct or indirect result of an external force, with or without disruption of structural continuity."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Injury of eye or orbit"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1679904912",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1679904912"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "cerebral contusion (diffuse) focal"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1818120156",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/1818120156"
+    }
+  ]
+}

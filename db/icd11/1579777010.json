@@ -1,0 +1,60 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1579777010",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1633923486"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/564360000",
+    "http://id.who.int/icd/release/11/2024-01/mms/1235345317",
+    "http://id.who.int/icd/release/11/2024-01/mms/1612179252",
+    "http://id.who.int/icd/release/11/2024-01/mms/1377710901",
+    "http://id.who.int/icd/release/11/2024-01/mms/1579777010/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1579777010/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1579777010",
+  "code": "NC58",
+  "source": "http://id.who.int/icd/entity/1579777010",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1579777010/postcoordinationScale/laterality",
+      "axisName": "http://id.who.int/icd/schema/laterality",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/627678743",
+        "http://id.who.int/icd/release/11/2024-01/mms/271422288",
+        "http://id.who.int/icd/release/11/2024-01/mms/876572005",
+        "http://id.who.int/icd/release/11/2024-01/mms/1038788978"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1579777010/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/2038724831",
+        "http://id.who.int/icd/release/11/2024-01/mms/1060675873",
+        "http://id.who.int/icd/release/11/2024-01/mms/623242207",
+        "http://id.who.int/icd/release/11/2024-01/mms/1679928503",
+        "http://id.who.int/icd/release/11/2024-01/mms/430791912"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1579777010/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/850137482",
+        "http://id.who.int/icd/release/11/2024-01/mms/755612283"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Crushing injury of wrist or hand"
+  }
+}

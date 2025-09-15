@@ -1,0 +1,80 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/1474639400",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1162198017"
+  ],
+  "child": [
+    "http://id.who.int/icd/release/11/2024-01/mms/357537129",
+    "http://id.who.int/icd/release/11/2024-01/mms/1474639400/other",
+    "http://id.who.int/icd/release/11/2024-01/mms/1474639400/unspecified"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#1474639400",
+  "code": "PL11.2",
+  "source": "http://id.who.int/icd/entity/1474639400",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/1474639400/postcoordinationScale/associatedWith",
+      "axisName": "http://id.who.int/icd/schema/associatedWith",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1435254666",
+        "http://id.who.int/icd/release/11/2024-01/mms/1766440644",
+        "http://id.who.int/icd/release/11/2024-01/mms/1954798891",
+        "http://id.who.int/icd/release/11/2024-01/mms/21500692",
+        "http://id.who.int/icd/release/11/2024-01/mms/334423054",
+        "http://id.who.int/icd/release/11/2024-01/mms/274880002",
+        "http://id.who.int/icd/release/11/2024-01/mms/1296093776",
+        "http://id.who.int/icd/release/11/2024-01/mms/868865918",
+        "http://id.who.int/icd/release/11/2024-01/mms/1218729044",
+        "http://id.who.int/icd/release/11/2024-01/mms/426429380",
+        "http://id.who.int/icd/release/11/2024-01/mms/197934298",
+        "http://id.who.int/icd/release/11/2024-01/mms/1256772020",
+        "http://id.who.int/icd/release/11/2024-01/mms/1639304259",
+        "http://id.who.int/icd/release/11/2024-01/mms/1473673350",
+        "http://id.who.int/icd/release/11/2024-01/mms/30659757",
+        "http://id.who.int/icd/release/11/2024-01/mms/714000734",
+        "http://id.who.int/icd/release/11/2024-01/mms/1306203631",
+        "http://id.who.int/icd/release/11/2024-01/mms/1843895818",
+        "http://id.who.int/icd/release/11/2024-01/mms/435227771",
+        "http://id.who.int/icd/release/11/2024-01/mms/460401849"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Embolisation, as mode of injury or harm"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "An embolisation occurs when a solid object within the venous or arterial circulation propagates to a distal location and becomes lodged there."
+  },
+  "longDefinition": {
+    "@language": "en",
+    "@value": "The solid object could include a foreign body, such as a piece of equipment used to perform the surgery, or could include a piece of tissue dislodged during the procedure (such as atheroma or thrombus)."
+  },
+  "exclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Obstruction of device, as mode of injury or harm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/920519112",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/920519112"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Embolisation without injury or harm"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2048336062",
+      "linearizationReference": "http://id.who.int/icd/release/11/2024-01/mms/2048336062"
+    }
+  ],
+  "codingNote": {
+    "@language": "en",
+    "@value": "Code first the injury or harm associated with the procedure or intervention. Code also the cause of harm which identifies the procedure or intervention."
+  }
+}

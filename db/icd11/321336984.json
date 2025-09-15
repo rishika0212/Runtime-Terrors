@@ -1,0 +1,132 @@
+{
+  "@context": "http://id.who.int/icd/contexts/contextForLinearizationEntity.json",
+  "@id": "http://id.who.int/icd/release/11/2024-01/mms/321336984",
+  "parent": [
+    "http://id.who.int/icd/release/11/2024-01/mms/1268183934"
+  ],
+  "browserUrl": "https://icd.who.int/browse/2024-01/mms/en#321336984",
+  "code": "DC11.4",
+  "source": "http://id.who.int/icd/entity/321336984",
+  "classKind": "category",
+  "postcoordinationScale": [
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/321336984/postcoordinationScale/specificAnatomy",
+      "axisName": "http://id.who.int/icd/schema/specificAnatomy",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/126976415",
+        "http://id.who.int/icd/release/11/2024-01/mms/964528740"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/321336984/postcoordinationScale/hasManifestation",
+      "axisName": "http://id.who.int/icd/schema/hasManifestation",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "AllowAlways",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/1020615731"
+      ]
+    },
+    {
+      "@id": "http://id.who.int/icd/release/11/2024-01/mms/321336984/postcoordinationScale/course",
+      "axisName": "http://id.who.int/icd/schema/course",
+      "requiredPostcoordination": "false",
+      "allowMultipleValues": "NotAllowed",
+      "scaleEntity": [
+        "http://id.who.int/icd/release/11/2024-01/mms/786106375",
+        "http://id.who.int/icd/release/11/2024-01/mms/490003542"
+      ]
+    }
+  ],
+  "title": {
+    "@language": "en",
+    "@value": "Calculus of bile duct with cholangitis"
+  },
+  "definition": {
+    "@language": "en",
+    "@value": "Stones in bile duct present with inflammation of bile duct."
+  },
+  "inclusion": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Choledocholithiasis with cholangitis"
+      }
+    }
+  ],
+  "relatedEntitiesInMaternalChapter": [
+    "http://id.who.int/icd/entity/1135143938"
+  ],
+  "relatedEntitiesInPerinatalChapter": [
+    "http://id.who.int/icd/entity/494951911"
+  ],
+  "indexTerm": [
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Calculus of bile duct with cholangitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "bile duct calculus with cholangitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Choledocholithiasis with cholangitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gallstone of bile duct NOS with cholangitis"
+      }
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Calculus of bile duct with acute cholangitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/246014348"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Acute obstructive suppurative cholangitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/246014348"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Calculus of bile duct with other cholangitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/127244314"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gallstone with infectious cholangitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1260748075"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gallstone of common duct with cholangitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/2125220801"
+    },
+    {
+      "label": {
+        "@language": "en",
+        "@value": "Gallstone of hepatic duct with cholangitis"
+      },
+      "foundationReference": "http://id.who.int/icd/entity/1798961031"
+    }
+  ]
+}
