@@ -84,3 +84,23 @@ class SuggestItem(BaseModel):
 
 class SuggestResponse(BaseModel):
     items: List[SuggestItem]
+
+
+# ConceptMap listing models
+class ConceptMapItem(BaseModel):
+    source_system: str
+    source_code: str
+    target_system: str
+    target_code: str
+    mapping_type: str
+    confidence: Optional[float] = None
+    source_display: Optional[str] = None
+    target_display: Optional[str] = None
+
+
+class PaginatedConceptMaps(BaseModel):
+    items: List[ConceptMapItem]
+    total: int
+    limit: int
+    offset: int
+    next_offset: Optional[int] = None
