@@ -26,10 +26,13 @@ def run() -> None:
                 email TEXT UNIQUE,
                 password_hash TEXT,
                 role TEXT DEFAULT 'user',
+                name TEXT,
                 created_at DATETIME DEFAULT CURRENT_TIMESTAMP
             )
             """
         )
+        if not _column_exists(conn, "User", "name"):
+            conn.execute("ALTER TABLE User ADD COLUMN name TEXT")
         if not _column_exists(conn, "User", "created_at"):
             conn.execute("ALTER TABLE User ADD COLUMN created_at DATETIME")
             conn.execute(
@@ -84,6 +87,90 @@ def run() -> None:
             BEGIN
                 UPDATE PatientForm SET updated_at = CURRENT_TIMESTAMP WHERE id = OLD.id;
             END;
+            """
+        )
+
+        # FHIR ingestion tables (minimal)
+        conn.execute(
+            """
+            CREATE TABLE IF NOT EXISTS FhirBundle (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                raw TEXT NOT NULL,
+                created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+            )
+            """
+        )
+        conn.execute(
+            """
+            CREATE TABLE IF NOT EXISTS FhirCondition (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                bundle_id INTEGER NULL,
+                patient_reference TEXT NULL,
+                display TEXT NULL,
+                namaste_system TEXT NULL,
+                namaste_code TEXT NULL,
+                icd11_tm2_system TEXT NULL,
+                icd11_tm2_code TEXT NULL,
+                icd11_mms_system TEXT NULL,
+                icd11_mms_code TEXT NULL,
+                asserter_reference TEXT NULL,
+                asserter_display TEXT NULL,
+                created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+                FOREIGN KEY (bundle_id) REFERENCES FhirBundle(id) ON DELETE SET NULL
+            )
+            """
+        )
+        # Backfill newly added columns for older DBs
+        if not _column_exists(conn, "FhirCondition", "asserter_reference"):
+            conn.execute("ALTER TABLE FhirCondition ADD COLUMN asserter_reference TEXT NULL")
+        if not _column_exists(conn, "FhirCondition", "asserter_display"):
+            conn.execute("ALTER TABLE FhirCondition ADD COLUMN asserter_display TEXT NULL")
+
+        conn.execute("CREATE INDEX IF NOT EXISTS idx_condition_patient ON FhirCondition(patient_reference)")
+
+        # --- Versioning columns for FHIR resources ---
+        if not _column_exists(conn, "FhirBundle", "version"):
+            conn.execute("ALTER TABLE FhirBundle ADD COLUMN version INTEGER DEFAULT 1")
+        if not _column_exists(conn, "FhirBundle", "last_updated"):
+            conn.execute("ALTER TABLE FhirBundle ADD COLUMN last_updated DATETIME DEFAULT CURRENT_TIMESTAMP")
+
+        if not _column_exists(conn, "FhirCondition", "version"):
+            conn.execute("ALTER TABLE FhirCondition ADD COLUMN version INTEGER DEFAULT 1")
+        if not _column_exists(conn, "FhirCondition", "last_updated"):
+            conn.execute("ALTER TABLE FhirCondition ADD COLUMN last_updated DATETIME DEFAULT CURRENT_TIMESTAMP")
+
+        # Trigger to update version/last_updated on FhirCondition updates
+        conn.execute(
+            """
+            CREATE TRIGGER IF NOT EXISTS trg_fhircondition_updated
+            AFTER UPDATE ON FhirCondition
+            FOR EACH ROW
+            BEGIN
+                UPDATE FhirCondition
+                SET last_updated = CURRENT_TIMESTAMP,
+                    version = COALESCE(OLD.version, 1) + 1
+                WHERE id = OLD.id;
+            END;
+            """
+        )
+
+        # --- Minimal Provenance and AuditEvent storage ---
+        conn.execute(
+            """
+            CREATE TABLE IF NOT EXISTS FhirProvenance (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                raw TEXT NOT NULL,
+                created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+            )
+            """
+        )
+        conn.execute(
+            """
+            CREATE TABLE IF NOT EXISTS FhirAuditEvent (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                raw TEXT NOT NULL,
+                created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+            )
             """
         )
 

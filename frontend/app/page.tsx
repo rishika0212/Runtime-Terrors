@@ -6,13 +6,13 @@ import { Button } from "@/components/ui/button"
 
 export default function Landing() {
   return (
-    <div className="relative min-h-screen bg-gradient-to-b from-[#0b0f19] via-[#0b0f19] to-black text-white overflow-hidden">
+    <div className="relative min-h-screen bg-background text-foreground overflow-hidden">
       {/* Background accents */}
       <div className="pointer-events-none absolute inset-0 -z-10">
-        <div className="absolute top-[-10%] left-[-10%] h-80 w-80 rounded-full bg-cyan-500/10 blur-3xl" />
-        <div className="absolute bottom-[-10%] right-[-10%] h-80 w-80 rounded-full bg-yellow-500/10 blur-3xl" />
+        <div className="absolute top-[-10%] left-[-10%] h-80 w-80 rounded-full bg-primary/10 blur-3xl" />
+        <div className="absolute bottom-[-10%] right-[-10%] h-80 w-80 rounded-full bg-secondary/10 blur-3xl" />
         <div
-          className="absolute inset-0 bg-[linear-gradient(to_right,rgba(255,255,255,0.05)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.05)_1px,transparent_1px)] bg-[size:28px_28px] opacity-40"
+          className="absolute inset-0 bg-[linear-gradient(to_right,rgba(0,0,0,0.06)_1px,transparent_1px),linear-gradient(to_bottom,rgba(0,0,0,0.06)_1px,transparent_1px)] dark:bg-[linear-gradient(to_right,rgba(255,255,255,0.06)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.06)_1px,transparent_1px)] bg-[size:28px_28px] opacity-40"
           aria-hidden
         />
       </div>
@@ -42,7 +42,7 @@ export default function Landing() {
               <span className="text-yellow-300">.</span>
             </h1>
 
-            <p className="max-w-xl text-base text-white/70 md:text-lg">
+            <p className="max-w-xl text-base text-muted-foreground md:text-lg">
               Explore standardized mappings across AYUSH systems and ICD-11. Search, compare,
               and visualize terminology relationships — all in one place.
             </p>

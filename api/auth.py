@@ -26,7 +26,8 @@ def _init_tables():
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             email TEXT UNIQUE,
             password_hash TEXT,
-            role TEXT DEFAULT 'user'
+            role TEXT DEFAULT 'user',
+            name TEXT
         )"""
         )
         conn.commit()
@@ -40,11 +41,13 @@ _init_tables()
 class RegisterRequest(BaseModel):
     email: str
     password: str
+    name: str
 
 
 class Token(BaseModel):
     access_token: str
     token_type: str = "bearer"
+    name: str
 
 
 def _create_token(sub: str, role: str = "user") -> str:
@@ -67,12 +70,12 @@ def register(req: RegisterRequest):
         if cur.fetchone():
             raise HTTPException(400, "Email already registered")
         cur.execute(
-            "INSERT INTO User(email,password_hash) VALUES(?,?)",
-            (req.email, pwd.hash(req.password)),
+            "INSERT INTO User(email,password_hash,name) VALUES(?,?,?)",
+            (req.email, pwd.hash(req.password), req.name),
         )
         conn.commit()
         token = _create_token(req.email, "user")
-        return Token(access_token=token)
+        return Token(access_token=token, name=req.name)
     finally:
         conn.close()
 
@@ -83,12 +86,12 @@ def login(form: OAuth2PasswordRequestForm = Depends()):
     try:
         cur = conn.cursor()
         cur.execute(
-            "SELECT password_hash, role FROM User WHERE email=?", (form.username,)
+            "SELECT password_hash, role, name FROM User WHERE email=?", (form.username,)
         )
         row = cur.fetchone()
         if not row or not pwd.verify(form.password, row["password_hash"]):
             raise HTTPException(401, "Invalid credentials")
-        return Token(access_token=_create_token(form.username, row["role"]))
+        return Token(access_token=_create_token(form.username, row["role"]), name=row["name"] or "")
     finally:
         conn.close()
 
@@ -96,10 +99,11 @@ def login(form: OAuth2PasswordRequestForm = Depends()):
 class AbhaLogin(BaseModel):
     abha_id: str
     mode: str  # "doctor" or "patient"
+    name: str
 
 
 @router.post("/abha-login", response_model=Token)
 def abha_login(req: AbhaLogin):
     if req.mode not in ("doctor", "patient"):
         raise HTTPException(400, "mode must be 'doctor' or 'patient'")
-    return Token(access_token=_create_token(sub=f"abha:{req.abha_id}", role=req.mode))
+    return Token(access_token=_create_token(sub=f"abha:{req.abha_id}", role=req.mode), name=req.name)

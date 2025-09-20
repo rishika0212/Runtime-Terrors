@@ -18,6 +18,7 @@ const formatAbha = (v: string) => {
 export default function AbhaDoctor() {
   const router = useRouter()
   const [abhaId, setAbhaId] = useState("")
+  const [name, setName] = useState("")
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState<string | null>(null)
 
@@ -33,14 +34,20 @@ export default function AbhaDoctor() {
     setLoading(true)
     setError(null)
     try {
+      const digitsOnly = abhaId.replace(/\D/g, "").trim()
       const res = await fetch(`${API_URL}/auth/abha-login`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ abha_id: abhaId.replace(/\D/g, "").trim(), mode: "doctor" }),
+        body: JSON.stringify({ abha_id: digitsOnly, mode: "doctor", name }),
       })
       if (!res.ok) throw new Error(await res.text())
       const data = await res.json()
-      if (typeof window !== "undefined") localStorage.setItem("token", data.access_token)
+      if (typeof window !== "undefined") {
+        localStorage.setItem("token", data.access_token)
+        // optionally persist doctor ABHA for debugging / future scoping
+        localStorage.setItem("doctor_abha_id", digitsOnly)
+        if (data.name) localStorage.setItem("name", data.name)
+      }
       router.push("/doctor")
     } catch (e: any) {
       setError(e?.message || "Login failed")
@@ -50,13 +57,13 @@ export default function AbhaDoctor() {
   }, [abhaId, router])
 
   return (
-    <div className="relative min-h-screen overflow-hidden bg-gradient-to-b from-[#0b0f19] via-[#0b0f19] to-black text-white">
+    <div className="relative min-h-screen overflow-hidden bg-background text-foreground">
       {/* Background accents */}
       <div className="pointer-events-none absolute inset-0 -z-10">
-        <div className="absolute top-[-10%] left-[-10%] h-72 w-72 rounded-full bg-cyan-500/10 blur-3xl" />
-        <div className="absolute bottom-[-10%] right-[-10%] h-72 w-72 rounded-full bg-yellow-500/10 blur-3xl" />
+        <div className="absolute top-[-10%] left-[-10%] h-72 w-72 rounded-full bg-primary/10 blur-3xl" />
+        <div className="absolute bottom-[-10%] right-[-10%] h-72 w-72 rounded-full bg-secondary/10 blur-3xl" />
         <div
-          className="absolute inset-0 bg-[linear-gradient(to_right,rgba(255,255,255,0.05)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.05)_1px,transparent_1px)] bg-[size:26px_26px] opacity-40"
+          className="absolute inset-0 bg-[linear-gradient(to_right,rgba(0,0,0,0.06)_1px,transparent_1px),linear-gradient(to_bottom,rgba(0,0,0,0.06)_1px,transparent_1px)] dark:bg-[linear-gradient(to_right,rgba(255,255,255,0.06)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.06)_1px,transparent_1px)] bg-[size:26px_26px] opacity-40"
           aria-hidden
         />
       </div>
@@ -71,7 +78,7 @@ export default function AbhaDoctor() {
         <div className="mx-auto w-full max-w-md rounded-2xl border border-white/10 bg-white/5 p-7 shadow-2xl backdrop-blur-sm">
           <div className="space-y-2">
             <h1 className="text-2xl font-semibold tracking-tight">Doctor ABHA Login</h1>
-            <p className="text-sm text-white/60">Enter your 14-digit ABHA number to continue</p>
+            <p className="text-sm text-muted-foreground">Enter your 14-digit ABHA number to continue</p>
           </div>
 
           {!isValidAbha && abhaId.length > 0 && (
@@ -95,16 +102,33 @@ export default function AbhaDoctor() {
                 onKeyDown={(e) => {
                   if (e.key === "Enter") submitLogin()
                 }}
-                className="border-white/10 bg-white/5 pl-9 text-white placeholder:text-white/50 focus:border-cyan-400/40"
+                className="border-border bg-input pl-9 text-foreground placeholder:text-muted-foreground"
               />
             </div>
 
             {error && <p className="text-sm text-red-400">{error}</p>}
 
+            <div className="mt-5 space-y-3">
+              <label htmlFor="name" className="text-sm text-white/80">
+                Full Name
+              </label>
+              <Input
+                id="name"
+                type="text"
+                placeholder="Dr. John Doe"
+                value={name}
+                onChange={(e) => setName(e.target.value)}
+                onKeyDown={(e) => {
+                  if (e.key === "Enter") submitLogin()
+                }}
+                className="border-border bg-input text-foreground placeholder:text-muted-foreground"
+              />
+            </div>
+
             <Button
               className="mt-2 w-full rounded-lg bg-gradient-to-r from-green-400 to-emerald-500 text-black hover:opacity-90"
               onClick={submitLogin}
-              disabled={!isValidAbha || loading}
+              disabled={!isValidAbha || !name || loading}
             >
               {loading ? "Please wait..." : "Enter"}
             </Button>

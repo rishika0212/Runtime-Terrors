@@ -11,6 +11,7 @@ import { Eye, EyeOff, Mail, Lock } from "lucide-react"
 
 export default function RegisterPage() {
   const [email, setEmail] = useState("")
+  const [name, setName] = useState("")
   const [password, setPassword] = useState("")
   const [showPassword, setShowPassword] = useState(false)
   const [error, setError] = useState("")
@@ -24,18 +25,19 @@ export default function RegisterPage() {
       const res = await fetch(`${API_URL}/auth/register`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email, password }),
+        body: JSON.stringify({ email, password, name }),
       })
       if (!res.ok) throw new Error(await res.text())
       const data = await res.json()
       localStorage.setItem("token", data.access_token)
+      if (data.name) localStorage.setItem("name", data.name)
       router.push("/dashboard")
     } catch (e: any) {
       setError(e.message || "Registration failed")
     } finally {
       setLoading(false)
     }
-  }, [email, password, router])
+  }, [email, password, name, router])
 
   return (
     <div className="relative min-h-screen overflow-hidden bg-gradient-to-b from-[#0b0f19] via-[#0b0f19] to-black text-white">
@@ -68,6 +70,20 @@ export default function RegisterPage() {
           </div>
 
           <div className="space-y-4">
+            <div className="space-y-1.5">
+              <label htmlFor="name" className="text-sm text-white/80">
+                Full Name
+              </label>
+              <Input
+                id="name"
+                type="text"
+                placeholder="John Doe"
+                value={name}
+                onChange={(e) => setName(e.target.value)}
+                className="border-white/10 bg-white/5 text-white placeholder:text-white/50 focus:border-cyan-400/40"
+              />
+            </div>
+
             <div className="space-y-1.5">
               <label htmlFor="email" className="text-sm text-white/80">
                 Email
@@ -118,7 +134,7 @@ export default function RegisterPage() {
             <Button
               className="mt-2 w-full rounded-lg bg-gradient-to-r from-yellow-300 to-yellow-500 text-black hover:opacity-90"
               onClick={submit}
-              disabled={loading || !email || !password}
+              disabled={loading || !name || !email || !password}
             >
               {loading ? "Creating..." : "Create account"}
             </Button>

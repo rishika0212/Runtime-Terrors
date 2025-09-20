@@ -32,6 +32,7 @@ export default function LoginPage() {
       if (!res.ok) throw new Error(await res.text())
       const data = await res.json()
       localStorage.setItem("token", data.access_token)
+      if (data.name) localStorage.setItem("name", data.name)
       router.push("/dashboard")
     } catch (e: any) {
       setError(e.message || "Login failed")
@@ -41,13 +42,13 @@ export default function LoginPage() {
   }, [email, password, router])
 
   return (
-    <div className="relative min-h-screen overflow-hidden bg-gradient-to-b from-[#0b0f19] via-[#0b0f19] to-black text-white">
+    <div className="relative min-h-screen overflow-hidden bg-background text-foreground">
       {/* Background accents */}
       <div className="pointer-events-none absolute inset-0 -z-10">
         <div className="absolute top-[-10%] left-[-10%] h-72 w-72 rounded-full bg-cyan-500/10 blur-3xl" />
         <div className="absolute bottom-[-10%] right-[-10%] h-72 w-72 rounded-full bg-yellow-500/10 blur-3xl" />
         <div
-          className="absolute inset-0 bg-[linear-gradient(to_right,rgba(255,255,255,0.05)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.05)_1px,transparent_1px)] bg-[size:26px_26px] opacity-40"
+          className="absolute inset-0 bg-[linear-gradient(to_right,rgba(0,0,0,0.06)_1px,transparent_1px),linear-gradient(to_bottom,rgba(0,0,0,0.06)_1px,transparent_1px)] dark:bg-[linear-gradient(to_right,rgba(255,255,255,0.06)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.06)_1px,transparent_1px)] bg-[size:26px_26px] opacity-30"
           aria-hidden
         />
       </div>
@@ -57,9 +58,11 @@ export default function LoginPage() {
         <Link href="/" className="flex items-center gap-3">
           <Image src="/images/ayusetu_logo.png" alt="AYUSetu Logo" width={140} height={56} priority />
         </Link>
-        <Button asChild className="rounded-full bg-gradient-to-r from-yellow-300 to-yellow-500 text-black hover:opacity-90">
-          <Link href="/register">Create account</Link>
-        </Button>
+        <div className="flex items-center gap-2">
+          <Button asChild className="rounded-full bg-gradient-to-r from-yellow-300 to-yellow-500 text-black hover:opacity-90">
+            <Link href="/register">Create account</Link>
+          </Button>
+        </div>
       </nav>
 
       {/* Centered auth card */}

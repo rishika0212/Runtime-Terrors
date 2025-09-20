@@ -5,6 +5,7 @@ import { GeistMono } from "geist/font/mono"
 import { Inter } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import { Suspense } from "react"
+import { ThemeProvider } from "@/components/theme-provider"
 import "./globals.css"
 
 const inter = Inter({
@@ -25,9 +26,11 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className="dark">
-      <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable} ${inter.variable} bg-[#0b0f19] overflow-x-hidden min-h-screen`}>
-        <Suspense fallback={<div>Loading...</div>}>{children}</Suspense>
+    <html lang="en" suppressHydrationWarning>
+      <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable} ${inter.variable} bg-background text-foreground overflow-x-hidden min-h-screen`}>
+        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
+          <Suspense fallback={<div>Loading...</div>}>{children}</Suspense>
+        </ThemeProvider>
         <Analytics />
       </body>
     </html>

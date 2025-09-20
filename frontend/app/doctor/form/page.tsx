@@ -116,6 +116,11 @@ export default function NewPatientForm() {
     try {
       const tok = typeof window !== "undefined" ? localStorage.getItem("token") || undefined : undefined
 
+      // Persist ABHA locally so Patient page can query Conditions with the same reference
+      if (typeof window !== "undefined") {
+        localStorage.setItem("abha_id", values.abha_id.replace(/\D/g, ""))
+      }
+
       await apiPost(
         "/patient-forms/",
         {
@@ -133,6 +138,46 @@ export default function NewPatientForm() {
         tok
       )
 
+      // Also create a FHIR Condition via Bundle so the patient dashboard can show it
+      try {
+        const codings: any[] = []
+        if (selectedDiagnosis) {
+          // Include both source (e.g., NAMASTE) and target (e.g., ICD-11) codings
+          codings.push({
+            system: selectedDiagnosis.source_system,
+            code: selectedDiagnosis.source_code,
+            display: selectedDiagnosis.source_display || undefined,
+          })
+          codings.push({
+            system: selectedDiagnosis.target_system,
+            code: selectedDiagnosis.target_code,
+            display: selectedDiagnosis.target_display || undefined,
+          })
+        }
+        const doctorAbha = typeof window !== "undefined" ? localStorage.getItem("doctor_abha_id") || undefined : undefined
+        const bundle = {
+          resourceType: "Bundle",
+          type: "transaction",
+          entry: [
+            {
+              resource: {
+                resourceType: "Condition",
+                subject: { reference: `Patient/${values.abha_id.replace(/\D/g, "")}` }, // Uses patient ABHA digits as Patient ID
+                asserter: doctorAbha ? { reference: `Practitioner/${doctorAbha}` } : undefined,
+                code: {
+                  text: values.diagnosis,
+                  coding: codings,
+                },
+              },
+            },
+          ],
+        }
+        await apiPost("/fhir/Bundle", bundle)
+      } catch (e) {
+        // Non-fatal for the UX; the patient record is still created
+        console.warn("FHIR Bundle ingest failed:", e)
+      }
+
       router.push("/doctor?view=patients")
     } catch (err: any) {
       setError(err?.message || "Failed to create patient")
@@ -142,11 +187,11 @@ export default function NewPatientForm() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-950 flex items-center justify-center px-4">
-      <Card className="w-full max-w-4xl shadow-2xl bg-gray-900 text-gray-100 border border-gray-800">
+    <div className="min-h-screen bg-background text-foreground flex items-center justify-center px-4">
+      <Card className="w-full max-w-4xl shadow-sm bg-card text-foreground border border-border">
         <CardHeader>
           <CardTitle className="flex items-center gap-2 text-xl font-bold">
-            <UserPlus className="w-5 h-5" />
+            <UserPlus className="w-5 h-5 text-primary" />
             New Patient
           </CardTitle>
         </CardHeader>
@@ -294,16 +339,16 @@ export default function NewPatientForm() {
                   {options.length > 0 ? (
                     <Table>
                       <TableHeader>
-                        <TableRow className="bg-gradient-to-r from-purple-500 to-indigo-500 text-white">
-                          <TableHead className="text-white">Source</TableHead>
-                          <TableHead className="text-white">Code</TableHead>
-                          <TableHead className="text-white">Source Display</TableHead>
-                          <TableHead className="text-white">Target</TableHead>
-                          <TableHead className="text-white">Code</TableHead>
-                          <TableHead className="text-white">Target Display</TableHead>
-                          <TableHead className="text-white">Type</TableHead>
-                          <TableHead className="text-white">Confidence</TableHead>
-                          <TableHead className="text-white text-center">Select</TableHead>
+                        <TableRow className="bg-card">
+                          <TableHead>Source</TableHead>
+                          <TableHead>Code</TableHead>
+                          <TableHead>Source Display</TableHead>
+                          <TableHead>Target</TableHead>
+                          <TableHead>Code</TableHead>
+                          <TableHead>Target Display</TableHead>
+                          <TableHead>Type</TableHead>
+                          <TableHead>Confidence</TableHead>
+                          <TableHead className="text-center">Select</TableHead>
                         </TableRow>
                       </TableHeader>
                       <TableBody>

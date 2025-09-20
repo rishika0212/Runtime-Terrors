@@ -18,6 +18,7 @@ const formatAbha = (v: string) => {
 export default function AbhaPatient() {
   const router = useRouter()
   const [abhaId, setAbhaId] = useState("")
+  const [name, setName] = useState("")
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState<string | null>(null)
 
@@ -33,14 +34,20 @@ export default function AbhaPatient() {
     setLoading(true)
     setError(null)
     try {
+      const digitsOnly = abhaId.replace(/\D/g, "").trim()
       const res = await fetch(`${API_URL}/auth/abha-login`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ abha_id: abhaId.replace(/\D/g, "").trim(), mode: "patient" }),
+        body: JSON.stringify({ abha_id: digitsOnly, mode: "patient", name }),
       })
       if (!res.ok) throw new Error(await res.text())
       const data = await res.json()
-      if (typeof window !== "undefined") localStorage.setItem("token", data.access_token)
+      if (typeof window !== "undefined") {
+        localStorage.setItem("token", data.access_token)
+        // persist patient ABHA for patient dashboard queries
+        localStorage.setItem("abha_id", digitsOnly)
+        if (data.name) localStorage.setItem("name", data.name)
+      }
       router.push("/patient")
     } catch (e: any) {
       setError(e?.message || "Login failed")
@@ -101,10 +108,27 @@ export default function AbhaPatient() {
 
             {error && <p className="text-sm text-red-400">{error}</p>}
 
+            <div className="mt-5 space-y-3">
+              <label htmlFor="name" className="text-sm text-white/80">
+                Full Name
+              </label>
+              <Input
+                id="name"
+                type="text"
+                placeholder="John Doe"
+                value={name}
+                onChange={(e) => setName(e.target.value)}
+                onKeyDown={(e) => {
+                  if (e.key === "Enter") submitLogin()
+                }}
+                className="border-white/10 bg-white/5 text-white placeholder:text-white/50 focus:border-cyan-400/40"
+              />
+            </div>
+
             <Button
               className="mt-2 w-full rounded-lg bg-gradient-to-r from-green-400 to-emerald-500 text-black hover:opacity-90"
               onClick={submitLogin}
-              disabled={!isValidAbha || loading}
+              disabled={!isValidAbha || !name || loading}
             >
               {loading ? "Please wait..." : "Enter"}
             </Button>

@@ -75,6 +75,7 @@ import {
  type Patient = {
   id: number
   patient_name: string
+  abha_id?: string | null
   age?: number | null
   sex?: string | null
   diagnosis?: string | null
@@ -259,7 +260,7 @@ export default function DoctorDashboardPage() {
     if (typeof window !== "undefined") {
       localStorage.removeItem("token")
     }
-    router.push("/")
+    router.push("/dashboard")
   }
 
   const submitNewMapping = (e: React.FormEvent) => {
@@ -308,16 +309,16 @@ export default function DoctorDashboardPage() {
   }) => {
     const totalPages = Math.max(1, Math.ceil(count / limit))
     return (
-      <Card className="bg-white/5 border-white/10 shadow-lg">
-        <CardHeader className="border-b border-white/10">
-          <CardTitle className="flex items-center justify-between gap-2 text-white">
+      <Card className="bg-card border border-border shadow-sm">
+        <CardHeader className="border-b border-border">
+          <CardTitle className="flex items-center justify-between gap-2 text-foreground">
             <div className="flex items-center gap-2">
               <span className={`inline-flex items-center rounded-md px-2 py-0.5 text-xs font-semibold ${color} text-black`}>{title}</span>
-              <Badge variant="secondary" className="ml-1 bg-white/10 text-white border-white/10">
+              <Badge variant="secondary" className="ml-1 bg-secondary/15 text-foreground border-border">
                 {count} mappings
               </Badge>
             </div>
-            <span className="text-xs text-white/60">Page {page} of {totalPages}</span>
+            <span className="text-xs text-muted-foreground">Page {page} of {totalPages}</span>
           </CardTitle>
         </CardHeader>
         <CardContent className="p-0">
@@ -561,22 +562,25 @@ export default function DoctorDashboardPage() {
 
   return (
     <SidebarProvider open={sidebarOpen} onOpenChange={setSidebarOpen} defaultOpen={false}>
-      <div className="min-h-screen w-full overflow-x-hidden bg-gradient-to-b from-[#0b0f19] via-[#0b0f19] to-black text-white">
+      <div className="min-h-screen w-full overflow-x-hidden bg-background text-foreground">
         {/* Subtle background pattern */}
         <div className="pointer-events-none fixed inset-0 -z-10">
-          <div className="absolute top-[-12%] left-[-8%] h-72 w-72 rounded-full bg-cyan-500/5 blur-3xl" />
-          <div className="absolute bottom-[-12%] right-[-8%] h-72 w-72 rounded-full bg-emerald-500/5 blur-3xl" />
-          <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(255,255,255,0.02)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.02)_1px,transparent_1px)] bg-[size:24px_24px] opacity-30" />
+          <div className="absolute top-[-12%] left-[-8%] h-72 w-72 rounded-full bg-primary/10 blur-3xl" />
+          <div className="absolute bottom-[-12%] right-[-8%] h-72 w-72 rounded-full bg-secondary/10 blur-3xl" />
+          <div
+            className="absolute inset-0 bg-[linear-gradient(to_right,rgba(0,0,0,0.06)_1px,transparent_1px),linear-gradient(to_bottom,rgba(0,0,0,0.06)_1px,transparent_1px)] dark:bg-[linear-gradient(to_right,rgba(255,255,255,0.06)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.06)_1px,transparent_1px)] bg-[size:24px_24px] opacity-30"
+            aria-hidden
+          />
         </div>
 
         {/* Sidebar */}
-        <Sidebar collapsible="offcanvas" className="bg-black/60 backdrop-blur border-r border-white/10">
+        <Sidebar collapsible="offcanvas" className="bg-card/80 backdrop-blur border-r border-border" >
           <SidebarHeader>
             <div className="flex items-center gap-3 p-2">
               <Image src="/images/ayusetu_logo.jpg" alt="AYUSetu" width={36} height={36} className="rounded" />
               <div>
                 <div className="text-sm font-semibold">AYUSetu Doctor</div>
-                <div className="text-xs text-white/60">Care • Mappings • Patients</div>
+                <div className="text-xs text-muted-foreground">Care • Mappings • Patients</div>
               </div>
             </div>
           </SidebarHeader>
@@ -605,7 +609,7 @@ export default function DoctorDashboardPage() {
                         <LinkIcon className="mr-2 h-4 w-4" /> Add Mapping Suggestion
                       </SidebarMenuButton>
                     </DialogTrigger>
-                    <DialogContent className="bg-black/90 border-white/10 text-white">
+                    <DialogContent className="bg-popover border-border text-foreground">
                       <DialogHeader>
                         <DialogTitle>Add Mapping Suggestion</DialogTitle>
                         <DialogDescription>
@@ -617,7 +621,7 @@ export default function DoctorDashboardPage() {
                           <div>
                             <Label className="text-white/80">Source System</Label>
                             <Select value={addSystem} onValueChange={setAddSystem}>
-                              <SelectTrigger className="bg-white/5 border-white/10 text-white/90">
+                              <SelectTrigger className="border-border bg-card text-foreground">
                                 <SelectValue placeholder="Choose" />
                               </SelectTrigger>
                               <SelectContent>
@@ -630,7 +634,7 @@ export default function DoctorDashboardPage() {
                           <div>
                             <Label className="text-white/80">Target System</Label>
                             <Select value={addTargetSystem} onValueChange={setAddTargetSystem}>
-                              <SelectTrigger className="bg-white/5 border-white/10 text-white/90">
+                              <SelectTrigger className="border-border bg-card text-foreground">
                                 <SelectValue placeholder="Choose target" />
                               </SelectTrigger>
                               <SelectContent>
@@ -641,23 +645,23 @@ export default function DoctorDashboardPage() {
                           </div>
                           <div>
                             <Label className="text-white/80">Source Code</Label>
-                            <Input value={addSourceCode} onChange={(e) => setAddSourceCode(e.target.value)} placeholder="e.g. AYU-123" className="bg-white/5 border-white/10 text-white" />
+                            <Input value={addSourceCode} onChange={(e) => setAddSourceCode(e.target.value)} placeholder="e.g. AYU-123" className="bg-input border-border text-foreground" />
                           </div>
                           <div>
                             <Label className="text-white/80">Target Code (optional)</Label>
-                            <Input value={addTargetCode} onChange={(e) => setAddTargetCode(e.target.value)} placeholder="e.g. XM12" className="bg-white/5 border-white/10 text-white" />
+                            <Input value={addTargetCode} onChange={(e) => setAddTargetCode(e.target.value)} placeholder="e.g. XM12" className="bg-input border-border text-foreground" />
                           </div>
                         </div>
                         <div>
-                          <Label className="text-white/80">Source Display/Description</Label>
-                          <Input value={addSourceDisplay} onChange={(e) => setAddSourceDisplay(e.target.value)} placeholder="Short description" className="bg-white/5 border-white/10 text-white" />
+                          <Label className="text-muted-foreground">Source Display/Description</Label>
+                          <Input value={addSourceDisplay} onChange={(e) => setAddSourceDisplay(e.target.value)} placeholder="Short description" className="bg-input border-border text-foreground" />
                         </div>
                         <div>
-                          <Label className="text-white/80">Notes</Label>
-                          <Input value={addNotes} onChange={(e) => setAddNotes(e.target.value)} placeholder="Any additional context" className="bg-white/5 border-white/10 text-white" />
+                          <Label className="text-muted-foreground">Notes</Label>
+                          <Input value={addNotes} onChange={(e) => setAddNotes(e.target.value)} placeholder="Any additional context" className="bg-input border-border text-foreground" />
                         </div>
                         <div className="flex justify-end gap-2 pt-2">
-                          <Button type="button" variant="ghost" onClick={() => setAddOpen(false)} className="text-white/80">Cancel</Button>
+                          <Button type="button" variant="ghost" onClick={() => setAddOpen(false)} className="text-muted-foreground">Cancel</Button>
                           <Button type="submit" className="bg-gradient-to-r from-cyan-400 to-emerald-400 text-black font-semibold">Submit</Button>
                         </div>
                       </form>
@@ -701,7 +705,10 @@ export default function DoctorDashboardPage() {
                         onClick={() => openPatient(p)}
                       >
                         <Users className="mr-2 h-4 w-4 text-cyan-300" />
-                        <span className="truncate">{p.patient_name}</span>
+                        <div className="flex flex-col items-start">
+                          <span className="truncate">{p.patient_name}</span>
+                          {p.abha_id && <span className="text-xs text-white/50">ABHA: {p.abha_id}</span>}
+                        </div>
                       </Button>
                     </li>
                   ))}
@@ -720,11 +727,11 @@ export default function DoctorDashboardPage() {
         {/* Main content */}
         <SidebarInset className="bg-transparent">
           {/* Top bar with logo and search */}
-          <div className="sticky top-0 z-10 border-b border-white/10 bg-black/40 backdrop-blur">
+          <div className="sticky top-0 z-10 border-b border-border bg-card/60 backdrop-blur">
             <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3">
               <div className="flex items-center gap-3">
                 {/* Sidebar toggle for all screens */}
-                <SidebarTrigger className="text-white/80 hover:text-white hover:bg-white/10" />
+                <SidebarTrigger className="text-muted-foreground hover:text-foreground hover:bg-primary/10" />
                 {/* Top-left logo (larger) */}
                 <Image src="/images/ayusetu_logo.png" alt="AYUSetu" width={48} height={48} className="rounded" />
                 <h1 className="text-lg md:text-xl font-semibold tracking-tight flex items-center gap-2">
@@ -735,12 +742,12 @@ export default function DoctorDashboardPage() {
                 <Button onClick={() => router.push("/")} variant="ghost" className="text-white/80 hover:text-white hover:bg-white/10">Logout</Button>
                 <MyPatientsButton />
                 <div className="relative w-full max-w-xl">
-                  <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-white/50" />
+                  <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
                   <Input
                     value={searchText}
                     onChange={(e) => setSearchText(e.target.value)}
                     placeholder="Search across Ayurveda, Siddha, Unani mappings"
-                    className="pl-9 pr-28 h-10 rounded-xl bg-white/5 border-white/10 text-white shadow-sm"
+                    className="pl-9 pr-28 h-10 rounded-xl bg-input border-border text-foreground shadow-sm"
                   />
                   <div className="absolute right-2 top-1/2 -translate-y-1/2">
                     <Select
@@ -752,10 +759,10 @@ export default function DoctorDashboardPage() {
                         setPageUnani(1)
                       }}
                     >
-                      <SelectTrigger className="h-8 w-[72px] border-white/15 bg-white/5 text-white">
+                      <SelectTrigger className="h-8 w-[72px] border-border bg-card text-foreground">
                         <SelectValue />
                       </SelectTrigger>
-                      <SelectContent className="bg-[#0b0f19] text-white">
+                      <SelectContent className="border-border bg-popover text-foreground">
                         <SelectItem value="10">10</SelectItem>
                         <SelectItem value="25">25</SelectItem>
                         <SelectItem value="50">50</SelectItem>
@@ -895,7 +902,7 @@ export default function DoctorDashboardPage() {
 
         {/* Patient Details Sheet */}
         <Sheet open={patientSheetOpen} onOpenChange={setPatientSheetOpen}>
-          <SheetContent side="right" className="bg-black/90 border-white/10 text-white w-[420px] sm:w-[520px]">
+          <SheetContent side="right" className="bg-popover border-border text-foreground w-[420px] sm:w-[520px]">
             <SheetHeader>
               <SheetTitle>Patient Details</SheetTitle>
               <SheetDescription>Basic information and mapped diagnosis</SheetDescription>
@@ -909,6 +916,7 @@ export default function DoctorDashboardPage() {
                   <div>
                     <div className="text-lg font-semibold">{selectedPatient.patient_name}</div>
                     <div className="text-sm text-white/60">ID: {selectedPatient.id}</div>
+                    {selectedPatient.abha_id && <div className="text-sm text-white/60">ABHA: {selectedPatient.abha_id}</div>}
                   </div>
                 </div>
                 <Separator className="bg-white/10" />

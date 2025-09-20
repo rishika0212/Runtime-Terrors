@@ -13,10 +13,11 @@ from .auth import router as auth_router
 from .routes.reports import router as reports_router
 from .routes.graph import router as graph_router
 from .routes.mappings import mappings_router
+from .routes.fhir import router as fhir_router
 from .migrations import run as run_migrations
 
 
-app = FastAPI(title="Terminology API", version="0.3.0")
+app = FastAPI(title="Terminology API", version="0.4.0")
 
 # Run lightweight migrations at startup (idempotent)
 try:
@@ -50,4 +51,4 @@ app.include_router(auth_router)
 app.include_router(reports_router)
 app.include_router(graph_router)
 app.include_router(mappings_router, tags=["mappings"])
- 
+app.include_router(fhir_router)
